@@ -16,12 +16,18 @@ code here as the source of truth for rules behaviour. Read these before doing GB
 - `docs/gba/README.md` — index and current status of the GBA effort
 - `docs/gba/engine-map.md` — how Forge's engine works, file by file (start here for any rules question)
 - `docs/gba/card-scripts.md` — the card script format and how a script becomes runtime objects
-- `docs/gba/porting-plan.md` — GBA constraints, proposed architecture, card-subset priorities
+- `docs/gba/porting-plan.md` — GBA constraints, architecture, card pool scope, decisions log
+- `gba/README.md` — Butano setup, build, and how to add sprites/backgrounds/animations
+
+Decided so far: toolchain is **Butano** (C++ on devkitARM, test in mGBA); the minimum card pool is
+`gba/cardpool/maloney_foundations.txt`, whose feature needs are in
+`gba/cardpool/maloney_foundations_report.md` (regenerate with `gba/tools/cardpool_report.py`).
+The cloud container cannot reach GitHub/devkitPro, so GBA code can't be compiled here — say so
+rather than claiming a build passed.
 
 Unless a task says otherwise, **do not refactor or reformat the Forge Java code**. Keep the
-upstream code close to upstream so it stays easy to merge `Card-Forge/forge` master. New GBA
-work goes in its own top-level directory (proposed: `gba/`, see porting plan), outside the Maven
-reactor.
+upstream code close to upstream so it stays easy to merge `Card-Forge/forge` master. All GBA
+work goes in the top-level `gba/` directory, outside the Maven reactor.
 
 ## Module map (Maven reactor, root `pom.xml`)
 

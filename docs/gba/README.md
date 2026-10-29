@@ -12,11 +12,14 @@ repository (a fork of Card-Forge/forge) as the reference implementation and data
 ## Current status
 
 - [x] Repository surveyed, navigation docs written (2026-10-29)
-- [ ] Toolchain chosen (devkitARM+libtonc vs Butano)
-- [ ] `gba/` skeleton with host-buildable engine core
+- [x] Toolchain chosen: Butano (2026-10-29) — setup in `gba/README.md`
+- [x] Minimum card pool defined: `gba/cardpool/maloney_foundations.txt` + feature report
+- [x] `gba/game` Butano skeleton (board bg + animated cursor) written
+- [ ] Skeleton compiled and run in mGBA (needs a local devkitPro + Butano install)
+- [ ] `gba/engine` host-buildable rules core
 - [ ] Card script converter + "unsupported features" report
 - [ ] First playable: two vanilla decks, combat only
-- [ ] First card pool fully supported
+- [ ] Maloney Foundations pool fully supported
 
 Keep this checklist up to date — it's the first thing a new session should read.
 

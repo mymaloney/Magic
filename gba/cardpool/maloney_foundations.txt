@@ -1,0 +1,362 @@
+# mainboard
+Elite Vanguard
+Gideon's Lawkeeper
+Healer's Hawk
+Leonin Vanguard
+Savannah Lions
+Warclamp Mastiff
+Bishop's Soldier
+Cathar Commando
+Dawnwing Marshal
+Felidar Cub
+Helpful Hunter
+Leonin Skyhunter
+Spirited Companion
+Sundial, Dawn Tyrant
+Banisher Priest
+Crusader of Odric
+Dauntless Veteran
+Dazzling Angel
+Holy Cow
+Inspiring Overseer
+Linden, the Steadfast Queen
+Goldnight Commander
+Jazal Goldmane
+Vanguard Seraph
+Herald of Faith
+Serra Angel
+Ancestor Dragon
+Sunblade Angel
+Herald of Eternal Dawn
+Joust Through
+Moment of Triumph
+Adamant Will
+Deadly Riposte
+Disenchant
+Repel Calamity
+Join Forces
+Make a Stand
+Make Your Move
+Ajani's Response
+Luminous Rebuke
+Day of Judgment
+Angelic Edict
+Pacifism
+Banishing Light
+Battle Mastery
+Stasis Snare
+Prayer of Binding
+Aegis Turtle
+Spectral Sailor
+Burrog Befuddler
+Caelorna, Coral Tyrant
+Elementalist Adept
+Harbinger of the Tides
+Kitesail Corsair
+Mystic Archaeologist
+Riptide Turtle
+Strix Lookout
+Cloudkin Seer
+Exclusion Mage
+Frost Trickster
+Mocking Sprite
+Storm Fleet Spy
+Bigfin Bouncer
+Sphinx of Forgotten Lore
+Tanufel Rimespeaker
+Tide Skimmer
+Advanced Stitchwing
+Air Elemental
+Salvager of Secrets
+Skyship Buccaneer
+Tolarian Terror
+Fleeting Distraction
+Opt
+Unsummon
+Essence Scatter
+Into the Roil
+Pull from Tomorrow
+Run Away Together
+Think Twice
+Cancel
+Frost Breath
+Quick Study
+Refute
+Aetherize
+Uncharted Voyage
+Chart a Course
+Inspiration from Beyond
+Sleep
+Witness Protection
+Eaten by Piranhas
+Imprisoned in the Moon
+Starlight Snare
+Control Magic
+Confiscate
+Diregraf Ghoul
+Dockside Chef
+Festering Goblin
+Pulse Tracker
+Ravine Raider
+Vampire of the Dire Moon
+Agate-Blade Assassin
+Burglar Rat
+Gatekeeper of Malakir
+Reassembling Skeleton
+Sanguine Syphoner
+Vampire Gourmand
+Vampire Interloper
+Vengeful Bloodwitch
+Audacious Thief
+Crow of Dark Tidings
+Gutless Plunderer
+Kalakscion, Hunger Tyrant
+Marauding Blight-Priest
+Midnight Reaper
+Vampire Spawn
+Driver of the Dead
+Gravedigger
+Skeleton Archer
+Bloodthirsty Conqueror
+Bloodtithe Collector
+Tragic Banshee
+Vampire Soulcaller
+Arbiter of Woe
+Stab
+Moment of Craving
+Offer Immortality
+Murder
+Tribute to Hunger
+Eaten Alive
+Ruthless Negotiation
+Macabre Waltz
+Pilfer
+Diresight
+Mind Rot
+Seeker's Folly
+Soul Salvage
+Syphon Mind
+Zombify
+Rise from the Grave
+Vampiric Rites
+Untamed Hunger
+Fanatical Firebrand
+Frenzied Goblin
+Goblin Arsonist
+Goblin Motivator
+Insolent Neonate
+Norin, Swift Survivalist
+Raging Goblin
+Axgard Cavalry
+Brazen Collector
+Devoted Duelist
+Heartfire Immolator
+Red Herring
+Tyrox, Saurid Tyrant
+Viashino Pyromancer
+Ball Lightning
+Bolt Hound
+Brazen Scourge
+Goblin Smuggler
+Hearthborn Battler
+Hissing Iguanar
+Raging Redcap
+Rescue Leopard
+Roughshod Duo
+Battlesong Berserker
+Dragon Whelp
+Keldon Raider
+Voldaren Duelist
+Gorehorn Raider
+Seismic Elemental
+Twinflame Tyrant
+Shivan Dragon
+Angrath's Marauders
+Flashback
+Shock
+Bulk Up
+Fling
+Sure Strike
+Uncaged Fury
+Mine Collapse
+Boulder Dash
+Obliterating Bolt
+Playful Shove
+Tormenting Voice
+Seismic Rupture
+Slagstorm
+Incinerating Blast
+Goblin Oriflamme
+Llanowar Elves
+Wall of Vines
+Ambush Viper
+Deadly Recluse
+Drowsing Tyrannodon
+Druid of the Cowl
+Dundoolin Weaver
+Sylvan Caryatid
+Thornweald Archer
+Three Tree Rootweaver
+Venom Connoisseur
+Wary Thespian
+Beast-Kin Ranger
+Carven Caryatid
+Reclamation Sage
+Somberwald Sage
+Spore Crawler
+Thrashing Brontodon
+Elvish Regrower
+Gnarlback Rhino
+Moon-Vigil Adherents
+Surrak, the Hunt Caller
+Wildheart Invoker
+Gigantosaurus
+Tajuru Pathwarden
+Terrian, World Tyrant
+Affectionate Indrik
+Aggressive Mammoth
+Craterhoof Behemoth
+Arachnoid Adaptation
+Giant Growth
+High Stride
+Aim High
+Bite Down
+Thoughtweft Charge
+Bestow Greatness
+Broken Wings
+Bushwhack
+Primal Might
+Broken Bond
+Explore
+Overcome
+Overrun
+Meltstrider's Resolve
+Blanchwood Armor
+Garruk's Uprising
+Greater Good
+Ornithopter
+Friendly Teddy
+Runed Servitor
+Salvaged Manaworker
+Scarecrow Guide
+Three Tree Mascot
+Alloy Myr
+Howling Golem
+Opaline Unicorn
+Juggernaut
+Snare Thopter
+Meteor Golem
+Maelstrom Colossus
+Chromatic Star
+Colossus Hammer
+Heirloom Epic
+Coldsteel Heart
+Prismatic Lens
+Prophetic Prism
+Quick-Draw Katana
+Crystal Ball
+Cultivator's Caravan
+Firdoch Core
+Manalith
+Unstable Obelisk
+Curse of Chains
+Watcher of the Spheres
+Empyrean Eagle
+Cloudblazer
+Dreadwing Scavenger
+Obsessive Stitcher
+Whisper Agent
+Extract from Darkness
+Footlight Fiend
+Garna, Bloodfist of Keld
+Macabre Mockery
+Spiteful Visions
+Wild Cantor
+Ruby, Daring Tracker
+Savage Smash
+Ashroot Animist
+Anthem of Champions
+Unflinching Courage
+Wary Farmer
+Wilt-Leaf Liege
+Cruel Celebrant
+Immortal Servitude
+Mortify
+Ruthless Lawbringer
+Slick Sequence
+Teach by Example
+Broadside Barrage
+Crackling Drake
+Deadly Brew
+Grisly Salvage
+Ochran Assassin
+Wardens of the Cycle
+Fresh-Faced Recruit
+Ride Down
+Swiftblade Vindicator
+Aurelia, the Warleader
+Auroral Procession
+Pond Prophet
+Eureka Moment
+Urban Evolution
+Abandoned Campground
+Abandoned Campground
+Temple of Enlightenment
+Temple of Enlightenment
+Murky Sewer
+Murky Sewer
+Temple of Deceit
+Temple of Deceit
+Razortrap Gorge
+Razortrap Gorge
+Temple of Malice
+Temple of Malice
+Bleeding Woods
+Bleeding Woods
+Temple of Abandon
+Temple of Abandon
+Etched Cornfield
+Etched Cornfield
+Temple of Plenty
+Temple of Plenty
+Neglected Manor
+Neglected Manor
+Temple of Silence
+Temple of Silence
+Peculiar Lighthouse
+Peculiar Lighthouse
+Temple of Epiphany
+Temple of Epiphany
+Strangled Cemetery
+Strangled Cemetery
+Temple of Malady
+Temple of Malady
+Raucous Carnival
+Raucous Carnival
+Temple of Triumph
+Temple of Triumph
+Lakeside Shack
+Lakeside Shack
+Temple of Mystery
+Temple of Mystery
+The Autonomous Furnace
+The Autonomous Furnace
+The Dross Pits
+The Dross Pits
+The Fair Basilica
+The Fair Basilica
+The Hunter Maze
+The Hunter Maze
+The Surgical Bay
+The Surgical Bay
+Thriving Bluff
+Thriving Bluff
+Thriving Grove
+Thriving Grove
+Thriving Heath
+Thriving Heath
+Thriving Isle
+Thriving Isle
+Thriving Moor
+Thriving Moor
+
