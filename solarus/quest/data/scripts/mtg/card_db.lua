@@ -159,11 +159,11 @@ function card_db.build_definition(text)
   end
 
   if face.pt then
-    local p, t = face.pt:match("^(%-?%d+%*?)/(%-?%d+%*?)$")
+    local p, t = face.pt:match("^([%d%*%-]+)/([%d%*%-]+)$")
     if p then
       -- "*" is defined by a characteristic-defining static ability (checked below)
       def.power, def.toughness = tonumber(p) or 0, tonumber(t) or 0
-      def.cda_power, def.cda_toughness = p == "*", t == "*"
+      def.cda_power, def.cda_toughness = p:find("*", 1, true) ~= nil, t:find("*", 1, true) ~= nil
     else
       unsupported("P/T " .. face.pt)
     end
