@@ -1,46 +1,71 @@
--- Placeholder duel screen: two battlefields and a cursor moved with the arrow keys.
--- Proves the quest boots and that the Lua rules modules load inside Solarus.
--- Drawn with plain colored surfaces so it needs no image or font assets yet.
+-- Placeholder duel screen, shown between the Solarus logo and the game
+-- (see scripts/menus/initial_menus_config.lua).
+-- Browses the card pool with left/right to prove the card scripts load and parse inside Solarus.
+-- Return/space continues to the game; Escape quits (handled in main.lua).
 
 local script_parser = require("scripts/mtg/script_parser")
 local pool = require("cards/pool")
 
 local board_menu = {}
 
-local screen_width, screen_height = 320, 240
-local cursor_x, cursor_y = 152, 176
+local screen_width, screen_height = sol.video.get_quest_size()
+local index = 1
 
 local background = sol.surface.create(screen_width, screen_height)
 background:fill_color({ 20, 60, 40 })
-local opponent_side = sol.surface.create(304, 100)
+local opponent_side = sol.surface.create(screen_width - 16, 72)
 opponent_side:fill_color({ 30, 80, 55 })
-local player_side = sol.surface.create(304, 100)
+local player_side = sol.surface.create(screen_width - 16, 72)
 player_side:fill_color({ 30, 80, 55 })
-local cursor = sol.surface.create(16, 16)
-cursor:fill_color({ 255, 215, 0 })
+
+local lines = {}
+for i = 1, 6 do
+  lines[i] = sol.text_surface.create({ font = "8_bit", horizontal_alignment = "left" })
+end
+
+local function read_card(file_name)
+  local file = sol.file.open("cards/" .. file_name)
+  local text = file:read("*a")
+  file:close()
+  return script_parser.parse(text)
+end
+
+local function show_card()
+  local entry = pool[index]
+  local face = read_card(entry.file).faces[1]
+  lines[1]:set_text(string.format("Card %d / %d  (x%d)", index, #pool, entry.copies))
+  lines[2]:set_text(face.name or "?")
+  lines[3]:set_text("Cost: " .. (face.mana_cost or "-"))
+  lines[4]:set_text(face.types or "")
+  lines[5]:set_text(face.pt and ("P/T: " .. face.pt) or "")
+  lines[6]:set_text("<- -> browse   Return: start game")
+end
 
 function board_menu:on_started()
-  -- Parse the first card of the pool to check the data path works inside the engine.
-  local file = sol.file.open("cards/" .. pool[1].file)
-  local card = script_parser.parse(file:read("*a"))
-  file:close()
-  print("Loaded " .. #pool .. " pool entries; first card: " .. tostring(card.faces[1].name))
+  index = 1
+  show_card()
 end
 
 function board_menu:on_draw(dst_surface)
   background:draw(dst_surface)
   opponent_side:draw(dst_surface, 8, 8)
-  player_side:draw(dst_surface, 8, 132)
-  cursor:draw(dst_surface, cursor_x, cursor_y)
+  player_side:draw(dst_surface, 8, screen_height - 80)
+  for i, line in ipairs(lines) do
+    line:draw(dst_surface, 16, 92 + (i - 1) * 12)
+  end
 end
 
-local moves = { left = { -16, 0 }, right = { 16, 0 }, up = { 0, -16 }, down = { 0, 16 } }
-
 function board_menu:on_key_pressed(key)
-  local move = moves[key]
-  if move then
-    cursor_x = math.max(0, math.min(screen_width - 16, cursor_x + move[1]))
-    cursor_y = math.max(0, math.min(screen_height - 16, cursor_y + move[2]))
+  if key == "right" then
+    index = index % #pool + 1
+    show_card()
+    return true
+  elseif key == "left" then
+    index = (index - 2) % #pool + 1
+    show_card()
+    return true
+  elseif key == "return" or key == "space" then
+    sol.menu.stop(self)
     return true
   end
   return false

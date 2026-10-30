@@ -17,8 +17,9 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [x] Minimum card pool defined: `solarus/cardpool/maloney_foundations.txt` + feature report
 - [x] Target switched from GBA/Butano to Solarus (2026-10-30)
 - [x] Card sync (`tools/sync_cards.py`) + Lua script parser, with all 330 pool cards parsing in tests
-- [x] Quest skeleton (`quest/data`: placeholder duel board with a movable cursor)
-- [ ] Skeleton opened in Solarus Quest Editor and run on a real Solarus install
+- [x] Quest built on the Solarus 2.1 starter quest (owner, 2026-10-30); placeholder duel board /
+      card browser added to the startup menus
+- [ ] Card browser confirmed working on a real Solarus install
 - [ ] `scripts/mtg` game state, zones, turn structure, mana, combat (vanilla creatures)
 - [ ] Stack, targeting, first effects; controller interface + coroutine-driven duel menu
 - [ ] Triggers, statics/layers, replacements

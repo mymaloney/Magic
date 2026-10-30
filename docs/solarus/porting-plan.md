@@ -1,7 +1,7 @@
 # Porting plan: Forge rules → Lua on Solarus
 
-Status: **engine target is Solarus (Lua). Quest skeleton, card sync and script parser exist;
-no rules engine yet.** Update this file as decisions are made and record them in the
+Status: **engine target is Solarus 2.1 (Lua). The quest is based on the Solarus starter quest;
+card sync, script parser and a placeholder duel board exist; no rules engine yet.** Update this file as decisions are made and record them in the
 "Decisions log" at the bottom so later sessions don't re-litigate them.
 
 ## Target: Solarus
@@ -28,7 +28,7 @@ Forge's structure closely and the cards can be read straight from Forge's script
 solarus/
   quest/data/                    the Solarus quest (open this folder in Solarus Quest Editor)
     quest.dat, project_db.dat    quest properties and resource list (edited by the Quest Editor)
-    main.lua                     entry point
+    main.lua                     entry point (Solarus starter quest; menus from scripts/menus/initial_menus_config.lua)
     cards/                       Forge scripts for the pool, copied verbatim + pool.lua index  [generated]
     scripts/mtg/                 rules engine, PURE LUA: no sol.* calls
     scripts/menus/               duel screen and other menus (uses sol.*)
@@ -118,7 +118,9 @@ Forge is the oracle: if they disagree, the Lua side is wrong unless the divergen
 
 - Forge and Solarus are both **GPL-3.0**, so the quest's Lua code (a port of Forge logic) and the
   copied card scripts should be GPL-3.0 too; keep `LICENSE` and attribution. Solarus quest
-  *assets* (art, music) can have their own licenses; track them per file.
+  *assets* (art, music) can have their own licenses; track them per file. The starter quest's
+  assets come from the Solarus project; check their licenses (on solarus-games.org and in the
+  Solarus Quest Editor's initial-quest resources) before distributing.
 - Magic: The Gathering card names, rules text, art and mana symbols belong to Wizards of the Coast.
   Fan projects generally avoid distributing official art; consider original art.
 
@@ -131,4 +133,5 @@ Forge is the oracle: if they disagree, the Lua side is wrong unless the divergen
 | 2026-10-29 | Minimum card pool: `cardpool/maloney_foundations.txt` | Chosen by owner |
 | 2026-10-30 | **Target Solarus (Lua) instead of GBA.** Butano skeleton removed (still in git history at commit `22b21951`) | Owner's call: Solarus handles all the non-Magic parts of the design, and Lua is easier to work in |
 | 2026-10-30 | Cards are loaded at runtime from verbatim Forge scripts, not converted to a custom format | No memory limits; stays identical to Forge and is easy to re-sync |
+| 2026-10-30 | Quest based on the **Solarus 2.1 starter quest** (title "Arpeggio"); the duel board runs as a pre-game menu until duels can start from the overworld | Owner created it so the Quest Editor recognizes the project; hand-written `quest.dat`/empty `project_db.dat` didn't load |
 | 2026-10-30 | Rules engine is pure Lua 5.1 under `scripts/mtg/`, no `sol.*`; decisions go through a controller interface, and the engine loop runs in a coroutine | Headless tests under LuaJIT; UI stays swappable |
