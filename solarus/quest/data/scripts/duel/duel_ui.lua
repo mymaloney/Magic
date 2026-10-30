@@ -643,6 +643,10 @@ function duel_ui.card_details(card)
   table.sort(kw)
   local pt = def.power and (def.power .. "/" .. def.toughness .. "  ") or ""
   lines[3] = pt .. table.concat(kw, ", ")
+  if card.attached_to then
+    local target = card.attached_to
+    lines[3] = lines[3] .. (lines[3] ~= "" and "  " or "") .. "On " .. (target.life ~= nil and target.name or target:name())
+  end
   local oracle = (face.oracle or ""):gsub("\\n", "\n")
   for paragraph in (oracle .. "\n"):gmatch("([^\n]*)\n") do
     lines[#lines + 1] = paragraph

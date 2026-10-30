@@ -48,11 +48,12 @@ abilities.ZONES = ZONES
 
 local DEFINED_CARDS = {
   Self = true, Targeted = true, TargetedCard = true, ParentTarget = true,
-  TriggeredCard = true, TriggeredCardLKICopy = true,
+  TriggeredCard = true, TriggeredCardLKICopy = true, Enchanted = true, Equipped = true,
 }
 local DEFINED_PLAYERS = {
   You = true, Opponent = true, ["Player.Opponent"] = true, Player = true,
   TargetedPlayer = true, TargetedController = true, TargetedOwner = true, TriggeredCardController = true,
+  TriggeredPlayer = true, TriggeredCardOwner = true,
 }
 abilities.DEFINED_CARDS = DEFINED_CARDS
 abilities.DEFINED_PLAYERS = DEFINED_PLAYERS
@@ -368,6 +369,13 @@ function abilities.defined(game, ability, ctx, text)
     return { ctx.trigger and ctx.trigger.card }
   elseif text == "TriggeredCardController" then
     return { ctx.trigger and ctx.trigger.controller }
+  elseif text == "TriggeredPlayer" then
+    return { ctx.trigger and ctx.trigger.player }
+  elseif text == "TriggeredCardOwner" then
+    return { ctx.trigger and ctx.trigger.card and ctx.trigger.card.owner }
+  elseif text == "Enchanted" or text == "Equipped" then
+    local target = ctx.source and ctx.source.attached_to
+    return { target }
   end
   local result = {}
   if text == "ParentTarget" then

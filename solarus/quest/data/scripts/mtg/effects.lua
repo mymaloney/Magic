@@ -170,12 +170,15 @@ effects.DestroyAll = {
 }
 
 effects.ChangeZone = {
-  params = { Origin = true, Destination = true, LibraryPosition = true },
+  params = { Origin = true, Destination = true, LibraryPosition = true, Duration = true },
   target_zone = function(params) return abilities.ZONES[params.Origin] end,
   validate = function(a, r)
     local p = a.params
     if abilities.ZONES[p.Origin or ""] == nil or abilities.ZONES[p.Destination or ""] == nil then
       r[#r + 1] = "ChangeZone " .. tostring(p.Origin) .. " -> " .. tostring(p.Destination)
+    end
+    if p.Duration and (p.Duration ~= "UntilHostLeavesPlay" or p.Destination ~= "Exile") then
+      r[#r + 1] = "ChangeZone Duration$ " .. p.Duration
     end
     if p.Destination == "Library" and p.LibraryPosition ~= "0" and p.LibraryPosition ~= "-1" then
       r[#r + 1] = "ChangeZone LibraryPosition$ " .. tostring(p.LibraryPosition)
@@ -197,6 +200,17 @@ effects.ChangeZone = {
     end
     if destination ~= "battlefield" then
       opts.controller = nil
+    end
+    if a.params.Duration == "UntilHostLeavesPlay" then
+      -- CR 610.3: exiled until the source leaves; if it already left, nothing is exiled.
+      local host = ctx.source
+      if host.zone ~= "battlefield" then
+        return
+      end
+      host.linked_exiles = host.linked_exiles or {}
+      for _, card in ipairs(cards) do
+        table.insert(host.linked_exiles, card)
+      end
     end
     move_all(game, cards, destination, opts)
   end,
@@ -285,6 +299,29 @@ effects.Tap = {
     end
   end,
   harmful = true,
+}
+
+-- Attach: an Aura spell resolving (it enters attached to its target) or Equip.
+effects.Attach = {
+  params = {},
+  validate = function(a, r)
+    if a.target == nil then
+      r[#r + 1] = "Attach without a target"
+    end
+  end,
+  resolve = function(game, a, ctx)
+    local target = (ctx.targets[a] or {})[1]
+    local attachment = ctx.source
+    if target == nil then
+      return
+    end
+    if attachment.zone == "stack" then
+      game:move(attachment, "battlefield", { controller = ctx.controller, attach_to = target })
+    elseif attachment.zone == "battlefield" then
+      game:attach(attachment, target)
+    end
+  end,
+  harmful = function(a) return a.harmful_attach == true end,
 }
 
 local COLOR_WORDS = { white = "W", blue = "U", black = "B", red = "R", green = "G" }

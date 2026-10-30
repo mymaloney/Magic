@@ -267,6 +267,9 @@ local function activation_is_good(game, player, card, act)
   if top ~= nil then
     return false
   end
+  if act.equip and card.attached_to ~= nil then
+    return false   -- don't keep moving equipment around
+  end
   local timing
   if api == "Draw" then
     timing = (not my_turn and game.step == "end_of_turn") or (my_turn and game.step == "main2" and not sacrifices_self)

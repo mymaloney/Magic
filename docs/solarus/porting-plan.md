@@ -83,6 +83,7 @@ unsupported Y" at load time rather than half-working in a duel.
 | `expr.lua` | SVar amounts and conditions: numbers, `X`, `Count$Valid…`, `Count$Morbid.a.b`, `Count$AttackersDeclared`, `ThisTurnCast_…`, `PlayerCountPlayers$…`, `TriggerCount$…`, math suffixes (`/Twice`, `/Plus.N`); `CheckSVar`/`IsPresent`-style compares | `AbilityUtils.calculateAmount`, `xCount`, `doXMath` |
 | `triggers.lua` | Trigger modes ChangesZone, Attacks, AttackersDeclared, Blocks, AttackerBlocked, Phase, SpellCast, Drawn, LifeGained, LifeLost, Taps, ManaExpend; intervening-if conditions rechecked on resolution; queueing | `TriggerHandler`, `Trigger<Mode>` |
 | `cost.lua` | Activated-ability costs: mana, {T}, `Sac<n/...>`, `Discard<n/...>`, `PayLife<n>`; can-pay checks and payment (choices via `choose_cards`) | `Cost`, `CostPart*`, `CostPayment` |
+| `statics.lua` | Static abilities: continuous effects recomputed lazily into `card.mods` (layers 6-7), control changes (layer 2) at state-based-action time, restriction queries for combat, cost reductions | `StaticAbilityContinuous`, `StaticAbilityCantAttackBlock`, `CostAdjustment` |
 | `replacements.lua` | Enters-the-battlefield replacements: "enters tapped" (with conditions) and `K:ETBReplacement` (choose a color); applied inside `game:move` before anything sees the card enter | `ReplaceMoved`, `ReplacementHandler` |
 | `combat.lua` | Attack/block legality (flying, reach, menace, defender, haste), damage assignment (current rules, trample), first/double strike steps | `CombatUtil`, `Combat` |
 | `controllers/ai.lua` | Heuristic AI | `AiController`, `AiAttackController`, `AiBlockController` |
@@ -166,6 +167,9 @@ Record each simplification here when made, with the Forge code it diverges from:
   the card as it is now.
 - A player's simultaneous triggers go on the stack in the order they triggered; the player
   doesn't choose the order yet.
+- Layers: within a card, set-P/T applies before modifications, and filters inside static
+  abilities see base characteristics (a keyword granted by one static doesn't count for another
+  static's filter). Timestamps between conflicting effects aren't tracked.
 - All targets for a spell or trigger are chosen up front; the duel screen can't back out of a
   cast once targeting starts.
 - Amounts must be plain numbers (no X or SVar arithmetic yet).

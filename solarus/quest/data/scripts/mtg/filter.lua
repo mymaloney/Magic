@@ -8,6 +8,12 @@
 
 local filter = {}
 
+-- Subtypes that may appear as a filter type or property ("Forest.YouCtrl", "Creature.Wall").
+-- card_db fills this with every subtype in the synced cards before parsing any filter.
+filter.known_subtypes = {
+  Plains = true, Island = true, Swamp = true, Mountain = true, Forest = true,
+}
+
 local CARD_TYPES = {
   Card = true, Permanent = true, Creature = true, Artifact = true, Enchantment = true, Land = true,
   Instant = true, Sorcery = true, Planeswalker = true, Battle = true,
@@ -42,6 +48,9 @@ local CARD_PROPS = {
     local combat = ctx.game.combat
     return combat ~= nil and combat.blocking[c] ~= nil
   end,
+  EnchantedBy = function(ctx, c) return ctx.self ~= nil and ctx.self.attached_to == c end,
+  EquippedBy = function(ctx, c) return ctx.self ~= nil and ctx.self.attached_to == c end,
+  AttachedBy = function(ctx, c) return ctx.self ~= nil and ctx.self.attached_to == c end,
 }
 local COLOR_PROPS = { White = "W", Blue = "U", Black = "B", Red = "R", Green = "G" }
 for word, symbol in pairs(COLOR_PROPS) do
@@ -92,6 +101,10 @@ local function parse_property(word, is_player)
       local kw = keyword:gsub("(%l)(%u)", "%1 %2")   -- withFirstStrike -> First Strike
       test = function(_, c) return c:has_keyword(kw) end
     end
+    if test == nil and filter.known_subtypes[word] then
+      local subtype = word
+      test = function(_, c) return c:has_subtype(subtype) end
+    end
     if test == nil then
       local stat, cmp, n = word:match("^(%a-)(%u%u)(%d+)$")
       if stat and NUMERIC[stat] and COMPARISONS[cmp] then
@@ -128,6 +141,8 @@ function filter.parse(text)
       entry = { kind = "card", type = type_name, props = {} }
     elseif PLAYER_TYPES[type_name] then
       entry = { kind = "player", type = type_name, props = {} }
+    elseif filter.known_subtypes[type_name] then
+      entry = { kind = "card", type = "Card", subtype = type_name, props = {} }
     else
       return nil, "filter type " .. tostring(type_name)
     end
@@ -173,7 +188,7 @@ function filter.matches(parsed, obj, ctx)
           and (alt.type ~= "Opponent" or obj ~= ctx.you)
           and (alt.type ~= "You" or obj == ctx.you)
     else
-      ok = not is_player(obj) and card_has_type(obj, alt.type)
+      ok = not is_player(obj) and card_has_type(obj, alt.type) and (alt.subtype == nil or obj:has_subtype(alt.subtype))
     end
     if ok then
       for _, test in ipairs(alt.props) do

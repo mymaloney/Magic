@@ -42,8 +42,13 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
       sacrifice mana sources; AI and duel screen use them; 190 of 335 cards supported (2026-10-30)
 - [x] Scry, Surveil, Dig, Sacrifice, Fight, Charm (modal), Branch, ChangeZoneAll, DamageAll,
       TapAll; 218 of 335 cards supported (2026-10-30)
-- [ ] Statics/layers (anthems, auras, equipment, control change), remaining replacements
-      (damage doubling, can't lose, untap lock)
+- [x] Static abilities: continuous effects (anthems, aura/equipment bonuses, keywords, set P/T,
+      conditions), control change, can't attack/block, must attack, can't be blocked by,
+      max blockers, attack despite defender, cost reduction; Auras, Equipment, exile-until-leaves;
+      255 of 335 cards supported (2026-10-30)
+- [ ] Remaining: temporary effects (Effect), optional costs, X costs, damage doubling, can't
+      lose, untap lock, flashback/kicker/ward/crew/cascade/prowess and the other one-offs in
+      `solarus/cardpool/support_report.md`
 - [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)
 - [x] Overworld: duelist NPC in `first_map` starts a duel via `duel.start(game, options)`;
       the duel is no longer a startup menu (2026-10-30)

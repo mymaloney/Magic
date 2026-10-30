@@ -18,6 +18,7 @@
 -- Libraries keep the top card at the END of the list.
 
 local Card = require("scripts/mtg/card")
+local filter = require("scripts/mtg/filter")
 local mana = require("scripts/mtg/mana")
 local combat = require("scripts/mtg/combat")
 local abilities = require("scripts/mtg/abilities")
@@ -25,6 +26,7 @@ local effects = require("scripts/mtg/effects")
 local triggers = require("scripts/mtg/triggers")
 local replacements = require("scripts/mtg/replacements")
 local cost_lib = require("scripts/mtg/cost")
+local statics = require("scripts/mtg/statics")
 
 local Game = {}
 Game.__index = Game
@@ -75,6 +77,8 @@ function Game.new(opts)
     pending_triggers = {},  -- triggered abilities waiting to be put on the stack
     history = new_history(),
     lookback = nil,         -- battlefield snapshot while a batch of simultaneous moves happens
+    statics_dirty = true,   -- continuous effects need recomputing (statics.apply)
+    computing_statics = false,
   }, Game)
 
   for i, spec in ipairs(opts.players) do
@@ -107,10 +111,38 @@ function Game:on_event(listener)
   self.listeners[#self.listeners + 1] = listener
 end
 
+local remove_from   -- defined with the zone helpers below
+
 function Game:emit(event)
+  self.statics_dirty = true   -- every event is a state change that can affect continuous effects
   for _, listener in ipairs(self.listeners) do
     listener(event)
   end
+end
+
+-- Recomputes continuous effects if anything changed (called by Card getters).
+function Game:ensure_statics()
+  if self.statics_dirty and not self.computing_statics then
+    self.computing_statics = true
+    self.statics_dirty = false
+    statics.apply(self)
+    self.computing_statics = false
+  end
+end
+
+-- Moves a permanent to another player's battlefield (layer 2 control change, CR 613.1b).
+function Game:change_control(card, player)
+  remove_from(card.controller.battlefield, card)
+  card.controller = player
+  card.sick = true   -- hasn't been under the new controller's control since their turn began
+  table.insert(player.battlefield, card)
+  self:emit({ type = "control", card = card, player = player })
+end
+
+-- Attaches an Aura or Equipment to a permanent (CR 301.5c, 303.4).
+function Game:attach(attachment, target)
+  attachment.attached_to = target
+  self:emit({ type = "attach", card = attachment, target = target })
 end
 
 -- Players and cards ----------------------------------------------------------------------------
@@ -124,7 +156,7 @@ function Game:opponent(player)
 end
 
 function Game:create_card(def, owner, zone, opts)
-  local card = Card.new(def, owner, self.next_id)
+  local card = Card.new(def, owner, self.next_id, self)
   self.next_id = self.next_id + 1
   card.zone = zone
   local list = self:zone_list(owner, zone)
@@ -144,7 +176,7 @@ function Game:zone_list(player, zone)
   return player[zone] or error("unknown zone " .. tostring(zone))
 end
 
-local function remove_from(list, card)
+function remove_from(list, card)
   for i, c in ipairs(list) do
     if c == card then
       table.remove(list, i)
@@ -199,8 +231,12 @@ function Game:move(card, zone, opts)
   card.zone = zone
   if zone == "battlefield" then
     card.controller = opts.controller or card.owner
+    card.base_controller = card.controller
     card.sick = true
     card.tapped = opts.tapped or false
+    if opts.attach_to then
+      card.attached_to = opts.attach_to
+    end
     table.insert(card.controller.battlefield, card)
     replacements.apply_etb(self, card, effects)
     table.insert(self.history.entered, { card = card, controller = card.controller })
@@ -214,6 +250,16 @@ function Game:move(card, zone, opts)
   end
   self:emit({ type = "zone_change", card = card, from = from, to = zone })
   triggers.collect(self, card, from, zone, lki_controller, lookback)
+  -- "Exile ... until this leaves the battlefield" ends: the cards return (CR 610.3a).
+  if from == "battlefield" and card.linked_exiles then
+    local exiled = card.linked_exiles
+    card.linked_exiles = nil
+    for _, other in ipairs(exiled) do
+      if other.zone == "exile" then
+        self:move(other, "battlefield")
+      end
+    end
+  end
 end
 
 -- Discards exactly `count` cards chosen from the player's hand.
@@ -329,7 +375,7 @@ end
 -- Returns true if the game is over.
 function Game:check_state_based_actions()
   repeat
-    local changed = false
+    local changed = statics.update_control(self)
     for _, player in ipairs(self.players) do
       if not player.lost then
         if player.life <= 0 then
@@ -351,6 +397,23 @@ function Game:check_state_based_actions()
           elseif (card.damage >= card:toughness() or card.deathtouch_damage)
               and not card:has_keyword("Indestructible") then
             destroyed[#destroyed + 1] = card
+          end
+        end
+      end
+      -- Auras attached illegally go to the graveyard; Equipment just falls off (CR 704.5m-n).
+      for _, card in ipairs(player.battlefield) do
+        local target = card.attached_to
+        if card:is_aura() then
+          local legal = target ~= nil and target.life == nil and target.zone == "battlefield" and target ~= card
+              and (card.def.enchant_filter == nil
+                   or filter.matches(card.def.enchant_filter, target, { game = self, you = card.controller, self = card }))
+          if not legal then
+            to_graveyard[#to_graveyard + 1] = card
+          end
+        elseif card:is_equipment() and target ~= nil then
+          if target.life ~= nil or target.zone ~= "battlefield" or not target:is_creature() then
+            card.attached_to = nil
+            changed = true
           end
         end
       end
@@ -464,6 +527,17 @@ function Game:can_pay(player, cost)
   return mana.find_payment(cost, self:mana_sources(player)) ~= nil
 end
 
+-- A spell's mana cost after cost reductions (generic part only, CR 601.2f). `targets` is the
+-- chosen target list, or nil while checking castability (then `candidates` are the possible targets).
+function Game:spell_cost(player, card, targets, candidates)
+  local cost = card.def.mana_cost
+  local reduction = statics.cost_reduction(self, player, card, targets, candidates)
+  if cost == nil or reduction <= 0 then
+    return cost
+  end
+  return { generic = math.max(0, cost.generic - reduction), shards = cost.shards }
+end
+
 -- Activates mana abilities to pay the cost (they don't use the stack). Returns true if paid.
 -- `sources` defaults to all of the player's mana sources.
 function Game:pay(player, cost, sources)
@@ -518,10 +592,16 @@ function Game:legal_actions(player)
       end
     elseif card.def.mana_cost ~= nil then
       local timing_ok = sorcery_speed or card:has_keyword("Flash") or card:is_type("Instant")
-      if timing_ok and self:can_pay(player, card.def.mana_cost)
-          and (card.def.spell == nil
-               or abilities.can_target(self, card.def.spell, { game = self, source = card, controller = player })) then
-        actions[#actions + 1] = { kind = "cast", card = card }
+      if timing_ok then
+        local ctx = { game = self, source = card, controller = player }
+        local candidates = {}
+        if card.def.spell and card.def.spell.target then
+          candidates = abilities.target_candidates(self, card.def.spell, ctx)
+        end
+        if self:can_pay(player, self:spell_cost(player, card, nil, candidates))
+            and (card.def.spell == nil or abilities.can_target(self, card.def.spell, ctx)) then
+          actions[#actions + 1] = { kind = "cast", card = card }
+        end
       end
     end
   end
@@ -583,7 +663,13 @@ function Game:perform(player, action)
     if item.ability and not abilities.choose_targets(self, item.ability, item.ctx) then
       error("no legal targets for " .. tostring(card))
     end
-    if not self:pay(player, card.def.mana_cost) then
+    local all_targets = {}
+    for _, list in pairs(item.ctx.targets) do
+      for _, obj in ipairs(list) do
+        all_targets[#all_targets + 1] = obj
+      end
+    end
+    if not self:pay(player, self:spell_cost(player, card, all_targets)) then
       error("couldn't pay for " .. tostring(card))
     end
     local spent_before = self.history.mana_spent[player] or 0
@@ -640,7 +726,17 @@ function Game:resolve_top()
       self:emit({ type = "fizzle", card = card })
     end
   elseif card:is_permanent_card() then
-    self:move(card, "battlefield", { controller = item.controller })
+    if item.ability then
+      -- An Aura spell: if its target is gone it doesn't resolve (CR 608.3b) and goes to the graveyard.
+      if not abilities.resolve(self, item.ability, item.ctx, effects) then
+        self:emit({ type = "fizzle", card = card })
+      end
+      if card.zone == "stack" then
+        self:move(card, "graveyard")
+      end
+    else
+      self:move(card, "battlefield", { controller = item.controller })
+    end
   else
     if item.ability and not abilities.resolve(self, item.ability, item.ctx, effects) then
       self:emit({ type = "fizzle", card = card })
@@ -715,6 +811,16 @@ function turn_based.combat_declare_attackers(game, player)
   local attackers = {}
   if #candidates > 0 then
     attackers = player.controller:declare_attackers(game, player, candidates) or {}
+  end
+  -- Creatures that must attack if able are added (StaticAbilityMustAttack, CR 508.1d).
+  for _, card in ipairs(candidates) do
+    local declared = false
+    for _, a in ipairs(attackers) do
+      declared = declared or a == card
+    end
+    if not declared and statics.must_attack(game, card) then
+      attackers[#attackers + 1] = card
+    end
   end
   local ok, reason = combat.validate_attackers(game, player, attackers)
   if not ok then

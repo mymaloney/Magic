@@ -4,6 +4,8 @@
 -- a blocked attacker divides its damage among its blockers as its controller chooses, and with
 -- trample may assign the rest to the player once every blocker has been assigned lethal damage.
 
+local statics = require("scripts/mtg/statics")
+
 local combat = {}
 
 -- combat state on the game: game.combat = { attackers = { card, ... },
@@ -13,7 +15,8 @@ local combat = {}
 function combat.can_attack(game, card)
   return card.zone == "battlefield" and card:is_creature() and not card.tapped
       and (not card.sick or card:has_keyword("Haste"))
-      and not card:has_keyword("Defender")
+      and (not card:has_keyword("Defender") or statics.applies(game, "CanAttackDefender", card))
+      and not statics.applies(game, "CantAttack", card)
 end
 
 function combat.attack_candidates(game, player)
@@ -28,10 +31,14 @@ end
 
 function combat.can_block(game, blocker)
   return blocker.zone == "battlefield" and blocker:is_creature() and not blocker.tapped
+      and not statics.applies(game, "CantBlock", blocker)
 end
 
 function combat.can_block_attacker(blocker, attacker)
   if attacker:has_keyword("Flying") and not (blocker:has_keyword("Flying") or blocker:has_keyword("Reach")) then
+    return false
+  end
+  if attacker.game and not statics.can_block_by(attacker.game, attacker, blocker) then
     return false
   end
   return true
@@ -95,6 +102,10 @@ function combat.validate_blocks(game, player, blocks)
   for attacker, n in pairs(count) do
     if attacker:has_keyword("Menace") and n < 2 then
       return false, tostring(attacker) .. " has menace and needs two or more blockers"
+    end
+    local max = statics.max_blockers(game, attacker)
+    if max and n > max then
+      return false, tostring(attacker) .. " can't be blocked by more than " .. max
     end
   end
   return true

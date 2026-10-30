@@ -1,16 +1,19 @@
 -- A card in a game: one physical card with its own state (zone, tapped, damage, ...).
--- Characteristics are read through methods so continuous effects (layers) can hook in later.
--- Reference: forge-game card/Card.
+-- Characteristics are read through methods: base values from the definition, then continuous
+-- effects from static abilities (statics.lua, recomputed lazily by the game), then until-end-of-turn
+-- pumps. Reference: forge-game card/Card, staticability/StaticAbilityContinuous (layers).
 
 local Card = {}
 Card.__index = Card
 
-function Card.new(def, owner, id)
+function Card.new(def, owner, id, game)
   return setmetatable({
     def = def,
     id = id,
+    game = game,
     owner = owner,
     controller = owner,
+    base_controller = owner, -- controller without control-changing effects (layer 2)
     zone = nil,           -- "library", "hand", "battlefield", "graveyard", "exile", "stack"
     tapped = false,
     sick = false,         -- summoning sick: hasn't been under its controller's control since their turn began
@@ -18,6 +21,9 @@ function Card.new(def, owner, id)
     deathtouch_damage = false,
     pumps = {},           -- until-end-of-turn changes: { { power =, toughness =, keywords = { Flying = true } } }
     chosen_color = nil,   -- "W".."G", chosen as it entered (ChooseColor)
+    attached_to = nil,    -- for Auras and Equipment: the permanent (or player) it's attached to
+    linked_exiles = nil,  -- cards exiled "until this leaves the battlefield"
+    mods = nil,           -- continuous-effect results for this card (statics.lua), or nil
   }, Card)
 end
 
@@ -27,6 +33,15 @@ end
 
 function Card:name()
   return self.def.name
+end
+
+-- Brings static-ability results up to date before a characteristic is read.
+local function mods(card)
+  local game = card.game
+  if game and card.zone == "battlefield" then
+    game:ensure_statics()
+  end
+  return card.mods
 end
 
 function Card:is_type(card_type)
@@ -50,24 +65,55 @@ function Card:is_legendary()
   return self.def.supertypes.Legendary == true
 end
 
-function Card:power()
-  local value = self.def.power or 0
-  for _, pump in ipairs(self.pumps) do
-    value = value + (pump.power or 0)
+-- Subtypes (CR 205.3); a Changeling has every creature type.
+function Card:has_subtype(subtype)
+  for _, s in ipairs(self.def.subtypes) do
+    if s == subtype then
+      return true
+    end
+  end
+  if self.def.keywords.Changeling and self:is_creature() and not (subtype == "Aura" or subtype == "Equipment") then
+    return true
+  end
+  return false
+end
+
+function Card:is_aura()
+  return self.def.types.Enchantment == true and self:has_subtype("Aura")
+end
+
+function Card:is_equipment()
+  return self.def.types.Artifact == true and self:has_subtype("Equipment")
+end
+
+local function pump_total(card, field)
+  local value = 0
+  for _, pump in ipairs(card.pumps) do
+    value = value + (pump[field] or 0)
   end
   return value
+end
+
+-- Layer 7: characteristic-defining / setting effects, then modifications, then pumps.
+function Card:power()
+  local m = mods(self)
+  local value = (m and m.set_power) or self.def.power or 0
+  return value + (m and m.power or 0) + pump_total(self, "power")
 end
 
 function Card:toughness()
-  local value = self.def.toughness or 0
-  for _, pump in ipairs(self.pumps) do
-    value = value + (pump.toughness or 0)
-  end
-  return value
+  local m = mods(self)
+  local value = (m and m.set_toughness) or self.def.toughness or 0
+  return value + (m and m.toughness or 0) + pump_total(self, "toughness")
 end
 
+-- Layer 6: keywords from the card, static abilities and pumps, minus removed ones.
 function Card:has_keyword(keyword)
-  if self.def.keywords[keyword] then
+  local m = mods(self)
+  if m and m.removed[keyword] then
+    return false
+  end
+  if self.def.keywords[keyword] or (m and m.added[keyword]) then
     return true
   end
   for _, pump in ipairs(self.pumps) do
@@ -81,6 +127,9 @@ end
 -- Until-end-of-turn power/toughness/keyword change (PumpEffect); removed in cleanup.
 function Card:add_pump(power, toughness, keywords)
   table.insert(self.pumps, { power = power, toughness = toughness, keywords = keywords })
+  if self.game then
+    self.game.statics_dirty = true
+  end
 end
 
 function Card:has_color(color)
@@ -107,7 +156,10 @@ function Card:reset_state()
   self.deathtouch_damage = false
   self.pumps = {}
   self.chosen_color = nil
+  self.attached_to = nil
+  self.mods = nil
   self.controller = self.owner
+  self.base_controller = self.owner
 end
 
 return Card
