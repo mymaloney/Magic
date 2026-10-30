@@ -26,8 +26,7 @@ Solarus logo → `scripts/menus/board.lua` → `start_game` (loads `save1.dat`, 
 
 `board.lua` is a placeholder duel board that doubles as a card browser: left/right steps through
 the pool, showing each card's parsed name, cost, type and P/T; Return/space continues to the
-game; Escape quits. It has been tested only against a stubbed `sol` API, because Solarus can't be
-installed in the cloud container. If it misbehaves on a real run, note the fix here.
+game; Escape quits. Confirmed working on Solarus 2.1 by the owner (2026-10-30).
 
 ## Setup
 

@@ -19,7 +19,7 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [x] Card sync (`tools/sync_cards.py`) + Lua script parser, with all 330 pool cards parsing in tests
 - [x] Quest built on the Solarus 2.1 starter quest (owner, 2026-10-30); placeholder duel board /
       card browser added to the startup menus
-- [ ] Card browser confirmed working on a real Solarus install
+- [x] Card browser confirmed working on a real Solarus 2.1 install (owner, 2026-10-30)
 - [ ] `scripts/mtg` game state, zones, turn structure, mana, combat (vanilla creatures)
 - [ ] Stack, targeting, first effects; controller interface + coroutine-driven duel menu
 - [ ] Triggers, statics/layers, replacements
