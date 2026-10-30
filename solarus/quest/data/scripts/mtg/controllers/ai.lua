@@ -403,7 +403,10 @@ function ai:choose_action(game, player, actions)
   local best
   for _, action in ipairs(actions) do
     local card = action.card
-    if action.kind == "cast" then
+    local variant = action.variant and card.def.cast_variants[action.variant]
+    if action.kind == "cast" and variant and #variant.cost.sacrifice > 0 then
+      -- don't give up permanents for an alternative cost (simple heuristic)
+    elseif action.kind == "cast" then
       if card.def.spell == nil then
         if my_main and (best == nil or card:mana_value() > best.card:mana_value()) then
           best = action
@@ -507,7 +510,7 @@ function ai:declare_blockers(game, player, attackers, candidates)
       pick(attacker, function() return true end)
     end
   end
-  return blocks
+  return combat.apply_lure(game, player, blocks)
 end
 
 function ai:assign_combat_damage(game, player, attacker, blockers, amount, trample)

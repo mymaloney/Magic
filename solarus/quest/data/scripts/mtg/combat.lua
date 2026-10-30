@@ -79,6 +79,41 @@ function combat.validate_attackers(game, player, attackers)
   return true
 end
 
+local LURE = "All creatures able to block CARDNAME do so."
+
+-- Lure (CR 509.1c): each creature able to block an attacker with "all creatures able to block it
+-- do so" must block one of those. Returns the lure attackers `blocker` could block.
+local function lure_attackers(game, blocker)
+  local list = {}
+  for _, attacker in ipairs(game.combat.attackers) do
+    if attacker:has_keyword(LURE) and combat.can_block_attacker(blocker, attacker) then
+      list[#list + 1] = attacker
+    end
+  end
+  return list
+end
+
+-- Adjusts `blocks` so every lure requirement is met: a creature that must block a lure attacker
+-- and doesn't is moved onto one. Used by the AI.
+function combat.apply_lure(game, player, blocks)
+  local by_blocker = {}
+  for _, block in ipairs(blocks) do
+    by_blocker[block.blocker] = block
+  end
+  for _, blocker in ipairs(combat.block_candidates(game, player)) do
+    local lures = lure_attackers(game, blocker)
+    local block = by_blocker[blocker]
+    if #lures > 0 and not (block and contains(lures, block.attacker)) then
+      if block then
+        block.attacker = lures[1]
+      else
+        blocks[#blocks + 1] = { blocker = blocker, attacker = lures[1] }
+      end
+    end
+  end
+  return blocks
+end
+
 -- blocks: list of { blocker = card, attacker = card }. Returns true or false, reason.
 function combat.validate_blocks(game, player, blocks)
   local attackers = game.combat.attackers
@@ -107,6 +142,20 @@ function combat.validate_blocks(game, player, blocks)
     local max = statics.max_blockers(game, attacker)
     if max and n > max then
       return false, tostring(attacker) .. " can't be blocked by more than " .. max
+    end
+  end
+  for _, blocker in ipairs(combat.block_candidates(game, player)) do
+    local lures = lure_attackers(game, blocker)
+    if #lures > 0 then
+      local blocking
+      for _, block in ipairs(blocks) do
+        if block.blocker == blocker then
+          blocking = block.attacker
+        end
+      end
+      if not (blocking and contains(lures, blocking)) then
+        return false, tostring(blocker) .. " must block " .. tostring(lures[1])
+      end
     end
   end
   return true

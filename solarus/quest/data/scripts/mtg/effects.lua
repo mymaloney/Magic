@@ -806,7 +806,7 @@ effects.Fight = {
   params = {},
   validate = function(a, r)
     local d = a.params.Defined
-    if d ~= "ParentTarget" and d ~= "TriggeredCardLKICopy" and d ~= "TriggeredCard" and d ~= "Self" then
+    if d ~= "ParentTarget" and d ~= "TriggeredCardLKICopy" and d ~= "TriggeredCard" and d ~= "Self" and d ~= "Enchanted" then
       r[#r + 1] = "Fight Defined$ " .. tostring(d)
     end
     if a.target == nil then

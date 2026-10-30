@@ -723,16 +723,24 @@ function Game:legal_actions(player)
       end
     elseif card.def.mana_cost ~= nil then
       local timing_ok = sorcery_speed or card:has_keyword("Flash") or card:is_type("Instant")
-      if timing_ok then
-        local ctx = { game = self, source = card, controller = player }
+      local ctx = { game = self, source = card, controller = player }
+      local targets_ok = card.def.spell == nil or abilities.can_target(self, card.def.spell, ctx)
+      local extra_ok = card.def.extra_cost == nil or cost_lib.can_pay(self, player, card, card.def.extra_cost)
+      if timing_ok and targets_ok and extra_ok and not card.def.no_normal_cast then
         local candidates = {}
         if card.def.spell and card.def.spell.target then
           candidates = abilities.target_candidates(self, card.def.spell, ctx)
         end
-        if self:can_pay(player, self:spell_cost(player, card, nil, candidates), card:is_creature() and "creature_spell" or nil)
-            and (card.def.extra_cost == nil or cost_lib.can_pay(self, player, card, card.def.extra_cost))
-            and (card.def.spell == nil or abilities.can_target(self, card.def.spell, ctx)) then
+        if self:can_pay(player, self:spell_cost(player, card, nil, candidates), card:is_creature() and "creature_spell" or nil) then
           actions[#actions + 1] = { kind = "cast", card = card }
+        end
+      end
+      -- alternative costs, choices of additional cost, flash for a price
+      for i, v in ipairs(card.def.cast_variants or {}) do
+        local ok = targets_ok and extra_ok and (v.flash and not timing_ok or (timing_ok and not v.flash))
+            and (not v.your_turn or self.active == player)
+        if ok and cost_lib.can_pay(self, player, card, v.cost) then
+          actions[#actions + 1] = { kind = "cast", card = card, variant = i }
         end
       end
     end
@@ -775,7 +783,7 @@ end
 local function is_legal(actions, action)
   for _, a in ipairs(actions) do
     if a.kind == action.kind and a.card == action.card and a.index == action.index
-        and (a.flashback or false) == (action.flashback or false) then
+        and (a.flashback or false) == (action.flashback or false) and a.variant == action.variant then
       return true
     end
   end
@@ -842,12 +850,20 @@ function Game:perform(player, action)
         all_targets[#all_targets + 1] = obj
       end
     end
-    local to_pay = action.flashback and base_cost or self:spell_cost(player, card, all_targets)
-    if extra_mana then
-      to_pay = add_cost(to_pay, extra_mana)
-    end
-    if not self:pay(player, to_pay, nil, purpose) then
-      error("couldn't pay for " .. tostring(card))
+    local variant = action.variant and card.def.cast_variants[action.variant]
+    if variant then
+      if extra_mana and not self:pay(player, extra_mana, nil, purpose) then
+        error("couldn't pay for " .. tostring(card))
+      end
+      item.ctx.sacrificed = cost_lib.pay(self, player, card, variant.cost).sacrificed
+    else
+      local to_pay = action.flashback and base_cost or self:spell_cost(player, card, all_targets)
+      if extra_mana then
+        to_pay = add_cost(to_pay, extra_mana)
+      end
+      if not self:pay(player, to_pay, nil, purpose) then
+        error("couldn't pay for " .. tostring(card))
+      end
     end
     if card.def.extra_cost then
       item.ctx.sacrificed = cost_lib.pay(self, player, card, card.def.extra_cost).sacrificed

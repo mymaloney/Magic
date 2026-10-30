@@ -192,9 +192,37 @@ function card_db.build_definition(text)
     unsupported("creature without P/T")
   end
 
+  -- Other ways to cast the card (CR 118.9 alternative costs, choices of additional cost, paying
+  -- more to cast it with flash): { label, cost = parsed full cost, your_turn, flash }.
+  def.cast_variants = {}
+  local function add_variant(v)
+    local parsed, problem = cost_lib.parse(v.cost)
+    if parsed == nil then
+      unsupported(tostring(problem))
+      return
+    end
+    v.cost = parsed
+    def.cast_variants[#def.cast_variants + 1] = v
+  end
+  local base_mana = (face.mana_cost and face.mana_cost ~= "no cost") and face.mana_cost or ""
+
   for _, keyword in ipairs(face.keywords) do
     local name = keyword:match("^([^:]+)")
-    if name == "ETBReplacement" then
+    if name == "AlternateAdditionalCost" then
+      -- "As an additional cost to cast this spell, sacrifice a creature or pay {3}{B}."
+      local a, b = keyword:match("^AlternateAdditionalCost:([^:]+):([^:]+)$")
+      if a == nil then
+        unsupported("keyword " .. keyword)
+      else
+        add_variant({ label = "Pay " .. a, cost = base_mana .. " " .. a })
+        add_variant({ label = "Pay " .. b, cost = base_mana .. " " .. b })
+        def.no_normal_cast = true
+      end
+    elseif name == "MayFlashCost" then
+      -- "You may cast this as though it had flash if you pay {2} more."
+      local extra = keyword:match("^MayFlashCost:(.+)$")
+      add_variant({ label = "With flash", cost = extra .. " " .. base_mana, flash = true })
+    elseif name == "ETBReplacement" then
       replacements.parse_keyword(def, keyword, face.svars, def.unsupported, effects)
     elseif name == "Enchant" then
       -- Aura (CR 303.4): cast targeting what it can enchant; it enters attached to it.
@@ -264,6 +292,15 @@ function card_db.build_definition(text)
       def.mana_abilities[#def.mana_abilities + 1] = ability
     elseif params.AB and params.AB ~= "Mana" then
       def.activated[#def.activated + 1] = parse_activated(params, face.svars, def.unsupported)
+    elseif params.SP == "PermanentCreature" and def.types.Creature and params.Cost then
+      -- a creature spell with an additional cost (Arbiter of Woe): Cost$ = mana cost + the rest
+      local parsed, problem = cost_lib.parse(params.Cost)
+      if parsed == nil then
+        unsupported(tostring(problem))
+      else
+        parsed.mana = nil
+        def.extra_cost = parsed
+      end
     elseif params.SP and is_spell_card and def.spell == nil then
       local spell_params = params
       if params.Cost then
@@ -303,9 +340,17 @@ function card_db.build_definition(text)
     end
   end
   for _, params in ipairs(face.statics) do
-    local st = statics.parse(params, face.svars, def.unsupported, keywords.SUPPORTED)
-    if st then
-      def.statics[#def.statics + 1] = st
+    if params.Mode == "AlternativeCost" then
+      -- "If it's your turn, you may sacrifice a Mountain rather than pay this spell's mana cost."
+      if params.ValidSA ~= "Spell.Self" or (params.Condition and params.Condition ~= "PlayerTurn") then
+        unsupported("static AlternativeCost")
+      end
+      add_variant({ label = "Alt. cost", cost = params.Cost, your_turn = params.Condition == "PlayerTurn" })
+    else
+      local st = statics.parse(params, face.svars, def.unsupported, keywords.SUPPORTED)
+      if st then
+        def.statics[#def.statics + 1] = st
+      end
     end
   end
   for _, params in ipairs(face.replacements) do

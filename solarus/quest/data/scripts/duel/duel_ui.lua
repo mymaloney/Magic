@@ -284,6 +284,12 @@ function duel_ui:advance(answer)
   end
   self.request = request
   self.option_entries = nil
+  if request.kind == "declare_blockers" then
+    -- blocks a lure attacker forces (Ochran Assassin) start out declared
+    for _, block in ipairs(combat.apply_lure(self.game, self.human, {})) do
+      self.blocks[block.blocker] = block.attacker
+    end
+  end
   if request.kind == "choose_color" then
     self.option_entries = {}
     for _, c in ipairs(request.options) do
@@ -652,7 +658,10 @@ end
 -- An option box for one action on a card (when a card has several).
 function duel_ui.action_option(action)
   local label, detail = "Cast", "Cast " .. action.card:name()
-  if action.flashback then
+  if action.variant then
+    local v = action.card.def.cast_variants[action.variant]
+    label, detail = v.label, "Cast " .. action.card:name() .. ": " .. v.label
+  elseif action.flashback then
     label, detail = "Flashback", "Cast " .. action.card:name() .. " with flashback"
   elseif action.kind == "play_land" then
     label, detail = "Play", "Play " .. action.card:name()
