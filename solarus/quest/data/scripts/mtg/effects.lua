@@ -13,12 +13,11 @@ local keywords = require("scripts/mtg/keywords")
 
 local effects = {}
 
+-- Required amount parameters must be present (their syntax is checked by abilities.build).
 local function number_param(ability, reasons, key, default)
-  local n = abilities.amount(ability.params[key], default)
-  if n == nil then
-    reasons[#reasons + 1] = ability.api .. " " .. key .. "$ " .. tostring(ability.params[key])
+  if default == nil and ability.params[key] == nil then
+    reasons[#reasons + 1] = ability.api .. " without " .. key
   end
-  return n
 end
 
 local function require_targets_or_defined(ability, reasons, allowed_default)
@@ -27,8 +26,10 @@ local function require_targets_or_defined(ability, reasons, allowed_default)
   end
 end
 
+local CTX  -- context of the effect being resolved (set by resolve wrappers below)
+
 local function amount(ability, key, default)
-  return abilities.amount(ability.params[key], default) or default
+  return abilities.value(ability, key, CTX, default)
 end
 
 local function move_all(game, cards, zone, opts)
@@ -224,7 +225,8 @@ local function pump(card, a)
 end
 
 local function pump_harmful(a)
-  return a.params.IsCurse == "True" or amount(a, "NumAtt", 0) < 0 or amount(a, "NumDef", 0) < 0
+  local att, def = a.params.NumAtt or "", a.params.NumDef or ""
+  return a.params.IsCurse == "True" or att:sub(1, 1) == "-" or def:sub(1, 1) == "-"
 end
 
 effects.Pump = {
@@ -324,6 +326,19 @@ effects.Counter = {
   end,
   harmful = true,
 }
+
+-- Every resolve function sees the current context through CTX (used by amount()).
+for _, spec in pairs(effects) do
+  if type(spec) == "table" and spec.resolve then
+    local resolve = spec.resolve
+    spec.resolve = function(game, a, ctx)
+      local previous = CTX
+      CTX = ctx
+      resolve(game, a, ctx)
+      CTX = previous
+    end
+  end
+end
 
 function effects.is_harmful(ability)
   local h = effects[ability.api] and effects[ability.api].harmful

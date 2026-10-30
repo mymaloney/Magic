@@ -11,6 +11,7 @@
 
 local filter = require("scripts/mtg/filter")
 local script_parser = require("scripts/mtg/script_parser")
+local expr = require("scripts/mtg/expr")
 
 local abilities = {}
 
@@ -20,7 +21,24 @@ local COMMON_PARAMS = {
   SP = true, AB = true, DB = true, SpellDescription = true, StackDescription = true, TgtPrompt = true,
   AILogic = true, AITgts = true, AIPreference = true, IsCurse = true, SubAbility = true,
   ValidTgts = true, TargetMin = true, TargetMax = true, TgtZone = true, TargetType = true, Defined = true,
+  ConditionCheckSVar = true, ConditionSVarCompare = true, ConditionPresent = true, ConditionCompare = true,
+  ConditionDescription = true, ValidTgtsDesc = true,
 }
+
+-- Parameters holding amounts; compiled with expr.compile into ability.amounts[key].
+local AMOUNT_PARAMS = {
+  NumDmg = true, NumCards = true, LifeAmount = true, NumAtt = true, NumDef = true,
+  ScryNum = true, SurveilNum = true, DigNum = true, ChangeNum = true, Amount = true,
+}
+
+-- Value of an amount parameter at resolution time.
+function abilities.value(ability, key, ctx, default)
+  local fn = ability.amounts and ability.amounts[key]
+  if fn == nil then
+    return default
+  end
+  return fn(ctx.game, ctx)
+end
 
 local ZONES = {
   Battlefield = "battlefield", Graveyard = "graveyard", Hand = "hand", Library = "library",
@@ -53,7 +71,7 @@ end
 function abilities.build(params, svars, reasons, effects, parent, depth)
   depth = depth or 0
   local api = params.SP or params.AB or params.DB
-  local ability = { api = api, params = params, parent = parent }
+  local ability = { api = api, params = params, parent = parent, amounts = {}, svars = svars }
   local spec = effects[api]
   if spec == nil then
     reasons[#reasons + 1] = "effect " .. tostring(api)
@@ -63,6 +81,32 @@ function abilities.build(params, svars, reasons, effects, parent, depth)
     if not COMMON_PARAMS[key] and not spec.params[key] then
       reasons[#reasons + 1] = api .. " parameter " .. key
     end
+  end
+
+  for key, text in pairs(params) do
+    if AMOUNT_PARAMS[key] then
+      local fn, problem = expr.compile(text, svars)
+      if fn then
+        ability.amounts[key] = fn
+      else
+        reasons[#reasons + 1] = api .. " " .. key .. "$ " .. text .. " (" .. tostring(problem) .. ")"
+      end
+    end
+  end
+
+  -- Conditions (SpellAbilityCondition): when false, this part is skipped; its sub-abilities still run.
+  if params.ConditionCheckSVar then
+    local check, problem = expr.compile_check(params.ConditionCheckSVar, params.ConditionSVarCompare, svars)
+    if check == nil then
+      reasons[#reasons + 1] = "condition " .. tostring(problem)
+    end
+    ability.condition = check
+  elseif params.ConditionPresent then
+    local check, problem = expr.compile_present(params.ConditionPresent, params.ConditionCompare)
+    if check == nil then
+      reasons[#reasons + 1] = "condition " .. tostring(problem)
+    end
+    ability.condition = check
   end
 
   if params.ValidTgts then
@@ -83,7 +127,7 @@ function abilities.build(params, svars, reasons, effects, parent, depth)
     if zone == nil then
       reasons[#reasons + 1] = "target zone " .. tostring(params.TgtZone or params.Origin)
     end
-    local min, max = abilities.amount(params.TargetMin, 1), abilities.amount(params.TargetMax, 1)
+    local min, max = abilities.amount(params.TargetMin or "1"), abilities.amount(params.TargetMax or "1")
     if min == nil or max == nil then
       reasons[#reasons + 1] = "target count " .. tostring(params.TargetMin) .. ".." .. tostring(params.TargetMax)
     end
@@ -344,6 +388,12 @@ function abilities.resolve(game, root, ctx, effects)
   end
   for _, ability in ipairs(abilities.chain(root)) do
     local skip = ability.target and #ctx.targets[ability] == 0 and ability.target.min > 0
+    ctx.targeted_for_expr = function(kind)
+      return abilities.defined(game, ability, ctx, kind == "ParentTargeted" and "ParentTarget" or "Targeted")
+    end
+    if ability.condition and not ability.condition(game, ctx) then
+      skip = true
+    end
     if not skip then
       effects[ability.api].resolve(game, ability, ctx)
     end

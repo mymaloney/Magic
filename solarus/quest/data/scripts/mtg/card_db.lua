@@ -86,6 +86,21 @@ function card_db.build_definition(text)
     unsupported("no card type")
   end
 
+  -- Colors (CR 105.2): the Colors: line (color indicator) or the mana cost's colored symbols.
+  def.colors = {}
+  local COLOR_WORDS = { white = "W", blue = "U", black = "B", red = "R", green = "G" }
+  if face.colors then
+    for word in face.colors:gmatch("[^,]+") do
+      if COLOR_WORDS[word] then
+        def.colors[COLOR_WORDS[word]] = true
+      end
+    end
+  else
+    for symbol in (face.mana_cost or ""):gmatch("[WUBRG]") do
+      def.colors[symbol] = true
+    end
+  end
+
   local cost, cost_problem = mana.parse_cost(face.mana_cost)
   def.mana_cost = cost
   def.mana_value = mana.mana_value(cost)

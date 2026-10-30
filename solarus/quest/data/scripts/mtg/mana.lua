@@ -7,7 +7,8 @@ mana.COLORS = { "W", "U", "B", "R", "G" }
 local is_color = { W = true, U = true, B = true, R = true, G = true }
 
 -- "2 W W" -> { generic = 2, shards = { "W", "W" } }; "no cost" -> nil.
--- Returns nil plus a reason for costs the engine can't pay yet (X, hybrid, phyrexian, snow).
+-- Hybrid symbols (Forge writes {B/R} as "BR") become shards like "B/R", payable by either color.
+-- Returns nil plus a reason for costs the engine can't pay yet (X, phyrexian, 2/W, snow).
 function mana.parse_cost(text)
   if text == nil or text == "no cost" then
     return nil
@@ -18,6 +19,8 @@ function mana.parse_cost(text)
       cost.generic = cost.generic + tonumber(token)
     elseif is_color[token] or token == "C" then
       cost.shards[#cost.shards + 1] = token
+    elseif #token == 2 and is_color[token:sub(1, 1)] and is_color[token:sub(2, 2)] then
+      cost.shards[#cost.shards + 1] = token:sub(1, 1) .. "/" .. token:sub(2, 2)
     else
       return nil, "mana symbol " .. token
     end
@@ -57,13 +60,14 @@ function mana.parse_produced(text)
   return colors
 end
 
-local function produces(source, color)
+-- Which color a source pays a shard with ("W", or "W/U" for hybrid), or nil if it can't.
+local function pays_with(source, shard)
   for _, c in ipairs(source.colors) do
-    if c == color then
-      return true
+    if c == shard or (#shard == 3 and (c == shard:sub(1, 1) or c == shard:sub(3, 3))) then
+      return c
     end
   end
-  return false
+  return nil
 end
 
 -- Finds a set of sources that pays the cost. Each source is { card = ..., colors = { "W", ... } }
@@ -92,9 +96,10 @@ function mana.find_payment(cost, sources)
       return true
     end
     for _, source in ipairs(ordered) do
-      if not used[source] and produces(source, shard) then
+      local color = not used[source] and pays_with(source, shard)
+      if color then
         used[source] = true
-        assignment[#assignment + 1] = { source = source, color = shard }
+        assignment[#assignment + 1] = { source = source, color = color }
         if assign(i + 1) then
           return true
         end

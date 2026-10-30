@@ -25,6 +25,19 @@ local triggers = require("scripts/mtg/triggers")
 local Game = {}
 Game.__index = Game
 
+-- What happened this turn, for "this turn" conditions (raid, morbid, ...). Reset each turn.
+local function new_history()
+  return {
+    attackers = {},       -- [player] = number of creatures they attacked with
+    life_lost = {},       -- [player] = total life lost
+    life_gained = {},     -- [player] = number of times they gained life
+    creatures_died = 0,
+    entered = {},         -- { { card, controller } } permanents that entered the battlefield
+    cast = {},            -- { { card, player } } spells cast
+    mana_spent = {},      -- [player] = mana spent on spells
+  }
+end
+
 Game.STEPS = {
   "untap", "upkeep", "draw", "main1",
   "combat_begin", "combat_declare_attackers", "combat_declare_blockers",
@@ -55,6 +68,7 @@ function Game.new(opts)
     lands_played = 0,
     combat = nil,
     pending_triggers = {},  -- triggered abilities waiting to be put on the stack
+    history = new_history(),
     lookback = nil,         -- battlefield snapshot while a batch of simultaneous moves happens
   }, Game)
 
@@ -183,10 +197,14 @@ function Game:move(card, zone, opts)
     card.sick = true
     card.tapped = opts.tapped or false
     table.insert(card.controller.battlefield, card)
+    table.insert(self.history.entered, { card = card, controller = card.controller })
   elseif zone == "library" and opts.position == "bottom" then
     table.insert(card.owner.library, 1, card)
   elseif zone ~= "stack" then
     table.insert(card.owner[zone], card)
+  end
+  if from == "battlefield" and zone == "graveyard" and card:is_creature() then
+    self.history.creatures_died = self.history.creatures_died + 1
   end
   self:emit({ type = "zone_change", card = card, from = from, to = zone })
   triggers.collect(self, card, from, zone, lki_controller, lookback)
@@ -225,6 +243,7 @@ function Game:draw(player, count)
     end
     self:move(card, "hand")
     self:emit({ type = "draw", player = player, card = card })
+    triggers.fire(self, "Drawn", { card = card, player = player })
   end
 end
 
@@ -232,6 +251,7 @@ function Game:tap(card)
   if not card.tapped then
     card.tapped = true
     self:emit({ type = "tap", card = card })
+    triggers.fire(self, "Taps", { card = card })
   end
 end
 
@@ -245,14 +265,19 @@ end
 function Game:gain_life(player, amount)
   if amount > 0 then
     player.life = player.life + amount
+    local times = (self.history.life_gained[player] or 0) + 1
+    self.history.life_gained[player] = times
     self:emit({ type = "life", player = player, amount = amount, life = player.life })
+    triggers.fire(self, "LifeGained", { player = player, amount = amount, first = times == 1 })
   end
 end
 
 function Game:lose_life(player, amount)
   if amount > 0 then
     player.life = player.life - amount
+    self.history.life_lost[player] = (self.history.life_lost[player] or 0) + amount
     self:emit({ type = "life", player = player, amount = -amount, life = player.life })
+    triggers.fire(self, "LifeLost", { player = player, amount = amount })
   end
 end
 
@@ -478,7 +503,13 @@ function Game:perform(player, action)
     if not self:pay(player, card.def.mana_cost) then
       error("couldn't pay for " .. tostring(card))
     end
+    local spent_before = self.history.mana_spent[player] or 0
+    local spent_after = spent_before + card:mana_value()
+    self.history.mana_spent[player] = spent_after
+    table.insert(self.history.cast, { card = card, player = player })
     self:emit({ type = "cast", player = player, card = card, targets = item.ctx.targets })
+    triggers.fire(self, "SpellCast", { card = card, player = player, targets = item.ctx.targets })
+    triggers.fire(self, "ManaExpend", { player = player, before = spent_before, after = spent_after })
   end
 end
 
@@ -511,6 +542,9 @@ function Game:resolve_top()
   if item.kind == "trigger" then
     table.remove(self.stack)
     local player = item.controller
+    if item.trigger.recheck and not item.trigger.condition(self, item.ctx) then
+      return  -- intervening "if" no longer true (CR 603.4)
+    end
     if item.trigger.optional and not player.controller:confirm_optional(self, player, card, item.ability) then
       return
     end
@@ -599,12 +633,19 @@ function turn_based.combat_declare_attackers(game, player)
     error("invalid attack: " .. reason)
   end
   game.combat.attackers = attackers
+  game.history.attackers[player] = #attackers
   for _, card in ipairs(attackers) do
     if not card:has_keyword("Vigilance") then
       game:tap(card)
     end
   end
   game:emit({ type = "attackers", player = player, attackers = attackers })
+  for _, card in ipairs(attackers) do
+    triggers.fire(game, "Attacks", { card = card, player = player })
+  end
+  if #attackers > 0 then
+    triggers.fire(game, "AttackersDeclared", { player = player, attackers = attackers })
+  end
 end
 
 function turn_based.combat_declare_blockers(game, player)
@@ -626,6 +667,14 @@ function turn_based.combat_declare_blockers(game, player)
     c.blocked[block.attacker] = true
   end
   game:emit({ type = "blockers", player = defender, blocks = blocks })
+  for _, block in ipairs(blocks) do
+    triggers.fire(game, "Blocks", { card = block.blocker, player = defender })
+  end
+  for _, attacker in ipairs(c.attackers) do
+    if c.blocked[attacker] then
+      triggers.fire(game, "AttackerBlocked", { card = attacker, blockers = c.blockers_of[attacker] })
+    end
+  end
 end
 
 function turn_based.combat_first_strike_damage(game, player)
@@ -676,6 +725,9 @@ function Game:run_step(step)
   if turn_based[step] then
     turn_based[step](self, self.active)
   end
+  if not NO_PRIORITY[step] then
+    triggers.fire(self, "Phase", { step = step, player = self.active })
+  end
   if NO_PRIORITY[step] then
     -- CR 514.3a: players only get priority in cleanup if state-based actions or triggers happen.
     self:check_state_based_actions()
@@ -691,6 +743,7 @@ end
 function Game:run_turn()
   self.turn = self.turn + 1
   self.lands_played = 0
+  self.history = new_history()
   self:emit({ type = "turn", player = self.active, turn = self.turn })
   for _, step in ipairs(Game.STEPS) do
     if self.over then

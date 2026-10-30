@@ -43,6 +43,14 @@ local CARD_PROPS = {
     return combat ~= nil and combat.blocking[c] ~= nil
   end,
 }
+local COLOR_PROPS = { White = "W", Blue = "U", Black = "B", Red = "R", Green = "G" }
+for word, symbol in pairs(COLOR_PROPS) do
+  CARD_PROPS[word] = function(_, c) return c:has_color(symbol) end
+end
+CARD_PROPS.Colorless = function(_, c) return c:color_count() == 0 end
+CARD_PROPS.Multicolor = function(_, c) return c:color_count() > 1 end
+CARD_PROPS.MonoColor = function(_, c) return c:color_count() == 1 end
+
 for t in pairs(CARD_TYPES) do
   if t ~= "Card" and t ~= "Permanent" then
     CARD_PROPS[t] = function(_, c) return c:is_type(t) end   -- used negated: nonLand, nonCreature, ...
@@ -79,6 +87,11 @@ local function parse_property(word, is_player)
     test = PLAYER_PROPS[word]
   else
     test = CARD_PROPS[word]
+    local keyword = word:match("^with(%u.*)$")
+    if test == nil and keyword then
+      local kw = keyword:gsub("(%l)(%u)", "%1 %2")   -- withFirstStrike -> First Strike
+      test = function(_, c) return c:has_keyword(kw) end
+    end
     if test == nil then
       local stat, cmp, n = word:match("^(%a-)(%u%u)(%d+)$")
       if stat and NUMERIC[stat] and COMPARISONS[cmp] then

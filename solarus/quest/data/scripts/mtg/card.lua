@@ -82,6 +82,18 @@ function Card:add_pump(power, toughness, keywords)
   table.insert(self.pumps, { power = power, toughness = toughness, keywords = keywords })
 end
 
+function Card:has_color(color)
+  return self.def.colors[color] == true
+end
+
+function Card:color_count()
+  local n = 0
+  for _ in pairs(self.def.colors) do
+    n = n + 1
+  end
+  return n
+end
+
 function Card:mana_value()
   return self.def.mana_value
 end
