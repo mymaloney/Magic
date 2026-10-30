@@ -1,7 +1,0 @@
-# Butano checkout (cloned locally, see README.md)
-/butano/
-# Build output
-game/build/
-*.gba
-*.elf
-*.sav

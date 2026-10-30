@@ -1,0 +1,134 @@
+# Porting plan: Forge rules → Lua on Solarus
+
+Status: **engine target is Solarus (Lua). Quest skeleton, card sync and script parser exist;
+no rules engine yet.** Update this file as decisions are made and record them in the
+"Decisions log" at the bottom so later sessions don't re-litigate them.
+
+## Target: Solarus
+
+[Solarus](https://www.solarus-games.org) is a GPL-3.0 C++ engine for 2D action-RPGs (the
+Zelda: A Link to the Past style). Games ("quests") are Lua scripts plus data files; the engine
+supplies maps, tilesets, sprites/animations, entities, dialogs, savegames, audio, menus and input.
+That covers the non-Magic parts of the design (overworld, towns, NPCs, progression), so this
+project only writes:
+
+1. a **Magic rules engine in pure Lua**, ported from `forge-game`, and
+2. a **duel screen** (a Solarus menu) plus glue between the overworld and duels.
+
+Lua runtime: Solarus runs quests on **LuaJIT (Lua 5.1 semantics)**. Write Lua 5.1: no `//`
+integer division, no 5.3 bitwise operators, no `utf8` library. LuaJIT is available in the
+cloud container (`apt-get install -y luajit`), so pure-Lua code can be tested there.
+
+There are no memory or ROM limits worth designing around, which means the engine can mirror
+Forge's structure closely and the cards can be read straight from Forge's scripts.
+
+## Architecture
+
+```
+solarus/
+  quest/data/                    the Solarus quest (open this folder in Solarus Quest Editor)
+    quest.dat, project_db.dat    quest properties and resource list (edited by the Quest Editor)
+    main.lua                     entry point
+    cards/                       Forge scripts for the pool, copied verbatim + pool.lua index  [generated]
+    scripts/mtg/                 rules engine, PURE LUA: no sol.* calls
+    scripts/menus/               duel screen and other menus (uses sol.*)
+    maps/ sprites/ tilesets/ …   overworld content, created with the Quest Editor
+  cardpool/                      card lists + generated feature reports
+  tools/                         PC-side Python: pool report, card sync
+  tests/run.lua                  headless tests: luajit solarus/tests/run.lua
+```
+
+### Rules that keep this workable
+
+- **`scripts/mtg/` never calls `sol.*`.** All engine input/output goes through tables and
+  callbacks. This keeps the rules engine testable under plain LuaJIT and lets the UI change
+  freely.
+- **Decisions go through a controller interface**, the Lua equivalent of Forge's
+  `PlayerController`: `choose_spell_to_play`, `choose_targets`, `declare_attackers`,
+  `declare_blockers`, `choose_cards`, `confirm`, … One implementation drives the duel menu for
+  the human, another is the AI, and tests use a scripted one. Because the duel menu is
+  event-driven and the engine loop is not, run the engine loop in a **Lua coroutine** that
+  yields whenever it needs a human decision. The menu resumes it with the answer.
+- **Engine events for the UI** (card moved, damage dealt, life changed, …) are emitted as
+  plain tables, like Forge's `GameEvent*`. The duel menu animates them; the engine doesn't wait for the animations.
+
+### Card data
+
+Cards are read at runtime from Forge's own script text:
+`tools/sync_cards.py <pool>` copies the pool's scripts into `quest/data/cards/` and writes
+`cards/pool.lua`. `scripts/mtg/script_parser.lua` turns a script into tables (faces, abilities,
+triggers, statics, replacements, keywords, SVars), following Forge's parsing rules
+(`FileSection.parseToMap`). Re-run the sync after editing the pool or merging upstream Forge.
+
+The engine then interprets those tables: an `SP$`/`AB$`/`DB$` value selects an effect function
+(the Lua counterpart of `ApiType` → `*Effect.java`), `Mode$` selects trigger/static handlers,
+`Event$` selects replacement handlers, and `K:` keywords expand into abilities the way
+`CardFactoryUtil` does. Unsupported features must fail loudly: report "card X uses
+unsupported Y" at load time rather than half-working in a duel.
+
+## Scope: the card pool
+
+The minimum card pool is **`solarus/cardpool/maloney_foundations.txt`** (330 distinct cards,
+360 entries; repeated lines are extra copies). All 330 have Forge scripts.
+`solarus/cardpool/maloney_foundations_report.md` lists every feature the pool uses and which cards
+use it. **That report is the engine's feature checklist.** The pool has no basic lands; the
+game will need them added.
+
+Highlights from the report:
+- **Not needed at all:** tokens, +1/+1 or other counters, planeswalkers, double-faced/split cards,
+  hybrid/phyrexian mana.
+- **Core effects (most cards):** Draw, Mana, Pump/PumpAll, ChangeZone, Tap, DealDamage, GainLife,
+  Destroy, Discard, Scry, LoseLife, Surveil, Fight, Counter, Mill, Sacrifice, Charm.
+- **Keywords:** Flying, Haste, Enchant (Auras), Flash, Trample, Deathtouch, Vigilance, Defender,
+  First/Double Strike, Lifelink, Reach, Flashback, Menace, Prowess, Kicker, Equip, Changeling;
+  one card each for Hexproof, Ward, Crew, Cascade.
+- **Triggers:** ChangesZone (79 cards: ETB/dies/LTB) dominates; then Attacks, Phase, SpellCast,
+  AttackersDeclared, LifeGained, and singletons.
+- **Statics:** Continuous (anthems, aura/equipment boosts, Control Magic/Confiscate = layer 2
+  control change), ReduceCost, CantBlock/CantAttack, MustAttack.
+- **Replacements:** Moved = "enters tapped" lands (33 cards); DamageDone doubling on two cards.
+- **Hard singletons to schedule late:** Teach by Example (copy spell), Aurelia (extra combat),
+  Maelstrom Colossus (cascade), Cultivator's Caravan (crew/vehicles), Herald of Eternal Dawn
+  (can't lose), Roughshod Duo (expend), Angrath's Marauders / Twinflame Tyrant (damage doubling),
+  Firdoch Core (animate artifact), Mine Collapse (alternative cost), Thriving lands (choose a color
+  as it enters).
+
+Two players only (no multiplayer, Commander, Planechase, etc.).
+
+Suggested order: game state + zones + turn structure + mana + vanilla creatures + combat →
+stack and simple spells (DealDamage, Draw, Destroy, Pump) → ETB/dies triggers →
+auras/equipment/anthems (statics, layers) → the hard singletons.
+
+### Things that are deliberately simplified versus Forge
+
+Record each simplification here when made, with the Forge code it diverges from:
+- Undo, network play, `*View`/trackable classes → not ported.
+- AI simulation (`forge-ai/.../simulation`) → not ported; heuristics only.
+
+## Verifying behaviour against Forge
+
+For a rules scenario, write the same setup twice:
+1. Java: a test in `forge-gui-desktop/src/test/java/forge/ai/simulation/` style
+   (`initAndCreateGame`, `addCard`, `devModeSet`, resolve, assert), or a `.pzl` puzzle.
+2. Lua: the same board in `solarus/tests/`, asserting the same outcome.
+
+Forge is the oracle: if they disagree, the Lua side is wrong unless the divergence is listed above.
+
+## Legal notes
+
+- Forge and Solarus are both **GPL-3.0**, so the quest's Lua code (a port of Forge logic) and the
+  copied card scripts should be GPL-3.0 too; keep `LICENSE` and attribution. Solarus quest
+  *assets* (art, music) can have their own licenses; track them per file.
+- Magic: The Gathering card names, rules text, art and mana symbols belong to Wizards of the Coast.
+  Fan projects generally avoid distributing official art; consider original art.
+
+## Decisions log
+
+| Date | Decision | Why |
+|---|---|---|
+| 2026-10-29 | Docs created | Initial survey |
+| 2026-10-29 | ~~Toolchain: Butano for GBA~~ (superseded 2026-10-30) | Easiest GBA art pipeline |
+| 2026-10-29 | Minimum card pool: `cardpool/maloney_foundations.txt` | Chosen by owner |
+| 2026-10-30 | **Target Solarus (Lua) instead of GBA.** Butano skeleton removed (still in git history at commit `22b21951`) | Owner's call: Solarus handles all the non-Magic parts of the design, and Lua is easier to work in |
+| 2026-10-30 | Cards are loaded at runtime from verbatim Forge scripts, not converted to a custom format | No memory limits; stays identical to Forge and is easy to re-sync |
+| 2026-10-30 | Rules engine is pure Lua 5.1 under `scripts/mtg/`, no `sol.*`; decisions go through a controller interface, and the engine loop runs in a coroutine | Headless tests under LuaJIT; UI stays swappable |
