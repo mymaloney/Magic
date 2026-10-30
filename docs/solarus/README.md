@@ -49,8 +49,12 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [x] Additional/optional/"unless" costs, X, kicker, flashback, prowess, searching and choosing
       from zones, granted "can't block"/"doesn't untap", delayed end-step sacrifice, CDA P/T,
       damage doubling, untap lock, can't lose; 284 of 335 cards supported (2026-10-30)
-- [ ] Remaining one-offs (51 cards) listed in `solarus/cardpool/support_report.md`: temporary
-      effects (Effect), Remembered objects, type-changing Auras, Ward, Crew, Cascade, ...
+- [x] Remembered objects (RememberObjects/Sacrificed/Discarded/Changed, LKI), damage riders
+      (DamageSource, exile-if-dies), reveal-and-choose discards, owner's top/bottom choice,
+      two-player targeting restrictions, activation-count conditions, discard-to-battlefield
+      replacement, granted flashback; 309 of 335 cards supported (2026-10-30)
+- [ ] Remaining one-offs (26 cards) listed in `solarus/cardpool/support_report.md`: temporary
+      effects (Effect), floating mana, type-changing Auras, Ward, Crew, Cascade, extra combat, ...
 - [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)
 - [x] Overworld: duelist NPC in `first_map` starts a duel via `duel.start(game, options)`;
       the duel is no longer a startup menu (2026-10-30)

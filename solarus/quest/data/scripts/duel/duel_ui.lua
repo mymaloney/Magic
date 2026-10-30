@@ -286,6 +286,12 @@ function duel_ui:advance(answer)
     self.row, self.col = 3, 1
   elseif request.kind == "arrange_top" then
     self.row, self.col = 3, 1
+  elseif request.kind == "choose_option" then
+    self.option_entries = {}
+    for i, label in ipairs(request.labels) do
+      self.option_entries[#self.option_entries + 1] = { is_option = true, value = i, label = label, detail = label }
+    end
+    self.row, self.col = 3, 1
   elseif request.kind == "choose_number" then
     self.option_entries = {}
     for n = request.min, request.max do
@@ -356,7 +362,9 @@ function duel_ui:prompt_text()
     if kind == "choose_targets" then
       title = fit("Target for ", r.source:name(), "")
     else
-      title = (r.reason == "sacrifice" and "Sacrifice " or "Discard ") .. r.min
+      local verbs = { sacrifice = "Sacrifice ", discard = "Discard ", discard_other = "They discard ",
+                      dig = "Take up to ", search = "Find up to " }
+      title = (verbs[r.reason] or "Choose ") .. ((r.reason == "dig" or r.reason == "search") and r.max or r.min)
     end
     if r.max == 1 then
       help = "Space: choose" .. (r.min == 0 and "  Enter: none" or "")
@@ -365,6 +373,9 @@ function duel_ui:prompt_text()
     end
   elseif kind == "choose_color" then
     title = fit("Color for ", r.source:name(), "")
+    help = "Space: choose"
+  elseif kind == "choose_option" then
+    title = fit("Choose for ", r.source:name(), "")
     help = "Space: choose"
   elseif kind == "choose_number" then
     title = fit(r.purpose .. " for ", r.source:name(), "")
@@ -489,7 +500,8 @@ function duel_ui:select()
     end
   elseif r.kind == "confirm_optional" then
     self:advance(true)
-  elseif r.kind == "choose_color" or r.kind == "choose_mode" or r.kind == "choose_number" then
+  elseif r.kind == "choose_color" or r.kind == "choose_mode" or r.kind == "choose_number"
+      or r.kind == "choose_option" then
     if card.is_option then
       self:advance(card.value)
     end
@@ -516,10 +528,20 @@ function duel_ui:confirm()
         chosen[#chosen + 1] = obj
       end
     end
-    if #chosen >= r.min and #chosen <= r.max then
-      self:advance(chosen)
-    else
+    local controllers_ok = true
+    if r.kind == "choose_targets" and r.ability.params.TargetsWithDifferentControllers == "True" then
+      for i = 1, #chosen do
+        for j = i + 1, #chosen do
+          controllers_ok = controllers_ok and chosen[i].controller ~= chosen[j].controller
+        end
+      end
+    end
+    if #chosen < r.min or #chosen > r.max then
       self.error_message = "Pick at least " .. r.min
+    elseif not controllers_ok then
+      self.error_message = "Pick creatures of different players"
+    else
+      self:advance(chosen)
     end
   elseif r.kind == "arrange_top" then
     local top, away = {}, {}

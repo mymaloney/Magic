@@ -24,6 +24,35 @@ local PLAYER_TYPES = { Player = true, Opponent = true, You = true }
 local CARD_PROPS = {
   Self = function(ctx, c) return c == ctx.self end,
   Other = function(ctx, c) return c ~= ctx.self end,
+  StrictlyOther = function(ctx, c) return c ~= ctx.self end,
+  Permanent = function(_, c) return c:is_permanent_card() end,
+  kicked = function(_, c) return c.kicked == true end,
+  wasCastFromGraveyard = function(_, c) return c.cast_from_graveyard == true end,
+  -- objects an ability or effect "remembers" (ctx.remembered)
+  IsRemembered = function(ctx, c)
+    for _, r in ipairs(ctx.remembered or {}) do
+      if r == c then
+        return true
+      end
+    end
+    return false
+  end,
+  -- attacking creatures blocked by a remembered creature (Ride Down)
+  blockedByRemembered = function(ctx, c)
+    local combat = ctx.game.combat
+    if combat == nil then
+      return false
+    end
+    for _, blocker in ipairs(combat.blockers_of[c] or {}) do
+      for _, r in ipairs(ctx.remembered or {}) do
+        if r == blocker then
+          return true
+        end
+      end
+    end
+    return false
+  end,
+  cmcEQX = function(ctx, c) return c:mana_value() == (ctx.x or 0) end,
   YouCtrl = function(ctx, c) return ctx.controller(c) == ctx.you end,
   OppCtrl = function(ctx, c) return ctx.controller(c) ~= ctx.you end,
   YouDontCtrl = function(ctx, c) return ctx.controller(c) ~= ctx.you end,
@@ -104,6 +133,11 @@ local function parse_property(word, is_player)
       local kw = keyword:gsub("(%l)(%u)", "%1 %2")   -- withFirstStrike -> First Strike
       test = function(_, c) return c:has_keyword(kw) end
     end
+    local without = word:match("^without(%u.*)$")
+    if test == nil and without then
+      local kw = without:gsub("(%l)(%u)", "%1 %2")
+      test = function(_, c) return not c:has_keyword(kw) end
+    end
     if test == nil and filter.known_subtypes[word] then
       local subtype = word
       test = function(_, c) return c:has_subtype(subtype) end
@@ -183,7 +217,8 @@ end
 -- (controller defaults to card.controller; trigger checks pass the last-known controller instead).
 function filter.matches(parsed, obj, ctx)
   local controller = ctx.controller or function(c) return c.controller end
-  local full_ctx = { game = ctx.game, you = ctx.you, self = ctx.self, controller = controller }
+  local full_ctx = { game = ctx.game, you = ctx.you, self = ctx.self, controller = controller,
+                     remembered = ctx.remembered or (ctx.self and ctx.self.remembered), x = ctx.x }
   for _, alt in ipairs(parsed) do
     local ok
     if alt.kind == "player" then

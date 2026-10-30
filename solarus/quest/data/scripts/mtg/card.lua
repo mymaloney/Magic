@@ -160,6 +160,11 @@ function Card:reset_state()
   self.mods = nil
   self.controller = self.owner
   self.base_controller = self.owner
+  self.kicked = nil                  -- entered from a kicked spell
+  self.cast_from_graveyard = nil     -- on the stack after being cast from a graveyard
+  self.granted_flashback_turn = nil  -- turn it was given flashback (Flashback, Sphinx of Forgotten Lore)
+  self.exile_if_dies_turn = nil      -- turn of an "if it would die this turn, exile it instead" effect
+  self.skip_next_untap = nil
 end
 
 return Card

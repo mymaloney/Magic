@@ -94,6 +94,20 @@ local function best_targets(game, player, ability, candidates, min, max)
 end
 
 function ai:choose_targets(game, player, ability, candidates, min, max, ctx)
+  if ability.params.TargetsWithDifferentControllers == "True" then
+    -- one of each side: the opponent's best and our least valuable (Run Away Together)
+    local theirs, ours
+    for _, c in ipairs(candidates) do
+      if c.life == nil then
+        if c.controller ~= player and (theirs == nil or value(c) > value(theirs)) then
+          theirs = c
+        elseif c.controller == player and (ours == nil or value(c) < value(ours)) then
+          ours = c
+        end
+      end
+    end
+    return (theirs and ours) and { theirs, ours } or {}
+  end
   if ability.params.KW == "Haste" then
     for _, c in ipairs(candidates) do   -- haste goes on a creature that can't attack yet
       if c.life == nil and c.controller == player and c.sick then
@@ -121,6 +135,11 @@ end
 
 function ai:choose_number(game, player, min, max, purpose, source)
   return max
+end
+
+-- Generic either/or choice. Library placement of its own card: the top.
+function ai:choose_option(game, player, source, labels)
+  return 1
 end
 
 -- The color that appears most in the mana costs of the cards it owns.
@@ -210,7 +229,8 @@ local function spell_is_good(game, player, card)
 end
 
 function ai:choose_cards(game, player, cards, min, max, reason)
-  local best_first = reason == "dig" or reason == "search"   -- taking cards: the best; paying costs: the worst
+  -- taking cards (or picking an opponent's discard): the best; paying costs: the worst
+  local best_first = reason == "dig" or reason == "search" or reason == "discard_other"
   local sorted = {}
   for i, c in ipairs(cards) do
     sorted[i] = c

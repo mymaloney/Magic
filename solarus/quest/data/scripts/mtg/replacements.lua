@@ -73,6 +73,19 @@ function replacements.parse(def, params, svars, reasons, effects)
     reasons[#reasons + 1] = "replacement " .. tostring(params.Event)
     return
   end
+  if params.Discard == "True" then
+    -- "If a spell or ability an opponent controls causes you to discard this, put it onto the
+    -- battlefield instead" (Wilt-Leaf Liege); handled by Game:discard.
+    check_params(params, { Event = true, ActiveZones = true, ValidCard = true, ValidCause = true, Discard = true,
+                           EffectOnly = true, ReplaceWith = true, Description = true }, reasons)
+    local text = params.ReplaceWith and svars[params.ReplaceWith] or ""
+    if params.ValidCard ~= "Card.Self" or params.ValidCause ~= "SpellAbility.OppCtrl"
+        or not text:find("Destination$ Battlefield", 1, true) then
+      reasons[#reasons + 1] = "replacement Moved on discard"
+    end
+    def.opponent_discard_to_battlefield = true
+    return
+  end
   for key in pairs(params) do
     if not MOVED_PARAMS[key] then
       reasons[#reasons + 1] = "replacement parameter " .. key

@@ -24,6 +24,8 @@ local COMMON_PARAMS = {
   ConditionCheckSVar = true, ConditionSVarCompare = true, ConditionPresent = true, ConditionCompare = true,
   ConditionDescription = true, ValidTgtsDesc = true,
   Cost = true, CostDesc = true, UnlessCost = true, UnlessSwitched = true, UnlessPayer = true, Condition = true,
+  RememberObjects = true, ConditionDefined = true, ConditionActivationLimit = true, TargetUnique = true,
+  TargetsWithDefinedController = true, TargetsWithDifferentControllers = true,
 }
 
 -- Parameters holding amounts; compiled with expr.compile into ability.amounts[key].
@@ -50,11 +52,12 @@ abilities.ZONES = ZONES
 local DEFINED_CARDS = {
   Self = true, Targeted = true, TargetedCard = true, ParentTarget = true,
   TriggeredCard = true, TriggeredCardLKICopy = true, Enchanted = true, Equipped = true,
+  Remembered = true, RememberedCard = true, TriggeredAttackerLKICopy = true, TriggeredAttacker = true,
 }
 local DEFINED_PLAYERS = {
   You = true, Opponent = true, ["Player.Opponent"] = true, Player = true,
   TargetedPlayer = true, TargetedController = true, TargetedOwner = true, TriggeredCardController = true,
-  TriggeredPlayer = true, TriggeredCardOwner = true,
+  TriggeredPlayer = true, TriggeredCardOwner = true, TriggeredDefendingPlayer = true, ["Player.Other"] = true,
 }
 abilities.DEFINED_CARDS = DEFINED_CARDS
 abilities.DEFINED_PLAYERS = DEFINED_PLAYERS
@@ -86,7 +89,7 @@ function abilities.build(params, svars, reasons, effects, parent, depth)
   end
 
   for key, text in pairs(params) do
-    if AMOUNT_PARAMS[key] then
+    if AMOUNT_PARAMS[key] and not (key == "NumAtt" and text == "Double") then
       local fn, problem = expr.compile(text, svars)
       if fn then
         ability.amounts[key] = fn
@@ -127,12 +130,47 @@ function abilities.build(params, svars, reasons, effects, parent, depth)
       reasons[#reasons + 1] = "condition " .. tostring(problem)
     end
     ability.condition = check
+  elseif params.ConditionPresent and params.ConditionDefined then
+    -- count of the Defined objects matching ConditionPresent, compared
+    local parsed, problem = filter.parse(params.ConditionPresent)
+    local compare = expr.compile_compare(params.ConditionCompare or "GE1")
+    if parsed == nil or compare == nil then
+      reasons[#reasons + 1] = "condition " .. tostring(problem or params.ConditionCompare)
+    end
+    local defined_text = params.ConditionDefined
+    ability.condition = function(game, ctx)
+      local n = 0
+      for _, obj in ipairs(abilities.defined(game, ability, ctx, defined_text)) do
+        if filter.matches(parsed, obj, abilities.filter_ctx(ctx)) then
+          n = n + 1
+        end
+      end
+      return compare(n)
+    end
+    if not DEFINED_CARDS[defined_text] and not DEFINED_PLAYERS[defined_text] then
+      reasons[#reasons + 1] = "ConditionDefined " .. defined_text
+    end
   elseif params.ConditionPresent then
     local check, problem = expr.compile_present(params.ConditionPresent, params.ConditionCompare)
     if check == nil then
       reasons[#reasons + 1] = "condition " .. tostring(problem)
     end
     ability.condition = check
+  elseif params.ConditionActivationLimit then
+    -- "if this is the Nth time this ability has resolved/been activated this turn"
+    local compare = expr.compile_compare(params.ConditionActivationLimit)
+    if compare == nil then
+      reasons[#reasons + 1] = "ConditionActivationLimit$ " .. params.ConditionActivationLimit
+    end
+    ability.condition = function(game, ctx)
+      return ctx.activation_index ~= nil and compare(game:activation_count(ctx.source, ctx.activation_index))
+    end
+  end
+  if params.RememberObjects then
+    local d = params.RememberObjects
+    if not DEFINED_CARDS[d] and not DEFINED_PLAYERS[d] then
+      reasons[#reasons + 1] = "RememberObjects " .. d
+    end
   end
 
   if params.ValidTgts then
@@ -209,8 +247,9 @@ local function is_player(obj)
 end
 
 local function filter_ctx(ctx)
-  return { game = ctx.game, you = ctx.controller, self = ctx.source }
+  return { game = ctx.game, you = ctx.controller, self = ctx.source, remembered = ctx.remembered, x = ctx.x_paid }
 end
+abilities.filter_ctx = filter_ctx
 
 -- Is obj a legal target for this ability right now? (CR 115, 702.11 hexproof)
 function abilities.is_legal_target(ability, obj, ctx)
@@ -233,7 +272,52 @@ function abilities.is_legal_target(ability, obj, ctx)
   return true
 end
 
+local function owner_or_controller(obj)
+  if obj.life ~= nil then
+    return obj
+  end
+  return obj.zone == "battlefield" and obj.controller or obj.owner
+end
+
+-- Extra restrictions some abilities put on their targets (TargetUnique, TargetsWithDefinedController).
+local function passes_target_restrictions(game, ability, obj, ctx)
+  local p = ability.params
+  if p.TargetUnique == "True" then
+    for other, list in pairs(ctx.targets or {}) do
+      if other ~= ability then
+        for _, t in ipairs(list) do
+          if t == obj then
+            return false
+          end
+        end
+      end
+    end
+  end
+  if p.TargetsWithDefinedController then
+    local allowed = abilities.defined(game, ability, ctx, p.TargetsWithDefinedController)
+    local ok = false
+    for _, player in ipairs(allowed) do
+      ok = ok or owner_or_controller(obj) == player
+    end
+    if not ok then
+      return false
+    end
+  end
+  return true
+end
+
 function abilities.target_candidates(game, ability, ctx)
+  local raw = abilities.raw_target_candidates(game, ability, ctx)
+  local list = {}
+  for _, obj in ipairs(raw) do
+    if passes_target_restrictions(game, ability, obj, ctx) then
+      list[#list + 1] = obj
+    end
+  end
+  return list
+end
+
+function abilities.raw_target_candidates(game, ability, ctx)
   local list = {}
   local spec = ability.target
   if filter.includes_players(spec.filter) then
@@ -340,6 +424,15 @@ function abilities.choose_targets(game, root, ctx)
       if #chosen < spec.min or #chosen > spec.max then
         error("chose " .. #chosen .. " targets, need " .. spec.min .. ".." .. spec.max)
       end
+      if ability.params.TargetsWithDifferentControllers == "True" then
+        for i = 1, #chosen do
+          for j = i + 1, #chosen do
+            if owner_or_controller(chosen[i]) == owner_or_controller(chosen[j]) then
+              error("targets must have different controllers")
+            end
+          end
+        end
+      end
       local seen = {}
       for _, obj in ipairs(chosen) do
         local found = false
@@ -384,14 +477,23 @@ function abilities.defined(game, ability, ctx, text)
   end
   if text == "You" then
     return { ctx.controller }
-  elseif text == "Opponent" or text == "Player.Opponent" then
+  elseif text == "Opponent" or text == "Player.Opponent" or text == "Player.Other" then
     return { game:opponent(ctx.controller) }
   elseif text == "Player" then
     return { game.players[1], game.players[2] }
   elseif text == "Self" then
     return { ctx.source }
-  elseif text == "TriggeredCard" or text == "TriggeredCardLKICopy" then
+  elseif text == "TriggeredCard" or text == "TriggeredCardLKICopy" or text == "TriggeredAttackerLKICopy"
+      or text == "TriggeredAttacker" then
     return { ctx.trigger and ctx.trigger.card }
+  elseif text == "TriggeredDefendingPlayer" then
+    return { ctx.trigger and ctx.trigger.defender }
+  elseif text == "Remembered" or text == "RememberedCard" then
+    local list = {}
+    for _, obj in ipairs(ctx.remembered or {}) do
+      list[#list + 1] = obj
+    end
+    return list
   elseif text == "TriggeredCardController" then
     return { ctx.trigger and ctx.trigger.controller }
   elseif text == "TriggeredPlayer" then
@@ -521,6 +623,12 @@ return abilities.defined(game, ability, ctx, kind == "ParentTargeted" and "Paren
     end
     if not skip then
       effects[ability.api].resolve(game, ability, ctx)
+      if ability.params.RememberObjects then
+        ctx.remembered = ctx.remembered or {}
+        for _, obj in ipairs(abilities.defined(game, ability, ctx, ability.params.RememberObjects)) do
+          table.insert(ctx.remembered, obj)
+        end
+      end
     end
   end
   return true

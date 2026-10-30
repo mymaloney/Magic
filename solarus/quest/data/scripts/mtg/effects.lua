@@ -77,27 +77,58 @@ effects.LoseLife = {
 }
 
 effects.DealDamage = {
-  params = { NumDmg = true },
+  params = { NumDmg = true, DamageSource = true, DamageMap = true, ReplaceDyingDefined = true },
   validate = function(a, r)
     number_param(a, r, "NumDmg", nil)
     require_targets_or_defined(a, r)
+    local d = a.params.DamageSource
+    if d and not abilities.DEFINED_CARDS[d] then
+      r[#r + 1] = "DamageSource$ " .. d
+    end
+    if a.params.ReplaceDyingDefined and a.params.ReplaceDyingDefined ~= "Targeted" then
+      r[#r + 1] = "ReplaceDyingDefined$ " .. a.params.ReplaceDyingDefined
+    end
   end,
   resolve = function(game, a, ctx)
+    local source = ctx.source
+    if a.params.DamageSource then
+      source = abilities.cards_of(abilities.defined(game, a, ctx, a.params.DamageSource))[1]
+      if source == nil or source.zone ~= "battlefield" then
+        return
+      end
+    end
     local hits = {}
     for _, obj in ipairs(abilities.affected(game, a, ctx)) do
-      hits[#hits + 1] = { source = ctx.source, target = obj, amount = amount(a, "NumDmg", 0) }
+      hits[#hits + 1] = { source = source, target = obj, amount = amount(a, "NumDmg", 0) }
+      if a.params.ReplaceDyingDefined and obj.life == nil then
+        obj.exile_if_dies_turn = game.turn   -- "if it would die this turn, exile it instead"
+      end
     end
     game:deal_damage_batch(hits, false)
   end,
   harmful = true,
 }
 
+effects.DamageResolve = {   -- Forge batches damage with DamageMap; ours is dealt as each part resolves
+  params = {},
+  resolve = function() end,
+  harmful = false,
+}
+
 effects.Discard = {
-  params = { NumCards = true, Mode = true },
+  params = { NumCards = true, Mode = true, DiscardValid = true, DiscardValidDesc = true, RememberDiscarded = true },
   validate = function(a, r)
     number_param(a, r, "NumCards", 1)
-    if a.params.Mode ~= "TgtChoose" and a.params.Mode ~= "Random" then
-      r[#r + 1] = "Discard Mode$ " .. tostring(a.params.Mode)
+    local mode = a.params.Mode
+    if mode ~= "TgtChoose" and mode ~= "Random" and mode ~= "RevealYouChoose" then
+      r[#r + 1] = "Discard Mode$ " .. tostring(mode)
+    end
+    if a.params.DiscardValid then
+      local parsed, problem = filter.parse(a.params.DiscardValid)
+      a.discard_valid = parsed
+      if parsed == nil then
+        r[#r + 1] = problem
+      end
     end
   end,
   resolve = function(game, a, ctx)
@@ -105,7 +136,18 @@ effects.Discard = {
       local count = math.min(amount(a, "NumCards", 1), #player.hand)
       if count > 0 then
         local cards
-        if a.params.Mode == "Random" then
+        if a.params.Mode == "RevealYouChoose" then
+          -- the player reveals their hand and the ability's controller chooses (Pilfer)
+          local valid = {}
+          for _, c in ipairs(player.hand) do
+            if a.discard_valid == nil or filter.matches(a.discard_valid, c, abilities.filter_ctx(ctx)) then
+              valid[#valid + 1] = c
+            end
+          end
+          count = math.min(count, #valid)
+          cards = count > 0 and ctx.controller.controller:choose_cards(game, ctx.controller, valid, count, count, "discard_other") or {}
+          game:emit({ type = "reveal_hand", player = player })
+        elseif a.params.Mode == "Random" then
           cards = {}
           local pool = {}
           for i, c in ipairs(player.hand) do
@@ -117,7 +159,13 @@ effects.Discard = {
         else
           cards = player.controller:choose_discard(game, player, count)
         end
-        game:discard(player, cards, count)
+        game:discard(player, cards, count, ctx.controller)
+        if a.params.RememberDiscarded == "True" then
+          ctx.remembered = ctx.remembered or {}
+          for _, c in ipairs(cards) do
+            table.insert(ctx.remembered, c)
+          end
+        end
       end
     end
   end,
@@ -159,7 +207,7 @@ effects.DestroyAll = {
     local cards = {}
     for _, player in ipairs(game.players) do
       for _, card in ipairs(player.battlefield) do
-        if filter.matches(a.valid_cards, card, { game = game, you = ctx.controller, self = ctx.source }) then
+        if filter.matches(a.valid_cards, card, abilities.filter_ctx(ctx)) then
           cards[#cards + 1] = card
         end
       end
@@ -172,7 +220,9 @@ effects.DestroyAll = {
 effects.ChangeZone = {
   params = { Origin = true, Destination = true, LibraryPosition = true, Duration = true, ChangeType = true,
              ChangeNum = true, Optional = true, Hidden = true, Mandatory = true, Tapped = true,
-             ChangeTypeDesc = true, SelectPrompt = true },
+             ChangeTypeDesc = true, SelectPrompt = true, GainControl = true, RememberChanged = true,
+             Chooser = true, DefinedPlayer = true, DestinationAlternative = true,
+             LibraryPositionAlternative = true, AlternativeDecider = true },
   target_zone = function(params) return abilities.ZONES[params.Origin] end,
   validate = function(a, r)
     local p = a.params
@@ -182,8 +232,20 @@ effects.ChangeZone = {
     if p.Duration and (p.Duration ~= "UntilHostLeavesPlay" or p.Destination ~= "Exile") then
       r[#r + 1] = "ChangeZone Duration$ " .. p.Duration
     end
-    if p.Destination == "Library" and p.LibraryPosition ~= "0" and p.LibraryPosition ~= "-1" then
+    if p.DestinationAlternative then
+      -- "its owner puts it on the top or bottom of their library" (Uncharted Voyage)
+      if p.Destination ~= "Library" or p.DestinationAlternative ~= "Library" or p.LibraryPositionAlternative ~= "-1"
+          or p.AlternativeDecider ~= "TargetedOwner" then
+        r[#r + 1] = "ChangeZone DestinationAlternative"
+      end
+    elseif p.Destination == "Library" and p.LibraryPosition ~= "0" and p.LibraryPosition ~= "-1" then
       r[#r + 1] = "ChangeZone LibraryPosition$ " .. tostring(p.LibraryPosition)
+    end
+    if p.GainControl and p.GainControl ~= "True" then
+      r[#r + 1] = "ChangeZone GainControl$ " .. p.GainControl
+    end
+    if (p.Chooser or p.DefinedPlayer) and (p.Chooser ~= "Targeted" or p.DefinedPlayer ~= "Targeted") then
+      r[#r + 1] = "ChangeZone Chooser$ " .. tostring(p.Chooser)
     end
     if p.ChangeType then
       -- choose (or search for) cards in the origin zone rather than targeting them
@@ -192,7 +254,7 @@ effects.ChangeZone = {
       if parsed == nil then
         r[#r + 1] = problem
       end
-      if a.target or p.Defined then
+      if (a.target and not p.DefinedPlayer) or p.Defined then
         r[#r + 1] = "ChangeZone with ChangeType and targets"
       end
       if p.Optional and p.Optional ~= "You" and p.Optional ~= "True" then
@@ -207,16 +269,32 @@ effects.ChangeZone = {
     if a.change_type then
       -- CR 701.19: choosing from a hidden zone may fail to find; from the hand only if optional.
       local player = ctx.controller
+      local zones_of = { player }
+      if a.params.DefinedPlayer == "Targeted" then
+        -- the targeted player chooses from their own zone (Ruthless Negotiation)
+        player = abilities.players_of(ctx.targets[a] or {})[1]
+        if player == nil then
+          return
+        end
+        zones_of = { player }
+      elseif a.params.GainControl == "True" and origin == "graveyard" then
+        zones_of = game.players   -- "a creature card from a graveyard"
+      end
       local candidates = {}
-      for _, card in ipairs(player[origin]) do
-        if filter.matches(a.change_type, card, { game = game, you = player, self = ctx.source }) then
-          candidates[#candidates + 1] = card
+      for _, owner in ipairs(zones_of) do
+        for _, card in ipairs(owner[origin]) do
+          if filter.matches(a.change_type, card, { game = game, you = ctx.controller, self = ctx.source,
+                                                   remembered = ctx.remembered }) then
+            candidates[#candidates + 1] = card
+          end
         end
       end
       local n = math.min(amount(a, "ChangeNum", 1), #candidates)
       local optional = a.params.Optional ~= nil or (origin == "library" and a.params.Mandatory ~= "True")
       if n > 0 then
-        cards = player.controller:choose_cards(game, player, candidates, optional and 0 or n, n, "search") or {}
+        -- a player choosing what they lose (Ruthless Negotiation) picks differently from one searching
+        local reason = a.params.DefinedPlayer and "lose" or "search"
+        cards = player.controller:choose_cards(game, player, candidates, optional and 0 or n, n, reason) or {}
       end
       if origin == "library" then
         game:shuffle(player)
@@ -236,6 +314,19 @@ effects.ChangeZone = {
     local opts = { controller = ctx.controller, tapped = a.params.Tapped == "True" }
     if a.params.LibraryPosition == "-1" then
       opts.position = "bottom"
+    end
+    if a.params.DestinationAlternative and cards[1] then
+      local owner = cards[1].owner
+      local choice = owner.controller:choose_option(game, owner, ctx.source, { "Top of library", "Bottom of library" })
+      if choice == 2 then
+        opts.position = "bottom"
+      end
+    end
+    if a.params.RememberChanged == "True" then
+      ctx.remembered = ctx.remembered or {}
+      for _, card in ipairs(cards) do
+        table.insert(ctx.remembered, card)
+      end
     end
     if destination ~= "battlefield" then
       opts.controller = nil
@@ -274,7 +365,8 @@ local function parse_keywords(a, r)
 end
 
 local function pump(card, a)
-  card:add_pump(amount(a, "NumAtt", 0), amount(a, "NumDef", 0), a.keywords)
+  local power = a.params.NumAtt == "Double" and card:power() or amount(a, "NumAtt", 0)  -- "double its power"
+  card:add_pump(power, amount(a, "NumDef", 0), a.keywords)
 end
 
 local function pump_harmful(a)
@@ -314,14 +406,31 @@ local function apply_pump(game, card, a, ctx)
 end
 
 effects.Pump = {
-  params = { NumAtt = true, NumDef = true, KW = true, Duration = true, AtEOT = true },
+  params = { NumAtt = true, NumDef = true, KW = true, Duration = true, AtEOT = true, PumpZone = true },
   validate = function(a, r)
     number_param(a, r, "NumAtt", 0)
     number_param(a, r, "NumDef", 0)
-    parse_keywords(a, r)
+    if a.params.PumpZone then
+      -- "target card in your graveyard gains flashback until end of turn"
+      if a.params.PumpZone ~= "Graveyard" or a.params.KW ~= "Flashback" or a.params.NumAtt or a.params.NumDef then
+        r[#r + 1] = "Pump PumpZone$ " .. a.params.PumpZone
+      end
+      a.keywords = {}
+    else
+      parse_keywords(a, r)
+    end
     validate_duration(a, r)
   end,
   resolve = function(game, a, ctx)
+    if a.params.PumpZone == "Graveyard" then
+      for _, card in ipairs(abilities.cards_of(abilities.affected(game, a, ctx))) do
+        if card.zone == "graveyard" then
+          card.granted_flashback_turn = game.turn
+          game:emit({ type = "grant_flashback", card = card })
+        end
+      end
+      return
+    end
     for _, card in ipairs(abilities.cards_of(abilities.affected(game, a, ctx, "Self"))) do
       if card.zone == "battlefield" then
         apply_pump(game, card, a, ctx)
@@ -350,7 +459,7 @@ effects.PumpAll = {
     local players = a.params.Defined and abilities.players_of(abilities.defined(game, a, ctx, a.params.Defined)) or game.players
     for _, player in ipairs(players) do
       for _, card in ipairs(player.battlefield) do
-        if filter.matches(a.valid_cards, card, { game = game, you = ctx.controller, self = ctx.source }) then
+        if filter.matches(a.valid_cards, card, abilities.filter_ctx(ctx)) then
           apply_pump(game, card, a, ctx)
         end
       end
@@ -627,7 +736,7 @@ effects.Dig = {
 }
 
 effects.Sacrifice = {
-  params = { SacValid = true, Amount = true },
+  params = { SacValid = true, Amount = true, RememberSacrificed = true },
   validate = function(a, r)
     if a.params.SacValid ~= "Self" then
       local parsed, problem = filter.parse(a.params.SacValid or "")
@@ -651,7 +760,16 @@ effects.Sacrifice = {
       end
       local n = math.min(amount(a, "Amount", 1), #candidates)
       if n > 0 then
-        game:sacrifice(player.controller:choose_cards(game, player, candidates, n, n, "sacrifice"))
+        local chosen = player.controller:choose_cards(game, player, candidates, n, n, "sacrifice")
+        if a.params.RememberSacrificed == "True" then
+          ctx.remembered = ctx.remembered or {}
+          ctx.remembered_lki = ctx.remembered_lki or {}
+          for _, c in ipairs(chosen) do
+            table.insert(ctx.remembered, c)
+            ctx.remembered_lki[c] = { power = c:power(), toughness = c:toughness(), mana_value = c:mana_value() }
+          end
+        end
+        game:sacrifice(chosen)
       end
     end
   end,
@@ -727,9 +845,33 @@ effects.Branch = {
   harmful = false,
 }
 
-effects.Cleanup = {   -- clears "remembered" objects in Forge; nothing to clear here
+effects.Cleanup = {   -- forgets the objects remembered so far (ctx.remembered)
   params = { ClearRemembered = true },
-  resolve = function() end,
+  resolve = function(game, a, ctx)
+    ctx.remembered = {}
+    ctx.remembered_lki = {}
+  end,
+  harmful = false,
+}
+
+effects.UntapAll = {
+  params = { ValidCards = true },
+  validate = function(a, r)
+    local parsed, problem = filter.parse(a.params.ValidCards or "Card")
+    a.valid_cards = parsed
+    if parsed == nil then
+      r[#r + 1] = problem
+    end
+  end,
+  resolve = function(game, a, ctx)
+    for _, player in ipairs(game.players) do
+      for _, card in ipairs(player.battlefield) do
+        if filter.matches(a.valid_cards, card, abilities.filter_ctx(ctx)) then
+          game:untap(card)
+        end
+      end
+    end
+  end,
   harmful = false,
 }
 
@@ -737,7 +879,7 @@ local function all_matching(game, ctx, parsed, players)
   local list = {}
   for _, player in ipairs(players or game.players) do
     for _, card in ipairs(player.battlefield) do
-      if filter.matches(parsed, card, { game = game, you = ctx.controller, self = ctx.source }) then
+      if filter.matches(parsed, card, abilities.filter_ctx(ctx)) then
         list[#list + 1] = card
       end
     end
@@ -760,11 +902,25 @@ effects.ChangeZoneAll = {
   params = { ChangeType = true, Origin = true, Destination = true },
   validate = function(a, r)
     a.change_type = parse_valid(a, r, "ChangeType", "Card")
-    if a.params.Origin ~= "Battlefield" or a.params.Destination ~= "Hand" then
+    local ok = (a.params.Origin == "Battlefield" and a.params.Destination == "Hand")
+        or (a.params.Origin == "Graveyard" and a.params.Destination == "Battlefield")
+    if not ok then
       r[#r + 1] = "ChangeZoneAll " .. tostring(a.params.Origin) .. " -> " .. tostring(a.params.Destination)
     end
   end,
   resolve = function(game, a, ctx)
+    if a.params.Origin == "Graveyard" then
+      local cards = {}
+      for _, player in ipairs(game.players) do
+        for _, card in ipairs(player.graveyard) do
+          if filter.matches(a.change_type, card, abilities.filter_ctx(ctx)) then
+            cards[#cards + 1] = card
+          end
+        end
+      end
+      move_all(game, cards, "battlefield", { controller = ctx.controller })
+      return
+    end
     move_all(game, all_matching(game, ctx, a.change_type), "hand")
   end,
   harmful = true,
@@ -787,7 +943,7 @@ effects.DamageAll = {
     end
     if a.valid_players then
       for _, player in ipairs(game.players) do
-        if filter.matches(a.valid_players, player, { game = game, you = ctx.controller, self = ctx.source }) then
+        if filter.matches(a.valid_players, player, abilities.filter_ctx(ctx)) then
           hits[#hits + 1] = { source = ctx.source, target = player, amount = n }
         end
       end

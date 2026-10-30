@@ -42,6 +42,7 @@ local function new_history()
     cast = {},            -- { { card, player } } spells cast
     mana_spent = {},      -- [player] = mana spent on spells
     activations = {},     -- [card] = { [ability key] = times activated }
+    resolved = {},        -- [ability] = times it resolved (Count$ResolvedThisTurn)
   }
 end
 
@@ -216,6 +217,9 @@ function Game:move(card, zone, opts)
   if from == "stack" and card.cast_with_flashback and zone ~= "exile" then
     zone = "exile"   -- a flashback spell is exiled instead of going anywhere else (CR 702.34a)
   end
+  if from == "battlefield" and zone == "graveyard" and card.exile_if_dies_turn == self.turn then
+    zone = "exile"   -- "if it would die this turn, exile it instead"
+  end
   card.cast_with_flashback = nil
   local lki_controller, lookback
   if from == "battlefield" then
@@ -239,6 +243,7 @@ function Game:move(card, zone, opts)
     card.base_controller = card.controller
     card.sick = true
     card.tapped = opts.tapped or false
+    card.kicked = opts.kicked
     if opts.attach_to then
       card.attached_to = opts.attach_to
     end
@@ -267,8 +272,9 @@ function Game:move(card, zone, opts)
   end
 end
 
--- Discards exactly `count` cards chosen from the player's hand.
-function Game:discard(player, cards, count)
+-- Discards exactly `count` cards chosen from the player's hand. `cause` is the player whose
+-- spell or ability makes them discard (nil for costs and cleanup).
+function Game:discard(player, cards, count, cause)
   if #cards ~= count then
     error("must discard exactly " .. count .. " cards")
   end
@@ -278,7 +284,11 @@ function Game:discard(player, cards, count)
     end
   end
   for _, card in ipairs(cards) do
-    self:move(card, "graveyard")
+    if card.def.opponent_discard_to_battlefield and cause ~= nil and cause ~= player then
+      self:move(card, "battlefield")   -- "If an opponent causes you to discard this, put it onto the battlefield"
+    else
+      self:move(card, "graveyard")
+    end
     self:emit({ type = "discard", player = player, card = card })
   end
 end
@@ -639,10 +649,14 @@ function Game:legal_actions(player)
   end
   -- Flashback (CR 702.34): cast instants/sorceries from the graveyard for the flashback cost.
   for _, card in ipairs(player.graveyard) do
-    if card.def.supported and card.def.flashback_cost and card.def.spell then
+    local fb_cost = card.def.flashback_cost
+    if card.granted_flashback_turn == self.turn then
+      fb_cost = fb_cost or card.def.mana_cost   -- granted flashback: its mana cost (CR 702.34a)
+    end
+    if card.def.supported and fb_cost and card.def.spell then
       local timing_ok = sorcery_speed or card:is_type("Instant")
       local ctx = { game = self, source = card, controller = player }
-      if timing_ok and self:can_pay(player, card.def.flashback_cost)
+      if timing_ok and self:can_pay(player, fb_cost)
           and (card.def.extra_cost == nil or cost_lib.can_pay(self, player, card, card.def.extra_cost))
           and abilities.can_target(self, card.def.spell, ctx) then
         actions[#actions + 1] = { kind = "cast", card = card, flashback = true }
@@ -691,7 +705,7 @@ function Game:perform(player, action)
     -- CR 602.2: put on the stack, choose targets, pay costs.
     local act = card.def.activated[action.index]
     local item = { kind = "ability", card = card, controller = player, ability = act.ability,
-                   ctx = { game = self, source = card, controller = player, targets = {} } }
+                   ctx = { game = self, source = card, controller = player, targets = {}, activation_index = action.index } }
     self.stack[#self.stack + 1] = item
     if not abilities.choose_targets(self, item.ability, item.ctx) then
       error("no legal targets for " .. tostring(card))
@@ -701,9 +715,13 @@ function Game:perform(player, action)
     self:emit({ type = "activate", player = player, card = card, targets = item.ctx.targets })
   elseif action.kind == "cast" then
     -- CR 601.2: move to the stack, choose targets, pay costs.
-    local base_cost = action.flashback and card.def.flashback_cost or card.def.mana_cost
+    local base_cost = card.def.mana_cost
+    if action.flashback then
+      base_cost = card.def.flashback_cost or card.def.mana_cost
+    end
     self:move(card, "stack")
     card.cast_with_flashback = action.flashback or nil
+    card.cast_from_graveyard = action.flashback or nil
     local item = { kind = "spell", card = card, controller = player, ability = card.def.spell,
                    ctx = { game = self, source = card, controller = player, targets = {} } }
     self.stack[#self.stack + 1] = item
@@ -778,6 +796,10 @@ end
 function Game:resolve_top()
   local item = self.stack[#self.stack]
   local card = item.card
+  if item.ability then
+    self.history.resolved[item.ability] = (self.history.resolved[item.ability] or 0) + 1
+    item.ctx.root = item.ability
+  end
   self:emit({ type = "resolve", card = card, kind = item.kind })
   if item.kind == "ability" then
     table.remove(self.stack)
@@ -806,7 +828,7 @@ function Game:resolve_top()
         self:move(card, "graveyard")
       end
     else
-      self:move(card, "battlefield", { controller = item.controller })
+      self:move(card, "battlefield", { controller = item.controller, kicked = item.ctx.kicked })
     end
   else
     if item.ability and not abilities.resolve(self, item.ability, item.ctx, effects) then
@@ -910,7 +932,7 @@ function turn_based.combat_declare_attackers(game, player)
   end
   game:emit({ type = "attackers", player = player, attackers = attackers })
   for _, card in ipairs(attackers) do
-    triggers.fire(game, "Attacks", { card = card, player = player })
+    triggers.fire(game, "Attacks", { card = card, player = player, defender = game:opponent(player) })
   end
   if #attackers > 0 then
     triggers.fire(game, "AttackersDeclared", { player = player, attackers = attackers })

@@ -112,6 +112,10 @@ local function compile_base(text, svars, depth)
     if CARD_STATS[rest] then
       return function(game, ctx) return card_stat(ctx.source, rest) end
     end
+    if rest == "ResolvedThisTurn" then
+      -- times this ability has resolved this turn, including this time
+      return function(game, ctx) return ctx.root and game.history.resolved[ctx.root] or 0 end
+    end
     if rest == "AttackersDeclared" then
       return function(game, ctx) return game.history.attackers[ctx.controller] or 0 end
     elseif rest == "LifeOppsLostThisTurn" then
@@ -203,6 +207,24 @@ local function compile_base(text, svars, depth)
     local svar = svars[rest]
     if svar and depth < 10 then
       return expr.compile(svar, svars, depth + 1)
+    end
+  elseif kind == "Remembered" or kind == "RememberedLKI" then
+    if rest == "Amount" then
+      return function(game, ctx) return #(ctx.remembered or {}) end
+    end
+    if CARD_STATS[rest] then
+      local key = rest == "CardPower" and "power" or rest == "CardToughness" and "toughness" or "mana_value"
+      return function(game, ctx)
+        local first = ctx.remembered and ctx.remembered[1]
+        if first == nil or first.life ~= nil then
+          return 0
+        end
+        local lki = ctx.remembered_lki and ctx.remembered_lki[first]
+        if lki then
+          return lki[key]
+        end
+        return card_stat(first, rest)
+      end
     end
   elseif kind == "Sacrificed" then
     -- last-known characteristics of what was sacrificed to pay the cost (ctx.sacrificed)

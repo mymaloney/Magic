@@ -8,7 +8,7 @@ local card_db = require("scripts/mtg/card_db")
 local Game = require("scripts/mtg/game")
 local combat = require("scripts/mtg/combat")
 
-local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_abilities", "test_triggers", "test_activated", "test_effects", "test_statics", "test_costs", "test_full_game", "test_duel_ui" }
+local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_abilities", "test_triggers", "test_activated", "test_effects", "test_statics", "test_costs", "test_remembered", "test_full_game", "test_duel_ui" }
 
 local t = { checks = 0, failures = 0, section_name = "" }
 
@@ -112,6 +112,9 @@ function t.scripted(script)
     end,
     choose_mode = function(_, game, player, source, charm, options)
       return script.mode and script.mode(game, player, source, charm, options) or options[1]
+    end,
+    choose_option = function(_, game, player, source, labels)
+      return script.option and script.option(game, player, source, labels) or 1
     end,
     choose_number = function(_, game, player, min, max, purpose, source)
       return script.number and script.number(game, player, min, max, purpose, source) or max

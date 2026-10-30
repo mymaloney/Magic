@@ -178,6 +178,14 @@ Record each simplification here when made, with the Forge code it diverges from:
 - Duel screen: combat damage among several blockers is divided automatically (lethal to each
   in turn, rest tramples over); the AI's actions happen instantly and are reported in the log.
 - AI simulation (`forge-ai/.../simulation`) → not ported; heuristics only.
+- Damage from one spell to several targets (`DamageMap`/`DamageResolve`, e.g. Boulder Dash) is
+  dealt as each part resolves, not as one batch; this only matters for "whenever dealt damage"
+  triggers, which the pool doesn't have.
+- Remembered objects live on the resolving ability's context (`ctx.remembered`), not on the host
+  card, so they don't persist past resolution (Forge's `Card.getRemembered`). Enough for every
+  pool card that uses them.
+- Choices that Forge offers as generic "choose one" prompts (e.g. top or bottom of library) go
+  through `choose_option`; the AI always takes the first option.
 
 ## Verifying behaviour against Forge
 

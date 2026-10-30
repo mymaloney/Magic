@@ -23,6 +23,7 @@
 --             (cards[1] is the top card; away is "bottom" for scry, "graveyard" for surveil)
 --           { kind = "choose_mode", player, source, charm, options = { index, ... } } answer: index
 --           { kind = "choose_number", player, source, min, max, purpose }  answer: number (X)
+--           { kind = "choose_option", player, source, labels }    answer: index into labels
 -- The UI must only send legal answers (offer only the listed options; check blocks with
 -- combat.validate_blocks and damage with combat.validate_assignment before answering).
 
@@ -90,6 +91,10 @@ end
 
 function prompt:choose_number(game, player, min, max, purpose, source)
   return ask({ kind = "choose_number", player = player, source = source, min = min, max = max, purpose = purpose })
+end
+
+function prompt:choose_option(game, player, source, labels)
+  return ask({ kind = "choose_option", player = player, source = source, labels = labels })
 end
 
 function prompt:choose_color(game, player, source, options)
