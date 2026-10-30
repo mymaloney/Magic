@@ -102,6 +102,21 @@ return function(t)
     t.eq(#p1.battlefield, 2, "only one land played")
     t.eq(lions and lions.sick, true, "creature cast this turn is summoning sick")
     t.eq(#game.stack, 0, "stack is empty after resolving")
+    for _, card in ipairs(p1.battlefield) do
+      if card:is_land() then
+        t.eq(card.tapped, true, "the land that paid is tapped")
+      end
+    end
+  end
+
+  t.section("a land pays only once")
+  do
+    local game = t.setup({ { battlefield = { "Plains" }, hand = { "Savannah Lions", "Elite Vanguard" } }, {} })
+    local p1 = game.players[1]
+    game.step = "main1"
+    local first = game:legal_actions(p1)[1]
+    game:perform(p1, first)
+    t.eq(#game:legal_actions(p1), 0, "after paying W with the only Plains nothing else is castable")
   end
 
   t.section("summoning sickness and haste")

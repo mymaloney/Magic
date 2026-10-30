@@ -11,6 +11,8 @@
 --   choose_legend_to_keep(game, player, cards)                     -> card
 --   choose_targets(game, player, ability, candidates, min, max, ctx) -> { card or player, ... }
 --   confirm_optional(game, player, source, ability)                -> true to use a "may" trigger
+--   choose_color(game, player, source, options)                    -> one of options ("W".."G")
+--   choose_cards(game, player, cards, min, max, reason)            -> { card, ... } (reason: "sacrifice", "discard")
 -- Invalid answers raise errors: controllers must only pick legal options (combat.validate_* help).
 --
 -- Libraries keep the top card at the END of the list.
@@ -22,6 +24,7 @@ local abilities = require("scripts/mtg/abilities")
 local effects = require("scripts/mtg/effects")
 local triggers = require("scripts/mtg/triggers")
 local replacements = require("scripts/mtg/replacements")
+local cost_lib = require("scripts/mtg/cost")
 
 local Game = {}
 Game.__index = Game
@@ -36,6 +39,7 @@ local function new_history()
     entered = {},         -- { { card, controller } } permanents that entered the battlefield
     cast = {},            -- { { card, player } } spells cast
     mana_spent = {},      -- [player] = mana spent on spells
+    activations = {},     -- [card] = { [ability key] = times activated }
   }
 end
 
@@ -402,13 +406,26 @@ end
 
 -- Mana --------------------------------------------------------------------------------------------
 
+function Game:activation_count(card, key)
+  local per_card = self.history.activations[card]
+  return per_card and per_card[key] or 0
+end
+
+function Game:count_activation(card, key)
+  self.history.activations[card] = self.history.activations[card] or {}
+  self.history.activations[card][key] = self:activation_count(card, key) + 1
+end
+
+-- One source per usable mana ability: { card, colors, ability, extra, sacrifice }.
 function Game:mana_sources(player)
   local sources = {}
   for _, card in ipairs(player.battlefield) do
-    if not card.tapped and #card.def.mana_abilities > 0
-        and not (card:is_creature() and card.sick and not card:has_keyword("Haste")) then
-      local colors, seen = {}, {}
-      for _, ability in ipairs(card.def.mana_abilities) do
+    local sick = card:is_creature() and card.sick and not card:has_keyword("Haste")
+    for i, ability in ipairs(card.def.mana_abilities) do
+      local usable = not (ability.tap and (card.tapped or sick))
+          and (ability.limit == nil or self:activation_count(card, "mana" .. i) < ability.limit)
+      if usable then
+        local colors, seen = {}, {}
         for _, c in ipairs(ability.colors) do
           if c == "Chosen" then
             c = card.chosen_color
@@ -418,13 +435,26 @@ function Game:mana_sources(player)
             colors[#colors + 1] = c
           end
         end
-      end
-      if #colors > 0 then
-        sources[#sources + 1] = { card = card, colors = colors }
+        if #colors > 0 then
+          sources[#sources + 1] = { card = card, colors = colors, ability = ability, key = "mana" .. i,
+                                    extra = ability.extra, sacrifice = ability.sacrifice }
+        end
       end
     end
   end
   return sources
+end
+
+-- Sacrifices permanents (CR 701.17), together.
+function Game:sacrifice(cards)
+  self:with_lookback(function()
+    for _, card in ipairs(cards) do
+      if card.zone == "battlefield" then
+        self:emit({ type = "sacrifice", card = card })
+        self:move(card, "graveyard")
+      end
+    end
+  end)
 end
 
 function Game:can_pay(player, cost)
@@ -434,15 +464,27 @@ function Game:can_pay(player, cost)
   return mana.find_payment(cost, self:mana_sources(player)) ~= nil
 end
 
--- Taps sources to pay the cost (mana abilities don't use the stack). Returns true if paid.
-function Game:pay(player, cost)
-  local payment = mana.find_payment(cost, self:mana_sources(player))
+-- Activates mana abilities to pay the cost (they don't use the stack). Returns true if paid.
+-- `sources` defaults to all of the player's mana sources.
+function Game:pay(player, cost, sources)
+  local payment = mana.find_payment(cost, sources or self:mana_sources(player))
   if payment == nil then
     return false
   end
+  local sacrificed = {}
   for _, p in ipairs(payment) do
-    self:tap(p.source.card)
-    self:emit({ type = "mana", player = player, source = p.source.card, color = p.color })
+    local source = p.source
+    if source.ability.tap then
+      self:tap(source.card)
+    end
+    self:count_activation(source.card, source.key)
+    if source.sacrifice then
+      sacrificed[#sacrificed + 1] = source.card
+    end
+    self:emit({ type = "mana", player = player, source = source.card, color = p.color })
+  end
+  if #sacrificed > 0 then
+    self:sacrifice(sacrificed)
   end
   return true
 end
@@ -461,6 +503,12 @@ end
 function Game:legal_actions(player)
   local actions = {}
   local sorcery_speed = self:can_act_at_sorcery_speed(player)
+  for _, card in ipairs(player.battlefield) do
+    self:add_activations(actions, player, card, "battlefield")
+  end
+  for _, card in ipairs(player.graveyard) do
+    self:add_activations(actions, player, card, "graveyard")
+  end
   for _, card in ipairs(player.hand) do
     if not card.def.supported then
       -- Unsupported cards can sit in hand (e.g. created by tests) but can never be played.
@@ -480,9 +528,25 @@ function Game:legal_actions(player)
   return actions
 end
 
+-- Activated abilities of `card` (in `zone`) that `player` can activate now.
+function Game:add_activations(actions, player, card, zone)
+  if not card.def.supported or card.controller ~= player then
+    return
+  end
+  for i, act in ipairs(card.def.activated) do
+    if act.zone == zone
+        and (not act.sorcery or self:can_act_at_sorcery_speed(player))
+        and (act.limit == nil or self:activation_count(card, i) < act.limit)
+        and cost_lib.can_pay(self, player, card, act.cost)
+        and abilities.can_target(self, act.ability, { game = self, source = card, controller = player }) then
+      actions[#actions + 1] = { kind = "activate", card = card, index = i }
+    end
+  end
+end
+
 local function is_legal(actions, action)
   for _, a in ipairs(actions) do
-    if a.kind == action.kind and a.card == action.card then
+    if a.kind == action.kind and a.card == action.card and a.index == action.index then
       return true
     end
   end
@@ -498,6 +562,18 @@ function Game:perform(player, action)
     self.lands_played = self.lands_played + 1
     self:move(card, "battlefield")
     self:emit({ type = "play_land", player = player, card = card })
+  elseif action.kind == "activate" then
+    -- CR 602.2: put on the stack, choose targets, pay costs.
+    local act = card.def.activated[action.index]
+    local item = { kind = "ability", card = card, controller = player, ability = act.ability,
+                   ctx = { game = self, source = card, controller = player, targets = {} } }
+    self.stack[#self.stack + 1] = item
+    if not abilities.choose_targets(self, item.ability, item.ctx) then
+      error("no legal targets for " .. tostring(card))
+    end
+    self:count_activation(card, action.index)
+    cost_lib.pay(self, player, card, act.cost)
+    self:emit({ type = "activate", player = player, card = card, targets = item.ctx.targets })
   elseif action.kind == "cast" then
     -- CR 601.2: move to the stack, choose targets, pay costs.
     self:move(card, "stack")
@@ -546,7 +622,12 @@ function Game:resolve_top()
   local item = self.stack[#self.stack]
   local card = item.card
   self:emit({ type = "resolve", card = card, kind = item.kind })
-  if item.kind == "trigger" then
+  if item.kind == "ability" then
+    table.remove(self.stack)
+    if not abilities.resolve(self, item.ability, item.ctx, effects) then
+      self:emit({ type = "fizzle", card = card })
+    end
+  elseif item.kind == "trigger" then
     table.remove(self.stack)
     local player = item.controller
     if item.trigger.recheck and not item.trigger.condition(self, item.ctx) then

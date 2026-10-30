@@ -38,6 +38,8 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [ ] Activated abilities (AB$ Pump/Draw/Destroy/...), Scry/Surveil, Fight, Charm, X costs
 - [x] Replacements: enters tapped (incl. conditional Duskmourn lands), choose a color as it
       enters + chosen-color mana; 161 of 335 cards supported (2026-10-30)
+- [x] Activated abilities with mana/tap/sacrifice/discard costs, activation limits, filter and
+      sacrifice mana sources; AI and duel screen use them; 192 of 335 cards supported (2026-10-30)
 - [ ] Statics/layers (anthems, auras, equipment, control change), remaining replacements
       (damage doubling, can't lose, untap lock)
 - [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)

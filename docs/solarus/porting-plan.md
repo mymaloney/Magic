@@ -82,6 +82,7 @@ unsupported Y" at load time rather than half-working in a duel.
 | `effects.lua` | Effects by API with a parameter whitelist each: Draw, GainLife, LoseLife, DealDamage, Discard, Destroy, DestroyAll, ChangeZone, Pump, PumpAll, Tap, Untap, Mill, Counter | `ability/effects/*Effect` |
 | `expr.lua` | SVar amounts and conditions: numbers, `X`, `Count$Valid…`, `Count$Morbid.a.b`, `Count$AttackersDeclared`, `ThisTurnCast_…`, `PlayerCountPlayers$…`, `TriggerCount$…`, math suffixes (`/Twice`, `/Plus.N`); `CheckSVar`/`IsPresent`-style compares | `AbilityUtils.calculateAmount`, `xCount`, `doXMath` |
 | `triggers.lua` | Trigger modes ChangesZone, Attacks, AttackersDeclared, Blocks, AttackerBlocked, Phase, SpellCast, Drawn, LifeGained, LifeLost, Taps, ManaExpend; intervening-if conditions rechecked on resolution; queueing | `TriggerHandler`, `Trigger<Mode>` |
+| `cost.lua` | Activated-ability costs: mana, {T}, `Sac<n/...>`, `Discard<n/...>`, `PayLife<n>`; can-pay checks and payment (choices via `choose_cards`) | `Cost`, `CostPart*`, `CostPayment` |
 | `replacements.lua` | Enters-the-battlefield replacements: "enters tapped" (with conditions) and `K:ETBReplacement` (choose a color); applied inside `game:move` before anything sees the card enter | `ReplaceMoved`, `ReplacementHandler` |
 | `combat.lua` | Attack/block legality (flying, reach, menace, defender, haste), damage assignment (current rules, trample), first/double strike steps | `CombatUtil`, `Combat` |
 | `controllers/ai.lua` | Heuristic AI | `AiController`, `AiAttackController`, `AiBlockController` |
@@ -97,7 +98,11 @@ Duel screen, outside the engine:
 
 Controller interface (all called as `controller:method(game, player, ...)`): `choose_action`,
 `declare_attackers`, `declare_blockers`, `assign_combat_damage`, `choose_discard`,
-`choose_legend_to_keep`, `choose_targets`, `confirm_optional`.
+`choose_legend_to_keep`, `choose_targets`, `confirm_optional`, `choose_color`, `choose_cards`.
+
+Activated abilities (`def.activated`) appear as `{ kind = "activate", card, index }` actions and go
+on the stack as `kind = "ability"` items. Mana abilities with costs (`{1}, {T}: any color`,
+sacrifice-for-mana, once-per-turn) are used by auto-pay as sources with `extra`/`sacrifice`.
 
 `game.history` records this turn's attacks, life lost/gained, creature deaths, permanents
 entering, spells cast and mana spent (for raid, morbid, "second spell" and similar).

@@ -94,6 +94,13 @@ local function best_targets(game, player, ability, candidates, min, max)
 end
 
 function ai:choose_targets(game, player, ability, candidates, min, max, ctx)
+  if ability.params.KW == "Haste" then
+    for _, c in ipairs(candidates) do   -- haste goes on a creature that can't attack yet
+      if c.life == nil and c.controller == player and c.sick then
+        return { c }
+      end
+    end
+  end
   return (best_targets(game, player, ability, candidates, min, max))
 end
 
@@ -154,6 +161,97 @@ local function spell_is_good(game, player, card)
   return true
 end
 
+function ai:choose_cards(game, player, cards, min, max, reason)
+  local sorted = {}
+  for i, c in ipairs(cards) do
+    sorted[i] = c
+  end
+  table.sort(sorted, function(a, b)
+    if value(a) ~= value(b) then
+      return value(a) < value(b)
+    end
+    return a.id < b.id
+  end)
+  local chosen = {}
+  for i = 1, min do
+    chosen[i] = sorted[i]
+  end
+  return chosen
+end
+
+local function count_lands(player)
+  local n = 0
+  for _, c in ipairs(player.battlefield) do
+    if c:is_land() then
+      n = n + 1
+    end
+  end
+  return n
+end
+
+-- Is activating this ability a good idea right now?
+local function activation_is_good(game, player, card, act)
+  local api = act.ability.api
+  local top = game.stack[#game.stack]
+  local my_turn = player == game:active_player()
+  -- what we'd give up
+  for _, part in ipairs(act.cost.sacrifice) do
+    if not part.self then
+      return false
+    end
+    if card:is_land() and count_lands(player) <= 5 then
+      return false
+    end
+  end
+  if #act.cost.discard > 0 and #player.hand < 3 then
+    return false
+  end
+  local sacrifices_self = #act.cost.sacrifice > 0
+  if top ~= nil then
+    return false
+  end
+  local timing
+  if api == "Draw" then
+    timing = (not my_turn and game.step == "end_of_turn") or (my_turn and game.step == "main2" and not sacrifices_self)
+  elseif (api == "Pump" or api == "PumpAll") and not effects.is_harmful(act.ability) then
+    if act.ability.params.KW == "Haste" then
+      timing = my_turn and game.step == "main1"
+    else
+      timing = game.step == "combat_declare_blockers"
+    end
+  else
+    timing = my_turn and game:is_main_phase()
+  end
+  if not timing then
+    return false
+  end
+  local ctx = { game = game, source = card, controller = player, targets = {} }
+  for _, ability in ipairs(abilities.chain(act.ability)) do
+    if ability.target then
+      local candidates = abilities.target_candidates(game, ability, ctx)
+      local _, best = best_targets(game, player, ability, candidates, ability.target.min, ability.target.max)
+      if best < 1000 then
+        return false
+      end
+      if ability.params.KW == "Haste" then
+        local any_sick = false
+        for _, c in ipairs(candidates) do
+          any_sick = any_sick or (c.life == nil and c.controller == player and c.sick and c ~= card)
+        end
+        if not any_sick then
+          return false
+        end
+      elseif ability.api == "Pump" and not effects.is_harmful(ability) and best < 1500 then
+        return false
+      end
+    elseif ability == act.ability and (api == "Pump" or api == "PumpAll") and not in_combat(game, card)
+        and api == "Pump" then
+      return false  -- self-pumps only matter in combat
+    end
+  end
+  return true
+end
+
 function ai:choose_action(game, player, actions)
   for _, action in ipairs(actions) do
     if action.kind == "play_land" then
@@ -183,6 +281,10 @@ function ai:choose_action(game, player, actions)
         if timing and spell_is_good(game, player, card) and best == nil then
           best = action
         end
+      end
+    elseif action.kind == "activate" and best == nil then
+      if activation_is_good(game, player, card, card.def.activated[action.index]) then
+        best = action
       end
     end
   end

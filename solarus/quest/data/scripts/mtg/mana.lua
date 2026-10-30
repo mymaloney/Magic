@@ -71,40 +71,59 @@ local function pays_with(source, shard)
   return nil
 end
 
--- Finds a set of sources that pays the cost. Each source is { card = ..., colors = { "W", ... } }
--- and taps for one mana of one of its colors. Returns a list of { source, color } or nil.
--- Colored shards are matched first (backtracking, narrow sources first); generic uses whatever is left,
--- preferring the sources that can make the fewest colors.
+-- Finds a set of sources that pays the cost. Each source is
+--   { card = ..., colors = { "W", ... }, extra = n (optional), sacrifice = bool (optional) }
+-- and makes one mana of one of its colors. A card may appear in several sources (one per mana
+-- ability) but is used at most once. `extra` means the ability itself costs n more generic mana
+-- (filters like "{1}, {T}: Add one mana of any color"); `sacrifice` means using it sacrifices the card.
+-- Returns a list of { source, color } or nil.
+-- Colored shards are matched first (backtracking; narrow, free sources first); generic is paid with
+-- whatever plain sources are left (filters and sacrifice sources are never spent on generic).
 function mana.find_payment(cost, sources)
-  if #cost.shards + cost.generic > #sources then
-    return nil
+  local function penalty(s)
+    return ((s.extra or 0) > 0 or s.sacrifice) and 10 or 0
   end
   local ordered = {}
   for i, s in ipairs(sources) do
     ordered[i] = s
   end
   table.sort(ordered, function(a, b)
-    if #a.colors ~= #b.colors then
-      return #a.colors < #b.colors
+    local pa, pb = penalty(a) + #a.colors, penalty(b) + #b.colors
+    if pa ~= pb then
+      return pa < pb
     end
     return a.card.id < b.card.id
   end)
 
   local used, assignment = {}, {}
+  local extra_needed = 0
+
+  local function plain_left()
+    local n = 0
+    for _, s in ipairs(ordered) do
+      if not used[s.card] and penalty(s) == 0 then
+        n = n + 1
+      end
+    end
+    return n
+  end
+
   local function assign(i)
     local shard = cost.shards[i]
     if shard == nil then
-      return true
+      return plain_left() >= cost.generic + extra_needed
     end
     for _, source in ipairs(ordered) do
-      local color = not used[source] and pays_with(source, shard)
+      local color = not used[source.card] and pays_with(source, shard)
       if color then
-        used[source] = true
+        used[source.card] = true
+        extra_needed = extra_needed + (source.extra or 0)
         assignment[#assignment + 1] = { source = source, color = color }
         if assign(i + 1) then
           return true
         end
-        used[source] = nil
+        used[source.card] = nil
+        extra_needed = extra_needed - (source.extra or 0)
         assignment[#assignment] = nil
       end
     end
@@ -114,13 +133,13 @@ function mana.find_payment(cost, sources)
     return nil
   end
 
-  local generic = cost.generic
+  local generic = cost.generic + extra_needed
   for _, source in ipairs(ordered) do
     if generic == 0 then
       break
     end
-    if not used[source] then
-      used[source] = true
+    if not used[source.card] and penalty(source) == 0 then
+      used[source.card] = true
       assignment[#assignment + 1] = { source = source, color = source.colors[1] }
       generic = generic - 1
     end

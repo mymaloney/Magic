@@ -4,7 +4,8 @@
 --   { name, mana_cost (mana.parse_cost), mana_value, supertypes = {Legendary=true}, types = {Creature=true},
 --     subtypes = { "Cat", "Soldier" }, power, toughness, keywords = { Flying = true },
 --     mana_abilities = { { colors = { "G" } } }, spell = ability chain (instants/sorceries),
---     triggers = { trigger, ... }, supported, unsupported = { "reason", ... }, script }
+--     triggers = { trigger, ... }, activated = { { ability, cost, limit, zone, sorcery } },
+--     etb_replacements = { ability, ... }, supported, unsupported = { "reason", ... }, script }
 -- Unsupported cards still load (so the UI can show them) but can't be put into a duel deck.
 -- Reference: forge-game card/CardFactory.readCardFace, card/CardFactoryUtil (keywords).
 
@@ -15,6 +16,7 @@ local abilities = require("scripts/mtg/abilities")
 local effects = require("scripts/mtg/effects")
 local triggers = require("scripts/mtg/triggers")
 local replacements = require("scripts/mtg/replacements")
+local cost_lib = require("scripts/mtg/cost")
 
 local card_db = {}
 
@@ -31,10 +33,13 @@ card_db.SUPPORTED_KEYWORDS = keywords.SUPPORTED
 -- Card types the engine can cast/play so far.
 local PLAYABLE_TYPES = { Creature = true, Artifact = true, Land = true, Instant = true, Sorcery = true }
 
-local MANA_ABILITY_PARAMS = { AB = true, Cost = true, Produced = true, SpellDescription = true }
+local MANA_ABILITY_PARAMS = {
+  AB = true, Cost = true, Produced = true, SpellDescription = true, ActivationLimit = true, AILogic = true,
+}
 
+-- { colors, tap, extra, sacrifice, limit } for mana abilities the auto-payer can use, else nil.
 local function parse_mana_ability(params)
-  if params.AB ~= "Mana" or params.Cost ~= "T" or params.Produced == nil then
+  if params.AB ~= "Mana" or params.Produced == nil then
     return nil
   end
   for key in pairs(params) do
@@ -43,10 +48,47 @@ local function parse_mana_ability(params)
     end
   end
   local colors = mana.parse_produced(params.Produced)
-  if colors == nil then
+  local parsed = cost_lib.parse(params.Cost)
+  local spec = parsed and cost_lib.mana_ability_cost(parsed)
+  if colors == nil or spec == nil then
     return nil
   end
-  return { colors = colors }
+  spec.colors = colors
+  spec.limit = tonumber(params.ActivationLimit or "")
+  return spec
+end
+
+-- Activated-ability parameters handled here rather than by the effect.
+local ACTIVATION_PARAMS = {
+  Cost = true, ActivationLimit = true, ActivationZone = true, SorcerySpeed = true,
+  PrecostDesc = true, CostDesc = true,
+}
+
+local function parse_activated(params, svars, reasons)
+  local effect_params = {}
+  for k, v in pairs(params) do
+    if not ACTIVATION_PARAMS[k] then
+      effect_params[k] = v
+    end
+  end
+  local parsed, problem = cost_lib.parse(params.Cost)
+  if parsed == nil then
+    reasons[#reasons + 1] = tostring(problem)
+  end
+  local zone = "battlefield"
+  if params.ActivationZone then
+    zone = abilities.ZONES[params.ActivationZone]
+    if zone ~= "graveyard" then
+      reasons[#reasons + 1] = "ActivationZone$ " .. params.ActivationZone
+    end
+  end
+  return {
+    ability = abilities.build(effect_params, svars, reasons, effects),
+    cost = parsed,
+    limit = tonumber(params.ActivationLimit or ""),
+    zone = zone,
+    sorcery = params.SorcerySpeed == "True",
+  }
 end
 
 function card_db.build_definition(text)
@@ -55,7 +97,7 @@ function card_db.build_definition(text)
   local def = {
     name = face.name,
     supertypes = {}, types = {}, subtypes = {},
-    keywords = {}, mana_abilities = {}, triggers = {}, etb_replacements = {},
+    keywords = {}, mana_abilities = {}, triggers = {}, etb_replacements = {}, activated = {},
     unsupported = {},
     script = script,
   }
@@ -139,6 +181,8 @@ function card_db.build_definition(text)
     local ability = parse_mana_ability(params)
     if ability then
       def.mana_abilities[#def.mana_abilities + 1] = ability
+    elseif params.AB and params.AB ~= "Mana" then
+      def.activated[#def.activated + 1] = parse_activated(params, face.svars, def.unsupported)
     elseif params.SP and is_spell_card and def.spell == nil then
       if params.Cost then
         unsupported("spell with additional cost")
@@ -153,7 +197,7 @@ function card_db.build_definition(text)
   end
   for _, subtype in ipairs(def.subtypes) do
     if def.types.Land and BASIC_LAND_MANA[subtype] then
-      def.mana_abilities[#def.mana_abilities + 1] = { colors = { BASIC_LAND_MANA[subtype] } }
+      def.mana_abilities[#def.mana_abilities + 1] = { colors = { BASIC_LAND_MANA[subtype] }, tap = true, extra = 0, sacrifice = false }
     end
   end
 

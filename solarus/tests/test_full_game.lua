@@ -126,6 +126,16 @@ return function(t)
         answer = brain:choose_discard(game, p, request.count)
       elseif request.kind == "choose_legend_to_keep" then
         answer = request.cards[1]
+      elseif request.kind == "choose_targets" then
+        answer = brain:choose_targets(game, p, request.ability, request.candidates, request.min, request.max)
+      elseif request.kind == "choose_cards" then
+        answer = brain:choose_cards(game, p, request.candidates, request.min, request.max, request.reason)
+      elseif request.kind == "choose_color" then
+        answer = brain:choose_color(game, p, request.source, request.options)
+      elseif request.kind == "confirm_optional" then
+        answer = brain:confirm_optional(game, p, request.source, request.ability)
+      else
+        error("unhandled request " .. request.kind)
       end
       request = runner.resume(answer)
     end

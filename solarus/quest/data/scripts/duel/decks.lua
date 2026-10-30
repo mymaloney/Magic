@@ -6,7 +6,7 @@ local decks = {}
 decks.white = {
   name = "White Weenie",
   cards = {
-    ["Plains"] = 17, ["Savannah Lions"] = 4, ["Elite Vanguard"] = 4, ["Healer's Hawk"] = 3,
+    ["Plains"] = 17, ["Savannah Lions"] = 4, ["Elite Vanguard"] = 2, ["Gideon's Lawkeeper"] = 2, ["Healer's Hawk"] = 3,
     ["Bishop's Soldier"] = 4, ["Leonin Skyhunter"] = 3, ["Warclamp Mastiff"] = 2, ["Serra Angel"] = 3,
   },
 }
@@ -25,8 +25,8 @@ decks.rakdos = {
     ["Swamp"] = 7, ["Mountain"] = 6, ["Thriving Moor"] = 2, ["Thriving Bluff"] = 2,
     ["Shock"] = 3, ["Murder"] = 2, ["Stab"] = 2,
     ["Skeleton Archer"] = 2, ["Viashino Pyromancer"] = 2, ["Goblin Arsonist"] = 2, ["Vampire Spawn"] = 2,
-    ["Burglar Rat"] = 2, ["Gravedigger"] = 1, ["Midnight Reaper"] = 1, ["Vengeful Bloodwitch"] = 1,
-    ["Brazen Scourge"] = 2, ["Festering Goblin"] = 1,
+    ["Burglar Rat"] = 1, ["Gravedigger"] = 1, ["Midnight Reaper"] = 1, ["Vengeful Bloodwitch"] = 1,
+    ["Brazen Scourge"] = 1, ["Fanatical Firebrand"] = 2, ["Festering Goblin"] = 1,
   },
 }
 

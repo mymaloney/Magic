@@ -80,6 +80,10 @@ function duel_ui:on_game_event(e)
     self:add_log(self:who(e.player) .. " cast " .. e.card:name() .. self:targets_text(e.targets))
   elseif t == "trigger" then
     self:add_log(e.card:name() .. " triggered" .. self:targets_text(e.targets))
+  elseif t == "activate" then
+    self:add_log(self:who(e.player) .. " used " .. e.card:name() .. self:targets_text(e.targets))
+  elseif t == "sacrifice" then
+    self:add_log(e.card:name() .. " was sacrificed")
   elseif t == "countered" then
     self:add_log(e.card:name() .. " was countered")
   elseif t == "fizzle" then
@@ -124,28 +128,32 @@ end
 
 -- Rows ----------------------------------------------------------------------------------------
 
-local function nonland_permanents(player)
+-- Nonland permanents, plus lands with activated abilities other than mana (so they can be used).
+local function shown_permanents(player)
   local list = {}
   for _, card in ipairs(player.battlefield) do
-    if not card:is_land() then
+    if not card:is_land() or #card.def.activated > 0 then
       list[#list + 1] = card
     end
   end
   return list
 end
 
+-- Requests that pick some of request.candidates (shown in row 3).
+local PICK_KINDS = { choose_targets = true, choose_cards = true }
+
 -- Cards shown in a row (1 = opponent's permanents, 2 = yours, 3 = your hand).
 function duel_ui:row_cards(row)
   if row == 1 then
-    return nonland_permanents(self.opponent)
+    return shown_permanents(self.opponent)
   elseif row == 2 then
-    return nonland_permanents(self.human)
-  end
-  if self.request and self.request.kind == "choose_targets" then
-    return self.request.candidates
+    return shown_permanents(self.human)
   end
   if self.option_entries then
     return self.option_entries
+  end
+  if self.request and PICK_KINDS[self.request.kind] then
+    return self.request.candidates
   end
   return self.human.hand
 end
@@ -266,9 +274,9 @@ function duel_ui:advance(answer)
   end
   if request.kind == "declare_attackers" or request.kind == "declare_blockers" then
     self.row = 2
-  elseif request.kind == "choose_discard" or request.kind == "choose_action" or request.kind == "choose_targets" then
+  elseif request.kind == "choose_discard" or request.kind == "choose_action" or PICK_KINDS[request.kind] then
     self.row = 3
-    if request.kind == "choose_targets" then
+    if PICK_KINDS[request.kind] then
       self.col = 1
     end
   end
@@ -307,6 +315,8 @@ function duel_ui:prompt_text()
       title = "You lost."
     end
     help = "Enter: continue"
+  elseif kind == "choose_action" and self.option_entries then
+    title, help = "Which ability?", "Space: use  Bksp: back"
   elseif kind == "choose_action" then
     local top = self.game.stack[#self.game.stack]
     if top then
@@ -316,12 +326,16 @@ function duel_ui:prompt_text()
       title = whose .. (STEP_NAMES[self.game.step] or "")
     end
     help = "Space: play  Enter: pass"
-  elseif kind == "choose_targets" then
+  elseif PICK_KINDS[kind] then
     local n = 0
     for _ in pairs(self.selected) do
       n = n + 1
     end
-    title = fit("Target for ", r.source:name(), "")
+    if kind == "choose_targets" then
+      title = fit("Target for ", r.source:name(), "")
+    else
+      title = (r.reason == "sacrifice" and "Sacrifice " or "Discard ") .. r.min
+    end
     if r.max == 1 then
       help = "Space: choose" .. (r.min == 0 and "  Enter: none" or "")
     else
@@ -362,11 +376,25 @@ function duel_ui:select()
   end
   self.error_message = nil
   if r.kind == "choose_action" then
+    if card.is_option then
+      self:advance(card.action)
+      return
+    end
+    local matching = {}
     for _, action in ipairs(r.actions) do
       if action.card == card then
-        self:advance(action)
-        return
+        matching[#matching + 1] = action
       end
+    end
+    if #matching == 1 then
+      self:advance(matching[1])
+    elseif #matching > 1 then
+      -- several things to do with this card: list them in row 3
+      self.option_entries = {}
+      for _, action in ipairs(matching) do
+        self.option_entries[#self.option_entries + 1] = duel_ui.action_option(action)
+      end
+      self.row, self.col = 3, 1
     end
   elseif r.kind == "declare_attackers" then
     if contains(r.candidates, card) then
@@ -405,9 +433,9 @@ function duel_ui:select()
     if contains(r.cards, card) then
       self:advance(card)
     end
-  elseif r.kind == "choose_targets" then
+  elseif PICK_KINDS[r.kind] then
     if self.row == 3 and contains(r.candidates, card) then
-      if r.max == 1 then
+      if r.max == 1 and r.min == 1 then
         self:advance({ card })
       else
         local n = 0
@@ -439,7 +467,7 @@ function duel_ui:confirm()
     self.finished = true
   elseif r.kind == "confirm_optional" then
     self:advance(true)
-  elseif r.kind == "choose_targets" then
+  elseif PICK_KINDS[r.kind] then
     local chosen = {}
     for _, obj in ipairs(r.candidates) do
       if self.selected[obj] then
@@ -452,6 +480,9 @@ function duel_ui:confirm()
       self.error_message = "Pick at least " .. r.min
     end
   elseif r.kind == "choose_action" then
+    if self.option_entries then
+      return   -- choosing which ability: Space picks, Backspace goes back
+    end
     self:advance(nil)
   elseif r.kind == "declare_attackers" then
     local attackers = {}
@@ -509,11 +540,28 @@ function duel_ui:press(input)
   elseif input == "cancel" then
     if self.request and self.request.kind == "confirm_optional" then
       self:advance(false)
+    elseif self.request and self.request.kind == "choose_action" and self.option_entries then
+      self.option_entries = nil
+      self.row = 2
+      self:clamp_focus()
     else
       self.pending_blocker = nil
       self.error_message = nil
     end
   end
+end
+
+-- An option box for one action on a card (when a card has several).
+function duel_ui.action_option(action)
+  local label, detail = "Cast", "Cast " .. action.card:name()
+  if action.kind == "play_land" then
+    label, detail = "Play", "Play " .. action.card:name()
+  elseif action.kind == "activate" then
+    local ability = action.card.def.activated[action.index].ability
+    label = ability.api
+    detail = (ability.params.SpellDescription or ability.api)
+  end
+  return { is_option = true, label = label, detail = detail, action = action }
 end
 
 -- Word-wraps text into lines of at most `width` characters.
@@ -542,7 +590,7 @@ end
 -- Text for the detail panel: { name, "cost  types", "P/T  keywords", oracle lines... }
 function duel_ui.card_details(card)
   if card.is_option then
-    return { card.label }
+    return { card.label, "", "", card.detail }
   end
   if card.life ~= nil then
     return { card.name, "Life " .. card.life, "Hand " .. #card.hand .. "  Library " .. #card.library }

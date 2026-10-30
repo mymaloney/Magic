@@ -17,6 +17,8 @@
 --                                                                 answer: { card or player, ... }
 --           { kind = "confirm_optional", player, source, ability } answer: true / false
 --           { kind = "choose_color", player, source, options }     answer: one of options ("W".."G")
+--           { kind = "choose_cards", player, candidates, min, max, reason } answer: { card, ... }
+--             (paying a cost: reason "sacrifice" or "discard")
 -- The UI must only send legal answers (offer only the listed options; check blocks with
 -- combat.validate_blocks and damage with combat.validate_assignment before answering).
 
@@ -68,6 +70,10 @@ end
 
 function prompt:confirm_optional(game, player, source, ability)
   return ask({ kind = "confirm_optional", player = player, source = source, ability = ability })
+end
+
+function prompt:choose_cards(game, player, cards, min, max, reason)
+  return ask({ kind = "choose_cards", player = player, candidates = cards, min = min, max = max, reason = reason })
 end
 
 function prompt:choose_color(game, player, source, options)
