@@ -129,7 +129,7 @@ return function(t)
       elseif request.kind == "choose_targets" then
         answer = brain:choose_targets(game, p, request.ability, request.candidates, request.min, request.max)
       elseif request.kind == "choose_cards" then
-        answer = brain:choose_cards(game, p, request.candidates, request.min, request.max, request.reason)
+        answer = brain:choose_cards(game, p, request.candidates, request.min, request.max, request.reason, request.power_needed)
       elseif request.kind == "choose_color" then
         answer = brain:choose_color(game, p, request.source, request.options)
       elseif request.kind == "arrange_top" then

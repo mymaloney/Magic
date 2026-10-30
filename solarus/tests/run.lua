@@ -8,7 +8,7 @@ local card_db = require("scripts/mtg/card_db")
 local Game = require("scripts/mtg/game")
 local combat = require("scripts/mtg/combat")
 
-local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_abilities", "test_triggers", "test_activated", "test_effects", "test_statics", "test_costs", "test_remembered", "test_full_game", "test_duel_ui" }
+local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_abilities", "test_triggers", "test_activated", "test_effects", "test_statics", "test_costs", "test_remembered", "test_layers", "test_full_game", "test_duel_ui" }
 
 local t = { checks = 0, failures = 0, section_name = "" }
 
@@ -94,11 +94,21 @@ function t.scripted(script)
       end
       return chosen
     end,
-    choose_cards = function(_, game, player, cards, min, max, reason)
+    choose_cards = function(_, game, player, cards, min, max, reason, power_needed)
       if script.cards then
-        return script.cards(game, player, cards, min, max, reason)
+        return script.cards(game, player, cards, min, max, reason, power_needed)
       end
       local chosen = {}
+      if power_needed then   -- crew: the first creatures with enough total power
+        local total = 0
+        for _, c in ipairs(cards) do
+          if total < power_needed then
+            chosen[#chosen + 1] = c
+            total = total + c:power()
+          end
+        end
+        return chosen
+      end
       for i = 1, min do
         chosen[i] = cards[i]
       end

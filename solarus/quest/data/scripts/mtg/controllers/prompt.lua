@@ -18,7 +18,8 @@
 --           { kind = "confirm_optional", player, source, ability } answer: true / false
 --           { kind = "choose_color", player, source, options }     answer: one of options ("W".."G")
 --           { kind = "choose_cards", player, candidates, min, max, reason } answer: { card, ... }
---             (reason "sacrifice"/"discard" for costs and effects, "dig" when taking looked-at cards)
+--             (reason "sacrifice"/"discard" for costs and effects, "dig" when taking looked-at cards,
+--             "crew" with power_needed: creatures to tap with that much total power)
 --           { kind = "arrange_top", player, cards, away }            answer: { top = {...}, away = {...} }
 --             (cards[1] is the top card; away is "bottom" for scry, "graveyard" for surveil)
 --           { kind = "choose_mode", player, source, charm, options = { index, ... } } answer: index
@@ -77,8 +78,9 @@ function prompt:confirm_optional(game, player, source, ability)
   return ask({ kind = "confirm_optional", player = player, source = source, ability = ability })
 end
 
-function prompt:choose_cards(game, player, cards, min, max, reason)
-  return ask({ kind = "choose_cards", player = player, candidates = cards, min = min, max = max, reason = reason })
+function prompt:choose_cards(game, player, cards, min, max, reason, power_needed)
+  return ask({ kind = "choose_cards", player = player, candidates = cards, min = min, max = max, reason = reason,
+               power_needed = power_needed })
 end
 
 function prompt:arrange_top(game, player, cards, away)

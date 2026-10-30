@@ -31,10 +31,6 @@ function Card:__tostring()
   return self.def.name .. "#" .. self.id
 end
 
-function Card:name()
-  return self.def.name
-end
-
 -- Brings static-ability results up to date before a characteristic is read.
 local function mods(card)
   local game = card.game
@@ -44,20 +40,45 @@ local function mods(card)
   return card.mods
 end
 
+-- Layer 3 text: SetName (Witness Protection).
+function Card:name()
+  local m = mods(self)
+  return (m and m.name) or self.def.name
+end
+
+-- Layer 4: card types after type-changing effects, plus until-end-of-turn ones (Animate, Crew).
+local function types_of(card)
+  local m = mods(card)
+  local types = (m and m.types) or card.def.types
+  for _, pump in ipairs(card.pumps) do
+    if pump.types then
+      local merged = {}
+      for t in pairs(types) do
+        merged[t] = true
+      end
+      for t in pairs(pump.types) do
+        merged[t] = true
+      end
+      types = merged
+    end
+  end
+  return types
+end
+
 function Card:is_type(card_type)
-  return self.def.types[card_type] == true
+  return types_of(self)[card_type] == true
 end
 
 function Card:is_creature()
-  return self.def.types.Creature == true
+  return self:is_type("Creature")
 end
 
 function Card:is_land()
-  return self.def.types.Land == true
+  return self:is_type("Land")
 end
 
 function Card:is_permanent_card()
-  local t = self.def.types
+  local t = types_of(self)
   return t.Creature or t.Artifact or t.Enchantment or t.Land or t.Planeswalker or t.Battle or false
 end
 
@@ -65,25 +86,27 @@ function Card:is_legendary()
   return self.def.supertypes.Legendary == true
 end
 
--- Subtypes (CR 205.3); a Changeling has every creature type.
+-- Subtypes (CR 205.3); a Changeling has every creature type (CR 702.73a), Kindred cards too.
 function Card:has_subtype(subtype)
-  for _, s in ipairs(self.def.subtypes) do
+  local m = mods(self)
+  for _, s in ipairs((m and m.subtypes) or self.def.subtypes) do
     if s == subtype then
       return true
     end
   end
-  if self.def.keywords.Changeling and self:is_creature() and not (subtype == "Aura" or subtype == "Equipment") then
+  if (self:is_creature() or self:is_type("Kindred")) and self:has_keyword("Changeling")
+      and not (subtype == "Aura" or subtype == "Equipment") then
     return true
   end
   return false
 end
 
 function Card:is_aura()
-  return self.def.types.Enchantment == true and self:has_subtype("Aura")
+  return self:is_type("Enchantment") and self:has_subtype("Aura")
 end
 
 function Card:is_equipment()
-  return self.def.types.Artifact == true and self:has_subtype("Equipment")
+  return self:is_type("Artifact") and self:has_subtype("Equipment")
 end
 
 local function pump_total(card, field)
@@ -94,17 +117,32 @@ local function pump_total(card, field)
   return value
 end
 
+-- Base P/T set by an until-end-of-turn effect (Animate), the newest one.
+local function pump_set(card, field)
+  local value
+  for _, pump in ipairs(card.pumps) do
+    value = pump[field] or value
+  end
+  return value
+end
+
 -- Layer 7: characteristic-defining / setting effects, then modifications, then pumps.
 function Card:power()
   local m = mods(self)
-  local value = (m and m.set_power) or self.def.power or 0
+  local value = pump_set(self, "set_power") or (m and m.set_power) or self.def.power or 0
   return value + (m and m.power or 0) + pump_total(self, "power")
 end
 
 function Card:toughness()
   local m = mods(self)
-  local value = (m and m.set_toughness) or self.def.toughness or 0
+  local value = pump_set(self, "set_toughness") or (m and m.set_toughness) or self.def.toughness or 0
   return value + (m and m.toughness or 0) + pump_total(self, "toughness")
+end
+
+-- Layer 6: has it lost all abilities (Eaten by Piranhas, Imprisoned in the Moon)?
+function Card:abilities_lost()
+  local m = mods(self)
+  return (m and m.no_abilities) or false
 end
 
 -- Layer 6: keywords from the card, static abilities and pumps, minus removed ones.
@@ -113,7 +151,7 @@ function Card:has_keyword(keyword)
   if m and m.removed[keyword] then
     return false
   end
-  if self.def.keywords[keyword] or (m and m.added[keyword]) then
+  if (self.def.keywords[keyword] and not (m and m.no_abilities)) or (m and m.added[keyword]) then
     return true
   end
   for _, pump in ipairs(self.pumps) do
@@ -124,6 +162,37 @@ function Card:has_keyword(keyword)
   return false
 end
 
+local NONE = {}
+
+-- The card's abilities as it is now (none once it has lost all abilities).
+function Card:triggers()
+  return self:abilities_lost() and NONE or self.def.triggers
+end
+
+function Card:activated()
+  return self:abilities_lost() and NONE or self.def.activated
+end
+
+function Card:statics()
+  return self:abilities_lost() and NONE or self.def.statics
+end
+
+function Card:mana_abilities()
+  local m = mods(self)
+  local base = (m and m.no_abilities) and NONE or self.def.mana_abilities
+  if m and m.added_mana then
+    local list = {}
+    for _, a in ipairs(base) do
+      list[#list + 1] = a
+    end
+    for _, a in ipairs(m.added_mana) do
+      list[#list + 1] = a
+    end
+    return list
+  end
+  return base
+end
+
 -- Until-end-of-turn power/toughness/keyword change (PumpEffect); removed in cleanup.
 function Card:add_pump(power, toughness, keywords)
   table.insert(self.pumps, { power = power, toughness = toughness, keywords = keywords })
@@ -132,13 +201,27 @@ function Card:add_pump(power, toughness, keywords)
   end
 end
 
+-- Until end of turn, becomes `types` too, with base P/T set if given (Animate, Crew).
+function Card:add_animation(types, set_power, set_toughness)
+  table.insert(self.pumps, { types = types, set_power = set_power, set_toughness = set_toughness })
+  if self.game then
+    self.game.statics_dirty = true
+  end
+end
+
+-- Layer 5: colors after color-setting effects.
+local function colors_of(card)
+  local m = mods(card)
+  return (m and m.colors) or card.def.colors
+end
+
 function Card:has_color(color)
-  return self.def.colors[color] == true
+  return colors_of(self)[color] == true
 end
 
 function Card:color_count()
   local n = 0
-  for _ in pairs(self.def.colors) do
+  for _ in pairs(colors_of(self)) do
     n = n + 1
   end
   return n

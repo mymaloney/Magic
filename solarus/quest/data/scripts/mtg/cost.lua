@@ -143,7 +143,27 @@ local function usable_sources(game, player, source, c)
   return list
 end
 
+-- Creatures that could crew `source` (CR 702.122: untapped, summoning sickness doesn't matter).
+local function crew_candidates(player, source)
+  local list = {}
+  for _, card in ipairs(player.battlefield) do
+    if card ~= source and card:is_creature() and not card.tapped then
+      list[#list + 1] = card
+    end
+  end
+  return list
+end
+
 function cost.can_pay(game, player, source, c)
+  if c.crew then
+    local total = 0
+    for _, card in ipairs(crew_candidates(player, source)) do
+      total = total + math.max(0, card:power())
+    end
+    if total < c.crew then
+      return false
+    end
+  end
   if c.tap then
     if source.zone ~= "battlefield" or source.tapped
         or (source:is_creature() and source.sick and not source:has_keyword("Haste")) then
@@ -178,6 +198,20 @@ function cost.pay(game, player, source, c)
   end
   if c.tap then
     game:tap(source)
+  end
+  if c.crew then
+    local chosen = player.controller:choose_cards(game, player, crew_candidates(player, source), 1,
+                                                  #crew_candidates(player, source), "crew", c.crew) or {}
+    local total = 0
+    for _, card in ipairs(chosen) do
+      total = total + math.max(0, card:power())
+    end
+    if total < c.crew then
+      error("crew needs total power " .. c.crew)
+    end
+    for _, card in ipairs(chosen) do
+      game:tap(card)
+    end
   end
   for _, part in ipairs(c.sacrifice) do
     local candidates = sacrifice_candidates(game, player, source, part)

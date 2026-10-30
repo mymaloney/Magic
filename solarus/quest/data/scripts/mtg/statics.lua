@@ -23,7 +23,8 @@ local MODE_PARAMS = {
   Continuous = { Affected = true, AffectedDefined = true, AddPower = true, AddToughness = true, AddKeyword = true,
                  RemoveKeyword = true, SetPower = true, SetToughness = true, CharacteristicDefining = true,
                  GainControl = true, AddHiddenKeyword = true, AdjustLandPlays = true, AffectedZone = true,
-                 MayPlay = true },
+                 MayPlay = true, AddType = true, RemoveCardTypes = true, RemoveCreatureTypes = true,
+                 RemoveAllAbilities = true, SetColor = true, AddColor = true, SetName = true, AddAbility = true },
   CantBlock = { ValidCard = true },
   CantAttack = { ValidCard = true },
   ["CantAttack,CantBlock"] = { ValidCard = true },
@@ -60,6 +61,41 @@ local function parse_amount(params, key, svars, reasons)
     reasons[#reasons + 1] = "static " .. key .. "$ " .. params[key] .. " (" .. tostring(problem) .. ")"
   end
   return fn
+end
+
+local CARD_TYPES = { Artifact = true, Creature = true, Enchantment = true, Land = true, Planeswalker = true,
+                     Instant = true, Sorcery = true, Battle = true, Kindred = true }
+local COLOR_WORDS = { White = "W", Blue = "U", Black = "B", Red = "R", Green = "G" }
+
+-- "Green & White" -> { G = true, W = true }; "Colorless" -> {}.
+local function parse_colors(text, reasons)
+  local set = {}
+  for word in text:gmatch("[^&]+") do
+    word = word:gsub("^%s+", ""):gsub("%s+$", "")
+    if COLOR_WORDS[word] then
+      set[COLOR_WORDS[word]] = true
+    elseif word ~= "Colorless" then
+      reasons[#reasons + 1] = "static color " .. word
+    end
+  end
+  return set
+end
+
+-- AddAbility$ for a mana ability "{T}: Add <one color>" (Imprisoned in the Moon).
+local function parse_added_mana(text, reasons)
+  local params = {}
+  for part in (text or ""):gmatch("[^|]+") do
+    local k, v = part:match("^%s*([^$]+)%$%s*(.-)%s*$")
+    if k then
+      params[k] = v
+    end
+  end
+  local produced = params.Produced
+  if params.AB ~= "Mana" or params.Cost ~= "T" or produced == nil or not produced:match("^[WUBRGC]$") then
+    reasons[#reasons + 1] = "static AddAbility"
+    return nil
+  end
+  return { colors = { produced }, tap = true, extra = 0, sacrifice = false }
 end
 
 local function parse_keywords(text, reasons, supported)
@@ -139,6 +175,30 @@ function statics.parse(params, svars, reasons, supported_keywords)
       reasons[#reasons + 1] = "static MayPlay outside exile"
     end
     st.may_play = params.MayPlay == "True"
+    -- layers 3-6: name, types, colors, abilities
+    if params.AddType then
+      st.add_types, st.add_subtypes = {}, {}
+      for word in params.AddType:gmatch("[^&]+") do
+        word = word:gsub("^%s+", ""):gsub("%s+$", "")
+        if CARD_TYPES[word] then
+          st.add_types[word] = true
+        else
+          st.add_subtypes[#st.add_subtypes + 1] = word
+        end
+      end
+    end
+    st.remove_card_types = params.RemoveCardTypes == "True"
+    st.remove_creature_types = params.RemoveCreatureTypes == "True"
+    st.remove_all_abilities = params.RemoveAllAbilities == "True"
+    st.set_colors = params.SetColor and parse_colors(params.SetColor, reasons)
+    st.add_colors = params.AddColor and parse_colors(params.AddColor, reasons)
+    st.set_name = params.SetName
+    if params.AddAbility then
+      local text = svars[params.AddAbility]
+      st.added_mana = parse_added_mana(text, reasons)
+    end
+    st.changes_object = st.add_types or st.remove_card_types or st.remove_creature_types or st.remove_all_abilities
+        or st.set_colors or st.add_colors or st.set_name or st.added_mana
     st.add_power = parse_amount(params, "AddPower", svars, reasons)
     st.add_toughness = parse_amount(params, "AddToughness", svars, reasons)
     st.set_power = parse_amount(params, "SetPower", svars, reasons)
@@ -203,6 +263,9 @@ end
 local function each_static(game, mode)
   local list = {}
   local function add(source)
+    if source.mods and source.mods.no_abilities then
+      return   -- lost all abilities (layer 6)
+    end
     for _, st in ipairs(source.def.statics or {}) do
       if (mode == nil or st.mode == mode or (st.mode == "CantAttack,CantBlock" and (mode == "CantAttack" or mode == "CantBlock")))
           and active(game, source, st) then
@@ -252,21 +315,96 @@ local function affected_cards(game, source, st)
   return list
 end
 
--- Recomputes card.mods for every card on the battlefield (layers 6-7).
+local function new_mods()
+  return { power = 0, toughness = 0, added = {}, removed = {} }
+end
+
+local function copy_set(set)
+  local copy = {}
+  for k in pairs(set) do
+    copy[k] = true
+  end
+  return copy
+end
+
+-- Creature types are the subtypes a creature can have; others (Aura, Equipment, Vehicle, land
+-- types) stay when an effect removes creature types. The pool's cards only need this split.
+local NON_CREATURE_SUBTYPES = { Aura = true, Equipment = true, Vehicle = true, Book = true, Plains = true,
+                                Island = true, Swamp = true, Mountain = true, Forest = true }
+
+-- Layers 3-6 for one card: name, types, colors, losing abilities, added mana abilities.
+local function apply_object_change(card, m, st)
+  local def = card.def
+  if st.set_name then
+    m.name = st.set_name
+  end
+  if st.remove_card_types or st.add_types then
+    m.types = st.remove_card_types and {} or copy_set(m.types or def.types)
+    for t in pairs(st.add_types or {}) do
+      m.types[t] = true
+    end
+  end
+  if st.remove_creature_types or st.add_subtypes then
+    local subtypes = {}
+    for _, sub in ipairs(m.subtypes or def.subtypes) do
+      if not st.remove_creature_types or NON_CREATURE_SUBTYPES[sub] then
+        subtypes[#subtypes + 1] = sub
+      end
+    end
+    for _, sub in ipairs(st.add_subtypes or {}) do
+      subtypes[#subtypes + 1] = sub
+    end
+    m.subtypes = subtypes
+  end
+  if st.set_colors then
+    m.colors = copy_set(st.set_colors)
+  end
+  if st.add_colors then
+    m.colors = copy_set(m.colors or def.colors)
+    for c in pairs(st.add_colors) do
+      m.colors[c] = true
+    end
+  end
+  if st.remove_all_abilities then
+    m.no_abilities = true
+    m.added_mana = nil
+  end
+  if st.added_mana then
+    m.added_mana = m.added_mana or {}
+    m.added_mana[#m.added_mana + 1] = st.added_mana
+  end
+end
+
+-- Recomputes card.mods for every card on the battlefield. Pass 1 applies layers 3-6 object
+-- changes (types, colors, name, losing abilities); their results are visible to pass 2, which
+-- skips statics of sources that lost their abilities and applies keywords and P/T (layers 6-7).
 function statics.apply(game)
-  local results = {}
   for _, player in ipairs(game.players) do
     for _, card in ipairs(player.battlefield) do
       card.mods = nil
     end
   end
+  local objects = {}
+  for _, entry in ipairs(each_static(game, "Continuous")) do
+    if entry.st.changes_object then
+      for _, card in ipairs(affected_cards(game, entry.source, entry.st)) do
+        objects[card] = objects[card] or new_mods()
+        apply_object_change(card, objects[card], entry.st)
+      end
+    end
+  end
+  for card, m in pairs(objects) do
+    card.mods = m
+  end
+
+  local results = {}
   for _, entry in ipairs(each_static(game, "Continuous")) do
     local source, st = entry.source, entry.st
     local ctx = { game = game, source = source, controller = source.controller }
     for _, card in ipairs(affected_cards(game, source, st)) do
       local m = results[card]
       if m == nil then
-        m = { power = 0, toughness = 0, added = {}, removed = {} }
+        m = new_mods()
         results[card] = m
       end
       if st.set_power then
@@ -290,6 +428,12 @@ function statics.apply(game)
     end
   end
   for card, m in pairs(results) do
+    local o = objects[card]
+    if o then
+      for _, key in ipairs({ "name", "types", "subtypes", "colors", "no_abilities", "added_mana" }) do
+        m[key] = o[key]
+      end
+    end
     card.mods = m
   end
 end

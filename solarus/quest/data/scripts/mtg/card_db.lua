@@ -33,7 +33,8 @@ local BASIC_LAND_MANA = { Plains = "W", Island = "U", Swamp = "B", Mountain = "R
 card_db.SUPPORTED_KEYWORDS = keywords.SUPPORTED
 
 -- Card types the engine can cast/play so far.
-local PLAYABLE_TYPES = { Creature = true, Artifact = true, Land = true, Instant = true, Sorcery = true, Enchantment = true }
+local PLAYABLE_TYPES = { Creature = true, Artifact = true, Land = true, Instant = true, Sorcery = true, Enchantment = true,
+                         Kindred = true }
 
 local MANA_ABILITY_PARAMS = {
   AB = true, Cost = true, Produced = true, SpellDescription = true, ActivationLimit = true, AILogic = true,
@@ -221,6 +222,22 @@ function card_db.build_definition(text)
       end
       def[name:lower() .. "_cost"] = parsed
       def.keywords[name] = true
+    elseif name == "Crew" then
+      -- Crew N (CR 702.122): tap creatures with total power N or more: becomes an artifact creature
+      -- until end of turn.
+      local n = tonumber(keyword:match("^Crew:(%d+)$") or "")
+      if n == nil then
+        unsupported("keyword " .. keyword)
+      else
+        local crew_cost = cost_lib.parse("")
+        crew_cost.crew = n
+        def.activated[#def.activated + 1] = {
+          ability = abilities.build({ AB = "Animate", Defined = "Self", Types = "Artifact,Creature",
+                                      SpellDescription = "Crew " .. n }, face.svars, def.unsupported, effects),
+          cost = crew_cost, zone = "battlefield", crew = n,
+        }
+        def.keywords.Crew = true
+      end
     elseif name == "Equip" then
       -- Equip N (CR 702.6): sorcery-speed "attach to target creature you control".
       local n = keyword:match("^Equip:(%d+)$")

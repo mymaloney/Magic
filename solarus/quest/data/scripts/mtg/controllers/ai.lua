@@ -228,7 +228,31 @@ local function spell_is_good(game, player, card)
   return true
 end
 
-function ai:choose_cards(game, player, cards, min, max, reason)
+function ai:choose_cards(game, player, cards, min, max, reason, power_needed)
+  if reason == "crew" then
+    -- the least valuable creatures that add up to enough power
+    local sorted = {}
+    for i, c in ipairs(cards) do
+      sorted[i] = c
+    end
+    table.sort(sorted, function(a, b)
+      if value(a) ~= value(b) then
+        return value(a) < value(b)
+      end
+      return a.id < b.id
+    end)
+    local chosen, total = {}, 0
+    for _, c in ipairs(sorted) do
+      if total >= power_needed then
+        break
+      end
+      if c:power() > 0 then
+        chosen[#chosen + 1] = c
+        total = total + c:power()
+      end
+    end
+    return chosen
+  end
   -- taking cards (or picking an opponent's discard): the best; paying costs: the worst
   local best_first = reason == "dig" or reason == "search" or reason == "discard_other"
   local sorted = {}
@@ -306,7 +330,28 @@ local function activation_is_good(game, player, card, act)
     return false   -- don't keep moving equipment around
   end
   local timing
-  if api == "Draw" then
+  if api == "Animate" then
+    -- becoming a creature only matters to attack with it this turn
+    if card:is_creature() or card.sick or card.tapped or not (my_turn and game.step == "main1") then
+      return false
+    end
+    if act.crew then
+      -- crewing taps creatures that could attack themselves: only worth it for a bigger body
+      local candidates = {}
+      for _, c in ipairs(player.battlefield) do
+        if c ~= card and c:is_creature() and not c.tapped then
+          candidates[#candidates + 1] = c
+        end
+      end
+      local crew = ai.choose_cards(nil, game, player, candidates, 1, #candidates, "crew", act.crew)
+      local crew_power = 0
+      for _, c in ipairs(crew) do
+        crew_power = crew_power + c:power()
+      end
+      return crew_power < card:power()
+    end
+    timing = true
+  elseif api == "Draw" then
     timing = (not my_turn and game.step == "end_of_turn") or (my_turn and game.step == "main2" and not sacrifices_self)
   elseif (api == "Pump" or api == "PumpAll") and not effects.is_harmful(act.ability) then
     if act.ability.params.KW == "Haste" then
@@ -378,7 +423,7 @@ function ai:choose_action(game, player, actions)
         end
       end
     elseif action.kind == "activate" and best == nil then
-      if activation_is_good(game, player, card, card.def.activated[action.index]) then
+      if activation_is_good(game, player, card, card:activated()[action.index]) then
         best = action
       end
     end

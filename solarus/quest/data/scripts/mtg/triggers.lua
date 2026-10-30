@@ -264,7 +264,7 @@ local function battlefield_sources(game)
   local sources = {}
   for _, player in ipairs(game.players) do
     for _, c in ipairs(player.battlefield) do
-      sources[#sources + 1] = { card = c, controller = c.controller }
+      sources[#sources + 1] = { card = c, controller = c.controller, triggers = c:triggers() }
     end
   end
   return sources
@@ -282,7 +282,7 @@ function triggers.fire(game, mode, event)
   end
   local spec = MODES[mode]
   for _, source in ipairs(sources) do
-    for _, trigger in ipairs(source.card.def.triggers or {}) do
+    for _, trigger in ipairs(source.triggers or source.card.def.triggers or {}) do
       if trigger.mode == mode then
         local ctx = {
           game = game, you = source.controller, self = source.card,

@@ -168,9 +168,12 @@ Record each simplification here when made, with the Forge code it diverges from:
   the card as it is now.
 - A player's simultaneous triggers go on the stack in the order they triggered; the player
   doesn't choose the order yet.
-- Layers: within a card, set-P/T applies before modifications, and filters inside static
-  abilities see base characteristics (a keyword granted by one static doesn't count for another
-  static's filter). Timestamps between conflicting effects aren't tracked.
+- Layers: `statics.apply` makes two passes. Pass 1 applies layers 3-6 object changes (name,
+  types, colors, losing all abilities); pass 2 skips statics of sources that lost their abilities
+  and applies keywords and P/T. Within a card, set-P/T applies before modifications, and filters
+  inside static abilities see base characteristics plus pass-1 changes (a keyword granted by one
+  static doesn't count for another static's filter). Timestamps between conflicting effects
+  aren't tracked; an Animate's base P/T beats a static's.
 - All targets for a spell or trigger are chosen up front; the duel screen can't back out of a
   cast once targeting starts.
 - Delayed "at the beginning of the next end step" effects (AtEOT$) are put on the stack as

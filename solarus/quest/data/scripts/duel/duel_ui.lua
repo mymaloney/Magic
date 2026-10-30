@@ -132,7 +132,7 @@ end
 local function shown_permanents(player)
   local list = {}
   for _, card in ipairs(player.battlefield) do
-    if not card:is_land() or #card.def.activated > 0 then
+    if not card:is_land() or #card:activated() > 0 then
       list[#list + 1] = card
     end
   end
@@ -380,6 +380,9 @@ function duel_ui:prompt_text()
       local verbs = { sacrifice = "Sacrifice ", discard = "Discard ", discard_other = "They discard ",
                       dig = "Take up to ", search = "Find up to " }
       title = (verbs[r.reason] or "Choose ") .. ((r.reason == "dig" or r.reason == "search") and r.max or r.min)
+      if r.reason == "crew" then
+        title = "Crew: tap power " .. r.power_needed .. "+"
+      end
     end
     if r.max == 1 then
       help = "Space: choose" .. (r.min == 0 and "  Enter: none" or "")
@@ -551,8 +554,14 @@ function duel_ui:confirm()
         end
       end
     end
+    local power = 0
+    for _, obj in ipairs(chosen) do
+      power = power + (obj.life == nil and math.max(0, obj:power()) or 0)
+    end
     if #chosen < r.min or #chosen > r.max then
       self.error_message = "Pick at least " .. r.min
+    elseif r.power_needed and power < r.power_needed then
+      self.error_message = "Need total power " .. r.power_needed
     elseif not controllers_ok then
       self.error_message = "Pick creatures of different players"
     else
@@ -648,7 +657,7 @@ function duel_ui.action_option(action)
   elseif action.kind == "play_land" then
     label, detail = "Play", "Play " .. action.card:name()
   elseif action.kind == "activate" then
-    local ability = action.card.def.activated[action.index].ability
+    local ability = action.card:activated()[action.index].ability
     label = ability.api
     detail = (ability.params.SpellDescription or ability.api)
   end
@@ -696,9 +705,11 @@ function duel_ui.card_details(card)
   end
   local def = card.def
   local face = def.script.faces[1]
-  local lines = { def.name }
+  local lines = { card:name() }
   if card.zone == "graveyard" or card.zone == "exile" then
     lines[1] = def.name .. " (in " .. card.zone .. ")"
+  elseif card:name() ~= def.name then
+    lines[1] = card:name() .. " (" .. def.name .. ")"
   end
   local cost = face.mana_cost == "no cost" and "" or ("{" .. (face.mana_cost or ""):gsub(" ", "}{") .. "}  ")
   lines[2] = cost .. (face.types or "")
@@ -712,6 +723,9 @@ function duel_ui.card_details(card)
   if card.attached_to then
     local target = card.attached_to
     lines[3] = lines[3] .. (lines[3] ~= "" and "  " or "") .. "On " .. (target.life ~= nil and target.name or target:name())
+  end
+  if card.zone == "battlefield" and card:abilities_lost() then
+    lines[#lines + 1] = "It has lost all abilities."
   end
   local oracle = (face.oracle or ""):gsub("\\n", "\n")
   for paragraph in (oracle .. "\n"):gmatch("([^\n]*)\n") do

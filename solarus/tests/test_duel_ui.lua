@@ -88,7 +88,7 @@ return function(t)
 
   t.section("duel ui: details and wrapping")
   do
-    local lines = duel_ui.card_details({ def = t.db.get("Serra Angel") })
+    local lines = duel_ui.card_details(require("scripts/mtg/card").new(t.db.get("Serra Angel"), nil, 1, nil))
     t.eq(lines[1], "Serra Angel", "name line")
     t.eq(lines[2], "{3}{W}{W}  Creature Angel", "cost and type line")
     t.eq(lines[3], "4/4  Flying, Vigilance", "P/T and keywords")

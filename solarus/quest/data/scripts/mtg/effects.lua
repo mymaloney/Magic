@@ -222,7 +222,7 @@ effects.ChangeZone = {
              ChangeNum = true, Optional = true, Hidden = true, Mandatory = true, Tapped = true,
              ChangeTypeDesc = true, SelectPrompt = true, GainControl = true, RememberChanged = true,
              Chooser = true, DefinedPlayer = true, DestinationAlternative = true,
-             LibraryPositionAlternative = true, AlternativeDecider = true },
+             LibraryPositionAlternative = true, AlternativeDecider = true, StaticEffect = true },
   target_zone = function(params) return abilities.ZONES[params.Origin] end,
   validate = function(a, r)
     local p = a.params
@@ -243,6 +243,17 @@ effects.ChangeZone = {
     end
     if p.GainControl and p.GainControl ~= "True" then
       r[#r + 1] = "ChangeZone GainControl$ " .. p.GainControl
+    end
+    if p.StaticEffect then
+      -- a lasting effect on the moved card, e.g. "That creature is a black Zombie" (Rise from the Grave)
+      local text = a.svars[p.StaticEffect]
+      if text == nil or p.Destination ~= "Battlefield" then
+        r[#r + 1] = "ChangeZone StaticEffect$ " .. p.StaticEffect
+      else
+        local st = require("scripts/mtg/statics").parse(require("scripts/mtg/script_parser").parse_params(text),
+                                                         a.svars, r, keywords.SUPPORTED)
+        a.static_effect = st
+      end
     end
     if (p.Chooser or p.DefinedPlayer) and (p.Chooser ~= "Targeted" or p.DefinedPlayer ~= "Targeted") then
       r[#r + 1] = "ChangeZone Chooser$ " .. tostring(p.Chooser)
@@ -343,6 +354,19 @@ effects.ChangeZone = {
       end
     end
     move_all(game, cards, destination, opts)
+    if a.static_effect then
+      local moved = {}
+      for _, card in ipairs(cards) do
+        if card.zone == "battlefield" then
+          moved[#moved + 1] = card
+        end
+      end
+      if #moved > 0 then
+        game:add_effect({ name = ctx.source:name() .. "'s Effect", source = ctx.source, controller = ctx.controller,
+                          def = { statics = { a.static_effect } }, remembered = moved,
+                          exile_on_moved = "battlefield", permanent = true })
+      end
+    end
   end,
   harmful = function(a)
     return a.params.Origin == "Battlefield"
@@ -1037,6 +1061,33 @@ effects.Mana = {
   resolve = function(game, a, ctx)
     for _ = 1, amount(a, "Amount", 1) do
       game:add_mana(ctx.controller, a.mana_color, { persistent = a.params.PersistentMana == "True" })
+    end
+  end,
+  harmful = false,
+}
+
+-- Becomes a creature (or other types) until end of turn, with base P/T if given (Animate; Crew).
+-- Reference: effects/AnimateEffect.
+effects.Animate = {
+  params = { Power = true, Toughness = true, Types = true },
+  validate = function(a, r)
+    require_targets_or_defined(a, r)
+    a.animate_types = {}
+    for t in (a.params.Types or ""):gmatch("[^,]+") do
+      a.animate_types[t] = true
+    end
+    for _, key in ipairs({ "Power", "Toughness" }) do
+      if a.params[key] and tonumber(a.params[key]) == nil then
+        r[#r + 1] = "Animate " .. key .. "$ " .. a.params[key]
+      end
+    end
+  end,
+  resolve = function(game, a, ctx)
+    for _, card in ipairs(abilities.defined(game, a, ctx, a.params.Defined or "Targeted")) do
+      if card.zone == "battlefield" then
+        card:add_animation(a.animate_types, tonumber(a.params.Power or ""), tonumber(a.params.Toughness or ""))
+        game:emit({ type = "animate", card = card })
+      end
     end
   end,
   harmful = false,

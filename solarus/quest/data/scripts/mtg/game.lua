@@ -196,16 +196,15 @@ function Game:battlefield_snapshot()
   local snapshot = {}
   for _, player in ipairs(self.players) do
     for _, card in ipairs(player.battlefield) do
-      snapshot[#snapshot + 1] = { card = card, controller = card.controller }
+      snapshot[#snapshot + 1] = { card = card, controller = card.controller, triggers = card:triggers() }
     end
   end
   return snapshot
 end
 
--- Runs fn with one battlefield snapshot shared by every move inside it, so cards leaving the
--- battlefield at the same time see each other leave (e.g. creatures dying together in combat).
 -- Adds a temporary effect: { source, controller, def = { statics }, remembered, exile_on_moved,
--- forget_on_moved }. Its statics apply like a permanent's until cleanup (CR 514.2).
+-- forget_on_moved, permanent }. Its statics apply like a permanent's until cleanup (CR 514.2), or
+-- for good if `permanent` (until ExileOnMoved ends it).
 function Game:add_effect(effect)
   self.effects[#self.effects + 1] = effect
   self.statics_dirty = true
@@ -230,6 +229,8 @@ local function effects_on_moved(game, card, from)
   end
 end
 
+-- Runs fn with one battlefield snapshot shared by every move inside it, so cards leaving the
+-- battlefield at the same time see each other leave (e.g. creatures dying together in combat).
 function Game:with_lookback(fn)
   if self.lookback then
     return fn()
@@ -539,7 +540,7 @@ function Game:mana_sources(player, purpose)
   end
   for _, card in ipairs(player.battlefield) do
     local sick = card:is_creature() and card.sick and not card:has_keyword("Haste")
-    for i, ability in ipairs(card.def.mana_abilities) do
+    for i, ability in ipairs(card:mana_abilities()) do
       local usable = not (ability.tap and (card.tapped or sick))
           and (ability.limit == nil or self:activation_count(card, "mana" .. i) < ability.limit)
           and (ability.restrict == nil or ability.restrict == purpose)
@@ -760,7 +761,7 @@ function Game:add_activations(actions, player, card, zone)
   if not card.def.supported or card.controller ~= player then
     return
   end
-  for i, act in ipairs(card.def.activated) do
+  for i, act in ipairs(card:activated()) do
     if act.zone == zone
         and (not act.sorcery or self:can_act_at_sorcery_speed(player))
         and (act.limit == nil or self:activation_count(card, i) < act.limit)
@@ -792,7 +793,7 @@ function Game:perform(player, action)
     self:emit({ type = "play_land", player = player, card = card })
   elseif action.kind == "activate" then
     -- CR 602.2: put on the stack, choose targets, pay costs.
-    local act = card.def.activated[action.index]
+    local act = card:activated()[action.index]
     local item = { kind = "ability", card = card, controller = player, ability = act.ability,
                    ctx = { game = self, source = card, controller = player, targets = {}, activation_index = action.index } }
     self.stack[#self.stack + 1] = item
@@ -1083,7 +1084,11 @@ function turn_based.cleanup(game, player)
       card.pumps = {}
     end
   end
-  game.effects = {}
+  for i = #game.effects, 1, -1 do
+    if not game.effects[i].permanent then
+      table.remove(game.effects, i)
+    end
+  end
   game.statics_dirty = true
 end
 
