@@ -78,6 +78,7 @@ function Game.new(opts)
     history = new_history(),
     lookback = nil,         -- battlefield snapshot while a batch of simultaneous moves happens
     statics_dirty = true,   -- continuous effects need recomputing (statics.apply)
+    at_end_step = {},       -- delayed triggers for the next end step
     computing_statics = false,
   }, Game)
 
@@ -212,6 +213,10 @@ end
 function Game:move(card, zone, opts)
   opts = opts or {}
   local from = card.zone
+  if from == "stack" and card.cast_with_flashback and zone ~= "exile" then
+    zone = "exile"   -- a flashback spell is exiled instead of going anywhere else (CR 702.34a)
+  end
+  card.cast_with_flashback = nil
   local lki_controller, lookback
   if from == "battlefield" then
     lki_controller = card.controller
@@ -338,7 +343,7 @@ end
 function Game:deal_damage_batch(hits, is_combat)
   local lifelink = {}
   for _, hit in ipairs(hits) do
-    local source, target, amount = hit.source, hit.target, hit.amount
+    local source, target, amount = hit.source, hit.target, replacements.damage_amount(self, hit)
     if amount > 0 then
       if target.life ~= nil then
         self:lose_life(target, amount)
@@ -364,12 +369,15 @@ end
 
 -- State-based actions (GameAction.checkStateEffects, CR 704) -----------------------------------
 
+-- Returns true if the player lost now (false if they already had, or can't lose).
 function Game:lose(player, reason)
-  if not player.lost then
+  if not player.lost and not replacements.cant_lose(self, player) then
     player.lost = true
     player.loss_reason = reason
     self:emit({ type = "player_lost", player = player, reason = reason })
+    return true
   end
+  return false
 end
 
 -- Returns true if the game is over.
@@ -379,11 +387,9 @@ function Game:check_state_based_actions()
     for _, player in ipairs(self.players) do
       if not player.lost then
         if player.life <= 0 then
-          self:lose(player, "life")
-          changed = true
+          changed = self:lose(player, "life") or changed
         elseif player.drew_from_empty then
-          self:lose(player, "drew from empty library")
-          changed = true
+          changed = self:lose(player, "drew from empty library") or changed
         end
       end
     end
@@ -527,6 +533,31 @@ function Game:can_pay(player, cost)
   return mana.find_payment(cost, self:mana_sources(player)) ~= nil
 end
 
+-- Sum of two mana costs (kicker, X).
+local function add_cost(a, b, extra_generic)
+  local shards = {}
+  for _, s in ipairs(a.shards) do
+    shards[#shards + 1] = s
+  end
+  for _, s in ipairs(b and b.shards or {}) do
+    shards[#shards + 1] = s
+  end
+  return { generic = a.generic + (b and b.generic or 0) + (extra_generic or 0), shards = shards, x = 0 }
+end
+Game.add_cost = add_cost
+
+-- What confirm_optional is asked with when a spell could be kicked.
+local KICKER = { api = "Kicker", params = {} }
+
+-- Highest X the player can pay on top of `cost`.
+function Game:max_x(player, cost, x_count)
+  local x = 0
+  while x < 20 and self:can_pay(player, add_cost(cost, nil, (x + 1) * x_count)) do
+    x = x + 1
+  end
+  return x
+end
+
 -- A spell's mana cost after cost reductions (generic part only, CR 601.2f). `targets` is the
 -- chosen target list, or nil while checking castability (then `candidates` are the possible targets).
 function Game:spell_cost(player, card, targets, candidates)
@@ -599,9 +630,22 @@ function Game:legal_actions(player)
           candidates = abilities.target_candidates(self, card.def.spell, ctx)
         end
         if self:can_pay(player, self:spell_cost(player, card, nil, candidates))
+            and (card.def.extra_cost == nil or cost_lib.can_pay(self, player, card, card.def.extra_cost))
             and (card.def.spell == nil or abilities.can_target(self, card.def.spell, ctx)) then
           actions[#actions + 1] = { kind = "cast", card = card }
         end
+      end
+    end
+  end
+  -- Flashback (CR 702.34): cast instants/sorceries from the graveyard for the flashback cost.
+  for _, card in ipairs(player.graveyard) do
+    if card.def.supported and card.def.flashback_cost and card.def.spell then
+      local timing_ok = sorcery_speed or card:is_type("Instant")
+      local ctx = { game = self, source = card, controller = player }
+      if timing_ok and self:can_pay(player, card.def.flashback_cost)
+          and (card.def.extra_cost == nil or cost_lib.can_pay(self, player, card, card.def.extra_cost))
+          and abilities.can_target(self, card.def.spell, ctx) then
+        actions[#actions + 1] = { kind = "cast", card = card, flashback = true }
       end
     end
   end
@@ -626,7 +670,8 @@ end
 
 local function is_legal(actions, action)
   for _, a in ipairs(actions) do
-    if a.kind == action.kind and a.card == action.card and a.index == action.index then
+    if a.kind == action.kind and a.card == action.card and a.index == action.index
+        and (a.flashback or false) == (action.flashback or false) then
       return true
     end
   end
@@ -652,14 +697,33 @@ function Game:perform(player, action)
       error("no legal targets for " .. tostring(card))
     end
     self:count_activation(card, action.index)
-    cost_lib.pay(self, player, card, act.cost)
+    item.ctx.sacrificed = cost_lib.pay(self, player, card, act.cost).sacrificed
     self:emit({ type = "activate", player = player, card = card, targets = item.ctx.targets })
   elseif action.kind == "cast" then
     -- CR 601.2: move to the stack, choose targets, pay costs.
+    local base_cost = action.flashback and card.def.flashback_cost or card.def.mana_cost
     self:move(card, "stack")
+    card.cast_with_flashback = action.flashback or nil
     local item = { kind = "spell", card = card, controller = player, ability = card.def.spell,
                    ctx = { game = self, source = card, controller = player, targets = {} } }
     self.stack[#self.stack + 1] = item
+    -- CR 601.2b: announce optional costs (kicker) and X before targets.
+    local extra_mana
+    if card.def.kicker_cost and self:can_pay(player, add_cost(base_cost, card.def.kicker_cost))
+        and player.controller:confirm_optional(self, player, card, KICKER) then
+      item.ctx.kicked = true
+      extra_mana = card.def.kicker_cost
+    end
+    local x_count = base_cost.x or 0
+    if x_count > 0 then
+      local max = self:max_x(player, add_cost(base_cost, extra_mana), x_count)
+      local x = player.controller:choose_number(self, player, 0, max, "X", card) or 0
+      if x < 0 or x > max then
+        error("X out of range")
+      end
+      item.ctx.x_paid = x
+      extra_mana = add_cost(extra_mana or { generic = 0, shards = {} }, nil, x * x_count)
+    end
     if item.ability and not abilities.choose_targets(self, item.ability, item.ctx) then
       error("no legal targets for " .. tostring(card))
     end
@@ -669,8 +733,15 @@ function Game:perform(player, action)
         all_targets[#all_targets + 1] = obj
       end
     end
-    if not self:pay(player, self:spell_cost(player, card, all_targets)) then
+    local to_pay = action.flashback and base_cost or self:spell_cost(player, card, all_targets)
+    if extra_mana then
+      to_pay = add_cost(to_pay, extra_mana)
+    end
+    if not self:pay(player, to_pay) then
       error("couldn't pay for " .. tostring(card))
+    end
+    if card.def.extra_cost then
+      item.ctx.sacrificed = cost_lib.pay(self, player, card, card.def.extra_cost).sacrificed
     end
     local spent_before = self.history.mana_spent[player] or 0
     local spent_after = spent_before + card:mana_value()
@@ -794,7 +865,11 @@ function turn_based.untap(game, player)
     card.sick = false   -- controlled continuously since this turn began (CR 302.6)
   end
   for _, card in ipairs(player.battlefield) do
-    game:untap(card)
+    if card.skip_next_untap then
+      card.skip_next_untap = nil   -- "doesn't untap during your next untap step"
+    elseif not replacements.untap_locked(game, card) then
+      game:untap(card)
+    end
   end
 end
 
@@ -921,6 +996,13 @@ function Game:run_step(step)
   end
   if not NO_PRIORITY[step] then
     triggers.fire(self, "Phase", { step = step, player = self.active })
+  end
+  if step == "end_of_turn" and #self.at_end_step > 0 then
+    -- delayed "at the beginning of the next end step" effects (AtEOT$), as triggers
+    for _, delayed in ipairs(self.at_end_step) do
+      table.insert(self.pending_triggers, delayed)
+    end
+    self.at_end_step = {}
   end
   if NO_PRIORITY[step] then
     -- CR 514.3a: players only get priority in cleanup if state-based actions or triggers happen.

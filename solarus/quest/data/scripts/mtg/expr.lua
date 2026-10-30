@@ -199,6 +199,20 @@ local function compile_base(text, svars, depth)
     if CARD_STATS[rest] then
       return function(game, ctx) return card_stat(ctx.trigger and ctx.trigger.card, rest) end
     end
+  elseif kind == "SVar" then
+    local svar = svars[rest]
+    if svar and depth < 10 then
+      return expr.compile(svar, svars, depth + 1)
+    end
+  elseif kind == "Sacrificed" then
+    -- last-known characteristics of what was sacrificed to pay the cost (ctx.sacrificed)
+    if CARD_STATS[rest] then
+      local key = rest == "CardPower" and "power" or rest == "CardToughness" and "toughness" or "mana_value"
+      return function(game, ctx)
+        local first = ctx.sacrificed and ctx.sacrificed[1]
+        return first and first[key] or 0
+      end
+    end
   elseif kind == "Targeted" or kind == "ParentTargeted" then
     if CARD_STATS[rest] then
       return function(game, ctx)
@@ -247,9 +261,17 @@ function expr.compile(text, svars, depth)
     return base
   end
   local op, n = math_text:match("^(%a+)%.(%-?%d+)$")
+  local svar_op, svar_name = math_text:match("^(%a+)%.(%a[%w]*)$")
   if op and MATH[op] then
     local f, value = MATH[op], tonumber(n)
     return function(game, ctx) return f(base(game, ctx), value) end
+  elseif svar_op and MATH[svar_op] and svars[svar_name] then
+    local operand, problem2 = expr.compile(svars[svar_name], svars, depth + 1)
+    if operand == nil then
+      return nil, problem2
+    end
+    local f = MATH[svar_op]
+    return function(game, ctx) return f(base(game, ctx), operand(game, ctx)) end
   elseif math_text == "Twice" then
     return function(game, ctx) return base(game, ctx) * 2 end
   elseif math_text == "HalfDown" then

@@ -286,6 +286,13 @@ function duel_ui:advance(answer)
     self.row, self.col = 3, 1
   elseif request.kind == "arrange_top" then
     self.row, self.col = 3, 1
+  elseif request.kind == "choose_number" then
+    self.option_entries = {}
+    for n = request.min, request.max do
+      self.option_entries[#self.option_entries + 1] = { is_option = true, value = n, label = tostring(n),
+                                                        detail = request.purpose .. " = " .. n }
+    end
+    self.row, self.col = 3, 1
   end
   if request.kind == "declare_attackers" or request.kind == "declare_blockers" then
     self.row = 2
@@ -359,6 +366,9 @@ function duel_ui:prompt_text()
   elseif kind == "choose_color" then
     title = fit("Color for ", r.source:name(), "")
     help = "Space: choose"
+  elseif kind == "choose_number" then
+    title = fit(r.purpose .. " for ", r.source:name(), "")
+    help = "Space: choose"
   elseif kind == "choose_mode" then
     title = fit("Mode for ", r.source:name(), "")
     help = "Space: choose (see details)"
@@ -367,7 +377,13 @@ function duel_ui:prompt_text()
     title = (scry and "Scry " or "Surveil ") .. #r.cards .. " (first = top)"
     help = scry and "Space: to bottom  Enter: done" or "Space: to graveyard  Enter: done"
   elseif kind == "confirm_optional" then
-    title = fit("Use ", r.source:name(), "?")
+    if r.ability and r.ability.api == "Kicker" then
+      title = fit("Kick ", r.source:name(), "?")
+    elseif r.ability and r.ability.optional_cost then
+      title = fit("Pay the cost for ", r.source:name(), "?")
+    else
+      title = fit("Use ", r.source:name(), "?")
+    end
     help = "Space: yes  Bksp: no"
   elseif kind == "declare_attackers" then
     title, help = "Declare attackers", "Space: pick  Enter: attack"
@@ -473,7 +489,7 @@ function duel_ui:select()
     end
   elseif r.kind == "confirm_optional" then
     self:advance(true)
-  elseif r.kind == "choose_color" or r.kind == "choose_mode" then
+  elseif r.kind == "choose_color" or r.kind == "choose_mode" or r.kind == "choose_number" then
     if card.is_option then
       self:advance(card.value)
     end

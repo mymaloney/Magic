@@ -172,7 +172,8 @@ Record each simplification here when made, with the Forge code it diverges from:
   static's filter). Timestamps between conflicting effects aren't tracked.
 - All targets for a spell or trigger are chosen up front; the duel screen can't back out of a
   cast once targeting starts.
-- Amounts must be plain numbers (no X or SVar arithmetic yet).
+- Delayed "at the beginning of the next end step" effects (AtEOT$) are put on the stack as
+  triggers when the end step begins.
 - Players get no priority in cleanup (correct until something can trigger there).
 - Duel screen: combat damage among several blockers is divided automatically (lethal to each
   in turn, rest tramples over); the AI's actions happen instantly and are reported in the log.

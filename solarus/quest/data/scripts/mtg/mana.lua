@@ -13,9 +13,11 @@ function mana.parse_cost(text)
   if text == nil or text == "no cost" then
     return nil
   end
-  local cost = { generic = 0, shards = {} }
+  local cost = { generic = 0, shards = {}, x = 0 }
   for token in text:gmatch("%S+") do
-    if token:match("^%d+$") then
+    if token == "X" then
+      cost.x = cost.x + 1   -- the caster chooses X (CR 107.3); its value is added as generic
+    elseif token:match("^%d+$") then
       cost.generic = cost.generic + tonumber(token)
     elseif is_color[token] or token == "C" then
       cost.shards[#cost.shards + 1] = token

@@ -32,6 +32,7 @@ end
 function combat.can_block(game, blocker)
   return blocker.zone == "battlefield" and blocker:is_creature() and not blocker.tapped
       and not statics.applies(game, "CantBlock", blocker)
+      and not blocker:has_keyword("HIDDEN CARDNAME can't block.")
 end
 
 function combat.can_block_attacker(blocker, attacker)

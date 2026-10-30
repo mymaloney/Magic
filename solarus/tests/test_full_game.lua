@@ -136,6 +136,8 @@ return function(t)
         answer = brain:arrange_top(game, p, request.cards, request.away)
       elseif request.kind == "choose_mode" then
         answer = brain:choose_mode(game, p, request.source, request.charm, request.options)
+      elseif request.kind == "choose_number" then
+        answer = brain:choose_number(game, p, request.min, request.max, request.purpose, request.source)
       elseif request.kind == "confirm_optional" then
         answer = brain:confirm_optional(game, p, request.source, request.ability)
       else

@@ -30,6 +30,9 @@ local CARD_PROPS = {
   YouOwn = function(ctx, c) return c.owner == ctx.you end,
   OppOwn = function(ctx, c) return c.owner ~= ctx.you end,
   token = function() return false end,   -- the engine has no tokens yet
+  Basic = function(_, c) return c.def.supertypes.Basic == true end,
+  Legendary = function(_, c) return c.def.supertypes.Legendary == true end,
+  Snow = function(_, c) return c.def.supertypes.Snow == true end,
   Token = function() return false end,
   tapped = function(_, c) return c.tapped end,
   untapped = function(_, c) return not c.tapped end,

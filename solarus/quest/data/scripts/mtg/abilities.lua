@@ -23,6 +23,7 @@ local COMMON_PARAMS = {
   ValidTgts = true, TargetMin = true, TargetMax = true, TgtZone = true, TargetType = true, Defined = true,
   ConditionCheckSVar = true, ConditionSVarCompare = true, ConditionPresent = true, ConditionCompare = true,
   ConditionDescription = true, ValidTgtsDesc = true,
+  Cost = true, CostDesc = true, UnlessCost = true, UnlessSwitched = true, UnlessPayer = true, Condition = true,
 }
 
 -- Parameters holding amounts; compiled with expr.compile into ability.amounts[key].
@@ -93,6 +94,30 @@ function abilities.build(params, svars, reasons, effects, parent, depth)
         reasons[#reasons + 1] = api .. " " .. key .. "$ " .. text .. " (" .. tostring(problem) .. ")"
       end
     end
+  end
+
+  -- "You may pay <cost>. If you do, ..." : Cost$ on a non-root ability, or UnlessCost$ with
+  -- UnlessSwitched$ True paid by You. (Cost$ on a spell's or activated ability's root is its real
+  -- cost and is taken off by card_db before building.)
+  local optional_text = params.Cost
+  if params.UnlessCost then
+    if params.UnlessSwitched ~= "True" or (params.UnlessPayer or "You") ~= "You" then
+      reasons[#reasons + 1] = "UnlessCost without UnlessSwitched"
+    end
+    optional_text = params.UnlessCost
+  end
+  if optional_text then
+    local parsed, problem = require("scripts/mtg/cost").parse(optional_text)
+    if parsed == nil then
+      reasons[#reasons + 1] = tostring(problem)
+    end
+    ability.optional_cost = parsed
+  end
+  if params.Condition then
+    if params.Condition ~= "Kicked" then
+      reasons[#reasons + 1] = "Condition$ " .. params.Condition
+    end
+    ability.condition = function(game, ctx) return ctx.kicked == true end
   end
 
   -- Conditions (SpellAbilityCondition): when false, this part is skipped; its sub-abilities still run.
@@ -482,6 +507,17 @@ return abilities.defined(game, ability, ctx, kind == "ParentTargeted" and "Paren
     end
     if ability.condition and not ability.condition(game, ctx) then
       skip = true
+    end
+    if not skip and ability.optional_cost then
+      -- "You may pay ...; if you do": declining (or being unable to pay) skips the rest.
+      local cost_lib = require("scripts/mtg/cost")
+      local player = ctx.controller
+      if not cost_lib.can_pay(game, player, ctx.source, ability.optional_cost)
+          or not player.controller:confirm_optional(game, player, ctx.source, ability) then
+        return true
+      end
+      local paid = cost_lib.pay(game, player, ctx.source, ability.optional_cost)
+      ctx.sacrificed = paid.sacrificed
     end
     if not skip then
       effects[ability.api].resolve(game, ability, ctx)

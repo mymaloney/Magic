@@ -105,7 +105,22 @@ function ai:choose_targets(game, player, ability, candidates, min, max, ctx)
 end
 
 function ai:confirm_optional(game, player, source, ability)
+  local c = ability and ability.optional_cost
+  if c then
+    for _, part in ipairs(c.sacrifice) do
+      if not part.self then
+        return false   -- don't feed creatures to optional costs
+      end
+    end
+    if #c.discard > 0 and #player.hand < 2 then
+      return false
+    end
+  end
   return true
+end
+
+function ai:choose_number(game, player, min, max, purpose, source)
+  return max
 end
 
 -- The color that appears most in the mana costs of the cards it owns.
@@ -195,7 +210,7 @@ local function spell_is_good(game, player, card)
 end
 
 function ai:choose_cards(game, player, cards, min, max, reason)
-  local best_first = reason == "dig"   -- taking cards: the best ones; paying costs: the worst
+  local best_first = reason == "dig" or reason == "search"   -- taking cards: the best; paying costs: the worst
   local sorted = {}
   for i, c in ipairs(cards) do
     sorted[i] = c

@@ -147,6 +147,9 @@ function card_db.build_definition(text)
   end
 
   local cost, cost_problem = mana.parse_cost(face.mana_cost)
+  if cost and cost.x > 0 and not (def.types.Instant or def.types.Sorcery) then
+    unsupported("X in a permanent's cost")
+  end
   def.mana_cost = cost
   def.mana_value = mana.mana_value(cost)
   if cost_problem then
@@ -156,9 +159,11 @@ function card_db.build_definition(text)
   end
 
   if face.pt then
-    local p, t = face.pt:match("^(%-?%d+)/(%-?%d+)$")
+    local p, t = face.pt:match("^(%-?%d+%*?)/(%-?%d+%*?)$")
     if p then
-      def.power, def.toughness = tonumber(p), tonumber(t)
+      -- "*" is defined by a characteristic-defining static ability (checked below)
+      def.power, def.toughness = tonumber(p) or 0, tonumber(t) or 0
+      def.cda_power, def.cda_toughness = p == "*", t == "*"
     else
       unsupported("P/T " .. face.pt)
     end
@@ -181,6 +186,21 @@ function card_db.build_definition(text)
       if parsed == nil then
         unsupported(problem)
       end
+    elseif name == "Prowess" then
+      -- Prowess (CR 702.108): whenever you cast a noncreature spell, +1/+1 until end of turn.
+      local svars = { ProwessPump = "DB$ Pump | Defined$ Self | NumAtt$ +1 | NumDef$ +1" }
+      def.triggers[#def.triggers + 1] = triggers.parse({
+        Mode = "SpellCast", ValidCard = "Card.nonCreature", ValidActivatingPlayer = "You",
+        TriggerZones = "Battlefield", Execute = "ProwessPump",
+      }, svars, def.unsupported, effects)
+    elseif name == "Flashback" or name == "Kicker" then
+      local text = keyword:match("^%a+:(.+)$")
+      local parsed, problem = mana.parse_cost(text or "")
+      if parsed == nil then
+        unsupported("keyword " .. keyword .. (problem and (" (" .. problem .. ")") or ""))
+      end
+      def[name:lower() .. "_cost"] = parsed
+      def.keywords[name] = true
     elseif name == "Equip" then
       -- Equip N (CR 702.6): sorcery-speed "attach to target creature you control".
       local n = keyword:match("^Equip:(%d+)$")
@@ -208,10 +228,24 @@ function card_db.build_definition(text)
     elseif params.AB and params.AB ~= "Mana" then
       def.activated[#def.activated + 1] = parse_activated(params, face.svars, def.unsupported)
     elseif params.SP and is_spell_card and def.spell == nil then
+      local spell_params = params
       if params.Cost then
-        unsupported("spell with additional cost")
+        -- Cost$ on a spell = its mana cost plus additional costs (discard, sacrifice, ...).
+        local parsed, problem = cost_lib.parse(params.Cost)
+        if parsed == nil then
+          unsupported(tostring(problem))
+        else
+          parsed.mana = nil
+          def.extra_cost = parsed
+        end
+        spell_params = {}
+        for k, v in pairs(params) do
+          if k ~= "Cost" and k ~= "CostDesc" then
+            spell_params[k] = v
+          end
+        end
       end
-      def.spell = abilities.build(params, face.svars, def.unsupported, effects)
+      def.spell = abilities.build(spell_params, face.svars, def.unsupported, effects)
     else
       unsupported("ability " .. (params.SP and ("SP$ " .. params.SP) or params.AB and ("AB$ " .. params.AB) or "?"))
     end
@@ -239,6 +273,18 @@ function card_db.build_definition(text)
   end
   for _, params in ipairs(face.replacements) do
     replacements.parse(def, params, face.svars, def.unsupported, effects)
+  end
+
+  -- "*" power/toughness needs a characteristic-defining static ability that sets it.
+  local sets_power, sets_toughness = false, false
+  for _, st in ipairs(def.statics) do
+    if st.params.CharacteristicDefining == "True" then
+      sets_power = sets_power or st.set_power ~= nil
+      sets_toughness = sets_toughness or st.set_toughness ~= nil
+    end
+  end
+  if (def.cda_power and not sets_power) or (def.cda_toughness and not sets_toughness) then
+    unsupported("P/T " .. tostring(face.pt))
   end
 
   def.supported = #def.unsupported == 0

@@ -8,7 +8,7 @@ local card_db = require("scripts/mtg/card_db")
 local Game = require("scripts/mtg/game")
 local combat = require("scripts/mtg/combat")
 
-local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_abilities", "test_triggers", "test_activated", "test_effects", "test_statics", "test_full_game", "test_duel_ui" }
+local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_abilities", "test_triggers", "test_activated", "test_effects", "test_statics", "test_costs", "test_full_game", "test_duel_ui" }
 
 local t = { checks = 0, failures = 0, section_name = "" }
 
@@ -113,6 +113,9 @@ function t.scripted(script)
     choose_mode = function(_, game, player, source, charm, options)
       return script.mode and script.mode(game, player, source, charm, options) or options[1]
     end,
+    choose_number = function(_, game, player, min, max, purpose, source)
+      return script.number and script.number(game, player, min, max, purpose, source) or max
+    end,
     choose_color = function(_, game, player, source, options)
       return script.color and script.color(game, player, source, options) or options[1]
     end,
@@ -170,9 +173,19 @@ function t.find(list, name, nth)
   return nil
 end
 
+-- A test file that runs for more than a minute is stuck in a loop: fail it with a traceback.
+local TIME_LIMIT = 60
 for _, file in ipairs(TEST_FILES) do
   t.section(file)
+  local started = os.clock()
+  debug.sethook(function()
+    if os.clock() - started > TIME_LIMIT then
+      debug.sethook()
+      error("timed out after " .. TIME_LIMIT .. "s (infinite loop?)")
+    end
+  end, "", 1000000)
   local ok, err = xpcall(function() dofile("solarus/tests/" .. file .. ".lua")(t) end, debug.traceback)
+  debug.sethook()
   if not ok then
     t.failures = t.failures + 1
     print("ERROR [" .. t.section_name .. "] " .. tostring(err))

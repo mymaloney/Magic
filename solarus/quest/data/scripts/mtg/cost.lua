@@ -159,7 +159,9 @@ function cost.can_pay(game, player, source, c)
 end
 
 -- Pays the cost (CR 601.2h). Choices go to the controller via choose_cards.
+-- Returns { sacrificed = { { card, power, toughness, mana_value } } } (last-known values).
 function cost.pay(game, player, source, c)
+  local paid = { sacrificed = {} }
   if c.mana and not game:pay(player, c.mana, usable_sources(game, player, source, c)) then
     error("couldn't pay mana for " .. tostring(source))
   end
@@ -175,6 +177,10 @@ function cost.pay(game, player, source, c)
     if #chosen ~= part.count then
       error("must sacrifice " .. part.count)
     end
+    for _, card in ipairs(chosen) do
+      table.insert(paid.sacrificed, { card = card, power = card:power(), toughness = card:toughness(),
+                                      mana_value = card:mana_value() })
+    end
     game:sacrifice(chosen)
   end
   for _, part in ipairs(c.discard) do
@@ -185,6 +191,7 @@ function cost.pay(game, player, source, c)
   if c.pay_life > 0 then
     game:lose_life(player, c.pay_life)
   end
+  return paid
 end
 
 -- Mana ability costs the auto-payer understands: {T}, {N} (a filter: "pay N more"), sacrificing

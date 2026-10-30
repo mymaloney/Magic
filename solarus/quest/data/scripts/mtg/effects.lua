@@ -170,7 +170,9 @@ effects.DestroyAll = {
 }
 
 effects.ChangeZone = {
-  params = { Origin = true, Destination = true, LibraryPosition = true, Duration = true },
+  params = { Origin = true, Destination = true, LibraryPosition = true, Duration = true, ChangeType = true,
+             ChangeNum = true, Optional = true, Hidden = true, Mandatory = true, Tapped = true,
+             ChangeTypeDesc = true, SelectPrompt = true },
   target_zone = function(params) return abilities.ZONES[params.Origin] end,
   validate = function(a, r)
     local p = a.params
@@ -183,18 +185,55 @@ effects.ChangeZone = {
     if p.Destination == "Library" and p.LibraryPosition ~= "0" and p.LibraryPosition ~= "-1" then
       r[#r + 1] = "ChangeZone LibraryPosition$ " .. tostring(p.LibraryPosition)
     end
-    require_targets_or_defined(a, r)
+    if p.ChangeType then
+      -- choose (or search for) cards in the origin zone rather than targeting them
+      local parsed, problem = filter.parse(p.ChangeType)
+      a.change_type = parsed
+      if parsed == nil then
+        r[#r + 1] = problem
+      end
+      if a.target or p.Defined then
+        r[#r + 1] = "ChangeZone with ChangeType and targets"
+      end
+      if p.Optional and p.Optional ~= "You" and p.Optional ~= "True" then
+        r[#r + 1] = "ChangeZone Optional$ " .. p.Optional
+      end
+    end
   end,
   resolve = function(game, a, ctx)
     local origin = abilities.ZONES[a.params.Origin]
     local destination = abilities.ZONES[a.params.Destination]
     local cards = {}
-    for _, card in ipairs(abilities.cards_of(abilities.affected(game, a, ctx))) do
+    if a.change_type then
+      -- CR 701.19: choosing from a hidden zone may fail to find; from the hand only if optional.
+      local player = ctx.controller
+      local candidates = {}
+      for _, card in ipairs(player[origin]) do
+        if filter.matches(a.change_type, card, { game = game, you = player, self = ctx.source }) then
+          candidates[#candidates + 1] = card
+        end
+      end
+      local n = math.min(amount(a, "ChangeNum", 1), #candidates)
+      local optional = a.params.Optional ~= nil or (origin == "library" and a.params.Mandatory ~= "True")
+      if n > 0 then
+        cards = player.controller:choose_cards(game, player, candidates, optional and 0 or n, n, "search") or {}
+      end
+      if origin == "library" then
+        game:shuffle(player)
+      end
+    elseif a.target == nil and a.params.Defined == nil then
+      cards = { ctx.source }   -- e.g. "Return this card from your graveyard to the battlefield"
+    else
+      cards = abilities.cards_of(abilities.affected(game, a, ctx))
+    end
+    local in_origin = {}
+    for _, card in ipairs(cards) do
       if card.zone == origin then
-        cards[#cards + 1] = card
+        in_origin[#in_origin + 1] = card
       end
     end
-    local opts = { controller = ctx.controller }
+    cards = in_origin
+    local opts = { controller = ctx.controller, tapped = a.params.Tapped == "True" }
     if a.params.LibraryPosition == "-1" then
       opts.position = "bottom"
     end
@@ -243,17 +282,49 @@ local function pump_harmful(a)
   return a.params.IsCurse == "True" or att:sub(1, 1) == "-" or def:sub(1, 1) == "-"
 end
 
+local DOESNT_UNTAP = "HIDDEN This card doesn't untap during your next untap step."
+
+local function validate_duration(a, r)
+  if a.params.Duration and not (a.params.Duration == "Permanent" and a.keywords[DOESNT_UNTAP]) then
+    r[#r + 1] = a.api .. " Duration$ " .. a.params.Duration
+  end
+  if a.params.AtEOT and a.params.AtEOT ~= "Sacrifice" then
+    r[#r + 1] = a.api .. " AtEOT$ " .. a.params.AtEOT
+  end
+end
+
+local SAC_SELF   -- "sacrifice it" for AtEOT$ Sacrifice, built on first use
+local function sacrifice_at_end_step(game, card, controller)
+  if SAC_SELF == nil then
+    SAC_SELF = abilities.build({ DB = "Sacrifice", SacValid = "Self" }, {}, {}, effects)
+  end
+  table.insert(game.at_end_step, { source = card, controller = controller,
+                                   trigger = { ability = SAC_SELF }, event = {} })
+end
+
+-- Applies a pump to one card; the "doesn't untap" keyword becomes a flag instead (Duration$ Permanent).
+local function apply_pump(game, card, a, ctx)
+  if a.keywords[DOESNT_UNTAP] then
+    card.skip_next_untap = true
+  end
+  pump(card, a)
+  if a.params.AtEOT == "Sacrifice" then
+    sacrifice_at_end_step(game, card, ctx.controller)
+  end
+end
+
 effects.Pump = {
-  params = { NumAtt = true, NumDef = true, KW = true },
+  params = { NumAtt = true, NumDef = true, KW = true, Duration = true, AtEOT = true },
   validate = function(a, r)
     number_param(a, r, "NumAtt", 0)
     number_param(a, r, "NumDef", 0)
     parse_keywords(a, r)
+    validate_duration(a, r)
   end,
   resolve = function(game, a, ctx)
     for _, card in ipairs(abilities.cards_of(abilities.affected(game, a, ctx, "Self"))) do
       if card.zone == "battlefield" then
-        pump(card, a)
+        apply_pump(game, card, a, ctx)
         game:emit({ type = "pump", card = card })
       end
     end
@@ -262,11 +333,12 @@ effects.Pump = {
 }
 
 effects.PumpAll = {
-  params = { ValidCards = true, NumAtt = true, NumDef = true, KW = true },
+  params = { ValidCards = true, NumAtt = true, NumDef = true, KW = true, Duration = true },
   validate = function(a, r)
     number_param(a, r, "NumAtt", 0)
     number_param(a, r, "NumDef", 0)
     parse_keywords(a, r)
+    validate_duration(a, r)
     local parsed, problem = filter.parse(a.params.ValidCards or "")
     a.valid_cards = parsed
     if parsed == nil then
@@ -274,10 +346,12 @@ effects.PumpAll = {
     end
   end,
   resolve = function(game, a, ctx)
-    for _, player in ipairs(game.players) do
+    -- Defined$ Targeted on a PumpAll limits it to the targeted player's permanents (Sleep).
+    local players = a.params.Defined and abilities.players_of(abilities.defined(game, a, ctx, a.params.Defined)) or game.players
+    for _, player in ipairs(players) do
       for _, card in ipairs(player.battlefield) do
         if filter.matches(a.valid_cards, card, { game = game, you = ctx.controller, self = ctx.source }) then
-          pump(card, a)
+          apply_pump(game, card, a, ctx)
         end
       end
     end

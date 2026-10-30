@@ -6,6 +6,9 @@ return {
     ["Flying"] = true, ["Reach"] = true, ["Vigilance"] = true, ["Haste"] = true, ["Defender"] = true,
     ["First Strike"] = true, ["Double Strike"] = true, ["Trample"] = true, ["Deathtouch"] = true,
     ["Lifelink"] = true, ["Menace"] = true, ["Flash"] = true, ["Indestructible"] = true,
-    ["Hexproof"] = true, ["Changeling"] = true,
+    ["Hexproof"] = true, ["Changeling"] = true, ["Prowess"] = true,
+    -- granted by "HIDDEN" pumps (Forge's internal keywords)
+    ["HIDDEN CARDNAME can't block."] = true,
+    ["HIDDEN This card doesn't untap during your next untap step."] = true,
   },
 }

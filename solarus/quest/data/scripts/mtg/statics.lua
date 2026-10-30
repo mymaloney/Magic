@@ -109,7 +109,11 @@ function statics.parse(params, svars, reasons, supported_keywords)
       reasons[#reasons + 1] = "static AffectedDefined$ " .. d
     end
     if d == nil and params.Affected == nil then
-      reasons[#reasons + 1] = "static without Affected"
+      if params.CharacteristicDefining == "True" then
+        params.AffectedDefined = "Self"   -- a CDA defines the card's own characteristics
+      else
+        reasons[#reasons + 1] = "static without Affected"
+      end
     end
     st.affected = parse_filter(params, "Affected", reasons)
     st.add_power = parse_amount(params, "AddPower", svars, reasons)
