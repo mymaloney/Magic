@@ -37,7 +37,11 @@ local PLAYABLE_TYPES = { Creature = true, Artifact = true, Land = true, Instant 
 
 local MANA_ABILITY_PARAMS = {
   AB = true, Cost = true, Produced = true, SpellDescription = true, ActivationLimit = true, AILogic = true,
+  Amount = true, RestrictValid = true,
 }
+
+-- RestrictValid$ values: what the mana can be spent on (see Game:mana_sources).
+local MANA_RESTRICTIONS = { ["Spell.Creature"] = "creature_spell" }
 
 -- { colors, tap, extra, sacrifice, limit } for mana abilities the auto-payer can use, else nil.
 local function parse_mana_ability(params)
@@ -57,13 +61,26 @@ local function parse_mana_ability(params)
   end
   spec.colors = colors
   spec.limit = tonumber(params.ActivationLimit or "")
+  if params.Amount then
+    -- "Add three mana of any one color": several mana of one color (no filter/sacrifice costs)
+    spec.amount = tonumber(params.Amount)
+    if spec.amount == nil or spec.amount < 1 or spec.extra > 0 or spec.sacrifice then
+      return nil
+    end
+  end
+  if params.RestrictValid then
+    spec.restrict = MANA_RESTRICTIONS[params.RestrictValid]
+    if spec.restrict == nil then
+      return nil
+    end
+  end
   return spec
 end
 
 -- Activated-ability parameters handled here rather than by the effect.
 local ACTIVATION_PARAMS = {
   Cost = true, ActivationLimit = true, ActivationZone = true, SorcerySpeed = true,
-  PrecostDesc = true, CostDesc = true,
+  PrecostDesc = true, CostDesc = true, TapCreaturesForMana = true,
 }
 
 local function parse_activated(params, svars, reasons)
@@ -83,6 +100,9 @@ local function parse_activated(params, svars, reasons)
     if zone ~= "graveyard" then
       reasons[#reasons + 1] = "ActivationZone$ " .. params.ActivationZone
     end
+  end
+  if parsed and params.TapCreaturesForMana == "True" then
+    parsed.tap_creatures_for_mana = true   -- Heirloom Epic: tap creatures instead of paying generic mana
   end
   return {
     ability = abilities.build(effect_params, svars, reasons, effects),

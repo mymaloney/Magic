@@ -967,18 +967,6 @@ effects.TapAll = {
   harmful = true,
 }
 
--- Every resolve function sees the current context through CTX (used by amount()).
-for _, spec in pairs(effects) do
-  if type(spec) == "table" and spec.resolve then
-    local resolve = spec.resolve
-    spec.resolve = function(game, a, ctx)
-      local previous = CTX
-      CTX = ctx
-      resolve(game, a, ctx)
-      CTX = previous
-    end
-  end
-end
 
 function effects.is_harmful(ability)
   local h = effects[ability.api] and effects[ability.api].harmful
@@ -1033,5 +1021,38 @@ effects.Effect = {
   end,
   harmful = false,
 }
+
+-- Adds mana to the controller's pool (a triggered or spell Mana effect; mana *abilities* are
+-- handled by the auto-payer). PersistentMana$ keeps it until end of turn. Reference: effects/ManaEffect.
+effects.Mana = {
+  params = { Produced = true, PersistentMana = true, Amount = true },
+  validate = function(a, r)
+    local colors = require("scripts/mtg/mana").parse_produced(a.params.Produced or "")
+    if colors == nil or #colors ~= 1 then
+      r[#r + 1] = "Mana Produced$ " .. tostring(a.params.Produced)
+    end
+    a.mana_color = colors and colors[1]
+    number_param(a, r, "Amount", 1)
+  end,
+  resolve = function(game, a, ctx)
+    for _ = 1, amount(a, "Amount", 1) do
+      game:add_mana(ctx.controller, a.mana_color, { persistent = a.params.PersistentMana == "True" })
+    end
+  end,
+  harmful = false,
+}
+
+-- Every resolve function sees the current context through CTX (used by amount()).
+for _, spec in pairs(effects) do
+  if type(spec) == "table" and spec.resolve then
+    local resolve = spec.resolve
+    spec.resolve = function(game, a, ctx)
+      local previous = CTX
+      CTX = ctx
+      resolve(game, a, ctx)
+      CTX = previous
+    end
+  end
+end
 
 return effects

@@ -684,7 +684,15 @@ function duel_ui.card_details(card)
     return { card.label, "", "", card.detail }
   end
   if card.life ~= nil then
-    return { card.name, "Life " .. card.life, "Hand " .. #card.hand .. "  Library " .. #card.library }
+    local lines = { card.name, "Life " .. card.life, "Hand " .. #card.hand .. "  Library " .. #card.library }
+    if #card.mana_pool > 0 then
+      local pool = {}
+      for _, entry in ipairs(card.mana_pool) do
+        pool[#pool + 1] = "{" .. entry.color .. "}"
+      end
+      lines[4] = "Mana pool: " .. table.concat(pool)
+    end
+    return lines
   end
   local def = card.def
   local face = def.script.faces[1]

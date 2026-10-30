@@ -90,6 +90,7 @@ function Game.new(opts)
       controller = spec.controller, life = opts.starting_life or 20,
       library = {}, hand = {}, battlefield = {}, graveyard = {}, exile = {},
       lost = false, drew_from_empty = false,
+      mana_pool = {},   -- unspent mana: { id, color, persistent = bool, restrict = purpose or nil }
     }
     game.players[i] = player
     local deck = spec.deck or {}
@@ -526,13 +527,22 @@ function Game:count_activation(card, key)
 end
 
 -- One source per usable mana ability: { card, colors, ability, extra, sacrifice }.
-function Game:mana_sources(player)
+-- Payment sources for `player` (see mana.find_payment): mana in their pool, then mana abilities.
+-- `purpose` ("creature_spell" or nil) unlocks mana that can only be spent on that.
+local POOL_ABILITY = {}
+function Game:mana_sources(player, purpose)
   local sources = {}
+  for _, entry in ipairs(player.mana_pool) do
+    if entry.restrict == nil or entry.restrict == purpose then
+      sources[#sources + 1] = { card = entry, colors = { entry.color }, ability = POOL_ABILITY, pool = entry }
+    end
+  end
   for _, card in ipairs(player.battlefield) do
     local sick = card:is_creature() and card.sick and not card:has_keyword("Haste")
     for i, ability in ipairs(card.def.mana_abilities) do
       local usable = not (ability.tap and (card.tapped or sick))
           and (ability.limit == nil or self:activation_count(card, "mana" .. i) < ability.limit)
+          and (ability.restrict == nil or ability.restrict == purpose)
       if usable then
         local colors, seen = {}, {}
         for _, c in ipairs(ability.colors) do
@@ -545,13 +555,38 @@ function Game:mana_sources(player)
           end
         end
         if #colors > 0 then
-          sources[#sources + 1] = { card = card, colors = colors, ability = ability, key = "mana" .. i,
-                                    extra = ability.extra, sacrifice = ability.sacrifice }
+          local amount = ability.amount or 1
+          local group = amount > 1 and { card = card, ability = ability, amount = amount } or nil
+          for unit = 1, amount do
+            sources[#sources + 1] = { card = card, colors = colors, ability = ability, key = "mana" .. i,
+                                      extra = ability.extra, sacrifice = ability.sacrifice,
+                                      group = group, unit = group and unit or nil }
+          end
         end
       end
     end
   end
   return sources
+end
+
+-- Adds mana to a player's pool (Mana effects, leftovers of multi-mana abilities).
+function Game:add_mana(player, color, opts)
+  opts = opts or {}
+  local entry = { id = -1000 - self.next_id, color = color, persistent = opts.persistent, restrict = opts.restrict }
+  self.next_id = self.next_id + 1
+  player.mana_pool[#player.mana_pool + 1] = entry
+  self:emit({ type = "mana_added", player = player, color = color })
+end
+
+-- CR 500.4: mana empties from pools at the end of each step; "until end of turn" mana at cleanup.
+function Game:empty_mana_pools(all)
+  for _, player in ipairs(self.players) do
+    for i = #player.mana_pool, 1, -1 do
+      if all or not player.mana_pool[i].persistent then
+        table.remove(player.mana_pool, i)
+      end
+    end
+  end
 end
 
 -- Sacrifices permanents (CR 701.17), together.
@@ -566,11 +601,11 @@ function Game:sacrifice(cards)
   end)
 end
 
-function Game:can_pay(player, cost)
+function Game:can_pay(player, cost, purpose)
   if cost == nil then
     return false
   end
-  return mana.find_payment(cost, self:mana_sources(player)) ~= nil
+  return mana.find_payment(cost, self:mana_sources(player, purpose)) ~= nil
 end
 
 -- Sum of two mana costs (kicker, X).
@@ -590,9 +625,9 @@ Game.add_cost = add_cost
 local KICKER = { api = "Kicker", params = {} }
 
 -- Highest X the player can pay on top of `cost`.
-function Game:max_x(player, cost, x_count)
+function Game:max_x(player, cost, x_count, purpose)
   local x = 0
-  while x < 20 and self:can_pay(player, add_cost(cost, nil, (x + 1) * x_count)) do
+  while x < 20 and self:can_pay(player, add_cost(cost, nil, (x + 1) * x_count), purpose) do
     x = x + 1
   end
   return x
@@ -610,23 +645,39 @@ function Game:spell_cost(player, card, targets, candidates)
 end
 
 -- Activates mana abilities to pay the cost (they don't use the stack). Returns true if paid.
--- `sources` defaults to all of the player's mana sources.
-function Game:pay(player, cost, sources)
-  local payment = mana.find_payment(cost, sources or self:mana_sources(player))
+-- `sources` defaults to all of the player's mana sources (for `purpose`, see mana_sources).
+-- Mana a multi-mana ability makes beyond what the cost needs goes to the pool.
+function Game:pay(player, cost, sources, purpose)
+  local payment = mana.find_payment(cost, sources or self:mana_sources(player, purpose))
   if payment == nil then
     return false
   end
   local sacrificed = {}
+  local groups = {}
   for _, p in ipairs(payment) do
     local source = p.source
-    if source.ability.tap then
-      self:tap(source.card)
+    if source.pool then
+      remove_from(player.mana_pool, source.pool)
+    elseif source.group and groups[source.group] then
+      groups[source.group].used = groups[source.group].used + 1
+    else
+      if source.group then
+        groups[source.group] = { used = 1, color = p.color }
+      end
+      if source.ability.tap then
+        self:tap(source.card)
+      end
+      self:count_activation(source.card, source.key)
+      if source.sacrifice then
+        sacrificed[#sacrificed + 1] = source.card
+      end
+      self:emit({ type = "mana", player = player, source = source.card, color = p.color })
     end
-    self:count_activation(source.card, source.key)
-    if source.sacrifice then
-      sacrificed[#sacrificed + 1] = source.card
+  end
+  for group, g in pairs(groups) do
+    for _ = g.used + 1, group.amount do
+      self:add_mana(player, g.color, { restrict = group.ability.restrict })
     end
-    self:emit({ type = "mana", player = player, source = source.card, color = p.color })
   end
   if #sacrificed > 0 then
     self:sacrifice(sacrificed)
@@ -677,7 +728,7 @@ function Game:legal_actions(player)
         if card.def.spell and card.def.spell.target then
           candidates = abilities.target_candidates(self, card.def.spell, ctx)
         end
-        if self:can_pay(player, self:spell_cost(player, card, nil, candidates))
+        if self:can_pay(player, self:spell_cost(player, card, nil, candidates), card:is_creature() and "creature_spell" or nil)
             and (card.def.extra_cost == nil or cost_lib.can_pay(self, player, card, card.def.extra_cost))
             and (card.def.spell == nil or abilities.can_target(self, card.def.spell, ctx)) then
           actions[#actions + 1] = { kind = "cast", card = card }
@@ -765,14 +816,15 @@ function Game:perform(player, action)
     self.stack[#self.stack + 1] = item
     -- CR 601.2b: announce optional costs (kicker) and X before targets.
     local extra_mana
-    if card.def.kicker_cost and self:can_pay(player, add_cost(base_cost, card.def.kicker_cost))
+    local purpose = card:is_creature() and "creature_spell" or nil
+    if card.def.kicker_cost and self:can_pay(player, add_cost(base_cost, card.def.kicker_cost), purpose)
         and player.controller:confirm_optional(self, player, card, KICKER) then
       item.ctx.kicked = true
       extra_mana = card.def.kicker_cost
     end
     local x_count = base_cost.x or 0
     if x_count > 0 then
-      local max = self:max_x(player, add_cost(base_cost, extra_mana), x_count)
+      local max = self:max_x(player, add_cost(base_cost, extra_mana), x_count, purpose)
       local x = player.controller:choose_number(self, player, 0, max, "X", card) or 0
       if x < 0 or x > max then
         error("X out of range")
@@ -793,7 +845,7 @@ function Game:perform(player, action)
     if extra_mana then
       to_pay = add_cost(to_pay, extra_mana)
     end
-    if not self:pay(player, to_pay) then
+    if not self:pay(player, to_pay, nil, purpose) then
       error("couldn't pay for " .. tostring(card))
     end
     if card.def.extra_cost then
@@ -1075,6 +1127,7 @@ function Game:run_step(step)
   else
     self:priority_round()
   end
+  self:empty_mana_pools(step == "cleanup")
 end
 
 -- Plays one full turn for the active player, then passes the turn.

@@ -116,6 +116,8 @@ local function discard_candidates(game, player, source, part)
   return list
 end
 
+local TAP_FOR_COST = { tap = true }
+
 -- Mana sources usable for this cost: the source itself can't tap for mana if the cost taps or
 -- sacrifices it.
 local function usable_sources(game, player, source, c)
@@ -127,6 +129,15 @@ local function usable_sources(game, player, source, c)
   for _, s in ipairs(game:mana_sources(player)) do
     if not (uses_self and s.card == source) then
       list[#list + 1] = s
+    end
+  end
+  if c.tap_creatures_for_mana then
+    -- "For each mana in this ability's activation cost, you may tap an untapped creature you
+    -- control rather than pay that mana" (generic only here; used after real mana sources)
+    for _, card in ipairs(player.battlefield) do
+      if card ~= source and card:is_creature() and not card.tapped then
+        list[#list + 1] = { card = card, colors = { "C" }, ability = TAP_FOR_COST, key = "tap_for_cost", late = true }
+      end
     end
   end
   return list

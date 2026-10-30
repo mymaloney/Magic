@@ -159,9 +159,10 @@ auras/equipment/anthems (statics, layers) → the hard singletons.
 Record each simplification here when made, with the Forge code it diverges from:
 - Undo, network play, `*View`/trackable classes → not ported.
 - No mulligans yet; opening hand is the top 7 cards.
-- Mana is paid automatically by tapping sources at cast time; there is no mana pool, so no
-  floating mana and no manual tapping yet (needed later for UI choice and for mana-spending
-  triggers like Roughshod Duo's expend).
+- Mana is paid automatically by tapping sources at cast time; there is no manual tapping yet.
+  The mana pool (`player.mana_pool`) only holds mana made outside payment (Mana effects such as
+  Brazen Collector's) and the unused part of a multi-mana ability (Somberwald Sage); payment
+  spends pool mana first.
 - Cards keep the same Lua object across zones (state is reset per CR 400.7). Last-known
   information is limited to the controller (for "dies" triggers); P/T and keywords are read from
   the card as it is now.
