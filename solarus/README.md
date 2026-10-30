@@ -16,7 +16,10 @@ solarus/
         controllers/  ai.lua (computer opponent), prompt.lua (human player via the duel menu)
       scripts/duel/   duel_ui.lua (duel screen logic: cursor, selections, prompts; no sol.*),
                       decks.lua (preconstructed decks of supported cards)
-      scripts/menus/  duel.lua (draws duel_ui, forwards keys) + starter menus (logo, dialog box, start_game)
+      scripts/menus/  duel.lua (duel launcher + drawing: duel.start(game, options)) + starter menus
+                      (logo, dialog box, start_game)
+      maps/first_map  the starting room, with the "duelist" NPC (first_map.lua starts her duel)
+      languages/en/text/dialogs.dat   dialog text (duelist.*)
       maps/ sprites/ tilesets/ sounds/ musics/ enemies/ items/ fonts/ …   starter quest content
   cardpool/           card lists (+ basic_lands.txt) and generated reports
                         maloney_foundations_report.md  features the pool needs
@@ -27,9 +30,24 @@ solarus/
 ```
 
 The quest is built on the **Solarus 2.1 starter quest** (created with the Quest Editor), which
-supplies the overworld, hero, HUD, dialog box and assets. Startup flow:
-Solarus logo → `scripts/menus/duel.lua` (a duel: you with the Rakdos deck against the Green AI)
-→ `start_game` (loads `save1.dat`, first map) once you dismiss the result screen.
+supplies the overworld, hero, HUD, dialog box and assets. Startup flow: Solarus logo →
+`start_game` (loads `save1.dat`, `first_map`).
+
+In `first_map`, talk to the woman in the middle of the room (face her, press the action key). She
+asks "Fancy a game of Magic?"; answer yes to duel her: you play the Rakdos deck against her Green
+AI deck. The game is suspended during the duel; afterwards she comments on the result and a win
+adds 1 to the savegame value `duelist_wins`.
+
+To start a duel from any other script:
+
+```lua
+local duel = require("scripts/menus/duel")
+local decks = require("scripts/duel/decks")
+duel.start(game, {
+  player_deck = decks.rakdos, opponent_deck = decks.green, opponent_name = "Duelist",
+  on_finished = function(result) end,  -- "won", "lost" or "draw"
+})
+```
 
 ### Duel controls
 
@@ -56,6 +74,11 @@ it only stops in your main phases, when something is on the stack, after blocker
 and at the opponent's end step. The AI acts instantly; follow what it
 did in the log. `duel_ui.lua` is covered by headless tests; the drawing code in `duel.lua` was
 confirmed on Solarus 2.1 by the owner (2026-10-30). Note any display fixes here.
+
+The NPC (`npc{}` entry in `maps/first_map.dat`) and `dialogs.dat` were written by hand in the
+cloud session in the editor's file format; the NPC flow was only run against a stubbed `sol`
+API. Opening the map in the Quest Editor should show her; if the editor rewrites those files,
+commit its version.
 
 ## Setup
 

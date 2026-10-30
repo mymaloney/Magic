@@ -1,0 +1,40 @@
+dialog{
+  id = "duelist.challenge",
+  question = "1",
+  text = [[
+Fancy a game of Magic?
+Sure, let's duel!
+Maybe later.
+]],
+}
+
+dialog{
+  id = "duelist.refused",
+  text = [[
+Suit yourself. I'll be
+right here.
+]],
+}
+
+dialog{
+  id = "duelist.player_won",
+  text = [[
+Well played! You beat my
+green deck.
+]],
+}
+
+dialog{
+  id = "duelist.player_lost",
+  text = [[
+Ha! Green wins again.
+Come back any time.
+]],
+}
+
+dialog{
+  id = "duelist.draw",
+  text = [[
+A draw? How odd!
+]],
+}

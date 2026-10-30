@@ -91,7 +91,7 @@ Duel screen, outside the engine:
 |---|---|
 | `scripts/duel/duel_ui.lua` | Pure Lua (no `sol.*`, tested headlessly): drives the prompt runner, auto-answers requests with no real choice, keeps cursor/selection state, turns inputs (`left/right/up/down/select/confirm/cancel`) into answers, formats prompts, log and card details |
 | `scripts/duel/decks.lua` | Preconstructed 40-card decks of supported cards |
-| `scripts/menus/duel.lua` | Solarus menu: draws `duel_ui` state with fill rectangles and the `8_bit` font, maps keys to inputs |
+| `scripts/menus/duel.lua` | Solarus menu: `duel.start(game, { player_deck, opponent_deck, opponent_name, on_finished })` suspends the game and runs a duel; draws `duel_ui` state with fill rectangles and the `8_bit` font, maps keys to inputs, reports "won"/"lost"/"draw" |
 
 Controller interface (all called as `controller:method(game, player, ...)`): `choose_action`,
 `declare_attackers`, `declare_blockers`, `assign_combat_damage`, `choose_discard`,
@@ -197,5 +197,6 @@ Forge is the oracle: if they disagree, the Lua side is wrong unless the divergen
 | 2026-10-30 | Duel stops only for real choices (auto-pass when no legal action) | Avoids pressing Return through every step; Forge's auto-yield is the model |
 | 2026-10-30 | With only instant-speed options, priority stops only in your main phases, with something on the stack, after blockers, and at the opponent's end step | Like Forge's default phase stops; otherwise a Shock in hand stops every step |
 | 2026-10-30 | Duel: human plays the Rakdos deck (spells + triggers) vs the Green AI | Exercises targeting and may-prompts in the UI |
+| 2026-10-30 | Duels start from overworld NPCs through `duel.start`; the game is suspended meanwhile, and the duel menu swallows keys so the hero can't act | First step towards the adventure structure; the startup duel menu was removed |
 | 2026-10-30 | Engine raises errors on illegal controller answers instead of re-asking | Keeps the engine simple; UI and AI only offer legal options |
 | 2026-10-30 | Rules engine is pure Lua 5.1 under `scripts/mtg/`, no `sol.*`; decisions go through a controller interface, and the engine loop runs in a coroutine | Headless tests under LuaJIT; UI stays swappable |

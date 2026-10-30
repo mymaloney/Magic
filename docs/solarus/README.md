@@ -36,7 +36,10 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [ ] Activated abilities (AB$ Pump/Draw/Destroy/...), Scry/Surveil, Fight, Charm, X costs
 - [ ] Statics/layers, replacements ("enters tapped" lands first)
 - [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)
-- [ ] Overworld: first map, NPC that starts a duel
+- [x] Overworld: duelist NPC in `first_map` starts a duel via `duel.start(game, options)`;
+      the duel is no longer a startup menu (2026-10-30)
+- [ ] Duelist NPC confirmed on a real Solarus install
+- [ ] Overworld progression: more maps and opponents, rewards (cards) for wins, deck building
 
 Keep this checklist up to date. It's the first thing a new session should read.
 

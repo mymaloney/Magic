@@ -97,3 +97,13 @@ destination{
   direction = 1,
 }
 
+
+npc{
+  name = "duelist",
+  layer = 0,
+  x = 160,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_1a",
+}

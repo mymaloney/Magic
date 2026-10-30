@@ -7,7 +7,6 @@
 
 local initial_menus = {
   "scripts/menus/solarus_logo",
-  "scripts/menus/duel",  -- duel against the AI; move to an overworld NPC once duels start from the map
   "scripts/menus/start_game",
 }
 

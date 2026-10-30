@@ -1,6 +1,14 @@
--- Duel screen: you (Rakdos deck) against the AI (Green deck).
--- Draws the state held by scripts/duel/duel_ui.lua and forwards keys to it; all game logic lives there
--- and in scripts/mtg/. Shown as a pre-game menu for now (see scripts/menus/initial_menus_config.lua).
+-- Duel screen against an AI opponent, started from the overworld:
+--
+--   local duel = require("scripts/menus/duel")
+--   duel.start(game, {
+--     player_deck = decks.rakdos, opponent_deck = decks.green, opponent_name = "Duelist",
+--     on_finished = function(result) ... end,   -- result: "won", "lost" or "draw"
+--   })
+--
+-- The Solarus game is suspended during the duel and resumed afterwards. This file draws the state
+-- held by scripts/duel/duel_ui.lua and forwards keys to it; all game logic lives there and in
+-- scripts/mtg/. Only one duel runs at a time.
 --
 -- Keys: arrows move the cursor, Space selects, Return confirms/passes, Backspace cancels a block or
 -- says no to a "may" ability.
@@ -18,6 +26,11 @@ local decks = require("scripts/duel/decks")
 local pool = require("cards/pool")
 
 local duel_menu = {}
+
+local db                 -- card database, loaded on the first duel
+local options = {}       -- options passed to duel_menu.start
+local suspended_game     -- the Solarus game we suspended, if any
+local result             -- "won" / "lost" / "draw" once the player leaves the result screen
 
 local CHARS = 35
 local BOX_W, BOX_H, BOX_STEP = 38, 26, 40
@@ -73,17 +86,41 @@ local function read_file(path)
   return content
 end
 
+-- Starts a duel as a menu of `context` (normally the current game). See the header for options.
+function duel_menu.start(context, opts)
+  options = opts or {}
+  if context.set_suspended then
+    suspended_game = context
+    context:set_suspended(true)
+  end
+  sol.menu.start(context, duel_menu)
+end
+
 function duel_menu:on_started()
   text_cache = {}
-  local db = card_db.new(pool, read_file)
+  result = nil
+  db = db or card_db.new(pool, read_file)
   local game = Game.new({
     players = {
-      { name = "You", deck = db.make_deck(decks.rakdos.cards), controller = prompt.new() },
-      { name = "Green", deck = db.make_deck(decks.green.cards), controller = ai.new() },
+      { name = "You", deck = db.make_deck((options.player_deck or decks.rakdos).cards), controller = prompt.new() },
+      { name = options.opponent_name or "Opponent",
+        deck = db.make_deck((options.opponent_deck or decks.green).cards), controller = ai.new() },
     },
   })
   ui = duel_ui.new(game, game.players[1])
   ui:start()
+end
+
+function duel_menu:on_finished()
+  if suspended_game then
+    suspended_game:set_suspended(false)
+    suspended_game = nil
+  end
+  local callback = options.on_finished
+  options = {}
+  if callback and result then
+    callback(result)
+  end
 end
 
 local function status_line(player, label)
@@ -198,15 +235,19 @@ local KEYS = {
 }
 
 function duel_menu:on_key_pressed(key, modifiers)
+  if key == "f11" or modifiers.alt or modifiers.control then
+    return false  -- let main.lua handle fullscreen and quitting
+  end
   local input = KEYS[key]
-  if input == nil or (input == "confirm" and (modifiers.alt or modifiers.control)) then
-    return false  -- let main.lua handle Escape, Alt+Return, F11...
+  if input then
+    ui:press(input)
+    if ui.finished then
+      local winner = ui.request.winner
+      result = winner == ui.human and "won" or (winner == nil and "draw" or "lost")
+      sol.menu.stop(self)
+    end
   end
-  ui:press(input)
-  if ui.finished then
-    sol.menu.stop(self)
-  end
-  return true
+  return true  -- swallow every other key so the hero doesn't act during the duel
 end
 
 return duel_menu
