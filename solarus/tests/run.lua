@@ -1,48 +1,139 @@
 -- Headless tests for the pure-Lua parts of the quest (no Solarus needed).
 -- Run from the repository root:  luajit solarus/tests/run.lua
+-- Each test_*.lua file returns function(t); t provides assertions and game-building helpers.
 
 package.path = "solarus/quest/data/?.lua;" .. package.path
 
-local script_parser = require("scripts/mtg/script_parser")
+local card_db = require("scripts/mtg/card_db")
+local Game = require("scripts/mtg/game")
+local combat = require("scripts/mtg/combat")
 
-local failures, checks = 0, 0
-local function check(cond, msg)
-  checks = checks + 1
+local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_full_game" }
+
+local t = { checks = 0, failures = 0, section_name = "" }
+
+function t.section(name)
+  t.section_name = name
+end
+
+function t.check(cond, msg)
+  t.checks = t.checks + 1
   if not cond then
-    failures = failures + 1
-    print("FAIL: " .. msg)
+    t.failures = t.failures + 1
+    print("FAIL [" .. t.section_name .. "] " .. msg)
   end
 end
 
-local function read(path)
+function t.eq(actual, expected, msg)
+  t.check(actual == expected, msg .. " (expected " .. tostring(expected) .. ", got " .. tostring(actual) .. ")")
+end
+
+function t.read(path)
   local f = assert(io.open(path, "rb"))
   local s = f:read("*a")
   f:close()
   return s
 end
 
--- Parameter maps
-local p = script_parser.parse_params("SP$ DealDamage | ValidTgts$ Any | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target.")
-check(p.SP == "DealDamage" and p.ValidTgts == "Any" and p.NumDmg == "3", "parse_params basic keys")
-check(p.SpellDescription == "CARDNAME deals 3 damage to any target.", "parse_params keeps value text")
+t.pool = dofile("solarus/quest/data/cards/pool.lua")
+t.db = card_db.new(t.pool, function(path) return t.read("solarus/quest/data/" .. path) end)
 
--- Every card in the synced pool parses and its first face name matches the pool entry
-local pool = dofile("solarus/quest/data/cards/pool.lua")
-check(#pool > 0, "pool.lua is not empty")
-for _, entry in ipairs(pool) do
-  local card = script_parser.parse(read("solarus/quest/data/cards/" .. entry.file))
-  check(card.faces[1].name == entry.name, entry.file .. ": name '" .. tostring(card.faces[1].name) .. "' ~= '" .. entry.name .. "'")
-  check(card.faces[1].mana_cost ~= nil, entry.file .. ": has ManaCost")
+-- A controller that passes priority and answers from `script` (all fields optional):
+--   actions = { function(game, player, actions) -> action or nil, ... }  tried in order: the first
+--             function is removed once it returns an action; until then the player passes
+--   attack = function(game, player, candidates) -> cards     (default: no attack)
+--   block = function(game, player, attackers, candidates) -> blocks (default: no blocks)
+--   assign = function(game, player, attacker, blockers, amount, trample) -> assignment (default: combat.default_assignment)
+--   legend = function(game, player, cards) -> card            (default: first)
+function t.scripted(script)
+  script = script or {}
+  local queue = script.actions or {}
+  return {
+    choose_action = function(_, game, player, actions)
+      if #queue > 0 then
+        local action = queue[1](game, player, actions)
+        if action then
+          table.remove(queue, 1)
+          return action
+        end
+      end
+      return nil
+    end,
+    declare_attackers = function(_, game, player, candidates)
+      return script.attack and script.attack(game, player, candidates) or {}
+    end,
+    declare_blockers = function(_, game, player, attackers, candidates)
+      return script.block and script.block(game, player, attackers, candidates) or {}
+    end,
+    assign_combat_damage = function(_, game, player, attacker, blockers, amount, trample)
+      if script.assign then
+        return script.assign(game, player, attacker, blockers, amount, trample)
+      end
+      return combat.default_assignment(attacker, blockers, amount, trample)
+    end,
+    choose_discard = function(_, game, player, count)
+      local cards = {}
+      for i = 1, count do
+        cards[i] = player.hand[i]
+      end
+      return cards
+    end,
+    choose_legend_to_keep = function(_, game, player, cards)
+      return script.legend and script.legend(game, player, cards) or cards[1]
+    end,
+  }
 end
 
--- Spot checks against known scripts
-local angel = script_parser.parse(read("solarus/quest/data/cards/serra_angel.txt")).faces[1]
-check(angel.pt == "4/4" and angel.keywords[1] == "Flying" and angel.keywords[2] == "Vigilance", "Serra Angel P/T and keywords")
+-- Builds a game for a rules scenario (like Forge's SimulationTest + addCard + devModeSet):
+--   t.setup({ { controller =, battlefield = { "Savannah Lions" }, hand = {}, library = {}, life = 20 },
+--             { ... } })
+-- Battlefield creatures start without summoning sickness. Libraries default to 10 Plains so
+-- nobody decks out. Player 1 is active; the next run_turn() is turn 2 (no first-turn draw skip).
+function t.setup(specs)
+  local game = Game.new({
+    players = { { name = "P1", controller = specs[1].controller or t.scripted() },
+                { name = "P2", controller = specs[2].controller or t.scripted() } },
+    first_player = 1, shuffle = false, opening_hand = 0,
+  })
+  game.turn = 1
+  for i, spec in ipairs(specs) do
+    local player = game.players[i]
+    player.life = spec.life or 20
+    for _, name in ipairs(spec.library or { "Plains", "Plains", "Plains", "Plains", "Plains",
+                                             "Plains", "Plains", "Plains", "Plains", "Plains" }) do
+      game:create_card(t.db.get(name), player, "library")
+    end
+    for _, name in ipairs(spec.hand or {}) do
+      game:create_card(t.db.get(name), player, "hand")
+    end
+    for _, name in ipairs(spec.battlefield or {}) do
+      game:create_card(t.db.get(name), player, "battlefield", { sick = false })
+    end
+  end
+  return game
+end
 
-local arbiter = script_parser.parse(read("solarus/quest/data/cards/arbiter_of_woe.txt")).faces[1]
-check(arbiter.triggers[1].Mode == "ChangesZone" and arbiter.triggers[1].Execute == "TrigDiscard", "Arbiter of Woe trigger")
-local sub = script_parser.parse_params(arbiter.svars.TrigDiscard)
-check(sub.DB == "Discard" and sub.SubAbility == "DBLoseLife", "Arbiter of Woe SVar sub-ability chain")
+function t.find(list, name, nth)
+  nth = nth or 1
+  for _, card in ipairs(list) do
+    if card:name() == name then
+      nth = nth - 1
+      if nth == 0 then
+        return card
+      end
+    end
+  end
+  return nil
+end
 
-print(string.format("%d checks, %d failures", checks, failures))
-os.exit(failures == 0 and 0 or 1)
+for _, file in ipairs(TEST_FILES) do
+  t.section(file)
+  local ok, err = xpcall(function() dofile("solarus/tests/" .. file .. ".lua")(t) end, debug.traceback)
+  if not ok then
+    t.failures = t.failures + 1
+    print("ERROR [" .. t.section_name .. "] " .. tostring(err))
+  end
+end
+
+print(string.format("%d checks, %d failures", t.checks, t.failures))
+os.exit(t.failures == 0 and 0 or 1)

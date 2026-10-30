@@ -1,7 +1,8 @@
 # Porting plan: Forge rules → Lua on Solarus
 
-Status: **engine target is Solarus 2.1 (Lua). The quest is based on the Solarus starter quest;
-card sync, script parser and a placeholder duel board exist; no rules engine yet.** Update this file as decisions are made and record them in the
+Status: **engine target is Solarus 2.1 (Lua). The quest is based on the Solarus starter quest.
+The rules engine plays complete games with lands, mana creatures and creatures with evergreen
+keywords (40 of 335 cards); see `solarus/cardpool/support_report.md`.** Update this file as decisions are made and record them in the
 "Decisions log" at the bottom so later sessions don't re-litigate them.
 
 ## Target: Solarus
@@ -66,6 +67,29 @@ The engine then interprets those tables: an `SP$`/`AB$`/`DB$` value selects an e
 `CardFactoryUtil` does. Unsupported features must fail loudly: report "card X uses
 unsupported Y" at load time rather than half-working in a duel.
 
+## The engine so far (`quest/data/scripts/mtg/`)
+
+| Module | Does | Forge reference |
+|---|---|---|
+| `script_parser.lua` | Forge script text → tables | `CardRules.Reader`, `FileSection.parseToMap` |
+| `card_db.lua` | Definitions (types, P/T, keywords, mana abilities) + **support check**; `make_deck` refuses unsupported cards | `CardFactory`, `CardFactoryUtil` |
+| `card.lua` | Card instance state, characteristic getters (where layers will hook in) | `Card` |
+| `mana.lua` | Cost parsing, mana value, auto-pay (backtracking colored shards, then generic) | `ManaCostParser`, `ComputerUtilMana` |
+| `game.lua` | Zones, moves, draw, life, damage batches, SBA (life, decking, lethal/0 toughness, deathtouch, legend rule), legal actions, casting, stack, priority loop, turn structure | `Game`, `GameAction`, `PhaseHandler`, `MagicStack`, `PlaySpellAbility` |
+| `combat.lua` | Attack/block legality (flying, reach, menace, defender, haste), damage assignment (current rules, trample), first/double strike steps | `CombatUtil`, `Combat` |
+| `controllers/ai.lua` | Heuristic AI | `AiController`, `AiAttackController`, `AiBlockController` |
+| `controllers/prompt.lua` | Human controller: yields requests to the duel menu; `prompt.run(game)` runner | `PlayerControllerHuman` |
+
+Controller interface (all called as `controller:method(game, player, ...)`): `choose_action`,
+`declare_attackers`, `declare_blockers`, `assign_combat_damage`, `choose_discard`,
+`choose_legend_to_keep`. The engine raises an error on illegal answers, so UIs offer only legal
+options and use `combat.validate_blocks` / `combat.validate_assignment` before answering.
+
+Adding a feature: implement it, then let `card_db.lua` accept it (keyword in
+`SUPPORTED_KEYWORDS`, a new ability/trigger parser, …), add a scenario to
+`solarus/tests/test_rules.lua`, and regenerate `cardpool/support_report.md`. The report's
+"only blocker" column shows which feature unlocks the most cards next.
+
 ## Scope: the card pool
 
 The minimum card pool is **`solarus/cardpool/maloney_foundations.txt`** (330 distinct cards,
@@ -103,6 +127,13 @@ auras/equipment/anthems (statics, layers) → the hard singletons.
 
 Record each simplification here when made, with the Forge code it diverges from:
 - Undo, network play, `*View`/trackable classes → not ported.
+- No mulligans yet; opening hand is the top 7 cards.
+- Mana is paid automatically by tapping sources at cast time; there is no mana pool, so no
+  floating mana and no manual tapping yet (needed later for UI choice and for mana-spending
+  triggers like Roughshod Duo's expend).
+- Cards keep the same Lua object across zones (state is reset per CR 400.7); no last-known
+  information yet, which "dies" triggers will need.
+- Players get no priority in cleanup (correct until something can trigger there).
 - AI simulation (`forge-ai/.../simulation`) → not ported; heuristics only.
 
 ## Verifying behaviour against Forge
@@ -134,4 +165,6 @@ Forge is the oracle: if they disagree, the Lua side is wrong unless the divergen
 | 2026-10-30 | **Target Solarus (Lua) instead of GBA.** Butano skeleton removed (still in git history at commit `22b21951`) | Owner's call: Solarus handles all the non-Magic parts of the design, and Lua is easier to work in |
 | 2026-10-30 | Cards are loaded at runtime from verbatim Forge scripts, not converted to a custom format | No memory limits; stays identical to Forge and is easy to re-sync |
 | 2026-10-30 | Quest based on the **Solarus 2.1 starter quest** (title "Arpeggio"); the duel board runs as a pre-game menu until duels can start from the overworld | Owner created it so the Quest Editor recognizes the project; hand-written `quest.dat`/empty `project_db.dat` didn't load |
+| 2026-10-30 | Basic lands come from `cardpool/basic_lands.txt`, synced alongside the pool | The pool lists none; decks need them |
+| 2026-10-30 | Engine raises errors on illegal controller answers instead of re-asking | Keeps the engine simple; UI and AI only offer legal options |
 | 2026-10-30 | Rules engine is pure Lua 5.1 under `scripts/mtg/`, no `sol.*`; decisions go through a controller interface, and the engine loop runs in a coroutine | Headless tests under LuaJIT; UI stays swappable |

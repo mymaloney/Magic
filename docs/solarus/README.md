@@ -20,9 +20,13 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [x] Quest built on the Solarus 2.1 starter quest (owner, 2026-10-30); placeholder duel board /
       card browser added to the startup menus
 - [x] Card browser confirmed working on a real Solarus 2.1 install (owner, 2026-10-30)
-- [ ] `scripts/mtg` game state, zones, turn structure, mana, combat (vanilla creatures)
-- [ ] Stack, targeting, first effects; controller interface + coroutine-driven duel menu
-- [ ] Triggers, statics/layers, replacements
+- [x] `scripts/mtg` game state, zones, turn structure, priority, permanent spells on the stack,
+      mana + auto-pay, combat with evergreen keywords, state-based actions, controller interface
+      (AI + coroutine prompt controller); 40 of 335 cards supported (2026-10-30)
+- [ ] Duel menu driven by the prompt controller (replace the placeholder board)
+- [ ] Triggers: ChangesZone (ETB/dies) first, then Attacks, Phase, SpellCast
+- [ ] Instants/sorceries, targeting, first effects (DealDamage, Draw, Destroy, Pump)
+- [ ] Statics/layers, replacements ("enters tapped" lands first)
 - [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)
 - [ ] Overworld: first map, NPC that starts a duel
 
@@ -37,6 +41,6 @@ card scripts:
 git remote add upstream https://github.com/Card-Forge/forge.git   # once
 git fetch upstream master
 git merge upstream/master
-python3 solarus/tools/sync_cards.py solarus/cardpool/maloney_foundations.txt
+python3 solarus/tools/sync_cards.py solarus/cardpool/maloney_foundations.txt solarus/cardpool/basic_lands.txt
 luajit solarus/tests/run.lua
 ```

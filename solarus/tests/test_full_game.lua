@@ -1,0 +1,108 @@
+-- Whole games between two AI decks built from supported pool cards, plus the coroutine
+-- protocol the duel menu uses (controllers/prompt.lua).
+
+local Game = require("scripts/mtg/game")
+local ai = require("scripts/mtg/controllers/ai")
+local prompt = require("scripts/mtg/controllers/prompt")
+
+local WHITE = {
+  ["Plains"] = 17, ["Savannah Lions"] = 4, ["Elite Vanguard"] = 4, ["Healer's Hawk"] = 3,
+  ["Bishop's Soldier"] = 4, ["Leonin Skyhunter"] = 3, ["Warclamp Mastiff"] = 2, ["Serra Angel"] = 3,
+}
+local GREEN = {
+  ["Forest"] = 17, ["Llanowar Elves"] = 4, ["Thornweald Archer"] = 4, ["Deadly Recluse"] = 3,
+  ["Druid of the Cowl"] = 3, ["Ambush Viper"] = 3, ["Tajuru Pathwarden"] = 4, ["Gigantosaurus"] = 2,
+}
+
+-- Park-Miller generator: deterministic and exact in double precision.
+local function make_rng(seed)
+  local state = seed
+  return function(n)
+    state = (state * 16807) % 2147483647
+    return state % n + 1
+  end
+end
+
+local function new_game(t, seed, controller1, controller2)
+  return Game.new({
+    players = {
+      { name = "White", deck = t.db.make_deck(WHITE), controller = controller1 or ai.new() },
+      { name = "Green", deck = t.db.make_deck(GREEN), controller = controller2 or ai.new() },
+    },
+    rng = make_rng(seed),
+    max_turns = 200,
+  })
+end
+
+local function count_cards(player)
+  return #player.library + #player.hand + #player.battlefield + #player.graveyard + #player.exile
+end
+
+return function(t)
+  t.section("AI vs AI games")
+  local wins = { White = 0, Green = 0 }
+  local summaries = {}
+  for seed = 1, 20 do
+    local game = new_game(t, seed)
+    local casts = 0
+    game:on_event(function(e)
+      if e.type == "cast" then
+        casts = casts + 1
+      end
+    end)
+    game:run()
+    t.check(game.over, "seed " .. seed .. ": game finished within 200 turns")
+    t.check(game.winner ~= nil, "seed " .. seed .. ": there is a winner")
+    t.check(casts > 0, "seed " .. seed .. ": spells were cast")
+    for _, player in ipairs(game.players) do
+      t.eq(count_cards(player) + #game.stack, 40, "seed " .. seed .. ": " .. player.name .. " still has 40 cards across zones")
+      for _, card in ipairs(player.battlefield) do
+        t.check(not card:is_creature() or card.damage < card:toughness(), "seed " .. seed .. ": no lethally damaged creature left alive")
+      end
+    end
+    if game.winner then
+      wins[game.winner.name] = wins[game.winner.name] + 1
+      local loser = game:opponent(game.winner)
+      summaries[#summaries + 1] = string.format("%s on turn %d (%s)", game.winner.name, game.turn, tostring(loser.loss_reason))
+    end
+  end
+  print(string.format("  AI vs AI, 20 games: White %d, Green %d. First games: %s",
+                      wins.White, wins.Green, table.concat(summaries, "; ", 1, math.min(3, #summaries))))
+
+  t.section("prompt controller (coroutine protocol)")
+  do
+    -- Player 1 is driven through the prompt protocol, answering with the same AI decisions.
+    -- With the same seed the game must play out exactly like the AI-vs-AI game.
+    local reference = new_game(t, 7)
+    reference:run()
+
+    local game = new_game(t, 7, prompt.new())
+    local brain = ai.new()
+    local runner = prompt.run(game)
+    local request = runner.resume()
+    local requests = 0
+    while request.kind ~= "game_over" do
+      requests = requests + 1
+      local p = request.player
+      local answer
+      if request.kind == "choose_action" then
+        answer = brain:choose_action(game, p, request.actions)
+      elseif request.kind == "declare_attackers" then
+        answer = brain:declare_attackers(game, p, request.candidates)
+      elseif request.kind == "declare_blockers" then
+        answer = brain:declare_blockers(game, p, request.attackers, request.candidates)
+      elseif request.kind == "assign_combat_damage" then
+        answer = request.default
+      elseif request.kind == "choose_discard" then
+        answer = brain:choose_discard(game, p, request.count)
+      elseif request.kind == "choose_legend_to_keep" then
+        answer = request.cards[1]
+      end
+      request = runner.resume(answer)
+    end
+    t.check(requests > 50, "prompt controller was asked many times (" .. requests .. ")")
+    t.eq(request.winner and request.winner.name, reference.winner and reference.winner.name, "same winner as the AI-only game")
+    t.eq(game.turn, reference.turn, "same number of turns as the AI-only game")
+    t.eq(game.players[1].life, reference.players[1].life, "same final life for player 1")
+  end
+end

@@ -1,0 +1,6 @@
+# Basic lands: always synced alongside the main pool (the pool list has none)
+Plains
+Island
+Swamp
+Mountain
+Forest
