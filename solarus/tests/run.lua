@@ -94,6 +94,9 @@ function t.scripted(script)
       end
       return chosen
     end,
+    choose_color = function(_, game, player, source, options)
+      return script.color and script.color(game, player, source, options) or options[1]
+    end,
     confirm_optional = function(_, game, player, source, ability)
       if script.optional then
         return script.optional(game, player, source, ability)

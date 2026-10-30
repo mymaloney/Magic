@@ -14,6 +14,7 @@ local keywords = require("scripts/mtg/keywords")
 local abilities = require("scripts/mtg/abilities")
 local effects = require("scripts/mtg/effects")
 local triggers = require("scripts/mtg/triggers")
+local replacements = require("scripts/mtg/replacements")
 
 local card_db = {}
 
@@ -54,7 +55,7 @@ function card_db.build_definition(text)
   local def = {
     name = face.name,
     supertypes = {}, types = {}, subtypes = {},
-    keywords = {}, mana_abilities = {}, triggers = {},
+    keywords = {}, mana_abilities = {}, triggers = {}, etb_replacements = {},
     unsupported = {},
     script = script,
   }
@@ -123,9 +124,13 @@ function card_db.build_definition(text)
 
   for _, keyword in ipairs(face.keywords) do
     local name = keyword:match("^([^:]+)")
-    def.keywords[name] = true
-    if not card_db.SUPPORTED_KEYWORDS[keyword] then
-      unsupported("keyword " .. keyword)
+    if name == "ETBReplacement" then
+      replacements.parse_keyword(def, keyword, face.svars, def.unsupported, effects)
+    else
+      def.keywords[name] = true
+      if not card_db.SUPPORTED_KEYWORDS[keyword] then
+        unsupported("keyword " .. keyword)
+      end
     end
   end
 
@@ -162,7 +167,7 @@ function card_db.build_definition(text)
     unsupported("static " .. tostring(params.Mode))
   end
   for _, params in ipairs(face.replacements) do
-    unsupported("replacement " .. tostring(params.Event))
+    replacements.parse(def, params, face.svars, def.unsupported, effects)
   end
 
   def.supported = #def.unsupported == 0

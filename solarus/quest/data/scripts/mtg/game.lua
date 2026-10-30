@@ -21,6 +21,7 @@ local combat = require("scripts/mtg/combat")
 local abilities = require("scripts/mtg/abilities")
 local effects = require("scripts/mtg/effects")
 local triggers = require("scripts/mtg/triggers")
+local replacements = require("scripts/mtg/replacements")
 
 local Game = {}
 Game.__index = Game
@@ -197,6 +198,7 @@ function Game:move(card, zone, opts)
     card.sick = true
     card.tapped = opts.tapped or false
     table.insert(card.controller.battlefield, card)
+    replacements.apply_etb(self, card, effects)
     table.insert(self.history.entered, { card = card, controller = card.controller })
   elseif zone == "library" and opts.position == "bottom" then
     table.insert(card.owner.library, 1, card)
@@ -408,13 +410,18 @@ function Game:mana_sources(player)
       local colors, seen = {}, {}
       for _, ability in ipairs(card.def.mana_abilities) do
         for _, c in ipairs(ability.colors) do
-          if not seen[c] then
+          if c == "Chosen" then
+            c = card.chosen_color
+          end
+          if c and not seen[c] then
             seen[c] = true
             colors[#colors + 1] = c
           end
         end
       end
-      sources[#sources + 1] = { card = card, colors = colors }
+      if #colors > 0 then
+        sources[#sources + 1] = { card = card, colors = colors }
+      end
     end
   end
   return sources

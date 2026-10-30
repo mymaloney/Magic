@@ -24,6 +24,7 @@ duel_ui.__index = duel_ui
 
 duel_ui.ROWS = { "opponent", "battlefield", "hand" }
 local LOG_SIZE = 6
+local COLOR_NAMES = { W = "White", U = "Blue", B = "Black", R = "Red", G = "Green" }
 
 local STEP_NAMES = {
   untap = "untap", upkeep = "upkeep", draw = "draw step", main1 = "main phase",
@@ -143,6 +144,9 @@ function duel_ui:row_cards(row)
   if self.request and self.request.kind == "choose_targets" then
     return self.request.candidates
   end
+  if self.option_entries then
+    return self.option_entries
+  end
   return self.human.hand
 end
 
@@ -186,6 +190,7 @@ function duel_ui:card_marks(card)
   local marks = {
     focused = card == self:focused_card(),
     tapped = card.tapped == true,
+    option = card.is_option == true,
     selected = self.selected[card] == true,
     blocking = self.blocks[card] ~= nil,
     pending = card == self.pending_blocker,
@@ -251,6 +256,14 @@ function duel_ui:advance(answer)
     end
   end
   self.request = request
+  self.option_entries = nil
+  if request.kind == "choose_color" then
+    self.option_entries = {}
+    for _, c in ipairs(request.options) do
+      self.option_entries[#self.option_entries + 1] = { is_option = true, value = c, label = COLOR_NAMES[c] }
+    end
+    self.row, self.col = 3, 1
+  end
   if request.kind == "declare_attackers" or request.kind == "declare_blockers" then
     self.row = 2
   elseif request.kind == "choose_discard" or request.kind == "choose_action" or request.kind == "choose_targets" then
@@ -314,6 +327,9 @@ function duel_ui:prompt_text()
     else
       help = "Space: pick (" .. n .. "/" .. r.max .. ")  Enter: done"
     end
+  elseif kind == "choose_color" then
+    title = fit("Color for ", r.source:name(), "")
+    help = "Space: choose"
   elseif kind == "confirm_optional" then
     title = fit("Use ", r.source:name(), "?")
     help = "Space: yes  Bksp: no"
@@ -407,6 +423,10 @@ function duel_ui:select()
     end
   elseif r.kind == "confirm_optional" then
     self:advance(true)
+  elseif r.kind == "choose_color" then
+    if card.is_option then
+      self:advance(card.value)
+    end
   end
 end
 
@@ -521,6 +541,9 @@ end
 
 -- Text for the detail panel: { name, "cost  types", "P/T  keywords", oracle lines... }
 function duel_ui.card_details(card)
+  if card.is_option then
+    return { card.label }
+  end
   if card.life ~= nil then
     return { card.name, "Life " .. card.life, "Hand " .. #card.hand .. "  Library " .. #card.library }
   end

@@ -273,14 +273,46 @@ effects.PumpAll = {
 }
 
 effects.Tap = {
-  params = {},
+  params = { ETB = true },
   validate = function(a, r) require_targets_or_defined(a, r) end,
   resolve = function(game, a, ctx)
     for _, card in ipairs(abilities.cards_of(abilities.affected(game, a, ctx))) do
-      game:tap(card)
+      if a.params.ETB == "True" and ctx.etb then
+        card.tapped = true   -- enters tapped: not "becoming tapped", so no Taps trigger
+      else
+        game:tap(card)
+      end
     end
   end,
   harmful = true,
+}
+
+local COLOR_WORDS = { white = "W", blue = "U", black = "B", red = "R", green = "G" }
+
+effects.ChooseColor = {
+  params = { Exclude = true },
+  validate = function(a, r)
+    if a.params.Exclude and COLOR_WORDS[a.params.Exclude] == nil then
+      r[#r + 1] = "ChooseColor Exclude$ " .. a.params.Exclude
+    end
+  end,
+  resolve = function(game, a, ctx)
+    local options = {}
+    for _, c in ipairs({ "W", "U", "B", "R", "G" }) do
+      if COLOR_WORDS[a.params.Exclude or ""] ~= c then
+        options[#options + 1] = c
+      end
+    end
+    for _, player in ipairs(abilities.players_of(abilities.affected(game, a, ctx, "You"))) do
+      local color = player.controller:choose_color(game, player, ctx.source, options)
+      if not color then
+        error("no color chosen")
+      end
+      ctx.source.chosen_color = color
+      game:emit({ type = "color_chosen", card = ctx.source, player = player, color = color })
+    end
+  end,
+  harmful = false,
 }
 
 effects.Untap = {

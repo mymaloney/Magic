@@ -14,7 +14,8 @@ return function(t)
   t.eq(table.concat(mana.parse_produced("G")), "G", "single color")
   t.eq(table.concat(mana.parse_produced("Combo W U")), "WU", "combo")
   t.eq(#mana.parse_produced("Any"), 5, "any color")
-  t.eq(mana.parse_produced("Combo W Chosen"), nil, "chosen color unsupported")
+  t.eq(table.concat(mana.parse_produced("Combo W Chosen"), ","), "W,Chosen", "chosen color is resolved later")
+  t.eq(mana.parse_produced("Combo W Remembered"), nil, "unknown Produced$ parts are unsupported")
 
   t.section("find_payment")
   local id = 0

@@ -101,6 +101,25 @@ function ai:confirm_optional(game, player, source, ability)
   return true
 end
 
+-- The color that appears most in the mana costs of the cards it owns.
+function ai:choose_color(game, player, source, options)
+  local count = {}
+  for _, zone in ipairs({ "library", "hand", "battlefield", "graveyard" }) do
+    for _, card in ipairs(player[zone]) do
+      for symbol in (card.def.script.faces[1].mana_cost or ""):gmatch("[WUBRG]") do
+        count[symbol] = (count[symbol] or 0) + 1
+      end
+    end
+  end
+  local best = options[1]
+  for _, c in ipairs(options) do
+    if (count[c] or 0) > (count[best] or 0) then
+      best = c
+    end
+  end
+  return best
+end
+
 -- Is casting this instant/sorcery worth it right now?
 local function spell_is_good(game, player, card)
   local ctx = { game = game, source = card, controller = player, targets = {} }

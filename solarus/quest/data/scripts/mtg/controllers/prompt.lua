@@ -16,6 +16,7 @@
 --           { kind = "choose_targets", player, ability, source, candidates, min, max }
 --                                                                 answer: { card or player, ... }
 --           { kind = "confirm_optional", player, source, ability } answer: true / false
+--           { kind = "choose_color", player, source, options }     answer: one of options ("W".."G")
 -- The UI must only send legal answers (offer only the listed options; check blocks with
 -- combat.validate_blocks and damage with combat.validate_assignment before answering).
 
@@ -67,6 +68,10 @@ end
 
 function prompt:confirm_optional(game, player, source, ability)
   return ask({ kind = "confirm_optional", player = player, source = source, ability = ability })
+end
+
+function prompt:choose_color(game, player, source, options)
+  return ask({ kind = "choose_color", player = player, source = source, options = options })
 end
 
 -- Runs game:run() in a coroutine; see the header for the protocol.

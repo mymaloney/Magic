@@ -168,13 +168,16 @@ local function draw_row(dst, row, y)
       dst:fill_color(COLORS.focus, x - 1, y - 1, BOX_W + 2, BOX_H + 2)
     end
     dst:fill_color(box_color(marks), x, y, BOX_W, BOX_H)
-    if card.life ~= nil then  -- a player, offered as a target
+    if card.is_option then    -- a choice such as a color
+      text(dst, card.label:sub(1, 4), x + 1, y + 1)
+      text(dst, card.label:sub(5), x + 1, y + 13)
+    elseif card.life ~= nil then  -- a player, offered as a target
       text(dst, card == ui.human and "You" or "Opp", x + 1, y + 1)
       text(dst, tostring(card.life), x + 1, y + 13)
     else
       text(dst, card:name():gsub("[^%w]", ""):sub(1, 4), x + 1, y + 1)
     end
-    if card.life == nil and card:is_creature() then
+    if not card.is_option and card.life == nil and card:is_creature() then
       local toughness_left = card:toughness() - card.damage
       text(dst, card:power() .. "/" .. toughness_left, x + 1, y + 13)
     end

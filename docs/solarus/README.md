@@ -36,7 +36,10 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
       LifeGained/Lost, Taps, ManaExpend; SVar amounts and conditions (X, Count$, raid, morbid);
       hybrid mana; turn history; 144 of 335 cards supported (2026-10-30)
 - [ ] Activated abilities (AB$ Pump/Draw/Destroy/...), Scry/Surveil, Fight, Charm, X costs
-- [ ] Statics/layers, replacements ("enters tapped" lands first)
+- [x] Replacements: enters tapped (incl. conditional Duskmourn lands), choose a color as it
+      enters + chosen-color mana; 161 of 335 cards supported (2026-10-30)
+- [ ] Statics/layers (anthems, auras, equipment, control change), remaining replacements
+      (damage doubling, can't lose, untap lock)
 - [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)
 - [x] Overworld: duelist NPC in `first_map` starts a duel via `duel.start(game, options)`;
       the duel is no longer a startup menu (2026-10-30)

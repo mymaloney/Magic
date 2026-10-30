@@ -163,6 +163,38 @@ return function(t)
     t.eq(#game:legal_actions(game.players[1]), 1, "{B/R} paid with a Mountain")
   end
 
+  t.section("enters-tapped replacements")
+  do
+    local game = t.setup({ { hand = { "Thriving Heath" },
+                             controller = t.scripted({ actions = { function(g, p, actions)
+                               for _, a in ipairs(actions) do
+                                 if a.kind == "play_land" then
+                                   return a
+                                 end
+                               end
+                             end }, color = function(g, p, source, options) return "U" end }) }, {} })
+    local taps = 0
+    game:on_event(function(e) if e.type == "tap" then taps = taps + 1 end end)
+    game.step = "main1"
+    local land = t.find(game.players[1].hand, "Thriving Heath")
+    game:perform(game.players[1], { kind = "play_land", card = land })
+    t.eq(land.tapped, true, "Thriving Heath enters tapped")
+    t.eq(taps, 0, "entering tapped isn't becoming tapped")
+    t.eq(land.chosen_color, "U", "color chosen as it enters")
+    land.tapped = false
+    local sources = game:mana_sources(game.players[1])
+    t.eq(table.concat(sources[1].colors, ","), "W,U", "taps for W or the chosen color")
+
+    local campground = t.setup({ { battlefield = {} }, {} })
+    local c1 = campground:create_card(t.db.get("Abandoned Campground"), campground.players[1], "hand")
+    campground:move(c1, "battlefield")
+    t.eq(c1.tapped, true, "Abandoned Campground enters tapped at 20 life")
+    campground.players[2].life = 13
+    local c2 = campground:create_card(t.db.get("Abandoned Campground"), campground.players[1], "hand")
+    campground:move(c2, "battlefield")
+    t.eq(c2.tapped, false, "...but untapped once a player has 13 or less life")
+  end
+
   t.section("ManaExpend")
   do
     local game = t.setup({ { battlefield = lands("Mountain", 6, "Roughshod Duo"), hand = { "Gorehorn Raider" },

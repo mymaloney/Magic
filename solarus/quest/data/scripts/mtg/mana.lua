@@ -35,12 +35,13 @@ function mana.mana_value(cost)
   return cost.generic + #cost.shards
 end
 
--- "W" -> {W}; "Combo W U" -> {W, U}; "Any" -> WUBRG. Returns nil for unsupported Produced$ values.
+-- "W" -> {W}; "Combo W U" -> {W, U}; "Any" -> WUBRG; "Chosen" -> {"Chosen"} (the color chosen
+-- as the permanent entered, resolved by game:mana_sources). Returns nil for unsupported values.
 function mana.parse_produced(text)
   if text == "Any" then
     return { "W", "U", "B", "R", "G" }
   end
-  if is_color[text] or text == "C" then
+  if is_color[text] or text == "C" or text == "Chosen" then
     return { text }
   end
   local rest = text:match("^Combo (.+)$")
@@ -51,7 +52,7 @@ function mana.parse_produced(text)
   for token in rest:gmatch("%S+") do
     if token == "Any" then
       return { "W", "U", "B", "R", "G" }
-    elseif is_color[token] or token == "C" then
+    elseif is_color[token] or token == "C" or token == "Chosen" then
       colors[#colors + 1] = token
     else
       return nil

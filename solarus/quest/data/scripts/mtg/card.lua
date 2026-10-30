@@ -17,6 +17,7 @@ function Card.new(def, owner, id)
     damage = 0,
     deathtouch_damage = false,
     pumps = {},           -- until-end-of-turn changes: { { power =, toughness =, keywords = { Flying = true } } }
+    chosen_color = nil,   -- "W".."G", chosen as it entered (ChooseColor)
   }, Card)
 end
 
@@ -105,6 +106,7 @@ function Card:reset_state()
   self.damage = 0
   self.deathtouch_damage = false
   self.pumps = {}
+  self.chosen_color = nil
   self.controller = self.owner
 end
 

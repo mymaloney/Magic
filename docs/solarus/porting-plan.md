@@ -82,6 +82,7 @@ unsupported Y" at load time rather than half-working in a duel.
 | `effects.lua` | Effects by API with a parameter whitelist each: Draw, GainLife, LoseLife, DealDamage, Discard, Destroy, DestroyAll, ChangeZone, Pump, PumpAll, Tap, Untap, Mill, Counter | `ability/effects/*Effect` |
 | `expr.lua` | SVar amounts and conditions: numbers, `X`, `Count$Valid…`, `Count$Morbid.a.b`, `Count$AttackersDeclared`, `ThisTurnCast_…`, `PlayerCountPlayers$…`, `TriggerCount$…`, math suffixes (`/Twice`, `/Plus.N`); `CheckSVar`/`IsPresent`-style compares | `AbilityUtils.calculateAmount`, `xCount`, `doXMath` |
 | `triggers.lua` | Trigger modes ChangesZone, Attacks, AttackersDeclared, Blocks, AttackerBlocked, Phase, SpellCast, Drawn, LifeGained, LifeLost, Taps, ManaExpend; intervening-if conditions rechecked on resolution; queueing | `TriggerHandler`, `Trigger<Mode>` |
+| `replacements.lua` | Enters-the-battlefield replacements: "enters tapped" (with conditions) and `K:ETBReplacement` (choose a color); applied inside `game:move` before anything sees the card enter | `ReplaceMoved`, `ReplacementHandler` |
 | `combat.lua` | Attack/block legality (flying, reach, menace, defender, haste), damage assignment (current rules, trample), first/double strike steps | `CombatUtil`, `Combat` |
 | `controllers/ai.lua` | Heuristic AI | `AiController`, `AiAttackController`, `AiBlockController` |
 | `controllers/prompt.lua` | Human controller: yields requests to the duel menu; `prompt.run(game)` runner | `PlayerControllerHuman` |
