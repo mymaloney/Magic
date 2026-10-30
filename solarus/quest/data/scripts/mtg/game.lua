@@ -43,6 +43,7 @@ local function new_history()
     mana_spent = {},      -- [player] = mana spent on spells
     activations = {},     -- [card] = { [ability key] = times activated }
     resolved = {},        -- [ability] = times it resolved (Count$ResolvedThisTurn)
+    attack_count = {},    -- [card] = combats it attacked in
   }
 end
 
@@ -53,6 +54,8 @@ Game.STEPS = {
   "main2", "end_of_turn", "cleanup",
 }
 local NO_PRIORITY = { untap = true, cleanup = true }
+local COMBAT_STEPS = { "combat_begin", "combat_declare_attackers", "combat_declare_blockers",
+                       "combat_first_strike_damage", "combat_damage", "combat_end" }
 local MAX_HAND_SIZE = 7
 
 -- opts = {
@@ -81,6 +84,7 @@ function Game.new(opts)
     statics_dirty = true,   -- continuous effects need recomputing (statics.apply)
     at_end_step = {},       -- delayed triggers for the next end step
     effects = {},           -- temporary effects (effects.Effect) until end of turn
+    delayed_triggers = {},  -- { trigger, source, controller } that trigger once this turn (DelayedTrigger)
     computing_statics = false,
   }, Game)
 
@@ -257,7 +261,7 @@ function Game:move(card, zone, opts)
     remove_from(card.controller.battlefield, card)
   elseif from == "stack" then
     for i, item in ipairs(self.stack) do
-      if item.kind == "spell" and item.card == card then
+      if item.kind == "spell" and item.card == card and not item.is_copy then
         table.remove(self.stack, i)
         break
       end
@@ -811,70 +815,124 @@ function Game:perform(player, action)
     self:count_activation(card, action.index)
     item.ctx.sacrificed = cost_lib.pay(self, player, card, act.cost).sacrificed
     self:emit({ type = "activate", player = player, card = card, targets = item.ctx.targets })
+    self:check_ward(item)
   elseif action.kind == "cast" then
-    -- CR 601.2: move to the stack, choose targets, pay costs.
-    local base_cost = card.def.mana_cost
-    if action.flashback then
-      base_cost = card.def.flashback_cost or card.def.mana_cost
+    self:cast_spell(player, card, action)
+  end
+end
+
+-- CR 601.2: move to the stack, choose targets, pay costs. `action` = { flashback, variant, free }
+-- (free: without paying its mana cost, e.g. Cascade). Returns the stack item.
+local CASCADE_ABILITY
+function Game:cast_spell(player, card, action)
+  local base_cost = card.def.mana_cost
+  if action.flashback then
+    base_cost = card.def.flashback_cost or card.def.mana_cost
+  end
+  self:move(card, "stack")
+  card.cast_with_flashback = action.flashback or nil
+  card.cast_from_graveyard = action.flashback or nil
+  local item = { kind = "spell", card = card, controller = player, ability = card.def.spell,
+                 ctx = { game = self, source = card, controller = player, targets = {} } }
+  self.stack[#self.stack + 1] = item
+  -- CR 601.2b: announce optional costs (kicker) and X before targets.
+  local extra_mana
+  local purpose = card:is_creature() and "creature_spell" or nil
+  if card.def.kicker_cost and not action.free and self:can_pay(player, add_cost(base_cost, card.def.kicker_cost), purpose)
+      and player.controller:confirm_optional(self, player, card, KICKER) then
+    item.ctx.kicked = true
+    extra_mana = card.def.kicker_cost
+  end
+  local x_count = action.free and 0 or (base_cost.x or 0)
+  if x_count > 0 then
+    local max = self:max_x(player, add_cost(base_cost, extra_mana), x_count, purpose)
+    local x = player.controller:choose_number(self, player, 0, max, "X", card) or 0
+    if x < 0 or x > max then
+      error("X out of range")
     end
-    self:move(card, "stack")
-    card.cast_with_flashback = action.flashback or nil
-    card.cast_from_graveyard = action.flashback or nil
-    local item = { kind = "spell", card = card, controller = player, ability = card.def.spell,
-                   ctx = { game = self, source = card, controller = player, targets = {} } }
-    self.stack[#self.stack + 1] = item
-    -- CR 601.2b: announce optional costs (kicker) and X before targets.
-    local extra_mana
-    local purpose = card:is_creature() and "creature_spell" or nil
-    if card.def.kicker_cost and self:can_pay(player, add_cost(base_cost, card.def.kicker_cost), purpose)
-        and player.controller:confirm_optional(self, player, card, KICKER) then
-      item.ctx.kicked = true
-      extra_mana = card.def.kicker_cost
+    item.ctx.x_paid = x
+    extra_mana = add_cost(extra_mana or { generic = 0, shards = {} }, nil, x * x_count)
+  end
+  local variant = action.variant and card.def.cast_variants[action.variant]
+  if not (action.free or variant or action.flashback)
+      and not self:can_pay(player, add_cost(self:spell_cost(player, card, {}), extra_mana), purpose) then
+    -- only affordable thanks to a target-dependent reduction (Luminous Rebuke): offer only
+    -- targets that make it affordable
+    item.ctx.target_ok = function(obj)
+      return self:can_pay(player, add_cost(self:spell_cost(player, card, { obj }), extra_mana), purpose)
     end
-    local x_count = base_cost.x or 0
-    if x_count > 0 then
-      local max = self:max_x(player, add_cost(base_cost, extra_mana), x_count, purpose)
-      local x = player.controller:choose_number(self, player, 0, max, "X", card) or 0
-      if x < 0 or x > max then
-        error("X out of range")
+  end
+  if item.ability and not abilities.choose_targets(self, item.ability, item.ctx) then
+    error("no legal targets for " .. tostring(card))
+  end
+  item.ctx.target_ok = nil
+  local all_targets = {}
+  for _, list in pairs(item.ctx.targets) do
+    for _, obj in ipairs(list) do
+      all_targets[#all_targets + 1] = obj
+    end
+  end
+  if action.free then
+    -- "cast it without paying its mana cost" (CR 118.9): additional costs are still paid
+  elseif variant then
+    if extra_mana and not self:pay(player, extra_mana, nil, purpose) then
+      error("couldn't pay for " .. tostring(card))
+    end
+    item.ctx.sacrificed = cost_lib.pay(self, player, card, variant.cost).sacrificed
+  else
+    local to_pay = action.flashback and base_cost or self:spell_cost(player, card, all_targets)
+    if extra_mana then
+      to_pay = add_cost(to_pay, extra_mana)
+    end
+    if not self:pay(player, to_pay, nil, purpose) then
+      error("couldn't pay for " .. tostring(card))
+    end
+  end
+  if card.def.extra_cost then
+    item.ctx.sacrificed = cost_lib.pay(self, player, card, card.def.extra_cost).sacrificed
+  end
+  local spent_before = self.history.mana_spent[player] or 0
+  local spent_after = spent_before + (action.free and 0 or card:mana_value())
+  self.history.mana_spent[player] = spent_after
+  table.insert(self.history.cast, { card = card, player = player })
+  self:emit({ type = "cast", player = player, card = card, targets = item.ctx.targets })
+  self:check_ward(item)
+  if card:has_keyword("Cascade") then
+    -- CR 702.85: a cast trigger
+    CASCADE_ABILITY = CASCADE_ABILITY or abilities.build({ DB = "Cascade" }, {}, {}, effects)
+    table.insert(self.pending_triggers, { source = card, controller = player, trigger = { ability = CASCADE_ABILITY },
+                                          event = { card = card } })
+  end
+  triggers.fire(self, "SpellCast", { card = card, player = player, targets = item.ctx.targets, item = item })
+  triggers.fire(self, "ManaExpend", { player = player, before = spent_before, after = spent_after })
+  return item
+end
+
+-- Removes a spell or ability from the stack without resolving it (CR 701.5).
+function Game:counter_item(item)
+  if item.kind == "spell" and not item.is_copy then
+    self:emit({ type = "countered", card = item.card })
+    self:move(item.card, "graveyard")
+  else
+    remove_from(self.stack, item)
+    self:emit({ type = "countered", card = item.card })
+  end
+end
+
+-- Ward (CR 702.21): a permanent with ward that becomes the target of an opponent's spell or
+-- ability triggers, countering it unless that player pays the ward cost.
+local WARD_ABILITY
+function Game:check_ward(item)
+  for _, list in pairs(item.ctx.targets or {}) do
+    for _, obj in ipairs(list) do
+      if obj.life == nil and obj.zone == "battlefield" and obj.def.ward_cost and not obj:abilities_lost()
+          and obj.controller ~= item.controller then
+        WARD_ABILITY = WARD_ABILITY or abilities.build({ DB = "WardCounter" }, {}, {}, effects)
+        table.insert(self.pending_triggers, { source = obj, controller = obj.controller,
+                                              trigger = { ability = WARD_ABILITY },
+                                              event = { item = item, cost = obj.def.ward_cost } })
       end
-      item.ctx.x_paid = x
-      extra_mana = add_cost(extra_mana or { generic = 0, shards = {} }, nil, x * x_count)
     end
-    if item.ability and not abilities.choose_targets(self, item.ability, item.ctx) then
-      error("no legal targets for " .. tostring(card))
-    end
-    local all_targets = {}
-    for _, list in pairs(item.ctx.targets) do
-      for _, obj in ipairs(list) do
-        all_targets[#all_targets + 1] = obj
-      end
-    end
-    local variant = action.variant and card.def.cast_variants[action.variant]
-    if variant then
-      if extra_mana and not self:pay(player, extra_mana, nil, purpose) then
-        error("couldn't pay for " .. tostring(card))
-      end
-      item.ctx.sacrificed = cost_lib.pay(self, player, card, variant.cost).sacrificed
-    else
-      local to_pay = action.flashback and base_cost or self:spell_cost(player, card, all_targets)
-      if extra_mana then
-        to_pay = add_cost(to_pay, extra_mana)
-      end
-      if not self:pay(player, to_pay, nil, purpose) then
-        error("couldn't pay for " .. tostring(card))
-      end
-    end
-    if card.def.extra_cost then
-      item.ctx.sacrificed = cost_lib.pay(self, player, card, card.def.extra_cost).sacrificed
-    end
-    local spent_before = self.history.mana_spent[player] or 0
-    local spent_after = spent_before + card:mana_value()
-    self.history.mana_spent[player] = spent_after
-    table.insert(self.history.cast, { card = card, player = player })
-    self:emit({ type = "cast", player = player, card = card, targets = item.ctx.targets })
-    triggers.fire(self, "SpellCast", { card = card, player = player, targets = item.ctx.targets })
-    triggers.fire(self, "ManaExpend", { player = player, before = spent_before, after = spent_after })
   end
 end
 
@@ -889,8 +947,10 @@ function Game:put_triggers_on_stack()
       if pt.controller == player then
         local ctx = { game = self, source = pt.source, controller = player, targets = {}, trigger = pt.event }
         if abilities.choose_targets(self, pt.trigger.ability, ctx) then
-          table.insert(self.stack, { kind = "trigger", card = pt.source, controller = player,
-                                     ability = pt.trigger.ability, trigger = pt.trigger, ctx = ctx })
+          local item = { kind = "trigger", card = pt.source, controller = player,
+                         ability = pt.trigger.ability, trigger = pt.trigger, ctx = ctx }
+          table.insert(self.stack, item)
+          self:check_ward(item)
           self:emit({ type = "trigger", card = pt.source, player = player, targets = ctx.targets })
         else
           self:emit({ type = "trigger_removed", card = pt.source, player = player })
@@ -911,6 +971,12 @@ function Game:resolve_top()
   if item.kind == "ability" then
     table.remove(self.stack)
     if not abilities.resolve(self, item.ability, item.ctx, effects) then
+      self:emit({ type = "fizzle", card = card })
+    end
+  elseif item.is_copy then
+    -- a copy of a spell (CR 707.10) resolves like it but isn't a card: nothing moves afterwards
+    table.remove(self.stack)
+    if item.ability and not abilities.resolve(self, item.ability, item.ctx, effects) then
       self:emit({ type = "fizzle", card = card })
     end
   elseif item.kind == "trigger" then
@@ -1031,7 +1097,7 @@ function turn_based.combat_declare_attackers(game, player)
     error("invalid attack: " .. reason)
   end
   game.combat.attackers = attackers
-  game.history.attackers[player] = #attackers
+  game.history.attackers[player] = (game.history.attackers[player] or 0) + #attackers
   for _, card in ipairs(attackers) do
     if not card:has_keyword("Vigilance") then
       game:tap(card)
@@ -1039,7 +1105,10 @@ function turn_based.combat_declare_attackers(game, player)
   end
   game:emit({ type = "attackers", player = player, attackers = attackers })
   for _, card in ipairs(attackers) do
-    triggers.fire(game, "Attacks", { card = card, player = player, defender = game:opponent(player) })
+    local n = (game.history.attack_count[card] or 0) + 1
+    game.history.attack_count[card] = n
+    triggers.fire(game, "Attacks", { card = card, player = player, defender = game:opponent(player),
+                                     first_attack = n == 1 })
   end
   if #attackers > 0 then
     triggers.fire(game, "AttackersDeclared", { player = player, attackers = attackers })
@@ -1100,6 +1169,7 @@ function turn_based.cleanup(game, player)
       card.pumps = {}
     end
   end
+  game.delayed_triggers = {}   -- all of the pool's delayed triggers last "this turn"
   for i = #game.effects, 1, -1 do
     if not game.effects[i].permanent then
       table.remove(game.effects, i)
@@ -1155,6 +1225,7 @@ end
 function Game:run_turn()
   self.turn = self.turn + 1
   self.lands_played = 0
+  self.extra_combats = 0
   self.history = new_history()
   self:emit({ type = "turn", player = self.active, turn = self.turn })
   for _, step in ipairs(Game.STEPS) do
@@ -1162,6 +1233,16 @@ function Game:run_turn()
       return
     end
     self:run_step(step)
+    -- CR 500.8: additional combat phases (AddPhase, Aurelia) follow the current one
+    while step == "combat_end" and self.extra_combats > 0 and not self.over do
+      self.extra_combats = self.extra_combats - 1
+      for _, combat_step in ipairs(COMBAT_STEPS) do
+        if self.over then
+          return
+        end
+        self:run_step(combat_step)
+      end
+    end
   end
   self.step = nil
   self.active = self:opponent(self.active)

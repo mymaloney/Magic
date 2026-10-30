@@ -91,7 +91,18 @@ local function card_mode(extra_params)
   }
 end
 
-MODES.Attacks = card_mode({ FirstAttack = true })   -- one combat per turn, so every attack is the first
+MODES.Attacks = card_mode({ FirstAttack = true })
+do
+  -- FirstAttack$: "attacks for the first time each turn" (extra combats, Aurelia)
+  local parse, test = MODES.Attacks.parse, MODES.Attacks.test
+  MODES.Attacks.parse = function(trigger, p, reasons)
+    parse(trigger, p, reasons)
+    trigger.first_attack = p.FirstAttack == "True"
+  end
+  MODES.Attacks.test = function(trigger, event, ctx)
+    return test(trigger, event, ctx) and (not trigger.first_attack or event.first_attack)
+  end
+end
 MODES.Blocks = card_mode()
 MODES.AttackerBlocked = card_mode()
 MODES.Taps = card_mode()
@@ -280,6 +291,14 @@ function triggers.fire(game, mode, event)
   else
     sources = battlefield_sources(game)
   end
+  -- delayed triggers ("when you next cast ... this turn") trigger once, from wherever their source is
+  local delayed = {}
+  for _, d in ipairs(game.delayed_triggers or {}) do
+    delayed[#delayed + 1] = { card = d.source, controller = d.controller, triggers = { d.trigger }, delayed = d }
+  end
+  for _, d in ipairs(delayed) do
+    sources[#sources + 1] = d
+  end
   local spec = MODES[mode]
   for _, source in ipairs(sources) do
     for _, trigger in ipairs(source.triggers or source.card.def.triggers or {}) do
@@ -301,6 +320,14 @@ function triggers.fire(game, mode, event)
             trigger = trigger,
             event = event,
           })
+          if source.delayed then
+            for i, d in ipairs(game.delayed_triggers) do
+              if d == source.delayed then
+                table.remove(game.delayed_triggers, i)
+                break
+              end
+            end
+          end
         end
       end
     end

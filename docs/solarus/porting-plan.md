@@ -188,6 +188,10 @@ Record each simplification here when made, with the Forge code it diverges from:
 - Remembered objects live on the resolving ability's context (`ctx.remembered`), not on the host
   card, so they don't persist past resolution (Forge's `Card.getRemembered`). Enough for every
   pool card that uses them.
+- Delayed triggers (`game.delayed_triggers`) only exist in the "this turn" form and trigger once;
+  spell copies are stack items with `is_copy` that share the original's card (no copies of
+  permanent spells); Ward is a trigger whose payment prompt is `confirm_optional`.
+- The AI never pays alternative or optional costs that sacrifice permanents.
 - Forge's effect "cards" in the command zone are plain tables in `game.effects` (statics +
   remembered objects) that all end at cleanup; no `Duration$` variants yet.
 - Choices that Forge offers as generic "choose one" prompts (e.g. top or bottom of library) go

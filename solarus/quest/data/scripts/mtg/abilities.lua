@@ -200,7 +200,7 @@ function abilities.build(params, svars, reasons, effects, parent, depth)
 
   if params.Defined then
     local d = params.Defined
-    if not DEFINED_CARDS[d] and not DEFINED_PLAYERS[d] then
+    if not DEFINED_CARDS[d] and not DEFINED_PLAYERS[d] and not (d == "TriggeredSpellAbility" and api == "CopySpellAbility") then
       reasons[#reasons + 1] = "Defined " .. d
     end
   end
@@ -310,7 +310,7 @@ function abilities.target_candidates(game, ability, ctx)
   local raw = abilities.raw_target_candidates(game, ability, ctx)
   local list = {}
   for _, obj in ipairs(raw) do
-    if passes_target_restrictions(game, ability, obj, ctx) then
+    if passes_target_restrictions(game, ability, obj, ctx) and (ctx.target_ok == nil or ctx.target_ok(obj)) then
       list[#list + 1] = obj
     end
   end
@@ -349,8 +349,24 @@ end
 -- Can every targeting part of the chain find enough targets? (used to offer spells for casting)
 function abilities.can_target(game, root, ctx)
   for _, ability in ipairs(abilities.chain(root)) do
-    if ability.target and #abilities.target_candidates(game, ability, ctx) < ability.target.min then
-      return false
+    if ability.target then
+      local candidates = abilities.target_candidates(game, ability, ctx)
+      if #candidates < ability.target.min then
+        return false
+      end
+      if ability.params.TargetsWithDifferentControllers == "True" and ability.target.min > 1 then
+        local controllers, n = {}, 0
+        for _, obj in ipairs(candidates) do
+          local c = obj.life ~= nil and obj or obj.controller
+          if not controllers[c] then
+            controllers[c] = true
+            n = n + 1
+          end
+        end
+        if n < ability.target.min then
+          return false
+        end
+      end
     end
     if ability.choices then
       local any = false

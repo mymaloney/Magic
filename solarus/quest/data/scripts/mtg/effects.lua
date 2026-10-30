@@ -1093,6 +1093,167 @@ effects.Animate = {
   harmful = false,
 }
 
+-- "When you do, ...": a reflexive trigger put on the stack right away (Ruthless Lawbringer).
+-- Reference: effects/ImmediateTriggerEffect.
+effects.ImmediateTrigger = {
+  params = { Execute = true, TriggerDescription = true },
+  validate = function(a, r)
+    local text = a.params.Execute and a.svars[a.params.Execute]
+    if text == nil then
+      r[#r + 1] = "ImmediateTrigger without Execute"
+      return
+    end
+    a.immediate = { ability = abilities.build(script_parser.parse_params(text), a.svars, r, effects) }
+  end,
+  resolve = function(game, a, ctx)
+    table.insert(game.pending_triggers, { source = ctx.source, controller = ctx.controller,
+                                          trigger = a.immediate, event = ctx.trigger })
+  end,
+  harmful = false,
+}
+
+-- Ward's trigger: counter the targeting spell or ability unless its controller pays.
+effects.WardCounter = {
+  params = {},
+  resolve = function(game, a, ctx)
+    local item, cost = ctx.trigger.item, ctx.trigger.cost
+    local on_stack = false
+    for _, x in ipairs(game.stack) do
+      on_stack = on_stack or x == item
+    end
+    if not on_stack then
+      return
+    end
+    local payer = item.controller
+    if game:can_pay(payer, cost) and payer.controller:confirm_optional(game, payer, ctx.source, a)
+        and game:pay(payer, cost) then
+      return
+    end
+    game:counter_item(item)
+  end,
+  harmful = true,
+}
+
+-- "After this phase, there is an additional combat phase." Reference: effects/AddPhaseEffect.
+effects.AddPhase = {
+  params = { ExtraPhase = true, AfterPhase = true },
+  validate = function(a, r)
+    if a.params.ExtraPhase ~= "Combat" or a.params.AfterPhase ~= "EndCombat" then
+      r[#r + 1] = "AddPhase " .. tostring(a.params.ExtraPhase) .. " after " .. tostring(a.params.AfterPhase)
+    end
+  end,
+  resolve = function(game, a, ctx)
+    if game.step and game.step:match("^combat_") then
+      game.extra_combats = (game.extra_combats or 0) + 1
+    end
+  end,
+  harmful = false,
+}
+
+-- Cascade (CR 702.85): exile cards from the top until a nonland card with lower mana value; you
+-- may cast it without paying its mana cost; the rest go to the bottom in a random order.
+effects.Cascade = {
+  params = {},
+  resolve = function(game, a, ctx)
+    local player = ctx.controller
+    local mv = ctx.source:mana_value()
+    local exiled, hit = {}, nil
+    while #player.library > 0 do
+      local card = player.library[#player.library]
+      game:move(card, "exile")
+      if not card:is_land() and card:mana_value() < mv then
+        hit = card
+        break
+      end
+      exiled[#exiled + 1] = card
+    end
+    game:emit({ type = "cascade", player = player, card = hit })
+    if hit then
+      local castable = hit.def.supported and hit.def.mana_cost ~= nil
+          and (hit.def.spell == nil or abilities.can_target(game, hit.def.spell, { game = game, source = hit, controller = player }))
+          and (hit.def.extra_cost == nil or require("scripts/mtg/cost").can_pay(game, player, hit, hit.def.extra_cost))
+      if castable and player.controller:confirm_optional(game, player, hit, a) then
+        game:cast_spell(player, hit, { free = true })
+      else
+        exiled[#exiled + 1] = hit
+      end
+    end
+    for i = #exiled, 2, -1 do
+      local j = game.rng(i)
+      exiled[i], exiled[j] = exiled[j], exiled[i]
+    end
+    for _, card in ipairs(exiled) do
+      game:move(card, "library", { position = "bottom" })
+    end
+  end,
+  harmful = false,
+}
+
+-- Sets up a delayed trigger: "When you cast your next instant or sorcery spell this turn, ..."
+-- Reference: effects/DelayedTriggerEffect.
+effects.DelayedTrigger = {
+  params = { Mode = true, ValidCard = true, ValidActivatingPlayer = true, Execute = true, ThisTurn = true,
+             TriggerDescription = true },
+  validate = function(a, r)
+    local p = a.params
+    if p.ThisTurn ~= "True" or p.Mode ~= "SpellCast" then
+      r[#r + 1] = "DelayedTrigger " .. tostring(p.Mode)
+    end
+    a.delayed = require("scripts/mtg/triggers").parse({ Mode = p.Mode, ValidCard = p.ValidCard,
+      ValidActivatingPlayer = p.ValidActivatingPlayer, Execute = p.Execute }, a.svars, r, effects)
+  end,
+  resolve = function(game, a, ctx)
+    if a.delayed then
+      table.insert(game.delayed_triggers, { trigger = a.delayed, source = ctx.source, controller = ctx.controller })
+    end
+  end,
+  harmful = false,
+}
+
+-- Copies the triggering spell (CR 707.10); with MayChooseTarget$ the copy's targets are chosen
+-- again (the controller may keep them). Reference: effects/CopySpellAbilityEffect.
+effects.CopySpellAbility = {
+  params = { MayChooseTarget = true },
+  validate = function(a, r)
+    if a.params.Defined ~= "TriggeredSpellAbility" then
+      r[#r + 1] = "CopySpellAbility Defined$ " .. tostring(a.params.Defined)
+    end
+  end,
+  resolve = function(game, a, ctx)
+    local original = ctx.trigger and ctx.trigger.item
+    local on_stack = false
+    for _, x in ipairs(game.stack) do
+      on_stack = on_stack or x == original
+    end
+    if not on_stack or original.card:is_permanent_card() then
+      return
+    end
+    local targets = {}
+    for k, list in pairs(original.ctx.targets or {}) do
+      local copy = {}
+      for i, obj in ipairs(list) do
+        copy[i] = obj
+      end
+      targets[k] = copy
+    end
+    local item = { kind = "spell", is_copy = true, card = original.card, controller = ctx.controller,
+                   ability = original.ability,
+                   ctx = { game = game, source = original.card, controller = ctx.controller, targets = targets,
+                           x_paid = original.ctx.x_paid, kicked = original.ctx.kicked, modes = original.ctx.modes } }
+    if a.params.MayChooseTarget == "True" and item.ability then
+      local fresh = { game = game, source = original.card, controller = ctx.controller, targets = {},
+                      x_paid = original.ctx.x_paid, kicked = original.ctx.kicked, modes = original.ctx.modes }
+      if abilities.choose_targets(game, item.ability, fresh) then
+        item.ctx = fresh
+      end
+    end
+    game.stack[#game.stack + 1] = item
+    game:emit({ type = "copy", player = ctx.controller, card = original.card, targets = item.ctx.targets })
+    game:check_ward(item)
+  end,
+  harmful = false,
+}
+
 -- Every resolve function sees the current context through CTX (used by amount()).
 for _, spec in pairs(effects) do
   if type(spec) == "table" and spec.resolve then

@@ -8,7 +8,7 @@ local card_db = require("scripts/mtg/card_db")
 local Game = require("scripts/mtg/game")
 local combat = require("scripts/mtg/combat")
 
-local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_abilities", "test_triggers", "test_activated", "test_effects", "test_statics", "test_costs", "test_remembered", "test_layers", "test_casting", "test_full_game", "test_duel_ui" }
+local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_abilities", "test_triggers", "test_activated", "test_effects", "test_statics", "test_costs", "test_remembered", "test_layers", "test_casting", "test_stack", "test_full_game", "test_duel_ui" }
 
 local t = { checks = 0, failures = 0, section_name = "" }
 

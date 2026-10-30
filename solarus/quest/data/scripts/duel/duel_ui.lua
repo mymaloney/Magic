@@ -414,6 +414,10 @@ function duel_ui:prompt_text()
   elseif kind == "confirm_optional" then
     if r.ability and r.ability.api == "Kicker" then
       title = fit("Kick ", r.source:name(), "?")
+    elseif r.ability and r.ability.api == "Cascade" then
+      title = fit("Cast ", r.source:name(), " free?")
+    elseif r.ability and r.ability.api == "WardCounter" then
+      title = fit("Pay ward for ", r.source:name(), "?")
     elseif r.ability and r.ability.optional_cost then
       title = fit("Pay the cost for ", r.source:name(), "?")
     else

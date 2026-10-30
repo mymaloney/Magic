@@ -250,6 +250,14 @@ function card_db.build_definition(text)
       end
       def[name:lower() .. "_cost"] = parsed
       def.keywords[name] = true
+    elseif name == "Ward" then
+      -- Ward N (CR 702.21): counter an opponent's spell or ability that targets it unless they pay N.
+      local parsed = mana.parse_cost(keyword:match("^Ward:(.+)$") or "")
+      if parsed == nil then
+        unsupported("keyword " .. keyword)
+      end
+      def.ward_cost = parsed
+      def.keywords.Ward = true
     elseif name == "Crew" then
       -- Crew N (CR 702.122): tap creatures with total power N or more: becomes an artifact creature
       -- until end of turn.

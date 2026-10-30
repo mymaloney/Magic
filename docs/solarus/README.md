@@ -62,9 +62,10 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [x] Layers 3-6: name, type, color and "loses all abilities" changes (Eaten by Piranhas,
       Witness Protection, Imprisoned in the Moon), Animate, Crew, Kindred, lasting effects from
       a spell (Rise from the Grave); 324 of 335 cards supported (2026-10-30)
-- [ ] Remaining one-offs (11 cards) listed in `solarus/cardpool/support_report.md`: Ward,
-      Cascade, extra combat, alternative costs, delayed/immediate triggers, lure, ...
-- [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)
+- [x] Alternative costs, choices of additional cost, flash for a price, lure, reflexive and
+      delayed triggers, Ward, extra combats, Cascade, spell copies (2026-10-30)
+- [x] Maloney Foundations pool fully supported: 335 of 335 cards, no "unsupported feature"
+      reports; random-deck AI stress test (`tools/stress_games.lua`) runs clean (2026-10-30)
 - [x] Overworld: duelist NPC in `first_map` starts a duel via `duel.start(game, options)`;
       the duel is no longer a startup menu (2026-10-30)
 - [x] Duelist NPC confirmed on a real Solarus 2.1 install (owner, 2026-10-30)
