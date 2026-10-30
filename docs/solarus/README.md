@@ -30,7 +30,8 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
       joypad controls, deck choice
 - [x] ChangesZone triggers (enters/dies/leaves, with look-back), instants/sorceries, targeting
       (players, permanents, graveyard cards, spells), hexproof, 13 effects; duel screen handles
-      targets and "may" prompts; 110 of 335 cards supported (2026-10-30)
+      targets and "may" prompts; 110 of 335 cards supported (2026-10-30); confirmed on Solarus
+      2.1 by the owner
 - [ ] More trigger modes: Attacks, Phase (upkeep/end step), SpellCast, AttackersDeclared, LifeGained
 - [ ] Activated abilities (AB$ Pump/Draw/Destroy/...), Scry/Surveil, Fight, Charm, X costs
 - [ ] Statics/layers, replacements ("enters tapped" lands first)
