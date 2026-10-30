@@ -988,4 +988,50 @@ function effects.is_harmful(ability)
   return h == true
 end
 
+-- Creates a temporary effect (Forge's effect "card" in the command zone): static abilities that
+-- apply until end of turn, with their own remembered objects. Reference: effects/EffectEffect.
+-- ExileOnMoved$ ends it when a remembered object leaves that zone; ForgetOnMoved$ just forgets it.
+local statics_lib = require("scripts/mtg/statics")
+
+effects.Effect = {
+  params = { StaticAbilities = true, ExileOnMoved = true, ForgetOnMoved = true, Name = true },
+  validate = function(a, r)
+    a.effect_statics = {}
+    for name in (a.params.StaticAbilities or ""):gmatch("[^,]+") do
+      local text = a.svars[name]
+      if text == nil then
+        r[#r + 1] = "Effect static " .. name
+      else
+        local st = statics_lib.parse(script_parser.parse_params(text), a.svars, r, keywords.SUPPORTED)
+        a.effect_statics[#a.effect_statics + 1] = st
+      end
+    end
+    if #a.effect_statics == 0 then
+      r[#r + 1] = "Effect without StaticAbilities"
+    end
+    for _, key in ipairs({ "ExileOnMoved", "ForgetOnMoved" }) do
+      if a.params[key] and abilities.ZONES[a.params[key]] == nil then
+        r[#r + 1] = "Effect " .. key .. "$ " .. a.params[key]
+      end
+    end
+  end,
+  resolve = function(game, a, ctx)
+    local remembered = {}
+    if a.params.RememberObjects then
+      for _, obj in ipairs(abilities.defined(game, a, ctx, a.params.RememberObjects)) do
+        remembered[#remembered + 1] = obj
+      end
+    end
+    game:add_effect({
+      name = a.params.Name or (ctx.source:name() .. "'s Effect"),
+      source = ctx.source, controller = ctx.controller,
+      def = { statics = a.effect_statics },
+      remembered = remembered,
+      exile_on_moved = a.params.ExileOnMoved and abilities.ZONES[a.params.ExileOnMoved],
+      forget_on_moved = a.params.ForgetOnMoved and abilities.ZONES[a.params.ForgetOnMoved],
+    })
+  end,
+  harmful = false,
+}
+
 return effects

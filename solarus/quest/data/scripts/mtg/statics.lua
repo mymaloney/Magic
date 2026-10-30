@@ -22,7 +22,8 @@ local COMMON = { Mode = true, Description = true, Secondary = true, EffectZone =
 local MODE_PARAMS = {
   Continuous = { Affected = true, AffectedDefined = true, AddPower = true, AddToughness = true, AddKeyword = true,
                  RemoveKeyword = true, SetPower = true, SetToughness = true, CharacteristicDefining = true,
-                 GainControl = true },
+                 GainControl = true, AddHiddenKeyword = true, AdjustLandPlays = true, AffectedZone = true,
+                 MayPlay = true },
   CantBlock = { ValidCard = true },
   CantAttack = { ValidCard = true },
   ["CantAttack,CantBlock"] = { ValidCard = true },
@@ -115,13 +116,41 @@ function statics.parse(params, svars, reasons, supported_keywords)
         reasons[#reasons + 1] = "static without Affected"
       end
     end
-    st.affected = parse_filter(params, "Affected", reasons)
+    if params.Affected == "You" then
+      -- affects the player, not cards: "You may play an additional land this turn."
+      st.affects_you = true
+      if params.AdjustLandPlays == nil then
+        reasons[#reasons + 1] = "static Affected$ You"
+      end
+    else
+      st.affected = parse_filter(params, "Affected", reasons)
+    end
+    if params.AdjustLandPlays then
+      st.land_plays = tonumber(params.AdjustLandPlays)
+      if st.land_plays == nil or not st.affects_you then
+        reasons[#reasons + 1] = "static AdjustLandPlays$ " .. params.AdjustLandPlays
+      end
+    end
+    local zone = params.AffectedZone or "Battlefield"
+    if zone ~= "Battlefield" and not (zone == "Exile" and params.MayPlay == "True") then
+      reasons[#reasons + 1] = "static AffectedZone$ " .. zone
+    end
+    if params.MayPlay and (params.MayPlay ~= "True" or zone ~= "Exile") then
+      reasons[#reasons + 1] = "static MayPlay outside exile"
+    end
+    st.may_play = params.MayPlay == "True"
     st.add_power = parse_amount(params, "AddPower", svars, reasons)
     st.add_toughness = parse_amount(params, "AddToughness", svars, reasons)
     st.set_power = parse_amount(params, "SetPower", svars, reasons)
     st.set_toughness = parse_amount(params, "SetToughness", svars, reasons)
     st.add_keywords = parse_keywords(params.AddKeyword, reasons, supported_keywords)
     st.remove_keywords = parse_keywords(params.RemoveKeyword, reasons, supported_keywords)
+    if params.AddHiddenKeyword then
+      st.add_keywords = st.add_keywords or {}
+      for kw in pairs(parse_keywords("HIDDEN " .. params.AddHiddenKeyword:gsub("&", "& HIDDEN "), reasons, supported_keywords)) do
+        st.add_keywords[kw] = true
+      end
+    end
     if params.GainControl and params.GainControl ~= "You" then
       reasons[#reasons + 1] = "static GainControl$ " .. params.GainControl
     end
@@ -154,7 +183,7 @@ function statics.parse(params, svars, reasons, supported_keywords)
 end
 
 local function fctx(game, source)
-  return { game = game, you = source.controller, self = source }
+  return { game = game, you = source.controller, self = source, remembered = source.remembered }
 end
 
 local function active(game, source, st)
@@ -168,24 +197,34 @@ local function active(game, source, st)
 end
 
 -- Every (source, static) currently in effect with the given mode (or all modes if nil).
--- Statics work from the battlefield, except EffectZone$ All ones on a spell's own card (cost
--- reductions), which statics.cost_reduction looks up directly.
+-- Statics work from the battlefield and from temporary effects (game.effects), except
+-- EffectZone$ All ones on a spell's own card (cost reductions), which statics.cost_reduction
+-- looks up directly.
 local function each_static(game, mode)
   local list = {}
-  for _, player in ipairs(game.players) do
-    for _, source in ipairs(player.battlefield) do
-      for _, st in ipairs(source.def.statics or {}) do
-        if (mode == nil or st.mode == mode or (st.mode == "CantAttack,CantBlock" and (mode == "CantAttack" or mode == "CantBlock")))
-            and active(game, source, st) then
-          list[#list + 1] = { source = source, st = st }
-        end
+  local function add(source)
+    for _, st in ipairs(source.def.statics or {}) do
+      if (mode == nil or st.mode == mode or (st.mode == "CantAttack,CantBlock" and (mode == "CantAttack" or mode == "CantBlock")))
+          and active(game, source, st) then
+        list[#list + 1] = { source = source, st = st }
       end
     end
+  end
+  for _, player in ipairs(game.players) do
+    for _, source in ipairs(player.battlefield) do
+      add(source)
+    end
+  end
+  for _, effect in ipairs(game.effects or {}) do
+    add(effect)
   end
   return list
 end
 
 local function affected_cards(game, source, st)
+  if st.affects_you or st.may_play then
+    return {}   -- see statics.extra_land_plays and statics.may_play_cards
+  end
   local candidates
   local d = st.params.AffectedDefined
   if d == "Self" then
@@ -278,6 +317,35 @@ function statics.update_control(game)
     game:change_control(mv.card, mv.to)
   end
   return #moves > 0
+end
+
+-- Additional lands `player` may play this turn (AdjustLandPlays).
+function statics.extra_land_plays(game, player)
+  local n = 0
+  for _, entry in ipairs(each_static(game, "Continuous")) do
+    if entry.st.land_plays and entry.source.controller == player then
+      n = n + entry.st.land_plays
+    end
+  end
+  return n
+end
+
+-- Cards in exile that `player` may play (MayPlay statics they control).
+function statics.may_play_cards(game, player)
+  local list, seen = {}, {}
+  for _, entry in ipairs(each_static(game, "Continuous")) do
+    if entry.st.may_play and entry.source.controller == player then
+      for _, p in ipairs(game.players) do
+        for _, card in ipairs(p.exile) do
+          if not seen[card] and filter.matches(entry.st.affected, card, fctx(game, entry.source)) then
+            seen[card] = true
+            list[#list + 1] = card
+          end
+        end
+      end
+    end
+  end
+  return list
 end
 
 -- Does any static of `mode` apply to `card`? (CantBlock, CantAttack, CanAttackDefender)

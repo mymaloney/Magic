@@ -79,11 +79,11 @@ unsupported Y" at load time rather than half-working in a duel.
 | `keywords.lua` | The set of keywords the engine implements | `keyword/Keyword` |
 | `filter.lua` | `Valid*$` filter language (types, `.YouCtrl`, `+nonLand`, `cmcLE2`, `powerGE4`, ...) | `CardProperty`, `PlayerProperty` |
 | `abilities.lua` | Ability chains from `SP$`/`DB$` params (+ `SubAbility$`), targeting (candidates, legality, hexproof), `Defined$`, resolution with fizzling | `AbilityFactory`, `AbilityUtils`, `TargetRestrictions` |
-| `effects.lua` | Effects by API with a parameter whitelist each: Draw, GainLife, LoseLife, DealDamage, DamageAll, Discard, Destroy, DestroyAll, ChangeZone, ChangeZoneAll, Pump, PumpAll, Tap, TapAll, Untap, Mill, Counter, ChooseColor, Scry, Surveil, Dig, Sacrifice, Fight, Charm, Branch, Cleanup | `ability/effects/*Effect` |
+| `effects.lua` | Effects by API with a parameter whitelist each: Draw, GainLife, LoseLife, DealDamage, DamageAll, Discard, Destroy, DestroyAll, ChangeZone, ChangeZoneAll, Pump, PumpAll, Tap, TapAll, Untap, Mill, Counter, ChooseColor, Scry, Surveil, Dig, Sacrifice, Fight, Charm, Branch, Cleanup, UntapAll, DamageResolve, Effect (temporary effects in `game.effects`) | `ability/effects/*Effect` |
 | `expr.lua` | SVar amounts and conditions: numbers, `X`, `Count$Valid…`, `Count$Morbid.a.b`, `Count$AttackersDeclared`, `ThisTurnCast_…`, `PlayerCountPlayers$…`, `TriggerCount$…`, math suffixes (`/Twice`, `/Plus.N`); `CheckSVar`/`IsPresent`-style compares | `AbilityUtils.calculateAmount`, `xCount`, `doXMath` |
 | `triggers.lua` | Trigger modes ChangesZone, Attacks, AttackersDeclared, Blocks, AttackerBlocked, Phase, SpellCast, Drawn, LifeGained, LifeLost, Taps, ManaExpend; intervening-if conditions rechecked on resolution; queueing | `TriggerHandler`, `Trigger<Mode>` |
 | `cost.lua` | Activated-ability costs: mana, {T}, `Sac<n/...>`, `Discard<n/...>`, `PayLife<n>`; can-pay checks and payment (choices via `choose_cards`) | `Cost`, `CostPart*`, `CostPayment` |
-| `statics.lua` | Static abilities: continuous effects recomputed lazily into `card.mods` (layers 6-7), control changes (layer 2) at state-based-action time, restriction queries for combat, cost reductions | `StaticAbilityContinuous`, `StaticAbilityCantAttackBlock`, `CostAdjustment` |
+| `statics.lua` | Static abilities: continuous effects recomputed lazily into `card.mods` (layers 6-7), control changes (layer 2) at state-based-action time, restriction queries for combat, cost reductions, extra land plays, play from exile; sources are battlefield cards and `game.effects` | `StaticAbilityContinuous`, `StaticAbilityCantAttackBlock`, `CostAdjustment` |
 | `replacements.lua` | Enters-the-battlefield replacements: "enters tapped" (with conditions) and `K:ETBReplacement` (choose a color); applied inside `game:move` before anything sees the card enter | `ReplaceMoved`, `ReplacementHandler` |
 | `combat.lua` | Attack/block legality (flying, reach, menace, defender, haste), damage assignment (current rules, trample), first/double strike steps | `CombatUtil`, `Combat` |
 | `controllers/ai.lua` | Heuristic AI | `AiController`, `AiAttackController`, `AiBlockController` |
@@ -184,6 +184,8 @@ Record each simplification here when made, with the Forge code it diverges from:
 - Remembered objects live on the resolving ability's context (`ctx.remembered`), not on the host
   card, so they don't persist past resolution (Forge's `Card.getRemembered`). Enough for every
   pool card that uses them.
+- Forge's effect "cards" in the command zone are plain tables in `game.effects` (statics +
+  remembered objects) that all end at cleanup; no `Duration$` variants yet.
 - Choices that Forge offers as generic "choose one" prompts (e.g. top or bottom of library) go
   through `choose_option`; the AI always takes the first option.
 

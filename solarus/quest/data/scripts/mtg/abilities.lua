@@ -623,7 +623,7 @@ return abilities.defined(game, ability, ctx, kind == "ParentTargeted" and "Paren
     end
     if not skip then
       effects[ability.api].resolve(game, ability, ctx)
-      if ability.params.RememberObjects then
+      if ability.params.RememberObjects and ability.api ~= "Effect" then  -- an Effect remembers on itself
         ctx.remembered = ctx.remembered or {}
         for _, obj in ipairs(abilities.defined(game, ability, ctx, ability.params.RememberObjects)) do
           table.insert(ctx.remembered, obj)

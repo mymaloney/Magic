@@ -143,7 +143,8 @@ end
 local PICK_KINDS = { choose_targets = true, choose_cards = true }
 local abilities = require("scripts/mtg/abilities")
 
--- Cards shown in a row (1 = opponent's permanents, 2 = yours, 3 = your hand).
+-- Cards shown in a row (1 = opponent's permanents, 2 = yours, 3 = your hand, followed by cards
+-- in other zones you can do something with: flashback, graveyard abilities, playable from exile).
 function duel_ui:row_cards(row)
   if row == 1 then
     return shown_permanents(self.opponent)
@@ -158,6 +159,20 @@ function duel_ui:row_cards(row)
   end
   if self.request and self.request.kind == "arrange_top" then
     return self.request.cards
+  end
+  if self.request and self.request.kind == "choose_action" then
+    local cards, seen = {}, {}
+    for _, card in ipairs(self.human.hand) do
+      cards[#cards + 1] = card
+    end
+    for _, action in ipairs(self.request.actions) do
+      local card = action.card
+      if card.zone ~= "hand" and card.zone ~= "battlefield" and not seen[card] then
+        seen[card] = true
+        cards[#cards + 1] = card
+      end
+    end
+    return cards
   end
   return self.human.hand
 end
@@ -628,7 +643,9 @@ end
 -- An option box for one action on a card (when a card has several).
 function duel_ui.action_option(action)
   local label, detail = "Cast", "Cast " .. action.card:name()
-  if action.kind == "play_land" then
+  if action.flashback then
+    label, detail = "Flashback", "Cast " .. action.card:name() .. " with flashback"
+  elseif action.kind == "play_land" then
     label, detail = "Play", "Play " .. action.card:name()
   elseif action.kind == "activate" then
     local ability = action.card.def.activated[action.index].ability
@@ -672,6 +689,9 @@ function duel_ui.card_details(card)
   local def = card.def
   local face = def.script.faces[1]
   local lines = { def.name }
+  if card.zone == "graveyard" or card.zone == "exile" then
+    lines[1] = def.name .. " (in " .. card.zone .. ")"
+  end
   local cost = face.mana_cost == "no cost" and "" or ("{" .. (face.mana_cost or ""):gsub(" ", "}{") .. "}  ")
   lines[2] = cost .. (face.types or "")
   local kw = {}

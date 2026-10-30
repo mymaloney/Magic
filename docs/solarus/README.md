@@ -53,8 +53,11 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
       (DamageSource, exile-if-dies), reveal-and-choose discards, owner's top/bottom choice,
       two-player targeting restrictions, activation-count conditions, discard-to-battlefield
       replacement, granted flashback; 309 of 335 cards supported (2026-10-30)
-- [ ] Remaining one-offs (26 cards) listed in `solarus/cardpool/support_report.md`: temporary
-      effects (Effect), floating mana, type-changing Auras, Ward, Crew, Cascade, extra combat, ...
+- [x] Temporary effects (`Effect`: extra land plays, can't-be-blocked, granted hidden keywords,
+      play from exile) in `game.effects`; duel screen lists graveyard/exile cards you can use
+      after your hand; 315 of 335 cards supported (2026-10-30)
+- [ ] Remaining one-offs (20 cards) listed in `solarus/cardpool/support_report.md`: floating
+      mana, type-changing Auras, Ward, Crew, Cascade, extra combat, alternative costs, ...
 - [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)
 - [x] Overworld: duelist NPC in `first_map` starts a duel via `duel.start(game, options)`;
       the duel is no longer a startup menu (2026-10-30)

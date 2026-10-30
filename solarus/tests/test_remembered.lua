@@ -248,4 +248,95 @@ return function(t)
     t.check(t.find(game.players[2].battlefield, "Wilt-Leaf Liege") ~= nil, "opponent's discard put it onto the battlefield")
     t.check(t.find(game.players[2].graveyard, "Plains") ~= nil, "other card discarded normally")
   end
+
+  t.section("Effect: extra land play (Explore)")
+  do
+    local function land(name)
+      return function(game, player, actions)
+        for _, action in ipairs(actions) do
+          if action.kind == "play_land" and action.card:name() == name then
+            return action
+          end
+        end
+      end
+    end
+    local game = t.setup({ { battlefield = lands("Forest", 2), hand = { "Explore", "Forest", "Forest" },
+                             controller = t.scripted({ actions = { land("Forest"), cast("Explore"), land("Forest") } }) }, {} })
+    game:run_turn()
+    t.eq(#game.players[1].battlefield, 4, "two lands played this turn")
+    t.eq(#game.effects, 0, "effect ended at cleanup")
+  end
+
+  local statics = require("scripts/mtg/statics")
+
+  t.section("Effect: can't be blocked, ends when it leaves (Goblin Smuggler)")
+  do
+    local could_block
+    local game = t.setup({ { battlefield = { "Goblin Smuggler", "Savannah Lions" },
+                             controller = t.scripted({ actions = { activate("Goblin Smuggler") },
+                                                       targets = picks("Savannah Lions"),
+                                                       attack = function(g, p, c) return { t.find(c, "Savannah Lions") } end }) },
+                           { battlefield = { "Serra Angel" }, controller = t.scripted({ block = function(g, p, attackers, c)
+                               could_block = statics.can_block_by(g, attackers[1], c[1])
+                               return {} end }) } })
+    game:run_turn()
+    t.eq(could_block, false, "remembered creature can't be blocked")
+    t.eq(game.players[2].life, 18, "it dealt damage")
+    -- leaving the battlefield ends the effect even within the turn
+    local game2 = t.setup({ { battlefield = { "Goblin Smuggler", "Savannah Lions" } }, {} })
+    local lions = t.find(game2.players[1].battlefield, "Savannah Lions")
+    local smuggler = game2.players[1].battlefield[1]
+    local ability = smuggler.def.activated[1].ability
+    require("scripts/mtg/effects").Effect.resolve(game2, ability, { game = game2, source = smuggler,
+                                                                    controller = game2.players[1], targets = { [ability] = { lions } } })
+    t.eq(#game2.effects, 1, "effect created")
+    game2:move(lions, "hand")
+    t.eq(#game2.effects, 0, "ExileOnMoved: effect ended when its creature left the battlefield")
+  end
+
+  t.section("Effect: hidden keyword for a group (Seismic Elemental)")
+  do
+    local lions_can_block, angel_can_block
+    local game = t.setup({ { battlefield = lands("Mountain", 5, "Savannah Lions"), hand = { "Seismic Elemental" },
+                             controller = t.scripted({ actions = { cast("Seismic Elemental") } }) },
+                           { battlefield = { "Savannah Lions", "Serra Angel" } } })
+    game.players[1].controller.declare_attackers = function(_, g)
+      local p2 = g.players[2]
+      lions_can_block = not t.find(p2.battlefield, "Savannah Lions"):has_keyword("HIDDEN CARDNAME can't block.")
+      angel_can_block = not t.find(p2.battlefield, "Serra Angel"):has_keyword("HIDDEN CARDNAME can't block.")
+      return {}
+    end
+    game:run_turn()
+    t.eq(lions_can_block, false, "creature without flying can't block")
+    t.eq(angel_can_block, true, "flyer can still block")
+  end
+
+  t.section("Effect with a trigger cost: Vampire Gourmand")
+  do
+    local could_block
+    local game = t.setup({ { battlefield = { "Vampire Gourmand", "Savannah Lions" },
+                             controller = t.scripted({ attack = function(g, p, c) return { t.find(c, "Vampire Gourmand") } end }) },
+                           { battlefield = { "Serra Angel" }, controller = t.scripted({ block = function(g, p, attackers, c)
+                               could_block = statics.can_block_by(g, attackers[1], c[1])
+                               return {} end }) } })
+    game:run_turn()
+    t.check(t.find(game.players[1].graveyard, "Savannah Lions") ~= nil, "sacrificed another creature")
+    t.eq(#game.players[1].hand, 2, "draw step + 1")
+    t.eq(could_block, false, "Gourmand can't be blocked")
+  end
+
+  t.section("Effect: play from exile (Norin, Swift Survivalist)")
+  do
+    local game = t.setup({ { battlefield = { "Norin, Swift Survivalist", "Savannah Lions", "Plains" },
+                             controller = t.scripted({ actions = { cast("Savannah Lions", { when = function(g)
+                                                         return g.step == "main2" end }) },
+                                                       attack = function(g, p, c) return { t.find(c, "Savannah Lions") } end }) },
+                           { battlefield = { "Serra Angel" }, controller = t.scripted({ block = function(g, p, attackers, c)
+                               return { { blocker = c[1], attacker = attackers[1] } } end }) } })
+    game:run_turn()
+    local p1 = game.players[1]
+    t.check(t.find(p1.battlefield, "Savannah Lions") ~= nil, "blocked creature exiled, then cast from exile")
+    t.eq(#p1.exile, 0, "nothing left in exile")
+    t.check(t.find(game.players[2].battlefield, "Serra Angel").damage == 0, "Angel took no damage")
+  end
 end

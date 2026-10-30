@@ -80,6 +80,7 @@ function Game.new(opts)
     lookback = nil,         -- battlefield snapshot while a batch of simultaneous moves happens
     statics_dirty = true,   -- continuous effects need recomputing (statics.apply)
     at_end_step = {},       -- delayed triggers for the next end step
+    effects = {},           -- temporary effects (effects.Effect) until end of turn
     computing_statics = false,
   }, Game)
 
@@ -202,6 +203,32 @@ end
 
 -- Runs fn with one battlefield snapshot shared by every move inside it, so cards leaving the
 -- battlefield at the same time see each other leave (e.g. creatures dying together in combat).
+-- Adds a temporary effect: { source, controller, def = { statics }, remembered, exile_on_moved,
+-- forget_on_moved }. Its statics apply like a permanent's until cleanup (CR 514.2).
+function Game:add_effect(effect)
+  self.effects[#self.effects + 1] = effect
+  self.statics_dirty = true
+  self:emit({ type = "effect", player = effect.controller, name = effect.name })
+end
+
+-- A remembered object left `from`: end effects with ExileOnMoved$ for that zone, forget it for
+-- ForgetOnMoved$ (it's a new object, CR 400.7).
+local function effects_on_moved(game, card, from)
+  for i = #game.effects, 1, -1 do
+    local effect = game.effects[i]
+    for j = #effect.remembered, 1, -1 do
+      if effect.remembered[j] == card then
+        if effect.exile_on_moved == from then
+          table.remove(game.effects, i)
+          break
+        elseif effect.forget_on_moved == from then
+          table.remove(effect.remembered, j)
+        end
+      end
+    end
+  end
+end
+
 function Game:with_lookback(fn)
   if self.lookback then
     return fn()
@@ -238,6 +265,9 @@ function Game:move(card, zone, opts)
   end
   card:reset_state()
   card.zone = zone
+  if #self.effects > 0 and from ~= nil then
+    effects_on_moved(self, card, from)
+  end
   if zone == "battlefield" then
     card.controller = opts.controller or card.owner
     card.base_controller = card.controller
@@ -624,11 +654,19 @@ function Game:legal_actions(player)
   for _, card in ipairs(player.graveyard) do
     self:add_activations(actions, player, card, "graveyard")
   end
+  -- Cards in hand, and cards in exile an effect lets this player play (MayPlay, e.g. Norin).
+  local playable = {}
   for _, card in ipairs(player.hand) do
+    playable[#playable + 1] = card
+  end
+  for _, card in ipairs(statics.may_play_cards(self, player)) do
+    playable[#playable + 1] = card
+  end
+  for _, card in ipairs(playable) do
     if not card.def.supported then
       -- Unsupported cards can sit in hand (e.g. created by tests) but can never be played.
     elseif card:is_land() then
-      if sorcery_speed and self.lands_played < 1 then
+      if sorcery_speed and self.lands_played < 1 + statics.extra_land_plays(self, player) then
         actions[#actions + 1] = { kind = "play_land", card = card }
       end
     elseif card.def.mana_cost ~= nil then
@@ -993,6 +1031,8 @@ function turn_based.cleanup(game, player)
       card.pumps = {}
     end
   end
+  game.effects = {}
+  game.statics_dirty = true
 end
 
 -- CR 103.8a, 508.8, 510.4 (PhaseHandler.isSkippingPhase).
