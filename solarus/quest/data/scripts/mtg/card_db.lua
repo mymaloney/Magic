@@ -3,12 +3,17 @@
 -- A definition is shared by every copy of a card:
 --   { name, mana_cost (mana.parse_cost), mana_value, supertypes = {Legendary=true}, types = {Creature=true},
 --     subtypes = { "Cat", "Soldier" }, power, toughness, keywords = { Flying = true },
---     mana_abilities = { { colors = { "G" } } }, supported, unsupported = { "reason", ... }, script }
+--     mana_abilities = { { colors = { "G" } } }, spell = ability chain (instants/sorceries),
+--     triggers = { trigger, ... }, supported, unsupported = { "reason", ... }, script }
 -- Unsupported cards still load (so the UI can show them) but can't be put into a duel deck.
 -- Reference: forge-game card/CardFactory.readCardFace, card/CardFactoryUtil (keywords).
 
 local script_parser = require("scripts/mtg/script_parser")
 local mana = require("scripts/mtg/mana")
+local keywords = require("scripts/mtg/keywords")
+local abilities = require("scripts/mtg/abilities")
+local effects = require("scripts/mtg/effects")
+local triggers = require("scripts/mtg/triggers")
 
 local card_db = {}
 
@@ -20,15 +25,10 @@ local CARD_TYPES = {
 -- CR 305.6: basic land types have an intrinsic "{T}: Add <color>" ability.
 local BASIC_LAND_MANA = { Plains = "W", Island = "U", Swamp = "B", Mountain = "R", Forest = "G" }
 
--- Keywords the rules engine implements. Add a keyword here only once it really works.
-card_db.SUPPORTED_KEYWORDS = {
-  ["Flying"] = true, ["Reach"] = true, ["Vigilance"] = true, ["Haste"] = true, ["Defender"] = true,
-  ["First Strike"] = true, ["Double Strike"] = true, ["Trample"] = true, ["Deathtouch"] = true,
-  ["Lifelink"] = true, ["Menace"] = true, ["Flash"] = true, ["Indestructible"] = true,
-}
+card_db.SUPPORTED_KEYWORDS = keywords.SUPPORTED
 
--- Card types the engine can cast/play so far (permanent spells with no spell abilities, and lands).
-local PLAYABLE_TYPES = { Creature = true, Artifact = true, Land = true }
+-- Card types the engine can cast/play so far.
+local PLAYABLE_TYPES = { Creature = true, Artifact = true, Land = true, Instant = true, Sorcery = true }
 
 local MANA_ABILITY_PARAMS = { AB = true, Cost = true, Produced = true, SpellDescription = true }
 
@@ -54,7 +54,7 @@ function card_db.build_definition(text)
   local def = {
     name = face.name,
     supertypes = {}, types = {}, subtypes = {},
-    keywords = {}, mana_abilities = {},
+    keywords = {}, mana_abilities = {}, triggers = {},
     unsupported = {},
     script = script,
   }
@@ -114,13 +114,22 @@ function card_db.build_definition(text)
     end
   end
 
+  local is_spell_card = def.types.Instant or def.types.Sorcery
   for _, params in ipairs(face.abilities) do
     local ability = parse_mana_ability(params)
     if ability then
       def.mana_abilities[#def.mana_abilities + 1] = ability
+    elseif params.SP and is_spell_card and def.spell == nil then
+      if params.Cost then
+        unsupported("spell with additional cost")
+      end
+      def.spell = abilities.build(params, face.svars, def.unsupported, effects)
     else
       unsupported("ability " .. (params.SP and ("SP$ " .. params.SP) or params.AB and ("AB$ " .. params.AB) or "?"))
     end
+  end
+  if is_spell_card and def.spell == nil then
+    unsupported("instant/sorcery without a spell ability")
   end
   for _, subtype in ipairs(def.subtypes) do
     if def.types.Land and BASIC_LAND_MANA[subtype] then
@@ -129,7 +138,10 @@ function card_db.build_definition(text)
   end
 
   for _, params in ipairs(face.triggers) do
-    unsupported("trigger " .. tostring(params.Mode))
+    local trigger = triggers.parse(params, face.svars, def.unsupported, effects)
+    if trigger then
+      def.triggers[#def.triggers + 1] = trigger
+    end
   end
   for _, params in ipairs(face.statics) do
     unsupported("static " .. tostring(params.Mode))

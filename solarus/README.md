@@ -28,7 +28,7 @@ solarus/
 
 The quest is built on the **Solarus 2.1 starter quest** (created with the Quest Editor), which
 supplies the overworld, hero, HUD, dialog box and assets. Startup flow:
-Solarus logo → `scripts/menus/duel.lua` (a duel: you with the White deck against the Green AI)
+Solarus logo → `scripts/menus/duel.lua` (a duel: you with the Rakdos deck against the Green AI)
 → `start_game` (loads `save1.dat`, first map) once you dismiss the result screen.
 
 ### Duel controls
@@ -36,9 +36,9 @@ Solarus logo → `scripts/menus/duel.lua` (a duel: you with the White deck again
 | Key | Does |
 |---|---|
 | Arrows | Move the cursor: opponent's permanents / your permanents / your hand |
-| Space | Play or cast the focused card (green = playable); pick attackers; pick a blocker, then the attacker it blocks; pick cards to discard |
-| Return | Pass priority / confirm attackers, blocks, discards / leave the result screen |
-| Backspace | Cancel a half-made block |
+| Space | Play or cast the focused card (green = playable); pick attackers; pick a blocker, then the attacker it blocks; pick cards to discard; pick a target; say yes to a "may" ability |
+| Return | Pass priority / confirm attackers, blocks, discards, targets / leave the result screen |
+| Backspace | Cancel a half-made block; say no to a "may" ability |
 | Escape | Quit (handled by `main.lua`) |
 
 Screen: opponent's status and lands, their permanents, the current situation, the last log
@@ -47,8 +47,13 @@ details (or the recent log) and the key help. Box colours: green playable, red a
 picked, blue blocking, purple blocker being placed, dark tapped; yellow frame = cursor.
 Lands are summarized as "Forest 3/5" (untapped/total) since mana is paid automatically.
 
+While you choose targets, the hand row shows the candidates instead (players appear as "You" /
+"Opp" boxes with their life).
+
 The game stops only when you have a real choice: steps where you can't do anything pass on
-their own, and combat damage is divided automatically. The AI acts instantly; follow what it
+their own, and combat damage is divided automatically. If all you could do is cast an instant,
+it only stops in your main phases, when something is on the stack, after blockers are declared,
+and at the opponent's end step. The AI acts instantly; follow what it
 did in the log. `duel_ui.lua` is covered by headless tests; the drawing code in `duel.lua` was
 confirmed on Solarus 2.1 by the owner (2026-10-30). Note any display fixes here.
 

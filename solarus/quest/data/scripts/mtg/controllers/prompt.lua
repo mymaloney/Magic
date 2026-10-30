@@ -13,6 +13,9 @@
 --           { kind = "assign_combat_damage", player, attacker, blockers, amount, trample, default }
 --           { kind = "choose_discard", player, count }            answer: { card, ... }
 --           { kind = "choose_legend_to_keep", player, cards }     answer: card
+--           { kind = "choose_targets", player, ability, source, candidates, min, max }
+--                                                                 answer: { card or player, ... }
+--           { kind = "confirm_optional", player, source, ability } answer: true / false
 -- The UI must only send legal answers (offer only the listed options; check blocks with
 -- combat.validate_blocks and damage with combat.validate_assignment before answering).
 
@@ -55,6 +58,15 @@ end
 
 function prompt:choose_legend_to_keep(game, player, cards)
   return ask({ kind = "choose_legend_to_keep", player = player, cards = cards })
+end
+
+function prompt:choose_targets(game, player, ability, candidates, min, max, ctx)
+  return ask({ kind = "choose_targets", player = player, ability = ability, source = ctx.source,
+               candidates = candidates, min = min, max = max })
+end
+
+function prompt:confirm_optional(game, player, source, ability)
+  return ask({ kind = "confirm_optional", player = player, source = source, ability = ability })
 end
 
 -- Runs game:run() in a coroutine; see the header for the protocol.

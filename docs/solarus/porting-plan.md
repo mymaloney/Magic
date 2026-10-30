@@ -1,8 +1,8 @@
 # Porting plan: Forge rules → Lua on Solarus
 
 Status: **engine target is Solarus 2.1 (Lua). The quest is based on the Solarus starter quest.
-The rules engine plays complete games with lands, mana creatures and creatures with evergreen
-keywords (40 of 335 cards); see `solarus/cardpool/support_report.md`.** Update this file as decisions are made and record them in the
+The rules engine plays complete games with creatures, evergreen keywords, enters/dies triggers,
+and targeted instants/sorceries (110 of 335 cards); see `solarus/cardpool/support_report.md`.** Update this file as decisions are made and record them in the
 "Decisions log" at the bottom so later sessions don't re-litigate them.
 
 ## Target: Solarus
@@ -76,6 +76,11 @@ unsupported Y" at load time rather than half-working in a duel.
 | `card.lua` | Card instance state, characteristic getters (where layers will hook in) | `Card` |
 | `mana.lua` | Cost parsing, mana value, auto-pay (backtracking colored shards, then generic) | `ManaCostParser`, `ComputerUtilMana` |
 | `game.lua` | Zones, moves, draw, life, damage batches, SBA (life, decking, lethal/0 toughness, deathtouch, legend rule), legal actions, casting, stack, priority loop, turn structure | `Game`, `GameAction`, `PhaseHandler`, `MagicStack`, `PlaySpellAbility` |
+| `keywords.lua` | The set of keywords the engine implements | `keyword/Keyword` |
+| `filter.lua` | `Valid*$` filter language (types, `.YouCtrl`, `+nonLand`, `cmcLE2`, `powerGE4`, ...) | `CardProperty`, `PlayerProperty` |
+| `abilities.lua` | Ability chains from `SP$`/`DB$` params (+ `SubAbility$`), targeting (candidates, legality, hexproof), `Defined$`, resolution with fizzling | `AbilityFactory`, `AbilityUtils`, `TargetRestrictions` |
+| `effects.lua` | Effects by API with a parameter whitelist each: Draw, GainLife, LoseLife, DealDamage, Discard, Destroy, DestroyAll, ChangeZone, Pump, PumpAll, Tap, Untap, Mill, Counter | `ability/effects/*Effect` |
+| `triggers.lua` | `Mode$ ChangesZone` triggers: matching (with look-back for leaving the battlefield), queueing | `TriggerHandler`, `TriggerChangesZone` |
 | `combat.lua` | Attack/block legality (flying, reach, menace, defender, haste), damage assignment (current rules, trample), first/double strike steps | `CombatUtil`, `Combat` |
 | `controllers/ai.lua` | Heuristic AI | `AiController`, `AiAttackController`, `AiBlockController` |
 | `controllers/prompt.lua` | Human controller: yields requests to the duel menu; `prompt.run(game)` runner | `PlayerControllerHuman` |
@@ -90,12 +95,18 @@ Duel screen, outside the engine:
 
 Controller interface (all called as `controller:method(game, player, ...)`): `choose_action`,
 `declare_attackers`, `declare_blockers`, `assign_combat_damage`, `choose_discard`,
-`choose_legend_to_keep`. The engine raises an error on illegal answers, so UIs offer only legal
+`choose_legend_to_keep`, `choose_targets`, `confirm_optional`.
+
+Stack items are `{ kind = "spell" | "trigger", card, controller, ability, ctx }`; spells move the
+card to the stack zone, triggers don't. Triggers wait in `game.pending_triggers` and go on the
+stack (APNAP) each time state-based actions are done and before anyone gets priority. The engine raises an error on illegal answers, so UIs offer only legal
 options and use `combat.validate_blocks` / `combat.validate_assignment` before answering.
 
-Adding a feature: implement it, then let `card_db.lua` accept it (keyword in
-`SUPPORTED_KEYWORDS`, a new ability/trigger parser, …), add a scenario to
-`solarus/tests/test_rules.lua`, and regenerate `cardpool/support_report.md`. The report's
+Adding a feature: implement it, then let `card_db.lua` accept it (keyword in `keywords.lua`, a
+new effect in `effects.lua` with its allowed parameters, a trigger mode in `triggers.lua`, a
+filter property in `filter.lua`, ...), add a scenario to `solarus/tests/test_rules.lua` or
+`test_abilities.lua`, and regenerate `cardpool/support_report.md`. Unknown parameters always make
+a card unsupported, so a new feature can't silently half-work. The report's
 "only blocker" column shows which feature unlocks the most cards next.
 
 ## Scope: the card pool
@@ -139,8 +150,14 @@ Record each simplification here when made, with the Forge code it diverges from:
 - Mana is paid automatically by tapping sources at cast time; there is no mana pool, so no
   floating mana and no manual tapping yet (needed later for UI choice and for mana-spending
   triggers like Roughshod Duo's expend).
-- Cards keep the same Lua object across zones (state is reset per CR 400.7); no last-known
-  information yet, which "dies" triggers will need.
+- Cards keep the same Lua object across zones (state is reset per CR 400.7). Last-known
+  information is limited to the controller (for "dies" triggers); P/T and keywords are read from
+  the card as it is now.
+- A player's simultaneous triggers go on the stack in the order they triggered; the player
+  doesn't choose the order yet.
+- All targets for a spell or trigger are chosen up front; the duel screen can't back out of a
+  cast once targeting starts.
+- Amounts must be plain numbers (no X or SVar arithmetic yet).
 - Players get no priority in cleanup (correct until something can trigger there).
 - Duel screen: combat damage among several blockers is divided automatically (lethal to each
   in turn, rest tramples over); the AI's actions happen instantly and are reported in the log.
@@ -178,5 +195,7 @@ Forge is the oracle: if they disagree, the Lua side is wrong unless the divergen
 | 2026-10-30 | Basic lands come from `cardpool/basic_lands.txt`, synced alongside the pool | The pool lists none; decks need them |
 | 2026-10-30 | Duel screen split into pure-Lua `scripts/duel/duel_ui.lua` (tested) and a thin drawing menu | Solarus can't run in the cloud container, so the logic must be testable without it |
 | 2026-10-30 | Duel stops only for real choices (auto-pass when no legal action) | Avoids pressing Return through every step; Forge's auto-yield is the model |
+| 2026-10-30 | With only instant-speed options, priority stops only in your main phases, with something on the stack, after blockers, and at the opponent's end step | Like Forge's default phase stops; otherwise a Shock in hand stops every step |
+| 2026-10-30 | Duel: human plays the Rakdos deck (spells + triggers) vs the Green AI | Exercises targeting and may-prompts in the UI |
 | 2026-10-30 | Engine raises errors on illegal controller answers instead of re-asking | Keeps the engine simple; UI and AI only offer legal options |
 | 2026-10-30 | Rules engine is pure Lua 5.1 under `scripts/mtg/`, no `sol.*`; decisions go through a controller interface, and the engine loop runs in a coroutine | Headless tests under LuaJIT; UI stays swappable |

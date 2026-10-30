@@ -1,8 +1,9 @@
--- Duel screen: you (White deck) against the AI (Green deck).
+-- Duel screen: you (Rakdos deck) against the AI (Green deck).
 -- Draws the state held by scripts/duel/duel_ui.lua and forwards keys to it; all game logic lives there
 -- and in scripts/mtg/. Shown as a pre-game menu for now (see scripts/menus/initial_menus_config.lua).
 --
--- Keys: arrows move the cursor, Space selects, Return confirms/passes, Backspace cancels a block.
+-- Keys: arrows move the cursor, Space selects, Return confirms/passes, Backspace cancels a block or
+-- says no to a "may" ability.
 -- Layout (320x240, 8_bit font = 9x12 px per character, about 35 characters per line):
 --   opponent status, opponent lands, opponent permanents, prompt, last log line,
 --   your permanents, your lands, your hand, your status, card detail panel (focused card, or the
@@ -77,7 +78,7 @@ function duel_menu:on_started()
   local db = card_db.new(pool, read_file)
   local game = Game.new({
     players = {
-      { name = "You", deck = db.make_deck(decks.white.cards), controller = prompt.new() },
+      { name = "You", deck = db.make_deck(decks.rakdos.cards), controller = prompt.new() },
       { name = "Green", deck = db.make_deck(decks.green.cards), controller = ai.new() },
     },
   })
@@ -130,8 +131,13 @@ local function draw_row(dst, row, y)
       dst:fill_color(COLORS.focus, x - 1, y - 1, BOX_W + 2, BOX_H + 2)
     end
     dst:fill_color(box_color(marks), x, y, BOX_W, BOX_H)
-    text(dst, card:name():gsub("[^%w]", ""):sub(1, 4), x + 1, y + 1)
-    if card:is_creature() then
+    if card.life ~= nil then  -- a player, offered as a target
+      text(dst, card == ui.human and "You" or "Opp", x + 1, y + 1)
+      text(dst, tostring(card.life), x + 1, y + 13)
+    else
+      text(dst, card:name():gsub("[^%w]", ""):sub(1, 4), x + 1, y + 1)
+    end
+    if card.life == nil and card:is_creature() then
       local toughness_left = card:toughness() - card.damage
       text(dst, card:power() .. "/" .. toughness_left, x + 1, y + 13)
     end

@@ -8,7 +8,7 @@ local card_db = require("scripts/mtg/card_db")
 local Game = require("scripts/mtg/game")
 local combat = require("scripts/mtg/combat")
 
-local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_full_game", "test_duel_ui" }
+local TEST_FILES = { "test_script_parser", "test_mana", "test_rules", "test_abilities", "test_full_game", "test_duel_ui" }
 
 local t = { checks = 0, failures = 0, section_name = "" }
 
@@ -45,6 +45,9 @@ t.db = card_db.new(t.pool, function(path) return t.read("solarus/quest/data/" ..
 --   block = function(game, player, attackers, candidates) -> blocks (default: no blocks)
 --   assign = function(game, player, attacker, blockers, amount, trample) -> assignment (default: combat.default_assignment)
 --   legend = function(game, player, cards) -> card            (default: first)
+--   targets = function(game, player, ability, candidates, min, max) -> list (default: the first
+--             max(min, 1) candidates, capped at max)
+--   optional = function(game, player, source, ability) -> bool  (default: true)
 function t.scripted(script)
   script = script or {}
   local queue = script.actions or {}
@@ -81,11 +84,27 @@ function t.scripted(script)
     choose_legend_to_keep = function(_, game, player, cards)
       return script.legend and script.legend(game, player, cards) or cards[1]
     end,
+    choose_targets = function(_, game, player, ability, candidates, min, max)
+      if script.targets then
+        return script.targets(game, player, ability, candidates, min, max)
+      end
+      local chosen = {}
+      for i = 1, math.min(math.max(min, 1), max) do
+        chosen[i] = candidates[i]
+      end
+      return chosen
+    end,
+    confirm_optional = function(_, game, player, source, ability)
+      if script.optional then
+        return script.optional(game, player, source, ability)
+      end
+      return true
+    end,
   }
 end
 
 -- Builds a game for a rules scenario (like Forge's SimulationTest + addCard + devModeSet):
---   t.setup({ { controller =, battlefield = { "Savannah Lions" }, hand = {}, library = {}, life = 20 },
+--   t.setup({ { controller =, battlefield = { "Savannah Lions" }, hand = {}, graveyard = {}, library = {}, life = 20 },
 --             { ... } })
 -- Battlefield creatures start without summoning sickness. Libraries default to 10 Plains so
 -- nobody decks out. Player 1 is active; the next run_turn() is turn 2 (no first-turn draw skip).
@@ -108,6 +127,9 @@ function t.setup(specs)
     end
     for _, name in ipairs(spec.battlefield or {}) do
       game:create_card(t.db.get(name), player, "battlefield", { sick = false })
+    end
+    for _, name in ipairs(spec.graveyard or {}) do
+      game:create_card(t.db.get(name), player, "graveyard")
     end
   end
   return game

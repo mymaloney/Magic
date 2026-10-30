@@ -9,6 +9,8 @@
 --   assign_combat_damage(game, player, attacker, blockers, amount, trample) -> { amounts = {[blocker]=n}, to_player = n }
 --   choose_discard(game, player, count)                            -> { card, ... } (exactly count cards from hand)
 --   choose_legend_to_keep(game, player, cards)                     -> card
+--   choose_targets(game, player, ability, candidates, min, max, ctx) -> { card or player, ... }
+--   confirm_optional(game, player, source, ability)                -> true to use a "may" trigger
 -- Invalid answers raise errors: controllers must only pick legal options (combat.validate_* help).
 --
 -- Libraries keep the top card at the END of the list.
@@ -16,6 +18,9 @@
 local Card = require("scripts/mtg/card")
 local mana = require("scripts/mtg/mana")
 local combat = require("scripts/mtg/combat")
+local abilities = require("scripts/mtg/abilities")
+local effects = require("scripts/mtg/effects")
+local triggers = require("scripts/mtg/triggers")
 
 local Game = {}
 Game.__index = Game
@@ -49,6 +54,8 @@ function Game.new(opts)
     next_id = 1,
     lands_played = 0,
     combat = nil,
+    pending_triggers = {},  -- triggered abilities waiting to be put on the stack
+    lookback = nil,         -- battlefield snapshot while a batch of simultaneous moves happens
   }, Game)
 
   for i, spec in ipairs(opts.players) do
@@ -130,14 +137,38 @@ end
 
 -- Moves a card to a zone (GameAction.moveTo). Permanents go to their controller's battlefield
 -- (opts.controller, default owner); everything else goes to its owner's zone.
+function Game:battlefield_snapshot()
+  local snapshot = {}
+  for _, player in ipairs(self.players) do
+    for _, card in ipairs(player.battlefield) do
+      snapshot[#snapshot + 1] = { card = card, controller = card.controller }
+    end
+  end
+  return snapshot
+end
+
+-- Runs fn with one battlefield snapshot shared by every move inside it, so cards leaving the
+-- battlefield at the same time see each other leave (e.g. creatures dying together in combat).
+function Game:with_lookback(fn)
+  if self.lookback then
+    return fn()
+  end
+  self.lookback = self:battlefield_snapshot()
+  fn()
+  self.lookback = nil
+end
+
 function Game:move(card, zone, opts)
   opts = opts or {}
   local from = card.zone
+  local lki_controller, lookback
   if from == "battlefield" then
+    lki_controller = card.controller
+    lookback = self.lookback or self:battlefield_snapshot()
     remove_from(card.controller.battlefield, card)
   elseif from == "stack" then
     for i, item in ipairs(self.stack) do
-      if item.card == card then
+      if item.kind == "spell" and item.card == card then
         table.remove(self.stack, i)
         break
       end
@@ -158,6 +189,23 @@ function Game:move(card, zone, opts)
     table.insert(card.owner[zone], card)
   end
   self:emit({ type = "zone_change", card = card, from = from, to = zone })
+  triggers.collect(self, card, from, zone, lki_controller, lookback)
+end
+
+-- Discards exactly `count` cards chosen from the player's hand.
+function Game:discard(player, cards, count)
+  if #cards ~= count then
+    error("must discard exactly " .. count .. " cards")
+  end
+  for _, card in ipairs(cards) do
+    if card.zone ~= "hand" or card.owner ~= player then
+      error(tostring(card) .. " isn't in hand")
+    end
+  end
+  for _, card in ipairs(cards) do
+    self:move(card, "graveyard")
+    self:emit({ type = "discard", player = player, card = card })
+  end
 end
 
 function Game:shuffle(player)
@@ -294,19 +342,21 @@ function Game:check_state_based_actions()
         end
       end
     end
-    for _, card in ipairs(to_graveyard) do
-      if card.zone == "battlefield" then
-        self:move(card, "graveyard")
-        changed = true
+    self:with_lookback(function()
+      for _, card in ipairs(to_graveyard) do
+        if card.zone == "battlefield" then
+          self:move(card, "graveyard")
+          changed = true
+        end
       end
-    end
-    for _, card in ipairs(destroyed) do
-      if card.zone == "battlefield" then
-        self:emit({ type = "destroy", card = card })
-        self:move(card, "graveyard")
-        changed = true
+      for _, card in ipairs(destroyed) do
+        if card.zone == "battlefield" then
+          self:emit({ type = "destroy", card = card })
+          self:move(card, "graveyard")
+          changed = true
+        end
       end
-    end
+    end)
   until not changed
 
   local alive = {}
@@ -388,7 +438,9 @@ function Game:legal_actions(player)
       end
     elseif card.def.mana_cost ~= nil then
       local timing_ok = sorcery_speed or card:has_keyword("Flash") or card:is_type("Instant")
-      if timing_ok and self:can_pay(player, card.def.mana_cost) then
+      if timing_ok and self:can_pay(player, card.def.mana_cost)
+          and (card.def.spell == nil
+               or abilities.can_target(self, card.def.spell, { game = self, source = card, controller = player })) then
         actions[#actions + 1] = { kind = "cast", card = card }
       end
     end
@@ -415,23 +467,65 @@ function Game:perform(player, action)
     self:move(card, "battlefield")
     self:emit({ type = "play_land", player = player, card = card })
   elseif action.kind == "cast" then
+    -- CR 601.2: move to the stack, choose targets, pay costs.
+    self:move(card, "stack")
+    local item = { kind = "spell", card = card, controller = player, ability = card.def.spell,
+                   ctx = { game = self, source = card, controller = player, targets = {} } }
+    self.stack[#self.stack + 1] = item
+    if item.ability and not abilities.choose_targets(self, item.ability, item.ctx) then
+      error("no legal targets for " .. tostring(card))
+    end
     if not self:pay(player, card.def.mana_cost) then
       error("couldn't pay for " .. tostring(card))
     end
-    self:move(card, "stack")
-    self.stack[#self.stack + 1] = { card = card, controller = player }
-    self:emit({ type = "cast", player = player, card = card })
+    self:emit({ type = "cast", player = player, card = card, targets = item.ctx.targets })
+  end
+end
+
+-- Puts waiting triggered abilities on the stack: active player's first, so they resolve last
+-- (CR 603.3b, APNAP). A trigger that needs targets and has none is removed (CR 603.3d).
+function Game:put_triggers_on_stack()
+  local pending = self.pending_triggers
+  self.pending_triggers = {}
+  local order = { self.active, self:opponent(self.active) }
+  for _, player in ipairs(order) do
+    for _, pt in ipairs(pending) do
+      if pt.controller == player then
+        local ctx = { game = self, source = pt.source, controller = player, targets = {}, trigger = pt.event }
+        if abilities.choose_targets(self, pt.trigger.ability, ctx) then
+          table.insert(self.stack, { kind = "trigger", card = pt.source, controller = player,
+                                     ability = pt.trigger.ability, trigger = pt.trigger, ctx = ctx })
+          self:emit({ type = "trigger", card = pt.source, player = player, targets = ctx.targets })
+        else
+          self:emit({ type = "trigger_removed", card = pt.source, player = player })
+        end
+      end
+    end
   end
 end
 
 function Game:resolve_top()
   local item = self.stack[#self.stack]
   local card = item.card
-  self:emit({ type = "resolve", card = card })
-  if card:is_permanent_card() then
+  self:emit({ type = "resolve", card = card, kind = item.kind })
+  if item.kind == "trigger" then
+    table.remove(self.stack)
+    local player = item.controller
+    if item.trigger.optional and not player.controller:confirm_optional(self, player, card, item.ability) then
+      return
+    end
+    if not abilities.resolve(self, item.ability, item.ctx, effects) then
+      self:emit({ type = "fizzle", card = card })
+    end
+  elseif card:is_permanent_card() then
     self:move(card, "battlefield", { controller = item.controller })
   else
-    self:move(card, "graveyard")
+    if item.ability and not abilities.resolve(self, item.ability, item.ctx, effects) then
+      self:emit({ type = "fizzle", card = card })
+    end
+    if card.zone == "stack" then
+      self:move(card, "graveyard")
+    end
   end
 end
 
@@ -445,24 +539,29 @@ function Game:priority_round()
     if self:check_state_based_actions() then
       return
     end
-    local action = player.controller:choose_action(self, player, self:legal_actions(player))
-    if action then
-      self:perform(player, action)
-      first = player
-      actions_taken = actions_taken + 1
-      if actions_taken > 1000 then
-        error("more than 1000 actions in one step")
-      end
+    if #self.pending_triggers > 0 then
+      -- CR 117.5: state-based actions, then triggers, repeated before anyone gets priority.
+      self:put_triggers_on_stack()
     else
-      local next_player = self:opponent(player)
-      if next_player == first then
-        if #self.stack == 0 then
-          return
+      local action = player.controller:choose_action(self, player, self:legal_actions(player))
+      if action then
+        self:perform(player, action)
+        first = player
+        actions_taken = actions_taken + 1
+        if actions_taken > 1000 then
+          error("more than 1000 actions in one step")
         end
-        self:resolve_top()
-        player, first = self.active, self.active
       else
-        player = next_player
+        local next_player = self:opponent(player)
+        if next_player == first then
+          if #self.stack == 0 then
+            return
+          end
+          self:resolve_top()
+          player, first = self.active, self.active
+        else
+          player = next_player
+        end
       end
     end
   end
@@ -544,22 +643,14 @@ end
 function turn_based.cleanup(game, player)
   local excess = #player.hand - MAX_HAND_SIZE
   if excess > 0 then
-    local cards = player.controller:choose_discard(game, player, excess)
-    if #cards ~= excess then
-      error("must discard exactly " .. excess .. " cards")
-    end
-    for _, card in ipairs(cards) do
-      if card.zone ~= "hand" or card.owner ~= player then
-        error(tostring(card) .. " isn't in hand")
-      end
-      game:move(card, "graveyard")
-      game:emit({ type = "discard", player = player, card = card })
-    end
+    game:discard(player, player.controller:choose_discard(game, player, excess), excess)
   end
+  -- CR 514.2: damage wears off and "until end of turn" effects end.
   for _, p in ipairs(game.players) do
     for _, card in ipairs(p.battlefield) do
       card.damage = 0
       card.deathtouch_damage = false
+      card.pumps = {}
     end
   end
 end
@@ -586,8 +677,11 @@ function Game:run_step(step)
     turn_based[step](self, self.active)
   end
   if NO_PRIORITY[step] then
-    -- CR 514.3a: players only get priority in cleanup if something happened; nothing can yet.
+    -- CR 514.3a: players only get priority in cleanup if state-based actions or triggers happen.
     self:check_state_based_actions()
+    if #self.pending_triggers > 0 and not self.over then
+      self:priority_round()
+    end
   else
     self:priority_round()
   end

@@ -99,8 +99,42 @@ return function(t)
     end
   end
 
+  t.section("duel ui: cast a targeted spell and answer a may-trigger")
+  do
+    local game = t.setup({ { controller = prompt.new(), battlefield = { "Mountain" }, hand = { "Shock" } },
+                           { controller = ai.new(), battlefield = { "Savannah Lions" } } })
+    local ui = duel_ui.new(game, game.players[1])
+    ui:start()
+    focus(ui, 3, "Shock")
+    ui:press("select")
+    t.eq(ui.request.kind, "choose_targets", "casting asks for a target")
+    t.eq(#ui:row_cards(3), 3, "candidates: both players and the creature")
+    local title = ui:prompt_text()
+    t.eq(title, "Target for Shock", "prompt names the spell")
+    ui.col = 1
+    while ui:focused_card() ~= game.players[2] do
+      ui:press("right")
+    end
+    ui:press("select")
+    t.eq(game.players[2].life, 18, "Shock hit the opponent")
+    t.check(has_log(ui, "You cast Shock -> Opp") or has_log(ui, "You cast Shock -> P2"), "log names the target")
+
+    local optional = t.setup({ { controller = prompt.new(), battlefield = { "Swamp", "Swamp", "Swamp", "Swamp" },
+                                 hand = { "Gravedigger" }, graveyard = { "Savannah Lions" } },
+                               { controller = ai.new() } })
+    local ui2 = duel_ui.new(optional, optional.players[1])
+    ui2:start()
+    focus(ui2, 3, "Gravedigger")
+    ui2:press("select")
+    t.eq(ui2.request.kind, "choose_targets", "trigger target chosen when it goes on the stack")
+    ui2:press("select")
+    t.eq(ui2.request.kind, "confirm_optional", "may-trigger asks on resolution")
+    ui2:press("cancel")
+    t.check(t.find(optional.players[1].graveyard, "Savannah Lions") ~= nil, "saying no leaves the card in the graveyard")
+  end
+
   t.section("duel ui: random inputs through whole games")
-  for seed = 1, 5 do
+  for seed = 1, 6 do
     local state = seed
     local function rng(n)
       state = (state * 16807) % 2147483647
@@ -108,8 +142,8 @@ return function(t)
     end
     local game = Game.new({
       players = {
-        { name = "You", deck = t.db.make_deck(decks.white.cards), controller = prompt.new() },
-        { name = "Green", deck = t.db.make_deck(decks.green.cards), controller = ai.new() },
+        { name = "You", deck = t.db.make_deck(decks.rakdos.cards), controller = prompt.new() },
+        { name = "AI", deck = t.db.make_deck((seed % 2 == 0 and decks.white or decks.green).cards), controller = ai.new() },
       },
       rng = rng, max_turns = 400,
     })

@@ -16,6 +16,7 @@ function Card.new(def, owner, id)
     sick = false,         -- summoning sick: hasn't been under its controller's control since their turn began
     damage = 0,
     deathtouch_damage = false,
+    pumps = {},           -- until-end-of-turn changes: { { power =, toughness =, keywords = { Flying = true } } }
   }, Card)
 end
 
@@ -49,15 +50,36 @@ function Card:is_legendary()
 end
 
 function Card:power()
-  return self.def.power or 0
+  local value = self.def.power or 0
+  for _, pump in ipairs(self.pumps) do
+    value = value + (pump.power or 0)
+  end
+  return value
 end
 
 function Card:toughness()
-  return self.def.toughness or 0
+  local value = self.def.toughness or 0
+  for _, pump in ipairs(self.pumps) do
+    value = value + (pump.toughness or 0)
+  end
+  return value
 end
 
 function Card:has_keyword(keyword)
-  return self.def.keywords[keyword] == true
+  if self.def.keywords[keyword] then
+    return true
+  end
+  for _, pump in ipairs(self.pumps) do
+    if pump.keywords and pump.keywords[keyword] then
+      return true
+    end
+  end
+  return false
+end
+
+-- Until-end-of-turn power/toughness/keyword change (PumpEffect); removed in cleanup.
+function Card:add_pump(power, toughness, keywords)
+  table.insert(self.pumps, { power = power, toughness = toughness, keywords = keywords })
 end
 
 function Card:mana_value()
@@ -70,6 +92,7 @@ function Card:reset_state()
   self.sick = false
   self.damage = 0
   self.deathtouch_damage = false
+  self.pumps = {}
   self.controller = self.owner
 end
 

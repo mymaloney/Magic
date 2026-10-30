@@ -16,24 +16,32 @@ local function make_rng(seed)
   end
 end
 
-local function new_game(t, seed, controller1, controller2)
+local function new_game(t, seed, controller1, controller2, deck1, deck2)
+  deck1, deck2 = deck1 or decks.white, deck2 or decks.green
   return Game.new({
     players = {
-      { name = "White", deck = t.db.make_deck(decks.white.cards), controller = controller1 or ai.new() },
-      { name = "Green", deck = t.db.make_deck(decks.green.cards), controller = controller2 or ai.new() },
+      { name = deck1.name, deck = t.db.make_deck(deck1.cards), controller = controller1 or ai.new() },
+      { name = deck2.name, deck = t.db.make_deck(deck2.cards), controller = controller2 or ai.new() },
     },
     rng = make_rng(seed),
     max_turns = 200,
   })
 end
 
-local function count_cards(player)
-  return #player.library + #player.hand + #player.battlefield + #player.graveyard + #player.exile
+-- Cards a player owns across all zones, including spells on the stack (triggers aren't cards).
+local function count_cards(player, game)
+  local n = #player.library + #player.hand + #player.battlefield + #player.graveyard + #player.exile
+  for _, item in ipairs(game.stack) do
+    if item.kind == "spell" and item.card.owner == player then
+      n = n + 1
+    end
+  end
+  return n
 end
 
 return function(t)
   t.section("AI vs AI games")
-  local wins = { White = 0, Green = 0 }
+  local wins = { [decks.white.name] = 0, [decks.green.name] = 0 }
   local summaries = {}
   for seed = 1, 20 do
     local game = new_game(t, seed)
@@ -48,7 +56,7 @@ return function(t)
     t.check(game.winner ~= nil, "seed " .. seed .. ": there is a winner")
     t.check(casts > 0, "seed " .. seed .. ": spells were cast")
     for _, player in ipairs(game.players) do
-      t.eq(count_cards(player) + #game.stack, 40, "seed " .. seed .. ": " .. player.name .. " still has 40 cards across zones")
+      t.eq(count_cards(player, game), 40, "seed " .. seed .. ": " .. player.name .. " still has 40 cards across zones")
       for _, card in ipairs(player.battlefield) do
         t.check(not card:is_creature() or card.damage < card:toughness(), "seed " .. seed .. ": no lethally damaged creature left alive")
       end
@@ -59,8 +67,36 @@ return function(t)
       summaries[#summaries + 1] = string.format("%s on turn %d (%s)", game.winner.name, game.turn, tostring(loser.loss_reason))
     end
   end
-  print(string.format("  AI vs AI, 20 games: White %d, Green %d. First games: %s",
-                      wins.White, wins.Green, table.concat(summaries, "; ", 1, math.min(3, #summaries))))
+  print(string.format("  AI vs AI, 20 games: %s %d, %s %d. First games: %s",
+                      decks.white.name, wins[decks.white.name], decks.green.name, wins[decks.green.name],
+                      table.concat(summaries, "; ", 1, math.min(3, #summaries))))
+
+  t.section("AI vs AI with spells and triggers")
+  for _, opponent in ipairs({ decks.white, decks.green }) do
+    local rakdos_wins, triggers, spells = 0, 0, 0
+    for seed = 1, 10 do
+      local game = new_game(t, seed, nil, nil, decks.rakdos, opponent)
+      game:on_event(function(e)
+        if e.type == "trigger" then
+          triggers = triggers + 1
+        elseif e.type == "cast" and e.card.def.spell then
+          spells = spells + 1
+        end
+      end)
+      game:run()
+      t.check(game.over and game.winner ~= nil, "seed " .. seed .. " vs " .. opponent.name .. ": game finished with a winner")
+      for _, player in ipairs(game.players) do
+        t.eq(count_cards(player, game), 40, "seed " .. seed .. ": " .. player.name .. " still has 40 cards")
+      end
+      if game.winner and game.winner.name == decks.rakdos.name then
+        rakdos_wins = rakdos_wins + 1
+      end
+    end
+    t.check(triggers > 20, "triggers happened vs " .. opponent.name .. " (" .. triggers .. ")")
+    t.check(spells > 10, "instants/sorceries were cast vs " .. opponent.name .. " (" .. spells .. ")")
+    print(string.format("  %s vs %s, 10 games: %d-%d (%d triggers, %d spells)",
+                        decks.rakdos.name, opponent.name, rakdos_wins, 10 - rakdos_wins, triggers, spells))
+  end
 
   t.section("prompt controller (coroutine protocol)")
   do

@@ -5,11 +5,16 @@
 -- current request, a cursor over three rows of cards, and per-request selections, and turns
 -- abstract inputs into answers:
 --   ui:press("left" | "right" | "up" | "down")   move the cursor
---   ui:press("select")    play/cast the focused card, toggle an attacker/discard, set up a block
---   ui:press("confirm")   pass priority / submit attackers, blocks, discards / leave a finished game
---   ui:press("cancel")    drop a half-made block
+--   ui:press("select")    play/cast the focused card, toggle an attacker/discard/target, set up a
+--                         block, say yes to a "may" ability
+--   ui:press("confirm")   pass priority / submit attackers, blocks, discards, targets / say yes /
+--                         leave a finished game
+--   ui:press("cancel")    drop a half-made block / say no to a "may" ability
+-- While choosing targets, row 3 shows the candidates (cards from any zone, and players) instead of
+-- the hand.
 -- Requests the human has no real choice in (no legal actions, combat damage division) are
--- answered automatically so the player only stops when there is something to decide.
+-- answered automatically, and priority with only instant-speed options passes automatically
+-- outside the stop points in duel_ui:wants_stop.
 
 local combat = require("scripts/mtg/combat")
 local prompt = require("scripts/mtg/controllers/prompt")
@@ -71,7 +76,13 @@ function duel_ui:on_game_event(e)
   elseif t == "play_land" then
     self:add_log(self:who(e.player) .. " played " .. e.card:name())
   elseif t == "cast" then
-    self:add_log(self:who(e.player) .. " cast " .. e.card:name())
+    self:add_log(self:who(e.player) .. " cast " .. e.card:name() .. self:targets_text(e.targets))
+  elseif t == "trigger" then
+    self:add_log(e.card:name() .. " triggered" .. self:targets_text(e.targets))
+  elseif t == "countered" then
+    self:add_log(e.card:name() .. " was countered")
+  elseif t == "fizzle" then
+    self:add_log(e.card:name() .. " fizzled (no legal target)")
   elseif t == "attackers" and #e.attackers > 0 then
     self:add_log(self:who(e.player) .. " attacked with " .. #e.attackers .. (#e.attackers == 1 and " creature" or " creatures"))
   elseif t == "blockers" and #e.blocks > 0 then
@@ -85,6 +96,29 @@ function duel_ui:on_game_event(e)
   elseif t == "player_lost" then
     self:add_log(self:who(e.player) .. " lost (" .. e.reason .. ")")
   end
+end
+
+-- " -> Green" / " -> Savannah Lions" for a log line, from an engine targets table.
+function duel_ui:targets_text(targets)
+  local names = {}
+  for _, list in pairs(targets or {}) do
+    for _, obj in ipairs(list) do
+      names[#names + 1] = obj.life ~= nil and self:who(obj) or obj:name()
+    end
+  end
+  if #names == 0 then
+    return ""
+  end
+  table.sort(names)
+  return " -> " .. table.concat(names, ", ")
+end
+
+-- Short label for a card or player
+function duel_ui:label(obj)
+  if obj.life ~= nil then
+    return self:who(obj)
+  end
+  return obj:name()
 end
 
 -- Rows ----------------------------------------------------------------------------------------
@@ -105,6 +139,9 @@ function duel_ui:row_cards(row)
     return nonland_permanents(self.opponent)
   elseif row == 2 then
     return nonland_permanents(self.human)
+  end
+  if self.request and self.request.kind == "choose_targets" then
+    return self.request.candidates
   end
   return self.human.hand
 end
@@ -148,7 +185,7 @@ function duel_ui:card_marks(card)
   local r = self.request
   local marks = {
     focused = card == self:focused_card(),
-    tapped = card.tapped,
+    tapped = card.tapped == true,
     selected = self.selected[card] == true,
     blocking = self.blocks[card] ~= nil,
     pending = card == self.pending_blocker,
@@ -185,12 +222,27 @@ local function contains(list, item)
   return false
 end
 
+-- Should a priority request with only instant-speed options stop for the player? Like Forge's
+-- default phase stops: your main phases, anything on the stack, after blockers are declared,
+-- and the opponent's end step. Otherwise priority passes automatically.
+function duel_ui:wants_stop(request)
+  local game = self.game
+  local step = game.step
+  if #game.stack > 0 or step == "combat_declare_blockers" then
+    return true
+  end
+  if game:active_player() == self.human then
+    return step == "main1" or step == "main2"
+  end
+  return step == "end_of_turn"
+end
+
 -- Resumes the engine with an answer and runs until the human has a real decision to make.
 function duel_ui:advance(answer)
   self.selected, self.blocks, self.pending_blocker, self.error_message = {}, {}, nil, nil
   local request = self.runner.resume(answer)
   while true do
-    if request.kind == "choose_action" and #request.actions == 0 then
+    if request.kind == "choose_action" and (#request.actions == 0 or not self:wants_stop(request)) then
       request = self.runner.resume(nil)
     elseif request.kind == "assign_combat_damage" then
       request = self.runner.resume(request.default)
@@ -201,14 +253,27 @@ function duel_ui:advance(answer)
   self.request = request
   if request.kind == "declare_attackers" or request.kind == "declare_blockers" then
     self.row = 2
-  elseif request.kind == "choose_discard" or request.kind == "choose_action" then
+  elseif request.kind == "choose_discard" or request.kind == "choose_action" or request.kind == "choose_targets" then
     self.row = 3
+    if request.kind == "choose_targets" then
+      self.col = 1
+    end
   end
   self:clamp_focus()
 end
 
 function duel_ui:start()
   self:advance(nil)
+end
+
+-- prefix .. name .. suffix, shortening the name so the whole line fits LINE_CHARS.
+local LINE_CHARS = 35
+local function fit(prefix, name, suffix)
+  local room = LINE_CHARS - #prefix - #suffix
+  if #name > room then
+    name = name:sub(1, room - 1) .. "."
+  end
+  return prefix .. name .. suffix
 end
 
 -- Two short lines for the current request: what is happening, and which keys to press.
@@ -230,9 +295,28 @@ function duel_ui:prompt_text()
     end
     help = "Enter: continue"
   elseif kind == "choose_action" then
-    local whose = self.game:active_player() == self.human and "Your " or "Their "
-    title = whose .. (STEP_NAMES[self.game.step] or "")
+    local top = self.game.stack[#self.game.stack]
+    if top then
+      title = fit("Respond to ", top.card:name(), top.kind == "trigger" and " (ability)?" or "?")
+    else
+      local whose = self.game:active_player() == self.human and "Your " or "Their "
+      title = whose .. (STEP_NAMES[self.game.step] or "")
+    end
     help = "Space: play  Enter: pass"
+  elseif kind == "choose_targets" then
+    local n = 0
+    for _ in pairs(self.selected) do
+      n = n + 1
+    end
+    title = fit("Target for ", r.source:name(), "")
+    if r.max == 1 then
+      help = "Space: choose" .. (r.min == 0 and "  Enter: none" or "")
+    else
+      help = "Space: pick (" .. n .. "/" .. r.max .. ")  Enter: done"
+    end
+  elseif kind == "confirm_optional" then
+    title = fit("Use ", r.source:name(), "?")
+    help = "Space: yes  Bksp: no"
   elseif kind == "declare_attackers" then
     title, help = "Declare attackers", "Space: pick  Enter: attack"
   elseif kind == "declare_blockers" then
@@ -305,6 +389,24 @@ function duel_ui:select()
     if contains(r.cards, card) then
       self:advance(card)
     end
+  elseif r.kind == "choose_targets" then
+    if self.row == 3 and contains(r.candidates, card) then
+      if r.max == 1 then
+        self:advance({ card })
+      else
+        local n = 0
+        for _ in pairs(self.selected) do
+          n = n + 1
+        end
+        if self.selected[card] then
+          self.selected[card] = nil
+        elseif n < r.max then
+          self.selected[card] = true
+        end
+      end
+    end
+  elseif r.kind == "confirm_optional" then
+    self:advance(true)
   end
 end
 
@@ -315,6 +417,20 @@ function duel_ui:confirm()
   end
   if r.kind == "game_over" then
     self.finished = true
+  elseif r.kind == "confirm_optional" then
+    self:advance(true)
+  elseif r.kind == "choose_targets" then
+    local chosen = {}
+    for _, obj in ipairs(r.candidates) do
+      if self.selected[obj] then
+        chosen[#chosen + 1] = obj
+      end
+    end
+    if #chosen >= r.min and #chosen <= r.max then
+      self:advance(chosen)
+    else
+      self.error_message = "Pick at least " .. r.min
+    end
   elseif r.kind == "choose_action" then
     self:advance(nil)
   elseif r.kind == "declare_attackers" then
@@ -371,8 +487,12 @@ function duel_ui:press(input)
   elseif input == "confirm" then
     self:confirm()
   elseif input == "cancel" then
-    self.pending_blocker = nil
-    self.error_message = nil
+    if self.request and self.request.kind == "confirm_optional" then
+      self:advance(false)
+    else
+      self.pending_blocker = nil
+      self.error_message = nil
+    end
   end
 end
 
@@ -401,6 +521,9 @@ end
 
 -- Text for the detail panel: { name, "cost  types", "P/T  keywords", oracle lines... }
 function duel_ui.card_details(card)
+  if card.life ~= nil then
+    return { card.name, "Life " .. card.life, "Hand " .. #card.hand .. "  Library " .. #card.library }
+  end
   local def = card.def
   local face = def.script.faces[1]
   local lines = { def.name }

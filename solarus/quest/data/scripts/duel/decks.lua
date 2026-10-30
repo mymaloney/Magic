@@ -19,4 +19,15 @@ decks.green = {
   },
 }
 
+decks.rakdos = {
+  name = "Rakdos Tricks",
+  cards = {
+    ["Swamp"] = 9, ["Mountain"] = 8,
+    ["Shock"] = 3, ["Murder"] = 2, ["Stab"] = 2,
+    ["Skeleton Archer"] = 2, ["Viashino Pyromancer"] = 2, ["Goblin Arsonist"] = 2, ["Vampire Spawn"] = 2,
+    ["Burglar Rat"] = 2, ["Gravedigger"] = 1, ["Midnight Reaper"] = 1, ["Vengeful Bloodwitch"] = 1,
+    ["Brazen Scourge"] = 2, ["Festering Goblin"] = 1,
+  },
+}
+
 return decks

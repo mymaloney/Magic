@@ -28,8 +28,11 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [x] Duel screen confirmed on a real Solarus 2.1 install (owner, 2026-10-30)
 - [ ] Duel polish: animate engine events instead of instant AI turns, manual damage division,
       joypad controls, deck choice
-- [ ] Triggers: ChangesZone (ETB/dies) first, then Attacks, Phase, SpellCast
-- [ ] Instants/sorceries, targeting, first effects (DealDamage, Draw, Destroy, Pump)
+- [x] ChangesZone triggers (enters/dies/leaves, with look-back), instants/sorceries, targeting
+      (players, permanents, graveyard cards, spells), hexproof, 13 effects; duel screen handles
+      targets and "may" prompts; 110 of 335 cards supported (2026-10-30)
+- [ ] More trigger modes: Attacks, Phase (upkeep/end step), SpellCast, AttackersDeclared, LifeGained
+- [ ] Activated abilities (AB$ Pump/Draw/Destroy/...), Scry/Surveil, Fight, Charm, X costs
 - [ ] Statics/layers, replacements ("enters tapped" lands first)
 - [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)
 - [ ] Overworld: first map, NPC that starts a duel

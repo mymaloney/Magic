@@ -2,6 +2,8 @@
 -- AiAttackController / AiBlockController (combat), ComputerUtilCard.evaluateCreature (card value).
 
 local combat = require("scripts/mtg/combat")
+local abilities = require("scripts/mtg/abilities")
+local effects = require("scripts/mtg/effects")
 
 local ai = {}
 ai.__index = ai
@@ -18,19 +20,151 @@ local function kills(source, target)
   return source:has_keyword("Deathtouch") or source:power() >= target:toughness() - target.damage
 end
 
+local function is_player(obj)
+  return obj.life ~= nil
+end
+
+local function value(obj)
+  if is_player(obj) then
+    return 5
+  end
+  local v = obj:mana_value()
+  if obj:is_creature() then
+    v = v + obj:power() * 2 + obj:toughness()
+  end
+  return v
+end
+
+local function in_combat(game, card)
+  local c = game.combat
+  if c == nil or is_player(card) then
+    return false
+  end
+  if c.blocking[card] then
+    return true
+  end
+  for _, a in ipairs(c.attackers) do
+    if a == card then
+      return true
+    end
+  end
+  return false
+end
+
+-- Scores a target from `player`'s point of view: >= 1000 means the effect does what we want
+-- (hurts an opponent's thing / helps ours), lower means it backfires.
+local function target_score(game, player, ability, obj)
+  local mine = is_player(obj) and obj == player or (not is_player(obj) and obj.controller == player)
+  local harmful = effects.is_harmful(ability)
+  if harmful == mine then
+    return -value(obj)
+  end
+  local score = 1000 + value(obj)
+  if ability.api == "DealDamage" and harmful then
+    local dmg = abilities.amount(ability.params.NumDmg, 0) or 0
+    if is_player(obj) then
+      score = 1000 + (dmg >= obj.life and 10000 or 20)
+    elseif dmg >= obj:toughness() - obj.damage then
+      score = 1500 + value(obj)
+    else
+      score = 1001
+    end
+  elseif ability.api == "Pump" and not harmful and in_combat(game, obj) then
+    score = score + 500
+  end
+  return score
+end
+
+local function best_targets(game, player, ability, candidates, min, max)
+  local scored = {}
+  for _, obj in ipairs(candidates) do
+    scored[#scored + 1] = { obj = obj, score = target_score(game, player, ability, obj) }
+  end
+  table.sort(scored, function(a, b) return a.score > b.score end)
+  local chosen = {}
+  for _, entry in ipairs(scored) do
+    if #chosen >= max then
+      break
+    end
+    if entry.score >= 1000 or #chosen < min then
+      chosen[#chosen + 1] = entry.obj
+    end
+  end
+  return chosen, scored[1] and scored[1].score or 0
+end
+
+function ai:choose_targets(game, player, ability, candidates, min, max, ctx)
+  return (best_targets(game, player, ability, candidates, min, max))
+end
+
+function ai:confirm_optional(game, player, source, ability)
+  return true
+end
+
+-- Is casting this instant/sorcery worth it right now?
+local function spell_is_good(game, player, card)
+  local ctx = { game = game, source = card, controller = player, targets = {} }
+  local opponent = game:opponent(player)
+  for _, ability in ipairs(abilities.chain(card.def.spell)) do
+    if ability.target then
+      local candidates = abilities.target_candidates(game, ability, ctx)
+      local _, best = best_targets(game, player, ability, candidates, ability.target.min, ability.target.max)
+      if best < 1000 then
+        return false
+      end
+      if ability.api == "Pump" and not effects.is_harmful(ability) and best < 1500 then
+        return false  -- only pump creatures that are in combat
+      end
+    elseif ability == card.def.spell then
+      if ability.api == "DestroyAll" then
+        local mine, theirs = 0, 0
+        for _, c in ipairs(player.battlefield) do
+          mine = mine + (c:is_creature() and 1 or 0)
+        end
+        for _, c in ipairs(opponent.battlefield) do
+          theirs = theirs + (c:is_creature() and 1 or 0)
+        end
+        if theirs <= mine then
+          return false
+        end
+      elseif ability.api == "Discard" and #opponent.hand == 0 then
+        return false
+      end
+    end
+  end
+  return true
+end
+
 function ai:choose_action(game, player, actions)
   for _, action in ipairs(actions) do
     if action.kind == "play_land" then
       return action
     end
   end
-  if player ~= game:active_player() or not game:is_main_phase() then
-    return nil
-  end
+  local top = game.stack[#game.stack]
+  local my_main = player == game:active_player() and game:is_main_phase() and top == nil
   local best
   for _, action in ipairs(actions) do
-    if action.kind == "cast" and (best == nil or action.card:mana_value() > best.card:mana_value()) then
-      best = action
+    local card = action.card
+    if action.kind == "cast" then
+      if card.def.spell == nil then
+        if my_main and (best == nil or card:mana_value() > best.card:mana_value()) then
+          best = action
+        end
+      else
+        local api = card.def.spell.api
+        local timing
+        if api == "Counter" then
+          timing = top ~= nil and top.kind == "spell" and top.controller ~= player
+        elseif api == "Pump" then
+          timing = game.step == "combat_declare_blockers"
+        else
+          timing = my_main
+        end
+        if timing and spell_is_good(game, player, card) and best == nil then
+          best = action
+        end
+      end
     end
   end
   return best
