@@ -23,7 +23,11 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [x] `scripts/mtg` game state, zones, turn structure, priority, permanent spells on the stack,
       mana + auto-pay, combat with evergreen keywords, state-based actions, controller interface
       (AI + coroutine prompt controller); 40 of 335 cards supported (2026-10-30)
-- [ ] Duel menu driven by the prompt controller (replace the placeholder board)
+- [x] Duel screen (`scripts/menus/duel.lua` + pure-Lua `scripts/duel/duel_ui.lua`) replaces the
+      placeholder board: play a full game against the AI with the keyboard (2026-10-30)
+- [ ] Duel screen confirmed on a real Solarus install
+- [ ] Duel polish: animate engine events instead of instant AI turns, manual damage division,
+      joypad controls, deck choice
 - [ ] Triggers: ChangesZone (ETB/dies) first, then Attacks, Phase, SpellCast
 - [ ] Instants/sorceries, targeting, first effects (DealDamage, Draw, Destroy, Pump)
 - [ ] Statics/layers, replacements ("enters tapped" lands first)

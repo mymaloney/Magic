@@ -7,7 +7,7 @@
 
 local initial_menus = {
   "scripts/menus/solarus_logo",
-  "scripts/menus/board",  -- placeholder duel board / card browser; remove once duels start from the overworld
+  "scripts/menus/duel",  -- duel against the AI; move to an overworld NPC once duels start from the map
   "scripts/menus/start_game",
 }
 

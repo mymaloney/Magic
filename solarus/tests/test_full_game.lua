@@ -5,14 +5,7 @@ local Game = require("scripts/mtg/game")
 local ai = require("scripts/mtg/controllers/ai")
 local prompt = require("scripts/mtg/controllers/prompt")
 
-local WHITE = {
-  ["Plains"] = 17, ["Savannah Lions"] = 4, ["Elite Vanguard"] = 4, ["Healer's Hawk"] = 3,
-  ["Bishop's Soldier"] = 4, ["Leonin Skyhunter"] = 3, ["Warclamp Mastiff"] = 2, ["Serra Angel"] = 3,
-}
-local GREEN = {
-  ["Forest"] = 17, ["Llanowar Elves"] = 4, ["Thornweald Archer"] = 4, ["Deadly Recluse"] = 3,
-  ["Druid of the Cowl"] = 3, ["Ambush Viper"] = 3, ["Tajuru Pathwarden"] = 4, ["Gigantosaurus"] = 2,
-}
+local decks = require("scripts/duel/decks")
 
 -- Park-Miller generator: deterministic and exact in double precision.
 local function make_rng(seed)
@@ -26,8 +19,8 @@ end
 local function new_game(t, seed, controller1, controller2)
   return Game.new({
     players = {
-      { name = "White", deck = t.db.make_deck(WHITE), controller = controller1 or ai.new() },
-      { name = "Green", deck = t.db.make_deck(GREEN), controller = controller2 or ai.new() },
+      { name = "White", deck = t.db.make_deck(decks.white.cards), controller = controller1 or ai.new() },
+      { name = "Green", deck = t.db.make_deck(decks.green.cards), controller = controller2 or ai.new() },
     },
     rng = make_rng(seed),
     max_turns = 200,

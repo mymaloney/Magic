@@ -32,7 +32,8 @@ Key facts:
   `luajit solarus/tools/support_report.lua`). When adding an engine feature, also allow it in
   `card_db.lua`'s support check and add a scenario to `solarus/tests/test_rules.lua`.
 - Rules engine code lives in `solarus/quest/data/scripts/mtg/`, is **Lua 5.1** (Solarus uses
-  LuaJIT), and must **never call `sol.*`**, so it runs headless.
+  LuaJIT), and must **never call `sol.*`**, so it runs headless. Same for the duel screen logic
+  in `scripts/duel/`; only `scripts/menus/duel.lua` draws with `sol.*`.
 - Tests: `luajit solarus/tests/run.lua` from the repo root. LuaJIT isn't preinstalled in the
   cloud container; `apt-get install -y luajit` works. Solarus itself can't be downloaded here,
   so anything using `sol.*` can't be run in the container. Say so rather than claiming it works.

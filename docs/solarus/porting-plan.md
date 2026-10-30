@@ -80,6 +80,14 @@ unsupported Y" at load time rather than half-working in a duel.
 | `controllers/ai.lua` | Heuristic AI | `AiController`, `AiAttackController`, `AiBlockController` |
 | `controllers/prompt.lua` | Human controller: yields requests to the duel menu; `prompt.run(game)` runner | `PlayerControllerHuman` |
 
+Duel screen, outside the engine:
+
+| File | Does |
+|---|---|
+| `scripts/duel/duel_ui.lua` | Pure Lua (no `sol.*`, tested headlessly): drives the prompt runner, auto-answers requests with no real choice, keeps cursor/selection state, turns inputs (`left/right/up/down/select/confirm/cancel`) into answers, formats prompts, log and card details |
+| `scripts/duel/decks.lua` | Preconstructed 40-card decks of supported cards |
+| `scripts/menus/duel.lua` | Solarus menu: draws `duel_ui` state with fill rectangles and the `8_bit` font, maps keys to inputs |
+
 Controller interface (all called as `controller:method(game, player, ...)`): `choose_action`,
 `declare_attackers`, `declare_blockers`, `assign_combat_damage`, `choose_discard`,
 `choose_legend_to_keep`. The engine raises an error on illegal answers, so UIs offer only legal
@@ -134,6 +142,8 @@ Record each simplification here when made, with the Forge code it diverges from:
 - Cards keep the same Lua object across zones (state is reset per CR 400.7); no last-known
   information yet, which "dies" triggers will need.
 - Players get no priority in cleanup (correct until something can trigger there).
+- Duel screen: combat damage among several blockers is divided automatically (lethal to each
+  in turn, rest tramples over); the AI's actions happen instantly and are reported in the log.
 - AI simulation (`forge-ai/.../simulation`) → not ported; heuristics only.
 
 ## Verifying behaviour against Forge
@@ -166,5 +176,7 @@ Forge is the oracle: if they disagree, the Lua side is wrong unless the divergen
 | 2026-10-30 | Cards are loaded at runtime from verbatim Forge scripts, not converted to a custom format | No memory limits; stays identical to Forge and is easy to re-sync |
 | 2026-10-30 | Quest based on the **Solarus 2.1 starter quest** (title "Arpeggio"); the duel board runs as a pre-game menu until duels can start from the overworld | Owner created it so the Quest Editor recognizes the project; hand-written `quest.dat`/empty `project_db.dat` didn't load |
 | 2026-10-30 | Basic lands come from `cardpool/basic_lands.txt`, synced alongside the pool | The pool lists none; decks need them |
+| 2026-10-30 | Duel screen split into pure-Lua `scripts/duel/duel_ui.lua` (tested) and a thin drawing menu | Solarus can't run in the cloud container, so the logic must be testable without it |
+| 2026-10-30 | Duel stops only for real choices (auto-pass when no legal action) | Avoids pressing Return through every step; Forge's auto-yield is the model |
 | 2026-10-30 | Engine raises errors on illegal controller answers instead of re-asking | Keeps the engine simple; UI and AI only offer legal options |
 | 2026-10-30 | Rules engine is pure Lua 5.1 under `scripts/mtg/`, no `sol.*`; decisions go through a controller interface, and the engine loop runs in a coroutine | Headless tests under LuaJIT; UI stays swappable |
