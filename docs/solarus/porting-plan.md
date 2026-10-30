@@ -79,7 +79,7 @@ unsupported Y" at load time rather than half-working in a duel.
 | `keywords.lua` | The set of keywords the engine implements | `keyword/Keyword` |
 | `filter.lua` | `Valid*$` filter language (types, `.YouCtrl`, `+nonLand`, `cmcLE2`, `powerGE4`, ...) | `CardProperty`, `PlayerProperty` |
 | `abilities.lua` | Ability chains from `SP$`/`DB$` params (+ `SubAbility$`), targeting (candidates, legality, hexproof), `Defined$`, resolution with fizzling | `AbilityFactory`, `AbilityUtils`, `TargetRestrictions` |
-| `effects.lua` | Effects by API with a parameter whitelist each: Draw, GainLife, LoseLife, DealDamage, Discard, Destroy, DestroyAll, ChangeZone, Pump, PumpAll, Tap, Untap, Mill, Counter | `ability/effects/*Effect` |
+| `effects.lua` | Effects by API with a parameter whitelist each: Draw, GainLife, LoseLife, DealDamage, DamageAll, Discard, Destroy, DestroyAll, ChangeZone, ChangeZoneAll, Pump, PumpAll, Tap, TapAll, Untap, Mill, Counter, ChooseColor, Scry, Surveil, Dig, Sacrifice, Fight, Charm, Branch, Cleanup | `ability/effects/*Effect` |
 | `expr.lua` | SVar amounts and conditions: numbers, `X`, `Count$Valid…`, `Count$Morbid.a.b`, `Count$AttackersDeclared`, `ThisTurnCast_…`, `PlayerCountPlayers$…`, `TriggerCount$…`, math suffixes (`/Twice`, `/Plus.N`); `CheckSVar`/`IsPresent`-style compares | `AbilityUtils.calculateAmount`, `xCount`, `doXMath` |
 | `triggers.lua` | Trigger modes ChangesZone, Attacks, AttackersDeclared, Blocks, AttackerBlocked, Phase, SpellCast, Drawn, LifeGained, LifeLost, Taps, ManaExpend; intervening-if conditions rechecked on resolution; queueing | `TriggerHandler`, `Trigger<Mode>` |
 | `cost.lua` | Activated-ability costs: mana, {T}, `Sac<n/...>`, `Discard<n/...>`, `PayLife<n>`; can-pay checks and payment (choices via `choose_cards`) | `Cost`, `CostPart*`, `CostPayment` |
@@ -98,7 +98,8 @@ Duel screen, outside the engine:
 
 Controller interface (all called as `controller:method(game, player, ...)`): `choose_action`,
 `declare_attackers`, `declare_blockers`, `assign_combat_damage`, `choose_discard`,
-`choose_legend_to_keep`, `choose_targets`, `confirm_optional`, `choose_color`, `choose_cards`.
+`choose_legend_to_keep`, `choose_targets`, `confirm_optional`, `choose_color`, `choose_cards`,
+`arrange_top` (scry/surveil), `choose_mode` (charms; asked before targets, CR 601.2b).
 
 Activated abilities (`def.activated`) appear as `{ kind = "activate", card, index }` actions and go
 on the stack as `kind = "ability"` items. Mana abilities with costs (`{1}, {T}: any color`,

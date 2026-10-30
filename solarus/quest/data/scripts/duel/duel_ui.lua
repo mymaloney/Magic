@@ -141,6 +141,7 @@ end
 
 -- Requests that pick some of request.candidates (shown in row 3).
 local PICK_KINDS = { choose_targets = true, choose_cards = true }
+local abilities = require("scripts/mtg/abilities")
 
 -- Cards shown in a row (1 = opponent's permanents, 2 = yours, 3 = your hand).
 function duel_ui:row_cards(row)
@@ -154,6 +155,9 @@ function duel_ui:row_cards(row)
   end
   if self.request and PICK_KINDS[self.request.kind] then
     return self.request.candidates
+  end
+  if self.request and self.request.kind == "arrange_top" then
+    return self.request.cards
   end
   return self.human.hand
 end
@@ -271,6 +275,17 @@ function duel_ui:advance(answer)
       self.option_entries[#self.option_entries + 1] = { is_option = true, value = c, label = COLOR_NAMES[c] }
     end
     self.row, self.col = 3, 1
+  elseif request.kind == "choose_mode" then
+    self.option_entries = {}
+    for _, index in ipairs(request.options) do
+      local text = abilities.describe(request.charm.choices[index])
+      self.option_entries[#self.option_entries + 1] = {
+        is_option = true, value = index, label = "Mode" .. index, detail = text,
+      }
+    end
+    self.row, self.col = 3, 1
+  elseif request.kind == "arrange_top" then
+    self.row, self.col = 3, 1
   end
   if request.kind == "declare_attackers" or request.kind == "declare_blockers" then
     self.row = 2
@@ -344,6 +359,13 @@ function duel_ui:prompt_text()
   elseif kind == "choose_color" then
     title = fit("Color for ", r.source:name(), "")
     help = "Space: choose"
+  elseif kind == "choose_mode" then
+    title = fit("Mode for ", r.source:name(), "")
+    help = "Space: choose (see details)"
+  elseif kind == "arrange_top" then
+    local scry = r.away == "bottom"
+    title = (scry and "Scry " or "Surveil ") .. #r.cards .. " (first = top)"
+    help = scry and "Space: to bottom  Enter: done" or "Space: to graveyard  Enter: done"
   elseif kind == "confirm_optional" then
     title = fit("Use ", r.source:name(), "?")
     help = "Space: yes  Bksp: no"
@@ -451,9 +473,13 @@ function duel_ui:select()
     end
   elseif r.kind == "confirm_optional" then
     self:advance(true)
-  elseif r.kind == "choose_color" then
+  elseif r.kind == "choose_color" or r.kind == "choose_mode" then
     if card.is_option then
       self:advance(card.value)
+    end
+  elseif r.kind == "arrange_top" then
+    if self.row == 3 then
+      self.selected[card] = not self.selected[card] or nil
     end
   end
 end
@@ -479,6 +505,16 @@ function duel_ui:confirm()
     else
       self.error_message = "Pick at least " .. r.min
     end
+  elseif r.kind == "arrange_top" then
+    local top, away = {}, {}
+    for _, card in ipairs(r.cards) do
+      if self.selected[card] then
+        away[#away + 1] = card
+      else
+        top[#top + 1] = card
+      end
+    end
+    self:advance({ top = top, away = away })
   elseif r.kind == "choose_action" then
     if self.option_entries then
       return   -- choosing which ability: Space picks, Backspace goes back

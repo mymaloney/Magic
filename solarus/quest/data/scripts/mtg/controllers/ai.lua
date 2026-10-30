@@ -127,10 +127,43 @@ function ai:choose_color(game, player, source, options)
   return best
 end
 
+-- How good would the targeted parts of a chain be? min over targeted parts of the best target score
+-- (>= 1000 means it does what we want); 1000 when nothing is targeted.
+local function chain_score(game, player, root, ctx)
+  local score = 1000
+  for _, ability in ipairs(abilities.chain(root)) do
+    if ability.target then
+      local candidates = abilities.target_candidates(game, ability, ctx)
+      local _, best = best_targets(game, player, ability, candidates, ability.target.min, ability.target.max)
+      score = math.min(score, best)
+    end
+  end
+  return score
+end
+
+function ai:choose_mode(game, player, source, charm, options)
+  local ctx = { game = game, source = source, controller = player, targets = {} }
+  local best, best_score = options[1], -math.huge
+  for _, index in ipairs(options) do
+    local score = chain_score(game, player, charm.choices[index], ctx)
+    if score > best_score then
+      best, best_score = index, score
+    end
+  end
+  return best
+end
+
 -- Is casting this instant/sorcery worth it right now?
 local function spell_is_good(game, player, card)
   local ctx = { game = game, source = card, controller = player, targets = {} }
   local opponent = game:opponent(player)
+  if card.def.spell.choices then
+    local best = -math.huge
+    for _, index in ipairs(abilities.available_modes(game, card.def.spell, ctx)) do
+      best = math.max(best, chain_score(game, player, card.def.spell.choices[index], ctx))
+    end
+    return best >= 1000
+  end
   for _, ability in ipairs(abilities.chain(card.def.spell)) do
     if ability.target then
       local candidates = abilities.target_candidates(game, ability, ctx)
@@ -162,18 +195,19 @@ local function spell_is_good(game, player, card)
 end
 
 function ai:choose_cards(game, player, cards, min, max, reason)
+  local best_first = reason == "dig"   -- taking cards: the best ones; paying costs: the worst
   local sorted = {}
   for i, c in ipairs(cards) do
     sorted[i] = c
   end
   table.sort(sorted, function(a, b)
     if value(a) ~= value(b) then
-      return value(a) < value(b)
+      return (value(a) < value(b)) ~= best_first
     end
     return a.id < b.id
   end)
   local chosen = {}
-  for i = 1, min do
+  for i = 1, best_first and max or min do
     chosen[i] = sorted[i]
   end
   return chosen
@@ -187,6 +221,29 @@ local function count_lands(player)
     end
   end
   return n
+end
+
+-- Scry/surveil: keep lands while short on them, and spells castable soon.
+function ai:arrange_top(game, player, cards, away)
+  local lands = count_lands(player)
+  for _, c in ipairs(player.hand) do
+    lands = lands + (c:is_land() and 1 or 0)
+  end
+  local keep, out = {}, {}
+  for _, c in ipairs(cards) do
+    local want
+    if c:is_land() then
+      want = lands < 5
+    else
+      want = c:mana_value() <= count_lands(player) + 2
+    end
+    if want then
+      keep[#keep + 1] = c
+    else
+      out[#out + 1] = c
+    end
+  end
+  return { top = keep, away = out }
 end
 
 -- Is activating this ability a good idea right now?

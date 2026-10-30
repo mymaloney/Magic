@@ -359,6 +359,347 @@ effects.Counter = {
   harmful = true,
 }
 
+local script_parser = require("scripts/mtg/script_parser")
+local expr = require("scripts/mtg/expr")
+
+local function sub_chain(a, r, name)
+  local text = name and a.svars[name]
+  if text == nil then
+    r[#r + 1] = a.api .. " sub-ability " .. tostring(name)
+    return nil
+  end
+  return abilities.build(script_parser.parse_params(text), a.svars, r, effects, a)
+end
+
+local function chain_has_targets(root)
+  for _, x in ipairs(abilities.chain(root)) do
+    if x.target or x.choices then
+      return true
+    end
+  end
+  return false
+end
+
+-- Look at the top `n` cards of a library and split them between the top and `away`
+-- ("bottom" for scry, "graveyard" for surveil); the controller chooses (arrange_top).
+local function look_and_arrange(game, player, n, away)
+  local cards = {}
+  for i = 1, math.min(n, #player.library) do
+    cards[i] = player.library[#player.library - i + 1]   -- cards[1] is the top card
+  end
+  if #cards == 0 then
+    return
+  end
+  local answer = player.controller:arrange_top(game, player, cards, away) or { top = cards, away = {} }
+  local seen = {}
+  for _, list in ipairs({ answer.top or {}, answer.away or {} }) do
+    for _, c in ipairs(list) do
+      if seen[c] then
+        error("card arranged twice")
+      end
+      seen[c] = true
+    end
+  end
+  for _, c in ipairs(cards) do
+    if not seen[c] then
+      error("every looked-at card must be placed")
+    end
+  end
+  -- remove the looked-at cards, then put them back: top list in order (first = new top card)
+  for _ = 1, #cards do
+    table.remove(player.library)
+  end
+  for i = #(answer.top or {}), 1, -1 do
+    table.insert(player.library, answer.top[i])
+  end
+  for _, c in ipairs(answer.away or {}) do
+    if away == "bottom" then
+      table.insert(player.library, 1, c)
+    else
+      c.zone = "library"
+      table.insert(player.library, c)       -- move() takes it from the top
+      game:move(c, "graveyard")
+    end
+  end
+  game:emit({ type = away == "bottom" and "scry" or "surveil", player = player, count = #cards,
+              away = #(answer.away or {}) })
+end
+
+effects.Scry = {
+  params = { ScryNum = true },
+  resolve = function(game, a, ctx)
+    for _, player in ipairs(abilities.players_of(abilities.affected(game, a, ctx, "You"))) do
+      look_and_arrange(game, player, amount(a, "ScryNum", 1), "bottom")
+    end
+  end,
+  harmful = false,
+}
+
+effects.Surveil = {
+  params = { Amount = true },
+  resolve = function(game, a, ctx)
+    for _, player in ipairs(abilities.players_of(abilities.affected(game, a, ctx, "You"))) do
+      look_and_arrange(game, player, amount(a, "Amount", 1), "graveyard")
+    end
+  end,
+  harmful = false,
+}
+
+-- Dig: look at the top DigNum cards, put up to ChangeNum matching ChangeValid into DestinationZone
+-- (default hand), the rest into DestinationZone2 (default the bottom of the library).
+effects.Dig = {
+  params = { DigNum = true, ChangeNum = true, ChangeValid = true, DestinationZone = true,
+             DestinationZone2 = true, LibraryPosition = true, Optional = true, Reveal = true },
+  validate = function(a, r)
+    local parsed, problem = filter.parse(a.params.ChangeValid or "Card")
+    a.change_valid = parsed
+    if parsed == nil then
+      r[#r + 1] = problem
+    end
+    local z1, z2 = a.params.DestinationZone or "Hand", a.params.DestinationZone2 or "Library"
+    if not (z1 == "Hand" or (z1 == "Library" and a.params.LibraryPosition == "0")) then
+      r[#r + 1] = "Dig DestinationZone$ " .. z1
+    end
+    if z2 ~= "Graveyard" and z2 ~= "Library" then
+      r[#r + 1] = "Dig DestinationZone2$ " .. z2
+    end
+  end,
+  resolve = function(game, a, ctx)
+    local player = ctx.controller
+    local n = amount(a, "DigNum", 1)
+    local cards = {}
+    for i = 1, math.min(n, #player.library) do
+      cards[i] = player.library[#player.library - i + 1]
+    end
+    local valid = {}
+    for _, c in ipairs(cards) do
+      if filter.matches(a.change_valid, c, { game = game, you = player, self = ctx.source }) then
+        valid[#valid + 1] = c
+      end
+    end
+    local count = math.min(amount(a, "ChangeNum", 1), #valid)
+    local min = a.params.Optional == "True" and 0 or count
+    local chosen = count > 0 and player.controller:choose_cards(game, player, valid, min, count, "dig") or {}
+    local picked = {}
+    for _, c in ipairs(chosen) do
+      picked[c] = true
+    end
+    local to_top = (a.params.DestinationZone == "Library")
+    local rest_zone = (a.params.DestinationZone2 or "Library") == "Graveyard" and "graveyard" or "bottom"
+    for _ = 1, #cards do
+      table.remove(player.library)
+    end
+    local kept_on_top = {}
+    for _, c in ipairs(cards) do
+      if picked[c] then
+        if to_top then
+          kept_on_top[#kept_on_top + 1] = c
+        else
+          c.zone = "library"
+          table.insert(player.library, c)
+          game:move(c, "hand")
+        end
+      elseif rest_zone == "bottom" then
+        table.insert(player.library, 1, c)
+      else
+        c.zone = "library"
+        table.insert(player.library, c)
+        game:move(c, "graveyard")
+      end
+    end
+    for i = #kept_on_top, 1, -1 do
+      table.insert(player.library, kept_on_top[i])
+    end
+    game:emit({ type = "dig", player = player, count = #cards })
+  end,
+  harmful = false,
+}
+
+effects.Sacrifice = {
+  params = { SacValid = true, Amount = true },
+  validate = function(a, r)
+    if a.params.SacValid ~= "Self" then
+      local parsed, problem = filter.parse(a.params.SacValid or "")
+      a.sac_valid = parsed
+      if parsed == nil then
+        r[#r + 1] = problem
+      end
+    end
+  end,
+  resolve = function(game, a, ctx)
+    if a.params.SacValid == "Self" then
+      game:sacrifice({ ctx.source })
+      return
+    end
+    for _, player in ipairs(abilities.players_of(abilities.affected(game, a, ctx, "You"))) do
+      local candidates = {}
+      for _, c in ipairs(player.battlefield) do
+        if filter.matches(a.sac_valid, c, { game = game, you = player, self = ctx.source }) then
+          candidates[#candidates + 1] = c
+        end
+      end
+      local n = math.min(amount(a, "Amount", 1), #candidates)
+      if n > 0 then
+        game:sacrifice(player.controller:choose_cards(game, player, candidates, n, n, "sacrifice"))
+      end
+    end
+  end,
+  harmful = function(a) return a.params.SacValid ~= "Self" end,
+}
+
+-- Fight (CR 701.12): the Defined creature and the target each deal damage equal to their power to
+-- the other; nothing happens if either has left the battlefield.
+effects.Fight = {
+  params = {},
+  validate = function(a, r)
+    local d = a.params.Defined
+    if d ~= "ParentTarget" and d ~= "TriggeredCardLKICopy" and d ~= "TriggeredCard" and d ~= "Self" then
+      r[#r + 1] = "Fight Defined$ " .. tostring(d)
+    end
+    if a.target == nil then
+      r[#r + 1] = "Fight without a target"
+    end
+  end,
+  resolve = function(game, a, ctx)
+    local fighter = abilities.cards_of(abilities.defined(game, a, ctx, a.params.Defined))[1]
+    local other = abilities.cards_of(ctx.targets[a] or {})[1]
+    if fighter and other and fighter.zone == "battlefield" and other.zone == "battlefield" and fighter ~= other then
+      game:deal_damage_batch({
+        { source = fighter, target = other, amount = fighter:power() },
+        { source = other, target = fighter, amount = other:power() },
+      }, false)
+    end
+  end,
+  harmful = true,
+}
+
+effects.Charm = {
+  params = { Choices = true, CharmNum = true },
+  validate = function(a, r)
+    if a.params.CharmNum and a.params.CharmNum ~= "1" then
+      r[#r + 1] = "Charm CharmNum$ " .. a.params.CharmNum
+    end
+    a.choices = {}
+    for name in (a.params.Choices or ""):gmatch("[^,]+") do
+      a.choices[#a.choices + 1] = sub_chain(a, r, name)
+    end
+    if #a.choices == 0 then
+      r[#r + 1] = "Charm without choices"
+    end
+  end,
+  resolve = function() end,   -- the chosen mode's chain follows it (abilities.chain with ctx.modes)
+  harmful = false,
+}
+
+effects.Branch = {
+  params = { BranchConditionSVar = true, BranchConditionSVarCompare = true, TrueSubAbility = true, FalseSubAbility = true },
+  validate = function(a, r)
+    local check, problem = expr.compile_check(a.params.BranchConditionSVar or "", a.params.BranchConditionSVarCompare, a.svars)
+    if check == nil then
+      r[#r + 1] = "Branch condition " .. tostring(problem)
+    end
+    a.branch_check = check
+    a.branch_true = a.params.TrueSubAbility and sub_chain(a, r, a.params.TrueSubAbility)
+    a.branch_false = a.params.FalseSubAbility and sub_chain(a, r, a.params.FalseSubAbility)
+    for _, b in ipairs({ a.branch_true or false, a.branch_false or false }) do
+      if b and chain_has_targets(b) then
+        r[#r + 1] = "Branch with targets"
+      end
+    end
+  end,
+  resolve = function(game, a, ctx)
+    local path = a.branch_check(game, ctx) and a.branch_true or a.branch_false
+    if path then
+      abilities.run_chain(game, path, ctx, effects)
+    end
+  end,
+  harmful = false,
+}
+
+effects.Cleanup = {   -- clears "remembered" objects in Forge; nothing to clear here
+  params = { ClearRemembered = true },
+  resolve = function() end,
+  harmful = false,
+}
+
+local function all_matching(game, ctx, parsed, players)
+  local list = {}
+  for _, player in ipairs(players or game.players) do
+    for _, card in ipairs(player.battlefield) do
+      if filter.matches(parsed, card, { game = game, you = ctx.controller, self = ctx.source }) then
+        list[#list + 1] = card
+      end
+    end
+  end
+  return list
+end
+
+local function parse_valid(a, r, key, default)
+  if a.params[key] == nil and default == nil then
+    return nil
+  end
+  local parsed, problem = filter.parse(a.params[key] or default)
+  if parsed == nil then
+    r[#r + 1] = problem
+  end
+  return parsed
+end
+
+effects.ChangeZoneAll = {
+  params = { ChangeType = true, Origin = true, Destination = true },
+  validate = function(a, r)
+    a.change_type = parse_valid(a, r, "ChangeType", "Card")
+    if a.params.Origin ~= "Battlefield" or a.params.Destination ~= "Hand" then
+      r[#r + 1] = "ChangeZoneAll " .. tostring(a.params.Origin) .. " -> " .. tostring(a.params.Destination)
+    end
+  end,
+  resolve = function(game, a, ctx)
+    move_all(game, all_matching(game, ctx, a.change_type), "hand")
+  end,
+  harmful = true,
+}
+
+effects.DamageAll = {
+  params = { NumDmg = true, ValidCards = true, ValidPlayers = true, ValidDescription = true },
+  validate = function(a, r)
+    number_param(a, r, "NumDmg", nil)
+    a.valid_cards = parse_valid(a, r, "ValidCards")
+    a.valid_players = parse_valid(a, r, "ValidPlayers")
+  end,
+  resolve = function(game, a, ctx)
+    local n = amount(a, "NumDmg", 0)
+    local hits = {}
+    if a.valid_cards then
+      for _, card in ipairs(all_matching(game, ctx, a.valid_cards)) do
+        hits[#hits + 1] = { source = ctx.source, target = card, amount = n }
+      end
+    end
+    if a.valid_players then
+      for _, player in ipairs(game.players) do
+        if filter.matches(a.valid_players, player, { game = game, you = ctx.controller, self = ctx.source }) then
+          hits[#hits + 1] = { source = ctx.source, target = player, amount = n }
+        end
+      end
+    end
+    game:deal_damage_batch(hits, false)
+  end,
+  harmful = true,
+}
+
+effects.TapAll = {
+  params = { ValidCards = true },
+  validate = function(a, r)
+    a.valid_cards = parse_valid(a, r, "ValidCards", "Card")
+  end,
+  resolve = function(game, a, ctx)
+    local players = a.target and abilities.players_of(ctx.targets[a] or {}) or nil
+    for _, card in ipairs(all_matching(game, ctx, a.valid_cards, players)) do
+      game:tap(card)
+    end
+  end,
+  harmful = true,
+}
+
 -- Every resolve function sees the current context through CTX (used by amount()).
 for _, spec in pairs(effects) do
   if type(spec) == "table" and spec.resolve then

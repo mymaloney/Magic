@@ -132,6 +132,10 @@ return function(t)
         answer = brain:choose_cards(game, p, request.candidates, request.min, request.max, request.reason)
       elseif request.kind == "choose_color" then
         answer = brain:choose_color(game, p, request.source, request.options)
+      elseif request.kind == "arrange_top" then
+        answer = brain:arrange_top(game, p, request.cards, request.away)
+      elseif request.kind == "choose_mode" then
+        answer = brain:choose_mode(game, p, request.source, request.charm, request.options)
       elseif request.kind == "confirm_optional" then
         answer = brain:confirm_optional(game, p, request.source, request.ability)
       else

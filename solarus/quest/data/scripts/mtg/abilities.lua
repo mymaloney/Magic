@@ -157,12 +157,22 @@ function abilities.build(params, svars, reasons, effects, parent, depth)
 end
 
 -- Iterates root, root.sub, ...
-function abilities.chain(root)
-  local list, a = {}, root
-  while a do
-    list[#list + 1] = a
-    a = a.sub
+-- Iterates root, root.sub, ... For modal abilities (Charm), the chosen modes' chains (recorded in
+-- ctx.modes[charm] = { index, ... }) follow the Charm itself; without a ctx no modes are included.
+function abilities.chain(root, ctx)
+  local list = {}
+  local function walk(a)
+    while a do
+      list[#list + 1] = a
+      if a.choices and ctx and ctx.modes and ctx.modes[a] then
+        for _, index in ipairs(ctx.modes[a]) do
+          walk(a.choices[index])
+        end
+      end
+      a = a.sub
+    end
   end
+  walk(root)
   return list
 end
 
@@ -232,15 +242,68 @@ function abilities.can_target(game, root, ctx)
     if ability.target and #abilities.target_candidates(game, ability, ctx) < ability.target.min then
       return false
     end
+    if ability.choices then
+      local any = false
+      for _, choice in ipairs(ability.choices) do
+        any = any or abilities.can_target(game, choice, ctx)
+      end
+      if not any then
+        return false
+      end
+    end
   end
   return true
+end
+
+-- Modes of a Charm that could be chosen now (their targets exist).
+function abilities.available_modes(game, charm, ctx)
+  local list = {}
+  for i, choice in ipairs(charm.choices) do
+    if abilities.can_target(game, choice, ctx) then
+      list[#list + 1] = i
+    end
+  end
+  return list
+end
+
+-- Short description of a mode or ability, for menus.
+function abilities.describe(ability)
+  return ability.params.SpellDescription or ability.params.StackDescription or ability.api
 end
 
 -- Asks the controller for every targeting part of the chain. Returns false if some part has too
 -- few legal targets (the spell can't be cast / the trigger is removed, CR 601.2c, 603.3d).
 function abilities.choose_targets(game, root, ctx)
   ctx.targets = ctx.targets or {}
-  for _, ability in ipairs(abilities.chain(root)) do
+  ctx.modes = ctx.modes or {}
+  -- Walks the chain as choices are made: a Charm's mode is chosen (CR 601.2b) before the targets
+  -- of the abilities that follow (601.2c).
+  local pending = { root }
+  local function next_ability()
+    local a = table.remove(pending, 1)
+    if a and a.sub then
+      table.insert(pending, 1, a.sub)
+    end
+    return a
+  end
+  while #pending > 0 do
+    local ability = next_ability()
+    if ability.choices then
+      local options = abilities.available_modes(game, ability, ctx)
+      if #options == 0 then
+        return false
+      end
+      local index = ctx.controller.controller:choose_mode(game, ctx.controller, ctx.source, ability, options)
+      local ok = false
+      for _, o in ipairs(options) do
+        ok = ok or o == index
+      end
+      if not ok then
+        error("illegal mode " .. tostring(index))
+      end
+      ctx.modes[ability] = { index }
+      table.insert(pending, 1, ability.choices[index])
+    end
     if ability.target then
       local candidates = abilities.target_candidates(game, ability, ctx)
       local spec = ability.target
@@ -341,7 +404,16 @@ function abilities.affected(game, ability, ctx, default_defined)
   if ability.target then
     return ctx.targets[ability] or {}
   end
-  return abilities.defined(game, ability, ctx, ability.params.Defined or default_defined)
+  -- Runs a chain's effects in order without targeting (used by Branch for its chosen path).
+function abilities.run_chain(game, root, ctx, effects)
+  for _, ability in ipairs(abilities.chain(root, ctx)) do
+    if ability.condition == nil or ability.condition(game, ctx) then
+      effects[ability.api].resolve(game, ability, ctx)
+    end
+  end
+end
+
+return abilities.defined(game, ability, ctx, ability.params.Defined or default_defined)
 end
 
 function abilities.players_of(list)
@@ -370,7 +442,7 @@ end
 -- (returns false). Otherwise illegal targets are dropped and each part runs in order.
 function abilities.resolve(game, root, ctx, effects)
   local had_targets, any_legal = false, false
-  for _, ability in ipairs(abilities.chain(root)) do
+  for _, ability in ipairs(abilities.chain(root, ctx)) do
     if ability.target then
       local legal = {}
       for _, obj in ipairs(ctx.targets[ability] or {}) do
@@ -386,10 +458,19 @@ function abilities.resolve(game, root, ctx, effects)
   if had_targets and not any_legal then
     return false
   end
-  for _, ability in ipairs(abilities.chain(root)) do
+  for _, ability in ipairs(abilities.chain(root, ctx)) do
     local skip = ability.target and #ctx.targets[ability] == 0 and ability.target.min > 0
     ctx.targeted_for_expr = function(kind)
-      return abilities.defined(game, ability, ctx, kind == "ParentTargeted" and "ParentTarget" or "Targeted")
+      -- Runs a chain's effects in order without targeting (used by Branch for its chosen path).
+function abilities.run_chain(game, root, ctx, effects)
+  for _, ability in ipairs(abilities.chain(root, ctx)) do
+    if ability.condition == nil or ability.condition(game, ctx) then
+      effects[ability.api].resolve(game, ability, ctx)
+    end
+  end
+end
+
+return abilities.defined(game, ability, ctx, kind == "ParentTargeted" and "ParentTarget" or "Targeted")
     end
     if ability.condition and not ability.condition(game, ctx) then
       skip = true
@@ -399,6 +480,15 @@ function abilities.resolve(game, root, ctx, effects)
     end
   end
   return true
+end
+
+-- Runs a chain's effects in order without targeting (used by Branch for its chosen path).
+function abilities.run_chain(game, root, ctx, effects)
+  for _, ability in ipairs(abilities.chain(root, ctx)) do
+    if ability.condition == nil or ability.condition(game, ctx) then
+      effects[ability.api].resolve(game, ability, ctx)
+    end
+  end
 end
 
 return abilities

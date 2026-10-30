@@ -18,7 +18,10 @@
 --           { kind = "confirm_optional", player, source, ability } answer: true / false
 --           { kind = "choose_color", player, source, options }     answer: one of options ("W".."G")
 --           { kind = "choose_cards", player, candidates, min, max, reason } answer: { card, ... }
---             (paying a cost: reason "sacrifice" or "discard")
+--             (reason "sacrifice"/"discard" for costs and effects, "dig" when taking looked-at cards)
+--           { kind = "arrange_top", player, cards, away }            answer: { top = {...}, away = {...} }
+--             (cards[1] is the top card; away is "bottom" for scry, "graveyard" for surveil)
+--           { kind = "choose_mode", player, source, charm, options = { index, ... } } answer: index
 -- The UI must only send legal answers (offer only the listed options; check blocks with
 -- combat.validate_blocks and damage with combat.validate_assignment before answering).
 
@@ -74,6 +77,14 @@ end
 
 function prompt:choose_cards(game, player, cards, min, max, reason)
   return ask({ kind = "choose_cards", player = player, candidates = cards, min = min, max = max, reason = reason })
+end
+
+function prompt:arrange_top(game, player, cards, away)
+  return ask({ kind = "arrange_top", player = player, cards = cards, away = away })
+end
+
+function prompt:choose_mode(game, player, source, charm, options)
+  return ask({ kind = "choose_mode", player = player, source = source, charm = charm, options = options })
 end
 
 function prompt:choose_color(game, player, source, options)
