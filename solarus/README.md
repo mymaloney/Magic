@@ -49,9 +49,8 @@ Lands are summarized as "Forest 3/5" (untapped/total) since mana is paid automat
 
 The game stops only when you have a real choice: steps where you can't do anything pass on
 their own, and combat damage is divided automatically. The AI acts instantly; follow what it
-did in the log. `duel_ui.lua` is covered by headless tests; the drawing code in `duel.lua` has
-only been run against a stubbed `sol` API (Solarus isn't installable in the cloud container),
-so check it on a real install and note any fixes here.
+did in the log. `duel_ui.lua` is covered by headless tests; the drawing code in `duel.lua` was
+confirmed on Solarus 2.1 by the owner (2026-10-30). Note any display fixes here.
 
 ## Setup
 
