@@ -38,7 +38,7 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [ ] Maloney Foundations pool fully supported (no "unsupported feature" reports)
 - [x] Overworld: duelist NPC in `first_map` starts a duel via `duel.start(game, options)`;
       the duel is no longer a startup menu (2026-10-30)
-- [ ] Duelist NPC confirmed on a real Solarus install
+- [x] Duelist NPC confirmed on a real Solarus 2.1 install (owner, 2026-10-30)
 - [ ] Overworld progression: more maps and opponents, rewards (cards) for wins, deck building
 
 Keep this checklist up to date. It's the first thing a new session should read.

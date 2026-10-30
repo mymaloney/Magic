@@ -76,9 +76,8 @@ did in the log. `duel_ui.lua` is covered by headless tests; the drawing code in 
 confirmed on Solarus 2.1 by the owner (2026-10-30). Note any display fixes here.
 
 The NPC (`npc{}` entry in `maps/first_map.dat`) and `dialogs.dat` were written by hand in the
-cloud session in the editor's file format; the NPC flow was only run against a stubbed `sol`
-API. Opening the map in the Quest Editor should show her; if the editor rewrites those files,
-commit its version.
+cloud session in the editor's file format and confirmed working on Solarus 2.1 by the owner
+(2026-10-30). If the editor rewrites those files, commit its version.
 
 ## Setup
 
