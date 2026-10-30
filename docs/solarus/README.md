@@ -26,6 +26,10 @@ this repository (a fork of Card-Forge/forge) as the reference implementation and
 - [x] Duel screen (`scripts/menus/duel.lua` + pure-Lua `scripts/duel/duel_ui.lua`) replaces the
       placeholder board: play a full game against the AI with the keyboard (2026-10-30)
 - [x] Duel screen confirmed on a real Solarus 2.1 install (owner, 2026-10-30)
+- [x] Owner's card art (`ART/`: frames, mana symbols, P/T plates) synced into the quest by
+      `tools/sync_art.py`; card faces laid out by `scripts/duel/card_layout.lua`; C zooms the
+      focused card in the duel; board boxes show the card's frame colour (2026-10-30, not yet
+      seen on a real Solarus install)
 - [ ] Duel polish: animate engine events instead of instant AI turns, manual damage division,
       joypad controls, deck choice
 - [x] ChangesZone triggers (enters/dies/leaves, with look-back), instants/sorceries, targeting

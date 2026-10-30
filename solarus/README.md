@@ -57,6 +57,7 @@ duel.start(game, {
 | Space | Play or cast the focused card (green = playable); pick attackers; pick a blocker, then the attacker it blocks; pick cards to discard; pick a target; say yes to a "may" ability |
 | Return | Pass priority / confirm attackers, blocks, discards, targets / leave the result screen |
 | Backspace | Cancel a half-made block; say no to a "may" ability |
+| C | Show the focused card full size on its card frame (press again to close; the cursor still moves) |
 | Escape | Quit (handled by `main.lua`) |
 
 Screen: opponent's status and lands, their permanents, the current situation, the last log
@@ -107,6 +108,25 @@ luajit solarus/tools/support_report.lua > solarus/cardpool/support_report.md
 
 Don't hand-edit files in `quest/data/cards/`. To change a card's behaviour, fix the script in
 `forge-gui/res/cardsfolder/` (ideally upstream) and re-sync.
+
+## Card art
+
+The owner's card art lives in `ART/` at the repository root (card frames `<color>back.png`
+160x224 with an art window, art-less `<color>snub.png` 160x120, `manasymbols.png` with 10x10
+symbols, `powertoughness.png` with 40x20 P/T plates). `tools/sync_art.py` copies it into
+`quest/data/sprites/cards/`, deriving any missing snub from the full frame (it currently derives
+`redsnub.png`). Edit the files in `ART/`, never the quest copies, then re-run:
+
+```bash
+python3 solarus/tools/sync_art.py
+python3 solarus/tools/font_metrics.py   # only if the card font changes
+```
+
+`scripts/duel/card_layout.lua` places the name, mana cost, type line, rules text (with inline
+mana symbols, in `enter_command` at 16 px) and P/T plate on a frame; positions were measured from
+the art, so a frame with a different shape needs the `FRAMES` table updated. Not covered yet by
+the art: a multicolor (gold) frame and a land frame (both use the colorless frame for now), card
+illustrations (the art window is filled with a flat colour), and a {0} mana symbol.
 
 ## Adding content
 

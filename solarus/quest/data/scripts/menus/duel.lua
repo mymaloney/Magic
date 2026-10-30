@@ -11,7 +11,8 @@
 -- scripts/mtg/. Only one duel runs at a time.
 --
 -- Keys: arrows move the cursor, Space selects, Return confirms/passes, Backspace cancels a block or
--- says no to a "may" ability.
+-- says no to a "may" ability, C shows the focused card full size (on the owner's card frames,
+-- laid out by scripts/duel/card_layout.lua) until pressed again.
 -- Layout (320x240, 8_bit font = 9x12 px per character, about 35 characters per line):
 --   opponent status, opponent lands, opponent permanents, prompt, last log line,
 --   your permanents, your lands, your hand, your status, card detail panel (focused card, or the
@@ -22,6 +23,7 @@ local Game = require("scripts/mtg/game")
 local ai = require("scripts/mtg/controllers/ai")
 local prompt = require("scripts/mtg/controllers/prompt")
 local duel_ui = require("scripts/duel/duel_ui")
+local card_layout = require("scripts/duel/card_layout")
 local decks = require("scripts/duel/decks")
 local pool = require("cards/pool")
 
@@ -54,8 +56,17 @@ local COLORS = {
   focus = { 255, 215, 0 },
 }
 
+-- Outer border color of each card frame, used as a strip on the board's card boxes.
+local FRAME_COLORS = {
+  white = { 186, 178, 149 }, blue = { 0, 116, 186 }, black = { 135, 83, 255 },
+  red = { 186, 61, 38 }, green = { 135, 186, 161 }, colorless = { 186, 186, 186 },
+}
+
 local ui
 local text_cache = {}
+local card_text_cache = {}
+local images = {}
+local layout_cache = {}   -- [card] = { key = ..., ops = ... }
 
 local function text(dst, str, x, y)
   if str == nil or str == "" then
@@ -70,6 +81,50 @@ local function text(dst, str, x, y)
     text_cache[str] = surface
   end
   surface:draw(dst, x, y)
+end
+
+-- Card text in the card font (enter_command at 16 px, no antialiasing).
+local function card_text(dst, str, x, y)
+  local surface = card_text_cache[str]
+  if surface == nil then
+    surface = sol.text_surface.create({
+      font = card_layout.FONT.font, font_size = card_layout.FONT.size, rendering_mode = "solid",
+      color = card_layout.INK, text = str, horizontal_alignment = "left", vertical_alignment = "top",
+    })
+    card_text_cache[str] = surface
+  end
+  surface:draw(dst, x, y)
+end
+
+local function image(file)
+  local surface = images[file]
+  if surface == nil then
+    surface = sol.surface.create(file)
+    images[file] = surface
+  end
+  return surface
+end
+
+-- Draws a card face ("full" 160x224 or "snub" 160x120) with its top-left corner at (x, y).
+local function draw_card(dst, card, x, y, mode)
+  local key = mode .. card:name() .. (card:is_creature() and (card:power() .. "/" .. card:toughness()) or "")
+      .. card_layout.frame_color(card)
+  local cached = layout_cache[card]
+  if cached == nil or cached.key ~= key then
+    cached = { key = key, ops = card_layout.layout(card, mode) }
+    layout_cache[card] = cached
+  end
+  for _, o in ipairs(cached.ops) do
+    if o.op == "image" then
+      image(o.file):draw(dst, x + o.x, y + o.y)
+    elseif o.op == "region" then
+      image(o.file):draw_region(o.sx, o.sy, o.w, o.h, dst, x + o.x, y + o.y)
+    elseif o.op == "fill" then
+      dst:fill_color(o.color, x + o.x, y + o.y, o.w, o.h)
+    elseif o.op == "text" then
+      card_text(dst, o.text, x + o.x, y + o.y)
+    end
+  end
 end
 
 local function clip(str)
@@ -98,6 +153,7 @@ end
 
 function duel_menu:on_started()
   text_cache = {}
+  layout_cache = {}
   result = nil
   db = db or card_db.new(pool, read_file)
   local game = Game.new({
@@ -168,6 +224,9 @@ local function draw_row(dst, row, y)
       dst:fill_color(COLORS.focus, x - 1, y - 1, BOX_W + 2, BOX_H + 2)
     end
     dst:fill_color(box_color(marks), x, y, BOX_W, BOX_H)
+    if not card.is_option and card.life == nil then
+      dst:fill_color(FRAME_COLORS[card_layout.frame_color(card)], x, y, BOX_W, 2)
+    end
     if card.is_option then    -- a choice such as a color
       text(dst, card.label:sub(1, 4), x + 1, y + 1)
       text(dst, card.label:sub(5), x + 1, y + 13)
@@ -230,11 +289,17 @@ function duel_menu:on_draw(dst)
   draw_row(dst, 3, Y.hand_row)
   text(dst, clip(status_line(ui.human, "You") .. "  T" .. game.turn), 2, Y.my_status)
   draw_details(dst, help)
+  local zoomed = ui:zoomed_card()
+  if zoomed then
+    -- on the side away from the cursor, so the focused box stays visible
+    local x = ui.col <= MAX_BOXES / 2 and 156 or 4
+    draw_card(dst, zoomed, x, 8, "full")
+  end
 end
 
 local KEYS = {
   left = "left", right = "right", up = "up", down = "down",
-  space = "select", ["return"] = "confirm", ["kp return"] = "confirm", backspace = "cancel",
+  space = "select", ["return"] = "confirm", ["kp return"] = "confirm", backspace = "cancel", c = "zoom",
 }
 
 function duel_menu:on_key_pressed(key, modifiers)

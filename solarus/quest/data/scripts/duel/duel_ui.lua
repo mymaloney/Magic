@@ -46,6 +46,7 @@ function duel_ui.new(game, human)
     col = 1,
     selected = {},        -- attackers / discards being chosen: [card] = true
     blocks = {},          -- [blocker] = attacker
+    zoom = false,         -- show the focused card full size ("zoom" input toggles it)
     pending_blocker = nil,
     log = {},
     error_message = nil,
@@ -209,6 +210,15 @@ end
 
 function duel_ui:focused_card()
   return self:row_cards(self.row)[self.col]
+end
+
+-- The card to show full size: the focused one while zoom is on (not options or players).
+function duel_ui:zoomed_card()
+  local card = self.zoom and self:focused_card()
+  if card and not card.is_option and card.life == nil then
+    return card
+  end
+  return nil
 end
 
 -- Highlights for drawing a card.
@@ -629,7 +639,9 @@ function duel_ui:confirm()
 end
 
 function duel_ui:press(input)
-  if input == "left" then
+  if input == "zoom" then
+    self.zoom = not self.zoom
+  elseif input == "left" then
     self.col = self.col - 1
     self:clamp_focus()
   elseif input == "right" then
