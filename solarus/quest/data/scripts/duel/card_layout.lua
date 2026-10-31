@@ -31,15 +31,17 @@ local SYMBOL_EXTRA = 1  -- extra space above a line holding a symbol, which is t
 
 -- Frame geometry, measured from the art: interior of each bar/box.
 local FRAMES = {
-  full = { w = 160, h = 224, title = 6, type = 129, art = { x = 5, y = 22, w = 150, h = 105 },
-           text_top = 146, text_bottom = 210, pt_y = 199 },
-  snub = { w = 160, h = 120, title = 6, type = 24,
+  full = { w = 160, h = 224, title = 5, title_h = 24, type = 113, art = { x = 24, y = 32, w = 112, h = 80 },
+           text_top = 130, text_bottom = 210, pt_y = 199 },
+  snub = { w = 160, h = 120, title = 6, title_h = 14, type = 24,
            text_top = 41, text_bottom = 106, pt_y = 95 },
 }
 local TEXT_LEFT, TEXT_RIGHT = 11, 148
-local BAR_LEFT, BAR_RIGHT = 8, 152
+local BAR_LEFT, BAR_RIGHT = 8, 152          -- type line
+local TITLE_LEFT, TITLE_RIGHT = 6, 153      -- title bars are wider inside (x 5-154)
 local PT_X, PT_W, PT_H = 114, 40, 20
 local BAR_TEXT_DY = 3   -- text y in a 14px bar, so its 5px of ink sit in the middle
+local TWO_ROW_TITLE = 22  -- a title bar at least this tall can put the cost under a long name
 local PT_TEXT_DY = 6    -- same in a P/T plate (interior rows 3-16)
 
 local COLOR_NAMES = { W = "white", U = "blue", B = "black", R = "red", G = "green" }
@@ -285,22 +287,35 @@ function card_layout.layout(card, mode)
                       w = frame.art.w, h = frame.art.h }
   end
 
-  -- title bar: name, mana cost right-aligned
+  -- title bar: name, mana cost right-aligned on the same row; in a tall bar, a name too long for
+  -- that row gets the whole top row and the cost goes under it
   local cost = card_layout.cost_symbols(face.mana_cost)
-  local cost_x = BAR_RIGHT + 1
+  local cost_w = 0
+  for _, name in ipairs(cost) do
+    cost_w = cost_w + (is_drawable_symbol(name) and SYMBOL_STEP or (card_layout.text_width(name) + 1))
+  end
+  local name = clean(card:name())
+  local text_y = frame.title + math.floor((frame.title_h - (INK_TOP + INK_HEIGHT)) / 2)
+  local symbol_y = frame.title + math.floor((frame.title_h - SYMBOL) / 2)
+  local name_room = TITLE_RIGHT + 1 - cost_w - TITLE_LEFT - 2
+  if card_layout.text_width(name) > name_room and frame.title_h >= TWO_ROW_TITLE and #cost > 0 then
+    text_y = frame.title + 2
+    symbol_y = frame.title + frame.title_h - SYMBOL - 1
+    name_room = TITLE_RIGHT + 1 - TITLE_LEFT
+    info.two_row_title = true
+  end
+  local cost_x = TITLE_RIGHT + 1
   for i = #cost, 1, -1 do
-    local name = cost[i]
-    if is_drawable_symbol(name) then
+    local symbol = cost[i]
+    if is_drawable_symbol(symbol) then
       cost_x = cost_x - SYMBOL_STEP
-      symbol_ops(ops, name, cost_x + 1, frame.title + 2)
+      symbol_ops(ops, symbol, cost_x + 1, symbol_y)
     else
-      local w = card_layout.text_width(name)
-      cost_x = cost_x - w - 1
-      ops[#ops + 1] = { op = "text", text = name, x = cost_x, y = frame.title + BAR_TEXT_DY }
+      cost_x = cost_x - card_layout.text_width(symbol) - 1
+      ops[#ops + 1] = { op = "text", text = symbol, x = cost_x, y = symbol_y + 2 }
     end
   end
-  ops[#ops + 1] = { op = "text", text = fit(clean(card:name()), cost_x - BAR_LEFT - 2), x = BAR_LEFT,
-                    y = frame.title + BAR_TEXT_DY }
+  ops[#ops + 1] = { op = "text", text = fit(name, name_room), x = TITLE_LEFT, y = text_y }
 
   -- type line
   ops[#ops + 1] = { op = "text", text = fit(clean(card_layout.type_line(face.types)), BAR_RIGHT - BAR_LEFT), x = BAR_LEFT,

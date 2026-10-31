@@ -6,6 +6,9 @@ ART/ is the source of truth; the quest copy is generated, so edit the files in A
 
     python3 solarus/tools/sync_art.py
 
+The full frames come from the sheet backs.png when it exists (160x224 cells, row by row: white,
+blue, black, red / green, colorless, gold); it replaces the single <color>back.png files.
+
 Missing "snub" frames (the art-less 160x120 version) are derived from the full frame of the same
 color: the title bar, then everything from the type bar down, with one extra text-box row. That
 recipe reproduces every snub in ART/ exactly. A derived file is reported so it can be replaced by
@@ -23,6 +26,7 @@ SOURCE = os.path.join(ROOT, "ART")
 DEST = os.path.join(ROOT, "solarus", "quest", "data", "sprites", "cards")
 FONTS = os.path.join(ROOT, "solarus", "quest", "data", "fonts")
 COLORS = ["white", "blue", "black", "red", "green", "colorless", "gold"]
+SHEET = "backs.png"   # all full frames in one sheet, in COLORS order, 4 per row
 
 
 def snub_from_back(path):
@@ -38,10 +42,21 @@ def snub_from_back(path):
 def main():
     os.makedirs(DEST, exist_ok=True)
     for name in sorted(os.listdir(SOURCE)):
+        if name == SHEET:
+            continue
         if name.lower().endswith(".png"):
             shutil.copyfile(os.path.join(SOURCE, name), os.path.join(DEST, name))
         elif name.lower().endswith(".ttf"):
             shutil.copyfile(os.path.join(SOURCE, name), os.path.join(FONTS, name))
+    sheet_path = os.path.join(SOURCE, SHEET)
+    if os.path.exists(sheet_path):
+        sheet = Image.open(sheet_path).convert("RGBA")
+        for i, color in enumerate(COLORS):
+            x, y = (i % 4) * 160, (i // 4) * 224
+            sheet.crop((x, y, x + 160, y + 224)).save(os.path.join(DEST, color + "back.png"))
+        stale = os.path.join(DEST, SHEET)
+        if os.path.exists(stale):
+            os.remove(stale)
     for color in COLORS:
         back = os.path.join(SOURCE, color + "back.png")
         snub = os.path.join(SOURCE, color + "snub.png")

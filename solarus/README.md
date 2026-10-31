@@ -111,9 +111,9 @@ Don't hand-edit files in `quest/data/cards/`. To change a card's behaviour, fix 
 
 ## Card art
 
-The owner's card art lives in `ART/` at the repository root (card frames `<color>back.png`
-160x224 with an art window and art-less `<color>snub.png` 160x120 for white, blue, black, red,
-green, colorless and gold; `manasymbols.png` with 10x10 symbols; `powertoughness.png` with 40x20
+The owner's card art lives in `ART/` at the repository root (full card frames in the sheet
+`backs.png`, 160x224 cells in the order white, blue, black, red / green, colorless, gold, which
+`sync_art.py` slices into `<color>back.png`; art-less `<color>snub.png` 160x120 per colour; `manasymbols.png` with 10x10 symbols; `powertoughness.png` with 40x20
 P/T plates; the card font `total25.ttf`). `tools/sync_art.py` copies the PNGs into
 `quest/data/sprites/cards/` (deriving a snub from the full frame if one is missing) and fonts into
 `quest/data/fonts/`. Edit the files in `ART/`, never the quest copies, then re-run:
@@ -125,7 +125,8 @@ python3 solarus/tools/font_metrics.py   # only if the card font changes
 
 `scripts/duel/card_layout.lua` places the name, mana cost, type line, rules text (with inline
 mana symbols) and P/T plate on a frame; positions were measured from the art, so a frame with a
-different shape needs the `FRAMES` table updated. Card text uses Total25 at size 5, its native
+different shape needs the `FRAMES` table updated. The full frame's tall title bar puts the mana
+cost under a name that doesn't fit beside it. Card text uses Total25 at size 5, its native
 pixel size (the font is drawn on a grid of size/5 px). Multicolor and hybrid cards use the gold
 frame; lands use the colorless one. Unmapped symbol cells (probably snow, chaos, Phyrexian
 generic, planeswalker, paw) are listed in `card_layout.lua`; card illustrations aren't drawn yet

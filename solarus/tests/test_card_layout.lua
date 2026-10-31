@@ -49,8 +49,12 @@ return function(t)
   t.check(not table.concat(texts(ops_of("Shock", "full")), "|"):find("/", 1, true), "no P/T on an instant")
   t.check(table.concat(texts(ops_of("Cultivator's Caravan", "full")), "|"):find("5/5", 1, true), "Vehicle shows its P/T")
 
+  local _, aurelia = card_layout.layout(card("Aurelia, the Warleader"), "full")
+  local _, angel = card_layout.layout(card("Serra Angel"), "full")
+  t.check(aurelia.two_row_title and not angel.two_row_title, "long name: cost moves under it in the tall title bar")
+
   t.section("card layout: the whole pool")
-  local overflow, out_of_bounds, wide = 0, 0, 0
+  local overflow, out_of_bounds, wide, short_names = 0, 0, 0, 0
   for i, def in ipairs(t.db.list) do
     for _, mode in ipairs({ "full", "snub" }) do
       local c = Card.new(def, nil, i, nil)
@@ -59,17 +63,21 @@ return function(t)
         overflow = overflow + 1
       end
       for _, o in ipairs(list) do
+        if mode == "full" and o.op == "text" and o.y < 20 and o.text:sub(-1) == "." and o.text ~= def.name then
+          short_names = short_names + 1
+        end
         local w = o.w or (o.op == "text" and card_layout.text_width(o.text)) or 0
         if o.x < 0 or o.y < 0 or o.x + w > info.w or o.y + (o.h or 14) > info.h then
           out_of_bounds = out_of_bounds + 1
         end
-        if o.op == "text" and o.y > 140 and o.x + card_layout.text_width(o.text) > 150 then
+        if o.op == "text" and o.y > 128 and o.x + card_layout.text_width(o.text) > 150 then
           wide = wide + 1
         end
       end
     end
   end
   t.eq(out_of_bounds, 0, "every operation stays inside the card")
+  t.eq(short_names, 0, "every name fits on the full card")
   t.eq(wide, 0, "rules text stays inside the text box")
   t.check(overflow < #t.db.list * 2 / 20, "rules text fits on at least 95% of faces (" .. overflow .. " overflow)")
 
