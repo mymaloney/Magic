@@ -112,10 +112,11 @@ Don't hand-edit files in `quest/data/cards/`. To change a card's behaviour, fix 
 ## Card art
 
 The owner's card art lives in `ART/` at the repository root (card frames `<color>back.png`
-160x224 with an art window, art-less `<color>snub.png` 160x120, `manasymbols.png` with 10x10
-symbols, `powertoughness.png` with 40x20 P/T plates). `tools/sync_art.py` copies it into
-`quest/data/sprites/cards/`, deriving any missing snub from the full frame (it currently derives
-`redsnub.png`). Edit the files in `ART/`, never the quest copies, then re-run:
+160x224 with an art window and art-less `<color>snub.png` 160x120 for white, blue, black, red,
+green, colorless and gold; `manasymbols.png` with 10x10 symbols; `powertoughness.png` with 40x20
+P/T plates; the card font `total25.ttf`). `tools/sync_art.py` copies the PNGs into
+`quest/data/sprites/cards/` (deriving a snub from the full frame if one is missing) and fonts into
+`quest/data/fonts/`. Edit the files in `ART/`, never the quest copies, then re-run:
 
 ```bash
 python3 solarus/tools/sync_art.py
@@ -123,10 +124,15 @@ python3 solarus/tools/font_metrics.py   # only if the card font changes
 ```
 
 `scripts/duel/card_layout.lua` places the name, mana cost, type line, rules text (with inline
-mana symbols, in `enter_command` at 16 px) and P/T plate on a frame; positions were measured from
-the art, so a frame with a different shape needs the `FRAMES` table updated. Not covered yet by
-the art: a multicolor (gold) frame and a land frame (both use the colorless frame for now), card
-illustrations (the art window is filled with a flat colour), and a {0} mana symbol.
+mana symbols) and P/T plate on a frame; positions were measured from the art, so a frame with a
+different shape needs the `FRAMES` table updated. Card text uses Total25 at size 5, its native
+pixel size (the font is drawn on a grid of size/5 px). Multicolor and hybrid cards use the gold
+frame; lands use the colorless one. Unmapped symbol cells (probably snow, chaos, Phyrexian
+generic, planeswalker, paw) are listed in `card_layout.lua`; card illustrations aren't drawn yet
+(the art window is a flat colour).
+
+**Font licence:** Total25 (KubsFonts) is under the FontStruct Non-Commercial License, so the game
+can't be sold while it uses it. `enter_command` (Jeti, CC BY 4.0) and `8_bit` are fine.
 
 ## Adding content
 

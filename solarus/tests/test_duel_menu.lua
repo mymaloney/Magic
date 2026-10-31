@@ -30,6 +30,12 @@ return function(t)
     return u32(17), u32(21)
   end
 
+  -- fonts Solarus can load: the ones declared in project_db.dat
+  local declared_fonts = {}
+  for id in t.read(DATA .. "project_db.dat"):gmatch('font{ id = "([^"]+)"') do
+    declared_fonts[id] = true
+  end
+
   local menus, language = {}, nil
   local previous_sol = sol
   sol = {
@@ -43,10 +49,12 @@ return function(t)
     },
     text_surface = {
       create = function(p)
+        assert(declared_fonts[p.font], "font not declared in project_db.dat: " .. tostring(p.font))
         if p.font == "8_bit" then
           assert(#p.text <= 35, "8_bit line too long: " .. p.text)
         else
-          assert(p.font == "enter_command" and p.font_size == 16, "card font")
+          local card_font = require("scripts/duel/card_layout").FONT
+          assert(p.font == card_font.font and p.font_size == card_font.size, "card font")
         end
         return setmetatable({}, surface)
       end,

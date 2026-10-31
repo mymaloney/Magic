@@ -20,9 +20,14 @@ card_layout.FONT = { font = metrics.font, size = metrics.size }
 card_layout.INK = { 56, 57, 55 }
 card_layout.ART_PLACEHOLDER = { 64, 64, 72 }
 
-local LINE = 9          -- rules text line spacing (glyphs, descenders included, span rows 4-12)
+-- Card font (total25 at its native size 5): glyphs, capitals and lowercase alike, cover rows 1-5
+-- of the line box, so text drawn at y has its ink at y+1 .. y+5.
+local INK_TOP, INK_HEIGHT = 1, 5
+local LINE = 7          -- rules text line spacing
 local SYMBOL = 10       -- mana symbols are 10x10 cells in a 6-column sheet
 local SYMBOL_STEP = 11
+local SYMBOL_DY = -2    -- symbol top relative to its text line (centred on the ink)
+local SYMBOL_EXTRA = 1  -- extra space above a line holding a symbol, which is taller than LINE
 
 -- Frame geometry, measured from the art: interior of each bar/box.
 local FRAMES = {
@@ -34,13 +39,18 @@ local FRAMES = {
 local TEXT_LEFT, TEXT_RIGHT = 11, 148
 local BAR_LEFT, BAR_RIGHT = 8, 152
 local PT_X, PT_W, PT_H = 114, 40, 20
+local BAR_TEXT_DY = 3   -- text y in a 14px bar, so its 5px of ink sit in the middle
+local PT_TEXT_DY = 6    -- same in a P/T plate (interior rows 3-16)
 
 local COLOR_NAMES = { W = "white", U = "blue", B = "black", R = "red", G = "green" }
--- P/T plates: a 2-column sheet of 40x20 cells, in the order white, blue / black, red / green, colorless.
-local PT_CELL = { white = { 0, 0 }, blue = { 1, 0 }, black = { 0, 1 }, red = { 1, 1 }, green = { 0, 2 }, colorless = { 1, 2 } }
+-- P/T plates: a 2-column sheet of 40x20 cells: white, blue / black, red / green, colorless / gold.
+local PT_CELL = { white = { 0, 0 }, blue = { 1, 0 }, black = { 0, 1 }, red = { 1, 1 }, green = { 0, 2 }, colorless = { 1, 2 },
+                  gold = { 0, 3 } }
 
--- Symbol name -> cell index in manasymbols.png (row-major, 6 per row).
-local SYMBOLS = { C = 12, W = 13, U = 14, B = 15, R = 16, G = 17, T = 18, X = 19 }
+-- Symbol name -> cell index in manasymbols.png (row-major, 6 per row). Cells 23, 24, 30, 31 and 35
+-- (probably snow, chaos, a Phyrexian generic, planeswalker and paw) aren't mapped until confirmed.
+local SYMBOLS = { C = 12, W = 13, U = 14, B = 15, R = 16, G = 17, T = 18, X = 19, Y = 20, Z = 21, ["0"] = 22,
+                  ["W/P"] = 25, ["U/P"] = 26, ["B/P"] = 27, ["R/P"] = 28, ["G/P"] = 29, E = 34 }
 for n = 1, 12 do
   SYMBOLS[tostring(n)] = n - 1
 end
@@ -76,10 +86,11 @@ local function symbol_width(name)
   return SYMBOL
 end
 
--- Operations drawing one symbol ("W", "3", "R/G"); nil if there's no art for it.
+-- Operations drawing one symbol ("W", "3", "U/P", "R/G"); false if there's no art for it.
+-- A hybrid without a cell of its own is drawn as the left half of one and the right of the other.
 local function symbol_ops(ops, name, x, y)
   local a, b = name:match("^(%a)/(%a)$")
-  if a then
+  if a and SYMBOLS[name] == nil then
     local ax, ay = card_layout.symbol_cell(a)
     local bx, by = card_layout.symbol_cell(b)
     if not ax or not bx then
@@ -100,7 +111,7 @@ end
 
 local function is_drawable_symbol(name)
   local a, b = name:match("^(%a)/(%a)$")
-  if a then
+  if a and SYMBOLS[name] == nil then
     return SYMBOLS[a] ~= nil and SYMBOLS[b] ~= nil
   end
   return SYMBOLS[name] ~= nil
@@ -149,7 +160,9 @@ local function pieces_width(pieces)
   local w = 0
   for i, p in ipairs(pieces) do
     if p.kind == "symbol" then
-      w = w + symbol_width(p.name) + ((i < #pieces) and 1 or 0)
+      w = w + symbol_width(p.name) + ((pieces[i + 1] and pieces[i + 1].kind == "symbol") and 1 or 0)
+    elseif p.kind == "space" then
+      w = w + card_layout.text_width(" ")
     else
       w = w + card_layout.text_width(p.text)
     end
@@ -187,13 +200,13 @@ function card_layout.wrap(text, max_width)
   return lines
 end
 
--- Which frame color a card uses: its single color, else colorless (no multicolor frame yet).
+-- Which frame a card uses: its single color, gold for two or more, else colorless.
 function card_layout.frame_color(card)
   local found
   for letter, name in pairs(COLOR_NAMES) do
     if card:has_color(letter) then
       if found then
-        return "colorless", true
+        return "gold", true
       end
       found = name
     end
@@ -218,7 +231,7 @@ local function line_ops(ops, line, x, y)
       buffer = buffer .. p.text
     else
       flush()
-      symbol_ops(ops, p.name, x, y + 3)
+      symbol_ops(ops, p.name, x, y + SYMBOL_DY)
       x = x + symbol_width(p.name) + ((line.pieces[i + 1] and line.pieces[i + 1].kind == "symbol") and 1 or 0)
     end
   end
@@ -283,14 +296,15 @@ function card_layout.layout(card, mode)
     else
       local w = card_layout.text_width(name)
       cost_x = cost_x - w - 1
-      ops[#ops + 1] = { op = "text", text = name, x = cost_x, y = frame.title - 1 }
+      ops[#ops + 1] = { op = "text", text = name, x = cost_x, y = frame.title + BAR_TEXT_DY }
     end
   end
-  ops[#ops + 1] = { op = "text", text = fit(clean(card:name()), cost_x - BAR_LEFT - 2), x = BAR_LEFT, y = frame.title - 1 }
+  ops[#ops + 1] = { op = "text", text = fit(clean(card:name()), cost_x - BAR_LEFT - 2), x = BAR_LEFT,
+                    y = frame.title + BAR_TEXT_DY }
 
   -- type line
   ops[#ops + 1] = { op = "text", text = fit(clean(card_layout.type_line(face.types)), BAR_RIGHT - BAR_LEFT), x = BAR_LEFT,
-                    y = frame.type - 1 }
+                    y = frame.type + BAR_TEXT_DY }
 
   -- P/T plate
   local pt_text
@@ -304,34 +318,58 @@ function card_layout.layout(card, mode)
     ops[#ops + 1] = { op = "region", file = "cards/powertoughness.png", sx = cell[1] * PT_W, sy = cell[2] * PT_H,
                       w = PT_W, h = PT_H, x = PT_X, y = frame.pt_y }
     ops[#ops + 1] = { op = "text", text = pt_text, x = PT_X + math.floor((PT_W - card_layout.text_width(pt_text)) / 2),
-                      y = frame.pt_y + 2 }
+                      y = frame.pt_y + PT_TEXT_DY }
   end
 
   -- rules text, kept clear of the P/T plate
-  local first_top = frame.text_top - 3   -- capitals start 1px below the box's top edge
-  local max_lines = math.floor((frame.text_bottom + 1 - 13 - first_top) / LINE) + 1
+  local first_top = frame.text_top + 1
   local function line_room(i)
-    local top = first_top + (i - 1) * LINE
-    if pt_text and top + 13 > frame.pt_y + 1 then
+    -- worst case (every line so far holding a symbol), so lines near the plate are never too wide
+    local bottom = first_top + (i - 1) * (LINE + SYMBOL_EXTRA) + SYMBOL_EXTRA + SYMBOL_DY + SYMBOL
+    if pt_text and bottom > frame.pt_y then
       return PT_X - TEXT_LEFT - 2
     end
     return TEXT_RIGHT - TEXT_LEFT
   end
+  -- top of each line that fits in the box, given which lines hold symbols
+  local function place(lines)
+    local tops, y = {}, first_top - LINE
+    for i, line in ipairs(lines) do
+      local has_symbol = false
+      for _, p in ipairs(line.pieces) do
+        has_symbol = has_symbol or p.kind == "symbol"
+      end
+      y = y + LINE + (has_symbol and SYMBOL_EXTRA or 0)
+      local bottom = has_symbol and (y + SYMBOL_DY + SYMBOL) or (y + INK_TOP + INK_HEIGHT)
+      if bottom > frame.text_bottom then
+        break
+      end
+      tops[i] = y
+    end
+    return tops
+  end
   local oracle = clean((face.oracle or ""):gsub("\\n", "\n"))
   local lines = card_layout.wrap(oracle, line_room)
-  if #lines > max_lines then
+  local tops = place(lines)
+  if #tops < #lines then
     lines = card_layout.wrap(card_layout.strip_reminders(oracle), line_room)
+    tops = place(lines)
   end
-  if #lines > max_lines then
+  if #tops < #lines then
     info.overflow = true
-    local last = lines[max_lines]
-    last.pieces[#last.pieces + 1] = { kind = "text", text = "..." }
-    for i = #lines, max_lines + 1, -1 do
+    for i = #lines, #tops + 1, -1 do
       lines[i] = nil
     end
+    -- end the last line with "...", dropping pieces until it fits
+    local last = lines[#lines]
+    local dots = card_layout.text_width("...")
+    while #last.pieces > 0 and pieces_width(last.pieces) + dots > line_room(#lines) do
+      last.pieces[#last.pieces] = nil
+    end
+    last.pieces[#last.pieces + 1] = { kind = "text", text = "..." }
   end
   for i, line in ipairs(lines) do
-    line_ops(ops, line, TEXT_LEFT, first_top + (i - 1) * LINE)
+    line_ops(ops, line, TEXT_LEFT, tops[i])
   end
   info.lines = #lines
   return ops, info

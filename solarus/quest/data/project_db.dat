@@ -312,6 +312,7 @@ language{ id = "en", description = "English" }
 
 font{ id = "8_bit", description = "8 bit" }
 font{ id = "enter_command", description = "Enter Command" }
+font{ id = "total25", description = "Total25" }
 
 shader{ id = "grayscale", description = "grayscale" }
 shader{ id = "hq2x", description = "hq2x" }
@@ -335,6 +336,7 @@ file{ path = "enemies/slime_yellow.lua", author = "Diarandor", license = "GPL v3
 file{ path = "enemies/slimy_green.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "fonts/8_bit.png", author = "usr_share, Christopho", license = "Public domain" }
 file{ path = "fonts/enter_command.ttf", author = "Jeti", license = "CC BY 4.0" }
+file{ path = "fonts/total25.ttf", author = "KubsFonts", license = "FontStruct Non-Commercial License" }
 file{ path = "items/gem.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/heart.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/money_bag.lua", author = "Christopho", license = "GPL v3" }
