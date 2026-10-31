@@ -5,13 +5,21 @@ card layout can wrap text by pixel width without Solarus. Re-run if the font or 
     python3 solarus/tools/font_metrics.py
 """
 
+import math
 import os
 
 from PIL import ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA = os.path.join(ROOT, "solarus", "quest", "data")
-FONT, SIZE = "enter_command", 16
+# total25 (by KubsFonts, FontStruct Non-Commercial License) is drawn on a grid of size/5 px, so
+# size 5 is its native 1:1 pixel size.
+FONT, SIZE = "total25", 5
+
+
+def px(advance):
+    # FreeType's hinting (SDL_ttf, so Solarus) rounds half-pixel advances up, e.g. the space's 2.5
+    return int(math.floor(advance + 0.5))
 
 
 def main():
@@ -22,11 +30,11 @@ def main():
         "-- Advance widths (px) of " + FONT + " at size " + str(SIZE) + ", for ASCII 32-126.",
         "return {",
         '  font = "%s", size = %d, ascent = %d, descent = %d,' % (FONT, SIZE, ascent, descent),
-        "  em_dash = %d,  -- the only non-ASCII glyph card text uses" % round(font.getlength("\u2014")),
+        "  em_dash = %d,  -- the only non-ASCII glyph card text uses" % px(font.getlength("\u2014")),
         "  widths = {",
     ]
     for code in range(32, 127):
-        lines.append("    [%d] = %d,  -- %s" % (code, round(font.getlength(chr(code))), chr(code)))
+        lines.append("    [%d] = %d,  -- %s" % (code, px(font.getlength(chr(code))), chr(code)))
     lines += ["  },", "}", ""]
     with open(os.path.join(DATA, "scripts", "duel", "font_metrics.lua"), "w", newline="\n") as out:
         out.write("\n".join(lines))

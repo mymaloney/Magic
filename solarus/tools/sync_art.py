@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Copies the owner's card art from ART/ into the quest (solarus/quest/data/sprites/cards/).
+"""Copies the owner's card art from ART/ into the quest: PNGs to solarus/quest/data/sprites/cards/,
+fonts (.ttf) to solarus/quest/data/fonts/.
 
 ART/ is the source of truth; the quest copy is generated, so edit the files in ART/ and re-run:
 
@@ -20,7 +21,8 @@ from PIL import Image
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SOURCE = os.path.join(ROOT, "ART")
 DEST = os.path.join(ROOT, "solarus", "quest", "data", "sprites", "cards")
-COLORS = ["white", "blue", "black", "red", "green", "colorless"]
+FONTS = os.path.join(ROOT, "solarus", "quest", "data", "fonts")
+COLORS = ["white", "blue", "black", "red", "green", "colorless", "gold"]
 
 
 def snub_from_back(path):
@@ -38,6 +40,8 @@ def main():
     for name in sorted(os.listdir(SOURCE)):
         if name.lower().endswith(".png"):
             shutil.copyfile(os.path.join(SOURCE, name), os.path.join(DEST, name))
+        elif name.lower().endswith(".ttf"):
+            shutil.copyfile(os.path.join(SOURCE, name), os.path.join(FONTS, name))
     for color in COLORS:
         back = os.path.join(SOURCE, color + "back.png")
         snub = os.path.join(SOURCE, color + "snub.png")
