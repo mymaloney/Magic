@@ -123,6 +123,11 @@ SCRYFALL_TAGS = {
 }
 SCRYFALL_CACHE_NAME = 'preferred-printings-scryfall.json'
 PRINTING_TAGS = {}  # "SET|CN" -> set of categories, from the Scryfall card details file
+# Retro-frame reprints in newer sets. Forge's files only mark these in a few sets' [retro frame] sections
+# (Commander sets like BRC and the Retro Artifacts set list them as ordinary cards), so Scryfall's frame field
+# fills them in. Older printings are old-frame by date anyway, so only newer ones are asked for.
+SCRYFALL_RETRO_QUERIES = ('frame:1997 year>=2004', 'frame:1993 year>=2004')
+OLD_FRAME_PRINTINGS = set()  # "SET|CN" 
 LANGUAGE_PRINTINGS = {}  # language code -> {"SET|CN"} printed in that language (Scryfall details + Forge's cache)
 CARD_LANG_BY_SET = {}  # Forge set code -> language of the whole set (CardLang in its edition file)
 # The languages Forge can show card pictures in (ForgeConstants.getScryfallCardLanguageMapping).
@@ -310,7 +315,8 @@ def category_of(p):
 
 
 def is_old_frame(p):
-    return p.section == 'retro frame' or p.date < OLD_FRAME_CUTOFF
+    return (p.section == 'retro frame' or p.date < OLD_FRAME_CUTOFF
+            or f'{p.set}|{p.cn}'.upper() in OLD_FRAME_PRINTINGS)
 
 
 def forge_sortable_cn(cn):
@@ -570,6 +576,7 @@ def scryfall_cache_path(opts):
 def load_scryfall_tags(path):
     """Load card details saved by fetch_scryfall_tags; returns the file's info, or None if there is none."""
     PRINTING_TAGS.clear()
+    OLD_FRAME_PRINTINGS.clear()
     LANGUAGE_PRINTINGS.clear()
     if not os.path.isfile(path):
         return None
@@ -580,11 +587,13 @@ def load_scryfall_tags(path):
             if cat in CATEGORIES:
                 for key in keys:
                     PRINTING_TAGS.setdefault(key.upper(), set()).add(cat)
+        OLD_FRAME_PRINTINGS.update(k.upper() for k in data.get('old_frame', []))
         for lang, keys in data.get('languages', {}).items():
             LANGUAGE_PRINTINGS.setdefault(lang, set()).update(k.upper() for k in keys)
     except (OSError, ValueError, AttributeError) as e:
         raise ToolError(f'Could not read Scryfall card details from {path}: {e}')
     return {'fetched': data.get('fetched'), 'printings': len(PRINTING_TAGS), 'notes': data.get('notes', []),
+            'oldFrame': len(OLD_FRAME_PRINTINGS) if 'old_frame' in data else None,
             'languages': sorted(data.get('languages', {}))}
 
 
@@ -694,6 +703,14 @@ def fetch_scryfall_tags(editions, path, api=SCRYFALL_API, progress=None, languag
             continue
         tags[cat] = keys_for(found)
 
+    old_frame = set()
+    for query in SCRYFALL_RETRO_QUERIES:  # both are needed: 1993- and 1997-style frames
+        cards, error = _scryfall_search(api, query, 'Retro frames', progress, include_variations='true')
+        if error:
+            notes.append(f'old frame: Scryfall did not accept "{query}" ({error})')
+            continue
+        old_frame.update(keys_for(c for c in cards if c.get('frame', '1997') in ('1993', '1997')))
+
     languages = {}
     if os.path.isfile(path):  # keep languages fetched before
         try:
@@ -710,7 +727,8 @@ def fetch_scryfall_tags(editions, path, api=SCRYFALL_API, progress=None, languag
             languages[language] = keys_for(c for c in cards if c.get('lang', language) == language)
     with open(path, 'w', encoding='utf-8') as f:
         json.dump({'fetched': datetime.datetime.now().isoformat(timespec='seconds'), 'source': api,
-                   'notes': notes, 'tags': tags, 'languages': languages}, f, indent=0)
+                   'notes': notes, 'tags': tags, 'old_frame': sorted(old_frame), 'languages': languages},
+                  f, indent=0)
     return load_scryfall_tags(path)
 
 
@@ -1568,9 +1586,11 @@ function renderSettings() {
   $('optExtraUb').value = s.extraUb.join(', '); $('builtInUb').textContent = s.builtInUb.join(', ');
   $('scryInfo').textContent = s.scryfall
     ? `${s.scryfall.printings.toLocaleString()} printings tagged (full art, borderless, inverted…), downloaded ${s.scryfall.fetched.replace('T', ' ')}.`
-    : 'Forge’s files miss many full-art, borderless and other treatments. Download the details from Scryfall to tag them (takes about a minute).';
+    : 'Forge’s files miss many full-art, borderless, retro-frame and other treatments. Download the details from Scryfall to tag them (takes a minute or two).';
   $('btnScry').textContent = s.scryfall ? 'Update from Scryfall' : 'Download from Scryfall';
-  $('scryNotes').textContent = s.scryfall && s.scryfall.notes.length ? 'Notes: ' + s.scryfall.notes.join('; ') : '';
+  $('scryNotes').textContent = (s.scryfall && s.scryfall.oldFrame === null
+      ? 'These details are from an older version of this tool: click Update to also tag retro-frame reprints (e.g. in Commander sets). ' : '') +
+    (s.scryfall && s.scryfall.notes.length ? 'Notes: ' + s.scryfall.notes.join('; ') : '');
   $('picsDir').textContent = (s.picsDirFound ? 'Forge image cache: ' : 'No Forge image cache found at ') + s.picsDir;
   $('settingsPath').textContent = 'Settings file: ' + s.settingsPath;
   for (const b of $('segOrder').children) b.classList.toggle('on', b.dataset.v === s.order);

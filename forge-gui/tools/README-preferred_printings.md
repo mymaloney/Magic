@@ -151,7 +151,9 @@ language. The picker shows pictures in your language, tagged with it.
 ### Card details from Scryfall
 
 Forge's own files only mark some treatments: many full-art lands, borderless and showcase cards are listed as
-ordinary printings, and inverted frames, thick stock and gold borders aren't recorded at all. Download the
+ordinary printings; so are most retro-frame reprints (whole Commander sets such as The Brothers' War Commander,
+and the Retro Artifacts set), which then don't count as old frame; and inverted frames, thick stock and gold
+borders aren't recorded at all. Download the
 missing details from Scryfall once (it takes a minute or two: Scryfall sends tens of thousands of printings,
 a page at a time) and the tool tags them all:
 
