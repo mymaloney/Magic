@@ -3,73 +3,73 @@ Name=Tahngarth
 [Commander]
 1 Tahngarth, Talruum Hero|pls
 [Main]
-1 Abrade|scd
-1 Adaptive Automaton|2xm
+1 Abrade|TRC|[449]
+1 Adaptive Automaton|FDN|[723]
 1 Akki Battle Squad|nec
 1 Akki Ronin|neo
 1 Anaba Ancestor|hml
 1 Anaba Spirit Crafter|hml
-1 Arcane Signet|onc
-1 Berserkers' Onslaught|dtk
+1 Arcane Signet|TRC|[485]
+1 Berserkers' Onslaught|BLC|[192]
 1 Blackblade Reforged|dmc
 1 Warmonger|mmq
 1 Blight Sickle|shm
 1 Fiendlash|cmm
 1 Lord of Shatterskull Pass|roe
-1 Blade of the Bloodchief|c17
-1 Blasphemous Act|scd
+1 Blade of the Bloodchief|LCC|[300]
+1 Blasphemous Act|SOC|[238]
 1 Blazing Sunsteel|cmr
-1 Bolt Bend|war
-1 Bonders' Enclave|j22
+1 Bolt Bend|FDN|[619]
+1 Bonders' Enclave|FDC|[297]
 1 Bonehoard|nec
-1 Brash Taunter|scd
+1 Brash Taunter|DSC|[161]
 1 Brass Squire|cmr
-1 Buried Ruin|onc
-1 Burnished Hart|scd
-1 Chandra's Ignition|ori
-1 Chaos Warp|scd
-1 Charmbreaker Devils|c21
+1 Buried Ruin|EOC|[150]
+1 Burnished Hart|FDN|[250]
+1 Chandra's Ignition|FDC|[145]
+1 Chaos Warp|MBC|[72]
+1 Charmbreaker Devils|J25|[132]
 1 Claws of Valakut|ddg
-1 Command Beacon|cmr
-1 Crash Through|m21
+1 Command Beacon|TRC|[373]
+1 Crash Through|FDN|[620]
 1 Didgeridoo|hml
-1 Door of Destinies|c17
-1 Dragon Mantle|cmr
-1 Faithless Looting|brc
-1 Fling|jmp
-1 Fork|3ed
-1 Granite Grip|7ed
+1 Door of Destinies|TRC|[342]
+1 Dragon Mantle|PIO|[131]
+1 Faithless Looting|SOC|[244]
+1 Fling|STH|[82]
+1 Fork|LEB|[153]
+1 Granite Grip|ULG|[81]
 1 Gratuitous Violence|ons
-1 Hammer of Nazahn|2xm
+1 Hammer of Nazahn|CMM|[388]
 1 Heiko Yamazaki, the General|neo
-1 Heraldic Banner|scd
+1 Heraldic Banner|FDN|[254]
 1 Introduction to Annihilation|stx
 1 Kusari-Gama|chk
-1 Lightning Bolt|2x2
-1 Lightning Greaves|scd
-1 Lightning Strike|dmu
-1 Liquimetal Torque|brc
+1 Lightning Bolt|LEB|[162]
+1 Lightning Greaves|TRC|[496]
+1 Lightning Strike|DFT|[136]
+1 Liquimetal Torque|MH2|[428]
 1 Lizard Blades|neo
 1 Mages' Contest|inv
-1 Moraug, Fury of Akoum|znr
-30 Mountain|tmp
+1 Moraug, Fury of Akoum|EOC|[89]
+30 Mountain|INR|[294]
 1 Neheb, Dreadhorde Champion|dmc
-1 Neheb, the Eternal|cmm
+1 Neheb, the Eternal|MKC|[158]
 1 Peerless Samurai|neo
 1 Plaza of Heroes|dmu
-1 Rageblood Shaman|ths
+1 Rageblood Shaman|JMP|[357]
 1 Reckless Handling|mat
-1 Rogue's Passage|rtr
+1 Rogue's Passage|TRC|[552]
 1 Shinka, the Bloodsoaked Keep|chk
-1 Sol Ring|onc
+1 Sol Ring|LEB|[270]
 1 Soul's Fire|cmr
-1 Swiftfoot Boots|scd
-1 Sword of the Animist|ori
+1 Swiftfoot Boots|TRC|[501]
+1 Sword of the Animist|CMM|[413]
 1 Sword of the Chosen|sth
 1 Tenza, Godo's Maul|dmc
-1 Thrill of Possibility|one
+1 Thrill of Possibility|TRC|[455]
 1 Thundering Raiju|neo
-1 Trailblazer's Boots|onc
-1 Tyrite Sanctum|cmm
-1 Unleash Fury|scd
+1 Trailblazer's Boots|OTC|[269]
+1 Tyrite Sanctum|DMC|[240]
+1 Unleash Fury|J25|[608]
 1 Wild Ricochet|scd

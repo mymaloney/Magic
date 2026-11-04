@@ -3,16 +3,16 @@ Name=ape
 [Main]
 8 Snow-Covered Forest|ICE
 4 Treetop Village|ULG
-8 Mountain|USG
-4 Uktabi Orangutan|6ED
+8 Mountain|INR|[294]
+4 Uktabi Orangutan|VIS|[123]
 4 Raging Gorilla|VIS
 4 Gorilla Berserkers|ALL
 2 Ancient Silverback|UDS
 2 Gargantuan Gorilla|ALL
 2 Gorilla Titan|ODY
-4 Rampant Growth|MIR
+4 Rampant Growth|TMP|[245]
 2 Hidden Gibbons|ULG
-4 Guerrilla Tactics|DKM
+4 Guerrilla Tactics|ALL|[74a]
 4 Gorilla War Cry|ALL
-4 Lightning Bolt|3ED
+4 Lightning Bolt|LEB|[162]
 4 Kird Ape|ARN

@@ -1,8 +1,8 @@
 [metadata]
 Name=pirate2
 [Main]
-11 Island|PO2|1
-11 Island|PO2|2
+11 Island|INR|[290]
+11 Island|INR|[290]
 2 Rishadan Port|MMQ
 4 Cloud Pirates|POR
 2 Talas Explorer|PO2
@@ -14,10 +14,10 @@ Name=pirate2
 2 Kukemssa Pirates|MIR
 2 Talas Warrior|PO2
 4 Coastal Piracy|MMQ
-2 Pirate Ship|LEA
+2 Pirate Ship|LEB|[71]
 1 Armored Galleon|PO2
 1 Steam Frigate|PO2
 2 Sea's Claim|ONS
 2 Deluge|ODY
 2 Legacy's Allure|TMP
-2 Steal Artifact|5ED
+2 Steal Artifact|LEB|[82]

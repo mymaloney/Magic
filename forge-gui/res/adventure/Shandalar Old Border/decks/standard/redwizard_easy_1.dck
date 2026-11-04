@@ -1,16 +1,16 @@
 [metadata]
 Name=redwizard_easy_1
 [Main]
-11 Mountain|LEA
+11 Mountain|INR|[294]
 2 Apprentice Wizard|DRK
-2 Counterspell|LEA
-2 Shivan Dragon|LEA
+2 Counterspell|DMR|[281]
+2 Shivan Dragon|DMR|[329]
 2 Zuran Orb|ICE
 4 Firebrand Ranger|INV
 4 Goblin Cadets|USG
-4 Incinerate|5ED
-4 Lightning Bolt|LEA
-4 Prodigal Sorcerer|4ED
-4 Red Elemental Blast|LEA
+4 Incinerate|MIR|[184]
+4 Lightning Bolt|LEB|[162]
+4 Prodigal Sorcerer|LEB|[74]
+4 Red Elemental Blast|LEB|[170]
 4 Shivan Reef|APC
-5 Island|LEA
+5 Island|INR|[290]

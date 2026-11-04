@@ -1,13 +1,13 @@
 [metadata]
 Name=Chainer, Dementia Master
 [Main]
-22 Swamp|2ED
-2 Chainer, Dementia Master|TOR
-4 Dark Ritual|LEA
-4 Chainer's Edict|TOR
+22 Swamp|INR|[292]
+2 Chainer, Dementia Master|DMR|[299]
+4 Dark Ritual|MMQ|[129]
+4 Chainer's Edict|DMR|[300]
 4 Cruel Edict|PO2
 4 Diabolic Edict|TMP
-4 Nightmare|LEA
+4 Nightmare|LEB|[119]
 4 Mesmeric Fiend|TOR
 4 Faceless Butcher|TOR
 4 Laquatus's Champion|TOR
@@ -15,6 +15,6 @@ Name=Chainer, Dementia Master
 2 Soul Scourge|TOR
 
 [StartInBattle_Reference]
-1 Swamp|ODY|1
-1 Swamp|ODY|2
-1 Chainer, Dementia Master|TOR
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
+1 Chainer, Dementia Master|DMR|[299]

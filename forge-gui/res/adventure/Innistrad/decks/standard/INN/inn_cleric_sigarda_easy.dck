@@ -4,28 +4,28 @@ Name=INN_cleric_easy
 
 [Main]
 2 Sigardian Priest|EMN|1
-2 Cathedral Sanctifier|AVR|1
+2 Cathedral Sanctifier|DDQ|[3]
 2 Crossroads Consecrator|EMN|1
 2 Diregraf Escort|AVR|1
-2 Goldnight Commander|AVR|1
-2 Selfless Spirit|EMN|1
-2 Avacyn's Pilgrim|ISD|1
-1 Sigarda's Splendor|MID|1
+2 Goldnight Commander|TDC|[117]
+2 Selfless Spirit|SOC|[167]
+2 Avacyn's Pilgrim|SCD|[171]
+1 Sigarda's Splendor|DBL|[33]
 2 Avacyn's Collar|DKA|1
-2 Mask of Avacyn|ISD|1
+2 Mask of Avacyn|CMR|[466]
 2 Hope Against Hope|SOI|1
-10 Plains|ISD|2
-8 Forest|SOI|2
-4 Evolving Wilds|MID|1
-2 Overgrown Farmland|MID|1
-1 Dawnhart Wardens|SOI|1
-2 Ulvenwald Mysteries|SOI|1
-2 Faith's Shield|ISD|1
-2 Join the Dance|MID|1
-2 Dawnhart Rejuvenator|MID|1
-2 Travel Preparations|ISD|1
-2 Orchard Spirit|MID|1
-2 Moment of Heroism|ISD|1
+10 Plains|INR|[288]
+8 Forest|INR|[296]
+4 Evolving Wilds|TRC|[527]
+2 Overgrown Farmland|FRA|[185]
+1 Dawnhart Wardens|DBL|[216]
+2 Ulvenwald Mysteries|INR|[423]
+2 Faith's Shield|DKA|[7]
+2 Join the Dance|INR|[432]
+2 Dawnhart Rejuvenator|DBL|[180]
+2 Travel Preparations|INR|[421]
+2 Orchard Spirit|ORI|[192]
+2 Moment of Heroism|J25|[228]
 [Sideboard]
 
 [Planes]

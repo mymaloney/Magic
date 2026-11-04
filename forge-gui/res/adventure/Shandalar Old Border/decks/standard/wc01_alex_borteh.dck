@@ -5,14 +5,14 @@ Name=WC01 Alex Borteh - Merfolk Opposition
 2 Darting Merfolk|MMQ
 4 Lord of Atlantis|LEB
 4 Merfolk Looter|EXO
-4 Merfolk of the Pearl Trident|LEB
+4 Merfolk of the Pearl Trident|POR|[60]
 4 Vodalian Merchant|INV
 2 Waterfront Bouncer|MMQ
-4 Opposition|UDS
-4 Counterspell|LEB
+4 Opposition|DMR|[290]
+4 Counterspell|DMR|[281]
 4 Gush|MMQ
 4 Thwart|MMQ
-20 Island|INV
+20 Island|INR|[290]
 [Sideboard]
 3 Hibernation|USG
 3 Mana Maze|INV

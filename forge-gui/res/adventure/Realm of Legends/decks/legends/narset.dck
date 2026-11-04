@@ -3,83 +3,83 @@ Name=Narset
 [Commander]
 1 Narset, Enlightened Master|KTK
 [Main]
-1 Talisman of Progress|TDC
-1 Talisman of Conviction|TDC
-1 Talisman of Creativity|TDC
+1 Talisman of Progress|TRC|[508]
+1 Talisman of Conviction|TRC|[503]
+1 Talisman of Creativity|TRC|[504]
 1 Cori-Steel Cutter|TDM
 1 Narset's Reversal|TDC
-1 Narset Transcendent|DTK
+1 Narset Transcendent|PIO|[355]
 1 Shiko and Narset, Unified|TDC
 1 Narset of the Ancient Way|IKO
 1 Narset, Jeskai Waymaster|TDM
 1 Narset, Enlightened Exile|MAT
-1 Aminatou's Augury|CMM
-1 Aqueous Form|THS
-1 Arcane Signet|MKC
-1 Aurelia, the Warleader|GTC
+1 Aminatou's Augury|DSC|[71]
+1 Aqueous Form|PIO|[45]
+1 Arcane Signet|TRC|[485]
+1 Aurelia, the Warleader|FDN|[651]
 1 Elsha, Threefold Master|TDC
 1 Sage of the Inward Eye|KTK
-1 Swiftfoot Boots|FDN
-1 Boros Charm|GTC
-1 Brainstorm|CNS
-1 Chandra, Pyromaster|M15
-1 Clone Legion|C17
+1 Swiftfoot Boots|TRC|[501]
+1 Boros Charm|FDN|[721]
+1 Brainstorm|MMQ|[61]
+1 Chandra, Pyromaster|E01|[42]
+1 Clone Legion|NCC|[215]
 1 Coastal Tower|INV
-1 Command Tower|LCC
+1 Command Tower|TRC|[521]
 1 Complete the Circuit|MOM
 1 Preordain|TDC
-1 Expressive Iteration|STX
+1 Expressive Iteration|SOC|[309]
 1 Alrund's Epiphany|KHM
-1 Dragon-Style Twins|KTK
+1 Dragon-Style Twins|PIO|[132]
 1 Firemind's Foresight|DDS
-1 Flooded Strand|KTK
+1 Flooded Strand|MH3|[436]
 1 Flying Crane Technique|KTK
-1 Frantic Search|C20
-1 Goblin Wizardry|M21
+1 Frantic Search|DMR|[285]
+1 Goblin Wizardry|CLU|[136]
 1 Hexplate Wallbreaker|ONC
-8 Island|KTK
+8 Island|INR|[290]
 1 Jaya, Fiery Negotiator|DMU
 1 Jeskai Ascendancy|2X2
-1 Jeskai Charm|KTK
-1 Monastery Mentor|FRF
+1 Jeskai Charm|2X2|[232]
+1 Monastery Mentor|TDC|[125]
 1 Leonin Lightscribe|STX
 1 Lam, Storm Crane Elder|YTDM
-1 Mistfire Adept|FRF
-1 Monastery Swiftspear|KTK
-8 Mountain|KTK
-1 Myriad Landscape|LCC
-1 Mystic Monastery|C20
+1 Mistfire Adept|2X2|[59]
+1 Monastery Swiftspear|TSR|[349]
+8 Mountain|INR|[294]
+1 Myriad Landscape|EOC|[169]
+1 Mystic Monastery|TRC|[543]
 1 Niveous Wisps|SHM
 1 Ojutai's Command|DTK
 1 Opt|INV
-1 Path of Ancestry|LCC
+1 Path of Ancestry|TRC|[545]
 1 Peek|ODY
-6 Plains|KTK
+6 Plains|INR|[288]
 1 Quiet Contemplation|KTK
 1 Jeskai Brushmaster|TDM
-1 Inspired Ultimatum|SPG|[107]
+1 Inspired Ultimatum|IKO|[191]
 1 Jeskai Revelation|TDM
 1 Repulse|INV
-1 Rogue's Passage|LCC
-1 Sandstone Bridge|BFZ
-1 Savage Beating|DST
+1 Rogue's Passage|TRC|[552]
+1 Sandstone Bridge|J22|[819]
+1 Savage Beating|CMM|[252]
 1 Seize the Day|ODY
-1 Scourge of the Throne|MKC
-1 Seachrome Coast|SOM
-1 Seeker of the Way|KTK
-1 Shelter|MH1
+1 Scourge of the Throne|TDC|[230]
+1 Seachrome Coast|BLC|[328]
+1 Seeker of the Way|2X2|[28]
+1 Shelter|ODY|[46]
 1 Shu Yun, the Silent Tempest|FRF
 1 Slip Through Space|OGW
-1 Sol Ring|LCC
-1 Distortion Strike|ROE
+1 Sol Ring|LEB|[270]
+1 Distortion Strike|IMA|[52]
 1 Shadow Rift|TMP
-1 Swiftwater Cliffs|KTK
-1 Temple of the False God|MKC
-1 Temple of Triumph|THS
-1 Thassa, God of the Sea|THS
-1 Thespian's Stage|GTC
+1 Swiftwater Cliffs|TDM|[268]
+1 Temple of the False God|SCG|[143]
+1 Temple of Triumph|SOC|[417]
+1 Thassa, God of the Sea|PIO|[288]
+1 Thespian's Stage|RVR|[466]
 1 Traveler's Cloak|INV
-1 Unquestioned Authority|CNS
-1 Whirlwind of Thought|IKO
-1 Whispersilk Cloak|DST
-1 Wind-Scarred Crag|KTK
+1 Unquestioned Authority|JUD|[31]
+1 Whirlwind of Thought|FRC|[51]
+1 Whispersilk Cloak|DSC|[257]
+1 Wind-Scarred Crag|TDM|[271]

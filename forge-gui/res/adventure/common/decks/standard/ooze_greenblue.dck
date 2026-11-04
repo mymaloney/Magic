@@ -1,19 +1,19 @@
 [metadata]
 Name=ooze_greenblue
 [Main]
-2 Acidic Slime|CMR|1
-2 Acidic Slime|NEC|1
-2 Consuming Blob|MID|1
+2 Acidic Slime|M3C|[218]
+2 Acidic Slime|M3C|[218]
+2 Consuming Blob|DBL|[177]
 4 Corrosive Ooze|DOM|1
-12 Forest|CLB|1
-2 Glimmerbell|J21|1
-4 Growth Spiral|STA|1
-12 Island|CLB|1
-4 Man-o'-War|J21|1
+12 Forest|INR|[296]
+2 Glimmerbell|J25|[315]
+4 Growth Spiral|DSC|[88]
+12 Island|INR|[290]
+4 Man-o'-War|POR|[59]
 4 Manaplasm|CN2|1
 2 Mystic Genesis|MM3|1
-2 Plasm Capture|DDO|1
-4 Slimebind|RNA|1
-4 Voidslime|PCMP|1
+2 Plasm Capture|OTC|[237]
+4 Slimebind|J25|[360]
+4 Voidslime|RVR|[388]
 [Sideboard]
 [Schemes]

@@ -1,8 +1,8 @@
 [metadata]
 Name=Bull
 [Main]
-24 Forest|PO2
-4 Wild Growth|4ED
+24 Forest|INR|[296]
+4 Wild Growth|DMR|[352]
 4 Ironhoof Ox|PO2
 4 Wild Ox|PO2
 4 Zodiac Ox|PTK
@@ -11,4 +11,4 @@ Name=Bull
 4 Overrun|ODY
 2 Fallow Earth|MIR
 2 Plow Under|UDS
-4 Giant Growth|4ED
+4 Giant Growth|ICE|[246]

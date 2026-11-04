@@ -1,28 +1,28 @@
 [metadata]
 Name=Jegantha
 [Commander]
-1 Jegantha, the Wellspring|iko
+1 Jegantha, the Wellspring|ECC|[125]
 [Main]
-1 Arcane Signet|m3c
+1 Arcane Signet|TRC|[485]
 1 Arctic Treeline|khm
-1 Beast Whisperer|gn3
-1 Beast Within|dsc
+1 Beast Whisperer|TSR|[356]
+1 Beast Within|TSR|[357]
 1 Valkyrie's Call|fdn
-1 Levitation|m10
+1 Levitation|ULG|[35]
 1 Archetype of Imagination|dsc
 1 Bellowing Elk|mh1
 1 Beza, the Bounding Spring|blb
 1 Boreal Shelf|csp
-1 Burnished Hart|cmm
-1 Command Tower|cc1
+1 Burnished Hart|FDN|[250]
+1 Command Tower|TRC|[521]
 1 Dawnglade Regent|cmr
 1 Dawntreader Elk|jmp
 1 Downpour|m13
 1 Enduring Vitality|dsk
-1 Exotic Orchard|m3c
+1 Exotic Orchard|TRC|[378]
 1 Exponential Growth|stx
-1 Font of Fertility|cmm
-10 snow-covered Forest|khm
+1 Font of Fertility|CP1|[3]
+10 snow-covered Forest|ICE|[383]
 1 Galewind Moose|blb
 1 Game-Trail Changeling|mor
 1 Gang of Elk|ulg
@@ -35,53 +35,53 @@ Name=Jegantha
 1 Great Hart|bng
 1 Great Sable Stag|m10
 1 Heliod's Emissary|ths
-1 Herald's Horn|lcc
+1 Herald's Horn|TRC|[493]
 1 Highland Game|m19
-1 Hoofprints of the Stag|blc
+1 Hoofprints of the Stag|ECC|[64]
 1 Icon of Ancestry|lcc
-4 Snow-Covered Island|khm
-1 Kabira Takedown|znr
-1 Kenrith's Transformation|afc
-1 Kindred Boon|c17
-1 Leafkin Druid|ncc
-1 Nature's Lore|mkc
+4 Snow-Covered Island|ICE|[371]
+1 Kabira Takedown|PIO|[19]
+1 Kenrith's Transformation|FDC|[212]
+1 Kindred Boon|LCC|[129]
+1 Leafkin Druid|SCD|[196]
+1 Nature's Lore|DMR|[346]
 1 Obelisk of Urd|znc
 1 Oko, the Ringleader|otj|[305]
-1 Oko, Thief of Crowns|otp
-1 Overrun|tmp
-1 Patchwork Banner|blb
-1 Path of Ancestry|ncc
-1 Primeval Bounty|clb
-1 Rampant Growth|mir
+1 Oko, Thief of Crowns|ELD|[197]
+1 Overrun|ODY|[260]
+1 Patchwork Banner|SOC|[353]
+1 Path of Ancestry|TRC|[545]
+1 Primeval Bounty|J25|[701]
+1 Rampant Growth|TMP|[245]
 1 Reclaim the Wastes|znr
 1 Rimefur Reindeer|woe
 1 Rimewood Falls|khm
-1 Rishkar's Expertise|lcc
+1 Rishkar's Expertise|FDC|[226]
 1 Sacred White Deer|gs1
 1 Saddled Rimestag|mh1
-1 Seaside Citadel|blc
-1 Secluded Courtyard|lcc
+1 Seaside Citadel|ECC|[166]
+1 Secluded Courtyard|ECC|[62]
 1 Selvala, Eager Trailblazer|otj
 1 Serra's Blessing|wth
-1 Shamanic Revelation|frf
+1 Shamanic Revelation|PIO|[194]
 1 Skyclave Cleric|znr
-6 Snow-Covered Plains|khm
+6 Snow-Covered Plains|ICE|[367]
 1 Snowmelt Stag|tdm
-1 Somberwald Stag|emn
+1 Somberwald Stag|JMP|[431]
 1 Splendor Mare|iko
 1 Springmane Cervin|stx
-1 Stampeding Elk Herd|dtk
+1 Stampeding Elk Herd|PIO|[350]
 1 Star-Crowned Stag|m19
 1 Tempest Hart|woe
-1 Temple of Enlightenment|bng
-1 Temple of Mystery|ths
-1 Temple of Plenty|bng
+1 Temple of Enlightenment|EOC|[186]
+1 Temple of Mystery|SOC|[414]
+1 Temple of Plenty|TDC|[405]
 1 Tranquil Landscape|mh3
 1 Trickster's Elk|mh3
 1 Tromp the Domains|tsr
-1 Uncharted Haven|neo
+1 Uncharted Haven|FDN|[564]
 1 Unexplained Vision|eld
-1 Vanquisher's Banner|lcc
-1 Vernal Sovereign|clu
+1 Vanquisher's Banner|TSR|[402]
+1 Vernal Sovereign|ECC|[135]
 1 Vivien's Stampede|ncc
 1 Wetland Sambar|ktk

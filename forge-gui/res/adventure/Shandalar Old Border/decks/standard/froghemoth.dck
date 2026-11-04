@@ -1,8 +1,8 @@
 [metadata]
 Name=froghemoth
 [Main]
-4 Forest|ODY
-4 Swamp|ODY
+4 Forest|INR|[296]
+4 Swamp|INR|[292]
 4 Tainted Wood|TOR
 4 Llanowar Wastes|APC
 4 Treetop Village|ULG
@@ -15,7 +15,7 @@ Name=froghemoth
 2 Revenant|STH
 4 Anurid Barkripper|JUD
 4 Spore Frog|PCY
-2 Oversold Cemetery|ONS
+2 Oversold Cemetery|DMR|[309]
 2 Bloated Toad|ULG
 1 Anurid Scavenger|TOR
 1 Anurid Swarmsnapper|JUD

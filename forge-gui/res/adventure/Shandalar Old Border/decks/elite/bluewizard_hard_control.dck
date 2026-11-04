@@ -1,9 +1,9 @@
 [metadata]
 Name=Master Blue Wizard - Mono Blue Control
 [Main]
-22 Island|LEA
+22 Island|INR|[290]
 2 Sapphire Medallion|TMP
-4 Counterspell|LEA
+4 Counterspell|DMR|[281]
 2 Mana Drain|LEG
 2 Desertion|VIS
 4 Fog Bank|USG
@@ -12,13 +12,13 @@ Name=Master Blue Wizard - Mono Blue Control
 2 Back to Basics|USG
 1 Time Warp|TMP
 1 Temporal Manipulation|PO2
-1 Arcanis the Omnipotent|ONS
-3 Fact or Fiction|INV
+1 Arcanis the Omnipotent|DMR|[280]
+3 Fact or Fiction|DMR|[283]
 4 Morphling|USG
 4 Serendib Efreet|ARN
-2 Boomerang|LEG
+2 Boomerang|MIR|[56]
 2 Evacuation|STH
 
 [StartInBattle_Reference]
-1 Wall of Air|LEA
-1 Mox Sapphire|LEA
+1 Wall of Air|LEB|[90]
+1 Mox Sapphire|LEB|[266]

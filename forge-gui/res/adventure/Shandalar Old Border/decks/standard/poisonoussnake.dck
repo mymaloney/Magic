@@ -1,10 +1,10 @@
 [metadata]
 Name=Poisonous Snake
 [Main]
-10 Forest|MIR
-10 Swamp|MIR
-4 Dark Ritual|MIR
-4 Wild Growth|4ED
+10 Forest|INR|[296]
+10 Swamp|INR|[292]
+4 Dark Ritual|MMQ|[129]
+4 Wild Growth|DMR|[352]
 4 Marsh Viper|DRK
 4 Sabertooth Cobra|MIR
 3 River Boa|VIS
@@ -17,4 +17,4 @@ Name=Poisonous Snake
 1 Venom|DRK
 1 Venomous Fangs|USG
 2 Poison Arrow|PTK
-2 Overrun|TMP
+2 Overrun|ODY|[260]

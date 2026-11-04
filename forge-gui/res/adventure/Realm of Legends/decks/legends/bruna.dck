@@ -1,79 +1,79 @@
 [metadata]
 Name=Bruna, Light of Alabaster
 [Commander]
-1 Bruna, Light of Alabaster|AVR
+1 Bruna, Light of Alabaster|C18|[170]
 [Main]
-1 Arcane Signet|ELD
-1 Archetype of Imagination|BNG
-1 Archon of Sun's Grace|THB
-1 Avacyn, Angel of Hope|AVR
-1 Azorius Chancery|DIS
-1 Bitterthorn, Nissa's Animus|MOC
-1 Chains of Custody|J25
+1 Arcane Signet|TRC|[485]
+1 Archetype of Imagination|DSC|[111]
+1 Archon of Sun's Grace|SOC|[137]
+1 Avacyn, Angel of Hope|INR|[477]
+1 Azorius Chancery|DSC|[261]
+1 Bitterthorn, Nissa's Animus|SOC|[343]
+1 Chains of Custody|SOC|[139]
 1 Chivalric Alliance|MOC
-1 Sol Ring|SCD
-1 Collective Effort|EMN
-1 Command Tower|CMD
+1 Sol Ring|LEB|[270]
+1 Collective Effort|ONC|[61]
+1 Command Tower|TRC|[521]
 1 Curator's Ward|DOM
-1 Cyclonic Rift|MM3
-1 Bruna, the Fading Light|EMN
-1 Gisela, the Broken Blade|EMN
-1 Daybreak Coronet|FUT
-1 Deserted Beach|MID
-1 Talisman of Progress|CMM
-1 Azorius Signet|CMM
-1 Eldrazi Conscription|ROE
+1 Cyclonic Rift|RVR|[313]
+1 Bruna, the Fading Light|INR|[14]
+1 Gisela, the Broken Blade|INR|[24]
+1 Daybreak Coronet|WOC|[65]
+1 Deserted Beach|FRA|[176]
+1 Talisman of Progress|TRC|[508]
+1 Azorius Signet|FRC|[53]
+1 Eldrazi Conscription|SOC|[131]
 1 Enduring Curiosity|DSK
 1 Entity Tracker|DSK
 1 Fear of Sleep Paralysis|DSC
-1 Flooded Strand|ZNE
+1 Flooded Strand|MH3|[436]
 1 Floodfarm Verge|DSK
 1 Ghostly Dancers|DSK
-1 Giver of Runes|MH1
-1 Glacial Fortress|M13
-1 Grasp of Fate|WOT
-1 Hall of Heliod's Generosity|MH1
+1 Giver of Runes|H1R|[3]
+1 Glacial Fortress|TRC|[385]
+1 Grasp of Fate|FDC|[32]
+1 Hall of Heliod's Generosity|DSC|[283]
 1 Halvar, God of Battle|KHM
 1 Heliod, the Radiant Dawn|MOM
-1 Heliod's Intervention|THB
+1 Heliod's Intervention|OTC|[81]
 1 Hengegate Pathway|KHM
 1 High Fae Trickster|FDN
-13 Island|GK2
-1 Katilda, Dawnhart Martyr|VOW
-1 Lightning Greaves|C19
+13 Island|INR|[290]
+1 Katilda, Dawnhart Martyr|DBL|[288]
+1 Lightning Greaves|TRC|[496]
 1 Mantle of the Ancients|WOC
-1 Mesa Enchantress|DSC
-1 Mother of Runes|EMA
-1 Nimbus Maze|IMA
+1 Mesa Enchantress|DMR|[267]
+1 Mother of Runes|ULG|[14]
+1 Nimbus Maze|AFC|[252]
 1 Overlord of the Floodpits|DSK
-1 Pearl-Ear, Imperial Advisor|MH3
-13 Plains|GK2
-1 Swords to Plowshares|SCD
+1 Pearl-Ear, Imperial Advisor|SOC|[160]
+13 Plains|INR|[288]
+1 Swords to Plowshares|DMR|[275]
 1 Spectra Ward|M15
-1 Armored Skyhunter|CMR
-1 Spirit Mantle|M12
-1 All That Glitters|ELD
+1 Armored Skyhunter|SOC|[138]
+1 Spirit Mantle|SOC|[175]
+1 All That Glitters|CMM|[9]
 1 Light-Paws, Emperor's Voice|NEO
-1 Sovereigns of Lost Alara|ARB
+1 Sovereigns of Lost Alara|UMA|[207]
 1 Plaza of Heroes|DMU
-1 Prairie Stream|BFZ
-1 Reliquary Tower|CON
+1 Prairie Stream|TRC|[394]
+1 Reliquary Tower|TRC|[551]
 1 Requisition Raid|OTJ
-1 Sage's Reverie|FRF
-1 Sheltered by Ghosts|DSK
-1 Ethereal Armor|RTR
-1 Shielded by Faith|C15
+1 Sage's Reverie|SOC|[165]
+1 Sheltered by Ghosts|SOC|[171]
+1 Ethereal Armor|TSR|[293]
+1 Shielded by Faith|SOC|[172]
 1 Soaring Lightbringer|DSC
-1 Songbirds' Blessing|WOC
-1 Staggering Insight|THB
-1 Steel of the Godhead|SHM
-1 Swiftfoot Boots|FDN
+1 Songbirds' Blessing|SOC|[174]
+1 Staggering Insight|SCD|[246]
+1 Steel of the Godhead|DDI|[30]
+1 Swiftfoot Boots|TRC|[501]
 1 Sword of the Animist|CMM
-1 Thought Vessel|CMR
-1 Tragic Arrogance|ORI
+1 Thought Vessel|TRC|[509]
+1 Tragic Arrogance|SOC|[182]
 1 Twinblade Blessing|FDN
 1 Virtue of Loyalty|WOE
 1 Voracious Bibliophile|TDC
-1 Wayfarer's Bauble|5DN
-1 Windreader Sphinx|M19
-1 Winds of Rath|DDL
+1 Wayfarer's Bauble|TRC|[511]
+1 Windreader Sphinx|J25|[391]
+1 Winds of Rath|TMP|[52]

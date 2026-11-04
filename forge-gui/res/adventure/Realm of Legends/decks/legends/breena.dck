@@ -1,82 +1,82 @@
 [metadata]
 Name=Breena, the Demagogue
 [Commander]
-1 Breena, the Demagogue|C21
+1 Breena, the Demagogue|SOC|[298]
 [Main]
-1 Ambition's Cost|C21
+1 Ambition's Cost|FDC|[84]
 1 Angel of Serenity|C21
-1 Arcane Signet|C21
+1 Arcane Signet|TRC|[485]
 1 Author of Shadows|C21
-1 Barren Moor|C21
-1 Bloodthirsty Blade|C21
-1 Bojuka Bog|C21
+1 Barren Moor|ONS|[312]
+1 Bloodthirsty Blade|MKC|[225]
+1 Bojuka Bog|TSR|[406]
 1 Bold Plagiarist|C21
-1 Boreas Charger|C21
-1 Caves of Koilos|C21
-1 Citadel Siege|C21
-1 Combat Calligrapher|C21
-1 Command Tower|SLD|[1697]
-1 Coveted Jewel|C21
-1 Cunning Rhetoric|C21
-1 Curse of Disturbance|C21
-1 Deathbringer Liege|C21
-1 Deathbringer Regent|C21
+1 Boreas Charger|VOC|[79]
+1 Caves of Koilos|APC|[140]
+1 Citadel Siege|MIC|[81]
+1 Combat Calligrapher|SOC|[141]
+1 Command Tower|TRC|[521]
+1 Coveted Jewel|BLC|[268]
+1 Cunning Rhetoric|OTC|[129]
+1 Curse of Disturbance|SCD|[74]
+1 Deathbringer Liege|2X2|[200]
+1 Deathbringer Regent|J22|[396]
 1 Debtors' Knell|C21
-1 Duelist's Heritage|C21
-1 Elite Scaleguard|C21
-1 Exotic Orchard|C21
-1 Fain, the Broker|C21
-1 Felisa, Fang of Silverquill|C21
-1 Fracture|STX
-1 Ghostly Prison|C21
-1 Gideon, Champion of Justice|C21
+1 Duelist's Heritage|TRC|[218]
+1 Elite Scaleguard|CMM|[22]
+1 Exotic Orchard|TRC|[378]
+1 Fain, the Broker|OTC|[133]
+1 Felisa, Fang of Silverquill|CLB|[845]
+1 Fracture|SOC|[310]
+1 Ghostly Prison|SOC|[146]
+1 Gideon, Champion of Justice|J22|[189]
 1 Guardian Archon|C21
 1 Hunted Lammasu|C21
 1 Incarnation Technique|C21
 1 Infernal Offering|C21
-1 Inkshield|SLD|1694
-1 Keen Duelist|SLD|828
-1 Knight of the White Orchid|C21
+1 Inkshield|SOC|[316]
+1 Keen Duelist|SOC|[218]
+1 Knight of the White Orchid|PIO|[21]
 1 Magister of Worth|C21
-1 Martial Impetus|C21
-1 Mikokoro, Center of the Sea|C21
-1 Mind Stone|C21
-1 Myriad Landscape|C21
-1 Necropolis Regent|C21
-1 Nils, Discipline Enforcer|C21
-1 Oblation|C21
-1 Opal Palace|C21
+1 Martial Impetus|SOC|[156]
+1 Mikokoro, Center of the Sea|DMC|[217]
+1 Mind Stone|DMR|[385]
+1 Myriad Landscape|EOC|[169]
+1 Necropolis Regent|J25|[469]
+1 Nils, Discipline Enforcer|SOC|[158]
+1 Oblation|ONS|[46]
+1 Opal Palace|SOC|[390]
 1 Oreskos Explorer|C21
-1 Orzhov Advokist|C21
-1 Orzhov Basilica|C21
-1 Talisman of Hierarchy|TDC
-1 Parasitic Impetus|C21
+1 Orzhov Advokist|MKC|[77]
+1 Orzhov Basilica|DRC|[164]
+1 Talisman of Hierarchy|TRC|[506]
+1 Parasitic Impetus|SOC|[222]
 1 Pendant of Prosperity|C21
-14 Plains|STX
-1 Promise of Loyalty|C21
-1 Rogue's Passage|C21
+14 Plains|INR|[288]
+1 Promise of Loyalty|TRC|[234]
+1 Rogue's Passage|TRC|[552]
 1 Scholarship Sponsor|C21
-1 Secluded Steppe|C21
-1 Secret Rendezvous|STX
-1 Selfless Squire|C21
-1 Silverquill Campus|STX
-1 Sol Ring|SLD|1696
-1 Soul Snare|C21
-1 Spectral Searchlight|C21
-1 Stalking Leonin|C21
+1 Secluded Steppe|ONS|[324]
+1 Secret Rendezvous|SOC|[166]
+1 Selfless Squire|MKC|[82]
+1 Silverquill Campus|SOC|[405]
+1 Sol Ring|LEB|[270]
+1 Soul Snare|MH2|[387]
+1 Spectral Searchlight|CMM|[411]
+1 Stalking Leonin|MKC|[86]
 1 Stinging Study|C21
-1 Study Hall|C21
-1 Sunscorch Regent|C21
-10 Swamp|STX
-1 Tainted Field|C21
-1 Temple of Silence|C21
-1 Temple of the False God|C21
+1 Study Hall|SOC|[407]
+1 Sunscorch Regent|BLC|[158]
+10 Swamp|INR|[292]
+1 Tainted Field|TOR|[140]
+1 Temple of Silence|SOC|[415]
+1 Temple of the False God|SCG|[143]
 1 Tempting Contract|C21
 1 Teysa, Envoy of Ghosts|C21
-1 Together Forever|C21
-1 Tragic Arrogance|C21
-1 Utter End|C21
+1 Together Forever|MOC|[212]
+1 Tragic Arrogance|SOC|[182]
+1 Utter End|DSC|[91]
 1 Victory Chimes|C21
-1 Vow of Duty|C21
-1 Windborn Muse|C21
-1 Zetalpa, Primal Dawn|C21
+1 Vow of Duty|MKC|[89]
+1 Windborn Muse|DMR|[278]
+1 Zetalpa, Primal Dawn|TDC|[142]

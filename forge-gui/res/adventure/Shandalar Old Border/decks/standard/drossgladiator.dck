@@ -1,9 +1,9 @@
 [metadata]
 Name=Dross Gladiator
 [Main]
-19 Swamp|TMP
+19 Swamp|INR|[292]
 1 Phyrexian Tower|USG
-2 Dark Ritual|USG
+2 Dark Ritual|MMQ|[129]
 2 Culling the Weak|EXO
 4 Phyrexian Denouncer|ULG
 2 Phyrexian Debaser|ULG
@@ -11,7 +11,7 @@ Name=Dross Gladiator
 4 Phyrexian Plaguelord|ULG
 4 Phyrexian Delver|INV
 2 Phyrexian Scuta|PLS
-2 Victimize|USG
+2 Victimize|MH3|[413]
 2 Reanimate|TMP
 2 Annihilate|INV
 4 Do or Die|INV

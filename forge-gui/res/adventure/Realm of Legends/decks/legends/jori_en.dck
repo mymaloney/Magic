@@ -1,78 +1,78 @@
 [metadata]
 Name=Jori End
 [Commander]
-1 Jori En, Ruin Diver|ogw
+1 Jori En, Ruin Diver|DDS|[23]
 [Main]
-1 Abrade|lci
-1 Anticipate|m19
-1 Baral's Expertise|aer
+1 Abrade|TRC|[449]
+1 Anticipate|IKO|[40]
+1 Baral's Expertise|TDC|[146]
 1 Beacon Bolt|grn
-1 Blink of an Eye|dom
-1 arcane signet|eld
-1 Chain Reaction|onc
-1 Chart a Course|lci
-1 Counterspell|cmm
+1 Blink of an Eye|J25|[289]
+1 arcane signet|TRC|[485]
+1 Chain Reaction|TRC|[280]
+1 Chart a Course|FDN|[586]
+1 Counterspell|DMR|[281]
 1 Crackling Drake|rvr
 1 Curious Homunculus|emn
-1 Curse of the Swine|lcc
+1 Curse of the Swine|SOC|[192]
 1 Deliberate|znr
-1 Desolate Lighthouse|lcc
-1 Disdainful Stroke|woe
+1 Desolate Lighthouse|TRC|[374]
+1 Disdainful Stroke|TSR|[307]
 1 Double Vision|ncc
-1 Electrostatic Field|grn
-1 Enigma Drake|m19
-1 Everflowing Chalice|mkc
-1 Evolving Wilds|lcc
-1 Expedite|cmr
-1 Faithless Looting|lcc
+1 Electrostatic Field|OTC|[164]
+1 Enigma Drake|FDN|[657]
+1 Everflowing Chalice|TSR|[394]
+1 Evolving Wilds|TRC|[527]
+1 Expedite|PIO|[374]
+1 Faithless Looting|SOC|[244]
 1 Fire Diamond|mir
 1 Firemind's Research|grn
 1 Flame Slash|cn2
-1 Frantic Search|woc
-1 Future Sight|mh1
+1 Frantic Search|DMR|[285]
+1 Future Sight|ONS|[84]
 1 Goblin Electromancer|rvr
 1 Guttersnipe|rvr
 1 Improbable Alliance|moc
 1 Impulse|dmr
-1 Into the Roil|cmr
+1 Into the Roil|FDN|[509]
 1 Irencrag Pyromancer|j22
-16 Island|bfz
-1 Izzet Boilerworks|clu
+16 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
 1 Izzet Charm|rvr
 1 Jace's Sanctum|c19
 1 Lava Coil|2x2
-1 Memorial to Genius|j22
+1 Memorial to Genius|J25|[771]
 1 Mission Briefing|mkc
-1 Mizzium Mortars|rtr
-12 Mountain|bfz
-1 Murmuring Mystic|rvr
-1 Negate|mom
-1 Niblis of Frost|c20
-1 Opt|woc
-1 Peek|10e
-1 Pongify|plc
-1 Portent|c18
-1 Preordain|j22
-1 Sol Ring|c18
+1 Mizzium Mortars|PIO|[376]
+12 Mountain|INR|[294]
+1 Murmuring Mystic|PIO|[65]
+1 Negate|TRC|[439]
+1 Niblis of Frost|PIO|[66]
+1 Opt|INV|[64]
+1 Peek|ODY|[91]
+1 Pongify|TRC|[441]
+1 Portent|ICE|[90]
+1 Preordain|TDC|[161]
+1 Sol Ring|LEB|[270]
 1 Ravenform|lcc
-1 Reality Shift|woc
-1 Remove Soul|10e
-1 Rewind|m21
+1 Reality Shift|SOC|[199]
+1 Remove Soul|LEG|[72]
+1 Rewind|USG|[93]
 1 Runechanter's Pike|isd
-1 Saheeli, Sublime Artificer|cmm
+1 Saheeli, Sublime Artificer|DRC|[119]
 1 Sky Diamond|mir
-1 Sleight of Hand|woe
+1 Sleight of Hand|PO2|[46]
 1 Spellheart Chimera|dds
 1 Stoke the Flames|mom
 1 Sudden Substitution|c19
-1 Swiftwater Cliffs|mom
-1 Talrand, Sky Summoner|cmm
-1 Terramorphic Expanse|lcc
-1 Thermo-Alchemist|j22
-1 Think Twice|tsr
-1 Thrill of Possibility|one
+1 Swiftwater Cliffs|TDM|[268]
+1 Talrand, Sky Summoner|TSR|[318]
+1 Terramorphic Expanse|TRC|[571]
+1 Thermo-Alchemist|INR|[403]
+1 Think Twice|INR|[369]
+1 Thrill of Possibility|TRC|[455]
 1 Thundering Rebuke|znr
-1 Treasure Cruise|ncc
+1 Treasure Cruise|TSR|[319]
 1 Unwind|dom
-1 Wavebreak Hippocamp|j22
-1 Young Pyromancer|j22
+1 Wavebreak Hippocamp|J25|[387]
+1 Young Pyromancer|TSR|[353]

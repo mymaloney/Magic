@@ -3,82 +3,82 @@ Name=The Archimandrite
 [Commander]
 1 The Archimandrite|BRC
 [Main]
-1 Adarkar Wastes|DMU
-1 Arcane Signet|MIC
-1 Azorius Charm|IMA
-1 Beacon of Immortality|5DN
+1 Adarkar Wastes|ICE|[351]
+1 Arcane Signet|TRC|[485]
+1 Azorius Charm|PIO|[205]
+1 Beacon of Immortality|E02|[1]
 1 Blacksmith's Skill|MH2
 1 Bond of Discipline|WAR
-1 Boros Charm|GTC
-1 Boros Garrison|DMC
-1 Talisman of Creativity|TDC
-1 Talisman of Conviction|TDC
-1 Brightflame|RAV
-1 Command Tower|WOC
+1 Boros Charm|FDN|[721]
+1 Boros Garrison|CLU|[231]
+1 Talisman of Creativity|TRC|[504]
+1 Talisman of Conviction|TRC|[503]
+1 Brightflame|GK1|[87]
+1 Command Tower|TRC|[521]
 1 Congregate|USG
 1 Elsha, Threefold Master|TDC
-1 Counterspell|TMP
+1 Counterspell|DMR|[281]
 1 Decanter of Endless Water|CLB
 1 Delusions of Mediocrity|ULG
 1 Denry Klin, Editor in Chief|NCC
-1 Distortion Strike|ROE
-1 Dragon-Style Twins|KTK
-1 Elusive Spellfist|DTK
+1 Distortion Strike|IMA|[52]
+1 Dragon-Style Twins|PIO|[132]
+1 Elusive Spellfist|IMA|[54]
 1 Embercleave|ELD
 1 Enlightened Ascetic|ORI
-1 Evolving Wilds|ORI
-1 Exotic Orchard|WOC
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
 1 Flying Crane Technique|KTK
 1 Githzerai Monk|CLB
-1 Grand Arbiter Augustin IV|PJ21
+1 Grand Arbiter Augustin IV|2X2|[221]
 1 Homura, Human Ascendant|SOK
 1 Illusions of Grandeur|ICE
-1 Imperial Recruiter|A25
-1 Irregular Cohort|MH1
-8 Island|ONE
+1 Imperial Recruiter|MH2|[281]
+1 Irregular Cohort|CLB|[696]
+8 Island|INR|[290]
 1 Jeskai Ascendancy|2X2
-1 Kabira Crossroads|ZEN
+1 Kabira Crossroads|J25|[768]
 1 Leap|STH
-1 Loran of the Third Path|BRO
+1 Loran of the Third Path|TRC|[229]
 1 Mantis Rider|KTK
-1 Mistfire Adept|FRF
-1 Monastery Mentor|2X2
-7 Mountain|ONE
-1 Mystic Monastery|KTK
+1 Mistfire Adept|2X2|[59]
+1 Monastery Mentor|TDC|[125]
+7 Mountain|INR|[294]
+1 Mystic Monastery|TRC|[543]
 1 Narset, Enlightened Master|KTK
-1 Negate|DMU
+1 Negate|TRC|[439]
 1 Noble Purpose|MMQ
-1 Ojutai Exemplars|DTK
-1 Open into Wonder|AKH
-1 Path of Ancestry|CMM
-8 Plains|ONE
-1 Pristine Talisman|BRR
-1 Reliquary Tower|C21
+1 Ojutai Exemplars|J25|[232]
+1 Open into Wonder|ZNC|[34]
+1 Path of Ancestry|TRC|[545]
+8 Plains|INR|[288]
+1 Pristine Talisman|C21|[258]
+1 Reliquary Tower|TRC|[551]
 1 Rest for the Weary|WWK
-1 Rhox Faithmender|M13
-1 Righteous Cause|CMD
+1 Rhox Faithmender|TDC|[128]
+1 Righteous Cause|ONS|[51]
 1 Rune-Tail, Kitsune Ascendant|SOK
 1 Serra Ascendant|IMA
 1 Shadow Rift|TMP
-1 Shivan Reef|DMU
+1 Shivan Reef|APC|[142]
 1 Shu Yun, the Silent Tempest|FRF
-1 Skywise Teachings|DTK
-1 Sol Ring|WOC
+1 Skywise Teachings|IMA|[73]
+1 Sol Ring|LEB|[270]
 1 Soltari Monk|TMP
 1 Stratus Dancer|C19
-1 Student of Ojutai|DTK
+1 Student of Ojutai|IMA|[33]
 1 Suppression Ray|MH3
-1 Swiftfoot Boots|BRC
-1 Swiftwater Cliffs|KTK
+1 Swiftfoot Boots|TRC|[501]
+1 Swiftwater Cliffs|TDM|[268]
 1 Taigam, Ojutai Master|C17
-1 Terramorphic Expanse|C19
-1 Tranquil Cove|KTK
-1 True Conviction|SS2
+1 Terramorphic Expanse|TRC|[571]
+1 Tranquil Cove|TDM|[270]
+1 True Conviction|SCD|[38]
 1 Union of the Third Path|BRO
-1 Valiant Changeling|MH1
+1 Valiant Changeling|CLB|[711]
 1 Venser's Journal|C21
-1 Whirler Rogue|ORI
-1 Whispersilk Cloak|C16
+1 Whirler Rogue|DRC|[85]
+1 Whispersilk Cloak|DSC|[257]
 1 Will, Scion of Peace|WOE
-1 Wind-Scarred Crag|C17
+1 Wind-Scarred Crag|TDM|[271]
 1 Zedruu the Greathearted|C16

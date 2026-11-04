@@ -2,23 +2,23 @@
 Name=bandittrapper_hazezon
 [Main]
 1 Battlefield Forge|APC
-1 Plains|4ED
+1 Plains|INR|[288]
 2 Brushland|ICE
-2 City of Brass|CHR
+2 City of Brass|ARN|[71]
 2 Desert Twister|MMQ
-2 Earthquake|LEB
+2 Earthquake|PO2|[94]
 2 Fireball|LEB
-2 Giant Growth|5ED
-2 Lightning Bolt|4ED
-2 Rampant Growth|7ED
+2 Giant Growth|ICE|[246]
+2 Lightning Bolt|LEB|[162]
+2 Rampant Growth|TMP|[245]
 2 Sandstorm|MIR
-2 Scryb Sprites|4ED
-2 Shatter|4ED
+2 Scryb Sprites|LEB|[216]
+2 Shatter|TMP|[203]
 4 Desert|ARN
 4 Hazezon Tamar|LEG
 4 Incinerate|MIR
 4 Karplusan Forest|ICE
-4 Llanowar Elves|4ED
-4 Oasis|4ED
-6 Mountain|4ED
-7 Forest|4ED
+4 Llanowar Elves|LEB|[211]
+4 Oasis|ARN|[78]
+6 Mountain|INR|[294]
+7 Forest|INR|[296]

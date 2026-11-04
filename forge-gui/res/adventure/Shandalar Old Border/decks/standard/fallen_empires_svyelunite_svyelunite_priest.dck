@@ -1,7 +1,7 @@
 [metadata]
 Name=Svyelunite Priest
 [Main]
-36 Island|3ED
+36 Island|INR|[290]
 4 Svyelunite Temple|FEM
 4 Coral Atoll|VIS
 4 Lonely Sandbar|ONS
@@ -14,8 +14,8 @@ Name=Svyelunite Priest
 4 Wall of Tears|STH
 4 Stinging Barrier|MMQ
 4 Conch Horn|FEM
-2 Memory Lapse|HML|[32a]
-2 Memory Lapse|HML|[32b]
+2 Memory Lapse|MIR|[74]
+2 Memory Lapse|MIR|[74]
 4 Lilting Refrain|USG
 4 Grip of Amnesia|JUD
 8 Worry Beads|MMQ
@@ -24,15 +24,15 @@ Name=Svyelunite Priest
 4 Repel|ODY
 3 Submerge|NMS
 2 Persuasion|ODY
-2 Confiscate|7ED
+2 Confiscate|USG|[66]
 1 Ring of Renewal|FEM
-2 Ray of Command|ICE
+2 Ray of Command|MIR|[86]
 2 Scrivener|ODY
 2 Bubble Matrix|WTH
 2 Pedantic Learning|ODY
 4 Metamorphose|SCG
 1 Buoyancy|MMQ
-1 Lifetap|5ED
+1 Lifetap|LEB|[62]
 1 Suffocation|ALL
 [StartInBattle_Reference]
 1 Svyelunite Temple|FEM

@@ -1,11 +1,11 @@
 [metadata]
 Name=elephant
 [Main]
-4 Savannah|LEA
+4 Savannah|LEB|[281]
 4 Brushland|ICE
-4 Windswept Heath|ONS
-2 Forest|ICE
-2 Plains|ICE
+4 Windswept Heath|MH3|[440]
+2 Forest|INR|[296]
+2 Plains|INR|[288]
 4 Elephant Graveyard|ARN
 4 Call of the Herd|ODY
 4 Elephant Ambush|ODY
@@ -16,12 +16,12 @@ Name=elephant
 2 Vintara Elephant|PCY
 4 Rabid Elephant|ODY
 2 Purify|ULG
-1 Disenchant|TMP
+1 Disenchant|MMQ|[18]
 1 Naturalize|ONS
-4 Berserk|LEA
-4 Swords to Plowshares|LEA
+4 Berserk|LEB|[186]
+4 Swords to Plowshares|DMR|[275]
 
 [StartInBattle_Reference]
 1 Brushland|ICE
 1 Elephant Graveyard|ARN
-1 War Mammoth|LEA
+1 War Mammoth|LEB|[228]

@@ -1,19 +1,19 @@
 [metadata]
 Name=Snake
 [Main]
-10 Forest|MIR
-10 Island|MIR
-4 Rampant Growth|MIR
+10 Forest|INR|[296]
+10 Island|INR|[290]
+4 Rampant Growth|TMP|[245]
 3 Ophidian|WTH
 4 Mystic Snake|APC
 4 River Boa|VIS
 2 Marsh Boa|PCY
 2 Nafs Asp|ARN
-2 Anaconda|POR
+2 Anaconda|USG|[232]
 2 Boa Constrictor|MMQ
 3 Ribbon Snake|PCY
 4 Memory Lapse|MIR
-3 Psychic Venom|LEA
+3 Psychic Venom|LEB|[76]
 2 Snake Basket|VIS
-3 Overrun|TMP
+3 Overrun|ODY|[260]
 2 Snake Pit|MMQ

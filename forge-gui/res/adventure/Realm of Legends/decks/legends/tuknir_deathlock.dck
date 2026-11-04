@@ -3,8 +3,8 @@ Name=Killer Instinct
 [Commander]
 1 Tuknir Deathlock|LEG
 [Main]
-1 Worldspine Wurm|RTR
-1 Impervious Greatwurm|GRN
+1 Worldspine Wurm|DSC|[206]
+1 Impervious Greatwurm|2X2|[152]
 1 Riftburst Hellion|MKM
 1 Tectonic Hellion|C19
 1 Chaos Maw|HOU
@@ -28,12 +28,12 @@ Name=Killer Instinct
 1 Roaring Slagwurm|DST
 1 Quilled Slagwurm|MBS
 1 Plated Slagwurm|GVL
-1 Penumbra Wurm|UMA
+1 Penumbra Wurm|APC|[84]
 1 Pelakka Wurm|FDN
 1 Panglacial Wurm|CSP
-1 Havenwood Wurm|TSP
+1 Havenwood Wurm|J22|[670]
 1 Greater Sandwurm|IKO
-1 Engulfing Slagwurm|SOM
+1 Engulfing Slagwurm|J22|[655]
 1 Emergent Woodwurm|MOC
 1 Elderscale Wurm|M13
 1 Duskdale Wurm|IMA
@@ -52,7 +52,7 @@ Name=Killer Instinct
 1 Quilled Greatwurm|FDN
 1 Primordial Wurm|WAR
 1 Johtull Wurm|ICE
-1 Craw Wurm|LEA
+1 Craw Wurm|LEB|[191]
 1 Cowl Prowler|BBD
 1 Canopy Gorger|OGW
 1 Barbtooth Wurm|PO2
@@ -60,13 +60,13 @@ Name=Killer Instinct
 1 Streetbreaker Wurm|GPT
 1 Spined Wurm|STH
 1 Segmented Wurm|TMP
-1 Scoria Wurm|10E
+1 Scoria Wurm|USG|[212]
 1 Reckless Wurm|TSR
 1 Plated Wurm|PO2
 1 Metamorphic Wurm|ODY
 1 Jungle Wurm|MIR
-1 Grothama, All-Devouring|BBD
-1 Gorger Wurm|ALA
+1 Grothama, All-Devouring|BLC|[224]
+1 Gorger Wurm|ARB|[56]
 1 Germinating Wurm|EOE
 1 Endless Wurm|USG
 1 Elfhame Wurm|DMU
@@ -99,6 +99,6 @@ Name=Killer Instinct
 1 Tunneler Wurm|JUD
 1 Shivan Wurm|PLS
 1 Gravetiller Wurm|DKA
-1 Phantom Wurm|TSP
+1 Phantom Wurm|TSR|[224]
 1 Ulasht, the Hate Seed|2X2
 1 Pyroclastic Hellion|ZNR

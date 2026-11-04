@@ -3,23 +3,23 @@ Name=Adventure - INN Low Red
 [Avatar]
 
 [Main]
-2 Thermo-Alchemist|EMN|1
-2 Kessig Flamebreather|VOW|1
+2 Thermo-Alchemist|INR|[403]
+2 Kessig Flamebreather|DBL|[431]
 2 Make Mischief|EMN|1
-2 Moonrager's Slash|MID|1
-2 Thunderbolt|AVR|1
+2 Moonrager's Slash|DBL|[148]
+2 Thunderbolt|WTH|[115]
 1 Village Ironsmith|ISD|1
-1 Voltaic Visionary|VOW|1
-17 Mountain|ISD|1
-1 Voldaren Epicure|VOW|1
-1 Lambholt Raconteur|VOW|1
-1 Brimstone Vandal|MID|1
-2 Festival Crasher|MID|1
-2 Pyre Hound|SOI|1
+1 Voltaic Visionary|DBL|[450]
+17 Mountain|INR|[294]
+1 Voldaren Epicure|INR|[405]
+1 Lambholt Raconteur|DBL|[434]
+1 Brimstone Vandal|DBL|[130]
+2 Festival Crasher|INR|[153]
+2 Pyre Hound|A25|[145]
 1 Curse of Bloodletting|DKA|1
 1 Incendiary Flow|EMN|1
 1 Rage Thrower|ISD|1
-1 Spellrune Painter|MID|1
+1 Spellrune Painter|DBL|[160]
 [Sideboard]
 
 [Planes]

@@ -1,13 +1,13 @@
 [metadata]
 Name=Disciple of Teferi
 [Main]
-22 Island|MIR|3
+22 Island|INR|[290]
 1 Tolaria|LEG
 1 Teferi's Isle|MIR
 4 Sky Diamond|MIR
 3 Time Elemental|LEG
-3 Temporal Adept|7ED
-4 Time Ebb|POR
+3 Temporal Adept|UDS|[48]
+4 Time Ebb|PO2|[57]
 4 Temporal Manipulation|PO2
 2 Disruptive Student|USG
 2 Teferi's Imp|MIR
@@ -15,4 +15,4 @@ Name=Disciple of Teferi
 3 Sandbar Crocodile|MIR
 3 Breezekeeper|VIS
 2 Time and Tide|VIS
-4 Power Sink|MIR
+4 Power Sink|USG|[89]

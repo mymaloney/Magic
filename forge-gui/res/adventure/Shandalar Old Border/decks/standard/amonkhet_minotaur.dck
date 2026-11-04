@@ -1,17 +1,17 @@
 [metadata]
 Name=amonkhet_minotaur
 [Main]
-1 Swamp|LEA|2
-16 Mountain|LEA|2
-4 Bad Moon|LEA
-4 City of Brass|CHR
-4 Earthquake|LEA
-4 Incinerate|ICE
+1 Swamp|INR|[292]
+16 Mountain|INR|[294]
+4 Bad Moon|LEB|[94]
+4 City of Brass|ARN|[71]
+4 Earthquake|PO2|[94]
+4 Incinerate|MIR|[184]
 4 Keldon Vandals|UDS
-4 Lightning Bolt|LEA
+4 Lightning Bolt|LEB|[162]
 4 Minotaur Explorer|ODY
 4 Minotaur Warrior|POR
-4 Orcish Artillery|3ED
-4 Shivan Dragon|7ED
+4 Orcish Artillery|LEB|[166]
+4 Shivan Dragon|DMR|[329]
 4 Sulfurous Springs|ICE
-4 Wheel of Fortune|3ED
+4 Wheel of Fortune|LEB|[184]

@@ -3,21 +3,21 @@ Name=Golem Sentinel
 [Main]
 4 Amaranthine Wall|DOM|1
 4 Consulate Skygate|BBD|1
-4 Living Wall|30A|1
-3 Plains|DMU|1
-7 Plains|DMU|2
-6 Plains|DMU|3
-5 Plains|DMU|4
+4 Living Wall|LEB|[259]
+3 Plains|INR|[288]
+7 Plains|INR|[288]
+6 Plains|INR|[288]
+5 Plains|INR|[288]
 4 Rolling Stones|STH|1
-4 Secluded Steppe|J21|1
+4 Secluded Steppe|ONS|[324]
 4 Shield-Wall Sentinel|DMU|1
 4 Stalwart Shield-Bearers|ROE|1
 4 Steel Wall|TD2|1
 1 Sunweb|MIR|1
-4 Walking Bulwark|DMU|1
-4 Wall of Junk|DMR|1
-4 Wall of Spears|DPA|1
-1 Wall of Swords|30A|1
-4 Weathered Sentinels|NCC|1
-4 Wingmantle Chaplain|DMU|1
+4 Walking Bulwark|TDC|[334]
+4 Wall of Junk|USG|[315]
+4 Wall of Spears|ATQ|[77]
+1 Wall of Swords|POR|[37]
+4 Weathered Sentinels|TDC|[336]
+4 Wingmantle Chaplain|TDC|[141]
 [Sideboard]

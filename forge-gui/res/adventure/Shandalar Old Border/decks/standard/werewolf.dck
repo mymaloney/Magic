@@ -1,8 +1,8 @@
 [metadata]
 Name=Werewolf - BG Werewolves
 [Main]
-10 Forest|ODY
-10 Swamp|ODY
+10 Forest|INR|[296]
+10 Swamp|INR|[292]
 4 Tainted Wood|TOR
 4 Werebear|ODY
 4 Lesser Werewolf|LEG
@@ -13,4 +13,4 @@ Name=Werewolf - BG Werewolves
 4 Mulch|STH
 4 Sylvan Might|ODY
 2 Fatal Blow|WTH
-2 Reckless Spite|TMP
+2 Reckless Spite|INV|[121]

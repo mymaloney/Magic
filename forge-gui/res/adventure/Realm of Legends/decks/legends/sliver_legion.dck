@@ -1,103 +1,103 @@
 [metadata]
 Name=Sliver Legion
 [Commander]
-1 Sliver Legion|fut
+1 Sliver Legion|TSR|[261]
 [Main]
-1 Arcane Signet|cmm
+1 Arcane Signet|TRC|[485]
 1 Arid Mesa|mh2
-1 Blasphemous Act|cmm
-1 Blood Crypt|ecl
+1 Blasphemous Act|SOC|[238]
+1 Blood Crypt|RVR|[397]
 1 Bloodstained Mire|mh3
 1 Blur Sliver|m14
-1 Bonescythe Sliver|cmm
-1 Breeding Pool|eoe
+1 Bonescythe Sliver|M14|[9]
+1 Breeding Pool|RVR|[399]
 1 Brood Sliver|lgn
-1 Cavern of Souls|2x2
-1 Chromatic Lantern|cmm
+1 Cavern of Souls|LCI|[269]
+1 Chromatic Lantern|RVR|[390]
 1 Chronicle of Victory|ecl
-1 Cloudshredder Sliver|mh1
-1 Command Tower|cmm
-1 Constricting Sliver|cmm
+1 Cloudshredder Sliver|TSR|[373]
+1 Command Tower|TRC|[521]
+1 Constricting Sliver|M15|[7]
 1 Crypt Sliver|lgn
 1 Crystalline Sliver|sth
-1 Cultivate|cmm
+1 Cultivate|SOC|[265]
 1 Descendants' Path|lcc
-1 Diffusion Sliver|cmm
-1 Distant Melody|cmm
+1 Diffusion Sliver|M15|[50]
+1 Distant Melody|ECC|[45]
 1 Eerie Ultimatum|iko
 1 Essence Sliver|lgn
-1 Exotic Orchard|cmm
-1 Fabled Passage|m21
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
 1 Banner of Kinship|fdn
 1 Flooded Strand|mh3
-1 Forest|tmp
-1 Galerider Sliver|cmm
-1 Gemhide Sliver|tsp
-1 Godless Shrine|eoe
+1 Forest|INR|[296]
+1 Galerider Sliver|M14|[57]
+1 Gemhide Sliver|TSR|[205]
+1 Godless Shrine|RVR|[401]
 1 Guardian Project|rvr
-1 Hallowed Fountain|ecl
-1 Harmonic Sliver|tsp
+1 Hallowed Fountain|RVR|[404]
+1 Harmonic Sliver|TSR|[254]
 1 Heart Sliver|tmp
-1 Herald's Horn|cmm
+1 Herald's Horn|TRC|[493]
 1 Hibernation Sliver|sth
 1 Horned Sliver|tmp
-1 Island|tmp
+1 Island|INR|[290]
 1 Jetmir's Garden|snc
-1 Kindred Discovery|c17
-1 Kindred Summons|afc
-1 Lavabelly Sliver|mh1
-1 Manaweft Sliver|cmm
+1 Kindred Discovery|LCC|[159]
+1 Kindred Summons|ECC|[112]
+1 Lavabelly Sliver|H1R|[29]
+1 Manaweft Sliver|M14|[184]
 1 Marsh Flats|mh2
-1 Megantic Sliver|cmm
+1 Megantic Sliver|M14|[185]
 1 Misty Rainforest|mh2
-1 Morophon, the Boundless|mh1
-1 Mountain|tmp
+1 Morophon, the Boundless|M3C|[157]
+1 Mountain|INR|[294]
 1 Muscle Sliver|tmp
-1 Necrotic Sliver|plc
-1 Overgrown Tomb|ecl
-1 Patriarch's Bidding|mh2
-1 Plains|tmp
+1 Necrotic Sliver|AFC|[188]
+1 Overgrown Tomb|RVR|[407]
+1 Patriarch's Bidding|ONS|[161]
+1 Plains|INR|[288]
 1 Polluted Delta|mh3
-1 Predatory Sliver|cmm
-1 Pulmonic Sliver|tsp
+1 Predatory Sliver|M14|[189]
+1 Pulmonic Sliver|TSR|[34]
 1 Ketria Triome|iko
 1 Savai Triome|iko
 1 Indatha Triome|iko
 1 Kindred Charge|c17
-1 Reflecting Pool|cns
-1 Reflections of Littjara|khm
-1 Ruinous Ultimatum|iko
-1 Sacred Foundry|eoe
+1 Reflecting Pool|TMP|[322]
+1 Reflections of Littjara|TDC|[164]
+1 Ruinous Ultimatum|TRC|[329]
+1 Sacred Foundry|RVR|[409]
 1 Scalding Tarn|mh2
-1 Sentinel Sliver|cmm
+1 Sentinel Sliver|M14|[30]
 1 Shadow Sliver|tsp
 1 Shifting Sliver|lgn
-1 Sinew Sliver|plc
+1 Sinew Sliver|TSR|[44]
 1 Sliver Hive|m15
-1 Overwhelming Stampede|c15
+1 Overwhelming Stampede|FDC|[218]
 1 Ward Sliver|lgn
-1 Might Sliver|tsp
+1 Might Sliver|TSR|[218]
 1 Lazotep Sliver|cmm
-1 Fury Sliver|tsp
-1 Kindred Dominance|cmm|[640]
-1 Sol Ring|cmm
+1 Fury Sliver|TSR|[164]
+1 Kindred Dominance|WOC|[113]
+1 Sol Ring|LEB|[270]
 1 Spara's Headquarters|snc
 1 Spiteful Sliver|mh1
-1 Steam Vents|ecl
-1 Stomping Ground|eoe
+1 Steam Vents|RVR|[412]
+1 Stomping Ground|RVR|[413]
 1 Striking Sliver|m14
-1 Swamp|tmp
+1 Swamp|INR|[292]
 1 Synapse Sliver|lgn
-1 Syphon Sliver|cmm
-1 Temple Garden|ecl
+1 Syphon Sliver|M14|[117]
+1 Temple Garden|RVR|[414]
 1 The Great Henge|cmm
 1 Thrumming Hivepool|eoe
-1 Two-Headed Sliver|tsp
-1 Urza's Incubator|cm2
-1 Vanquisher's Banner|cmm
+1 Two-Headed Sliver|TSR|[197]
+1 Urza's Incubator|DMR|[392]
+1 Vanquisher's Banner|TSR|[402]
 1 Venom Sliver|m15
 1 Verdant Catacombs|mh2
-1 Watery Grave|eoe
+1 Watery Grave|RVR|[415]
 1 Windswept Heath|mh3
 1 Winged Sliver|tmp
 1 Wooded Foothills|mh3

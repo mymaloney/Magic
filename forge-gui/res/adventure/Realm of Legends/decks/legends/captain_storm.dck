@@ -3,8 +3,8 @@ Name=Captain Storm, Cosmium Raider
 [Commander]
 1 Captain Storm, Cosmium Raider|LCI
 [Main]
-1 Abrade|TDC
-1 Arcane Signet|EOC
+1 Abrade|TRC|[449]
+1 Arcane Signet|TRC|[485]
 1 Bandit's Haul|OTJ
 1 Bigfin Bouncer|FDN
 1 Breeches, Eager Pillager|LCI
@@ -18,9 +18,9 @@ Name=Captain Storm, Cosmium Raider
 1 Efficient Construction|CMM
 1 Ensoul Artifact|M15
 1 Enterprising Scallywag|LCI
-1 Everflowing Chalice|EOC
+1 Everflowing Chalice|TSR|[394]
 1 Faerie Mechanist|2XM
-1 Faithless Looting|TDC
+1 Faithless Looting|SOC|[244]
 1 Flick a Coin|WOE
 1 Found Footage|DSK
 1 Gadget Technician|MKM
@@ -31,24 +31,24 @@ Name=Captain Storm, Cosmium Raider
 1 Hotfoot Gnome|LCI
 1 Idol of Oblivion|TDC
 1 Idol of the Deep King|LCI
-1 Sol Ring|LCC
-16 Island|LCI
-1 Jack-o'-Lantern|MID
+1 Sol Ring|LEB|[270]
+16 Island|INR|[290]
+1 Jack-o'-Lantern|DBL|[254]
 1 Junk Winder|BLC
-1 Lantern of the Lost|VOW
+1 Lantern of the Lost|DBL|[526]
 1 Lodestone Needle|LCI
 1 Magnifying Glass|MKM
 1 Malcolm, the Eyes|OTJ
-1 Manifold Key|C20
+1 Manifold Key|TSR|[398]
 1 Meteoric Mace|MH3
-1 Mind's Eye|BBD
-17 Mountain|LCI
-1 Command Tower|LCC
+1 Mind's Eye|FDC|[272]
+17 Mountain|INR|[294]
+1 Command Tower|TRC|[521]
 1 Oaken Siren|LCI
 1 Obelisk of Urd|ZNC
 1 Orazca Puzzle-Door|LCI
 1 Parcel Myr|MH2
-1 Pentavus|MRD
+1 Pentavus|CM2|[209]
 1 Pirate Hat|LCI
 1 Plundering Pirate|LCI
 1 Port Razer|LCC
@@ -67,7 +67,7 @@ Name=Captain Storm, Cosmium Raider
 1 Sweatworks Brawler|AER
 1 Tarrian's Soulcleaver|LCI
 1 Tempest Angler|BLB
-1 Terramorphic Expanse|EOC
+1 Terramorphic Expanse|TRC|[571]
 1 Volatile Wanderglyph|LCI
 1 Whirler Rogue|DRC
 1 Worldwalker Helm|BIG

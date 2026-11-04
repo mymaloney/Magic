@@ -6,32 +6,32 @@ Description=Mono B control deck
 Icon=Hugo Drax.jpg
 Deck Type=constructed
 [Main]
-24 Swamp|TMP
-2 Will-o'-the-Wisp
-2 Zulaport Enforcer
-4 Basilica Screecher
-2 Fog of Gnats
-1 Withered Wretch
-1 Gatekeeper of Malakir
-1 Corrosive Mentor
-2 Soot Imp
-1 Hypnotic Specter
-1 Necroskitter
-1 Royal Assassin
-1 Vampire Nighthawk
-1 Urborg Stalker
-1 Gloomdrifter
-2 Uncle Istvan
-1 Gray Merchant of Asphodel
-2 Dash Hopes
-1 Death Stroke
-1 Scepter of Fugue
-1 Pharika's Cure
-1 Death's Duet
-1 Dead Weight
-1 Hero's Downfall
-1 Grave Peril
-1 Doom Blade
-1 Go for the Throat
-1 Victim of Night
+24 Swamp|INR|[292]
+2 Will-o'-the-Wisp|LEB|[136]
+2 Zulaport Enforcer|ROE|[133]
+4 Basilica Screecher|PIO|[83]
+2 Fog of Gnats|ULG|[53]
+1 Withered Wretch|LGN|[86]
+1 Gatekeeper of Malakir|FDN|[713]
+1 Corrosive Mentor|SHM|[61]
+2 Soot Imp|DVD|[37]
+1 Hypnotic Specter|LEB|[113]
+1 Necroskitter|ECC|[48]
+1 Royal Assassin|DMR|[310]
+1 Vampire Nighthawk|FDN|[186]
+1 Urborg Stalker|WTH|[85]
+1 Gloomdrifter|TOR|[61]
+2 Uncle Istvan|DRK|[54]
+1 Gray Merchant of Asphodel|TSR|[323]
+2 Dash Hopes|PLC|[68]
+1 Death Stroke|STH|[57]
+1 Scepter of Fugue|CFX|[53]
+1 Pharika's Cure|THS|[100]
+1 Death's Duet|EXO|[60]
+1 Dead Weight|LCI|[99]
+1 Hero's Downfall|FDN|[175]
+1 Grave Peril|C15|[128]
+1 Doom Blade|GN3|[47]
+1 Go for the Throat|FDC|[100]
+1 Victim of Night|DDQ|[67]
 [Sideboard]

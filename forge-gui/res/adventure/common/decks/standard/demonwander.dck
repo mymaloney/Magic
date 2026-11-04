@@ -1,33 +1,33 @@
 [metadata]
 Name=demonwander
 [Main]
-2 Arid Mesa|MM3|1
-2 Canyon Slough|PIP|3
+2 Arid Mesa|MH2|[436]
+2 Canyon Slough|TRC|[369]
 3 Crawling Chorus|ONE|1
-4 Doomed Traveler|J21|1
+4 Doomed Traveler|CLU|[59]
 2 Extus, Oriq Overlord|STX|1
-3 Indulgent Tormentor|M15|1
+3 Indulgent Tormentor|SCD|[81]
 2 Lagomos, Hand of Hatred|DMU|1
 2 March of the Canonized|LCC|2
 2 Mayhem Devil|RVR|1
 2 Mondrak, Glory Dominus|ONE|1
-2 Mortify|C16|1
-1 Mountain|C16|1
-1 Mountain|C16|3
-4 Nomad Outpost|C20|1
-1 Plains|C16|2
-1 Plains|C16|3
+2 Mortify|TSR|[381]
+1 Mountain|INR|[294]
+1 Mountain|INR|[294]
+4 Nomad Outpost|TRC|[544]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
 2 Promise of Aclazotz|LCC|2
-4 Rocky Tar Pit|DDP|1
+4 Rocky Tar Pit|MIR|[329]
 2 Savai Triome|IKO|1
-2 Sengir Autocrat|EMA|1
-2 Shadow Summoning|LTR|1
-2 Sulfurous Springs|DMU|1
-1 Swamp|C16|1
-2 Swamp|C16|2
-1 Swamp|C16|3
-4 Village Rites|GN3|1
-2 Young Pyromancer|JMP|1
-2 Young Pyromancer|OTC|1
+2 Sengir Autocrat|HML|[56]
+2 Shadow Summoning|TDC|[101]
+2 Sulfurous Springs|ICE|[360]
+1 Swamp|INR|[292]
+2 Swamp|INR|[292]
+1 Swamp|INR|[292]
+4 Village Rites|INR|[392]
+2 Young Pyromancer|TSR|[353]
+2 Young Pyromancer|TSR|[353]
 [Sideboard]
 [Schemes]

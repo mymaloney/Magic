@@ -3,94 +3,94 @@ Name=Estrid
 [Commander]
 1 Estrid, the Masked|c18
 [Main]
-1 Abundant Growth|avr
-1 Ajani's Chosen|c18
-1 Arcane Denial|a25
-1 Archon of Sun's Grace|thb
-1 Argothian Enchantress|ema
+1 Abundant Growth|INR|[406]
+1 Ajani's Chosen|SOC|[132]
+1 Arcane Denial|ALL|[22a]
+1 Archon of Sun's Grace|SOC|[137]
+1 Argothian Enchantress|USG|[234]
 1 Auramancer|ody
-1 Austere Command|brc
-1 Blighted Woodland|bfz
-1 Breeding Pool|gtc
+1 Austere Command|FDC|[18]
+1 Blighted Woodland|TSR|[405]
+1 Breeding Pool|RVR|[399]
 1 Brushland|ice
-1 City of Brass|6ed
-1 Command Tower|c13
-1 Copy Enchantment|wot
-1 Cyclonic Rift|2xm
-1 Darksteel Mutation|cmm
+1 City of Brass|ARN|[71]
+1 Command Tower|TRC|[521]
+1 Copy Enchantment|RVR|[312]
+1 Cyclonic Rift|RVR|[313]
+1 Darksteel Mutation|SOC|[142]
 1 Dawn's Reflection|c18
 1 Deification|mat
-1 Destiny Spinner|thb
-1 Detention Sphere|rtr
-1 Dovin's Veto|war
-1 Eidolon of Blossoms|pjou
+1 Destiny Spinner|WOC|[123]
+1 Detention Sphere|GK2|[10]
+1 Dovin's Veto|TSR|[375]
+1 Eidolon of Blossoms|WOC|[124]
 1 Treachery|uds
 1 Enchantress's Presence|ons
 1 Overwhelming Splendor|hou
-1 Sol Ring|c18
+1 Sol Ring|LEB|[270]
 1 Archetype of Imagination|dsc
-1 Ancestral Mask|ema
-1 Eldrazi Conscription|uma
+1 Ancestral Mask|MMQ|[229]
+1 Eldrazi Conscription|SOC|[131]
 1 Nylea's Colossus|c18
-1 Finale of Revelation|war
-1 Finale of Glory|war
+1 Finale of Revelation|FDN|[589]
+1 Finale of Glory|CLU|[61]
 1 Nyxbloom Ancient|thb
-1 Teferi's Protection|sta
-1 Fertile Ground|usg
-4 Forest|thb
-1 Ghostly Prison|chk
-1 Glacial Fortress|m12
+1 Teferi's Protection|2X2|[32]
+1 Fertile Ground|INV|[188]
+4 Forest|INR|[296]
+1 Ghostly Prison|SOC|[146]
+1 Glacial Fortress|TRC|[385]
 1 Nyxborn Behemoth|cmm
-1 Ondu Spiritdancer|cmm
+1 Ondu Spiritdancer|DSC|[101]
 1 Greater Auramancy|shm
-1 Hallowed Fountain|rtr
-1 Hinterland Harbor|isd
-3 Island|thb
-1 Karmic Justice|c15
-1 Land Tax|4ed
-1 Leyline of Sanctity|m11
-1 Luminarch Ascension|zen
+1 Hallowed Fountain|RVR|[404]
+1 Hinterland Harbor|DMR|[396]
+3 Island|INR|[290]
+1 Karmic Justice|ODY|[26]
+1 Land Tax|LEG|[26]
+1 Leyline of Sanctity|M20|[26]
+1 Luminarch Ascension|A25|[23]
 1 Mana Confluence|jou
 1 Sovereigns of Lost Alara|UMA
 1 Colossification|blb
-1 Overwhelming Stampede|dsc
+1 Overwhelming Stampede|FDC|[218]
 1 Market Festival|jou
-1 Mesa Enchantress|plc
-1 Mirrormade|eld
+1 Mesa Enchantress|DMR|[267]
+1 Mirrormade|DSC|[120]
 1 Overgrowth|sth
-4 Plains|thb
-1 Privileged Position|rav
+4 Plains|INR|[288]
+1 Privileged Position|2X2|[263]
 1 Propaganda|tmp
 1 Reflecting Pool|tmp
-1 Tropical Island|vma
-1 Tundra|vma
-1 Savannah|vma
-1 Reliquary Tower|pm19
+1 Tropical Island|LEB|[284]
+1 Tundra|LEB|[285]
+1 Savannah|LEB|[281]
+1 Reliquary Tower|TRC|[551]
 1 Replenish|uds
 1 Rhystic Study|pcy
-1 Sanctum Weaver|mh2
+1 Sanctum Weaver|WOC|[131]
 1 Satyr Enchanter|m19
-1 Misty Rainforest|ZEN
-1 Flooded Strand|KTK
-1 Windswept Heath|KTK
-1 Selesnya Sanctuary|c18
-1 Setessan Champion|thb
+1 Misty Rainforest|MH2|[438]
+1 Flooded Strand|MH3|[436]
+1 Windswept Heath|MH3|[440]
+1 Selesnya Sanctuary|CLU|[246]
+1 Setessan Champion|WOC|[132]
 1 Sigil of the Empty Throne|tsr
-1 Simic Growth Chamber|c18
-1 Song of the Dryads|c14
+1 Simic Growth Chamber|DSC|[298]
+1 Song of the Dryads|CMM|[324]
 1 Spara's Headquarters|snc
-1 Sphere of Safety|rtr
-1 Starfield of Nyx|ori
+1 Sphere of Safety|RVR|[447]
+1 Starfield of Nyx|PIO|[36]
 1 Sterling Grove|inv
-1 Sunpetal Grove|m12
+1 Sunpetal Grove|TDC|[399]
 1 Sythis, Harvest's Hand|mh2
-1 Temple Garden|rtr
-1 The Chain Veil|m15
+1 Temple Garden|RVR|[414]
+1 The Chain Veil|PIO|[358]
 1 Tuvasa the Sunlit|c18
-1 Utopia Sprawl|dis
-1 Verdant Haven|gtc
-1 Verduran Enchantress|4ed
-1 Weirding Wood|soi
-1 Wild Growth|ice
-1 Wolfwillow Haven|thb
+1 Utopia Sprawl|RVR|[355]
+1 Verdant Haven|M15|[206]
+1 Verduran Enchantress|LEB|[223]
+1 Weirding Wood|MOC|[315]
+1 Wild Growth|DMR|[352]
+1 Wolfwillow Haven|BLC|[246]
 1 Yavimaya Coast|apc

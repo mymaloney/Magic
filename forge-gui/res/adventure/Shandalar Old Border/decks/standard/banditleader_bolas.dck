@@ -12,15 +12,15 @@ Name=banditleader_bolas
 1 Rathi Assassin|NMS
 1 Rathi Fiend|NMS
 1 Cateran Enforcer|MMQ
-2 Diabolic Edict|BTD
+2 Diabolic Edict|TMP|[128]
 2 Dark Triumph|NMS
 3 Cateran Summons|MMQ
-3 Chainer's Edict|TOR
-2 Drain Life|2ED
+3 Chainer's Edict|DMR|[300]
+2 Drain Life|MIR|[118]
 1 Mutilate|TOR
 1 Outbreak|PCY
 2 Dust Bowl|MMQ
-21 Swamp|ONS
+21 Swamp|INR|[292]
 
 [StartInBattle_Reference]
 1 Bedlam|USG

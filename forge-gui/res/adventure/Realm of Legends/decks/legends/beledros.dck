@@ -1,85 +1,85 @@
 [metadata]
 Name=Beledros
 [Commander]
-1 Beledros Witherbloom|stx
+1 Beledros Witherbloom|SOC|[296]
 [Main]
 1 Accomplished Alchemist|stx
 1 Ageless Entity|c21
-1 Alhammarret's Archive|c21
-1 Arcane Signet|c21
+1 Alhammarret's Archive|TRC|[337]
+1 Arcane Signet|TRC|[485]
 1 Blex, Vexing Pest|stx
-1 Poison-Tip Archer|khc
-1 Abrupt Decay|mm3
-1 Essence Warden|c14
+1 Poison-Tip Archer|BLC|[256]
+1 Abrupt Decay|TSR|[370]
+1 Essence Warden|CMA|[106]
 1 Qarsi Revenant|tdm
 1 Callous Bloodmage|stx
-1 Shamanic Revelation|ncc
-1 Gilded Lotus|dom
+1 Shamanic Revelation|PIO|[194]
+1 Gilded Lotus|FDN|[725]
 1 Virulent Emissary|ecl
-1 Blight Mound|c21
-1 Blighted Woodland|c21
-1 Blood Artist|voc
-1 Blossoming Bogbeast|c21
-1 Command Tower|c21
-1 Culling Ritual|stx
-1 Cultivate|lcc
+1 Blight Mound|SOC|[208]
+1 Blighted Woodland|TSR|[405]
+1 Blood Artist|INR|[372]
+1 Blossoming Bogbeast|SOC|[264]
+1 Command Tower|TRC|[521]
+1 Culling Ritual|SOC|[302]
+1 Cultivate|SOC|[265]
 1 Darkbore Pathway|khm
-1 Deadly Tempest|c21
-1 Deathcap Glade|vow
+1 Deadly Tempest|SCD|[75]
+1 Deathcap Glade|SOS|[253]
 1 Defiant Bloodlord|c21
-1 Dina, Soul Steeper|stx
+1 Dina, Soul Steeper|SOC|[305]
 1 Druidic Satchel|c21
 1 Elixir of Immortality|c21
 1 Engulfing Slagwurm|j22
 1 Essence Pulse|c21
-1 Falkenrath Noble|voc
-10 Forest|stx
+1 Falkenrath Noble|J25|[441]
+10 Forest|INR|[296]
 1 Gingerbread Cabin|c21
-1 Golgari Rot Farm|c21
-1 Talisman of Resilience|dsc
+1 Golgari Rot Farm|ECC|[151]
+1 Talisman of Resilience|SOC|[432]
 1 Gumdrop Poisoner|woe
-1 Gyome, Master Chef|c21
+1 Gyome, Master Chef|SOC|[313]
 1 Healing Technique|c21
-1 High Market|c21
-1 Jungle Hollow|c21
-1 Llanowar Wastes|c21
+1 High Market|MMQ|[320]
+1 Jungle Hollow|TDM|[258]
+1 Llanowar Wastes|APC|[141]
 1 Witherbloom, the Balancer|sos
-1 Moldervine Reclamation|c21
-1 Mortality Spear|stx
-1 Myriad Landscape|c21
-1 Necroblossom Snarl|stx
+1 Moldervine Reclamation|SOC|[320]
+1 Mortality Spear|SOC|[321]
+1 Myriad Landscape|EOC|[169]
+1 Necroblossom Snarl|SOC|[389]
 1 Nirkana Revenant|voc
 1 Nissa's Renewal|c21
-1 Noxious Gearhulk|c21
-1 Pest Infestation|c21
+1 Noxious Gearhulk|TDC|[191]
+1 Pest Infestation|SOC|[282]
 1 Pestilent Cauldron|stx
-1 Phyrexian Arena|one
-1 Polluted Bonds|wot
-1 Primal Command|ddp
+1 Phyrexian Arena|APC|[47]
+1 Polluted Bonds|SHM|[74]
+1 Primal Command|MM3|[132]
 1 Pristine Talisman|c21
-1 Putrefy|dsc
-1 Radiant Fountain|c21
+1 Putrefy|RVR|[378]
+1 Radiant Fountain|FDC|[308]
 1 Restless Cottage|woe
-1 Rogue's Passage|c21
-1 Sanguine Bond|c21
+1 Rogue's Passage|TRC|[552]
+1 Sanguine Bond|TSR|[330]
 1 Sapling of Colfenor|c21
 1 Sapseep Forest|c21
-1 Season of Growth|wot
-1 Sol Ring|afc
-1 Somberwald Beastmaster|mic
-11 Swamp|stx
+1 Season of Growth|M20|[191]
+1 Sol Ring|LEB|[270]
+1 Somberwald Beastmaster|J25|[715]
+11 Swamp|INR|[292]
 1 Taste of Death|c21
-1 Temple of Malady|c21
-1 Temple of the False God|c21
-1 Tivash, Gloom Summoner|c21
+1 Temple of Malady|SOC|[413]
+1 Temple of the False God|SCG|[143]
+1 Tivash, Gloom Summoner|J22|[476]
 1 Valentin, Dean of the Vein|stx
-1 Vampire Nighthawk|c21
-1 Veinwitch Coven|c21
+1 Vampire Nighthawk|FDN|[186]
+1 Veinwitch Coven|SOC|[228]
 1 Vengeful Bloodwitch|fdn
 1 Venser's Journal|c21
-1 Verdant Sun's Avatar|c21
-1 Vindictive Vampire|plst
+1 Verdant Sun's Avatar|FDC|[239]
+1 Vindictive Vampire|RVR|[330]
 1 Well of Lost Dreams|c21
 1 Willowdusk, Essence Seer|c21
-1 Witch's Clinic|c21
-1 Witherbloom Campus|stx
+1 Witch's Clinic|FDC|[318]
+1 Witherbloom Campus|SOC|[423]

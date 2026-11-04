@@ -3,67 +3,67 @@ Name=Hazoret
 [Commander]
 1 Hazoret, Godseeker|dft
 [Main]
-1 Abrade|tdc
-1 Arcane Signet|ecc
-1 Battle Rampart|bbd
+1 Abrade|TRC|[449]
+1 Arcane Signet|TRC|[485]
+1 Battle Rampart|MMQ|[173]
 1 Blackblade Reforged|dmc
-1 Blasphemous Act|ecc
-1 Bolt Bend|war
+1 Blasphemous Act|SOC|[238]
+1 Bolt Bend|FDN|[619]
 1 Burning Inquiry|m10
 1 Burnout Bashtronaut|dft
-1 Chandra, Torch of Defiance|cmm
-1 Chandra's Ignition|m3c
-1 Chaos Warp|eoc
-1 Blackblade Reforged|dom
-1 Basilisk Collar|fdn
-1 O-Naginata|sok
+1 Chandra, Torch of Defiance|FRA|[244]
+1 Chandra's Ignition|FDC|[145]
+1 Chaos Warp|MBC|[72]
+1 Blackblade Reforged|DMC|[178]
+1 Basilisk Collar|FDC|[246]
+1 O-Naginata|2XM|[278]
 1 City on Fire|mom
 1 Commander's Plate|cmr
-1 Commander's Sphere|ecc
+1 Commander's Sphere|TRC|[487]
 1 Count on Luck|dft
 1 The Aetherspark|dft
 1 Burnout Bashtronaut|dft
 1 Embercleave|eld
 1 Endrider Catalyzer|dft
 1 Endrider Spikespitter|dft
-1 Faithless Looting|tdc
+1 Faithless Looting|SOC|[244]
 1 Fire Diamond|mir
 1 Full Throttle|dft
 1 Gingerbrute|j25
-1 Gratuitous Violence|fdn
+1 Gratuitous Violence|ONS|[212]
 1 Grenzo, Havoc Raiser|tdc
-1 Hazoret's Monument|dmc
+1 Hazoret's Monument|FDC|[261]
 1 Anep, Vizier of Hazoret|j25
-1 Chain Reaction|ecc
+1 Chain Reaction|TRC|[280]
 1 Impact Tremors|fdn
-1 Insurrection|cmm
-1 Laelia, the Blade Reforged|mh3
-1 Light Up the Stage|dsc
-1 Lightning Bolt|m10
-1 Lightning Greaves|scd
+1 Insurrection|ONS|[213]
+1 Laelia, the Blade Reforged|SOC|[246]
+1 Light Up the Stage|RVR|[338]
+1 Lightning Bolt|LEB|[162]
+1 Lightning Greaves|TRC|[496]
 1 Lizard Blades|neo
 1 Loyal Apprentice|tdc
 1 Hazoret the Fervent|akh
 1 Siege-Gang Lieutenant|m3c
 1 Mechanized Warfare|bro
-36 Mountain|akh
+36 Mountain|INR|[294]
 1 Amonkhet Raceway|dft
 1 Muraganda Raceway|dft
-1 Professional Face-Breaker|stx
+1 Professional Face-Breaker|TRC|[291]
 1 Prophetic Flamespeaker|jou
-1 Purphoros, God of the Forge|cmm
+1 Purphoros, God of the Forge|PIO|[296]
 1 Racers' Scoreboard|dft
-1 Reliquary Tower|tdc
+1 Reliquary Tower|TRC|[551]
 1 Return the Favor|otj
 1 Ring of Valkas|cmr
-1 Rogue's Passage|rtr
-1 Ruby Medallion|mh3
+1 Rogue's Passage|TRC|[552]
+1 Ruby Medallion|TMP|[305]
 1 Siege-Gang Lieutenant|m3c
-1 Sol Ring|ecc
-1 Swiftfoot Boots|fdn
-1 Thought Vessel|dsc
-1 Thrill of Possibility|fdn
+1 Sol Ring|LEB|[270]
+1 Swiftfoot Boots|TRC|[501]
+1 Thought Vessel|TRC|[509]
+1 Thrill of Possibility|TRC|[455]
 1 Torbran, Thane of Red Fell|eld
-1 Transmogrifying Wand|cmm
-1 Vandalblast|rtr
+1 Transmogrifying Wand|M19|[247]
+1 Vandalblast|TSR|[352]
 1 Zephyr Boots|stx

@@ -8,16 +8,16 @@ Name=Palladia-Mors
 1 An-Havva Township|HML
 1 Ancient Tomb|TMP
 1 Argothian Elder|USG
-1 Swords to Plowshares|2ED
-1 Berserk|2ED
+1 Swords to Plowshares|DMR|[275]
+1 Berserk|LEB|[186]
 1 Caltrops|UDS
 1 Craw Giant|LEG
 1 Elvish Piper|UDS
-1 Exploration|USG
-1 Fertile Ground|USG
+1 Exploration|DMR|[339]
+1 Fertile Ground|INV|[188]
 1 Firestorm Phoenix|LEG
-14 Forest|LEB
-1 Fork|3ED
+14 Forest|INR|[296]
+1 Fork|LEB|[153]
 1 Fyndhorn Elves|ICE
 1 Goblin Scouts|MIR
 1 Gravity Sphere|LEG
@@ -31,46 +31,46 @@ Name=Palladia-Mors
 1 Living Plane|LEG
 1 Livonya Silone|LEG
 1 Manakin|TMP
-1 Meltdown|USG
-1 Mind Stone|WTH
+1 Meltdown|MH3|[418]
+1 Mind Stone|DMR|[385]
 1 Mirri's Guile|TMP
 1 Moat|LEG
 1 Mother of Runes|ULG
-11 Mountain|LEB
-1 Nevinyrral's Disk|3ED
-1 Overrun|TMP
+11 Mountain|INR|[294]
+1 Nevinyrral's Disk|LEB|[267]
+1 Overrun|ODY|[260]
 1 Pattern of Rebirth|UDS
-6 Plains|LEB
-1 Plateau|3ED
-1 Quirion Elves|MIR
-1 Raging River|2ED
-1 Regeneration|LEB
+6 Plains|INR|[288]
+1 Plateau|LEB|[280]
+1 Quirion Elves|INV|[203]
+1 Raging River|LEB|[169]
+1 Regeneration|MIR|[236]
 1 Regrowth|LEB
-1 Resurrection|2ED
+1 Resurrection|LEB|[35]
 1 Rukh Egg|ARN
-1 Savannah|3ED
+1 Savannah|LEB|[281]
 1 Sawback Manticore|MIR
-1 Serra Angel|LEB
-1 Shivan Dragon|3ED
+1 Serra Angel|DMR|[271]
+1 Shivan Dragon|DMR|[329]
 1 Shivan Phoenix|ULG
 1 Simoon|INV
-1 Sneak Attack|USG
+1 Sneak Attack|DMR|[331]
 1 Spinal Villain|LEG
 1 Stangg|LEG
 1 Snake Basket|VIS
 1 Mirari's Wake|JUD
 1 Two-Headed Dragon|MMQ
-1 Birds of Paradise|LEA
-1 Swords to Plowshares|LEA
-1 Forgotten Ancient|SCG
-1 Decimate|ODY
+1 Birds of Paradise|RVR|[344]
+1 Swords to Plowshares|DMR|[275]
+1 Forgotten Ancient|DMR|[341]
+1 Decimate|DMR|[356]
 1 Insurrection|ONS
 1 Aura Shards|INV
 1 Willow Satyr|LEG
 1 Tinder Wall|ICE
 1 Tuknir Deathlock|LEG
 1 Wall of Roots|MIR
-1 Wheel of Fortune|2ED
-1 Winds of Change|LEG
+1 Wheel of Fortune|LEB|[184]
+1 Winds of Change|POR|[156]
 1 Wood Elves|EXO
 1 Yavimaya Hollow|UDS

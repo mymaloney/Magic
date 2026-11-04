@@ -4,47 +4,47 @@ Name=Yarus, Roar of the Old Gods
 1 Yarus, Roar of the Old Gods|MKM
 [Main]
 1 Cindervines|RVR
-1 Abrade|PHOU
+1 Abrade|TRC|[449]
 1 Ainok Survivalist|MKC
-1 Akroma, Angel of Fury|V15
-1 Arcane Signet|MKC
-1 Clan Defiance|GTC
+1 Akroma, Angel of Fury|FRC|[19]
+1 Arcane Signet|TRC|[485]
+1 Clan Defiance|CLU|[182]
 1 Bolrac-Clan Basher|MKM
 1 Boltbender|MKC
 1 Bow of Nylea|THS
 1 Branch of Vitu-Ghazi|MKM
-1 Broodhatch Nantuko|MKC
-1 Cinder Glade|MKC
-1 Command Tower|MKC
-1 Cosmotronic Wave|GRN
-1 Deathmist Raptor|C19
-1 Den Protector|C19
-1 Etali, Primal Storm|NCC
+1 Broodhatch Nantuko|ONS|[250]
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
+1 Cosmotronic Wave|CLU|[129]
+1 Deathmist Raptor|DSC|[176]
+1 Den Protector|MKC|[169]
+1 Etali, Primal Storm|TSR|[342]
 1 Experiment Twelve|MKC
 1 Expose the Culprit|MKM
-1 Fiery Emancipation|WOT
-14 Forest|GK2|106
-1 Game Trail|MKC
+1 Fiery Emancipation|M21|[143]
+14 Forest|INR|[296]
+1 Game Trail|BLC|[306]
 1 Grand Warlord Radha|DOM
 1 Greenbelt Radical|MKM
-1 Gruul Charm|GTC
-1 Gruul Signet|C16
-1 Gruul War Chant|DGM
+1 Gruul Charm|GK2|[92]
+1 Gruul Signet|BLC|[273]
+1 Gruul War Chant|MM3|[170]
 1 Gutter Grime|ISD
-1 Harmonize|EVG
-1 Hooded Hydra|C19
-1 Hull Breach|HOP
-1 Imperial Hellkite|MKC
+1 Harmonize|ECC|[111]
+1 Hooded Hydra|MKC|[171]
+1 Hull Breach|PLS|[111]
+1 Imperial Hellkite|LGN|[103]
 1 Jeering Instigator|KTK
-1 Karplusan Forest|DKM
-1 Kessig Wolf Run|LCC
-1 Krosan Cloudscraper|MKC
+1 Karplusan Forest|ICE|[356]
+1 Kessig Wolf Run|TDC|[375]
+1 Krosan Cloudscraper|LGN|[130]
 1 Krosan Colossus|ONS
-1 Stomping Ground|GTC
-12 Mountain|GK2|105
-1 Gruul Guildgate|GTC
-1 Gruul Turf|CLU
-1 Nantuko Vigilante|C19
+1 Stomping Ground|RVR|[413]
+12 Mountain|INR|[294]
+1 Gruul Guildgate|RVR|[403]
+1 Gruul Turf|ECC|[152]
+1 Nantuko Vigilante|LGN|[132]
 1 Nervous Gardener|MKM
 1 Neyith of the Dire Hunt|JMP
 1 Obscuring Aether|MKC
@@ -53,28 +53,28 @@ Name=Yarus, Roar of the Old Gods
 1 Offender at Large|MKM
 1 Printlifter Ooze|MKC
 1 Pyrotechnic Performer|MKM
-1 Rage Reflection|SHM
-1 Rampant Growth|BTD
-1 Regrowth|STA
+1 Rage Reflection|2XM|[139]
+1 Rampant Growth|TMP|[245]
+1 Regrowth|LEB|[215]
 1 Riftburst Hellion|MKM
 1 Rockshard Elemental|LGN
 1 Root Elemental|SCG
-1 Salt Road Ambushers|DTK
-1 Savage Ventmaw|C17
-1 Scourge of the Throne|MKC
-1 Scroll of Fate|C19
+1 Salt Road Ambushers|MKC|[184]
+1 Savage Ventmaw|FDN|[665]
+1 Scourge of the Throne|TDC|[230]
+1 Scroll of Fate|DSC|[251]
 1 Showstopping Surprise|MKC
-1 Sol Ring|MKC
-1 Talisman of Impulse|MRD
-1 Temple of Abandon|MKC
+1 Sol Ring|LEB|[270]
+1 Talisman of Impulse|TDC|[332]
+1 Temple of Abandon|TDC|[400]
 1 Temple of the False God|SCG
-1 Temur War Shaman|FRF
-1 Thelonite Hermit|C19
-1 Trail of Mystery|KTK
-1 Treacherous Terrain|C16
+1 Temur War Shaman|DSC|[200]
+1 Thelonite Hermit|MKC|[188]
+1 Trail of Mystery|DSC|[203]
+1 Treacherous Terrain|ZNC|[105]
 1 Ugin's Mastery|MKC
 1 Vengeful Creeper|MKM
-1 Wilderness Reclamation|RNA
-1 Yedora, Grave Gardener|MKC
-1 Zendikar Resurgent|OGW
-1 Zoetic Cavern|C14
+1 Wilderness Reclamation|RVR|[458]
+1 Yedora, Grave Gardener|DSC|[209]
+1 Zendikar Resurgent|C17|[160]
+1 Zoetic Cavern|MKC|[311]

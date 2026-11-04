@@ -1,7 +1,7 @@
 [metadata]
 Name=Falcon W
 [Main]
-20 Plains|MIR
+20 Plains|INR|[288]
 3 Soraya the Falconer|HML
 1 Royal Falcon|S00
 2 Serra Aviary|HML
@@ -11,7 +11,7 @@ Name=Falcon W
 4 Skyshroud Falcon|STH
 4 Duskrider Falcon|WTH
 4 Battle Screech|JUD
-4 Disenchant|MIR
+4 Disenchant|MMQ|[18]
 4 Kirtar's Desire|ODY
-2 Righteousness|LEA
-2 Holy Day|LEG
+2 Righteousness|LEB|[37]
+2 Holy Day|INV|[20]

@@ -3,20 +3,20 @@ Name=INN_wolfkin_easy
 [Avatar]
 
 [Main]
-2 Rabid Bite|SOI|1
+2 Rabid Bite|BLB|[394]
 2 Deranged Outcast|DKA|1
-1 Descendants' Path|AVR|1
-2 Wolfkin Outcast|VOW|1
+1 Descendants' Path|LCC|[238]
+2 Wolfkin Outcast|DBL|[496]
 2 Quilled Wolf|SOI|1
-2 Wandering Wolf|AVR|1
-2 Wolfkin Bond|M20|1
-2 Prey Upon|ISD|1
-2 Snarling Wolf|MID|1
-2 Howl of the Hunt|MID|1
-2 Bounding Wolf|MID|1
-2 Young Wolf|DKA|1
-9 Forest|ISD|2
-8 Forest|SOI|2
+2 Wandering Wolf|BBD|[216]
+2 Wolfkin Bond|J22|[741]
+2 Prey Upon|J22|[710]
+2 Snarling Wolf|DBL|[199]
+2 Howl of the Hunt|J22|[672]
+2 Bounding Wolf|J22|[633]
+2 Young Wolf|INR|[425]
+9 Forest|INR|[296]
+8 Forest|INR|[296]
 [Sideboard]
 
 [Planes]

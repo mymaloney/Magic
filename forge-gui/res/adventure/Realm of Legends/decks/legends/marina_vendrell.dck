@@ -3,38 +3,38 @@ Name=Marina Vendrell
 [Commander]
 1 Marina Vendrell|DSK
 [Main]
-1 Adarkar Wastes|DSC
-1 Arcane Sanctum|DSC
-1 Arcane Signet|DSC
-1 Archon of Sun's Grace|WOC
+1 Adarkar Wastes|ICE|[351]
+1 Arcane Sanctum|TRC|[513]
+1 Arcane Signet|TRC|[485]
+1 Archon of Sun's Grace|SOC|[137]
 1 Balemurk Leech|DSK
 1 Bello, Bard of the Brambles|BLC
 1 Bottomless Pool|DSK
-1 Caves of Koilos|DSC
+1 Caves of Koilos|APC|[140]
 1 Central Elevator|DSK
 1 Charred Foyer|DSK
-1 Chromatic Lantern|OTC
-1 Command Tower|DSC
+1 Chromatic Lantern|RVR|[390]
+1 Command Tower|TRC|[521]
 1 Cramped Vents|DSC
-1 Cultivate|DSC
+1 Cultivate|SOC|[265]
 1 Dazzling Theater|DSK
 1 Defiled Crypt|DSK
 1 Derelict Attic|DSK
 1 Destiny Spinner|WOC
 1 Dollmaker's Shop|DSK
-1 Doomwake Giant|DSC
-1 Dryad of the Ilysian Grove|CMM
-1 Enchantress's Presence|WOC
+1 Doomwake Giant|SOC|[212]
+1 Dryad of the Ilysian Grove|M3C|[225]
+1 Enchantress's Presence|ONS|[261]
 1 Enduring Vitality|DSK
 1 Entity Tracker|DSK
-1 Evolving Wilds|DSC
-1 Exotic Orchard|DSC
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
 1 Experimental Lab|DSC
-1 Farseek|BLC
+1 Farseek|RVR|[347]
 1 Fear of Sleep Paralysis|DSC
-1 Fellwar Stone|DSC
-3 Forest|DSK
-1 Frontier Bivouac|CMM
+1 Fellwar Stone|DRK|[102]
+3 Forest|INR|[296]
+1 Frontier Bivouac|ECC|[150]
 1 Funeral Room|DSK
 1 Ghostly Dancers|DSK
 1 Ghostly Keybearer|DSK
@@ -42,55 +42,55 @@ Name=Marina Vendrell
 1 Grand Entryway|DSK
 1 Greenhouse|DSK
 1 Gremlin Tamer|DSK
-1 Herald of the Pantheon|CMM
-1 Hinterland Harbor|DSC
+1 Herald of the Pantheon|C18|[151]
+1 Hinterland Harbor|DMR|[396]
 1 Hushwood Verge|DSK
 1 Inquisitive Glimmer|DSK
-1 Instill Energy|5ED
-3 Island|DSK
-1 Jungle Shrine|OTC
+1 Instill Energy|LEB|[203]
+3 Island|INR|[290]
+1 Jungle Shrine|ECC|[154]
 1 Keys to the House|DSK
-1 Kodama's Reach|OTC
+1 Kodama's Reach|ECC|[113]
 1 Leyline of the Guildpact|MKM
-1 Llanowar Wastes|DSC
+1 Llanowar Wastes|APC|[141]
 1 Meat Locker|DSK
-1 Mesa Enchantress|DSC
+1 Mesa Enchantress|DMR|[267]
 1 Mirror Room|DSK
 1 Moldering Gym|DSK
-2 Mountain|DSK
-1 Mystic Monastery|BLC
-1 Opulent Palace|OTC
+2 Mountain|INR|[294]
+1 Mystic Monastery|TRC|[543]
+1 Opulent Palace|ECC|[157]
 1 Overlord of the Hauntwoods|DSK
 1 Painter's Studio|DSK
-1 Path to Exile|BLC
-1 Plains|DSK
-3 Plains|DSK
+1 Path to Exile|TSR|[299]
+1 Plains|INR|[288]
+3 Plains|INR|[288]
 1 Polluted Cistern|DSC
-1 Rampant Growth|DSC
-1 Reliquary Tower|DSC
+1 Rampant Growth|TMP|[245]
+1 Reliquary Tower|TRC|[551]
 1 Restricted Office|DSK
 1 Roaring Furnace|DSK
 1 Sanctum Weaver|WOC
-1 Sandsteppe Citadel|CMM
-1 Seaside Citadel|BLC
+1 Sandsteppe Citadel|ECC|[164]
+1 Seaside Citadel|ECC|[166]
 1 Secret Arcade|DSC
 1 Setessan Champion|WOC
 1 Smoky Lounge|DSK
-1 Sol Ring|DSC
+1 Sol Ring|LEB|[270]
 1 Spiked Corridor|DSC
-1 Starfield of Nyx|CMM
-1 Sterling Grove|MH2
-1 Sulfurous Springs|DSC
+1 Starfield of Nyx|PIO|[36]
+1 Sterling Grove|INV|[278]
+1 Sulfurous Springs|ICE|[360]
 1 Surgical Suite|DSK
-2 Swamp|DSK
-1 Swiftfoot Boots|BLC
-1 Swords to Plowshares|DSC
-1 Sythis, Harvest's Hand|CMM
+2 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Swords to Plowshares|DMR|[275]
+1 Sythis, Harvest's Hand|MH2|[214]
 1 Ticket Booth|DSK
 1 Underwater Tunnel|DSK
 1 Unholy Annex|DSK
 1 Valgavoth's Lair|DSK
 1 Victor, Valgavoth's Seneschal|DSK
 1 Walk-In Closet|DSK
-1 Yavimaya Coast|DSC
+1 Yavimaya Coast|APC|[143]
 1 Zur, Eternal Schemer|DMU

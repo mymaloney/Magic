@@ -1,71 +1,71 @@
 [metadata]
 Name=Saryth, the Viper's Fang
 [Commander]
-1 Saryth, the Viper's Fang|MID
+1 Saryth, the Viper's Fang|MKC|[185]
 [Main]
 1 Aggressive Mammoth|FDN
-1 Basilisk Collar|FDN
+1 Basilisk Collar|FDC|[246]
 1 Bloated Contaminator|ONE
 1 Bloodroot Apothecary|BLC
 1 Branchblight Stalker|ONE
-1 Bushwhack|J25
+1 Bushwhack|FDN|[215]
 1 Cystbearer|SOM
 1 Elder Gargaroth|DRC
-1 Emerald Medallion|MH3
-1 Ezuri's Predation|DSC
-34 Forest|MID|2
-1 Fynn, the Fangbearer|KHM
+1 Emerald Medallion|TMP|[283]
+1 Ezuri's Predation|FDC|[203]
+34 Forest|INR|[296]
+1 Fynn, the Fangbearer|FDN|[637]
 1 Garruk, Unleashed|M21
-1 Garruk's Uprising|BLC
+1 Garruk's Uprising|ECC|[109]
 1 Gemrazer|IKO
 1 Genesis Wave|FDN
-1 Ghalta, Primal Hunger|FDN
+1 Ghalta, Primal Hunger|FDC|[8]
 1 Giant Adephage|DSC
 1 Glissa's Retriever|ONC
-1 Glorious Sunrise|VOW
-1 Goreclaw, Terror of Qal Sisma|BLC
+1 Glorious Sunrise|DBL|[467]
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
 1 Greensleeves, Maro-Sorcerer|DMC
 1 Heritage Reclamation|TDM
 1 Kalonian Hydra|BLC
 1 Karametra's Acolyte|THS
-1 Kenrith's Transformation|WOC
+1 Kenrith's Transformation|FDC|[212]
 1 Kona, Rescue Beastie|DSK
-1 Lightning Greaves|TDC
-1 Llanowar Elves|FDN
-1 Llanowar Tribe|KHC
-1 Managorger Hydra|BLC
+1 Lightning Greaves|TRC|[496]
+1 Llanowar Elves|LEB|[211]
+1 Llanowar Tribe|FDC|[214]
+1 Managorger Hydra|FDC|[216]
 1 Manglehorn|AKH
 1 Mightform Harmonizer|EOE
-1 Moldgraf Monstrosity|ISD
+1 Moldgraf Monstrosity|DSC|[83]
 1 Mosswort Bridge|TDC
-1 Nature's Lore|MKC
-1 Three Visits|TDC
-1 Nylea, God of the Hunt|THS
+1 Nature's Lore|DMR|[346]
+1 Three Visits|SOC|[289]
+1 Nylea, God of the Hunt|PIO|[300]
 1 Nyxborn Hydra|MH3
 1 Oran-Rief Hydra|E01
-1 Overrun|SCD
-1 Predator Ooze|C20
-1 Primal Rage|10E
+1 Overrun|ODY|[260]
+1 Predator Ooze|FDN|[642]
+1 Primal Rage|STH|[112]
 1 Questing Beast|ELD
 1 Rampaging Brontodon|LCC
-1 Rampant Growth|TDC
-1 Rhonas's Monument|AKH
+1 Rampant Growth|TMP|[245]
+1 Rhonas's Monument|FDC|[281]
 1 Sandwurm Convergence|DSC
 1 Scepter of Celebration|NCC
-1 Scute Mob|ZEN
+1 Scute Mob|C18|[161]
 1 Scythecat Cub|J25
 1 Sedge Scorpion|M20
-1 Selvala, Heart of the Wilds|CMM
-1 Sol Ring|TDC
-1 Spore Frog|BLC
+1 Selvala, Heart of the Wilds|ECC|[116]
+1 Sol Ring|LEB|[270]
+1 Spore Frog|PCY|[126]
 1 Tail Swipe|J25
-1 Thunderfoot Baloth|C14
+1 Thunderfoot Baloth|DSC|[201]
 1 Topiary Stomper|J25
 1 Toski, Bearer of Secrets|BLC
 1 Trash the Town|OTJ
 1 Twitching Doll|DSK
-1 Ulvenwald Oddity|VOW
+1 Ulvenwald Oddity|DBL|[492]
 1 Unnatural Growth|INR
 1 Venomous Brutalizer|ONE
 1 Warden of the Grove|TDM
-1 Wrap in Vigor|FUT
+1 Wrap in Vigor|CNS|[183]

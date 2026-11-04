@@ -6,17 +6,17 @@ Description=Mono B Zombie/Skeleton deck with Death Baron and Pontiff of Blight
 Icon=Lex Luthor.jpg
 Deck Type=constructed
 [Main]
-4 Blood Scrivener
-4 Death Baron
-2 Diregraf Ghoul
-2 Drudge Skeletons
-4 Duty-Bound Dead
-4 Pontiff of Blight
-2 Restless Dead
-4 Rimebound Dead
-3 Sanguine Guard
-24 Snow-Covered Swamp
-2 Unworthy Dead
-3 Urborg Skeleton
-2 Walking Dead
+4 Blood Scrivener|PIO|[86]
+4 Death Baron|FDC|[95]
+2 Diregraf Ghoul|FDN|[171]
+2 Drudge Skeletons|LEB|[107]
+4 Duty-Bound Dead|M13|[92]
+4 Pontiff of Blight|CLB|[768]
+2 Restless Dead|MIR|[138]
+4 Rimebound Dead|CSP|[69]
+3 Sanguine Guard|USG|[155]
+24 Snow-Covered Swamp|ICE|[372]
+2 Unworthy Dead|USG|[163]
+3 Urborg Skeleton|INV|[134]
+2 Walking Dead|LEG|[126]
 [Sideboard]

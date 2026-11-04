@@ -5,83 +5,83 @@ Name=Rin and Seri, Inseparable
 [Main]
 1 Alms Collector|CMM
 1 Animal Sanctuary|M21
-1 Anointed Procession|SLD|1511
-1 Arcane Signet|OTC
-1 Basilisk Collar|2XM
-1 Beastmaster Ascension|NCC
+1 Anointed Procession|AKH|[2]
+1 Arcane Signet|TRC|[485]
+1 Basilisk Collar|FDC|[246]
+1 Beastmaster Ascension|BLC|[118]
 1 Bloodline Pretender|MOC
-1 Brimaz, King of Oreskos|BNG
-1 Canopy Vista|LCC
-1 Cast Out|CMM
-1 Cinder Glade|LCC
-1 Clifftop Retreat|OTC
-1 Command Tower|OTC
-1 Crib Swap|CLB
-1 Cultivate|LCC
-1 Cursed Mirror|OTC
-1 Dusk|LTC
-1 Exotic Orchard|OTC
-1 Farseek|LCC
-1 Felidar Retreat|CMM
+1 Brimaz, King of Oreskos|J25|[58]
+1 Canopy Vista|TDC|[343]
+1 Cast Out|DRC|[64]
+1 Cinder Glade|ECC|[146]
+1 Clifftop Retreat|DMR|[393]
+1 Command Tower|TRC|[521]
+1 Crib Swap|ECL|[11]
+1 Cultivate|SOC|[265]
+1 Cursed Mirror|FRC|[49]
+1 Dusk|DRC|[65]
+1 Exotic Orchard|TRC|[378]
+1 Farseek|RVR|[347]
+1 Felidar Retreat|FDN|[574]
 1 Feline Sovereign|M21
-1 Fleetfoot Panther|DDH
-7 Forest|SLD|1515
-1 Fortified Village|LCC
-1 Game Trail|LCC
-1 Greater Tanuki|CMM
-1 Herald's Horn|LCC
+1 Fleetfoot Panther|PLS|[108]
+7 Forest|INR|[296]
+1 Fortified Village|TDC|[366]
+1 Game Trail|BLC|[306]
+1 Greater Tanuki|DSC|[181]
+1 Herald's Horn|TRC|[493]
 1 Highcliff Felidar|GN2
 1 Hungry Lynx|C17
-1 Impact Tremors|MOC
-1 Jazal Goldmane|CMM
+1 Impact Tremors|FDN|[717]
+1 Jazal Goldmane|FDN|[497]
 1 Jetmir's Garden|SNC
-1 Jetmir, Nexus of Revels|SLD|1509
-1 Jinnie Fay, Jetmir's Second|SLD|1510
-1 Jungle Shrine|OTC
+1 Jetmir, Nexus of Revels|SNC|[193]
+1 Jinnie Fay, Jetmir's Second|SNC|[195]
+1 Jungle Shrine|ECC|[154]
 1 Keeper of Fables|ZNC
-1 King of the Pride|J22
+1 King of the Pride|J25|[214]
 1 Kitt Kanto, Mayhem Diva|NCC
 1 Komainu Battle Armor|NEC
-1 Krosan Verge|OTC
+1 Krosan Verge|JUD|[141]
 1 Lion Sash|NEO
-1 Yoshimaru, Ever Faithful|SLD|794
+1 Yoshimaru, Ever Faithful|NEC|[32]
 1 Lurking Predators|JMP
 1 Marisi, Breaker of the Coil|C19
 1 Masked Vandal|KHM
-1 Maskwood Nexus|CLB
-1 Mirror Entity|OTC
-5 Mountain|SLD|1514
+1 Maskwood Nexus|DRC|[132]
+1 Mirror Entity|TSR|[297]
+5 Mountain|INR|[294]
 1 Nacatl War-Pride|FUT
-1 Nature's Lore|CMM
-1 Nine Lives|SLD|793
+1 Nature's Lore|DMR|[346]
+1 Nine Lives|M21|[28]
 1 Oketra's Monument|DMC
-1 Oreskos Explorer|CMM
+1 Oreskos Explorer|C21|[98]
 1 Pack Leader|M21
-1 Path of Ancestry|OTC
-1 Path to Exile|OTC
+1 Path of Ancestry|TRC|[545]
+1 Path to Exile|TSR|[299]
 1 Phabine, Boss's Confidant|NCC
-8 Plains|SLD|793
+8 Plains|INR|[288]
 1 Qasali Slingers|C17
-1 Realmwalker|LCC
-1 Regal Caracal|J22
-1 Return of the Wildspeaker|OTC
-1 Rootbound Crag|XLN
+1 Realmwalker|ECC|[114]
+1 Regal Caracal|FDN|[579]
+1 Return of the Wildspeaker|ECC|[115]
+1 Rootbound Crag|ECC|[163]
 1 Scattered Groves|OTC
 1 Seht's Tiger|C17
-1 Sheltered Thicket|OTC
+1 Sheltered Thicket|ECC|[167]
 1 Showdown of the Skalds|KHM
-1 Skullclamp|MOC
+1 Skullclamp|TRC|[354]
 1 Skyhunter Strike Force|ONC
-1 Sol Ring|SLD|1512
-1 Spirited Companion|CMM
-1 Stalking Leonin|C21
-1 Sunpetal Grove|XLN
-1 Taurean Mauler|NEC
+1 Sol Ring|LEB|[270]
+1 Spirited Companion|J25|[256]
+1 Stalking Leonin|MKC|[86]
+1 Sunpetal Grove|TDC|[399]
+1 Taurean Mauler|TDC|[238]
 1 Temur Sabertooth|NCC
-1 Three Visits|OTC
-1 Tocasia's Welcome|BRO
-1 Vanquisher's Banner|LCC
-1 Warp World|RAV
+1 Three Visits|SOC|[289]
+1 Tocasia's Welcome|SOC|[181]
+1 Vanquisher's Banner|TSR|[402]
+1 Warp World|M10|[163]
 1 White Sun's Zenith|ONC
 1 Whitemane Lion|DMR
 [Sideboard]

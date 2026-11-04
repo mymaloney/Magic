@@ -1,92 +1,92 @@
 [metadata]
 Name=Doran, the Siege Tower
 [Commander]
-1 Doran, the Siege Tower|LRW
+1 Doran, the Siege Tower|2X2|[201]
 [Main]
-1 Swiftfoot Boots|FDN
-1 Wave of Reckoning|C16
+1 Swiftfoot Boots|TRC|[501]
+1 Wave of Reckoning|MMQ|[56]
 1 Weathered Sentinels|TDC
-1 Swords to Plowshares|BLC
-1 Slagwurm Armor|MRD
+1 Swords to Plowshares|DMR|[275]
+1 Slagwurm Armor|TD2|[21]
 1 Jaws of Defeat|TDC
 1 Retribution of the Meek|VIS
-1 Dusk|MKC
+1 Dusk|DRC|[65]
 1 Abzan Beastmaster|FRF
-1 Arasta of the Endless Web|THB
-1 Arboreal Grazer|WAR
-1 Arcane Signet|BRC
+1 Arasta of the Endless Web|TDC|[244]
+1 Arboreal Grazer|RVR|[343]
+1 Arcane Signet|TRC|[485]
 1 Armadillo Cloak|INV
-1 Assault Formation|DTK
+1 Assault Formation|TDC|[246]
 1 Bedrock Tortoise|LCI
-1 Behind the Scenes|SOI
-1 Birds of Paradise|RAV
-1 Bojuka Bog|WWK
+1 Behind the Scenes|TDC|[172]
+1 Birds of Paradise|RVR|[344]
+1 Bojuka Bog|TSR|[406]
 1 Bosk Banneret|MOR
-1 Catapult Fodder|VOW
+1 Catapult Fodder|DBL|[366]
 1 Colfenor, the Last Yew|CMR
-1 Colfenor's Urn|LRW
-1 Command Tower|C18
+1 Colfenor's Urn|TDC|[315]
+1 Command Tower|TRC|[521]
 1 Dauntless Dourbark|LRW
-1 Deceptive Landscape|MH3
-1 Despark|WAR
-1 Escape Tunnel|MKM
+1 Deceptive Landscape|TDC|[356]
+1 Despark|FRC|[50]
+1 Escape Tunnel|EOC|[157]
 1 Essence of Antiquity|MKM
-1 Faeburrow Elder|ELD
+1 Faeburrow Elder|ECC|[53]
 1 Felothar the Steadfast|TDC
-1 Forbidding Watchtower|10E
-7 Forest|LRW
+1 Forbidding Watchtower|ULG|[140]
+7 Forest|INR|[296]
 1 Foul Renewal|DTK
-1 Golgari Rot Farm|RAV
+1 Golgari Rot Farm|ECC|[151]
 1 Heartwood Storyteller|TSR
 1 Indatha Triome|IKO
-1 Indomitable Ancients|MOR
-1 Khalni Garden|WWK
-1 Kodama's Reach|CMM
+1 Indomitable Ancients|TDC|[121]
+1 Khalni Garden|C18|[262]
+1 Kodama's Reach|ECC|[113]
 1 Leaf-Crowned Elder|MOR
 1 Lush Portico|MKM
-1 Murmuring Bosk|MOR
+1 Murmuring Bosk|DMC|[220]
 1 Mythos of Nethroi|IKO
-1 Nameless Inversion|LRW
+1 Nameless Inversion|ECL|[113]
 1 Nemata, Primeval Warden|DMU
 1 Nethroi, Apex of Death|DMC
-1 Nyx-Fleece Ram|JOU
+1 Nyx-Fleece Ram|TDC|[126]
 1 Oathsworn Giant|RAV
 1 Orchard Warden|MOR
-1 Overgrown Tomb|GRN
-1 Path of Ancestry|BRC
-1 Path to Exile|F15
-5 Plains|LRW
-1 Sol Ring|C15
-1 Read the Bones|THS
+1 Overgrown Tomb|RVR|[407]
+1 Path of Ancestry|TRC|[545]
+1 Path to Exile|TSR|[299]
+5 Plains|INR|[288]
+1 Sol Ring|LEB|[270]
+1 Read the Bones|TSR|[328]
 1 Restless Fortress|WOE
 1 Revive the Fallen|MOR
 1 Rootgrapple|LRW
-1 Sandsteppe Citadel|KTK
-1 Sapling of Colfenor|EVE
+1 Sandsteppe Citadel|ECC|[164]
+1 Sapling of Colfenor|C21|[228]
 1 Sculpted Sunburst|CLB
-1 Selesnya Sanctuary|RAV
+1 Selesnya Sanctuary|CLU|[246]
 1 Skinshifter|M12
-1 Slaughter the Strong|CMR
+1 Slaughter the Strong|TDC|[131]
 1 Spidersilk Armor|MMQ
-1 Stirring Wildwood|WWK
-3 Swamp|LRW
-1 Sylvan Caryatid|THS
-1 Temple Garden|RTR
+1 Stirring Wildwood|UMA|[251]
+3 Swamp|INR|[292]
+1 Sylvan Caryatid|TDC|[272]
+1 Temple Garden|RVR|[414]
 1 The Necrobloom|MH3
 1 Three Tree Rootweaver|BLB
 1 Tilling Treefolk|EVE
 1 Timber Protector|LRW
-1 Tower Defense|GTC
-1 Tree of Perdition|EMN
+1 Tower Defense|TDC|[275]
+1 Tree of Perdition|ECC|[49]
 1 Treefolk Harbinger|LRW
 1 Ulvenwald Observer|EMN
 1 Underground Mortuary|MKM
 1 Undergrowth Stadium|CMM
 1 Unstoppable Ash|MOR
-1 Vindicate|MH2
-1 Wall of Blossoms|PCA
-1 Wall of Omens|2X2
-1 Wickerbough Elder|EVE
-1 Windswept Heath|KTK
+1 Vindicate|APC|[126]
+1 Wall of Blossoms|STH|[125]
+1 Wall of Omens|TDC|[138]
+1 Wickerbough Elder|ECC|[118]
+1 Windswept Heath|MH3|[440]
 1 Woodland Cemetery|DMR
 1 Yavimaya, Cradle of Growth|MH2

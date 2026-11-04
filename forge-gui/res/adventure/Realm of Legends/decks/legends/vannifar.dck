@@ -5,79 +5,79 @@ Name=Vannifar
 [Main]
 1 Abhorrent Oculus|dsk
 1 Aggressive Biomancy|m3c
-1 Arcane Signet|lcc
+1 Arcane Signet|TRC|[485]
 1 Basking Broodscale|mh3
 1 Biogenic Ooze|rna
 1 Biowaste Blob|cmr
 1 Branch of Vitu-Ghazi|mkm
-1 Breeding Pool|rna
-1 Chromeshell Crab|c19
-1 Command Tower|mkc
+1 Breeding Pool|RVR|[399]
+1 Chromeshell Crab|LGN|[32]
+1 Command Tower|TRC|[521]
 1 Cryptic Coat|mkm
 1 Curator Beastie|dsc
-1 Dreamroot Cascade|vow
-1 Evolution Sage|war
+1 Dreamroot Cascade|SOS|[254]
+1 Evolution Sage|ECC|[105]
 1 Exit Specialist|mkm
-1 Exotic Orchard|mkc
+1 Exotic Orchard|TRC|[378]
 1 Experiment Twelve|mkc
 1 Experimental Lab|dsc
-12 Forest|gk2|[133]
-1 Fyndhorn Elves|cmr
+12 Forest|INR|[296]
+1 Fyndhorn Elves|ICE|[244]
 1 Giggling Skitterspike|dsc
 1 Glitch Interpreter|dsc
-1 Growth Spiral|lcc
-1 Guardian Project|rna
+1 Growth Spiral|DSC|[88]
+1 Guardian Project|RVR|[349]
 1 Hauntwoods Shrieker|dsk
 1 Hedge Maze|mkm
 1 Hide in Plain Sight|mkm
-1 Hooded Hydra|c19
-1 Hydroid Krasis|gtc
+1 Hooded Hydra|MKC|[171]
+1 Hydroid Krasis|SOC|[315]
 1 Roalesk, Prime Specimen|ymkm
 1 Harrowing Swarm|ydsk
 1 Unnatural Summons|ydsk
-1 Sol Ring|mkc
+1 Sol Ring|LEB|[270]
 1 Incubation Druid|moc
-11 Island|gk2|[132]
+11 Island|INR|[290]
 1 Ixidron|c19
 1 Kadena's Silencer|c19
-1 Karn's Bastion|war
-1 Kheru Spellsnatcher|c19
-1 Llanowar Elves|fdn
+1 Karn's Bastion|RVR|[464]
+1 Kheru Spellsnatcher|DSC|[119]
+1 Llanowar Elves|LEB|[211]
 1 Long River's Pull|blb
-1 Lumbering Falls|ogw
+1 Lumbering Falls|PIO|[268]
 1 March of the World Ooze|dft
 1 Master Biomancer|clu
 1 Mistway Spy|mkm
-1 Mystic Sanctuary|mkc
-1 Nissa, Who Shakes the World|war
+1 Mystic Sanctuary|TSR|[408]
+1 Nissa, Who Shakes the World|BLC|[84]
 1 Omarthis, Ghostfire Initiate|cmm
 1 Panoptic Projektor|mkc
 1 Printlifter Ooze|mkc
-1 Rapid Hybridization|lcc
+1 Rapid Hybridization|SOC|[198]
 1 Repulsive Mutation|mkm
 1 Scuttling Sentinel|clu
-1 Simic Ascendancy|lcc
-1 Simic Growth Chamber|gk2
-1 Simic Guildgate|rna
-1 Simic Signet|clu
+1 Simic Ascendancy|BLC|[260]
+1 Simic Growth Chamber|DSC|[298]
+1 Simic Guildgate|RVR|[411]
+1 Simic Signet|DSC|[252]
 1 Skittering Cicada|cmm
 1 Stratus Dancer|c19
-1 Talisman of Curiosity|mh1
+1 Talisman of Curiosity|SOC|[430]
 1 Temperamental Oozewagg|mh3
-1 Temple of Mystery|mkc
+1 Temple of Mystery|SOC|[414]
 1 They Came from the Pipes|dsc
 1 Threats Around Every Corner|dsk
 1 Tunnel Tipster|mkm
-1 Ugin, the Ineffable|war
+1 Ugin, the Ineffable|M3C|[160]
 1 Ugin's Mastery|mkc
 1 Valgavoth's Onslaught|dsk
-1 Voidslime|gk2
+1 Voidslime|RVR|[388]
 1 Wave Goodbye|lcc
-1 Wilderness Reclamation|mkc
-1 Willbender|c19
+1 Wilderness Reclamation|RVR|[458]
+1 Willbender|LGN|[58]
 1 Willowrush Verge|dft
-1 Yavimaya Coast|blc
-1 Yedora, Grave Gardener|c21
-1 Zegana, Utopian Speaker|gk2
+1 Yavimaya Coast|APC|[143]
+1 Yedora, Grave Gardener|DSC|[209]
+1 Zegana, Utopian Speaker|LCC|[298]
 1 Zimone, Mystery Unraveler|dsc
 1 Zoetic Cavern|mkc

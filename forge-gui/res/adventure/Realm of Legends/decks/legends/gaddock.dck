@@ -1,17 +1,17 @@
 [metadata]
 Name=Gaddock Teeg
 [Commander]
-1 Gaddock Teeg|LRW
+1 Gaddock Teeg|UMA|[199]
 [Main]
-1 Swords to Plowshares|BLC
-1 Adaptive Automaton|2XM
-1 Amrou Kithkin|4ED
+1 Swords to Plowshares|DMR|[275]
+1 Adaptive Automaton|FDN|[723]
+1 Amrou Kithkin|LEG|[3]
 1 Amrou Seekers|TSR
 1 Apothecary Initiate|SHM
 1 Aura of Silence|WTH
-1 Ballynock Cohort|SHM
+1 Ballynock Cohort|EMA|[3]
 1 Ballynock Trapper|EVE
-1 Ballyrush Banneret|MOR
+1 Ballyrush Banneret|FDN|[567]
 1 Beastmaster Ascension|BLC
 1 Bow of Nylea|THS
 1 Brigid, Hero of Kinsbaile|LRW
@@ -21,40 +21,40 @@ Name=Gaddock Teeg
 1 Cenn's Tactician|MOR
 1 Cloudgoat Ranger|KHC
 1 Cryptolith Rite|INR
-1 Cultivate|TDC
-1 Farseek|TDC
-12 Forest|LRW
+1 Cultivate|SOC|[265]
+1 Farseek|RVR|[347]
+12 Forest|INR|[296]
 1 Fortified Village|TDC
 1 Gaea's Anthem|TSR
 1 Galepowder Mage|CLB
 1 Gavony Township|MOC
-1 Glorious Anthem|M21
+1 Glorious Anthem|USG|[15]
 1 Goldmeadow Dodger|LRW
 1 Goldmeadow Stalwart|LRW
 1 Hall of Heliod's Generosity|DSC
-1 Hardened Scales|KTK
-1 Honor of the Pure|M12
+1 Hardened Scales|SOC|[272]
+1 Honor of the Pure|MD1|[6]
 1 Icon of Ancestry|LCC
-1 Karn's Bastion|LCC
+1 Karn's Bastion|RVR|[464]
 1 Kinsbaile Balloonist|LRW
 1 Kinsbaile Borderguard|MOR
 1 Kinsbaile Skirmisher|DDO
 1 Kithkin Greatheart|MMA
 1 Kithkin Harbinger|LRW
 1 Kithkin Rabble|SHM
-1 Knight of Meadowgrain|LRW
-1 Kodama's Reach|TDC
+1 Knight of Meadowgrain|DDG|[5]
+1 Kodama's Reach|ECC|[113]
 1 Lifecrafter's Bestiary|MKC
 1 Militia's Pride|LRW
-1 Mirror Entity|OTC
+1 Mirror Entity|TSR|[297]
 1 Mistmeadow Skulk|OTC
 1 Mosquito Guard|DDF
 1 Myth Unbound|C18
-1 Path to Exile|BLC
+1 Path to Exile|TSR|[299]
 1 Patrol Signaler|EVE
-17 Plains|LRW
-1 Command Tower|BLC
-1 Sol Ring|BLC
+17 Plains|INR|[288]
+1 Command Tower|TRC|[521]
+1 Sol Ring|LEB|[270]
 1 Plover Knights|DDG
 1 Preeminent Captain|M15
 1 Primal Rage|STH

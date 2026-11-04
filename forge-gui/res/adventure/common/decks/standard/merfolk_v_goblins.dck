@@ -1,38 +1,38 @@
 [metadata]
 Name=merfolk_v_goblins
 [Main]
-2 Aquatic Incursion|RIX|1
-1 Blighted Cataract|DDT|1
-1 Cold-Eyed Selkie|DDT|1
+2 Aquatic Incursion|J22|[271]
+1 Blighted Cataract|C21|[279]
+1 Cold-Eyed Selkie|OTC|[218]
 2 Containment Membrane|OGW|1
-1 Engulf the Shore|DDT|1
-1 Harbinger of the Tides|DDT|1
+1 Engulf the Shore|GN2|[21]
+1 Harbinger of the Tides|FDN|[593]
 1 Inkfathom Divers|DDT|1
-5 Island|DDT|1
-4 Island|RIX|1
-3 Island|XLN|1
-2 Island|XLN|2
-4 Island|XLN|3
-3 Island|XLN|4
-2 Lonely Sandbar|DDT|1
-1 Master of the Pearl Trident|DDT|1
-1 Master of Waves|DDT|1
-1 Merfolk Looter|DDT|1
-1 Merfolk Sovereign|DDT|1
+5 Island|INR|[290]
+4 Island|INR|[290]
+3 Island|INR|[290]
+2 Island|INR|[290]
+4 Island|INR|[290]
+3 Island|INR|[290]
+2 Lonely Sandbar|ONS|[320]
+1 Master of the Pearl Trident|TSR|[310]
+1 Master of Waves|PIO|[63]
+1 Merfolk Looter|EXO|[39]
+1 Merfolk Sovereign|LCC|[164]
 1 Merfolk Wayfinder|DDT|1
-1 Merrow Reejerey|DDT|1
-1 Mind Spring|DDT|1
-2 Mist-Cloaked Herald|RIX|1
+1 Merrow Reejerey|LCC|[165]
+1 Mind Spring|BLB|[389]
+2 Mist-Cloaked Herald|M19|[310]
 1 Nullify|BNG|1
-2 Rootwater Hunter|DDT|1
-1 Scatter to the Winds|BFZ|1
+2 Rootwater Hunter|TMP|[82]
+1 Scatter to the Winds|PIO|[71]
 1 Scroll Thief|DDT|1
-1 Shaper Apprentice|XLN|1
+1 Shaper Apprentice|J22|[346]
 3 Streambed Aquitects|DDT|1
 1 Sworn Guardian|RIX|1
 1 Thassa's Bounty|THS|1
-2 Tidal Courier|DDT|1
-1 Tidebinder Mage|DDT|1
-1 Wake Thrasher|DDT|1
-3 Waterknot|RIX|1
-1 Wind Strider|XLN|1
+2 Tidal Courier|APC|[31]
+1 Tidebinder Mage|PIO|[78]
+1 Wake Thrasher|J22|[369]
+3 Waterknot|JMP|[192]
+1 Wind Strider|J25|[389]

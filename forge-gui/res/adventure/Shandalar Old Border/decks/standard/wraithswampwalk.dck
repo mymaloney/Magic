@@ -1,14 +1,14 @@
 [metadata]
 Name=Wraith - Swampwalk
 [Main]
-24 Swamp|5ED|3
-4 Duress|7ED
-4 Evil Presence|LEA
+24 Swamp|INR|[292]
+4 Duress|DMR|[303]
+4 Evil Presence|LEB|[108]
 4 Faceless Butcher|TOR
-4 Bog Wraith|LEA
+4 Bog Wraith|POR|[83]
 4 Dirtwater Wraith|MIR
 4 Odylic Wraith|WTH
 4 Mesmeric Fiend|TOR
-2 Cyclopean Tomb|LEA
+2 Cyclopean Tomb|LEB|[241]
 2 Mind Sludge|TOR
-4 Terror|LEA
+4 Terror|DMR|[312]

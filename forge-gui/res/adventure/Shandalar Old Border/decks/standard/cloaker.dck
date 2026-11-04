@@ -1,16 +1,16 @@
 [metadata]
 Name=cloaker
 [Main]
-23 Swamp|ICE|2
-4 Animate Dead|2ED
-4 Bad Moon|5ED
-4 Black Knight|4ED
-4 Dark Ritual|DKM
+23 Swamp|INR|[292]
+4 Animate Dead|LEB|[93]
+4 Bad Moon|LEB|[94]
+4 Black Knight|LEB|[95]
+4 Dark Ritual|MMQ|[129]
 4 Hymn to Tourach|FEM
 4 Hypnotic Specter|LEB
-4 Raise Dead|POR
+4 Raise Dead|PO2|[86]
 4 Specter's Wail|MMQ
-4 Unholy Strength|LEA
+4 Unholy Strength|LEB|[132]
 
 [StartInBattle_Reference]
 1 Megrim|STH

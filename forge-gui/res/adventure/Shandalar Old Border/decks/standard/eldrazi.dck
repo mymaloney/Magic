@@ -1,18 +1,18 @@
 [metadata]
 Name=Minion of Origin
 [Main]
-24 Swamp|S99
-4 Ravenous Rats|S99
-2 Bog Imp|S99
-2 Dakmor Scorpion|S99
-4 Hand of Death|S99
-2 Mind Rot|S99
-2 Wicked Pact|S99
+24 Swamp|INR|[292]
+4 Ravenous Rats|INV|[120]
+2 Bog Imp|POR|[81]
+2 Dakmor Scorpion|PO2|[70]
+4 Hand of Death|PO2|[74]
+2 Mind Rot|PO2|[78]
+2 Wicked Pact|POR|[117]
 4 Dakmor Ghoul|S99
 4 Stream of Acid|S99
-2 Hollow Dogs|S99
-2 Soul Feast|S99
-2 Abyssal Horror|S99
-2 Dakmor Lancer|S99
-2 Dakmor Sorceress|S99
-2 Dread Reaper|S99
+2 Hollow Dogs|USG|[137]
+2 Soul Feast|UDS|[72]
+2 Abyssal Horror|USG|[115]
+2 Dakmor Lancer|7ED|[126]
+2 Dakmor Sorceress|PO2|[71]
+2 Dread Reaper|POR|[89]

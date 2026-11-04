@@ -1,25 +1,25 @@
 [metadata]
 Name=Jaya Ballard
 [Main]
-20 Mountain|ICE
-2 Gauntlet of Might|LEA
+20 Mountain|INR|[294]
+2 Gauntlet of Might|LEB|[245]
 2 Horn of Plenty|MMQ
-4 Incinerate|ICE
-4 Inferno|5ED
+4 Incinerate|MIR|[184]
+4 Inferno|DRK|[71]
 4 Lava Burst|ICE
 4 Pyrokinesis|ALL
-4 Pyroclasm|ICE
+4 Pyroclasm|POR|[143]
 1 Pyroblast|ICE
 1 Burnout|ALL
-2 Flare|ICE
+2 Flare|MIR|[176]
 4 Meteor Shower|ICE
 4 Ball Lightning|DRK
 4 Blistering Firecat|ONS
 
 [StartInBattle_Reference]
-3 Mountain|ICE
+3 Mountain|INR|[294]
 1 Blood Moon|DRK
-1 Fire Elemental|LEA
+1 Fire Elemental|LEB|[149]
 1 Wall of Diffusion|TMP
 1 Book of Rass|DRK
 1 Sulfuric Vapors|USG

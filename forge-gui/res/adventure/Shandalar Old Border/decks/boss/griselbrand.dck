@@ -1,24 +1,24 @@
 [metadata]
 Name=Lord of the Pit
 [Main]
-20 Swamp|LEA
-4 Lord of the Pit|LEA
+20 Swamp|INR|[292]
+4 Lord of the Pit|LEB|[115]
 2 Grinning Demon|ONS
-2 Demonic Hordes|LEA
+2 Demonic Hordes|LEB|[104]
 2 Havoc Demon|LGN
 2 Minion of Tevesh Szat|ICE
 2 Pit Spawn|EXO
 2 Spirit of the Night|MIR
 2 The Wretched|LEG
-2 No Mercy|ULG
+2 No Mercy|DMR|[308]
 4 Corrupt|USG
 4 Hymn to Tourach|FEM
 4 Ashes to Ashes|DRK
-4 Reckless Spite|TMP
-4 Animate Dead|LEA
+4 Reckless Spite|INV|[121]
+4 Animate Dead|LEB|[93]
 
 [StartInBattle_Reference]
 1 Black Market|MMQ
 1 Breeding Pit|FEM
-1 Swamp|MIR|1
-1 Swamp|MIR|2
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]

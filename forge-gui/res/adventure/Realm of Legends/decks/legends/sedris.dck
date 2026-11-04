@@ -1,89 +1,89 @@
 [metadata]
 Name=Sedris
 [Commander]
-1 Sedris, the Traitor King|ala
+1 Sedris, the Traitor King|2X2|[274]
 [Main]
-1 Amphin Mutineer|cmr
+1 Amphin Mutineer|TDC|[143]
 1 Stitcher's Supplier|tdc
 1 Necromancy|vis
 1 Reanimate|tmp
-1 Grixis Charm|ala
-1 Terminate|arb
+1 Grixis Charm|C13|[192]
+1 Terminate|PLS|[128]
 1 Coiling Rebirth|blb
-1 Animate Dead|4ed
-1 Cemetery Tampering|snc
+1 Animate Dead|LEB|[93]
+1 Cemetery Tampering|DSC|[135]
 1 Teferi's Veil|wth
-1 Ancient Tomb|uma
+1 Ancient Tomb|TMP|[315]
 1 Arcane Denial|all
-1 Archon of Cruelty|mh2
+1 Archon of Cruelty|FRC|[47]
 1 Bladewing, Deathless Tyrant|dmc
-1 Blood Crypt|rtr
+1 Blood Crypt|RVR|[397]
 1 Bone Miser|c19
 1 Careful Study|ody
 1 Cephalid Coliseum|ody
 1 Chainer, Nightmare Adept|mh2
-1 Change of Fortune|vow
-1 Chaos Warp|sta
-1 Combustible Gearhulk|kld
-1 Command Tower|c13
-1 Cursed Mirror|brc
+1 Change of Fortune|DBL|[417]
+1 Chaos Warp|MBC|[72]
+1 Combustible Gearhulk|DRC|[102]
+1 Command Tower|TRC|[521]
+1 Cursed Mirror|FRC|[49]
 1 Dack Fayden|ema
 1 Dark Ritual|mmq
 1 Dihada's Ploy|mh2
-1 Talisman of Creativity|tdc
+1 Talisman of Creativity|TRC|[504]
 1 Echoing Deeps|lci
 1 Embalmer's Tools|akh
-1 Endless Sands|hou
+1 Endless Sands|C20|[272]
 1 Ertai Resurrected|dmu
-1 Etali, Primal Storm|rix
-1 Fact or Fiction|cmm
-1 Faithless Looting|uma
+1 Etali, Primal Storm|TSR|[342]
+1 Fact or Fiction|DMR|[283]
+1 Faithless Looting|SOC|[244]
 1 Fire Covenant|ice
-1 Flayer of the Hatebound|dka
+1 Flayer of the Hatebound|C19|[144]
 1 Forbid|exo
 1 Frantic Search|dmr
-1 Frost Titan|m12
-1 Geier Reach Sanitarium|c19
-1 Grave Titan|m12
-1 Haunted Ridge|mid
-1 Heartless Summoning|isd
-1 Hostage Taker|xln
-1 Inferno Titan|cmm
-1 Ingot Chewer|lrw
-6 Island|ala|[237]
-1 Lightning Greaves|mrd
-1 Living Death|a25
+1 Frost Titan|C14|[112]
+1 Geier Reach Sanitarium|FDC|[303]
+1 Grave Titan|ECC|[74]
+1 Haunted Ridge|FRA|[180]
+1 Heartless Summoning|INR|[383]
+1 Hostage Taker|OTC|[231]
+1 Inferno Titan|BLC|[198]
+1 Ingot Chewer|ECC|[95]
+6 Island|INR|[290]
+1 Lightning Greaves|TRC|[496]
+1 Living Death|TMP|[142]
 1 Lord Xander, the Collector|snc
 1 Mana Confluence|jou
-1 Talisman of Dominance|mrd
-6 Mountain|ala|[242]
-1 Mulldrifter|2x2
-1 Neheb, Dreadhorde Champion|war
-1 Port of Karfell|khm
+1 Talisman of Dominance|TRC|[505]
+6 Mountain|INR|[294]
+1 Mulldrifter|TSR|[311]
+1 Neheb, Dreadhorde Champion|DMC|[125]
+1 Port of Karfell|MKC|[280]
 1 Prince of Thralls|ala
-1 Prismari Command|stx
-1 Talisman of Indulgence|dsc
+1 Prismari Command|SOC|[323]
+1 Talisman of Indulgence|TRC|[507]
 1 Raucous Theater|mkm
-1 River Kelpie|c19
+1 River Kelpie|TDC|[166]
 1 Scholar of the Lost Trove|jmp
-1 Scourge of the Throne|cns
+1 Scourge of the Throne|TDC|[230]
 1 Shadowgrange Archfiend|voc
-1 Shipwreck Marsh|mid
+1 Shipwreck Marsh|FRA|[189]
 1 Skirge Familiar|usg
 1 Sneak Attack|dmr
-1 Sol Ring|dsc
-1 Steam Vents|sld
-1 Stormcarved Coast|vow
+1 Sol Ring|LEB|[270]
+1 Steam Vents|RVR|[412]
+1 Stormcarved Coast|SOS|[263]
 1 Sundial of the Infinite|m12
-6 Swamp|ala|[239]
+6 Swamp|INR|[292]
 1 Takenuma, Abandoned Mire|neo
 1 Thassa, Deep-Dwelling|thb
-1 Thraximundar|arb
+1 Thraximundar|2X2|[287]
 1 Undercity Sewers|mkm
-1 Urborg, Tomb of Yawgmoth|uma
+1 Urborg, Tomb of Yawgmoth|PIO|[118]
 1 Void Maw|csp
-1 Watery Grave|gtc
-1 Whip of Erebos|ths
-1 Wildfire Devils|c19
+1 Watery Grave|RVR|[415]
+1 Whip of Erebos|PIO|[119]
+1 Wildfire Devils|SCD|[170]
 1 Xander's Lounge|snc
-1 Zara, Renegade Recruiter|cmr
+1 Zara, Renegade Recruiter|LCC|[297]

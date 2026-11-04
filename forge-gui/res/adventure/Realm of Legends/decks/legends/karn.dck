@@ -3,88 +3,88 @@ Name=Karn
 [Commander]
 1 Karn, Legacy Reforged|mat
 [Main]
-1 All Is Dust|mm2
-1 Ancient Stone Idol|moc
-1 Arch of Orazca|rix
-1 Basalt Monolith|2xm
-1 Bitterthorn, Nissa's Animus|moc
-1 Bonders' Enclave|j22
-1 Buried Ruin|onc
+1 All Is Dust|FDC|[9]
+1 Ancient Stone Idol|MKC|[222]
+1 Arch of Orazca|TSR|[404]
+1 Basalt Monolith|LEB|[232]
+1 Bitterthorn, Nissa's Animus|SOC|[343]
+1 Bonders' Enclave|FDC|[297]
+1 Buried Ruin|EOC|[150]
 1 Cityscape Leveler|bro
 1 Clock of Omens|m13
-1 Command Beacon|cmr
+1 Command Beacon|TRC|[373]
 1 Commander's Plate|cmr
 1 Karn's Sylex|dmu
-1 Darksteel Citadel|brc
-1 Darksteel Colossus|m10
+1 Darksteel Citadel|FDC|[300]
+1 Darksteel Colossus|FDN|[671]
 1 Darksteel Forge|2xm
-1 Dreamstone Hedron|brc
-1 Ugin, the Ineffable|war
-1 Forsaken Monument|znr
-1 Foundry Inspector|nec
-1 Ghost Quarter|c14
+1 Dreamstone Hedron|M3C|[289]
+1 Ugin, the Ineffable|M3C|[160]
+1 Forsaken Monument|TRC|[343]
+1 Foundry Inspector|FDC|[259]
+1 Ghost Quarter|CM2|[253]
 1 Guildless Commons|cmr
-1 Hedron Archive|moc
+1 Hedron Archive|TSR|[395]
 1 Homeward Path|c16
 1 Inventors' Fair|kld
 1 Jhoira's Familiar|2xm
-1 Junk Diver|cm2
-1 Karn Liberated|nph
+1 Junk Diver|UDS|[132]
+1 Karn Liberated|J22|[97]
 1 Karn, Living Legacy|dmu
-1 Steel Overseer|j22
+1 Steel Overseer|EOC|[144]
 1 Liberator, Urza's Battlethopter|bro
-1 Lightning Greaves|scd
-1 Liquimetal Torque|brc
+1 Lightning Greaves|TRC|[496]
+1 Liquimetal Torque|MH2|[428]
 1 Metalwork Colossus|brc
 1 Metalworker|uds
-1 Meteor Golem|moc
-1 Mind Stone|moc
-1 Mind's Eye|bbd
+1 Meteor Golem|FDN|[256]
+1 Mind Stone|DMR|[385]
+1 Mind's Eye|FDC|[272]
 1 Mycosynth Golem|5dn
-1 Myr Battlesphere|moc
-1 Myr Retriever|2xm
-1 Mystic Forge|m20
+1 Myr Battlesphere|TDC|[322]
+1 Myr Retriever|FDC|[274]
+1 Mystic Forge|M3C|[302]
 1 Phyrexian Triniform|moc
 1 Planar Bridge|2x2
 1 Portal to Phyrexia|bro
 1 Reckoner Bankbuster|neo
-1 Reliquary Tower|brc
-1 Rogue's Passage|moc
-1 Sandstone Oracle|cmr
-1 Scavenger Grounds|c21
+1 Reliquary Tower|TRC|[551]
+1 Rogue's Passage|TRC|[552]
+1 Sandstone Oracle|CMM|[406]
+1 Scavenger Grounds|FDC|[311]
 1 Scour from Existence|bfz
 1 Scrap Trawler|moc
-1 Shimmer Myr|moc
-1 Shrine of the Forsaken Gods|c19
+1 Shimmer Myr|FDC|[283]
+1 Shrine of the Forsaken Gods|M3C|[376]
 1 Skyclave Relic|moc
-1 Sol Ring|moc
-1 Solemn Simulacrum|onc
-1 Spine of Ish Sah|moc
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
+1 Spine of Ish Sah|BLC|[285]
 1 Staff of Nin|cm2
-1 Steel Hellkite|scd
-1 Stonecoil Serpent|eld
-1 Swiftfoot Boots|scd
+1 Steel Hellkite|TDC|[327]
+1 Stonecoil Serpent|SOC|[356]
+1 Swiftfoot Boots|TRC|[501]
 1 The Mightstone and Weakstone|bro
 1 Karn, Argent Defender|fra
-1 Thespian's Stage|2xm
-1 Thought Vessel|scd
+1 Thespian's Stage|RVR|[466]
+1 Thought Vessel|TRC|[509]
 1 Thran Dynamo|uds
 1 Titan's Presence|j22
-1 Tomb of the Spirit Dragon|ktk
-1 Tome of Legends|eld
+1 Tomb of the Spirit Dragon|M3C|[397]
+1 Tome of Legends|FDC|[293]
 1 Treasure Vault|drc
-1 Triplicate Titan|c21
+1 Triplicate Titan|DRC|[143]
 1 Tyrite Sanctum|dmc
 1 Ugin, the Spirit Dragon|m21
 1 Karn, Scion of Urza|dom
-1 Urza's Mine|j22
-1 Urza's Power Plant|j22
+1 Urza's Mine|ATQ|[83a]
+1 Urza's Power Plant|ATQ|[84a]
 1 Urza's Saga|mh2
-1 Urza's Tower|j22
+1 Urza's Tower|ATQ|[85a]
 1 Urza's Workshop|brc
-1 Voltaic Key|m11
+1 Voltaic Key|USG|[314]
 1 Walking Ballista|j22
-1 War Room|clb
-15 Wastes|j22
-1 Worn Powerstone|scd
+1 War Room|SOC|[422]
+15 Wastes|TSR|[410]
+1 Worn Powerstone|USG|[318]
 1 Wurmcoil Engine|2xm

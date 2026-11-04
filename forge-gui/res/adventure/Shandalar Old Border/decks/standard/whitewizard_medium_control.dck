@@ -1,8 +1,8 @@
 [metadata]
 Name=Colossus 2
 [Main]
-1 Island|ONS|2
-20 Plains|ONS|2
+1 Island|INR|[290]
+20 Plains|INR|[288]
 4 Adarkar Wastes|ICE
 4 Akroma's Blessing|ONS
 4 Aven Fisher|ODY
@@ -12,5 +12,5 @@ Name=Colossus 2
 4 Exalted Angel|ONS
 4 Mobilization|ONS
 4 Silver Seraph|JUD
-4 Swords to Plowshares|BRB
-4 Windborn Muse|LGN
+4 Swords to Plowshares|DMR|[275]
+4 Windborn Muse|DMR|[278]

@@ -3,43 +3,43 @@ Name=Karumonix
 [Commander]
 1 Karumonix, the Rat King|one
 [Main]
-1 Burglar Rat|grn
-1 Codex Shredder|rtr
-1 Crashing Drawbridge|eld
+1 Burglar Rat|FDN|[170]
+1 Codex Shredder|CMR|[304]
+1 Crashing Drawbridge|TDC|[316]
 1 Crypt Rats|vis
-1 Dismember|mm2
-1 Door of Destinies|m14
-1 Drainpipe Vermin|rtr
+1 Dismember|TSR|[322]
+1 Door of Destinies|TRC|[342]
+1 Drainpipe Vermin|JMP|[224]
 1 Fellwar Stone|drk
 1 Infectious Inquiry|one
-1 Ink-Eyes, Servant of Oni|bok
-1 Karn's Bastion|lcc
+1 Ink-Eyes, Servant of Oni|BLC|[77]
+1 Karn's Bastion|RVR|[464]
 1 Lord Skitter, Sewer King|woe
-1 Marrow-Gnawer|chk
-1 Memorial to Folly|dom
-1 Ogre Slumlord|gtc
-1 Okiba-Gang Shinobi|bok
-1 Pack Rat|rtr
-1 Patriarch's Bidding|mh2
-1 Piper of the Swarm|eld
+1 Marrow-Gnawer|BLC|[79]
+1 Memorial to Folly|TDC|[377]
+1 Ogre Slumlord|BLC|[186]
+1 Okiba-Gang Shinobi|PCA|[35]
+1 Pack Rat|RVR|[455]
+1 Patriarch's Bidding|ONS|[161]
+1 Piper of the Swarm|AFC|[106]
 1 Rancid Rats|soi
 1 Ratcatcher|a25
 1 Blightbelly Rat|one
 1 Ravenous Rats|inv
-28 Relentless Rats|a25
-1 Rogue's Passage|rtr
+28 Relentless Rats|TSR|[329]
+1 Rogue's Passage|TRC|[552]
 1 Ruin Rat|hou
-1 Ruinous Path|bfz
+1 Ruinous Path|PIO|[338]
 1 Scrib Nibblers|wwk
 1 Septic Rats|mbs
-1 Sol Ring|cmr
+1 Sol Ring|LEB|[270]
 1 Species Specialist|c20
-33 Swamp|chk
-1 Swarmyard|tsr
-1 Tectonic Edge|wwk
-1 Throat Slitter|bok
-1 Typhoid Rats|isd
-1 Ultimate Price|dtk
-1 Vanquisher's Banner|xln
-1 Vraska, Betrayal's Sting|one
+33 Swamp|INR|[292]
+1 Swarmyard|BLC|[133]
+1 Tectonic Edge|M3C|[384]
+1 Throat Slitter|PCA|[37]
+1 Typhoid Rats|J25|[497]
+1 Ultimate Price|RVR|[329]
+1 Vanquisher's Banner|TSR|[402]
+1 Vraska, Betrayal's Sting|ECC|[88]
 1 Vraska's Fall|one

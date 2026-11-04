@@ -9,24 +9,24 @@ Description=Blood is in the air! Soon your graveyard will yield foul fruit as yo
 Set=M12
 Image=vampire_onslaught.jpg
 [Main]
-2 Blade of the Bloodchief|ZEN
-1 Mimic Vat|SOM
-23 Swamp|M12
-2 Bloodghast|ZEN
-4 Bloodthrone Vampire|M11
-4 Gatekeeper of Malakir|ZEN
-1 Kalastria Highborn|WWK
-4 Pawn of Ulamog|ROE
-1 Vampire Hexmage|ZEN
-4 Vampire Lacerator
-2 Vampire Nighthawk|ZEN
-3 Vampire Outcasts|M12
-4 Viscera Seer
-4 Dismember|NPH
-1 Verdant Catacombs|ZEN
+2 Blade of the Bloodchief|LCC|[300]
+1 Mimic Vat|LCC|[115]
+23 Swamp|INR|[292]
+2 Bloodghast|SOC|[210]
+4 Bloodthrone Vampire|DDP|[46]
+4 Gatekeeper of Malakir|FDN|[713]
+1 Kalastria Highborn|FDN|[607]
+4 Pawn of Ulamog|SOC|[223]
+1 Vampire Hexmage|TSR|[335]
+4 Vampire Lacerator|A25|[114]
+2 Vampire Nighthawk|FDN|[186]
+3 Vampire Outcasts|MM2|[102]
+4 Viscera Seer|SOC|[229]
+4 Dismember|TSR|[322]
+1 Verdant Catacombs|MH2|[440]
 [Sideboard]
 4 Distress|M12
-2 Go for the Throat|MBS
-4 Skinrender|SOM
-3 Vampire Hexmage|ZEN
-2 Vampire Nighthawk|ZEN
+2 Go for the Throat|FDC|[100]
+4 Skinrender|ECC|[86]
+3 Vampire Hexmage|TSR|[335]
+2 Vampire Nighthawk|FDN|[186]

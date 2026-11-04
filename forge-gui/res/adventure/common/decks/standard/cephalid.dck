@@ -2,31 +2,31 @@
 Name=cephalid
 [Main]
 1 Aboshan, Cephalid Emperor|ODY|1
-2 An Offer You Can't Refuse|SNC|1
-4 Arcane Sanctum|C18|1
-1 Black Market Connections|HBG|1
+2 An Offer You Can't Refuse|FDN|[160]
+4 Arcane Sanctum|TRC|[513]
+1 Black Market Connections|LCC|[181]
 1 Callous Oppressor|ONS|1
-1 Cephalid Broker|IMA|1
-4 Cephalid Coliseum|V12|1
-3 Cephalid Constable|10E|1
+1 Cephalid Broker|ODY|[71]
+4 Cephalid Coliseum|ODY|[317]
+3 Cephalid Constable|JUD|[35]
 2 Cephalid Facetaker|NCC|1
 1 Cephalid Inkshrouder|JUD|1
 1 Cephalid Sage|TOR|1
 2 Cephalid Scout|ODY|1
 2 Diviner of Fates|YSNC|1
-2 Island|SNC|3
+2 Island|INR|[290]
 1 Kamiz, Obscura Oculus|NCC|1
 1 Llawan, Cephalid Empress|TOR|1
 2 Obscura Interceptor|SNC|1
 4 Obscura Polymorphist|YSNC|1
-2 Plains|SNC|3
-4 Polluted Delta|KTK|1
+2 Plains|INR|[288]
+4 Polluted Delta|MH3|[438]
 1 Psychic Pickpocket|SNC|1
 2 Queza, Augur of Agonies|SNC|1
 4 Raffine's Tower|SNC|1
 2 Raffine, Scheming Seer|SNC|1
-3 Shield Broker|NCC|1
-3 Swamp|SNC|3
+3 Shield Broker|BLC|[174]
+3 Swamp|INR|[292]
 4 Void Rend|SNC|1
 [Sideboard]
 [Schemes]

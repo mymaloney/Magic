@@ -1,94 +1,94 @@
 [metadata]
 Name=Horde of Notions
 [Commander]
-1 Horde of Notions|LRW
+1 Horde of Notions|ECC|[124]
 [Main]
-1 Smokebraider|LRW
-1 Ancient Greenwarden|ZNR
-1 Animate Dead|MKC
-1 Ashaya, Soul of the Wild|ZNR
+1 Smokebraider|ECC|[96]
+1 Ancient Greenwarden|J25|[627]
+1 Animate Dead|LEB|[93]
+1 Ashaya, Soul of the Wild|DSC|[170]
 1 Kindred Charge|C17
-1 Bane of Progress|C13
-1 Bloodwater Entity|HOU
+1 Bane of Progress|ECC|[99]
+1 Bloodwater Entity|2X2|[185]
 1 Boundless Realms|M13
-1 Breeding Pool|GTC
-1 Canopy Vista|BFZ
+1 Breeding Pool|RVR|[399]
+1 Canopy Vista|TDC|[343]
 1 Cavalier of Dawn|M20
 1 Cavalier of Flame|M20
-1 Cavalier of Thorns|M20
-1 Cinder Glade|C19
-1 Command Tower|CMR
-1 Cultivate|M21
-1 Sol Ring|SCD
-1 Disallow|AER
-1 Door of Destinies|PMOR
-1 Evolving Wilds|F12
-1 Exotic Orchard|BLC
-1 Fabled Passage|ELD
-1 Farseek|NCC
-1 Flamekin Harbinger|LRW
-1 Kindred Dominance|C17
-3 Forest|LRW
-1 Foundation Breaker|MH2
+1 Cavalier of Thorns|ECC|[100]
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
+1 Cultivate|SOC|[265]
+1 Sol Ring|LEB|[270]
+1 Disallow|TRC|[253]
+1 Door of Destinies|TRC|[342]
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
+1 Farseek|RVR|[347]
+1 Flamekin Harbinger|HOP|[53]
+1 Kindred Dominance|WOC|[113]
+3 Forest|INR|[296]
+1 Foundation Breaker|ECC|[108]
 1 Fracturing Gust|SHM
-1 Greenwarden of Murasa|BFZ
-1 Incandescent Soulstoke|MM2
+1 Greenwarden of Murasa|ECC|[110]
+1 Incandescent Soulstoke|ECC|[94]
 1 Indatha Triome|IKO
-3 Island|LRW
+3 Island|INR|[290]
 1 Ketria Triome|IKO
-1 Kindred Discovery|C17
-1 Kodama's Reach|CMR
-1 Krosan Grip|MM1
-1 Living Death|V14
-1 Maelstrom Wanderer|PC2
-1 Mirari's Wake|CM1
-3 Mountain|LRW
-1 Muldrotha, the Gravetide|CMR
-1 Mulldrifter|LRW
-1 Nature's Lore|CLB
+1 Kindred Discovery|LCC|[159]
+1 Kodama's Reach|ECC|[113]
+1 Krosan Grip|C21|[198]
+1 Living Death|TMP|[142]
+1 Maelstrom Wanderer|ECC|[127]
+1 Mirari's Wake|JUD|[139]
+3 Mountain|INR|[294]
+1 Muldrotha, the Gravetide|ECC|[128]
+1 Mulldrifter|TSR|[311]
+1 Nature's Lore|DMR|[346]
 1 Night Incarnate|C18
 1 Nyxbloom Ancient|THB
 1 Omnath, Locus of Creation|ZNR
 1 Omnath, Locus of All|MOM
-1 Omnath, Locus of the Roil|M20
-1 Overgrown Tomb|RTR
-1 Panharmonicon|KLD
-1 Path of Ancestry|CMM
-1 Patriarch's Bidding|MH2
-3 Plains|LRW
-1 Primal Beyond|MOR
-1 Pull from Tomorrow|BLC
+1 Omnath, Locus of the Roil|ECC|[130]
+1 Overgrown Tomb|RVR|[407]
+1 Panharmonicon|TSR|[399]
+1 Path of Ancestry|TRC|[545]
+1 Patriarch's Bidding|ONS|[161]
+3 Plains|INR|[288]
+1 Primal Beyond|ECC|[159]
+1 Pull from Tomorrow|SOC|[116]
 1 Ranger's Path|M13
 1 Raugrin Triome|IKO
-1 Reanimate|UMA
-1 Repudiate|RNA
+1 Reanimate|TMP|[151]
+1 Repudiate|RVR|[249]
 1 Rise of the Dark Realms|FDN
-1 Risen Reef|M20
-1 Rout|CNS
+1 Risen Reef|ECC|[132]
+1 Rout|INV|[34]
 1 Savai Triome|IKO
 1 Scampering Scorcher|M20
-1 Scattered Groves|AKH
+1 Scattered Groves|OTC|[315]
 1 Seething Pathblazer|MOR
-1 Sheltered Thicket|PAKH
+1 Sheltered Thicket|ECC|[167]
 1 Silverglade Elemental|MMQ
-1 Skyshroud Claim|BBD
-1 Slithermuse|MOR
-1 Soul of the Harvest|AVR
-1 Soul-Guide Lantern|THB
-1 Kindred Boon|C17
-1 Stomping Ground|GTC
-1 Kindred Summons|C17
-1 Shriekmaw|LRW
-1 Supreme Verdict|RTR
-3 Swamp|THB
-1 Temple Garden|RTR
-1 Terramorphic Expanse|CMR
+1 Skyshroud Claim|NMS|[117]
+1 Slithermuse|ECC|[69]
+1 Soul of the Harvest|JMP|[432]
+1 Soul-Guide Lantern|EOC|[143]
+1 Kindred Boon|LCC|[129]
+1 Stomping Ground|RVR|[413]
+1 Kindred Summons|ECC|[112]
+1 Shriekmaw|TSR|[331]
+1 Supreme Verdict|RVR|[461]
+3 Swamp|INR|[292]
+1 Temple Garden|RVR|[414]
+1 Terramorphic Expanse|TRC|[571]
 1 The World Tree|KHM
 1 Thicket Crasher|M20
-1 Victimize|TDC
-1 Voidslime|DIS
-1 Wrath of God|10E
-1 Yarok, the Desecrated|PM20
+1 Victimize|MH3|[413]
+1 Voidslime|RVR|[388]
+1 Wrath of God|DMR|[279]
+1 Yarok, the Desecrated|ECC|[136]
 1 Zagoth Triome|IKO
-1 Zendikar Resurgent|OGW
-1 Zendikar's Roil|ORI
+1 Zendikar Resurgent|C17|[160]
+1 Zendikar's Roil|J22|[747]

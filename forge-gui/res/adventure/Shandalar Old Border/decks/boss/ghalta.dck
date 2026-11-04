@@ -1,9 +1,9 @@
 [metadata]
 Name=Queen of Beasts
 [Main]
-10 Forest|LEA
+10 Forest|INR|[296]
 4 Ancient Tomb|TMP
-4 Wild Growth|LEA
+4 Wild Growth|DMR|[352]
 4 Overgrowth|STH
 4 Krosan Cloudscraper|LGN
 2 Wolf Pack|PTK
@@ -12,7 +12,7 @@ Name=Queen of Beasts
 2 Deathcoil Wurm|PO2
 4 Avatar of Might|PCY
 2 Penumbra Wurm|APC
-2 Rhox|S00
+2 Rhox|NMS|[112]
 2 Symbiotic Wurm|ONS
 1 Silvos, Rogue Elemental|ONS
 1 Molimo, Maro-Sorcerer|INV
@@ -23,7 +23,7 @@ Name=Queen of Beasts
 
 [StartInBattle_Reference]
 1 City of Solitude|VIS
-1 Forest|ONS|1
-1 Forest|ONS|2
-1 Forest|ONS|3
+1 Forest|INR|[296]
+1 Forest|INR|[296]
+1 Forest|INR|[296]
 1 Kavu Lair|INV

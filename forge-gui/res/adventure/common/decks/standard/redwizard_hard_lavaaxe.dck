@@ -4,23 +4,23 @@ Name=lava_axe
 4 Arrow Storm|KTK|1
 1 Bonfire of the Damned|MM3|1
 4 Chandra's Fury|ORI|1
-2 Fight with Fire|DOM|1
-1 Flame Wave|TPR|1
+2 Fight with Fire|PIO|[135]
+1 Flame Wave|STH|[81]
 1 Incendiary Command|C13|1
-4 Lava Axe|M19|1
-4 Lava Spike|MMA|1
-1 Mountain|JMP|3
-2 Mountain|JMP|6
-2 Mountain|JMP|7
-5 Mountain|SOM|1
-9 Mountain|SOM|2
-1 Mountain|SOM|3
-4 Mountain|SOM|4
+4 Lava Axe|ULG|[84]
+4 Lava Spike|TSR|[347]
+1 Mountain|INR|[294]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+5 Mountain|INR|[294]
+9 Mountain|INR|[294]
+1 Mountain|INR|[294]
+4 Mountain|INR|[294]
 4 Sarkhan's Catharsis|WAR|1
-1 Urza's Rage|PLST|1
-4 Volt Charge|DDL|1
+1 Urza's Rage|INV|[178]
+4 Volt Charge|ONE|[155]
 2 Wall of Granite|POR|1
 2 Wall of Heat|LEG|1
-2 Wall of Stone|8ED|1
+2 Wall of Stone|LEB|[183]
 [Sideboard]
 [Schemes]

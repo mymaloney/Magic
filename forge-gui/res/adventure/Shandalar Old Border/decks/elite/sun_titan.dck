@@ -1,10 +1,10 @@
 [metadata]
 Name=sun_titan
 [Main]
-24 Plains|INV
+24 Plains|INR|[288]
 4 Jareth, Leonine Titan|ONS
 2 Noble Templar|SCG
-4 Serra Avatar|USG
+4 Serra Avatar|DMR|[272]
 4 Avatar of Hope|PCY
 4 Eternal Dragon|SCG
 4 Purify|ULG
@@ -14,6 +14,6 @@ Name=sun_titan
 3 Death or Glory|INV
 
 [StartInBattle_Reference]
-1 Plains|INV|1
-1 Plains|INV|2
+1 Plains|INR|[288]
+1 Plains|INR|[288]
 1 Ivory Guardians|LEG

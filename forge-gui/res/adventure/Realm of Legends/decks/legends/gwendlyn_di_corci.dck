@@ -3,6 +3,6 @@ Name=Gwendlyn Di Corci
 [Commander]
 1 Gwendlyn Di Corci|LEG
 [Main]
-33 Island|LEB
-33 Mountain|LEB
-33 Swamp|LEB
+33 Island|INR|[290]
+33 Mountain|INR|[294]
+33 Swamp|INR|[292]

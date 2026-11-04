@@ -4,8 +4,8 @@ Name=Hugs
 1 Hugs, Grisly Guardian|blb
 [Main]
 1 Aggressive Instinct|j25
-1 Arcane Signet|blc
-1 Artifact Mutation|ncc
+1 Arcane Signet|TRC|[485]
+1 Artifact Mutation|INV|[231]
 1 Berserkers' Onslaught|blc
 1 raccoon rallier|blb
 1 teapot slinger|blb
@@ -23,60 +23,60 @@ Name=Hugs
 1 muerra, trash tactician|blb
 1 Rolling Hamsphere|blc
 1 Blackblade Reforged|dmc
-1 Blasphemous Act|blc
-1 Blossoming Defense|scd
-1 Bonders' Enclave|otc
+1 Blasphemous Act|SOC|[238]
+1 Blossoming Defense|ECL|[167]
+1 Bonders' Enclave|FDC|[297]
 1 Boundless Realms|m13
 1 Bow of Nylea|ths
 1 Brightcap Badger|blc
-1 Chaos Warp|blc
+1 Chaos Warp|MBC|[72]
 1 Charging Badger|bng
-1 Cinder Glade|eoc
-1 Command Tower|eoc
-1 Cultivate|eoc
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
+1 Cultivate|SOC|[265]
 1 Cultivator Colossus|inr
 1 Elemental Bond|tdc
-1 Escape to the Wilds|otc
-1 Etali, Primal Storm|fdn
-1 Farseek|eoc
-14 Forest|blb
+1 Escape to the Wilds|EOC|[115]
+1 Etali, Primal Storm|TSR|[342]
+1 Farseek|RVR|[347]
+14 Forest|INR|[296]
 1 Game Trail|blc
 1 Giant Badger|8ed
 1 Goblin Anarchomancer|mh2
-1 Goreclaw, Terror of Qal Sisma|blc
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
 1 Greensleeves, Maro-Sorcerer|dmc
-1 Gruul Turf|blc
-1 Harmonize|dsc
+1 Gruul Turf|ECC|[152]
+1 Harmonize|ECC|[111]
 1 Hunter's Talent|blb
 1 Kessig Wolf Run|tdc
 1 Loot, Exuberant Explorer|fdn
-9 Mountain|blb
-1 Nature's Claim|wwk
+9 Mountain|INR|[294]
+1 Nature's Claim|TSR|[364]
 1 Nissa, Ascended Animist|one
 1 prosperous bandit|blc
 1 brightcap badger|blc
-1 Path of Ancestry|blc
+1 Path of Ancestry|TRC|[545]
 1 trailtracker scout|blc
-1 Raging Ravine|blc
-1 Reliquary Tower|m3c
+1 Raging Ravine|ECC|[160]
+1 Reliquary Tower|TRC|[551]
 1 Retreat to Kazandu|j25
-1 Rishkar's Expertise|lcc
-1 thickest in the thicket|blc
+1 Rishkar's Expertise|FDC|[226]
+1 thickest in the thicket|FDC|[236]
 1 Road|mh2
-1 Rock Badger|10e
-1 Rockfall Vale|tdc
-1 Rootbound Crag|tdc
+1 Rock Badger|MMQ|[210]
+1 Rockfall Vale|FRA|[186]
+1 Rootbound Crag|ECC|[163]
 1 Rysorian Badger|hml
 1 Savvy Trader|otc
-1 Scrapshooter|blb
+1 Scrapshooter|FDC|[228]
 1 Short Bow|blb
 1 Smuggler's Surprise|otj
-1 Sol Ring|blc
+1 Sol Ring|LEB|[270]
 1 Stubborn Burrowfiend|otj
 1 Surly Badgersaur|c20
 1 Sylvan Scavenging|fdn
 1 roughshod duo|blb
-1 Temple of the False God|moc
+1 Temple of the False God|SCG|[143]
 1 Thornspire Verge|dsk
 1 Trailtracker Scout|blc
 1 Wandertale Mentor|blb

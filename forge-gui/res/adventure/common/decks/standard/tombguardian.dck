@@ -6,35 +6,35 @@ Description=BRG Bloodthirst deck with Honden of Infinite Rage, Kyren Sniper and 
 Icon=Krypto.jpg
 Deck Type=constructed
 [Main]
-4 Skarrgan Pit-Skulk
-1 Smash to Smithereens
-2 First Volley
-2 Bogardan Lancer
-2 Duskhunter Bat
-2 Scab-Clan Mauler
-4 Kyren Sniper
-1 Blood Ogre
-1 Bloodrage Vampire
-1 Bloodscale Prowler
-1 Lurking Crocodile
-2 Honden of Infinite Rage
-1 Rumbling Slum
-1 Rabble-Rouser
-3 Gorehorn Minotaurs
-3 Vampire Outcasts
-1 Chandra's Outrage
-1 Melt Terrain
-1 Ghor-Clan Savage
-1 Battering Wurm
-1 Carnage Wurm
-5 Forest|M12
-5 Mountain|M12
-3 Swamp|M12
-1 Badlands
-1 Bayou
-1 Taiga
-2 Blood Crypt
-2 Overgrown Tomb
-2 Stomping Ground
-2 Savage Lands
+4 Skarrgan Pit-Skulk|GK2|[84]
+1 Smash to Smithereens|PIO|[343]
+2 First Volley|BOK|[100]
+2 Bogardan Lancer|FUT|[95]
+2 Duskhunter Bat|MM2|[81]
+2 Scab-Clan Mauler|RVR|[219]
+4 Kyren Sniper|MMQ|[199]
+1 Blood Ogre|E01|[41]
+1 Bloodrage Vampire|DDK|[10]
+1 Bloodscale Prowler|GPT|[64]
+1 Lurking Crocodile|M12|[184]
+2 Honden of Infinite Rage|EMA|[134]
+1 Rumbling Slum|GK2|[96]
+1 Rabble-Rouser|GPT|[73]
+3 Gorehorn Minotaurs|E01|[49]
+3 Vampire Outcasts|MM2|[102]
+1 Chandra's Outrage|M20|[130]
+1 Melt Terrain|SOM|[97]
+1 Ghor-Clan Savage|DDL|[53]
+1 Battering Wurm|GPT|[79]
+1 Carnage Wurm|M12|[168]
+5 Forest|INR|[296]
+5 Mountain|INR|[294]
+3 Swamp|INR|[292]
+1 Badlands|LEB|[278]
+1 Bayou|LEB|[279]
+1 Taiga|LEB|[283]
+2 Blood Crypt|RVR|[397]
+2 Overgrown Tomb|RVR|[407]
+2 Stomping Ground|RVR|[413]
+2 Savage Lands|ECC|[165]
 [Sideboard]

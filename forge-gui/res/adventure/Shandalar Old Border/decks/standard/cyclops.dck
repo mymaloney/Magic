@@ -1,12 +1,12 @@
 [metadata]
 Name=Specter's Cyclops
 [Main]
-24 Mountain|UGL
+24 Mountain|INR|[294]
 2 Planar Chaos|JUD
 4 Mogg Assassin|EXO
 4 Chaotic Goo|TMP
 2 Scoria Wurm|USG
-3 Chaos Orb|LEA
+3 Chaos Orb|LEB|[236]
 3 Falling Star|LEG
 4 Crazed Firecat|TOR
 2 Wild Wurm|TMP
@@ -18,4 +18,4 @@ Name=Specter's Cyclops
 1 Chance Encounter|ODY
 1 Goblin Bomb|WTH
 1 Impulsive Maneuvers|ODY
-1 Mana Crypt|PHPR
+1 Mana Crypt|2XM|[270]

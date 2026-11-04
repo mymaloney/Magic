@@ -11,12 +11,12 @@ Name=Ognis
 1 Clackbridge Troll|ELD
 1 Madrush Cyclops|ARB
 1 Seer of Stolen Sight|MOM
-1 Arcane Signet|DRC
+1 Arcane Signet|TRC|[485]
 1 Banehound|WAR
 1 Beastcaller Savant|BFZ
-1 Beastmaster Ascension|C15
-1 Blazing Specter|DDH
-1 Bloodbraid Elf|2X2
+1 Beastmaster Ascension|BLC|[118]
+1 Blazing Specter|INV|[236]
+1 Bloodbraid Elf|TSR|[372]
 1 Bomat Courier|KLD
 1 Bontu's Last Reckoning|HOU
 1 Bootleggers' Stash|DRC
@@ -26,53 +26,53 @@ Name=Ognis
 1 Demand Answers|MKM
 1 Dragonspark Reactor|NEO
 1 Dreadhorde Butcher|WAR
-1 Escape to the Wilds|OTC
-1 Evolving Wilds|DRC
-1 Caldaia Guardian|SNC
+1 Escape to the Wilds|EOC|[115]
+1 Evolving Wilds|TRC|[527]
+1 Caldaia Guardian|NCC|[56]
 1 Fangren Marauder|MBS
-1 Fellwar Stone|DSC
-6 Forest|SNC
+1 Fellwar Stone|DRK|[102]
+6 Forest|INR|[296]
 1 Garna, the Bloodflame|DMC
-1 Riveteers Overlook|SNC
+1 Riveteers Overlook|ECC|[162]
 1 Gingerbrute|J25
-1 Golgari Charm|RTR
-1 Talisman of Impulse|TDM
+1 Golgari Charm|UMA|[201]
+1 Talisman of Impulse|TDC|[332]
 1 Unleash the Inferno|SNC
-1 Talisman of Resilience|DSC
-1 Gruul Turf|BLC
+1 Talisman of Resilience|SOC|[432]
+1 Gruul Turf|ECC|[152]
 1 Introduction to Annihilation|STX
 1 Riveteers Requisitioner|SNC
 1 Jaya's Immolating Inferno|CMR
 1 Jund Panorama|NCC
-1 Juri, Master of the Revue|CMR
+1 Juri, Master of the Revue|EOC|[119]
 1 Karrthus, Tyrant of Jund|2XM
 1 Lavalanche|DMC
 1 Magda, Brazen Outlaw|KHM
-1 Mind Stone|DSC
-14 Mountain|SNC
+1 Mind Stone|DMR|[385]
+14 Mountain|INR|[294]
 1 Nadier's Nightblade|BLC
 1 Primal Forcemage|TSR
 1 Prismatic Lens|OTC
-1 Rakdos Carnarium|CLU
-1 Rakdos Charm|DSC
-1 Ravenous Squirrel|MH2
+1 Rakdos Carnarium|ECC|[161]
+1 Rakdos Charm|TSR|[384]
+1 Ravenous Squirrel|BLC|[258]
 1 Reap the Past|MH1
-1 Reckless Fireweaver|KLD
+1 Reckless Fireweaver|DRC|[106]
 1 Reckless Lackey|OTJ
 1 Reinforced Ronin|NEO
 1 Rubblebelt Rioters|WAR
 1 Ruby, Daring Tracker|FDN
-1 Savage Lands|CMM
+1 Savage Lands|ECC|[165]
 1 Sek'Kuar, Deathkeeper|CMM
-1 Sol Ring|DRC
+1 Sol Ring|LEB|[270]
 1 Squall Line|TSP
 1 Stimulus Package|SNC
 1 Stormfist Crusader|DSC
-9 Swamp|SNC
+9 Swamp|INR|[292]
 1 Sylvan Awakening|DOM
 1 Syr Ginger, the Meal Ender|WOE
-1 Tear Asunder|BLC
-1 Terramorphic Expanse|DRC
+1 Tear Asunder|EOC|[109]
+1 Terramorphic Expanse|TRC|[571]
 1 Twisted Landscape|MH3
 1 Uktabi Drake|TSR
 1 Underhanded Designs|KLD

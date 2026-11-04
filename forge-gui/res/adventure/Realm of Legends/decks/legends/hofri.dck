@@ -1,31 +1,31 @@
 [metadata]
 Name=Hofri Ghostforge
 [Commander]
-1 Hofri Ghostforge|STX
+1 Hofri Ghostforge|SOC|[314]
 [Main]
-1 Swiftfoot Boots|FDN
+1 Swiftfoot Boots|TRC|[501]
 1 Accursed Duneyard|DRC
 1 Blood Age General|STX
 1 Dwarven Miner|MIR
-1 Sram, Senior Edificer|NEC
+1 Sram, Senior Edificer|TSR|[303]
 1 Axgard Cavalry|FDN
 1 Soulstealer Axe|YMID
 1 Darksteel Axe|2XM
 1 Bearded Axe|KHM
 1 Boros Signet|TDC
-1 Arcane Signet|EOC
-1 Battlefield Forge|EOC
-1 Bloodforged Battle-Axe|2X2
+1 Arcane Signet|TRC|[485]
+1 Battlefield Forge|APC|[139]
+1 Bloodforged Battle-Axe|MOC|[349]
 1 Bomb Squad|ODY
 1 Brass's Tunnel-Grinder|LCI
 1 Cadric, Soul Kindler|DMC
 1 Castle Embereth|TDC
-1 Chain Reaction|EOC
-1 Cleansing Nova|CMM
-1 Command Tower|EOC
+1 Chain Reaction|TRC|[280]
+1 Cleansing Nova|FDC|[20]
+1 Command Tower|TRC|[521]
 1 Conqueror's Flail|2X2
-1 Darksteel Citadel|MB2
-1 Darksteel Plate|2X2
+1 Darksteel Citadel|FDC|[300]
+1 Darksteel Plate|TRC|[341]
 1 Depala, Pilot Exemplar|KLD
 1 Diamond Pick-Axe|LCI
 1 Digsite Engineer|BRC
@@ -42,7 +42,7 @@ Name=Hofri Ghostforge
 1 Dwarven Ruins|FEM
 1 Dwarven Thaumaturgist|WTH
 1 Embercleave|ELD
-1 Evolving Wilds|EOC
+1 Evolving Wilds|TRC|[527]
 1 Godsend|J25
 1 Hammer of Nazahn|CMM
 1 Icon of Ancestry|LCC
@@ -52,30 +52,30 @@ Name=Hofri Ghostforge
 1 Loxodon Warhammer|ONC
 1 Magda, Brazen Outlaw|KHM
 1 Magda, the Hoardmaster|OTJ
-1 Masterwork of Ingenuity|C14
+1 Masterwork of Ingenuity|AFC|[209]
 1 Maul of the Skyclaves|J25
-11 Mountain|STX
+11 Mountain|INR|[294]
 1 Nahiri, Forged in Fury|MAT
 1 Nahiri, Storm of Stone|WAR
 1 Needleverge Pathway|ZNR
-1 Opal Palace|CMM
-1 Path of Ancestry|TDC
-8 Plains|STX
+1 Opal Palace|SOC|[390]
+1 Path of Ancestry|TRC|[545]
+8 Plains|INR|[288]
 1 Reyav, Master Smith|CMR
 1 Rustvale Bridge|EOC
-1 Sacred Foundry|EOE
-1 Sacred Peaks|MKC
+1 Sacred Foundry|RVR|[409]
+1 Sacred Peaks|SOC|[402]
 7 Seven Dwarves|ELD
 1 Shadowspear|THB
 1 Sigarda's Aid|CMR
 1 Slayers' Stronghold|MKC
-1 Sol Ring|EOC
+1 Sol Ring|LEB|[270]
 1 Spectator Seating|CMM
 1 Spidersilk Net|DTK
-1 Sword of the Animist|ORI
-1 Temple of Triumph|EOC
-1 Terramorphic Expanse|EOC
+1 Sword of the Animist|CMM|[413]
+1 Temple of Triumph|SOC|[417]
+1 Terramorphic Expanse|TRC|[571]
 1 Throne of the High City|MKC
 1 Torbran, Thane of Red Fell|ELD
 1 Warchanter Skald|KHM
-1 Warleader's Call|MKM
+1 Warleader's Call|TRC|[335]

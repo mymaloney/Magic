@@ -1,80 +1,80 @@
 [metadata]
 Name=Olivia, Crimson Bride
 [Commander]
-1 Olivia, Crimson Bride|VOW
+1 Olivia, Crimson Bride|DBL|[512]
 [Main]
-1 Access Tunnel|STX
-1 Altar of Dementia|MH1
-1 Animate Dead|EMA
-1 Arcane Signet|CMR
-1 Archon of Cruelty|MH2
-1 Balefire Dragon|UMA
-1 Bedevil|AFC
-1 Blasphemous Act|C21
+1 Access Tunnel|TDC|[337]
+1 Altar of Dementia|TMP|[276]
+1 Animate Dead|LEB|[93]
+1 Arcane Signet|TRC|[485]
+1 Archon of Cruelty|FRC|[47]
+1 Balefire Dragon|INR|[479]
+1 Bedevil|DSC|[84]
+1 Blasphemous Act|SOC|[238]
 1 Burning-Rune Demon|KHM
-1 Cathartic Reunion|2XM
+1 Cathartic Reunion|ECC|[91]
 1 Chainer, Nightmare Adept|MH2
-1 Chaos Warp|SCD
-1 Command Tower|C15
-1 Commander's Sphere|DSC
+1 Chaos Warp|MBC|[72]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
 1 Demand Answers|MKM
-1 Dragonskull Summit|C16
+1 Dragonskull Summit|TRC|[375]
 1 Entomb|DMR
 1 Evereth, Viceroy of Plunder|J25
-1 Faithless Looting|CMM
-1 Feed the Swarm|ZNR
-1 Fellwar Stone|C16
+1 Faithless Looting|SOC|[244]
+1 Feed the Swarm|TDC|[180]
+1 Fellwar Stone|DRK|[102]
 1 Flayer of the Hatebound|C19
-1 Foreboding Ruins|NCC
-1 Goblin Bombardment|MH2
+1 Foreboding Ruins|TRC|[381]
+1 Goblin Bombardment|TMP|[179]
 1 Grab the Prize|DSK
 1 Guildless Commons|CMR
 1 Highway Robbery|OTJ
-1 Junji, the Midnight Sky|NEO
-1 Liliana of the Veil|DMU
-1 Liquimetal Torque|BRC
-1 Living Death|TDC
+1 Junji, the Midnight Sky|TDC|[183]
+1 Liliana of the Veil|INR|[475]
+1 Liquimetal Torque|MH2|[428]
+1 Living Death|TMP|[142]
 1 Maha, Its Feathers Night|BLB
 1 Malignus|AVR
-1 Massacre Wurm|M21
+1 Massacre Wurm|FDN|[714]
 1 Master of Cruelties|RVR
 1 Metamorphosis Fanatic|DSC
 1 Mikaeus, the Unhallowed|CMM
-1 Mind Stone|C18
-11 Mountain|VOW
+1 Mind Stone|DMR|[385]
+11 Mountain|INR|[294]
 1 Neheb, Dreadhorde Champion|DMC
-1 Olivia Voldaren|MM3
+1 Olivia Voldaren|INR|[246]
 1 Olivia, Mobilized for War|SOI
-1 Path of Ancestry|CMR
-1 Phyrexian Arena|FDN
-1 Port Razer|CMR
+1 Path of Ancestry|TRC|[545]
+1 Phyrexian Arena|APC|[47]
+1 Port Razer|LCC|[230]
 1 Purphoros, Bronze-Blooded|THB
-1 Rakdos Carnarium|C17
-1 Rakdos Charm|LCC
-1 Rakdos Signet|CMA
+1 Rakdos Carnarium|ECC|[161]
+1 Rakdos Charm|TSR|[384]
+1 Rakdos Signet|FRC|[60]
 1 Raucous Theater|MKM
-1 Reanimate|JMP
+1 Reanimate|TMP|[151]
 1 Ivora, Insatiable Heir|J25
-1 Henrika Domnathi|VOW
-1 Anje, Maid of Dishonor|VOW
+1 Henrika Domnathi|DBL|[386]
+1 Anje, Maid of Dishonor|DBL|[498]
 1 Drana, the Last Bloodchief|ZNR
 1 Sazacap's Brew|BLB
 1 Sheoldred, Whispering One|JMP
-1 Smoldering Marsh|NCC
-1 Sneak Attack|EMA
-1 Sol Ring|C21
+1 Smoldering Marsh|TRC|[403]
+1 Sneak Attack|DMR|[331]
+1 Sol Ring|LEB|[270]
 1 Stitcher's Supplier|TDC
 1 Sulfurous Springs|ICE
-15 Swamp|VOW
-1 Syr Konrad, the Grim|ELD
-1 Temple of Malice|BRC
-1 Terminate|AFC
-1 Terror of the Peaks|M21
+15 Swamp|INR|[292]
+1 Syr Konrad, the Grim|DSC|[158]
+1 Temple of Malice|TRC|[410]
+1 Terminate|PLS|[128]
+1 Terror of the Peaks|OTJ|[149]
 1 Teval's Judgment|TDC
-1 Thrill of Possibility|STA
+1 Thrill of Possibility|TRC|[455]
 1 Tormenting Voice|J22
-1 Utvara Hellkite|C17
+1 Utvara Hellkite|RVR|[342]
 1 Vile Entomber|MH2
-1 Witch's Mark|WOE
-1 Withering Torment|DSK
-1 Yahenni, Undying Partisan|AER
+1 Witch's Mark|PIO|[160]
+1 Withering Torment|FDC|[134]
+1 Yahenni, Undying Partisan|SOC|[232]

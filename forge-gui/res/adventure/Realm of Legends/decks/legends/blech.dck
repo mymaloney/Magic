@@ -3,38 +3,38 @@ Name=blech
 [Commander]
 1 Blech, Loafing Pest|sos
 [Main]
-1 Arasta of the Endless Web|ncc
-1 Arcane Signet|lcc
-1 Ashnod's Altar|cmm
+1 Arasta of the Endless Web|TDC|[244]
+1 Arcane Signet|TRC|[485]
+1 Ashnod's Altar|ATQ|[38]
 1 Assassin's Trophy|soc
-1 Beledros Witherbloom|blc
+1 Beledros Witherbloom|SOC|[296]
 1 Blight Mound|soc
 1 Bogwater Lumaret|sos
 1 Cauldron of Essence|sos
 1 Chomping Changeling|ecl
 1 Command Bridge|eoe
-1 Command Tower|soc
-1 Cryptolith Rite|soi
+1 Command Tower|TRC|[521]
+1 Cryptolith Rite|INR|[408]
 1 Decorum Dissertation|sos
 1 Dina, Soul Steeper|soc
 1 Dina's Guidance|sos
 1 Duskshell Crawler|j25
 1 Eccentric Pestfinder|soc
-1 Essence Warden|plc
+1 Essence Warden|CMA|[106]
 1 Essenceknit Scholar|sos
 1 Eumidian Terrabotanist|eoe
-1 Exotic Orchard|soc
-1 Farseek|tdc
+1 Exotic Orchard|TRC|[378]
+1 Farseek|RVR|[347]
 1 Feral Appetite|soc
-1 Radiant Fountain|m15
-15 Forest|sos
+1 Radiant Fountain|FDC|[308]
+15 Forest|INR|[296]
 1 Blex, Vexing Pest|stx
 1 Grapple with Death|sos
 1 Graveshifter|ecl
 1 Hardened Scales|soc
-1 Haywire Mite|blc
+1 Haywire Mite|SOC|[349]
 1 Immoral Bargain|soc
-1 Inspiring Call|tle
+1 Inspiring Call|FDN|[226]
 1 Jungle Hollow|tdm
 1 Kazandu Nectarpot|j25
 1 Lluwen, Exchange Student|sos
@@ -42,39 +42,39 @@ Name=blech
 1 Meltstrider Eulogist|eoe
 1 Moldervine Reclamation|soc
 1 Moseo, Vein's New Dean|sos
-1 Nature's Lore|eoc
-1 Necroblossom Snarl|dsc
-1 Path of Ancestry|soc
+1 Nature's Lore|DMR|[346]
+1 Necroblossom Snarl|SOC|[389]
+1 Path of Ancestry|TRC|[545]
 1 Pest Infestation|soc
 1 Pest Mascot|sos
 1 Pest Rescuer|soc
 1 Pest Summoning|stx
 1 Planar Engineering|sos
-1 Pristine Talisman|nph
+1 Pristine Talisman|C21|[258]
 1 Prosperous Innkeeper|blc
-1 Putrefy|ecc
-1 Rampant Growth|j25
-1 Reliquary Tower|dsc
+1 Putrefy|RVR|[378]
+1 Rampant Growth|TMP|[245]
+1 Reliquary Tower|TRC|[551]
 1 Ribtruss Roaster|soc
-1 Riveteers Overlook|m3c
+1 Riveteers Overlook|ECC|[162]
 1 Sakura-Tribe Elder|soc
 1 Sedgemoor Witch|stx
 1 Callous Bloodmage|stx
-1 Second Harvest|blc
+1 Second Harvest|INR|[417]
 1 Send in the Pest|sos
 1 Shopkeeper's Bane|sos
-1 Sol Ring|tdc
+1 Sol Ring|LEB|[270]
 1 Springleaf Parade|ecc
 1 Starscape Cleric|blb
-11 Swamp|sos
+11 Swamp|INR|[292]
 1 Swarmyard|blc
-1 Swiftfoot Boots|tdc
+1 Swiftfoot Boots|TRC|[501]
 1 Teacher's Pest|sos
 1 Tend the Pests|stx
 1 Twitching Doll|dsk
 1 Virulent Emissary|ecl
-1 Viscera Seer|lcc
-1 Whip of Erebos|dsc
+1 Viscera Seer|SOC|[229]
+1 Whip of Erebos|PIO|[119]
 1 Witherbloom Charm|sos
 1 Witherbloom, the Balancer|sos
-1 Woodland Cemetery|soc
+1 Woodland Cemetery|DMR|[401]

@@ -3,8 +3,8 @@ Name=Green Phyrexian Boss
 [Main]
 4 Tainted Wood|TOR
 4 Llanowar Wastes|APC
-8 Swamp|TMP
-4 Forest|TMP
+8 Swamp|INR|[292]
+4 Forest|INR|[296]
 4 Death Mutation|APC
 4 Llanowar Dead|APC
 4 Elves of Deep Shadow|DRK

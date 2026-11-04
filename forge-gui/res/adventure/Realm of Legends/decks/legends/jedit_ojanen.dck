@@ -3,7 +3,7 @@ Name=Jedit Ojanen, Mercenary
 [Commander]
 1 Jedit Ojanen, Mercenary|DMC
 [Main]
-1 Brimaz, King of Oreskos|BNG
+1 Brimaz, King of Oreskos|J25|[58]
 1 Denry Klin, Editor in Chief|NCC
 1 Kutzil, Malamet Exemplar|LCI
 1 Sovereign Okinec Ahau|LCI
@@ -11,67 +11,67 @@ Name=Jedit Ojanen, Mercenary
 1 Mythweaver Poq|YLCI
 1 Mirri, Cat Warrior|EXO
 1 Arahbo, the First Fang|FDN
-1 Sol Ring|DMC
-1 Arcane Signet|MOC
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
 1 Azor, the Lawbringer|RIX
 1 Blackblade Reforged|DMC
 1 Brokers Hideout|SNC
-1 Command Tower|C15
+1 Command Tower|TRC|[521]
 1 Cosima, God of the Voyage|KHM
 1 Day of Destiny|DMC
-1 Derevi, Empyrial Tactician|C13
+1 Derevi, Empyrial Tactician|BLC|[87]
 1 Dragon Throne of Tarkir|KTK
-1 Edric, Spymaster of Trest|C16
-1 Emmara, Soul of the Accord|GRN
-1 Evolving Wilds|MID
-1 Fblthp, the Lost|WAR
-11 Forest|C19
+1 Edric, Spymaster of Trest|OTC|[221]
+1 Emmara, Soul of the Accord|SCD|[2]
+1 Evolving Wilds|TRC|[527]
+1 Fblthp, the Lost|TSR|[308]
+11 Forest|INR|[296]
 1 Ghalta and Mavren|MOM
-1 Gwafa Hazid, Profiteer|C16
-1 Heroes' Podium|BNG
+1 Gwafa Hazid, Profiteer|BBD|[223]
+1 Heroes' Podium|DMC|[185]
 1 Idyllic Beachfront|DMU
 1 Inga and Esika|MOM
-9 Island|C19
-1 Jareth, Leonine Titan|C17
+9 Island|INR|[290]
+1 Jareth, Leonine Titan|ONS|[43]
 1 Jedit Ojanen|LEG
-1 Jedit Ojanen of Efrava|PLC
-1 Jolrael, Mwonvuli Recluse|M21
+1 Jedit Ojanen of Efrava|C17|[153]
+1 Jolrael, Mwonvuli Recluse|DMR|[343]
 1 Kaheera, the Orphanguard|IKO
 1 Kamahl's Druidic Vow|DOM
-1 Karametra, God of Harvests|BNG
+1 Karametra, God of Harvests|PIO|[310]
 1 Kellan Joins Up|OTJ
 1 Kros, Defense Contractor|NCC
 1 Lagrella, the Magpie|SNC
-1 Lavinia, Azorius Renegade|RNA
+1 Lavinia, Azorius Renegade|RVR|[370]
 1 Linvala, Shield of Sea Gate|ZNR
-1 Lonis, Cryptozoologist|MH2
+1 Lonis, Cryptozoologist|MKC|[215]
 1 Michiko Konda, Truth Seeker|J22
-1 Nature's Lore|CLB
-10 Plains|C19
-1 Prava of the Steel Legion|CMR
+1 Nature's Lore|DMR|[346]
+10 Plains|INR|[288]
+1 Prava of the Steel Legion|ONC|[87]
 1 Queen Allenal of Ruadach|DMU
-1 Radiant Grove|DMU
-1 Rampant Growth|10E
+1 Radiant Grove|TDC|[385]
+1 Rampant Growth|TMP|[245]
 1 Rasputin, the Oneiromancer|DMC
 1 Reki, the History of Kamigawa|SOK
-1 Rubinia Soulsinger|CHR
-1 Selvala, Explorer Returned|DMC
-1 Shalai, Voice of Plenty|DOM
-1 Shanna, Sisay's Legacy|MUL
-1 Surrak, the Hunt Caller|DTK
-1 Tangled Islet|DMU
-1 Tatyova, Benthic Druid|DOM
-1 Terramorphic Expanse|C15
-1 The Immortal Sun|RIX
+1 Rubinia Soulsinger|LEG|[256]
+1 Selvala, Explorer Returned|BLC|[259]
+1 Shalai, Voice of Plenty|TDC|[130]
+1 Shanna, Sisay's Legacy|DOM|[204]
+1 Surrak, the Hunt Caller|FDC|[232]
+1 Tangled Islet|SOC|[411]
+1 Tatyova, Benthic Druid|DMR|[371]
+1 Terramorphic Expanse|TRC|[571]
+1 The Immortal Sun|TRC|[347]
 1 Arahbo, Roar of the World|C17
 1 Throne of the God-Pharaoh|AKH
 1 Thrun, Breaker of Silence|ONE
 1 Tocasia, Dig Site Mentor|BRO
 1 Trostani Discordant|CLU
-1 Urza's Ruinous Blast|DOM
-1 Venser, Shaper Savant|MM3
+1 Urza's Ruinous Blast|BRC|[79]
+1 Venser, Shaper Savant|J25|[66]
 1 Yasharn, Implacable Earth|ZNR
 1 Yavimaya Dryad|TSR
 1 Yavimaya, Cradle of Growth|MH2
 1 Zar Ojanen, Scion of Efrava|DMU
-1 Zetalpa, Primal Dawn|DMC
+1 Zetalpa, Primal Dawn|TDC|[142]

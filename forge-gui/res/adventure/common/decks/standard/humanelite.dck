@@ -1,20 +1,20 @@
 [metadata]
 Name=humanelite
 [Main]
-4 Castle Ardenvale|NCC|1
+4 Castle Ardenvale|TDC|[346]
 4 Champion of the Parish|DDQ|1
-4 Cleansing Nova|KHC|1
-2 Devout Chaplain|AVR|1
-4 Esper Sentinel|MH2|1
+4 Cleansing Nova|FDC|[20]
+2 Devout Chaplain|C20|[87]
+4 Esper Sentinel|H2R|[2]
 2 Expedition Supplier|YMID|1
-2 Kytheon, Hero of Akros|ORI|1
-4 Mother of Runes|EMA|1
-6 Plains|C19|1
-6 Plains|C19|2
-8 Plains|C19|3
-4 Swords to Plowshares|AFC|1
-4 Thalia's Lieutenant|SOI|1
-4 Thalia, Guardian of Thraben|SLD|1
-2 Thalia, Heretic Cathar|PEMN|1
+2 Kytheon, Hero of Akros|PIO|[23]
+4 Mother of Runes|ULG|[14]
+6 Plains|INR|[288]
+6 Plains|INR|[288]
+8 Plains|INR|[288]
+4 Swords to Plowshares|DMR|[275]
+4 Thalia's Lieutenant|C20|[103]
+4 Thalia, Guardian of Thraben|DBL|[305]
+2 Thalia, Heretic Cathar|INR|[351]
 [Sideboard]
 [Schemes]

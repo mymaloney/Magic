@@ -3,90 +3,90 @@ Name=Reaper King
 [Commander]
 1 Reaper King|shm
 [Main]
-1 Adarkar Wastes|eoc
+1 Adarkar Wastes|ICE|[351]
 1 Amoeboid Changeling|j22
-1 An Offer You Can't Refuse|snc
+1 An Offer You Can't Refuse|FDN|[160]
 1 Arcane Adaptation|xln
-1 Arcane Signet|onc
+1 Arcane Signet|TRC|[485]
 1 Aurora Awakener|ecl
-1 Battlefield Forge|bro
+1 Battlefield Forge|APC|[139]
 1 Belonging|ecc
-1 Bloodline Pretender|j22
-1 Breeding Pool|eoe
-1 Brushland|bro
-1 Cascading Cataracts|dmc
+1 Bloodline Pretender|MOC|[350]
+1 Breeding Pool|RVR|[399]
+1 Brushland|ICE|[352]
+1 Cascading Cataracts|M3C|[326]
 1 Changeling Berserker|lrw
-1 Changeling Outcast|clb
+1 Changeling Outcast|OTC|[128]
 1 Changeling Titan|lrw
-1 Command Tower|onc
-1 Crib Swap|clb
-1 Door of Destinies|c17
+1 Command Tower|TRC|[521]
+1 Crib Swap|ECL|[11]
+1 Door of Destinies|TRC|[342]
 1 Double Major|stx
-1 Dovin's Veto|war
+1 Dovin's Veto|TSR|[375]
 1 Eclipsed Realms|ecl
 1 Eerie Interlude|khc
-1 Ephemerate|mh1
-1 Exotic Orchard|ecc
-1 Fabled Passage|m21
-1 Farseek|blc
-1 Fellwar Stone|onc
+1 Ephemerate|H1R|[1]
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
+1 Farseek|RVR|[347]
+1 Fellwar Stone|DRK|[102]
 1 Firdoch Core|ecl
 1 Flock Impostor|ecl
-3 Forest|scd
-1 Frontier Bivouac|ktk
-1 Ghostly Flicker|khc
+3 Forest|INR|[296]
+1 Frontier Bivouac|ECC|[150]
+1 Ghostly Flicker|CMM|[98]
 1 Gilt-Leaf Palace|lrw
 1 Graveshifter|ecl
-1 Guardian Project|rna
-1 Hallowed Fountain|ecl
+1 Guardian Project|RVR|[349]
+1 Hallowed Fountain|RVR|[404]
 1 Imposing Grandeur|voc
 1 Irregular Cohort|clb
-3 Island|ecl
+3 Island|INR|[290]
 1 Jawbone Skulkin|eve
-1 Karplusan Forest|dmu
-1 Lightning Greaves|tdc
+1 Karplusan Forest|ICE|[356]
+1 Lightning Greaves|TRC|[496]
 1 Liliana's Contract|m19
-1 Llanowar Wastes|bro
+1 Llanowar Wastes|APC|[141]
 1 Magda, Brazen Outlaw|khm
 1 Majestic Genesis|clb
 1 Mardu Siegebreaker|tdm
 1 Masked Vandal|khm
-1 Maskwood Nexus|clb
-1 Metallic Mimic|aer
-1 Mirror Entity|clb
+1 Maskwood Nexus|DRC|[132]
+1 Metallic Mimic|INR|[445]
+1 Mirror Entity|TSR|[297]
 1 Mischievous Sneakling|ecl
 1 Molten Echoes|voc
 1 Morningtide's Light|ecl
-1 Morophon, the Boundless|cmm
-2 Mountain|scd
+1 Morophon, the Boundless|M3C|[157]
+2 Mountain|INR|[294]
 1 Murmuring Bosk|dmc
 1 Mutable Explorer|ecl
-1 Nature's Lore|eoc
+1 Nature's Lore|DMR|[346]
 1 Omni-Changeling|ecl
-1 One with the Machine|brc
-1 Opulent Palace|dmc
-1 Padeem, Consul of Innovation|kld
-1 Panharmonicon|j22
+1 One with the Machine|DRC|[80]
+1 Opulent Palace|ECC|[157]
+1 Padeem, Consul of Innovation|J25|[62]
+1 Panharmonicon|TSR|[399]
 1 Pili-Pala|shm
-3 Plains|scd
-1 Realmwalker|khm
-1 Reflecting Pool|clb
-1 Reflections of Littjara|clb
-1 Risen Reef|plst
-1 Scarecrone|plst
+3 Plains|INR|[288]
+1 Realmwalker|ECC|[114]
+1 Reflecting Pool|TMP|[322]
+1 Reflections of Littjara|TDC|[164]
+1 Risen Reef|ECC|[132]
+1 Scarecrone|JMP|[482]
 1 Scuttlemutt|jmp
-1 Secluded Courtyard|neo
-1 Shivan Reef|dmu
-1 Sol Ring|ncc
-1 Spark Double|cmm
+1 Secluded Courtyard|ECC|[62]
+1 Shivan Reef|APC|[142]
+1 Sol Ring|LEB|[270]
+1 Spark Double|RVR|[319]
 1 Springleaf Parade|ecc
 1 Stalactite Dagger|ecl
-2 Swamp|scd
-1 evolving wilds|fdn
-1 terramorphic expanse|eoc
-1 Taurean Mauler|nec
+2 Swamp|INR|[292]
+1 evolving wilds|TRC|[527]
+1 terramorphic expanse|TRC|[571]
+1 Taurean Mauler|TDC|[238]
 1 The Reaper, King no more|ecc
-1 Temple Garden|ecl
+1 Temple Garden|RVR|[414]
 1 The World Tree|khm
 1 Titan of Littjara|cmm
 1 Unsettled Mariner|mh1
@@ -94,4 +94,4 @@ Name=Reaper King
 1 Voja, Jaws of the Conclave|mkm
 1 Wanderwine Hub|lrw
 1 Whelming Wave|cmr
-1 Yavimaya Coast|dmu
+1 Yavimaya Coast|APC|[143]

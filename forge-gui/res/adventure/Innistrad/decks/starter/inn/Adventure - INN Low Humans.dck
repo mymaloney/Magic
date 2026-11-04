@@ -4,23 +4,23 @@ Name=Adventure - INN Low Humans
 
 [Main]
 1 Avacynian Missionaries|SOI|1
-1 Heron's Grace Champion|EMN|1
+1 Heron's Grace Champion|MIC|[152]
 2 Avacyn's Collar|DKA|1
-1 Sigarda's Aid|EMN|1
-1 Cathar's Call|MID|1
-2 Avacyn's Pilgrim|ISD|1
-7 Forest|ISD|1
-2 Elder Cathar|ISD|1
-7 Plains|SOI|1
-1 Sigardian Paladin|VOW|1
-2 Travel Preparations|ISD|1
-2 Unruly Mob|ISD|1
-1 Sharpened Pitchfork|ISD|1
-1 Apprentice Sharpshooter|VOW|1
+1 Sigarda's Aid|CMR|[384]
+1 Cathar's Call|INR|[16]
+2 Avacyn's Pilgrim|SCD|[171]
+7 Forest|INR|[296]
+2 Elder Cathar|DDQ|[9]
+7 Plains|INR|[288]
+1 Sigardian Paladin|DBL|[514]
+2 Travel Preparations|INR|[421]
+2 Unruly Mob|DBL|[40]
+1 Sharpened Pitchfork|DDQ|[32]
+1 Apprentice Sharpshooter|DBL|[452]
 2 Equestrian Skill|SOI|1
-4 Evolving Wilds|DKA|1
-2 Homestead Courage|MID|1
-1 Gryffwing Cavalry
+4 Evolving Wilds|TRC|[527]
+2 Homestead Courage|DBL|[24]
+1 Gryffwing Cavalry|DBL|[283]
 [Sideboard]
 
 [Planes]

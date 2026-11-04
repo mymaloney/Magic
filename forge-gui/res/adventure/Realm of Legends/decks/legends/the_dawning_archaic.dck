@@ -3,47 +3,47 @@ Name=The Dawning Archaic
 [Commander]
 1 The Dawning Archaic|SOS|[1]
 [Main]
-30 Wastes
-1 Rogue's Passage|rtr
-1 Temple of the False God|soc
+30 Wastes|TSR|[410]
+1 Rogue's Passage|TRC|[552]
+1 Temple of the False God|SCG|[143]
 1 War Room|soc
 1 Inventors' Fair|kld
 1 Homeward Path|c16
-1 Wasteland|ema
-1 Sol Ring|soc
+1 Wasteland|TMP|[330]
+1 Sol Ring|LEB|[270]
 1 Scorched Ruins|wth
-1 Mind Stone|blc
-1 Thran Dynamo|c14
-1 Hedron Archive|fdn
+1 Mind Stone|DMR|[385]
+1 Thran Dynamo|UDS|[139]
+1 Hedron Archive|TSR|[395]
 1 Hall of the Bandit Lord|chk
-1 Worn Powerstone|mh3
-1 Crawlspace|c13
-1 Mirari|c13
+1 Worn Powerstone|USG|[318]
+1 Crawlspace|DMR|[375]
+1 Mirari|ODY|[303]
 1 Primal Amulet|xln
-1 Lightning Greaves|scd
-1 Swiftfoot Boots|fdn
+1 Lightning Greaves|TRC|[496]
+1 Swiftfoot Boots|TRC|[501]
 1 Geometric Nexus|c21
-1 Lithoform Engine|znr
+1 Lithoform Engine|BRC|[146]
 1 Page, Loose Leaf|sos
 1 Panoptic Mirror|dst
-1 Sphinx-Bone Wand|roe
+1 Sphinx-Bone Wand|DDJ|[29]
 1 Runechanter's Pike|isd
 1 Sword of Wealth and Power|big
-1 Silent Arbiter|cmm
-1 Stonecoil Serpent|eld
-1 Triplicate Titan|c21
+1 Silent Arbiter|C20|[250]
+1 Stonecoil Serpent|SOC|[356]
+1 Triplicate Titan|DRC|[143]
 1 Ancient Stone Idol|mkc
-1 Duplicant|cmm
+1 Duplicant|DRC|[54]
 1 Weathered Sentinels|tdc
 1 Geode Golem|cmm
 1 Roaming Throne|lci
 1 Shield Sphere|all
 2 Null Elemental Blast|mh3
-2 Spatial Contortion|cmm
+2 Spatial Contortion|OGW|[8]
 4 Wandering Archaic|stx
 4 Abstruse Archaic|cmm
 2 Selective Obliteration|m3c
-2 All Is Dust|roe
+2 All Is Dust|FDC|[9]
 1 Environmental Sciences|stx
 1 Introduction to Prophecy|stx
 1 Expanded Anatomy|stx
@@ -54,4 +54,4 @@ Name=The Dawning Archaic
 2 Eldrazi Confluence|m3c
 2 Eldritch Immunity|m3c
 2 Kozilek's Command|mh3
-2 Not of this world|cmm
+2 Not of this world|ROE|[8]

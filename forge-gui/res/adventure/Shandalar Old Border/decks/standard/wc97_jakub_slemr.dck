@@ -4,7 +4,7 @@ Name=WC97 Jakub Slemr - Prismatic Black Aggro
 4 Black Knight|LEB
 4 Fallen Askari|VIS
 4 Knight of Stromgald|ICE
-4 Man-o'-War|VIS
+4 Man-o'-War|POR|[59]
 1 Necratog|WTH
 4 Nekrataal|VIS
 2 Shadow Guildmage|MIR
@@ -12,15 +12,15 @@ Name=WC97 Jakub Slemr - Prismatic Black Aggro
 4 Contagion|ALL
 4 Incinerate|MIR
 4 Choking Sands|MIR
-2 Earthquake|LEA
+2 Earthquake|PO2|[94]
 3 City of Brass|ARN
-3 Gemstone Mine|WTH
+3 Gemstone Mine|DMR|[395]
 2 Sulfurous Springs|ICE
-10 Swamp|MIR
+10 Swamp|INR|[292]
 1 Underground River|ICE
 3 Undiscovered Paradise|VIS
 [Sideboard]
-2 Disenchant|LEB
+2 Disenchant|MMQ|[18]
 2 Dystopia|ALL
 2 Ebony Charm|MIR
 1 Exile|ALL

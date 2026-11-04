@@ -5,68 +5,68 @@ Name=Jyoti, Moag Ancient
 [Main]
 1 Omo, Queen of Vesuva|M3C|1
 1 Nissa, Steward of Elements|M3C|1
-1 Vivien Reid|M3C|1
+1 Vivien Reid|FDN|[234]
 1 Acidic Slime|M3C|1
 1 Apex Devastator|M3C|1
-1 Avenger of Zendikar|M3C|1
+1 Avenger of Zendikar|ECC|[98]
 1 Dryad of the Ilysian Grove|M3C|1
 1 Elvish Rejuvenator|M3C|1
 1 Floriferous Vinewall|M3C|1
-1 Fog Bank|M3C|1
+1 Fog Bank|USG|[75]
 1 Hydra Broodmaster|M3C|1
-1 Hydroid Krasis|M3C|1
+1 Hydroid Krasis|SOC|[315]
 1 Magus of the Candelabra|M3C|1
 1 Poison Dart Frog|M3C|1
-1 Rampaging Baloths|M3C|1
+1 Rampaging Baloths|EOC|[104]
 1 Rampant Frogantua|M3C|2
 1 Ramunap Excavator|M3C|1
 1 Sage of the Maze|M3C|2
-1 Satyr Wayfinder|M3C|1
+1 Satyr Wayfinder|EOC|[106]
 1 Springheart Nantuko|MH3
 1 Skullwinder|M3C|1
-1 Tatyova, Benthic Druid|M3C|1
+1 Tatyova, Benthic Druid|DMR|[371]
 1 Terastodon|M3C|1
 1 Ulvenwald Hydra|M3C|1
 1 Uro, Titan of Nature's Wrath|M3C|1
 1 Wonderscape Sage|M3C|2
 1 Aggressive Biomancy|M3C|2
-1 Curse of the Swine|M3C|1
-1 Finale of Revelation|M3C|1
-1 Harmonize|M3C|1
+1 Curse of the Swine|SOC|[192]
+1 Finale of Revelation|FDN|[589]
+1 Harmonize|ECC|[111]
 1 Hour of Promise|M3C|1
 1 March from Velis Vel|M3C|2
-1 Replication Technique|M3C|1
-1 Sylvan Scrying|M3C|1
-1 Treasure Cruise|M3C|1
-1 Urban Evolution|M3C|1
-1 Arcane Denial|M3C|1
-1 Beast Within|M3C|1
+1 Replication Technique|SOC|[200]
+1 Sylvan Scrying|TSR|[367]
+1 Treasure Cruise|TSR|[319]
+1 Urban Evolution|PIO|[251]
+1 Arcane Denial|ALL|[22a]
+1 Beast Within|TSR|[357]
 1 Drown in Dreams|M3C|1
-1 Eureka Moment|M3C|1
-1 Evacuation|M3C|1
-1 Growth Spiral|M3C|1
-1 Pongify|M3C|1
-1 Summary Dismissal|M3C|1
+1 Eureka Moment|SOC|[308]
+1 Evacuation|STH|[30]
+1 Growth Spiral|DSC|[88]
+1 Pongify|TRC|[441]
+1 Summary Dismissal|INR|[368]
 1 Copy Land|M3C|2
 1 Desert Warfare|M3C|2
 1 Mana Reflection|M3C|1
-1 Propaganda|M3C|1
-1 Arcane Signet|M3C|1
-1 Chromatic Lantern|M3C|1
-1 Expedition Map|M3C|1
+1 Propaganda|TMP|[80]
+1 Arcane Signet|TRC|[485]
+1 Chromatic Lantern|RVR|[390]
+1 Expedition Map|FDN|[724]
 1 Mirage Mirror|M3C|1
 1 Oblivion Stone|M3C|1
 1 Seer's Sundial|M3C|1
-1 Sol Ring|M3C|1
+1 Sol Ring|LEB|[270]
 1 Basilisk Gate|M3C|1
 1 Blast Zone|M3C|1
 1 Cloudpost|M3C|1
-1 Command Tower|M3C|1
-1 Dark Depths|M3C|1
+1 Command Tower|TRC|[521]
+1 Dark Depths|DMR|[394]
 1 Desert of the Indomitable|M3C|1
-1 Desert of the Mindful|M3C|1
-1 Dreamroot Cascade|M3C|1
-1 Fabled Passage|BLB
+1 Desert of the Mindful|DRC|[150]
+1 Dreamroot Cascade|SOS|[254]
+1 Fabled Passage|TRC|[379]
 1 Glimmerpost|M3C|1
 1 Hashep Oasis|M3C|1
 1 Hidden Cataract|M3C|1
@@ -74,31 +74,31 @@ Name=Jyoti, Moag Ancient
 1 Horizon of Progress|M3C|2
 1 Lair of the Hydra|M3C|1
 1 Lazotep Quarry|M3C|2
-1 Lumbering Falls|M3C|1
+1 Lumbering Falls|PIO|[268]
 1 Lush Oasis|M3C|1
-1 Breeding Pool|GTC
+1 Breeding Pool|RVR|[399]
 1 Planar Nexus|M3C|2
-1 Quandrix Campus|M3C|1
-1 Simic Growth Chamber|M3C|1
-1 Simic Guildgate|M3C|1
+1 Quandrix Campus|SOC|[395]
+1 Simic Growth Chamber|DSC|[298]
+1 Simic Guildgate|RVR|[411]
 1 Sunken Palace|M3C|2
 1 Talon Gates of Madara|M3C|2
-1 Temple of Mystery|M3C|1
-1 Thespian's Stage|M3C|1
-1 Thornwood Falls|M3C|1
+1 Temple of Mystery|SOC|[414]
+1 Thespian's Stage|RVR|[466]
+1 Thornwood Falls|TDM|[269]
 1 Trenchpost|M3C|2
-1 Urza's Mine|M3C|1
-1 Urza's Power Plant|M3C|1
-1 Urza's Tower|M3C|1
+1 Urza's Mine|ATQ|[83a]
+1 Urza's Power Plant|ATQ|[84a]
+1 Urza's Tower|ATQ|[85a]
 1 Vesuva|M3C|1
-1 Vineglimmer Snarl|M3C|1
+1 Vineglimmer Snarl|SOC|[420]
 1 Volatile Fault|M3C|1
-1 Yavimaya Coast|M3C|1
-1 Yavimaya, Cradle of Growth|M3C|1
-1 Island|MH3|1
-1 Island|MH3|2
-1 Island|MH3|3
-2 Forest|MH3|1
-1 Forest|MH3|2
-1 Forest|MH3|3
+1 Yavimaya Coast|APC|[143]
+1 Yavimaya, Cradle of Growth|MH2|[441]
+1 Island|INR|[290]
+1 Island|INR|[290]
+1 Island|INR|[290]
+2 Forest|INR|[296]
+1 Forest|INR|[296]
+1 Forest|INR|[296]
 [Sideboard]

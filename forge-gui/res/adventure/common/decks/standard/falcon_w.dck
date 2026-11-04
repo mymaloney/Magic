@@ -1,28 +1,28 @@
 [metadata]
 Name=Falcon W
 [Main]
-4 Aerial Assault
-4 Aerial Maneuver
-4 Always Watching
-4 Drifting Meadow
-4 Duskrider Falcon
-4 Freewind Falcon
-4 Mesa Falcon
-2 Plains
-2 Plains
-1 Plains
-1 Plains
-1 Plains
-1 Plains
-1 Plains
-1 Plains
-1 Plains
-1 Plains
-1 Plains
-1 Plains
-1 Plains
-1 Plains
-4 Royal Falcon
-4 Rustwing Falcon
-4 Skyshroud Falcon
-4 Vigilance
+4 Aerial Assault|JMP|[80]
+4 Aerial Maneuver|GTC|[1]
+4 Always Watching|FDC|[10]
+4 Drifting Meadow|USG|[320]
+4 Duskrider Falcon|WTH|[12]
+4 Freewind Falcon|VIS|[5]
+4 Mesa Falcon|HML|[10a]
+2 Plains|INR|[288]
+2 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+4 Royal Falcon|S00|[8]
+4 Rustwing Falcon|M19|[36]
+4 Skyshroud Falcon|STH|[16]
+4 Vigilance|CHK|[49]

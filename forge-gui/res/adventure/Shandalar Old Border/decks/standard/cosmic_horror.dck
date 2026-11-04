@@ -2,24 +2,24 @@
 Name=cosmic_horror
 [Main]
 1 Brushland|ICE
-1 Plains|4ED|3
+1 Plains|INR|[288]
 2 Caves of Koilos|APC
-2 Dark Ritual|4ED
+2 Dark Ritual|MMQ|[129]
 2 Demonic Tutor|LEB
-2 Duress|USG
-2 Hymn to Tourach|ATH
+2 Duress|DMR|[303]
+2 Hymn to Tourach|FEM|[38a]
 2 Yavimaya Elder|UDS
-21 Swamp|4ED|3
+21 Swamp|INR|[292]
 4 Bane of the Living|LGN
-4 Black Knight|4ED
-4 Contagion|DKM
-4 Deathgrip|LEA
-4 Forest|4ED|3
+4 Black Knight|LEB|[95]
+4 Contagion|ALL|[45]
+4 Deathgrip|LEB|[101]
+4 Forest|INR|[296]
 4 Haunting Echoes|ODY
-4 Llanowar Elves|4ED
+4 Llanowar Elves|LEB|[211]
 4 Llanowar Wastes|APC
-4 Phantom Nishoba|JUD
-4 Reanimate|BRB
+4 Phantom Nishoba|DMR|[361]
+4 Reanimate|TMP|[151]
 4 Vile Requiem|USG
 
 [StartInBattle_Reference]

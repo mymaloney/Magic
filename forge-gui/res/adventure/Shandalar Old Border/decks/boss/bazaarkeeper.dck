@@ -4,11 +4,11 @@ Name=Bazaar Keeper
 4 City of Brass|ARN
 4 Reflecting Pool|TMP
 4 Gem Bazaar|PAST
-2 Island|MMQ
-2 Mountain|MMQ
-2 Forest|MMQ
-2 Swamp|MMQ
-2 Plains|MMQ
+2 Island|INR|[290]
+2 Mountain|INR|[294]
+2 Forest|INR|[296]
+2 Swamp|INR|[292]
+2 Plains|INR|[288]
 2 Sailmonger|MMQ
 2 Scandalmonger|MMQ
 2 Squallmonger|MMQ
@@ -30,13 +30,13 @@ Name=Bazaar Keeper
 1 Guided Passage|APC
 
 [StartInBattle_Reference]
-1 Island|MMQ
-1 Mountain|MMQ
-1 Forest|MMQ
-1 Swamp|MMQ
-1 Plains|MMQ
+1 Island|INR|[290]
+1 Mountain|INR|[294]
+1 Forest|INR|[296]
+1 Swamp|INR|[292]
+1 Plains|INR|[288]
 1 High Market|MMQ
-1 Talas Merchant|P02
+1 Talas Merchant|PO2|[50]
 1 Merchant Ship|ARN
 1 Trade Caravan|HML
 1 Bargaining Table|MMQ

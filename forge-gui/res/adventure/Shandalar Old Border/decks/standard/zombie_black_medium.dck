@@ -1,9 +1,9 @@
 [metadata]
 Name=Zombie Lord - Zombie Tribal
 [Main]
-18 Swamp|ONS
+18 Swamp|INR|[292]
 4 Unholy Grotto|ONS
-4 Dark Ritual|USG
+4 Dark Ritual|MMQ|[129]
 2 Boneknitter|ONS
 4 Sarcomancy|TMP
 4 Carnophage|EXO
@@ -11,7 +11,7 @@ Name=Zombie Lord - Zombie Tribal
 2 Boneknitter|ONS
 4 Noxious Ghoul|LGN
 2 Lord of the Undead|PLS
-2 Zombie Master|LEA
+2 Zombie Master|LEB|[138]
 2 Call to the Grave|SCG
 2 Vengeful Dead|SCG
 4 Undead Warchief|SCG
@@ -21,4 +21,4 @@ Name=Zombie Lord - Zombie Tribal
 
 [StartInBattle_Reference]
 1 Carrion Feeder|SCG
-1 Zombie Master|LEA
+1 Zombie Master|LEB|[138]

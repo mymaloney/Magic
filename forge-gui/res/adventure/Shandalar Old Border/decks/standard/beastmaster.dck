@@ -1,14 +1,14 @@
 [metadata]
 Name=beastmaster
 [Main]
-1 Mountain|ODY
-19 Forest|ODY
-2 Giant Growth|5ED
+1 Mountain|INR|[294]
+19 Forest|INR|[296]
+2 Giant Growth|ICE|[246]
 2 Rancor|ULG
-3 Kamahl, Fist of Krosa|ONS
+3 Kamahl, Fist of Krosa|DMR|[344]
 4 Beast Attack|ODY
 4 Frenzied Tilling|INV
-4 Grizzly Bears|5ED
+4 Grizzly Bears|POR|[169]
 4 Karplusan Forest|ICE
 4 Krosan Avenger|ODY
 4 Muscle Burst|ODY
@@ -17,4 +17,4 @@ Name=beastmaster
 4 Wild Mongrel|ODY
 
 [StartInBattle_Reference]
-1 Dual Nature
+1 Dual Nature|PCY|[112]

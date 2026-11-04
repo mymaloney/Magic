@@ -7,9 +7,9 @@ Name=Glissa
 1 Anoint with Affliction|one
 1 Armored Scrapgorger|one
 1 Asceticism|som
-1 Assassin's Trophy|grn
-1 glissa sunslayer|one
-1 Beast Within|onc
+1 Assassin's Trophy|SOC|[294]
+1 glissa sunslayer|ECC|[122]
+1 Beast Within|TSR|[357]
 1 Bilious Skulldweller|one
 1 Black Market Connections|lcc
 1 Blightbelly Rat|one
@@ -17,33 +17,33 @@ Name=Glissa
 1 Branchblight Stalker|one
 1 Breach the Multiverse|mom
 1 Bridgeworks Battle|mh3
-1 Command Tower|drc
+1 Command Tower|TRC|[521]
 1 Contaminant Grafter|onc
-1 Dark Ritual|usg
+1 Dark Ritual|MMQ|[129]
 1 Darkbore Pathway|khm
-1 Deathcap Glade|inr
+1 Deathcap Glade|SOS|[253]
 1 Deathreap Ritual|dsc
 1 Drown in Ichor|one
-1 Everflowing Chalice|eoc
+1 Everflowing Chalice|TSR|[394]
 1 Expand the Sphere|one
 1 Fell the Profane|mh3
-11 Forest|one
+11 Forest|INR|[296]
 1 Garruk's Uprising|ecc
 1 Geth's Summons|onc
 1 Glissa's Retriever|onc
 1 Glistener Elf|nph
-1 sol ring|onc
+1 sol ring|LEB|[270]
 1 Glistening Sphere|onc
 1 Ichor Rats|onc
 1 Infectious Bite|one
 1 Infectious Inquiry|one
 1 Inkmoth Nexus|mbs
-1 Karn's Bastion|lcc
-1 Lightning Greaves|2xm
-1 Llanowar Wastes|dsc
+1 Karn's Bastion|RVR|[464]
+1 Lightning Greaves|TRC|[496]
+1 Llanowar Wastes|APC|[141]
 1 Malakir Rebirth|znr
-1 Massacre Wurm|moc
-1 Mosswort Bridge|dsc
+1 Massacre Wurm|FDN|[714]
+1 Mosswort Bridge|TDC|[379]
 1 Mycosynth Fiend|onc
 1 Myr Convert|one
 1 tangled skyline|mom
@@ -54,23 +54,23 @@ Name=Glissa
 1 Noxious Revival|onc
 1 carnivorous canopy|one
 1 Paladin of Predation|one
-1 Path of Ancestry|tdc
+1 Path of Ancestry|TRC|[545]
 1 Pestilent Syphoner|one
 1 Phyresis|mbs
 1 Phyresis Outbreak|onc
-1 Phyrexian Arena|cc2
+1 Phyrexian Arena|APC|[47]
 1 blighted burgeoning|mom
 1 glistening dawn|mom
 1 Phyrexian Crusader|mbs
 1 Phyrexian Swarmlord|onc
 1 Plague Myr|onc
 1 Predator's Strike|j25
-1 Rancor|2x2
+1 Rancor|ULG|[110]
 1 Revitalizing Repast|mh3
-1 Rogue's Passage|otc
-1 Rot Wolf|mbs
-1 Skithiryx, the Blight Dragon|som
-9 Swamp|one
+1 Rogue's Passage|TRC|[552]
+1 Rot Wolf|TD2|[54]
+1 Skithiryx, the Blight Dragon|2XM|[107]
+9 Swamp|INR|[292]
 1 glissa, the traitor|mbs
 1 The Seedcore|one
 1 Tyrranax Rex|one
@@ -82,5 +82,5 @@ Name=Glissa
 1 gift of compleation|mom
 1 Vraska's Fall|one
 1 Wastewood Verge|dft
-1 arcane signet|dfc
+1 arcane signet|TRC|[485]
 1 Zopandrel, Hunger Dominus|one

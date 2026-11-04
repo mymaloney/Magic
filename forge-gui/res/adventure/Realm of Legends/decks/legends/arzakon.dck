@@ -1,89 +1,89 @@
 [metadata]
 Name=Arzakon
 [Commander]
-1 Arzakon
+1 Arzakon|MBC|[33]
 [Main]
-1 Tundra|LEA
-1 Underground Sea|LEA
-1 Badlands|LEA
-1 Taiga|LEA
-1 Savannah|LEA
-1 Scrubland|LEA
-1 Volcanic Island|LEA
-1 Bayou|LEA
-1 Plateau|LEA
-1 Tropical Island|LEA
+1 Tundra|LEB|[285]
+1 Underground Sea|LEB|[286]
+1 Badlands|LEB|[278]
+1 Taiga|LEB|[283]
+1 Savannah|LEB|[281]
+1 Scrubland|LEB|[282]
+1 Volcanic Island|LEB|[287]
+1 Bayou|LEB|[279]
+1 Plateau|LEB|[280]
+1 Tropical Island|LEB|[284]
 1 Gem Bazaar|PAST
-1 Mishra's Factory|ATQ
+1 Mishra's Factory|DMR|[399]
 1 City of Brass|ARN
 1 Urza's Tower|ATQ
 1 Urza's Power Plant|ATQ
 1 Urza's Mine|ATQ
-4 Mountain|LEA
-4 Forest|LEA
-4 Island|LEA
-4 Swamp|LEA
-4 Plains|LEA
-1 Mox Emerald|LEA
-1 Mox Ruby|LEA
-1 Mox Sapphire|LEA
-1 Mox Pearl|LEA
-1 Mox Jet|LEA
-1 Sol Ring|LEA
-1 Black Lotus|LEA
+4 Mountain|INR|[294]
+4 Forest|INR|[296]
+4 Island|INR|[290]
+4 Swamp|INR|[292]
+4 Plains|INR|[288]
+1 Mox Emerald|LEB|[262]
+1 Mox Ruby|LEB|[265]
+1 Mox Sapphire|LEB|[266]
+1 Mox Pearl|LEB|[264]
+1 Mox Jet|LEB|[263]
+1 Sol Ring|LEB|[270]
+1 Black Lotus|LEB|[233]
 1 Fellwar Stone|DRK
 1 Circle of Protection: Artifacts|ATQ
-1 Circle of Protection: Black|LEA
-1 Circle of Protection: Blue|LEA
-1 Circle of Protection: Green|LEA
-1 Circle of Protection: Red|LEA
-1 Circle of Protection: White|LEA
+1 Circle of Protection: Black|TMP|[8]
+1 Circle of Protection: Blue|TMP|[9]
+1 Circle of Protection: Green|TMP|[10]
+1 Circle of Protection: Red|TMP|[11]
+1 Circle of Protection: White|TMP|[13]
 1 Brass Man|ARN
 1 Clockwork Avian|ATQ
-1 Clockwork Beast|LEA
+1 Clockwork Beast|LEB|[237]
 1 Colossus of Sardia|ATQ
 1 Dancing Scimitar|ARN
 1 Diabolic Machine|DRK
-1 Elvish Archers|LEA
-1 Howl From Beyond|LEA
+1 Elvish Archers|LEB|[192]
+1 Howl From Beyond|ICE|[132]
 1 Erg Raiders|ARN
 1 Grapeshot Catapult|ATQ
-1 Lightning Bolt|LEA
-1 The Hive|LEA
-1 Mesa Pegasus|LEA
-1 Obsianus Golem|LEA
+1 Lightning Bolt|LEB|[162]
+1 The Hive|LEB|[273]
+1 Mesa Pegasus|LEB|[29]
+1 Obsianus Golem|LEB|[268]
 1 Aswan Jaguar|PAST
 1 Whimsy|PAST
 1 Rocket Launcher|ATQ
 1 Shapeshifter|ATQ
 1 Tetravus|ATQ
-1 Triskelion|ATQ
+1 Triskelion|DMR|[389]
 1 Clay Statue|ATQ
 1 Urza's Avenger|ATQ
 1 Wall of Dust|LEG
-1 Will-o'-the-Wisp|LEA
+1 Will-o'-the-Wisp|LEB|[136]
 1 Zephyr Falcon|LEG 
-1 Ancestral Recall|LEA
-1 Berserk|LEA
-1 Braingeyser|LEA
-1 Desert Twister|ARN
-1 Disintegrate|LEA
-1 Animate Dead|LEA
-1 Mind Twist|LEA
-1 Regrowth|LEA
-1 Time Walk|LEA
-1 Timetwister|LEA
-1 Wheel of Fortune|LEA
-1 Power Sink|LEA
+1 Ancestral Recall|LEB|[48]
+1 Berserk|LEB|[186]
+1 Braingeyser|LEB|[51]
+1 Desert Twister|MMQ|[243]
+1 Disintegrate|LEB|[141]
+1 Animate Dead|LEB|[93]
+1 Mind Twist|LEB|[116]
+1 Regrowth|LEB|[215]
+1 Time Walk|LEB|[84]
+1 Timetwister|LEB|[85]
+1 Wheel of Fortune|LEB|[184]
+1 Power Sink|USG|[89]
 1 Pyrotechnics|LEG
-1 Raise Dead|LEA
+1 Raise Dead|PO2|[86]
 1 Aladdin's Ring|ARN
-1 Juggernaut|LEA
-1 Rock Hydra|LEA
+1 Juggernaut|DMR|[382]
+1 Rock Hydra|LEB|[172]
 1 Yotian Soldier|ATQ
-1 Earthquake|LEA
-1 Fireball|LEA
-1 Hurricane|LEA
-1 Disenchant|LEA
-1 Siren's Call|LEA
-1 Howling Mine|LEA
+1 Earthquake|PO2|[94]
+1 Fireball|LEB|[150]
+1 Hurricane|PO2|[129]
+1 Disenchant|MMQ|[18]
+1 Siren's Call|LEB|[78]
+1 Howling Mine|LEB|[248]

@@ -1,92 +1,92 @@
 [metadata]
 Name=Atraxa
 [Commander]
-1 Atraxa, Praetors' Voice|c16
+1 Atraxa, Praetors' Voice|2XM|[190]
 [Main]
-1 Ajani Steadfast|m15
-1 Ajani Unyielding|aer
+1 Ajani Steadfast|PIO|[319]
+1 Ajani Unyielding|NCC|[324]
 1 Arcane Denial|all
-1 Arcane Sanctum|mm3
-1 Astral Cornucopia|bng
+1 Arcane Sanctum|TRC|[513]
+1 Astral Cornucopia|TRC|[338]
 1 Bioessence Hydra|war
 1 Carth the Lion|mh2
-1 Command Tower|khc
-1 Counterspell|mmq
-1 Deepglow Skate|c16
-1 Doubling Season|mma
+1 Command Tower|TRC|[521]
+1 Counterspell|DMR|[281]
+1 Deepglow Skate|EOC|[70]
+1 Doubling Season|FDN|[216]
 1 Elspeth, Knight-Errant|md1
-1 Elspeth, Sun's Champion|ths
-1 Empowered Autogenerator|c19
-1 Everflowing Chalice|wwk
-1 Evolution Sage|war
-1 Path of Ancestry|lcc
-1 Exotic Orchard|c20
+1 Elspeth, Sun's Champion|FRC|[24]
+1 Empowered Autogenerator|EOC|[135]
+1 Everflowing Chalice|TSR|[394]
+1 Evolution Sage|ECC|[105]
+1 Path of Ancestry|TRC|[545]
+1 Exotic Orchard|TRC|[378]
 1 Flux Channeler|war
-4 Forest|nph
-1 Garruk, Apex Predator|m15
-1 Glacial Fortress|xln
-1 Hallowed Fountain|rtr
-1 Heroic Intervention|aer
+4 Forest|INR|[296]
+1 Garruk, Apex Predator|PIO|[225]
+1 Glacial Fortress|TRC|[385]
+1 Hallowed Fountain|RVR|[404]
+1 Heroic Intervention|CMM|[295]
 1 Hickory Woodlot|mmq
 1 Ichormoon Gauntlet|one
-1 Inexorable Tide|som
+1 Inexorable Tide|MM2|[49]
 1 Innkeeper's Talent|blb
-4 Island|nph
-1 Jace, Architect of Thought|ddm
+4 Island|INR|[290]
+1 Jace, Architect of Thought|PIO|[329]
 1 Kamahl's Druidic Vow|dom
-1 Karn's Bastion|war
+1 Karn's Bastion|RVR|[464]
 1 Karn's Temporal Sundering|dom
 1 Atraxa, Grand Unifier|one
-1 Lightning Greaves|2xm
+1 Lightning Greaves|TRC|[496]
 1 The Aetherspark|dft
-1 Liliana, Dreadhorde General|war
-1 Moment's Peace|td0
+1 Liliana, Dreadhorde General|FDN|[176]
+1 Moment's Peace|ODY|[251]
 1 Vronos, Masked Inquisitor|CMM
 1 Oath of Teferi|dom
 1 Peat Bog|mmq
 1 Pir, Imaginative Rascal|bbd
-4 Plains|nph
+4 Plains|INR|[288]
 1 Planewide Celebration|war
-1 Primevals' Glorious Rebirth|dom
+1 Primevals' Glorious Rebirth|DMC|[165]
 1 Remote Farm|mmq
-1 Triumph of the Hordes|nph
-1 Ripples of Potential|lcc
-1 Roalesk, Apex Hybrid|war
-1 Sandsteppe Citadel|c20
+1 Triumph of the Hordes|TD2|[78]
+1 Ripples of Potential|EOC|[77]
+1 Roalesk, Apex Hybrid|NCC|[349]
+1 Sandsteppe Citadel|ECC|[164]
 1 Saprazzan Skerry|mmq
-1 Seaside Citadel|c18
-1 Slaughter the Strong|rix
-1 Sol Ring|3ed
+1 Seaside Citadel|ECC|[166]
+1 Slaughter the Strong|TDC|[131]
+1 Sol Ring|LEB|[270]
 1 Sorin, Grim Nemesis|soi
 1 Sorin, Solemn Visitor|ktk
-1 Spark Double|war
-4 Swamp|nph
-1 Sylvan Reclamation|znc
-1 Tamiyo, Field Researcher|emn
-1 Teferi, Temporal Archmage|c14
-1 Tekuthal, Inquiry Dominus|one
-1 Temple Garden|rtr
-1 Tezzeret's Gambit|c19
-1 The Chain Veil|m15
+1 Spark Double|RVR|[319]
+4 Swamp|INR|[292]
+1 Sylvan Reclamation|SCD|[248]
+1 Tamiyo, Field Researcher|INR|[249]
+1 Teferi, Temporal Archmage|CMM|[125]
+1 Tekuthal, Inquiry Dominus|EOC|[78]
+1 Temple Garden|RVR|[414]
+1 Tezzeret's Gambit|EOC|[47]
+1 The Chain Veil|PIO|[358]
 1 The Eternal Wanderer|one
-1 Tundra|vma
-1 underground Sea|vma
-1 Bayou|vma
-1 Scrubland|vma
+1 Tundra|LEB|[285]
+1 underground Sea|LEB|[286]
+1 Bayou|LEB|[279]
+1 Scrubland|LEB|[282]
 1 Toothy, Imaginary Friend|bbd
 1 Urza Assembles the Titans|dmu
-1 Urza's Ruinous Blast|dom
-1 Venser, the Sojourner|som
-1 Windswept Heath|ktk
-1 Flooded Strand|ktk
-1 Misty Rainforest|zen
-1 Marsh Flats|zen
+1 Urza's Ruinous Blast|BRC|[79]
+1 Venser, the Sojourner|DDI|[1]
+1 Windswept Heath|MH3|[440]
+1 Flooded Strand|MH3|[436]
+1 Misty Rainforest|MH2|[438]
+1 Marsh Flats|MH2|[437]
 1 Vraska, Relic Seeker|xln
-1 Zendikar Resurgent|ogw
+1 Zendikar Resurgent|C17|[160]
 1 Ajani, Sleeper Agent|dmu
 1 Ugin, the spirit dragon|m21
-1 Vraska, Betrayal's Sting|one
+1 Vraska, Betrayal's Sting|ECC|[88]
 1 Oko, thief of crowns|eld
-1 Teferi's Protection|sta
+1 Teferi's Protection|2X2|[32]
 1 Vorinclex, Monstrous Raider|khm
-1 Toxrill, the Corrosive|vow
+1 Toxrill, the Corrosive|DBL|[399]

@@ -1,8 +1,8 @@
 [metadata]
 Name=Fallen Angel - Aristocrats
 [Main]
-24 Swamp|6ED
-4 Fallen Angel|6ED
+24 Swamp|INR|[292]
+4 Fallen Angel|LEG|[97]
 2 Black Market|MMQ
 2 Grave Pact|STH
 4 Sengir Autocrat|HML
@@ -13,7 +13,7 @@ Name=Fallen Angel - Aristocrats
 4 Rotlung Reanimator|ONS
 4 Doomed Necromancer|ONS
 4 Priest of Gix|USG
-4 Will-o'-the-Wisp|LEA
+4 Will-o'-the-Wisp|LEB|[136]
 
 [StartInBattle_Reference]
 1 Discordant Dirge|USG

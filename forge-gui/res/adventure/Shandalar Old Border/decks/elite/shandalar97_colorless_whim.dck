@@ -1,25 +1,25 @@
 [metadata]
 Name=Whim of Shandalar
 [Main]
-4 Clone|LEA
-4 Royal Assassin|LEA
-4 Serra Angel|LEA
+4 Clone|ONS|[75]
+4 Royal Assassin|DMR|[310]
+4 Serra Angel|DMR|[271]
 4 Yotian Soldier|ATQ
-4 Power Sink|LEA
-4 Twiddle|LEA
+4 Power Sink|USG|[89]
+4 Twiddle|LEB|[86]
 1 Whimsy|PAST
-4 Icy Manipulator|LEA
-2 Meekstone|LEA
+4 Icy Manipulator|DMR|[380]
+2 Meekstone|LEB|[261]
 2 Haunting Wind|ATQ
 2 Kismet|LEG
-4 Psychic Venom|LEA
-2 Plains|LEA
-2 Island|LEA
-2 Swamp|LEA
+4 Psychic Venom|LEB|[76]
+2 Plains|INR|[288]
+2 Island|INR|[290]
+2 Swamp|INR|[292]
 4 City of Brass|ARN
-4 Scrubland|LEA
-4 Tundra|LEA
-4 Underground Sea|LEA
+4 Scrubland|LEB|[282]
+4 Tundra|LEB|[285]
+4 Underground Sea|LEB|[286]
 
 [StartInBattle_Reference]
 1 City of Brass|ARN

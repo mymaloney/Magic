@@ -1,26 +1,26 @@
 [metadata]
 Name=WC02 Sim Han How - Squirrel Opposition
 [Main]
-4 Birds of Paradise|LEB
-3 Flametongue Kavu|PLS
+4 Birds of Paradise|RVR|[344]
+3 Flametongue Kavu|DMR|[320]
 3 Llanowar Elves|LEB
 4 Merfolk Looter|EXO
 3 Phantom Centaur|JUD
 4 Wild Mongrel|ODY
-4 Opposition|UDS
-3 Squirrel Nest|ODY
+4 Opposition|DMR|[290]
+3 Squirrel Nest|DMR|[349]
 4 Circular Logic|TOR
 3 Fire // Ice|APC
 3 Deep Analysis|TOR
-8 Forest|ODY
-5 Island|ODY
+8 Forest|INR|[296]
+5 Island|INR|[290]
 3 Karplusan Forest|ICE
 2 Shivan Reef|APC
 4 Yavimaya Coast|APC
 [Sideboard]
-1 Flametongue Kavu|PLS
+1 Flametongue Kavu|DMR|[320]
 3 Gainsay|PLS
 3 Quiet Speculation|JUD
 2 Ray of Revelation|JUD
 4 Roar of the Wurm|ODY
-2 Simoon|VIS
+2 Simoon|INV|[272]

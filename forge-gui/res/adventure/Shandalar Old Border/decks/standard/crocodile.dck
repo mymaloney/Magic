@@ -1,14 +1,14 @@
 [metadata]
 Name=crocodile
 [Main]
-13 Forest|4ED
-2 Carnivorous Plant|4ED
-2 Fog|4ED
-2 Vampiric Tutor|VIS
-3 Swamp|4ED
-4 Craw Wurm|4ED
+13 Forest|INR|[296]
+2 Carnivorous Plant|DRK|[75]
+2 Fog|MIR|[216]
+2 Vampiric Tutor|DMR|[314]
+3 Swamp|INR|[292]
+4 Craw Wurm|LEB|[191]
 4 Hymn to Tourach|FEM
-4 Llanowar Elves|BTD
+4 Llanowar Elves|LEB|[211]
 4 Llanowar Wastes|APC
 4 Quirion Ranger|VIS
 4 Survival of the Fittest|EXO

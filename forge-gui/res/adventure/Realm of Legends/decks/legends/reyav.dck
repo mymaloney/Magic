@@ -5,81 +5,81 @@ Name=Reyav, Master Smith
 [Main]
 1 Ajani's Presence|JOU
 1 Akiri, Fearless Voyager|CMM
-1 Arcane Signet|EOC
-1 Timely Ward|CMR
+1 Arcane Signet|TRC|[485]
+1 Timely Ward|DSC|[107]
 1 Slash the Ranks|CMR
-1 Fencing Ace|CMR
-1 Armored Skyhunter|CMR
+1 Fencing Ace|J25|[199]
+1 Armored Skyhunter|SOC|[138]
 1 Avacynian Missionaries|SOI
 1 Beamtown Beatstick|MOM
 1 Bearded Axe|KHM
-1 Blackblade Reforged|NEC
+1 Blackblade Reforged|DMC|[178]
 1 Blacksmith's Skill|MH2
-1 Boros Garrison|C19
-1 Boros Guildgate|GRN
-1 Cave of Temptation|MH1
+1 Boros Garrison|CLU|[231]
+1 Boros Guildgate|RVR|[398]
+1 Cave of Temptation|J25|[763]
 1 Chainsaw|DSK
 1 Champion of the Flame|CMM
 1 Chitinous Cloak|OGW
 1 Citizen's Crowbar|SNC
-1 Colossus Hammer|AFC
-1 Command Tower|TDC
-1 Darksteel Plate|2X2
+1 Colossus Hammer|LCC|[110]
+1 Command Tower|TRC|[521]
+1 Darksteel Plate|TRC|[341]
 1 Diamond Pick-Axe|LCI
-1 Disenchant|3ED
-1 Esper Sentinel|MH2
-1 Evolving Wilds|DDO
-1 Fabled Passage|ELD
-1 Flame Slash|ROE
-1 Furycalm Snarl|MKC
-1 Galvanic Blast|SOM
+1 Disenchant|MMQ|[18]
+1 Esper Sentinel|H2R|[2]
+1 Evolving Wilds|TRC|[527]
+1 Fabled Passage|TRC|[379]
+1 Flame Slash|CN2|[157]
+1 Furycalm Snarl|TRC|[384]
+1 Galvanic Blast|2XM|[125]
 1 Gate Smasher|DTK
 1 Goblin Gaveleer|2XM
-1 Gods Willing|THS
+1 Gods Willing|CLU|[63]
 1 Goldvein Pick|FDN
-1 Haunted Cloak|SOI
-1 Hero's Blade|CMR
+1 Haunted Cloak|CMM|[389]
+1 Hero's Blade|CMM|[391]
 1 Inquisitor's Flail|ISD
-1 Inspiring Vantage|KLD
-1 Ironclad Slayer|EMN
+1 Inspiring Vantage|OTJ|[269]
+1 Ironclad Slayer|CMR|[376]
 1 Koll, the Forgemaster|KHM
 1 Komainu Battle Armor|NEC
-1 Land Tax|CMM
+1 Land Tax|LEG|[26]
 1 Lavaspur Boots|OTJ
-1 Lightning Greaves|TDC
+1 Lightning Greaves|TRC|[496]
 1 Mask of Memory|ONC
-1 Militant Inquisitor|SOI
-10 Mountain|CMR
-1 Myriad Landscape|MKC
-1 Nettlecyst|MKC
-1 Open the Armory|SOI
+1 Militant Inquisitor|J25|[226]
+10 Mountain|INR|[294]
+1 Myriad Landscape|EOC|[169]
+1 Nettlecyst|FDC|[275]
+1 Open the Armory|PIO|[360]
 1 Oxidda Finisher|ONE
-1 Pacifism|DTK
-1 Painted Bluffs|AKH
-11 Plains|CMR
+1 Pacifism|ONS|[47]
+1 Painted Bluffs|OTC|[309]
+11 Plains|INR|[288]
 1 Plate Armor|J25
 1 Prying Blade|XLN
 1 Puresteel Paladin|CMM
 1 Rebel Salvo|ONE
 1 Rogue's Gloves|JMP
-1 Rummaging Goblin|XLN
-1 Rustvale Bridge|MH2
-1 Sacred Peaks|MKC
+1 Rummaging Goblin|J22|[591]
+1 Rustvale Bridge|EOC|[175]
+1 Sacred Peaks|SOC|[402]
 1 Sigarda's Aid|CMR
-1 Sol Ring|EOC
-1 Soul of New Phyrexia|CMM
-1 Sram, Senior Edificer|NEC
-1 Stasis Snare|BFZ
+1 Sol Ring|LEB|[270]
+1 Soul of New Phyrexia|MOC|[382]
+1 Sram, Senior Edificer|TSR|[303]
+1 Stasis Snare|PIO|[37]
 1 Stone Haven Outfitter|J25
-1 Stone Quarry|SOI
-1 Swiftfoot Boots|TDC
+1 Stone Quarry|CMR|[495]
+1 Swiftfoot Boots|TRC|[501]
 1 Sword of Hearth and Home|MH2
 1 Sword of the Animist|CMM
-1 Talisman of Conviction|TDC
-1 Temple of Triumph|TDC
-1 Terramorphic Expanse|M11
+1 Talisman of Conviction|TRC|[503]
+1 Temple of Triumph|SOC|[417]
+1 Terramorphic Expanse|TRC|[571]
 1 Thran Power Suit|BRO
-1 Thriving Heath|J22
-1 Unknown Shores|OGW
+1 Thriving Heath|ECC|[172]
+1 Unknown Shores|THB|[249]
 1 Wild Guess|M14
 1 Zephyr Boots|STX

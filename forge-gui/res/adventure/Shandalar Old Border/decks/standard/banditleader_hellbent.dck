@@ -1,13 +1,13 @@
 [metadata]
 Name=Diablo 3
 [Main]
-10 Swamp|INV
+10 Swamp|INR|[292]
 4 Blazing Specter|INV
 4 Darigaaz's Caldera|PLS
 4 Ghitu Fire|INV
 4 Nightscape Familiar|PLS
 4 Plague Spitter|INV
-4 Pyre Zombie|INV
+4 Pyre Zombie|DMR|[362]
 4 Shivan Oasis|INV
 4 Shivan Zombie|INV
 4 Sulfur Vent|INV
@@ -16,4 +16,4 @@ Name=Diablo 3
 4 Urborg Volcano|INV
 4 Urza's Rage|INV
 4 Void|INV
-9 Mountain|INV
+9 Mountain|INR|[294]

@@ -1,11 +1,11 @@
 [metadata]
 Name=Da Vinci 1
 [Main]
-23 Swamp|USG|3
+23 Swamp|INR|[292]
 3 Hymn to Tourach|FEM
-3 Nantuko Shade|TOR
+3 Nantuko Shade|DMR|[306]
 3 Phyrexian Arena|APC
-4 Bad Moon|LEA
+4 Bad Moon|LEB|[94]
 4 Black Knight|LEB
 4 Corrupt|USG
 4 Dauthi Slayer|TMP
@@ -14,4 +14,4 @@ Name=Da Vinci 1
 4 Plaguebearer|EXO
 
 [StartInBattle_Reference]
-1 Wall of Bone|LEA
+1 Wall of Bone|LEB|[133]

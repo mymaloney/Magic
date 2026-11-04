@@ -5,81 +5,81 @@ Name=Neyali, Suns' Vanguard
 [Main]
 1 Elspeth Tirel|ONC|1
 1 Adriana, Captain of the Guard|ONC|1
-1 Dragonmaster Outcast|ONC|1
-1 Emeria Angel|ONC|1
-1 Goldnight Commander|ONC|1
+1 Dragonmaster Outcast|TDC|[211]
+1 Emeria Angel|TDC|[114]
+1 Goldnight Commander|TDC|[117]
 1 Harmonious Archon|ONC|1
 1 Jor Kadeen, the Prevailer|ONC|1
-1 Legion Warboss|ONC|1
-1 Loyal Apprentice|ONC|1
-1 Mentor of the Meek|ONC|1
-1 Myr Battlesphere|ONC|1
+1 Legion Warboss|RVR|[337]
+1 Loyal Apprentice|TDC|[222]
+1 Mentor of the Meek|INR|[345]
+1 Myr Battlesphere|TDC|[322]
 1 Otharri, Suns' Glory|ONC|1
 1 Phantom General|ONC|1
 1 Prava of the Steel Legion|ONC|1
-1 Siege-Gang Commander|ONC|1
-1 Silverwing Squadron|ONC|1
-1 Solemn Simulacrum|ONC|1
-1 Boros Charm|ONC|1
+1 Siege-Gang Commander|DMR|[330]
+1 Silverwing Squadron|MOC|[207]
+1 Solemn Simulacrum|TSR|[400]
+1 Boros Charm|FDN|[721]
 1 Call the Coppercoats|ONC|1
 1 Clever Concealment|ONC|1
-1 Flawless Maneuver|ONC|1
-1 Generous Gift|ONC|1
+1 Flawless Maneuver|FRC|[25]
+1 Generous Gift|BLC|[106]
 1 Midnight Haunting|ONC|1
-1 Path to Exile|ONC|1
+1 Path to Exile|TSR|[299]
 1 White Sun's Zenith|ONC|1
-1 Battle Screech|ONC|1
-1 Chain Reaction|ONC|1
+1 Battle Screech|JUD|[3]
+1 Chain Reaction|TRC|[280]
 1 Collective Effort|ONC|1
-1 Cut a Deal|ONC|1
-1 Finale of Glory|ONC|1
+1 Cut a Deal|FDC|[22]
+1 Finale of Glory|CLU|[61]
 1 Goldwardens' Gambit|ONC|1
 1 Hate Mirage|ONC|1
-1 Heroic Reinforcements|ONC|1
+1 Heroic Reinforcements|FDN|[241]
 1 Hordeling Outburst|ONC|1
-1 Hour of Reckoning|ONC|1
+1 Hour of Reckoning|TDC|[120]
 1 Increasing Devotion|ONC|1
-1 Martial Coup|ONC|1
-1 Rip Apart|ONC|1
-1 Assemble the Legion|ONC|1
-1 Court of Grace|ONC|1
-1 Felidar Retreat|ONC|1
-1 Intangible Virtue|ONC|1
+1 Martial Coup|FRC|[28]
+1 Rip Apart|SOC|[328]
+1 Assemble the Legion|PIO|[204]
+1 Court of Grace|FDC|[21]
+1 Felidar Retreat|FDN|[574]
+1 Intangible Virtue|TSR|[295]
 1 Roar of Resistance|ONC|1
-1 Arcane Signet|ONC|1
+1 Arcane Signet|TRC|[485]
 1 Liquimetal Torque|MH2
-1 Commander's Sphere|ONC|1
-1 Fellwar Stone|ONC|1
+1 Commander's Sphere|TRC|[487]
+1 Fellwar Stone|DRK|[102]
 1 Glimmer Lens|ONC|1
 1 Hexplate Wallbreaker|ONC|1
-1 Idol of Oblivion|ONC|1
+1 Idol of Oblivion|TDC|[319]
 1 Kemba's Banner|ONC|1
 1 Loxodon Warhammer|ONC|1
-1 Mace of the Valiant|ONC|1
+1 Mace of the Valiant|J25|[221]
 1 Mask of Memory|ONC|1
-1 Maul of the Skyclaves|ONC|1
-1 Mind Stone|ONC|1
-1 Sol Ring|ONC|1
-1 Soul-Guide Lantern|ONC|1
-1 Staff of the Storyteller|ONC|1
-1 Talisman of Conviction|ONC|1
+1 Maul of the Skyclaves|J25|[223]
+1 Mind Stone|DMR|[385]
+1 Sol Ring|LEB|[270]
+1 Soul-Guide Lantern|EOC|[143]
+1 Staff of the Storyteller|FRC|[34]
+1 Talisman of Conviction|TRC|[503]
 1 Vulshok Factory|ONC|1
-1 Boros Garrison|ONC|1
-1 Buried Ruin|ONC|1
-1 Castle Ardenvale|ONC|1
-1 Castle Embereth|ONC|1
-1 Command Tower|ONC|1
-1 Exotic Orchard|ONC|1
-1 Forgotten Cave|ONC|1
-1 Furycalm Snarl|ONC|1
-1 Kher Keep|ONC|1
-1 Myriad Landscape|ONC|1
-1 Path of Ancestry|ONC|1
-1 Secluded Steppe|ONC|1
-1 Slayers' Stronghold|ONC|1
-1 Temple of Triumph|ONC|1
-1 Temple of the False God|ONC|1
-1 Windbrisk Heights|ONC|1
-11 Plains|ONC|1
-11 Mountain|ONC|1
+1 Boros Garrison|CLU|[231]
+1 Buried Ruin|EOC|[150]
+1 Castle Ardenvale|TDC|[346]
+1 Castle Embereth|TDC|[347]
+1 Command Tower|TRC|[521]
+1 Exotic Orchard|TRC|[378]
+1 Forgotten Cave|ONS|[317]
+1 Furycalm Snarl|TRC|[384]
+1 Kher Keep|FRC|[75]
+1 Myriad Landscape|EOC|[169]
+1 Path of Ancestry|TRC|[545]
+1 Secluded Steppe|ONS|[324]
+1 Slayers' Stronghold|MKC|[295]
+1 Temple of Triumph|SOC|[417]
+1 Temple of the False God|SCG|[143]
+1 Windbrisk Heights|TDC|[411]
+11 Plains|INR|[288]
+11 Mountain|INR|[294]
 [Sideboard]

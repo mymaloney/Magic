@@ -1,72 +1,72 @@
 [metadata]
 Name=Teshar, Ancestor's Apostle
 [Commander]
-1 Teshar, Ancestor's Apostle|DOM
+1 Teshar, Ancestor's Apostle|SOC|[180]
 [Main]
-1 Auramancer|A25
+1 Auramancer|ODY|[5]
 1 Aviary Mechanic|KLD
 1 Board the Weatherlight|DOM
 1 Bounty Agent|C20
-1 Buried Ruin|JMP
-1 Burnished Hart|C14
-1 Carnage Altar|ZEN
-1 Castle Ardenvale|ELD
-1 Cathodion|MM2
-1 Citywide Bust|GRN
+1 Buried Ruin|EOC|[150]
+1 Burnished Hart|FDN|[250]
+1 Carnage Altar|C13|[238]
+1 Castle Ardenvale|TDC|[346]
+1 Cathodion|USG|[287]
+1 Citywide Bust|SCD|[11]
 1 Culling Dais|2XM
 1 Dauntless Bodyguard|DOM
-1 Dusk|C19
-1 Elixir of Immortality|M11
-1 Enduring Renewal|TSB
+1 Dusk|DRC|[65]
+1 Elixir of Immortality|C21|[243]
+1 Enduring Renewal|ICE|[23]
 1 Excavated Wall|STX
-1 Fiend Hunter|UMA
-1 Filigree Familiar|KLD
-1 Forbidding Spirit|RNA
-1 Foundry Inspector|KLD
-1 Gate to the Afterlife|AKH
+1 Fiend Hunter|INR|[340]
+1 Filigree Familiar|CMR|[308]
+1 Forbidding Spirit|GN3|[10]
+1 Foundry Inspector|FDC|[259]
+1 Gate to the Afterlife|DRC|[130]
 1 Glint Hawk|SOM
-1 High Market|2XM
-1 Jhoira's Familiar|DOM
+1 High Market|MMQ|[320]
+1 Jhoira's Familiar|2XM|[265]
 1 Junk Diver|UDS
 1 Kami of False Hope|BOK
-1 Knight of the White Orchid|C20
-1 Kor Skyfisher|ZEN
-1 Land Tax|BBD
-1 Lightning Greaves|C20
-1 Losheel, Clockwork Scholar|C21
+1 Knight of the White Orchid|PIO|[21]
+1 Kor Skyfisher|MM3|[11]
+1 Land Tax|LEG|[26]
+1 Lightning Greaves|TRC|[496]
+1 Losheel, Clockwork Scholar|CMM|[38]
 1 Loyal Warhound|BLC
-1 Mangara of Corondor|BBD
-1 Mentor of the Meek|JMP
-1 Militia Bugler|M19
+1 Mangara of Corondor|TSR|[27]
+1 Mentor of the Meek|INR|[345]
+1 Militia Bugler|2X2|[19]
 1 Millikin|ODY
-1 Mind Stone|C21
+1 Mind Stone|DMR|[385]
 1 Monoskelion|MH2
 1 Myr Moonvessel|DST
-1 Myr Retriever|2XM
-1 Ornithopter|AER
-1 Perilous Myr|JMP
-1 Phyrexia's Core|C14
-1 Pilgrim's Eye|BFZ
-33 Plains|THB
-1 Inspiring Overseer|FDN
+1 Myr Retriever|FDC|[274]
+1 Ornithopter|DMR|[386]
+1 Perilous Myr|CMR|[330]
+1 Phyrexia's Core|C21|[309]
+1 Pilgrim's Eye|PIO|[257]
+33 Plains|INR|[288]
+1 Inspiring Overseer|FDC|[35]
 1 Relic Vial|ZNR
 1 Salvager of Ruin|M20
-1 Scrap Trawler|AER
-1 Shimmer Myr|C16
-1 Silverchase Fox|ISD
-1 Skullclamp|C20
-1 Skyscanner|M19
-1 Sol Ring|C20
-1 Suture Priest|NPH
-1 Swiftfoot Boots|C20
-1 Swords to Plowshares|BBD
-1 Temple of the False God|C20
-1 Tormod's Crypt|C14
+1 Scrap Trawler|MOC|[373]
+1 Shimmer Myr|FDC|[283]
+1 Silverchase Fox|BBD|[106]
+1 Skullclamp|TRC|[354]
+1 Skyscanner|SCD|[274]
+1 Sol Ring|LEB|[270]
+1 Suture Priest|MOC|[210]
+1 Swiftfoot Boots|TRC|[501]
+1 Swords to Plowshares|DMR|[275]
+1 Temple of the False God|SCG|[143]
+1 Tormod's Crypt|DMR|[388]
 1 Tormod's Cryptkeeper|MH2
-1 Trusty Packbeast|M19
-1 Ugin, the Ineffable|WAR
-1 Unwinding Clock|NPH
+1 Trusty Packbeast|CMR|[53]
+1 Ugin, the Ineffable|M3C|[160]
+1 Unwinding Clock|TRC|[359]
 1 Vesperlark|MH1
 1 Wand of Vertebrae|GRN
-1 Wayfarer's Bauble|C17
+1 Wayfarer's Bauble|TRC|[511]
 1 Witch's Oven|ELD

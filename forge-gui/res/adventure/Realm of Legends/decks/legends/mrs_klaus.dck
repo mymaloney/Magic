@@ -3,50 +3,50 @@ Name=Mrs. Klaus
 [Commander]
 1 Meria, Scholar of Antiquity|dmu
 [Main]
-1 Abrade|inr
+1 Abrade|TRC|[449]
 1 Battered Golem|5dn
-1 Blasphemous Act|drc
-1 Brainstone|dsc
-1 Command Tower|blc
-1 Chaos Warp|drc
+1 Blasphemous Act|SOC|[238]
+1 Brainstone|MH2|[426]
+1 Command Tower|TRC|[521]
+1 Chaos Warp|MBC|[72]
 1 Chiss-Goria, Forge Tyrant|onc
-1 Cinder Glade|blc
+1 Cinder Glade|ECC|[146]
 1 Collective Defiance|inr
-1 Combustible Gearhulk|kld
-1 Daretti, Scrap Savant|c16
-1 Darksteel Citadel|c16
+1 Combustible Gearhulk|DRC|[102]
+1 Daretti, Scrap Savant|CMM|[213]
+1 Darksteel Citadel|FDC|[300]
 1 Darksteel Relic|nph
 1 Demand Answers|mkm
-1 Eternal Witness|scd
-1 Everflowing Chalice|wwk
-1 Faithless Looting|inr
-13 Snow-Covered Forest|khm
-1 Foundry Inspector|cmm
-1 Frogmite|mrd
+1 Eternal Witness|TSR|[361]
+1 Everflowing Chalice|TSR|[394]
+1 Faithless Looting|SOC|[244]
+13 Snow-Covered Forest|ICE|[383]
+1 Foundry Inspector|FDC|[259]
+1 Frogmite|MM2|[215]
 1 Frogmyr Enforcer|mh3
 1 Furnace Hellkite|mh3
-1 Galvanic Blast|spg
+1 Galvanic Blast|2XM|[125]
 1 Genesis Wave|fdn
-1 Hangarback Walker|eoc
-1 Harmonize|dsc
+1 Hangarback Walker|SOC|[348]
+1 Harmonize|ECC|[111]
 1 Hellkite Igniter|moc
-1 Ichor Wellspring|brr
-1 Jaya's Immolating Inferno|dom
-1 Junk Diver|mh3
+1 Ichor Wellspring|FDC|[265]
+1 Jaya's Immolating Inferno|CMR|[415]
+1 Junk Diver|UDS|[132]
 1 Lodestone Golem|mm2
-1 Metalwork Colossus|cmm
-1 Meteor Golem|cmm
-1 Mishra's Bauble|plst
+1 Metalwork Colossus|BRC|[147]
+1 Meteor Golem|FDN|[256]
+1 Mishra's Bauble|2XM|[274]
 1 Mishra's Research Desk|bro
-15 Snow-Covered Mountain|khm
-1 Highland Forest|khm
+15 Snow-Covered Mountain|ICE|[379]
+1 Highland Forest|CLB|[896]
 1 Highland weald|csp
 1 Myr Enforcer|j25
-1 Myr Retriever|2xm
-1 Mystic Forge|brr
+1 Myr Retriever|FDC|[274]
+1 Mystic Forge|M3C|[302]
 1 Ornithopter|dmr
-1 Patchwork Automaton|neo
-1 Perpetual Timepiece|kld
+1 Patchwork Automaton|J25|[757]
+1 Perpetual Timepiece|SOC|[354]
 1 Phyrexian Walker|vis
 1 Pia's Revolution|aer
 1 Reckless Fireweaver|drc
@@ -61,18 +61,18 @@ Name=Mrs. Klaus
 1 Sculpting Steel|moc
 1 Slagwoods Bridge|drc
 1 Sojourner's Companion|mh2
-1 Solemn Simulacrum|drc
-1 Soul-Guide Lantern|drc
+1 Solemn Simulacrum|TSR|[400]
+1 Soul-Guide Lantern|EOC|[143]
 1 Spectrum Sentinel|bro
-1 Steel Hellkite|cmm
+1 Steel Hellkite|TDC|[327]
 1 Stump Stomp|mh3
 1 Tormod's Crypt|dmr
 1 Traxos, Scourge of Kroog|brc
-1 Tree of Tales|mrd
-1 Verdurous Gearhulk|kld
+1 Tree of Tales|DSC|[319]
+1 Verdurous Gearhulk|MIC|[145]
 1 Volatile Wanderglyph|lci
 1 Welding Jar|2xm
 1 Guff Rewrites History|cmm
 1 Woodcaller Automaton|bro
 1 Workshop Assistant|cmr
-1 Wurmcoil Engine|brr
+1 Wurmcoil Engine|2XM|[308]

@@ -1,17 +1,17 @@
 [metadata]
 Name=sandwurm
 [Main]
-4 Beneath the Sands|PLST|1
+4 Beneath the Sands|HOU|[111]
 4 Dirtcowl Wurm|TMP|1
-7 Forest|IKO|1
-8 Forest|IKO|2
-9 Forest|IKO|3
+7 Forest|INR|[296]
+8 Forest|INR|[296]
+9 Forest|INR|[296]
 4 Greater Sandwurm|IKO|1
-4 Rampant Growth|NCC|1
-4 Roar of the Wurm|DDS|1
-4 Sandwurm Convergence|CLB|1
-4 Spined Wurm|S00|1
-4 Symbiotic Wurm|VMA|1
+4 Rampant Growth|TMP|[245]
+4 Roar of the Wurm|ODY|[266]
+4 Sandwurm Convergence|DSC|[195]
+4 Spined Wurm|STH|[121]
+4 Symbiotic Wurm|ONS|[289]
 4 Teething Wurmlet|BRO|1
 [Sideboard]
 [Schemes]

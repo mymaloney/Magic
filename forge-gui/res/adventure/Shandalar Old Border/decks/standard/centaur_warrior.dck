@@ -2,17 +2,17 @@
 Name=centaur_warrior
 [Main]
 2 Centaur Veteran|TOR
-2 Mountain|4ED|2
-21 Forest|4ED|2
+2 Mountain|INR|[294]
+21 Forest|INR|[296]
 3 Fertile Ground|INV
-3 Squirrel Nest|ODY
+3 Squirrel Nest|DMR|[349]
 3 Still Life|ODY
 4 Centaur Chieftain|TOR
 4 Elvish Piper|UDS
-4 Giant Growth|4ED
+4 Giant Growth|ICE|[246]
 4 Karplusan Forest|ICE
-4 Lightning Bolt|4ED
-4 Llanowar Elves|4ED
+4 Lightning Bolt|LEB|[162]
+4 Llanowar Elves|LEB|[211]
 4 Seton's Scout|TOR
 4 Wild Mongrel|ODY
-4 Wood Elves|POR
+4 Wood Elves|EXO|[130]

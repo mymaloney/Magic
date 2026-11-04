@@ -1,100 +1,100 @@
 [metadata]
 Name=Animar
 [Commander]
-1 Animar, Soul of Elements|cmd
+1 Animar, Soul of Elements|2X2|[171]
 [Main]
-1 Alchemist's Refuge|avr
+1 Alchemist's Refuge|SOC|[360]
 1 Wandering Archaic|stx
 1 Archetype of Imagination|dsc
-1 Ruric Thar, the Unbowed|dgm
+1 Ruric Thar, the Unbowed|PIO|[239]
 1 Zendikar Resurgent|c17
-1 Guardian Project|rna
-1 Surrak and Goreclaw|mom
-1 Phyrexian Metamorph|nph
+1 Guardian Project|RVR|[349]
+1 Surrak and Goreclaw|FDC|[231]
+1 Phyrexian Metamorph|EOC|[75]
 1 Artisan of Kozilek|m3c
-1 Ashaya, Soul of the Wild|znr
+1 Ashaya, Soul of the Wild|DSC|[170]
 1 Beast Whisperer|tsr
-1 Beast Within|nph
-1 Benevolent Hydra|j22
-1 Birds of Paradise|blc
-1 Blasphemous Act|tdc
-1 Bloom Tender|2x2
+1 Beast Within|TSR|[357]
+1 Benevolent Hydra|SOC|[124]
+1 Birds of Paradise|RVR|[344]
+1 Blasphemous Act|SOC|[238]
+1 Bloom Tender|ECL|[166]
 1 Branching Evolution|mh3
-1 Breeding Pool|eoe
+1 Breeding Pool|RVR|[399]
 1 Canopy Gargantuan|tdc
-1 Chandra's Ignition|ori
-1 Chaos Warp|2x2
-1 City of Brass|2x2
-1 Command Tower|cmm
+1 Chandra's Ignition|FDC|[145]
+1 Chaos Warp|MBC|[72]
+1 City of Brass|ARN|[71]
+1 Command Tower|TRC|[521]
 1 Commercial District|mkm
-1 Consecrated Sphinx|mbs
-1 Counterspell|ice
+1 Consecrated Sphinx|2X2|[43]
+1 Counterspell|DMR|[281]
 1 Craterhoof Behemoth|inr
 1 Deflecting Swat|cmm
-1 Dreamroot Cascade|inr
-1 Elvish Mystic|cmm
+1 Dreamroot Cascade|SOS|[254]
+1 Elvish Mystic|TSR|[360]
 1 Etali, Primal Conqueror|mom
-1 Eternal Witness|2x2
-1 Exotic Orchard|fic
-1 Fabled Passage|blb
+1 Eternal Witness|TSR|[361]
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
 1 Fanatic of Rhonas|mh3
-1 Fierce Empath|cmm
-1 Fierce Guardianship|c20
+1 Fierce Empath|SCG|[119]
+1 Fierce Guardianship|CMM|[94]
 3 Forest|inr
-1 Forgotten Ancient|blc
-1 Garruk's Uprising|m3c
+1 Forgotten Ancient|DMR|[341]
+1 Garruk's Uprising|ECC|[109]
 1 Gwenna, Eyes of Gaea|bro
-1 Hardened Scales|2x2
+1 Hardened Scales|SOC|[272]
 1 Hedge Maze|mkm
-1 Heroic Intervention|m21
+1 Heroic Intervention|CMM|[295]
 1 High Fae Trickster|fdn
 1 Hinterland Harbor|dmr
 1 Hullbreaker Horror|inr
-1 Hydroid Krasis|2x2
+1 Hydroid Krasis|SOC|[315]
 2 Island|inr
-1 Kami of Whispered Hopes|mom
-1 Karplusan Forest|tdc
+1 Kami of Whispered Hopes|SOC|[273]
+1 Karplusan Forest|ICE|[356]
 1 Ketria Triome|iko
-1 Lightning Greaves|m3c
-1 Llanowar Elves|fdn
-1 Maelstrom Wanderer|cmr
+1 Lightning Greaves|TRC|[496]
+1 Llanowar Elves|LEB|[211]
+1 Maelstrom Wanderer|ECC|[127]
 1 Mistrise Village|tdm
-1 Misty Rainforest|zen
+1 Misty Rainforest|MH2|[438]
 2 Mountain|inr
 1 Nature's Lore|dmr
 1 Ornithopter of Paradise|mh2
 1 Outcaster Trailblazer|otj
-1 Overwhelming Stampede|c14
-1 Ozolith, the Shattered Spire|mom
+1 Overwhelming Stampede|FDC|[218]
+1 Ozolith, the Shattered Spire|SOC|[281]
 1 Peregrine Drake|dmr
 1 Primordial Sage|jmp
 1 Rattleclaw Mystic|ktk
-1 Reclamation Sage|2xm
-1 Reflecting Pool|cns
-1 Rhythm of the Wild|rna
-1 Rockfall Vale|tdc
-1 Taiga|vma
-1 Tropical Island|vma
-1 Volcanic Island|vma
-1 Rootbound Crag|tdc
-1 Scalding Tarn|zen
-1 Sol Ring|cmd
-1 Soul of the Harvest|cma
-1 Spellskite|2xm
-1 Steam Vents|ecl
-1 Stomping Ground|gtc
-1 Surrak Dragonclaw|ktk
-1 Swiftfoot Boots|scd
-1 Temur Ascendancy|tdc
-1 The Great Henge|eld
+1 Reclamation Sage|TSR|[366]
+1 Reflecting Pool|TMP|[322]
+1 Rhythm of the Wild|RVR|[380]
+1 Rockfall Vale|FRA|[186]
+1 Taiga|LEB|[283]
+1 Tropical Island|LEB|[284]
+1 Volcanic Island|LEB|[287]
+1 Rootbound Crag|ECC|[163]
+1 Scalding Tarn|MH2|[439]
+1 Sol Ring|LEB|[270]
+1 Soul of the Harvest|JMP|[432]
+1 Spellskite|CLB|[873]
+1 Steam Vents|RVR|[412]
+1 Stomping Ground|RVR|[413]
+1 Surrak Dragonclaw|DMC|[169]
+1 Swiftfoot Boots|TRC|[501]
+1 Temur Ascendancy|TSR|[387]
+1 The Great Henge|CMM|[294]
 1 The Ozolith|iko
 1 Thornspire Verge|dsk
 1 Thundermane Dragon|tdc
 1 Tyrant Guard|40k
 1 Vaultborn Tyrant|big
 1 Vizier of the Menagerie|fdn
-1 Vorinclex, Voice of Hunger|mul
+1 Vorinclex, Voice of Hunger|IMA|[189]
 1 Willowrush Verge|dft
-1 Wood Elves|ncc
+1 Wood Elves|EXO|[130]
 1 Wooded Foothills|mh3
-1 Yavimaya Coast|blc
+1 Yavimaya Coast|APC|[143]

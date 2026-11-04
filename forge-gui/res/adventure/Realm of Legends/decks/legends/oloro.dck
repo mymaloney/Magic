@@ -3,99 +3,99 @@ Name=Oloro
 [Commander]
 1 Oloro, Ageless Ascetic|c13
 [Main]
-1 Academy Ruins|2xm
-1 Adarkar Wastes|dmu
-1 An Offer You Can't Refuse|snc
-1 Angel of Vitality|m20
-1 Anguished Unmaking|2x2
-1 Arcane Denial|cmr
-1 Arcane Signet|cmm
-1 Archaeomancer's Map|c21
-1 Auriok Champion|5dn
-1 Authority of the Consuls|kld
-1 Azorius Chancery|2x2
+1 Academy Ruins|TRC|[366]
+1 Adarkar Wastes|ICE|[351]
+1 An Offer You Can't Refuse|FDN|[160]
+1 Angel of Vitality|FDC|[13]
+1 Anguished Unmaking|TRC|[310]
+1 Arcane Denial|ALL|[22a]
+1 Arcane Signet|TRC|[485]
+1 Archaeomancer's Map|SOC|[136]
+1 Auriok Champion|IMA|[9]
+1 Authority of the Consuls|FDN|[137]
+1 Azorius Chancery|DSC|[261]
 1 Beacon of Immortality|e02
-1 Black Market Connections|clb
-1 Blind Obedience|wot
+1 Black Market Connections|LCC|[181]
+1 Blind Obedience|RVR|[303]
 1 Bloodthirsty Conqueror|fdn
 1 Boggart Trawler|mh3
-1 Bojuka Bog|dmc
-1 Bolas's Citadel|pwar
-1 Caves of Koilos|dmu
-1 Felidar Sovereign|zen
+1 Bojuka Bog|TSR|[406]
+1 Bolas's Citadel|WAR|[79]
+1 Caves of Koilos|APC|[140]
+1 Felidar Sovereign|J25|[198]
 1 Charismatic Conqueror|lcc
-1 City of Brass|2x2
-1 Command Tower|dmc
-1 Revival|rna
-1 Deserted Beach|mid
-1 Dimir Aqueduct|2x2
-1 Dovin's Veto|war
+1 City of Brass|ARN|[71]
+1 Command Tower|TRC|[521]
+1 Revival|RVR|[241]
+1 Deserted Beach|FRA|[176]
+1 Dimir Aqueduct|DSC|[270]
+1 Dovin's Veto|TSR|[375]
 1 Elenda's Hierophant|lcc
-1 Everflowing Chalice|eoc
-1 Exotic Orchard|dmc
-1 Exquisite Blood|avr
-1 Farewell|neo
+1 Everflowing Chalice|TSR|[394]
+1 Exotic Orchard|TRC|[378]
+1 Exquisite Blood|LCC|[195]
+1 Farewell|M3C|[170]
 1 Fell the Profane|mh3
-1 Fellwar Stone|c15
+1 Fellwar Stone|DRK|[102]
 1 Get Lost|lci
-1 Godless Shrine|rna
-1 Path of Ancestry|lcc
-1 Hallowed Fountain|rna
-1 Heliod's Intervention|thb
-1 Indulging Patrician|m21
-1 Island|2xm
+1 Godless Shrine|RVR|[401]
+1 Path of Ancestry|TRC|[545]
+1 Hallowed Fountain|RVR|[404]
+1 Heliod's Intervention|OTC|[81]
+1 Indulging Patrician|TDC|[292]
+1 Island|INR|[290]
 1 Kambal, Consul of Allocation|2x2
 1 Kambal, Profiteering Mayor|otj
-1 Kor Haven|nem
+1 Kor Haven|NMS|[141]
 1 Liesa, Shroud of Dusk|cmr
-1 Mana Drain|2x2
-1 Mangara, the Diplomat|cmm
+1 Mana Drain|LEG|[65]
+1 Mangara, the Diplomat|SOC|[155]
 1 Meticulous Archive|mkm
-1 Underground Sea|vma
-1 Night's Whisper|ema
+1 Underground Sea|LEB|[286]
+1 Night's Whisper|TRC|[446]
 1 Ondu Inversion|znr
-1 Orzhov Basilica|2x2
-1 Alhammarret's Archive|c21
-1 Painful Truths|dmc
-3 Plains|2xm
+1 Orzhov Basilica|DRC|[164]
+1 Alhammarret's Archive|TRC|[337]
+1 Painful Truths|TRC|[274]
+3 Plains|INR|[288]
 1 Raffine's Tower|snc
 1 Recurring Insight|roe
-1 Reflecting Pool|cns
-1 Rhox Faithmender|jmp
+1 Reflecting Pool|TMP|[322]
+1 Rhox Faithmender|TDC|[128]
 1 Rhystic Study|pcy
-1 Sanguine Bond|wot
+1 Sanguine Bond|TSR|[330]
 1 Sea Gate Restoration|znr
-1 Tundra|vma
-1 Drogskol Reaver|dka
+1 Tundra|LEB|[285]
+1 Drogskol Reaver|FDN|[655]
 1 Void Rend|snc
 1 Counterspell|dmr
-1 Phyrexian Arena|fdn
+1 Phyrexian Arena|APC|[47]
 1 Shadowy Backstreet|mkm
-1 Shattered Sanctum|vow
+1 Shattered Sanctum|SOS|[260]
 1 Sheoldred, the Apocalypse|dmu
-1 Shipwreck Marsh|mid
-1 Sign in Blood|sta
-1 Sol Ring|cc2
+1 Shipwreck Marsh|FRA|[189]
+1 Sign in Blood|FDC|[125]
+1 Sol Ring|LEB|[270]
 1 Sorin of House Markov|mh3
-1 Soul Warden|mm3
+1 Soul Warden|EXO|[21]
 1 Soul's Attendant|roe
 1 Stinging Study|c21
-1 Suture Priest|nph
-1 Swamp|2xm
-1 Swords to Plowshares|sta
-1 Talisman of Dominance|clb
-1 Talisman of Hierarchy|clb
-1 Talisman of Progress|scd
+1 Suture Priest|MOC|[210]
+1 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
+1 Talisman of Dominance|TRC|[505]
+1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Progress|TRC|[508]
 1 Teferi's Protection|2x2
 1 Test of Endurance|dmr
 1 The Meathook Massacre|inr
-1 Toxic Deluge|cc2
+1 Toxic Deluge|MH3|[412]
 1 Trouble in Pairs|mkc
 1 Undercity Sewers|mkm
-1 Underground River|bro
+1 Underground River|ICE|[362]
 1 Unexplained Absence|mkc
-1 Scrubland|vma
-1 Vito, Thorn of the Dusk Rose|m21
+1 Scrubland|LEB|[282]
+1 Vito, Thorn of the Dusk Rose|J25|[71]
 1 Waterlogged Teachings|mh3
-1 Watery Grave|grn
+1 Watery Grave|RVR|[415]
 1 Witch Enchanter|mh3

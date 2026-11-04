@@ -4,82 +4,82 @@ Name=Wilhelt
 1 Wilhelt, the Rotcleaver|MIC
 [Main]
 1 Accursed Marauder|MH3
-1 Animate Dead|MKC
-1 Arcane Signet|LCC
+1 Animate Dead|LEB|[93]
+1 Arcane Signet|TRC|[485]
 1 Aven Eternal|WAR
 1 Banner of Kinship|FDN
-1 Bitter Triumph|TDC
-1 Bojuka Bog|EOC
-1 Carrion Feeder|EMA
+1 Bitter Triumph|TRC|[445]
+1 Bojuka Bog|TSR|[406]
+1 Carrion Feeder|SCG|[59]
 1 Cemetery Reaper|DRC
-1 Choked Estuary|MKC
-1 Command Tower|LCC
-1 Corpse Augur|CMM
+1 Choked Estuary|TRC|[370]
+1 Command Tower|TRC|[521]
+1 Corpse Augur|DRC|[40]
 1 Cover of Darkness|ONS
-1 Cryptbreaker|EMN
+1 Cryptbreaker|DRC|[41]
 1 Dance of the Dead|ICE
-1 Deadly Plot|J22
-1 Death Baron|MIC
-1 Diregraf Colossus|MIC
-1 Drowned Catacomb|OTC
+1 Deadly Plot|FDN|[520]
+1 Death Baron|FDC|[95]
+1 Diregraf Colossus|FDC|[96]
+1 Drowned Catacomb|TRC|[376]
 1 Eternal Skylord|DRC
-1 Fell Stinger|VOW
+1 Fell Stinger|PIO|[93]
 1 Fell the Profane|MH3
 1 Flare of Malice|MH3
 1 Fleshbag Marauder|DRC
 1 Gleaming Overseer|DRC
 1 Gloomlake Verge|DSK
-1 Graveborn Muse|10E
-1 Gravecrawler|J22
-1 Gray Merchant of Asphodel|C14
-1 Headless Rider|VOW
+1 Graveborn Muse|LGN|[73]
+1 Gravecrawler|INR|[380]
+1 Gray Merchant of Asphodel|TSR|[323]
+1 Headless Rider|FDC|[106]
 1 Hordewing Skaab|MIC
-8 Island|LCI
-1 Jet Medallion|MH3
+8 Island|INR|[290]
+1 Jet Medallion|TMP|[292]
 1 Hero's Downfall|FDN
-1 Infernal Grasp|ECC
-1 Victim of Night|ISD
+1 Infernal Grasp|INR|[385]
+1 Victim of Night|DDQ|[67]
 1 Kindred Discovery|LCC
 1 Lazotep Quarry|M3C
 1 Lazotep Reaver|SCD
 1 Liliana, Dreadhorde General|FDN
-1 Living Death|TDC
-1 Lord of the Accursed|J22
-1 Lord of the Undead|8ED
-1 Midnight Reaper|RVR
+1 Living Death|TMP|[142]
+1 Lord of the Accursed|DRC|[95]
+1 Lord of the Undead|PLS|[44]
+1 Midnight Reaper|DRC|[44]
 1 Mikaeus, the Unhallowed|CMM
-1 Mind Stone|DSC
+1 Mind Stone|DMR|[385]
 1 Necroduality|INR
 1 Necromancy|VIS
 1 Noxious Ghoul|LGN
-1 Patchwork Banner|BLB
-1 Path of Ancestry|TDC
+1 Patchwork Banner|SOC|[353]
+1 Path of Ancestry|TRC|[545]
 1 Pit of Offerings|LCI
 1 Prophet of the Scarab|DRC
-1 Kindred Dominance|CMM
-1 Reanimate|DSC
-1 Repository Skaab|VOW
+1 Kindred Dominance|WOC|[113]
+1 Reanimate|TMP|[151]
+1 Repository Skaab|DBL|[340]
 1 Rooftop Storm|INR
 1 Saw in Half|BLC
-1 Secluded Courtyard|FDN
+1 Secluded Courtyard|ECC|[62]
 1 Sheoldred's Edict|ONE
-1 Shipwreck Marsh|MID
+1 Shipwreck Marsh|FRA|[189]
 1 Sink into Stupor|MH3
-1 Skullclamp|MOC
+1 Skullclamp|TRC|[354]
 1 Soul Shatter|SCD
-1 Sunken Hollow|OTC
-13 Swamp|LCI
-1 Tainted Isle|MKC
-1 Talisman of Dominance|DRC
-1 Temple of the False God|DSC
+1 Sunken Hollow|TRC|[407]
+13 Swamp|INR|[292]
+1 Tainted Isle|TOR|[141]
+1 Talisman of Dominance|TRC|[505]
+1 Temple of the False God|SCG|[143]
 1 Toxic Deluge|MH3
-1 Unclaimed Territory|LCC
-1 Undead Augur|SCD
+1 Unclaimed Territory|ECC|[175]
+1 Undead Augur|DRC|[100]
 1 Undead Warchief|SCG
 1 Victimize|MH3
 1 Vizier of the Scorpion|SCD
 1 Warren Soultrader|MH3
 1 Watery Grave|RVR
-1 Whip of Erebos|DSC
+1 Whip of Erebos|PIO|[119]
 1 Will of the Abzan|TDC
 1 Zul Ashur, Lich Lord|FDN

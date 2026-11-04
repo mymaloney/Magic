@@ -1,16 +1,16 @@
 [metadata]
 Name=Necromancer - Chainer Reanimator
 [Main]
-22 Swamp|ODY|3
-1 Chainer, Dementia Master|TOR
-2 Animate Dead|4ED
-4 Dark Ritual|USG
+22 Swamp|INR|[292]
+1 Chainer, Dementia Master|DMR|[299]
+2 Animate Dead|LEB|[93]
+4 Dark Ritual|MMQ|[129]
 2 Reanimate|TMP
 2 Necromancy|VIS
 2 Apprentice Necromancer|UDS
 2 Doomed Necromancer|ONS
-2 Buried Alive|WTH
-2 Entomb|ODY
+2 Buried Alive|ODY|[118]
+2 Entomb|DMR|[304]
 4 Mutilate|TOR
 2 Sengir Vampire|TOR
 2 Shambling Swarm|TOR
@@ -20,4 +20,4 @@ Name=Necromancer - Chainer Reanimator
 2 Twisted Abomination|SCG
 1 Nefashu|SCG
 1 Ihsan's Shade|HML
-4 Chainer's Edict|TOR
+4 Chainer's Edict|DMR|[300]

@@ -1,28 +1,28 @@
 [metadata]
 Name=Amonkhet - Drakes 1 unfair
 [Main]
-1 Forest|7ED
+1 Forest|INR|[296]
 1 Lim-Dûl's Vault|ALL
 1 Rain of Filth|USG
 1 Sulfurous Springs|ICE
-1 Underground River|5ED
+1 Underground River|ICE|[362]
 1 Underground River|ICE
-2 Polluted Delta|ONS
-2 Portent|5ED
+2 Polluted Delta|MH3|[438]
+2 Portent|ICE|[90]
 2 Reflecting Pool|TMP
-3 Duress|7ED
+3 Duress|DMR|[303]
 3 Lat-Nam's Legacy|ALL
 3 Tinder Wall|ICE
 4 Cabal Ritual|TOR
-4 City of Brass|5ED
-4 Dark Ritual|2ED
+4 City of Brass|ARN|[71]
+4 Dark Ritual|MMQ|[129]
 4 Dragonstorm|SCG
-4 Gemstone Mine|WTH
+4 Gemstone Mine|DMR|[395]
 4 Lotus Petal|TMP
-4 Mountain|7ED
+4 Mountain|INR|[294]
 4 Opt|INV
 4 Shivan Reef|APC
-4 Sleight of Hand|7ED
-4 Swamp|7ED
-4 Volcanic Dragon|6ED
-5 Island|7ED
+4 Sleight of Hand|PO2|[46]
+4 Swamp|INR|[292]
+4 Volcanic Dragon|POR|[153]
+5 Island|INR|[290]

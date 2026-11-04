@@ -5,79 +5,79 @@ Name=Feroz
 [Main]
 1 Adagia, Windswept Bastion|eoe
 1 Anointed Procession|akh
-1 Arcane Signet|cmr
+1 Arcane Signet|TRC|[485]
 1 Argent Dais|mh3
 1 Deification|mat
-1 Azorius Chancery|gk2
-1 Beast Within|cmr
+1 Azorius Chancery|DSC|[261]
+1 Beast Within|TSR|[357]
 1 Blind Obedience|rvr
-1 Breeding Pool|rna
+1 Breeding Pool|RVR|[399]
 1 Brokers Ascendancy|snc
 1 Caretaker's Talent|blb
-1 Command Tower|cc1
+1 Command Tower|TRC|[521]
 1 Copy Enchantment|rvr
 1 Cultivate|soc
-1 Day of Judgment|fdn
+1 Day of Judgment|FDC|[23]
 1 Elspeth's Talent|moc
 1 Emergency Eject|eoe
-1 Enchantress's Presence|mh2
+1 Enchantress's Presence|ONS|[261]
 1 Estrid's Invocation|mh3
 1 Excise the Imperfect|moc
 1 Extravagant Replication|fdn
-1 Farseek|blc
+1 Farseek|RVR|[347]
 1 Feroz's Ban|hml
 1 Aysen Abbey|hml
-1 Memory Lapse|hml
+1 Memory Lapse|MIR|[74]
 1 Serra Aviary|hml
 1 Serra's Liturgy|usg
 1 Flurry of Wings|arb
 1 Battle Screech|jud
 1 Love Song of Night and Day|dmu
 1 Beck|dgm
-1 Mu Yanling, Sky Dancer|m20
+1 Mu Yanling, Sky Dancer|J25|[329]
 1 Migratory Route|moc
 1 Fable of Wolf and Owl|eve
-8 Forest|5ed
-1 Generous Gift|mh1
-1 Ghostly Prison|chk
-1 Hallowed Fountain|rtr
+8 Forest|INR|[296]
+1 Generous Gift|BLC|[106]
+1 Ghostly Prison|SOC|[146]
+1 Hallowed Fountain|RVR|[404]
 1 Idol of Oblivion|tdc
-8 Island|5ed
-1 Khalni Heart Expedition|cmm
-1 Kodama's Reach|cmr
-1 Mirrormade|eld
+8 Island|INR|[290]
+1 Khalni Heart Expedition|J22|[90]
+1 Kodama's Reach|ECC|[113]
+1 Mirrormade|DSC|[120]
 1 Murmuration|blc
-1 Elspeth Tirel|som
+1 Elspeth Tirel|ONC|[64]
 1 Nature's Lore|dmr
 1 Worzel, the Protector|mbc
-1 Oath of Teferi|cmm
-1 Path of Ancestry|cmr
-8 Plains|5ed
-1 Restless Anchorage|lci
-1 Lumbering Falls|bfz
+1 Oath of Teferi|DOM|[200]
+1 Path of Ancestry|TRC|[545]
+8 Plains|INR|[288]
+1 Restless Anchorage|FRC|[81]
+1 Lumbering Falls|PIO|[268]
 1 Restless Prairie|lci
-1 Propaganda|c13
-1 Rampant Growth|j25
-1 Gideon, Ally of Zendikar|bfz
+1 Propaganda|TMP|[80]
+1 Rampant Growth|TMP|[245]
+1 Gideon, Ally of Zendikar|PIO|[14]
 1 Greensleeves|mbc
-1 Seaside Citadel|cmm
-1 Selesnya Sanctuary|gk1
+1 Seaside Citadel|ECC|[166]
+1 Selesnya Sanctuary|CLU|[246]
 1 Serra the Benevolent|mh1
-1 Simic Growth Chamber|gk2
-1 Sphere of Safety|rtr
-1 Sol Ring|msc
-1 Staff of Compleation|one
-1 Staff of the Storyteller|soc
-1 Stroke of Midnight|fdn
-1 Supreme Verdict|clu
+1 Simic Growth Chamber|DSC|[298]
+1 Sphere of Safety|RVR|[447]
+1 Sol Ring|LEB|[270]
+1 Staff of Compleation|TDC|[326]
+1 Staff of the Storyteller|FRC|[34]
+1 Stroke of Midnight|FRC|[35]
+1 Supreme Verdict|RVR|[461]
 1 Teferi's Talent|moc
-1 Temple Garden|grn
+1 Temple Garden|RVR|[414]
 1 Tempt with Bunnies|blc
-1 The Chain Veil|cmm
-1 Three Visits|cmr
+1 The Chain Veil|PIO|[358]
+1 Three Visits|SOC|[289]
 1 Tranquil Landscape|mh3
 1 Vronos, Masked Inquisitor|cmm
-1 Wedding Ring|voc
+1 Wedding Ring|LCC|[102]
 1 Wild Growth|dmr
 1 Worship|usg
-1 Wrath of God|2xm
+1 Wrath of God|DMR|[279]

@@ -1,14 +1,14 @@
 [metadata]
 Name=Uncle Istvan
 [Main]
-20 Swamp|2ED
+20 Swamp|INR|[292]
 4 The Fallen|DRK
 4 Word of Binding|DRK
 4 Uncle Istvan|DRK
 2 Rag Man|DRK
 2 Curse Artifact|DRK
 4 Ashes to Ashes|DRK
-4 Bog Imp|DRK
+4 Bog Imp|POR|[81]
 4 Frankenstein's Monster|DRK
 4 Murk Dwellers|DRK
 2 Banshee|DRK
@@ -17,5 +17,5 @@ Name=Uncle Istvan
 2 Worms of the Earth|DRK
 
 [StartInBattle_Reference]
-3 Swamp|2ED
+3 Swamp|INR|[292]
 1 Uncle Istvan|DRK

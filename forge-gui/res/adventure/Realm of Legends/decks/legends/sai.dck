@@ -1,73 +1,73 @@
 [metadata]
 Name=Sai
 [Commander]
-1 Sai, Master Thopterist|brc
+1 Sai, Master Thopterist|DRC|[82]
 [Main]
 1 Access Denied|nec
-1 Adaptive Automaton|brr
-1 Aetherize|fdn
+1 Adaptive Automaton|FDN|[723]
+1 Aetherize|RVR|[448]
 1 Alexi's Cloak|pcy
-1 Arcane Signet|brc
-1 Bident of Thassa|brc
+1 Arcane Signet|TRC|[485]
+1 Bident of Thassa|PIO|[47]
 1 Intrude on the Mind|mkm
-1 Broodstar|mrd
-1 Chief of the Foundry|brc
+1 Broodstar|FDC|[60]
+1 Chief of the Foundry|FDC|[249]
 1 Counterspell|dmr
-1 Darksteel Citadel|brc
+1 Darksteel Citadel|FDC|[300]
 1 Dream-Thief's Bandana|otc
-1 Emry, Lurker of the Loch|brc
-1 Etherium Sculptor|brc
-1 Explorer's Scope|afc
+1 Emry, Lurker of the Loch|EOC|[71]
+1 Etherium Sculptor|EOC|[72]
+1 Explorer's Scope|CMM|[380]
 1 Favorable Winds|scd
-1 Foundry Inspector|brr
+1 Foundry Inspector|FDC|[259]
 1 Emporium Thopterist|ymkm
-1 Heirloom Blade|c17
+1 Heirloom Blade|LCC|[303]
 1 Thopter Fabricator|dft
-1 Idol of Oblivion|brc
-32 Island|brc
-1 Foundry of the Consuls|ori
+1 Idol of Oblivion|TDC|[319]
+32 Island|INR|[290]
+1 Foundry of the Consuls|FDC|[302]
 1 Aetherjacket|dft
-1 Hangarback Walker|ori
-1 Pilgrim's Eye|cmm
+1 Hangarback Walker|SOC|[348]
+1 Pilgrim's Eye|PIO|[257]
 1 Efficient Construction|cmm
 1 Hope of Ghirapur|aer
-1 Patchwork Banner|blb
-1 Whirler Rogue|blc
+1 Patchwork Banner|SOC|[353]
+1 Whirler Rogue|DRC|[85]
 1 Liberator, Urza's Battlethopter|bro
-1 Liquimetal Torque|brc
+1 Liquimetal Torque|MH2|[428]
 1 Make Disappear|snc
-1 Master of Etherium|brc
+1 Master of Etherium|FDC|[66]
 1 Etherium Spinner|mh2
 1 Mind Stone|dmr
-1 Retrofitter Foundry|c18
+1 Retrofitter Foundry|DRC|[136]
 1 Mycosynth Wellspring|brc
-1 Negate|m20
-1 Ornithopter|brr
+1 Negate|TRC|[439]
+1 Ornithopter|DMR|[386]
 1 Ornithopter of Paradise|mh2
-1 Padeem, Consul of Innovation|brc
-1 Launch Mishap|j22
-1 Reliquary Tower|brc
-1 Seat of the Synod|brc
-1 Sharding Sphinx|brc
-1 Shimmer Dragon|brc
-1 Skullclamp|brc
+1 Padeem, Consul of Innovation|J25|[62]
+1 Launch Mishap|FDC|[65]
+1 Reliquary Tower|TRC|[551]
+1 Seat of the Synod|EOC|[176]
+1 Sharding Sphinx|MOC|[235]
+1 Shimmer Dragon|FDC|[75]
+1 Skullclamp|TRC|[354]
 1 Skyscanner|scd
-1 Sol Ring|brc
+1 Sol Ring|LEB|[270]
 1 Spotter Thopter|bro
-1 Steel Overseer|brc
+1 Steel Overseer|EOC|[144]
 1 Stridehangar Automaton|drc
-1 Swiftfoot Boots|brc
+1 Swiftfoot Boots|TRC|[501]
 1 Temple of the False God|scg
-1 Thirst for Knowledge|brc
-1 Thopter Spy Network|brc
-1 Thought Monitor|brc
-1 Thought Vessel|brc
-1 Thoughtcast|brc
-1 Thran Dynamo|brc
+1 Thirst for Knowledge|TRC|[443]
+1 Thopter Spy Network|DRC|[83]
+1 Thought Monitor|EOC|[79]
+1 Thought Vessel|TRC|[509]
+1 Thoughtcast|TRC|[444]
+1 Thran Dynamo|UDS|[139]
 1 Deviant Skytech|ydft
 1 Trading Post|brc
 1 Traxos, Scourge of Kroog|brc
-1 Turnabout|dmr
+1 Turnabout|RVR|[452]
 1 Unctus, Grand Metatect|one
 1 Wall of Junk|usg
-1 Wayfarer's Bauble|brc
+1 Wayfarer's Bauble|TRC|[511]

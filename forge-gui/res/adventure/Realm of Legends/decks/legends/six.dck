@@ -3,60 +3,60 @@ Name=Six
 [Commander]
 1 Six|mh3
 [Main]
-1 Aftermath Analyst|mkm
+1 Aftermath Analyst|EOC|[91]
 1 Ainok Wayfarer|tdm
 1 Ashaya, Soul of the Wild|dsc
 1 Azusa, Lost but Seeking|cmm
 1 Bear Umbra|woc
 1 Blossoming Tortoise|woe
-1 Pathbreaker Ibex|c15
-1 Overrun|tmp
-1 Springbloom Druid|eoc
-1 Blanchwood Armor|fdn
-1 Beast Within|dsc
+1 Pathbreaker Ibex|CMA|[132]
+1 Overrun|ODY|[260]
+1 Springbloom Druid|SOC|[287]
+1 Blanchwood Armor|USG|[237]
+1 Beast Within|TSR|[357]
 1 Wrenn and Seven|inr
 1 Sapling Nursery|ecl
 1 Eldrazi Monument|m3c
-1 Emerald Medallion|mh3
-1 Eternal Witness|2x2
+1 Emerald Medallion|TMP|[283]
+1 Eternal Witness|TSR|[361]
 1 Famished Worldsire|eoe
-36 Forest|dom
-1 Haywire Mite|dsc
+36 Forest|INR|[296]
+1 Haywire Mite|SOC|[349]
 1 Horizon Explorer|eoc
 1 Icetill Explorer|eoe
 1 Insidious Fungus|dsk
-1 Jungle Basin|c14
+1 Jungle Basin|VIS|[164]
 1 Kamahl's Will|cmr
-1 Kenrith's Transformation|woc
+1 Kenrith's Transformation|FDC|[212]
 1 Kura, the Boundless Sky|neo
 1 Lasyd Prowler|tdm
-1 Lignify|lrw
-1 Llanowar Elves|dom
+1 Lignify|GVL|[16]
+1 Llanowar Elves|LEB|[211]
 1 Lotus Cobra|j25
 1 Mosswort Bridge|tdc
-1 Multani, Yavimaya's Avatar|dom
+1 Multani, Yavimaya's Avatar|EOC|[100]
 1 Myriad Landscape|eoc
 1 Natural Affinity|mmq
 1 Nature's Rhythm|tdm
-1 Nevinyrral's Disk|cmm
+1 Nevinyrral's Disk|LEB|[267]
 1 Nyxbloom Ancient|thb
 1 Orbs of Warding|ori
-1 Quirion Ranger|mh2
-1 Ramunap Excavator|otc
-1 Reclamation Sage|fdn
-1 Rogue's Passage|otc
+1 Quirion Ranger|VIS|[117]
+1 Ramunap Excavator|M3C|[241]
+1 Reclamation Sage|TSR|[366]
+1 Rogue's Passage|TRC|[552]
 1 Rude Awakening|gvl
-1 Sakura-Tribe Elder|chk
-1 Satyr Wayfinder|tdc
+1 Sakura-Tribe Elder|SOC|[285]
+1 Satyr Wayfinder|EOC|[106]
 1 Seal of Primordium|tsr
 1 Shigeki, Jukai Visionary|tdc
-1 Sol Ring|fdn
+1 Sol Ring|LEB|[270]
 1 Spelunking|lci
-1 Splendid Reclamation|vow
-1 Spore Frog|blc
-1 Swiftfoot Boots|tdc
+1 Splendid Reclamation|EOC|[108]
+1 Spore Frog|PCY|[126]
+1 Swiftfoot Boots|TRC|[501]
 1 Sylvan Awakening|dom
-1 Sylvan Safekeeper|mh3
+1 Sylvan Safekeeper|JUD|[133]
 1 Timber Protector|lrw
 1 Timeless Witness|tdc
 1 Titania, Nature's Force|dsc
@@ -66,4 +66,4 @@ Name=Six
 1 Witchbane Orb|isd
 1 World Shaper|otc
 1 Yedora, Grave Gardener|dsc
-1 Zuran Orb|mh2
+1 Zuran Orb|ICE|[350]

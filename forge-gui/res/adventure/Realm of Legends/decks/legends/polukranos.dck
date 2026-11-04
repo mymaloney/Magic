@@ -5,78 +5,78 @@ Name=Polukranos
 [Main]
 1 Abzan Battle Priest|MOC
 1 Abzan Falconer|MOC
-1 Arcane Signet|BLC
-1 Polukranos, World Eater
-1 Austere Command|LCC
-1 Beast Whisperer|CLU
-1 Canopy Vista|MKC
-1 Colossal Majesty|CLU
-1 Phytohydra|RAV
+1 Arcane Signet|TRC|[485]
+1 Polukranos, World Eater|PIO|[190]
+1 Austere Command|FDC|[18]
+1 Beast Whisperer|TSR|[356]
+1 Canopy Vista|TDC|[343]
+1 Colossal Majesty|FDC|[197]
+1 Phytohydra|RVR|[210]
 1 Pollen-Shield Hare|WOE
 1 Toby, Beastie Befriender|DSK
-1 Command Tower|BLC
+1 Command Tower|TRC|[521]
 1 Conclave Mentor|MOC
-1 Cultivate|LCC
+1 Cultivate|SOC|[265]
 1 Evolution Witness|MH3
-1 Exotic Orchard|BLC
-1 Farseek|BLC
+1 Exotic Orchard|TRC|[378]
+1 Farseek|RVR|[347]
 1 Feather of Flight|BLB
-1 Fellwar Stone|OTC
-1 Mistcutter Hydra|THS
-16 Forest|BLB
+1 Fellwar Stone|DRK|[102]
+1 Mistcutter Hydra|PIO|[184]
+16 Forest|INR|[296]
 1 Gargos, Vicious Watcher|M20
 1 Generous Gift|BLC
-1 Genesis Hydra|PLST
-1 Grasp of Fate|WOT
+1 Genesis Hydra|OTC|[193]
+1 Grasp of Fate|FDC|[32]
 1 Hamza, Guardian of Arashin|CMM
-1 Hardened Scales|WOT
-1 Harmonize|DSC
-1 Heroes' Bane|PLST
+1 Hardened Scales|SOC|[272]
+1 Harmonize|ECC|[111]
+1 Heroes' Bane|FDN|[639]
 1 Hooded Hydra|MKC
 1 Hungering Hydra|C20
-1 Hydra Broodmaster|JOU
+1 Hydra Broodmaster|M3C|[233]
 1 Inspiring Call|FDN
-1 Intangible Virtue|INR
+1 Intangible Virtue|TSR|[295]
 1 Ironscale Hydra|THB
 1 Lair of the Hydra|M3C
-1 Lifeblood Hydra|CMM
-1 Luminous Broodmoth|IKO
-1 Managorger Hydra|MOC
-1 Mangara, the Diplomat|CMM
+1 Lifeblood Hydra|SOC|[274]
+1 Luminous Broodmoth|BLC|[74]
+1 Managorger Hydra|FDC|[216]
+1 Mangara, the Diplomat|SOC|[155]
 1 Naturalize|ONS
 1 Nessian Wilds Ravager|BNG
 1 Nyxborn Hydra|MH3
 1 Oran-Rief Hydra|E01
-1 Oran-Rief, the Vastwood|BLC
-1 Path of Ancestry|LCC
-8 Plains|BLB
+1 Oran-Rief, the Vastwood|SOC|[391]
+1 Path of Ancestry|TRC|[545]
+8 Plains|INR|[288]
 1 Primeval Protector|NEC
-1 Resourceful Defense
+1 Resourceful Defense|EOC|[67]
 1 Rampant Rejuvenator|NEC
-1 Razorverge Thicket|ONE
+1 Razorverge Thicket|BLC|[325]
 1 Recommission|BRO
-1 Dromoka's Command|DTK
-1 Rishkar, Peema Renegade|CMM
+1 Dromoka's Command|MOC|[323]
+1 Rishkar, Peema Renegade|FDC|[225]
 1 Scourge of Skola Vale|BNG
-1 Selesnya Guildgate|FDN
-1 Sigil of the New Dawn|PLST
-1 Sol Ring|BLC
-1 Spore Frog|MH1
-1 Sungrass Prairie|MKC
-1 Sunpetal Grove|PLST
-1 Swiftfoot Boots|OTC
-1 Swords to Plowshares|BLC
-1 Take Up the Shield|OTJ
-1 Temple of Plenty|MKC
+1 Selesnya Guildgate|RVR|[410]
+1 Sigil of the New Dawn|ONS|[55]
+1 Sol Ring|LEB|[270]
+1 Spore Frog|PCY|[126]
+1 Sungrass Prairie|ODY|[328]
+1 Sunpetal Grove|TDC|[399]
+1 Swiftfoot Boots|TRC|[501]
+1 Swords to Plowshares|DMR|[275]
+1 Take Up the Shield|J25|[270]
+1 Temple of Plenty|TDC|[405]
 1 Tempt with Discovery|BLC
-1 Terramorphic Expanse|BLC
-1 Thought Vessel|BLC
-1 Trollbred Guardian|PLST
+1 Terramorphic Expanse|TRC|[571]
+1 Thought Vessel|TRC|[509]
+1 Trollbred Guardian|RNA|[148]
 1 Vastwood Hydra|C20
 1 Wear Down|BLB
-1 Whiptongue Hydra|NEC
-1 Wildwood Scourge|CMM
+1 Whiptongue Hydra|FDC|[240]
+1 Wildwood Scourge|FDN|[236]
 1 Windbrisk Heights|TDC
 1 Woodland Acolyte|WOE
-1 Wrath of God|4ED
+1 Wrath of God|DMR|[279]
 1 Wren's Run Hydra|MH2

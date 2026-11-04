@@ -1,11 +1,11 @@
 [metadata]
 Name=Gix
 [Main]
-12 Swamp|USG
+12 Swamp|INR|[292]
 4 Spawning Pool|ULG
-4 Mishra's Factory|ATQ
+4 Mishra's Factory|DMR|[399]
 4 Standing Stones|DRK
-4 Duress|USG
+4 Duress|DMR|[303]
 2 Oppression|USG
 2 Tainted Aether|USG
 2 Megrim|STH
@@ -15,7 +15,7 @@ Name=Gix
 2 Xanthic Statue|WTH
 2 Chimeric Idol|PCY
 2 Chimeric Sphere|WTH
-2 Jade Statue|LEA
+2 Jade Statue|LEB|[254]
 4 Soul Feast|UDS
 4 Rhystic Syphon|PCY
 2 Lethal Vapors|SCG

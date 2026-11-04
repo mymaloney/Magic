@@ -2,13 +2,13 @@
 Name=challenger_20_cavalcade_charge
 [Main]
 2 Barbarian Ring|ODY
-21 Mountain|2ED
-4 Fireblast|VIS
+21 Mountain|INR|[294]
+4 Fireblast|DMR|[319]
 4 Goblin Cadets|USG
-4 Incinerate|DKM
-4 Lightning Bolt|ATH
+4 Incinerate|MIR|[184]
+4 Lightning Bolt|LEB|[162]
 4 Mogg Fanatic|TMP
-4 Orcish Artillery|5ED
+4 Orcish Artillery|LEB|[166]
 4 Orcish Cannoneers|ICE
-4 Shock|7ED
-4 Wheel of Fortune|LEA
+4 Shock|ONS|[227]
+4 Wheel of Fortune|LEB|[184]

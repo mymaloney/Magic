@@ -1,7 +1,7 @@
 [metadata]
 Name=Reya Dawnbringer
 [Main]
-18 Plains|ICE
+18 Plains|INR|[288]
 1 Karakas|LEG
 1 Kor Haven|NMS
 4 Drifting Meadow|USG
@@ -10,7 +10,7 @@ Name=Reya Dawnbringer
 2 Silver Seraph|JUD
 2 Exalted Angel|ONS
 2 Blinding Angel|NMS
-2 Serra Angel|LEA
+2 Serra Angel|DMR|[271]
 4 Karmic Guide|ULG
 4 Voice of All|PLS
 2 Aurification|ONS
@@ -18,7 +18,7 @@ Name=Reya Dawnbringer
 2 Replenish|UDS
 2 Planar Collapse|ULG
 4 Aura of Silence|WTH
-4 Swords to Plowshares|ICE
+4 Swords to Plowshares|DMR|[275]
 
 [StartInBattle_Reference]
 1 Reya Dawnbringer|INV

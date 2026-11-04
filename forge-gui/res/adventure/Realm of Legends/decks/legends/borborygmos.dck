@@ -1,89 +1,89 @@
 [metadata]
 Name=Borborygmos Enraged
 [Commander]
-1 Borborygmos Enraged|GTC
+1 Borborygmos Enraged|RVR|[357]
 [Main]
 1 Ravager Wurm|RNA
 1 Petrified Wood-Kin|GPT
 1 Ilharg, the Raze-Boar|RVR
 1 Herald of Ilharg|CLU
-1 Borborygmos|GPT
+1 Borborygmos|GK2|[87]
 1 Clan Defiance|CLU
-1 Ancient Greenwarden|ZNR
-1 Anger|UMA
+1 Ancient Greenwarden|J25|[627]
+1 Anger|JUD|[77]
 1 Archdruid's Charm|MKM
 1 Arena of Glory|MH3
-1 Ash Barrens|A25
-1 Atarka's Command|DTK
-1 Azusa, Lost but Seeking|M21
-1 Bag of Holding|M20
-1 Bala Ged Recovery|ZNR
-1 Blasphemous Act|2XM
+1 Ash Barrens|TDC|[339]
+1 Atarka's Command|2X2|[176]
+1 Azusa, Lost but Seeking|CMM|[274]
+1 Bag of Holding|J22|[756]
+1 Bala Ged Recovery|PIO|[165]
+1 Blasphemous Act|SOC|[238]
 1 Cavalier of Flame|M20
-1 Cinder Glade|C19
-1 Cindervines|RNA
+1 Cinder Glade|ECC|[146]
+1 Cindervines|RVR|[360]
 1 City on Fire|MOM
-1 Command Tower|ZNC
-1 Copperline Gorge|ZNE
+1 Command Tower|TRC|[521]
+1 Copperline Gorge|BLC|[301]
 1 Cragcrown Pathway|ZNR
 1 Creeping Renaissance|C18
-1 Crucible of Worlds|M19
-1 Dryad Arbor|FUT
-1 Escape to the Wilds|ELD
-1 Evolving Wilds|ZNC
+1 Crucible of Worlds|2X2|[303]
+1 Dryad Arbor|DSC|[273]
+1 Escape to the Wilds|EOC|[115]
+1 Evolving Wilds|TRC|[527]
 1 Fire-Lit Thicket|2XM
-1 Flamekin Village|C14
-1 Forgotten Cave|MH1
+1 Flamekin Village|ECC|[149]
+1 Forgotten Cave|ONS|[317]
 1 Sunder Shaman|RVR
-1 Geode Golem|C18
-1 Glint-Horn Buccaneer|M20
+1 Geode Golem|CMM|[386]
+1 Glint-Horn Buccaneer|J22|[539]
 1 Goblin Anarchomancer|MH2
-1 Groundskeeper|SOI
-1 Gruul Turf|ZNC
+1 Groundskeeper|MMQ|[250]
+1 Gruul Turf|ECC|[152]
 1 Journey of Discovery|MRD
-1 Keen Sense|PLC
-1 Khalni Ambush|ZNR
-1 Life from the Loam|UMA
-1 Lightning Greaves|2XM
+1 Keen Sense|TSR|[213]
+1 Khalni Ambush|PIO|[181]
+1 Life from the Loam|RVR|[350]
+1 Lightning Greaves|TRC|[496]
 1 Living Twister|ZNC
-1 Lotus Cobra|ZNR
+1 Lotus Cobra|J25|[685]
 1 Mina and Denn, Wildborn|ZNC
-1 Moraug, Fury of Akoum|ZNR
-1 Multani, Yavimaya's Avatar|ZNC
-1 Myriad Landscape|C19
-1 Nissa, Vastwood Seer|ORI
-1 Nissa, Who Shakes the World|WAR
+1 Moraug, Fury of Akoum|EOC|[89]
+1 Multani, Yavimaya's Avatar|EOC|[100]
+1 Myriad Landscape|EOC|[169]
+1 Nissa, Vastwood Seer|PIO|[187]
+1 Nissa, Who Shakes the World|BLC|[84]
 1 Nykthos, Shrine to Nyx|THS
 1 Ojer Axonil, Deepest Might|LCI
 1 Orcish Lumberjack|ICE
 1 Radha, Heart of Keld|M21
-1 Ramunap Excavator|CMR
+1 Ramunap Excavator|M3C|[241]
 1 Realms Uncharted|ROE
-1 Return of the Wildspeaker|ZNC
-1 Rishkar's Expertise|AER
-1 Rockfall Vale|TDC
-1 Rootbound Crag|XLN
+1 Return of the Wildspeaker|ECC|[115]
+1 Rishkar's Expertise|FDC|[226]
+1 Rockfall Vale|FRA|[186]
+1 Rootbound Crag|ECC|[163]
 1 Scute Mob|C18
 1 Shatterskull Smashing|ZNR
-1 Snake Umbra|C18
-8 Mountain|GK2|[105]
-9 Forest|GK2|[106]
-1 Sol Ring|ZNC
+1 Snake Umbra|WOC|[133]
+8 Mountain|INR|[294]
+9 Forest|INR|[296]
+1 Sol Ring|LEB|[270]
 1 Song of the Dryads|CMM
-1 Spinerock Knoll|C15
-1 Splendid Reclamation|EMN
+1 Spinerock Knoll|FDC|[314]
+1 Splendid Reclamation|EOC|[108]
 1 Sprouting Vines|SCG
 1 Surly Badgersaur|C20
-1 Sylvan Safekeeper|MH3
-1 Terrain Generator|CLB
-1 Terramorphic Expanse|ZNC
+1 Sylvan Safekeeper|JUD|[133]
+1 Terrain Generator|NMS|[143]
+1 Terramorphic Expanse|TRC|[571]
 1 Tibalt's Trickery|KHM
-1 Titania, Protector of Argoth|C14
-1 Tranquil Thicket|MH1
+1 Titania, Protector of Argoth|MH2|[416]
+1 Tranquil Thicket|ONS|[326]
 1 Traverse the Ulvenwald|INR
 1 Twinflame Tyrant|FDN
 1 Valakut Exploration|ZNR
 1 Valakut, the Molten Pinnacle|ZEN
-1 Wrenn and Six|MH1
-1 Yavimaya Elder|CMD
-1 Zhur-Taa Druid|DGM
+1 Wrenn and Six|2X2|[296]
+1 Yavimaya Elder|UDS|[124]
+1 Zhur-Taa Druid|GK2|[101]

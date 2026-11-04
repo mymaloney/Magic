@@ -1,15 +1,15 @@
 [metadata]
 Name=redwizard_medium_ralburn
 [Main]
-19 Mountain|5ED
-2 City of Brass|6ED
-2 Ogre Taskmaster|7ED
-2 Orcish Artillery|3ED
-2 Shivan Dragon|5ED
+19 Mountain|INR|[294]
+2 City of Brass|ARN|[71]
+2 Ogre Taskmaster|MMQ|[206]
+2 Orcish Artillery|LEB|[166]
+2 Shivan Dragon|DMR|[329]
 4 Arcane Teachings|JUD
-4 Fireblast|VIS
-4 Incinerate|5ED
-4 Lightning Bolt|LEA
+4 Fireblast|DMR|[319]
+4 Incinerate|MIR|[184]
+4 Lightning Bolt|LEB|[162]
 4 Ogre Enforcer|VIS
 4 Orcish Cannoneers|ICE
-4 Pyroblast|5ED
+4 Pyroblast|ICE|[213]

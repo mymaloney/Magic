@@ -5,57 +5,57 @@ Name=Jandor
 [Main]
 1 Loxodon Gatekeeper|rav
 1 Autarch Mammoth|dft
-1 Blossoming Bogbeast|c21
+1 Blossoming Bogbeast|SOC|[264]
 1 Bounding Felidar|otj
-1 Brushland|bro
+1 Brushland|ICE|[352]
 1 Bulwark Ox|dft
 1 Calamity, Galloping Inferno|otj
 1 Caradora, Heart of Alacria|dft
-1 Cemetery Prowler|vow
-1 Cinder Glade|m3c
-1 Clifftop Retreat|dom
+1 Cemetery Prowler|DBL|[458]
+1 Cinder Glade|ECC|[146]
+1 Clifftop Retreat|DMR|[393]
 1 Cloudspire Coordinator|dft
-1 Command Tower|c21
+1 Command Tower|TRC|[521]
 1 Conclave Sledge-Captain|moc
 1 Contested Cliffs|ons
 1 Crested Sunmare|hou
 1 Defend the Rider|dft
-1 Elder Gargaroth|m21
-1 Exotic Orchard|ltc
-1 Ezuri's Predation|c15
-1 Farseek|ltc
-1 Felidar Retreat|znr
-7 Forest|leb
+1 Elder Gargaroth|DRC|[111]
+1 Exotic Orchard|TRC|[378]
+1 Ezuri's Predation|FDC|[203]
+1 Farseek|RVR|[347]
+1 Felidar Retreat|FDN|[574]
+7 Forest|INR|[296]
 1 Frenzied Baloth|eoe
-1 Garruk's Uprising|wot
-1 Battle Mammoth|khm
+1 Garruk's Uprising|ECC|[109]
+1 Battle Mammoth|CLB|[818]
 1 Guardian Sunmare|dft
 1 Heaped Harvest|blb
 1 Hollowhenge Overlord|voc
 1 Herd Heirloom|tdm
-1 Heroic Intervention|m21
-1 Jungle Shrine|mkc
-1 Karplusan Forest|m3c
+1 Heroic Intervention|CMM|[295]
+1 Jungle Shrine|ECC|[154]
+1 Karplusan Forest|ICE|[356]
 1 Kazandu Mammoth|znr
-1 Kessig Wolf Run|mkc
+1 Kessig Wolf Run|TDC|[375]
 1 Kolodin, Triumph Caster|dft
 1 Kona, Rescue Beastie|dsk
 1 Kutzil, Malamet Exemplar|lci
 1 Lagorin, Soul of Alacria|dft
 1 Loot, Exuberant Explorer|fdn
 1 Miriam, Herd Whisperer|otj
-1 Mosswort Bridge|mkc
-6 Mountain|arn
-1 Nature's Lore|mkc
+1 Mosswort Bridge|TDC|[379]
+6 Mountain|INR|[294]
+1 Nature's Lore|DMR|[346]
 1 Night of the Sweets' Revenge|woe
 1 Ornery Tumblewagg|otj
-1 Path of Ancestry|lcc
-1 Path to Exile|blc
-7 Plains|leb
+1 Path of Ancestry|TRC|[545]
+1 Path to Exile|TSR|[299]
+7 Plains|INR|[288]
 1 Provisions Merchant|woe
-1 Quartzwood Crasher|iko
+1 Quartzwood Crasher|LCC|[281]
 1 Questing Beast|eld
-1 Radiant Summit|eoc
+1 Radiant Summit|TRC|[395]
 1 Requisition Raid|otj
 1 Wyluli Wolf|arn
 1 Summoned Dromedary|sos
@@ -68,20 +68,20 @@ Name=Jandor
 1 Gilded Ghoda|dft
 1 Vine Mare|m19
 1 Rhythm of the Wild|rvr
-1 Rootbound Crag|c16
-1 Selesnya Sanctuary|mkc
+1 Rootbound Crag|ECC|[163]
+1 Selesnya Sanctuary|CLU|[246]
 1 Seraphic Steed|otj
 1 Sheltering Landscape|mh3
-1 Sol Ring|3ed
+1 Sol Ring|LEB|[270]
 1 Split Up|dsk
-1 Sundown Pass|vow
-1 Sunpetal Grove|c16
-1 Swords to Plowshares|4ed
-1 Terastodon|c21
+1 Sundown Pass|SOS|[264]
+1 Sunpetal Grove|TDC|[399]
+1 Swords to Plowshares|DMR|[275]
+1 Terastodon|M3C|[249]
 1 The Huntsman's Redemption|woe
-1 Loxodon Hierarch|rav
+1 Loxodon Hierarch|GK1|[114]
 1 Traveling Botanist|tdm
-1 Ulvenwald Oddity|vow
-1 Wicked Wolf|eld
+1 Ulvenwald Oddity|DBL|[492]
+1 Wicked Wolf|J22|[134]
 1 Windcrag Siege|frc
 1 Wylie Duke, Atiin Hero|otj

@@ -5,101 +5,101 @@ Name=Mr. Foxglove
 [Main]
 1 Baird, Steward of Argive|BLC|1
 1 Bloodroot Apothecary|BLC|1
-1 Body of Knowledge|BLC|1
-1 Chasm Skulker|BLC|1
-1 Coiling Oracle|BLC|1
-1 Faeburrow Elder|BLC|1
-1 Forgotten Ancient|BLC|1
+1 Body of Knowledge|DSC|[112]
+1 Chasm Skulker|PIO|[49]
+1 Coiling Oracle|RVR|[361]
+1 Faeburrow Elder|ECC|[53]
+1 Forgotten Ancient|DMR|[341]
 1 Jolly Gerbils|BLB|1
-1 Jolrael, Mwonvuli Recluse|BLC|1
+1 Jolrael, Mwonvuli Recluse|DMR|[343]
 1 Kalonian Hydra|BLC|1
 1 Kwain, Itinerant Meddler|BLC|1
-1 Loran of the Third Path|BLC|1
-1 Managorger Hydra|BLC|1
-1 Mangara, the Diplomat|BLC|1
+1 Loran of the Third Path|TRC|[229]
+1 Managorger Hydra|FDC|[216]
+1 Mangara, the Diplomat|SOC|[155]
 1 Ms. Bumbleflower|BLC|1
 1 Octomancer|BLC|1
-1 Psychosis Crawler|BLC|1
+1 Psychosis Crawler|FDC|[280]
 1 Realm-Cloaked Giant|BLC|1
-1 Rishkar, Peema Renegade|BLC|1
+1 Rishkar, Peema Renegade|FDC|[225]
 1 Selvala, Explorer Returned|BLC|1
-1 Sphinx of Enlightenment|BLC|1
-1 Spore Frog|BLC|1
+1 Sphinx of Enlightenment|J25|[364]
+1 Spore Frog|PCY|[126]
 1 Sunscorch Regent|BLC|1
 1 Steelburr Champion|BLC|1
 1 Triskaidekaphile|BLC|1
 1 Twenty-Toed Toad|BLC|1
-1 Tamiyo, Field Researcher|BLC|1
-1 An Offer You Can't Refuse|BLC|1
-1 Broken Wings|BLC|1
+1 Tamiyo, Field Researcher|INR|[249]
+1 An Offer You Can't Refuse|FDN|[160]
+1 Broken Wings|DFT|[156]
 1 Generous Gift|BLC|1
 1 Illusionist's Gambit|BLC|1
 1 Intellectual Offering|BLC|1
 1 Long River's Pull|BLB|1
 1 Peerless Recycling|BLB|1
 1 Perch Protection|BLC|1
-1 Perplexing Test|BLC|1
+1 Perplexing Test|SOC|[197]
 1 Riot Control|BLC|1
-1 Swords to Plowshares|BLC|1
-1 Cultivate|BLC|1
-1 Farseek|BLC|1
-1 Promise of Loyalty|BLC|1
-1 Secret Rendezvous|BLC|1
+1 Swords to Plowshares|DMR|[275]
+1 Cultivate|SOC|[265]
+1 Farseek|RVR|[347]
+1 Promise of Loyalty|TRC|[234]
+1 Secret Rendezvous|SOC|[166]
 1 Tempt with Bunnies|BLC|1
 1 Tempt with Discovery|BLC|1
 1 Wear Down|BLB|1
-1 Arcane Signet|BLC|1
+1 Arcane Signet|TRC|[485]
 1 Coveted Jewel|BLC|1
-1 Fellwar Stone|BLC|1
+1 Fellwar Stone|DRK|[102]
 1 Ghirapur Orrery|BLC|1
-1 Mind Stone|BLC|1
-1 Sol Ring|BLC|1
-1 Swiftfoot Boots|BLC|1
-1 Thought Vessel|BLC|1
+1 Mind Stone|DMR|[385]
+1 Sol Ring|LEB|[270]
+1 Swiftfoot Boots|TRC|[501]
+1 Thought Vessel|TRC|[509]
 1 Communal Brewing|BLC|1
 1 Fisher's Talent|BLC|1
-1 Hoofprints of the Stag|BLC|1
-1 Martial Impetus|BLC|1
+1 Hoofprints of the Stag|ECC|[64]
+1 Martial Impetus|SOC|[156]
 1 Rites of Flourishing|BLC|1
 1 Simic Ascendancy|BLC|1
 1 Tenuous Truce|BLC|1
 1 Wizard Class|BLC|1
-1 Adarkar Wastes|BLC|1
-1 Brushland|BLC|1
-1 Canopy Vista|BLC|1
-1 Command Tower|BLC|1
-1 Evolving Wilds|BLC|1
-1 Exotic Orchard|BLC|1
-1 Flooded Grove|BLC|1
-1 Glacial Fortress|BLC|1
-1 Hinterland Harbor|BLC|1
-1 Breeding Pool|GTC
-1 Prairie Stream|BLC|1
+1 Adarkar Wastes|ICE|[351]
+1 Brushland|ICE|[352]
+1 Canopy Vista|TDC|[343]
+1 Command Tower|TRC|[521]
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
+1 Flooded Grove|SOC|[373]
+1 Glacial Fortress|TRC|[385]
+1 Hinterland Harbor|DMR|[396]
+1 Breeding Pool|RVR|[399]
+1 Prairie Stream|TRC|[394]
 1 Razorverge Thicket|BLC|1
-1 Reliquary Tower|BLC|1
+1 Reliquary Tower|TRC|[551]
 1 Seachrome Coast|BLC|1
-1 Seaside Citadel|BLC|1
-1 Hallowed Fountain|RTR
-1 Temple Garden|RTR
-1 Sunpetal Grove|BLC|1
-1 Temple of Enlightenment|BLC|1
-1 Temple of Mystery|BLC|1
-1 Temple of Plenty|BLC|1
-1 Terramorphic Expanse|BLC|1
-1 Thriving Grove|BLC|1
-1 Thriving Heath|BLC|1
-1 Thriving Isle|BLC|1
-1 Yavimaya Coast|BLC|1
-1 Plains|BLB|1
-1 Plains|BLB|2
-1 Plains|BLB|3
-1 Plains|BLB|4
-1 Island|BLB|1
-1 Island|BLB|2
-1 Island|BLB|3
-1 Island|BLB|4
-1 Forest|BLB|1
-1 Forest|BLB|2
-1 Forest|BLB|3
-1 Forest|BLB|4
+1 Seaside Citadel|ECC|[166]
+1 Hallowed Fountain|RVR|[404]
+1 Temple Garden|RVR|[414]
+1 Sunpetal Grove|TDC|[399]
+1 Temple of Enlightenment|EOC|[186]
+1 Temple of Mystery|SOC|[414]
+1 Temple of Plenty|TDC|[405]
+1 Terramorphic Expanse|TRC|[571]
+1 Thriving Grove|ECC|[171]
+1 Thriving Heath|ECC|[172]
+1 Thriving Isle|ECC|[173]
+1 Yavimaya Coast|APC|[143]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Plains|INR|[288]
+1 Island|INR|[290]
+1 Island|INR|[290]
+1 Island|INR|[290]
+1 Island|INR|[290]
+1 Forest|INR|[296]
+1 Forest|INR|[296]
+1 Forest|INR|[296]
+1 Forest|INR|[296]
 [Sideboard]

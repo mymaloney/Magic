@@ -6,26 +6,26 @@ Name=Chewbacca 3
 1 Rith's Grove|PLS
 1 Seal of Cleansing|NMS
 2 Hidden Gibbons|ULG
-2 Island|5ED|2
-2 Mountain|5ED|2
+2 Island|INR|[290]
+2 Mountain|INR|[294]
 2 Treva's Ruins|PLS
-2 Winter Orb|2ED
-3 Armageddon|2ED
-3 Brushland|5ED
+2 Winter Orb|LEB|[276]
+3 Armageddon|PO2|[12]
+3 Brushland|ICE|[352]
 3 Fire // Ice|APC
-3 Mana Leak|BRB
-4 Birds of Paradise|2ED
+3 Mana Leak|STH|[36]
+4 Birds of Paradise|RVR|[344]
 4 Call of the Herd|ODY
-4 City of Brass|5ED
+4 City of Brass|ARN|[71]
 4 Exalted Angel|ONS
-4 Forest|5ED|2
-4 Gemstone Mine|WTH
-4 Lightning Bolt|2ED
-4 Plateau|LEA
-4 Savannah|LEA
-4 Swords to Plowshares|2ED
-4 Taiga|LEA
-6 Plains|5ED|2
+4 Forest|INR|[296]
+4 Gemstone Mine|DMR|[395]
+4 Lightning Bolt|LEB|[162]
+4 Plateau|LEB|[280]
+4 Savannah|LEB|[281]
+4 Swords to Plowshares|DMR|[275]
+4 Taiga|LEB|[283]
+6 Plains|INR|[288]
 
 [StartInBattle_Reference]
 1 Jayemdae Tome|LEB

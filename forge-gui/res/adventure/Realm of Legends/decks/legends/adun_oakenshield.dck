@@ -4,7 +4,7 @@ Name=Adun Oakenshield
 1 Adun Oakenshield|LEG
 [Main]
 1 Anger|JUD
-1 Animate Dead|4ED
+1 Animate Dead|LEB|[93]
 1 Attrition|UDS
 1 Avatar of Woe|PCY
 1 Bone Shredder|ULG
@@ -12,49 +12,49 @@ Name=Adun Oakenshield
 1 Cuombajj Witches|ARN
 1 Dance of the Dead|ICE
 1 Darigaaz's Caldera|PLS
-1 Decimate|ODY
+1 Decimate|DMR|[356]
 1 Defense of the Heart|ULG
 1 Diligent Farmhand|ODY
-1 Entomb|ODY
-1 Regrowth|3ED
+1 Entomb|DMR|[304]
+1 Regrowth|LEB|[215]
 1 Explosive Vegetation|ONS
 1 Fierce Empath|SCG
 1 Fire Covenant|ICE
-1 Flametongue Kavu|PLS
-13 Forest|TMP
+1 Flametongue Kavu|DMR|[320]
+13 Forest|INR|[296]
 1 Grand Coliseum|ONS
 1 Grave Pact|STH
-1 Harrow|TMP
+1 Harrow|INV|[189]
 1 Insurrection|ONS
-1 Kamahl, Fist of Krosa|ONS
+1 Kamahl, Fist of Krosa|DMR|[344]
 1 Karplusan Forest|ICE
 1 Krosan Tusker|ONS
 1 Lay of the Land|APC
 1 Living Death|TMP
-1 Maze of Ith|DRK
-10 Mountain|TMP
+1 Maze of Ith|DMR|[398]
+10 Mountain|INR|[294]
 1 Mountain Valley|MIR
 1 Necromancy|VIS
 1 Nekrataal|VIS
-1 No Mercy|ULG
-1 Oversold Cemetery|ONS
+1 No Mercy|DMR|[308]
+1 Oversold Cemetery|DMR|[309]
 1 Pernicious Deed|APC
 1 Phyrexian Arena|APC
 1 Plague Wind|PCY
-1 Rampant Growth|MIR
+1 Rampant Growth|TMP|[245]
 1 Rocky Tar Pit|MIR
-1 Royal Assassin|4ED
+1 Royal Assassin|DMR|[310]
 1 Shivan Oasis|INV
-1 Siege-Gang Commander|SCG
-1 Sol Ring|3ED
-1 Spiritmonger|APC
+1 Siege-Gang Commander|DMR|[330]
+1 Sol Ring|LEB|[270]
+1 Spiritmonger|DMR|[370]
 1 Spore Frog|PCY
 1 Sulfurous Springs|ICE
-11 Swamp|TMP
+11 Swamp|INR|[292]
 1 Tsabo Tavoc|INV
 1 Uktabi Orangutan|VIS
 1 Urborg Volcano|INV
-1 Chainer, Dementia Master|TOR
+1 Chainer, Dementia Master|DMR|[299]
 1 Viashino Heretic|ULG
 1 Visara the Dreadful|ONS
 1 Voracious Cobra|INV
@@ -63,11 +63,11 @@ Name=Adun Oakenshield
 1 Yavimaya Elder|UDS
 1 Zombify|ODY
 1 Darigaaz, the Igniter|INV
-1 Lightning Bolt|3ED
+1 Lightning Bolt|LEB|[162]
 1 Terminate|PLS
-1 Nature's Lore|ICE
+1 Nature's Lore|DMR|[346]
 1 Fervor|WTH
 1 Wall of Razors|STH
-1 Icy Manipulator|3ED
+1 Icy Manipulator|DMR|[380]
 1 Silvos, Rogue Elemental|ONS
-1 Kamahl, Pit Fighter|ONS
+1 Kamahl, Pit Fighter|ODY|[198]

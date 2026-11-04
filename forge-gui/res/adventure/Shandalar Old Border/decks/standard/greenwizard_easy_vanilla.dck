@@ -1,14 +1,14 @@
 [metadata]
 Name=greenwizard_easy_vanilla
 [Main]
-30 Forest|ODY|3
+30 Forest|INR|[296]
 4 Druid's Call|ODY
-4 Fertile Ground|BRB
-4 Giant Growth|4ED
-4 Llanowar Elves|4ED
+4 Fertile Ground|INV|[188]
+4 Giant Growth|ICE|[246]
+4 Llanowar Elves|LEB|[211]
 4 Multani, Maro-Sorcerer|ULG
 4 Nantuko Disciple|ODY
-4 Quirion Elves|BTD
+4 Quirion Elves|INV|[203]
 4 Seton's Scout|TOR
 4 Squirrel Mob|ODY
 4 Tranquil Grove|WTH

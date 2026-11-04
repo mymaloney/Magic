@@ -1,95 +1,95 @@
 [metadata]
 Name=Intet
 [Commander]
-1 Intet, the Dreamer|plc
+1 Intet, the Dreamer|2X2|[229]
 [Main]
 1 An Offer You Can't Refuse|fdn
-1 Aqueous Form|cmr
-1 Arcane Signet|tdc
+1 Aqueous Form|PIO|[45]
+1 Arcane Signet|TRC|[485]
 1 Atarka, World Render|tdc
-1 Blasphemous Act|tdc
+1 Blasphemous Act|SOC|[238]
 1 Bountiful Landscape|tdc
 1 Broodcaller Scourge|tdc
 1 Canopy Gargantuan|tdc
-1 Chaos Warp|tdc
-1 Cinder Glade|tdc
-1 Command Tower|tdc
-1 Crucible of the Spirit Dragon|frf
+1 Chaos Warp|MBC|[72]
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
+1 Crucible of the Spirit Dragon|AFC|[231]
 1 Defend the Rider|dft
 1 Dracogenesis|tdm
-1 Dragon Tempest|ima
+1 Dragon Tempest|TDC|[94]
 1 Dragonback Assault|tdm
-1 Sarkhan Unbroken|dtk
+1 Sarkhan Unbroken|PIO|[356]
 1 Ureni of the Unwritten|tdc
-1 Utvara Hellkite|rtr
+1 Utvara Hellkite|RVR|[342]
 1 Fanatic of Rhonas|mh3
 1 Up the Beanstalk|woe
-1 Spell Swindle|xln
-1 Frontier Siege|c17
-1 Beast Within|c19
-1 Descendants' Path|avr
-1 Goldspan Dragon|khm
-1 Terror of the peaks|m21
-1 Scourge of Valkas|ima
-1 Sunbird's Invocation|xln
-1 Dragonhawk, Fate's Tempest|blb
+1 Spell Swindle|MOC|[237]
+1 Frontier Siege|TDC|[256]
+1 Beast Within|TSR|[357]
+1 Descendants' Path|LCC|[238]
+1 Goldspan Dragon|SOC|[245]
+1 Terror of the peaks|OTJ|[149]
+1 Scourge of Valkas|PIO|[155]
+1 Sunbird's Invocation|BLC|[116]
+1 Dragonhawk, Fate's Tempest|FDC|[151]
 1 Dragonlord's Servant|tdc
-1 Dragonspeaker Shaman|j22
-1 Dragonstorm|mma
-1 Dreamroot Cascade|tdc
-1 Elemental Bond|ori
+1 Dragonspeaker Shaman|SCG|[89]
+1 Dragonstorm|SCG|[90]
+1 Dreamroot Cascade|SOS|[254]
+1 Elemental Bond|TDC|[254]
 1 Dragonweave Tapestry|ytdm
-1 Exotic Orchard|tdc
-1 Farseek|blc
-4 Forest|tdm
-1 Frontier Bivouac|tdm
-1 Garruk's Uprising|blc
+1 Exotic Orchard|TRC|[378]
+1 Farseek|RVR|[347]
+4 Forest|INR|[296]
+1 Frontier Bivouac|ECC|[150]
+1 Garruk's Uprising|ECC|[109]
 1 Genesis Ultimatum|iko
 1 Gwenna, Eyes of Gaea|bro
 1 Halimar Depths|dsc
 1 Hammerhead Tyrant|tdc
 1 Haven of the Spirit Dragon|tdc
-1 Hinterland Harbor|tdc
+1 Hinterland Harbor|DMR|[396]
 1 Invasion of Tarkir|mom
-4 Island|tdm
-1 Karplusan Forest|tdc
+4 Island|INR|[290]
+1 Karplusan Forest|ICE|[356]
 1 Kiora, Behemoth Beckoner|war
-1 Kodama's Reach|tdc
+1 Kodama's Reach|ECC|[113]
 1 Lathliss, Dragon Queen|tdc
 1 Birds of Paradise|rvr
 1 Maelstrom of the Spirit Dragon|tdm
-4 Mountain|tdm
+4 Mountain|INR|[294]
 1 Mox Jasper|tdm
-1 Omniscience|wot
+1 Omniscience|FDN|[161]
 1 One with the Multiverse|dsc
 1 Parapet Thrasher|tdc
-1 Path of Ancestry|tdc
-1 Ponder|tdc
+1 Path of Ancestry|TRC|[545]
+1 Ponder|TSR|[315]
 1 Preordain|tdc
 1 Radha, Heart of Keld|m21
-1 Rampant Growth|tdc
-1 Reliquary Tower|tdc
-1 Rockfall Vale|tdc
-1 Rogue's Passage|otc
-1 Rootbound Crag|tdc
+1 Rampant Growth|TMP|[245]
+1 Reliquary Tower|TRC|[551]
+1 Rockfall Vale|FRA|[186]
+1 Rogue's Passage|TRC|[552]
+1 Rootbound Crag|ECC|[163]
 1 Sarkhan, Soul Aflame|tdc
-1 Savage Ventmaw|scd
+1 Savage Ventmaw|FDN|[665]
 1 Serum Visions|otc
-1 Shivan Reef|tdc
-1 Sol Ring|woc
+1 Shivan Reef|APC|[142]
+1 Sol Ring|LEB|[270]
 1 Spell Pierce|dft
-1 Sulfur Falls|tdc
-1 Swiftfoot Boots|tdc
+1 Sulfur Falls|DMR|[400]
+1 Swiftfoot Boots|TRC|[501]
 1 Temple of Abandon|tdc
-1 Temple of Epiphany|tdc
-1 Temple of Mystery|tdc
+1 Temple of Epiphany|SOC|[412]
+1 Temple of Mystery|SOC|[414]
 1 Temple of the Dragon Queen|tdc
-1 Temur Ascendancy|tdc
+1 Temur Ascendancy|TSR|[387]
 1 Temur Battlecrier|tdm
 1 Time Stretch|dmr
 1 Up the Beanstalk|woe
 1 Ureni, the Song Unending|tdm
-1 Urza's Incubator|mh3
+1 Urza's Incubator|DMR|[392]
 1 Vesuvan Drifter|mat
-1 Yavimaya Coast|tdc
+1 Yavimaya Coast|APC|[143]
 1 Zhalfirin Void|afc

@@ -3,17 +3,17 @@ Name=General Jarkeld
 [Commander]
 1 General Jarkeld|ice
 [Main]
-33 Plains|lea
-1 Mox Pearl|lea
-1 Black Lotus|lea
-1 Sol Ring|lea
-1 Arcane Signet|eld
-1 Lightning Greaves|mrd
+33 Plains|INR|[288]
+1 Mox Pearl|LEB|[264]
+1 Black Lotus|LEB|[233]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Lightning Greaves|TRC|[496]
 1 Adeline, Resplendent Cathar|tdc
 1 Akroma's Will|m3c
 1 Angel of the Ruins|eoc
 1 Anointed Procession|akh
-1 Austere Command|mkc
+1 Austere Command|FDC|[18]
 1 Authority of the Consuls|fdn
 1 Avacyn, Angel of Hope|inr
 1 Aven Mindcensor|clb
@@ -22,51 +22,51 @@ Name=General Jarkeld
 1 Cathars' Crusade|inr
 1 Charismatic Conqueror|lcc
 1 Clever Concealment|onc
-1 Darksteel Mutation|cmm
+1 Darksteel Mutation|SOC|[142]
 1 Dawn's Truce|blb
-1 Elesh Norn, Grand Cenobite|nph
+1 Elesh Norn, Grand Cenobite|IMA|[18]
 1 Elspeth, Storm Slayer|tdm
-1 Elspeth, Sun's Champion|mkc
+1 Elspeth, Sun's Champion|FRC|[24]
 1 Enduring Innocence|dsk
 1 Esper Sentinel|h2r
 1 Exalted Sunborn|eoe
-1 Farewell|neo
+1 Farewell|M3C|[170]
 1 Felidar Retreat|fdn
 1 Flare of Fortitude|mh3
-1 Flawless Maneuver|cmm
+1 Flawless Maneuver|FRC|[25]
 1 Generous Gift|blc
-1 Ghostly Prison|tdc
+1 Ghostly Prison|SOC|[146]
 1 Grand Abolisher|big
-1 Intangible Virtue|inr
-1 Knight of the White Orchid|moc
-1 Land Tax|cmm
-1 Loran of the Third Path|blc
-1 Mangara, the Diplomat|tdc
+1 Intangible Virtue|TSR|[295]
+1 Knight of the White Orchid|PIO|[21]
+1 Land Tax|LEG|[26]
+1 Loran of the Third Path|TRC|[229]
+1 Mangara, the Diplomat|SOC|[155]
 1 Mentor of the Meek|inr
-1 Mirror Entity|otc
+1 Mirror Entity|TSR|[297]
 1 Mondrak, Glory Dominus|one
-1 Mother of Runes|clb
+1 Mother of Runes|ULG|[14]
 1 Ocelot Pride|mh3
 1 Ojer Taq, Deepest Foundation|lci
-1 Path to Exile|ecc
+1 Path to Exile|TSR|[299]
 1 Ranger-Captain of Eos|h1r
-1 Sejiri Shelter|znr
-1 Selfless Spirit|tdc
-1 Serra Ascendant|m11
-1 Sevinne's Reclamation|mh3
+1 Sejiri Shelter|PIO|[31]
+1 Selfless Spirit|SOC|[167]
+1 Serra Ascendant|IMA|[31]
+1 Sevinne's Reclamation|DMR|[273]
 1 Skrelv, Defector Mite|one
 1 Smothering Tithe|cmm
 1 Soul Warden|exo
-1 Stroke of Midnight|tdc
-1 Sun Titan|m12
-1 Swords to Plowshares|eoc
+1 Stroke of Midnight|FRC|[35]
+1 Sun Titan|SOC|[178]
+1 Swords to Plowshares|DMR|[275]
 1 Teferi's Protection|2x2
-1 Tocasia's Welcome|tdc
+1 Tocasia's Welcome|SOC|[181]
 1 Trouble in Pairs|mkc
 1 Unbreakable Formation|rvr
-1 Vanquish the Horde|mid
+1 Vanquish the Horde|TRC|[245]
 1 Voice of Victory|tdm
 1 Welcoming Vampire|tdc
-1 Windborn Muse|mkc
+1 Windborn Muse|DMR|[278]
 1 Witch Enchanter|mh3
-1 Wrath of God|cmm
+1 Wrath of God|DMR|[279]

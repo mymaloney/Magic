@@ -1,15 +1,15 @@
 [metadata]
 Name=tibalt_devil
 [Main]
-26 Mountain|ICE
+26 Mountain|INR|[294]
 3 Mogg Maniac|STH
-3 Mogg Raider|ATH
+3 Mogg Raider|TMP|[191]
 4 Goblin Cadets|USG
-4 Goblin Matron|ATH
+4 Goblin Matron|DMR|[323]
 4 Goblin Piledriver|ONS
-4 Mogg Fanatic|ATH
-4 Mogg Flunkies|ATH
+4 Mogg Fanatic|TMP|[190]
+4 Mogg Flunkies|STH|[92]
 4 Rathi Dragon|TMP
-4 Shock|7ED
+4 Shock|ONS|[227]
 4 Sizzle|MMQ
 4 Wildfire|USG

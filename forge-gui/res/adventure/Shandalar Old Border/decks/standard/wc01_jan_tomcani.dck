@@ -2,18 +2,18 @@
 Name=WC01 Jan Tomcani - Dark Fires
 [Main]
 4 Llanowar Elves|LEB
-4 Birds of Paradise|LEB
+4 Birds of Paradise|RVR|[344]
 4 Blastoderm|NMS
 4 Thornscape Battlemage|PLS
-2 Spiritmonger|APC
-2 Flametongue Kavu|PLS
+2 Spiritmonger|DMR|[370]
+2 Flametongue Kavu|DMR|[320]
 2 Kavu Chameleon|INV
 4 Fires of Yavimaya|INV
 4 Saproling Burst|NMS
 4 Fire // Ice|APC
 2 Urza's Rage|INV
-8 Forest|INV
-3 Mountain|INV
+8 Forest|INR|[296]
+3 Mountain|INR|[294]
 2 City of Brass|ARN
 2 Llanowar Wastes|APC
 2 Sulfurous Springs|ICE

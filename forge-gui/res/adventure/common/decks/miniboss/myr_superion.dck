@@ -1,25 +1,25 @@
 [metadata]
 Name=Myr 1
 [Main]
-3 Copper Myr|MRD|1
-3 Gold Myr|MRD|1
+3 Copper Myr|SOM|[146]
+3 Gold Myr|NEC|[153]
 3 Hovermyr|NPH|1
 3 Iron Myr|SOM|1
-3 Leaden Myr|MRD|1
-4 Mishra's Workshop|VMA|1
-4 Myr Battlesphere|BRC|1
+3 Leaden Myr|SOM|[170]
+4 Mishra's Workshop|ATQ|[81]
+4 Myr Battlesphere|TDC|[322]
 4 Myr Galvanizer|SOM|1
 4 Myr Matrix|DST|1
 4 Myr Propagator|SOM|1
 4 Myr Reservoir|SOM|1
 2 Myr Superion|NPH|1
-4 Palladium Myr|C14|1
-3 Plague Myr|MBS|1
-3 Silver Myr|SOM|1
+4 Palladium Myr|FDC|[278]
+3 Plague Myr|ONC|[139]
+3 Silver Myr|FDC|[284]
 3 Urtet, Remnant of Memnarch|ONC|1
-4 Urza's Mine|J22|1
-4 Urza's Power Plant|J22|1
-4 Urza's Tower|J22|1
+4 Urza's Mine|ATQ|[83a]
+4 Urza's Power Plant|ATQ|[84a]
+4 Urza's Tower|ATQ|[85a]
 4 Urza's Workshop|BRC|1
 [Sideboard]
 

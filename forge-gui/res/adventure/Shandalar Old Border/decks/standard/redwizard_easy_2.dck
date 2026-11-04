@@ -1,12 +1,12 @@
 [metadata]
 Name=redwizard_easy_2
 [Main]
-20 Mountain|ODY|2
+20 Mountain|INR|[294]
 4 Blazing Salvo|ODY
 4 Firebolt|ODY
 4 Flame Burst|ODY
-4 Incinerate|ICE
-4 Lightning Bolt|4ED
+4 Incinerate|MIR|[184]
+4 Lightning Bolt|LEB|[162]
 4 Pyroblast|ICE
-4 Shivan Dragon|7ED
-4 Shock|STH
+4 Shivan Dragon|DMR|[329]
+4 Shock|ONS|[227]

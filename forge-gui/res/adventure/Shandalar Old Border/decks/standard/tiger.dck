@@ -1,11 +1,11 @@
 [metadata]
 Name=Tiger - Tiger Tribal
 [Main]
-20 Forest|PTK
-4 Three Visits|PTK
+20 Forest|INR|[296]
+4 Three Visits|SOC|[289]
 3 Cave Tiger|USG
-2 Stalking Tiger|MIR
-1 Stalking Tiger|PTK
+2 Stalking Tiger|POR|[186]
+1 Stalking Tiger|POR|[186]
 1 Stalking Tiger|POR
 3 Uktabi Orangutan|VIS
 2 Zodiac Tiger|PTK
@@ -16,5 +16,5 @@ Name=Tiger - Tiger Tribal
 3 Tranquility|INV
 2 Tribal Unity|ONS
 2 Sylvan Might|ODY
-4 Overrun|TMP
-4 Giant Growth|7ED
+4 Overrun|ODY|[260]
+4 Giant Growth|ICE|[246]

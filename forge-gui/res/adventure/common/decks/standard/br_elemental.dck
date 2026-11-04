@@ -1,28 +1,28 @@
 [metadata]
 Name=BR Elemental
 [Main]
-2 Ashenmoor Gouger|SHM|1
+2 Ashenmoor Gouger|MM2|[190]
 4 Ashenmoor Liege|2X2|1
-1 Ashling the Pilgrim|DMC|1
-2 Blackcleave Cliffs|ONE|1
-2 Blood Crypt|RTR|1
+1 Ashling the Pilgrim|CMM|[205]
+2 Blackcleave Cliffs|DSC|[263]
+2 Blood Crypt|RVR|[397]
 3 Brighthearth Banneret|MOR|1
-2 Canyon Slough|AKR|1
+2 Canyon Slough|TRC|[369]
 2 Chandra's Embercat|M20|1
-2 Chandra's Magmutt|M21|1
-2 Cinder Elemental|HOP|1
+2 Chandra's Magmutt|J22|[512]
+2 Cinder Elemental|MMQ|[183]
 4 Cinderbones|SHM|1
-2 Dragonskull Summit|DMC|1
+2 Dragonskull Summit|TRC|[375]
 2 Elemental Expressionist|STX|1
 4 Flame Burst|ODY|1
-2 Haunted Ridge|MID|1
-4 Incandescent Soulstoke|MM2|1
-4 Kulrath Knight|SHM|1
-7 Mountain|ONE|3
-2 Necroskitter|TD2|1
+2 Haunted Ridge|FRA|[180]
+4 Incandescent Soulstoke|ECC|[94]
+4 Kulrath Knight|ECC|[126]
+7 Mountain|INR|[294]
+2 Necroskitter|ECC|[48]
 2 Nyxathid|JMP|1
-1 Obsidian Fireheart|ZEN|1
+1 Obsidian Fireheart|E01|[55]
 4 Pardic Firecat|ODY|1
-2 Smoldering Marsh|DMC|1
+2 Smoldering Marsh|TRC|[403]
 2 Spitemare|DDH|1
-6 Swamp|ONE|3
+6 Swamp|INR|[292]

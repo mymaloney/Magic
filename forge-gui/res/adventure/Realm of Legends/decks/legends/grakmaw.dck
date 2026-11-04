@@ -3,63 +3,63 @@ Name=Grakmaw
 [Commander]
 1 Grakmaw, Skyclave Ravager|ZNR
 [Main]
-1 Benevolent Hydra|J22
+1 Benevolent Hydra|SOC|[124]
 1 Bloodspore Thrinax|CMM
-1 Broken Wings|CMM
+1 Broken Wings|DFT|[156]
 1 Carnivorous Canopy|ONE
-1 Corpsejack Menace|IMA
+1 Corpsejack Menace|CM2|[152]
 1 Daemogoth Titan|STX
-1 Kami of Whispered Hopes|MOM
-1 Path of Ancestry|LCC
-1 Necroblossom Snarl|STX
-1 Temple of Malady|BLC
-1 Dig Up|VOW
-1 Doubling Season|CMM
+1 Kami of Whispered Hopes|SOC|[273]
+1 Path of Ancestry|TRC|[545]
+1 Necroblossom Snarl|SOC|[389]
+1 Temple of Malady|SOC|[413]
+1 Dig Up|DBL|[464]
+1 Doubling Season|FDN|[216]
 1 Drown in Ichor|ONE
-1 Duskshell Crawler|J22
-1 Evolution Sage|ONC
-1 Evolving Wilds|VOW
-16 Forest|ZNR
+1 Duskshell Crawler|J25|[653]
+1 Evolution Sage|ECC|[105]
+1 Evolving Wilds|TRC|[527]
+16 Forest|INR|[296]
 1 Gift of the Viper|MH3
-1 Golgari Rot Farm|CMM
-1 Haunted Mire|DMU
+1 Golgari Rot Farm|ECC|[151]
+1 Haunted Mire|SOC|[379]
 1 Hooded Hydra|MKC
 1 Hungering Hydra|C20
-1 Hydra's Growth|THB
-1 Inspiring Call|DTK
-1 Invigorating Surge|M21
-1 Iridescent Hornbeetle|ZNR
-1 Jungle Hollow|MOM
+1 Hydra's Growth|J22|[89]
+1 Inspiring Call|FDN|[226]
+1 Invigorating Surge|J25|[673]
+1 Iridescent Hornbeetle|J22|[678]
+1 Jungle Hollow|TDM|[258]
 1 Kalonian Hydra|BLC
-1 Leafkin Druid|M20
+1 Leafkin Druid|SCD|[196]
 1 Lich-Knights' Conquest|WOE
 1 Malakir Rebirth|ZNR
-1 Massacre Girl, Known Killer|MKM
+1 Massacre Girl, Known Killer|ECC|[79]
 1 Nissa of Shadowed Boughs|ZNR
-1 Offer Immortality|ONE
-1 Oran-Rief Ooze|ZNR
-1 Ordeal of Nylea|J22
-1 Ozolith, the Shattered Spire|MOM
-1 Phantom Nantuko|C13
-1 Phyrexian Arena|ONE
+1 Offer Immortality|FDN|[525]
+1 Oran-Rief Ooze|J25|[693]
+1 Ordeal of Nylea|FDN|[641]
+1 Ozolith, the Shattered Spire|SOC|[281]
+1 Phantom Nantuko|JUD|[128]
+1 Phyrexian Arena|APC|[47]
 1 Plague Wind|PCY
-1 Primordial Hydra|J22
+1 Primordial Hydra|SOC|[284]
 1 Revive the Fallen|MOR
-1 Roiling Regrowth|ZNR
-1 Llanowar Wastes|DOM
-1 Command Tower|SCD
+1 Roiling Regrowth|EOC|[105]
+1 Llanowar Wastes|APC|[141]
+1 Command Tower|TRC|[521]
 1 Cursed Wombat|MH3
 1 Lair of the Hydra|M3C
 1 Gargos, Vicious Watcher|M20
 1 Solidarity of Heroes|CM2
-1 Putrefy|STA
+1 Putrefy|RVR|[378]
 1 Storm the Seedcore|MOM
 1 Surrak, Elusive Hunter|TDM
-9 Swamp|ZNR
+9 Swamp|INR|[292]
 1 Tangled Florahedron|ZNR
 1 Thirsting Roots|ONE
 1 Traverse the Outlands|CLB
-1 Unbound Flourishing|MH1
+1 Unbound Flourishing|SOC|[126]
 1 Vat Emergence|ONE
 1 Virtue of Persistence|WOE
 1 Virtue of Strength|WOE
@@ -68,14 +68,14 @@ Name=Grakmaw
 1 Undying Malice|FDN
 1 Blood Money|LCC
 1 Cankerbloom|ONE
-1 Casualties of War|BLC
-1 Reyhan, Last of the Abzan|C16
-1 Tear Asunder|DMU
+1 Casualties of War|SOC|[300]
+1 Reyhan, Last of the Abzan|CM2|[13]
+1 Tear Asunder|EOC|[109]
 1 Winding Constrictor|AER
-1 Managorger Hydra|MOC
-1 Sol Ring|ECC
-1 Arcane Signet|ECC
-1 Nissa, Voice of Zendikar|OGW
-1 Whiptongue Hydra|NEC
+1 Managorger Hydra|FDC|[216]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Nissa, Voice of Zendikar|PIO|[188]
+1 Whiptongue Hydra|FDC|[240]
 1 Woodland Cemetery|DMR
 1 Wren's Run Hydra|MH2

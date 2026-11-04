@@ -1,21 +1,21 @@
 [metadata]
 Name=challenger_20_flash_of_ferocity
 [Main]
-1 Brazen Borrower|ELD|1
-4 Brineborn Cutthroat|M20|1
-2 Castle Vantress|ELD|1
-1 Fabled Passage|ELD|1
-8 Forest|M20|1
-4 Frilled Mystic|RNA|1
-8 Island|M20|1
-4 Nightpack Ambusher|M20|1
-4 Opt|ELD|1
-4 Quench|RNA|1
-2 Sinister Sabotage|SCD|1
-4 Spectral Sailor|M20|1
-2 Temple of Mystery|M20|1
+1 Brazen Borrower|SOC|[190]
+4 Brineborn Cutthroat|PIO|[48]
+2 Castle Vantress|DSC|[267]
+1 Fabled Passage|TRC|[379]
+8 Forest|INR|[296]
+4 Frilled Mystic|RVR|[366]
+8 Island|INR|[290]
+4 Nightpack Ambusher|J22|[696]
+4 Opt|INV|[64]
+4 Quench|RVR|[56]
+2 Sinister Sabotage|RVR|[61]
+4 Spectral Sailor|FDN|[164]
+2 Temple of Mystery|SOC|[414]
 2 Thassa's Intervention|THB|1
-3 Thornwood Falls|M20|1
-2 Unsummon|M20|1
-1 Wavebreak Hippocamp|THB|1
-4 Wildborn Preserver|ELD|1
+3 Thornwood Falls|TDM|[269]
+2 Unsummon|LEB|[87]
+1 Wavebreak Hippocamp|J25|[387]
+4 Wildborn Preserver|FDN|[650]

@@ -2,30 +2,30 @@
 Name=gargoyle
 [Main]
 1 Biblioplex Assistant|STX|1
-1 Darksteel Gargoyle|DST|1
-2 Devouring Light|RAV|1
-1 Disenchant|CMR|1
-1 Gargoyle Castle|M10|1
+1 Darksteel Gargoyle|TD2|[19]
+2 Devouring Light|RVR|[305]
+1 Disenchant|MMQ|[18]
+1 Gargoyle Castle|C19|[245]
 1 Graven Dominator|GPT|1
-1 Kjeldoran Gargoyle|CSP|1
+1 Kjeldoran Gargoyle|DMR|[11]
 2 Lithomancer's Focus|BFZ|1
-4 Locthwain Gargoyle|ELD|1
-2 Lumengrid Gargoyle|MBS|1
+4 Locthwain Gargoyle|J22|[783]
+2 Lumengrid Gargoyle|CMR|[321]
 4 Marble Gargoyle|MH2|1
 4 Opal Gargoyle|USG|1
 1 Opal Guardian|TSP|1
-5 Plains|GRN|1
-2 Plains|ISD|1
-1 Plains|ISD|2
-2 Plains|ISD|3
-1 Plains|RAV|1
-2 Plains|RAV|2
-2 Plains|RAV|4
-4 Plains|RNA|1
-5 Plains|VOW|3
-1 Sanctum Gargoyle|ALA|1
+5 Plains|INR|[288]
+2 Plains|INR|[288]
+1 Plains|INR|[288]
+2 Plains|INR|[288]
+1 Plains|INR|[288]
+2 Plains|INR|[288]
+2 Plains|INR|[288]
+4 Plains|INR|[288]
+5 Plains|INR|[288]
+1 Sanctum Gargoyle|J22|[236]
 4 Skyclave Sentinel|ZNR|1
-1 Stonecloaker|PLC|1
+1 Stonecloaker|TSR|[45]
 2 Thraben Gargoyle|SOI|1
-1 Wakestone Gargoyle|CNS|1
+1 Wakestone Gargoyle|TDC|[137]
 2 Warden of the Wall|DKA|1

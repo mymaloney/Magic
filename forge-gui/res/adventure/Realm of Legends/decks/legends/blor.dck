@@ -3,64 +3,64 @@ Name=Blor
 [Commander]
 1 Blor the Impervious|mbc
 [Main]
-1 Alpha Authority|gtc
-1 Ancestral Mask|ema
-1 Arcane Signet|blc
-1 Audacity|bro
-1 Basilisk Collar|fdn
-1 Bear Umbra|nec
+1 Alpha Authority|PIO|[162]
+1 Ancestral Mask|MMQ|[229]
+1 Arcane Signet|TRC|[485]
+1 Audacity|PIO|[164]
+1 Basilisk Collar|FDC|[246]
+1 Bear Umbra|WOC|[121]
 1 Wear Down|blb
 1 Hunter's Talent|blb
 1 Longstalk Brawl|blb
 1 Tanglesap|zen
 1 Spore Cloud|fem
-1 Respite|cns
+1 Respite|TMP|[249]
 1 Defend the Hearth|ths
 1 Tangle|inv
 1 Commencement of Festivities|kld
-1 Hunter's Prowess|scd
-1 Fog|5ed
+1 Hunter's Prowess|PIO|[381]
+1 Fog|MIR|[216]
 1 Contest of Claws|lcc
 1 Moment's Peace|ody
-1 Beast Within|nph
+1 Beast Within|TSR|[357]
 1 Blackblade Reforged|dmc
-1 Blanchwood Armor|fdn
+1 Blanchwood Armor|USG|[237]
 1 Boar Umbra|uma
-1 Colossal Majesty|clu
+1 Colossal Majesty|FDC|[197]
 1 Colossification|blb
-1 Emerald Medallion|mh3
-1 Enchantress's Presence|cmm
-1 Fertile Ground|ecc
-1 Fireshrieker|fdn
-39 Forest|blb|[377]
+1 Emerald Medallion|TMP|[283]
+1 Enchantress's Presence|ONS|[261]
+1 Fertile Ground|INV|[188]
+1 Fireshrieker|J25|[750]
+39 Forest|INR|[296]
 1 Hunter's Insight|cmm
 1 Indomitable Might|woc
 1 Keen Sense|tsr
-1 Kenrith's Transformation|eld
+1 Kenrith's Transformation|FDC|[212]
 1 Krosan Grip|c21
-1 Lignify|lrw
+1 Lignify|GVL|[16]
 1 Lion Umbra|mh3
-1 Nature's Claim|wwk
+1 Nature's Claim|TSR|[364]
 1 Overprotect|blb
 1 Primal Bellow|zen
-1 Primal Might|fdn
+1 Primal Might|SOC|[283]
 1 Prodigious Growth|m19
-1 Ram Through|cmm
-1 Rancor|2x2
-1 Regrowth|mh1
-1 Reliquary Tower|soc
+1 Ram Through|FDC|[221]
+1 Rancor|ULG|[110]
+1 Regrowth|LEB|[215]
+1 Reliquary Tower|TRC|[551]
 1 Return of the Wildspeaker|ecc
-1 Rishkar's Expertise|m3c
-1 Rogue's Passage|rtr
+1 Rishkar's Expertise|FDC|[226]
+1 Rogue's Passage|TRC|[552]
 1 Sixth Sense|akh
-1 Snake Umbra|nec
-1 Sol Ring|blc
+1 Snake Umbra|WOC|[133]
+1 Sol Ring|LEB|[270]
 1 Soul's Majesty|nec
 1 Spider Umbra|uma
-1 Aspect of Wolf|lea
+1 Aspect of Wolf|LEB|[185]
 1 Strata Scythe|c14
-1 Swiftfoot Boots|fdn
+1 Swiftfoot Boots|TRC|[501]
 1 Unnatural Growth|inr
 1 Utopia Sprawl|rvr
-1 Verduran Enchantress|cmm
-1 Wild Growth|mkc
+1 Verduran Enchantress|LEB|[223]
+1 Wild Growth|DMR|[352]

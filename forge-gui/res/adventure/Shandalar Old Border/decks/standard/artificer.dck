@@ -1,10 +1,10 @@
 [metadata]
 Name=artificer
 [Main]
-1 Mishra's Factory|ATQ|1
-1 Mishra's Factory|ATQ|2
-1 Mishra's Factory|ATQ|3
-1 Mishra's Factory|ATQ|4
+1 Mishra's Factory|DMR|[399]
+1 Mishra's Factory|DMR|[399]
+1 Mishra's Factory|DMR|[399]
+1 Mishra's Factory|DMR|[399]
 4 Stalking Stones|TMP
 1 Urza's Mine|ATQ|1
 1 Urza's Mine|ATQ|2
@@ -22,11 +22,11 @@ Name=artificer
 2 Worn Powerstone|USG
 2 Thran Dynamo|UDS
 4 Brass Man|ARN
-4 Ornithopter|ATQ
+4 Ornithopter|DMR|[386]
 4 Yotian Soldier|ATQ
 4 Clockwork Avian|ATQ
-4 Clockwork Beast|LEA
-4 Juggernaut|LEA
+4 Clockwork Beast|LEB|[237]
+4 Juggernaut|DMR|[382]
 4 Diabolic Machine|DRK
-2 Icy Manipulator|ICE
+2 Icy Manipulator|DMR|[380]
 2 Amulet of Unmaking|MIR

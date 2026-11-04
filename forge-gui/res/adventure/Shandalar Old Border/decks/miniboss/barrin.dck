@@ -1,24 +1,24 @@
 [metadata]
 Name=Barrin
 [Main]
-11 Island|ICE
-4 Underground Sea|LEA
+11 Island|INR|[290]
+4 Underground Sea|LEB|[286]
 1 Tolaria|LEG
 4 Tolarian Academy|USG
 4 Confiscate|USG
 4 Barrin's Spite|INV
 2 Barrin's Unmaking|INV
-2 Opposition|UDS
+2 Opposition|DMR|[290]
 4 Rewind|USG
 2 Warped Devotion|PLS
 2 Evacuation|STH
 4 Riptide Replicator|ONS
-2 Crawlspace|ULG
-2 Forcefield|LEA
+2 Crawlspace|DMR|[375]
+2 Forcefield|LEB|[244]
 2 Barrin's Codex|USG
 2 Temporal Aperture|USG
 2 Morphling|USG
-2 Counterspell|ICE
+2 Counterspell|DMR|[281]
 4 Su-Chi|ATQ
 
 [StartInBattle_Reference]

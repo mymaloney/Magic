@@ -1,19 +1,19 @@
 [metadata]
 Name=cat_greenwhite2
 [Main]
-1 Plains|ONS|3
-14 Forest|ONS|3
+1 Plains|INR|[288]
+14 Forest|INR|[296]
 2 Elven Fortress|FEM
 2 Elvish Pioneer|ONS
 2 Voice of the Woods|ONS
 2 Wild Mongrel|ODY
-2 Windswept Heath|ONS
-2 Wooded Foothills|ONS
+2 Windswept Heath|MH3|[440]
+2 Wooded Foothills|MH3|[441]
 4 Brushland|ICE
 4 Elvish Aberration|SCG
 4 Giant Growth|ICE
-4 Llanowar Elves|ATH
-4 Might of Oaks|7ED
-4 Serra's Blessing|6ED
-4 Squirrel Nest|ODY
+4 Llanowar Elves|LEB|[211]
+4 Might of Oaks|ULG|[106]
+4 Serra's Blessing|WTH|[25]
+4 Squirrel Nest|DMR|[349]
 4 Wellwisher|ONS

@@ -1,20 +1,20 @@
 [metadata]
 Name=King Kane Ferguson
 [Main]
-3 Flooded Strand|ONS
-3 Bloodstained Mire|ONS
-3 Wooded Foothills|ONS
-3 Polluted Delta|ONS
-3 Windswept Heath|ONS
-3 Plains|ONS
-3 Swamp|ONS
-3 Forest|ONS
-3 Mountain|ONS
-3 Island|ONS
+3 Flooded Strand|MH3|[436]
+3 Bloodstained Mire|MH3|[435]
+3 Wooded Foothills|MH3|[441]
+3 Polluted Delta|MH3|[438]
+3 Windswept Heath|MH3|[440]
+3 Plains|INR|[288]
+3 Swamp|INR|[292]
+3 Forest|INR|[296]
+3 Mountain|INR|[294]
+3 Island|INR|[290]
 4 Reflecting Pool|TMP
 4 Grand Coliseum|ONS
 2 Hazezon Tamar|LEG
-2 Sol'kanar the Swamp King|LEG
+2 Sol'kanar the Swamp King|DMR|[368]
 2 Dakkon Blackblade|LEG
 1 Jasmine Boreal|LEG
 1 The Lady of the Mountain|LEG
@@ -28,7 +28,7 @@ Name=King Kane Ferguson
 2 Goblin War Drums|FEM|2
 2 Kaervek's Purge|MIR
 2 Watchdog|TMP
-1 Drain Life|LEA
+1 Drain Life|MIR|[118]
 2 Rootbreaker Wurm|TMP
 2 Krakilin|TMP
 1 Elder Druid|ICE
@@ -37,14 +37,14 @@ Name=King Kane Ferguson
 2 Wildfire Emissary|MIR
 2 Searing Spear Askari|MIR
 1 Pillage|ALL
-2 Earthquake|6ED
+2 Earthquake|PO2|[94]
 2 Flame Elemental|MIR
 1 Icequake|ICE
 2 Field of Souls|TMP
 2 Misinformation|ALL
-2 Theft of Dreams|EXO
+2 Theft of Dreams|PO2|[55]
 2 Thalakos Mistfolk|TMP
-2 Recall|5ED
+2 Recall|LEG|[70]
 1 Dream Prowler|STH
 1 Walking Dream|STH
 2 Dissipate|MIR
@@ -55,7 +55,7 @@ Name=King Kane Ferguson
 
 [StartInBattle_Reference]
 3 Grand Coliseum|ONS
-1 Jade Monolith|5ED
+1 Jade Monolith|LEB|[253]
 1 Dingus Staff|WTH
-1 Wall of Air|5ED
+1 Wall of Air|LEB|[90]
 1 Watchdog|TMP

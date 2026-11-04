@@ -1,20 +1,20 @@
 [metadata]
 Name=demoncaller
 [Main]
-1 Demonic Tutor|3ED
-17 Swamp|4ED|2
-2 Black Knight|4ED
-2 Lord of the Pit|LEA
-2 Shivan Dragon|4ED
-3 Dark Ritual|3ED
+1 Demonic Tutor|LEB|[105]
+17 Swamp|INR|[292]
+2 Black Knight|LEB|[95]
+2 Lord of the Pit|LEB|[115]
+2 Shivan Dragon|DMR|[329]
+3 Dark Ritual|MMQ|[129]
 3 Demonic Consultation|ICE
 3 Sinkhole|LEB
-3 Terror|4ED
-3 Unholy Strength|4ED
-4 Duress|USG
-4 Fireball|4ED
+3 Terror|DMR|[312]
+3 Unholy Strength|LEB|[132]
+4 Duress|DMR|[303]
+4 Fireball|LEB|[150]
 4 Hymn to Tourach|FEM
-4 Lightning Bolt|4ED
-4 Raise Dead|4ED
+4 Lightning Bolt|LEB|[162]
+4 Raise Dead|PO2|[86]
 4 Sulfurous Springs|ICE
-5 Mountain|4ED|2
+5 Mountain|INR|[294]

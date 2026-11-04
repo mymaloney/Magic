@@ -1,41 +1,41 @@
 [metadata]
 Name=Frodo 2
 [Main]
-3 Plateau
-3 Taiga
-3 Savannah
-2 Arid Mesa
-1 Wooded Foothills
-2 Grasslands
-1 Windswept Heath
-2 Mountain Valley
-3 Mountain|ZEN
-2 Forest|ZEN
-2 Plains|ZEN
-3 Kird Ape
-1 Lightning Helix
-1 Guerrilla Tactics
-3 Savannah Lions
-1 Glorious Anthem
-3 Plated Geopede
-1 Path to Exile
-1 Puncturing Light
-1 Journey to Nowhere
-1 Lightning Bolt
-1 Volcanic Hammer
-3 Loam Lion
-1 Serra's Blessing
-1 Barbary Apes
-1 Steppe Lynx
-3 Wild Nacatl
-1 Flinthoof Boar
-1 Fledgling Griffin
-1 Summit Apes
-1 Hedge Troll
-1 Cerodon Yearling
-1 Skyknight Legionnaire
-1 Watchwolf
-1 Raging Kavu
-1 Rip-Clan Crasher
-1 Tattermunge Maniac
+3 Plateau|LEB|[280]
+3 Taiga|LEB|[283]
+3 Savannah|LEB|[281]
+2 Arid Mesa|MH2|[436]
+1 Wooded Foothills|MH3|[441]
+2 Grasslands|MIR|[327]
+1 Windswept Heath|MH3|[440]
+2 Mountain Valley|MIR|[328]
+3 Mountain|INR|[294]
+2 Forest|INR|[296]
+2 Plains|INR|[288]
+3 Kird Ape|ARN|[40]
+1 Lightning Helix|RVR|[372]
+1 Guerrilla Tactics|ALL|[74a]
+3 Savannah Lions|DMR|[270]
+1 Glorious Anthem|USG|[15]
+3 Plated Geopede|DDI|[45]
+1 Path to Exile|TSR|[299]
+1 Puncturing Light|SOI|[35]
+1 Journey to Nowhere|CMD|[17]
+1 Lightning Bolt|LEB|[162]
+1 Volcanic Hammer|PO2|[119]
+3 Loam Lion|DDH|[5]
+1 Serra's Blessing|WTH|[25]
+1 Barbary Apes|LEG|[176]
+1 Steppe Lynx|J22|[251]
+3 Wild Nacatl|DDH|[4]
+1 Flinthoof Boar|EMA|[166]
+1 Fledgling Griffin|WWK|[5]
+1 Summit Apes|WWK|[114]
+1 Hedge Troll|PLC|[151]
+1 Cerodon Yearling|HOP|[86]
+1 Skyknight Legionnaire|RVR|[225]
+1 Watchwolf|GK1|[122]
+1 Raging Kavu|INV|[262]
+1 Rip-Clan Crasher|ALA|[189]
+1 Tattermunge Maniac|SHM|[219]
 [Sideboard]

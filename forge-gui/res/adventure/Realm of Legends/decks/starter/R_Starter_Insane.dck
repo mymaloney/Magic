@@ -3,74 +3,74 @@ Name=Starter_Red
 [Commander]
 1 Toggo, Goblin Weaponsmith|CMR
 [Main]
-15 Mountain|FDN|[278]
-15 Mountain|FDN|[279]
-1 Thriving Bluff|JMP
-1 Vivid Crag|CMD
-1 Forgotten Cave|CMD
-1 Command Tower|CMD
-1 Opal Palace|C13
-1 Path of Ancestry|C17
-1 Exotic Orchard|C19
-1 Terramorphic Expanse|M10
-1 Evolving Wilds|FDN
-1 Ash Barrens|C16
-1 Sol Ring|CMD
-1 Arcane Signet|ELD
-1 Commander's Sphere|C14
-1 Mind Stone|CMM
-1 Thought Vessel|C15
-1 Wayfarer's Bauble|C14
-1 Swiftfoot Boots|FDN
-1 Jayemdae Tome|4ED
-1 Geode Golem|C18
-1 Solemn Simulacrum|C14
+15 Mountain|INR|[294]
+15 Mountain|INR|[294]
+1 Thriving Bluff|ECC|[170]
+1 Vivid Crag|CM2|[276]
+1 Forgotten Cave|ONS|[317]
+1 Command Tower|TRC|[521]
+1 Opal Palace|SOC|[390]
+1 Path of Ancestry|TRC|[545]
+1 Exotic Orchard|TRC|[378]
+1 Terramorphic Expanse|TRC|[571]
+1 Evolving Wilds|TRC|[527]
+1 Ash Barrens|TDC|[339]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Commander's Sphere|TRC|[487]
+1 Mind Stone|DMR|[385]
+1 Thought Vessel|TRC|[509]
+1 Wayfarer's Bauble|TRC|[511]
+1 Swiftfoot Boots|TRC|[501]
+1 Jayemdae Tome|LEB|[255]
+1 Geode Golem|CMM|[386]
+1 Solemn Simulacrum|TSR|[400]
 1 Viashino Pyromancer|FDN
-1 Guttersnipe|FDN
+1 Guttersnipe|RVR|[332]
 1 Axgard Cavalry|FDN
 1 Scorching Dragonfire|FDN
 1 Fanatical Firebrand|FDN
 1 Courageous Goblin|FDN
-1 Thrill of Possibility|FDN
+1 Thrill of Possibility|TRC|[455]
 1 Crash Through|FDN
 1 Burst Lightning|FDN
 1 Bulk Up|FDN
 1 Bolt Bend|FDN
 1 Boarding Party|CMR
-1 Rummaging Goblin|CMR
+1 Rummaging Goblin|J22|[591]
 1 Soul's Fire|CMR
-1 Temur Battle Rage|CMR
+1 Temur Battle Rage|TSR|[351]
 1 Stonefury|CMR
-1 Abrade|CMR
+1 Abrade|TRC|[449]
 1 Volcanic Fallout|CMR
-1 Loyal Apprentice|CMM
-1 Fire Diamond|CMR
-1 Searing Spear|M13
-1 Trumpet Blast|M13
-1 Smelt|M13
-1 Volcanic Geyser|M13
-1 Kindled Fury|M13
-1 Torch Fiend|M13
+1 Loyal Apprentice|TDC|[222]
+1 Fire Diamond|MIR|[302]
+1 Searing Spear|J22|[597]
+1 Trumpet Blast|UDS|[98]
+1 Smelt|M19|[158]
+1 Volcanic Geyser|MIR|[202]
+1 Kindled Fury|J25|[571]
+1 Torch Fiend|JMP|[367]
 1 Mindclaw Shaman|M13
-1 Dragon Hatchling|M13
-1 Goblin Arsonist|M13
-1 Uncontrollable Anger|10E
-1 Pyroclasm|10E
-1 Threaten|10E
-1 Shock|10E
-1 Incinerate|10E
-1 Prodigal Pyromancer|10E
-1 Raging Goblin|10E
-1 Mogg Fanatic|10E
-1 Flamewave Invoker|10E
-1 Furnace Whelp|10E
-1 Fire Elemental|4ED
-1 Orcish Artillery|4ED
-1 Hurloon Minotaur|4ED
-1 Keldon Warlord|4ED
-1 Sisters of the Flame|4ED
-1 Lightning Bolt|4ED
-1 Fireball|4ED
-1 Disintegrate|4ED
-1 Stone Rain|4ED
-1 Blood Lust|4ED
+1 Dragon Hatchling|J25|[536]
+1 Goblin Arsonist|J25|[555]
+1 Uncontrollable Anger|CNS|[155]
+1 Pyroclasm|POR|[143]
+1 Threaten|ONS|[241]
+1 Shock|ONS|[227]
+1 Incinerate|MIR|[184]
+1 Prodigal Pyromancer|TSR|[180]
+1 Raging Goblin|PO2|[114]
+1 Mogg Fanatic|TMP|[190]
+1 Flamewave Invoker|LGN|[92]
+1 Furnace Whelp|SCD|[143]
+1 Fire Elemental|LEB|[149]
+1 Orcish Artillery|LEB|[166]
+1 Hurloon Minotaur|LEB|[159]
+1 Keldon Warlord|LEB|[161]
+1 Sisters of the Flame|DRK|[74]
+1 Lightning Bolt|LEB|[162]
+1 Fireball|LEB|[150]
+1 Disintegrate|LEB|[141]
+1 Stone Rain|MMQ|[215]
+1 Blood Lust|LEG|[135]

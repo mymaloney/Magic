@@ -8,89 +8,89 @@ Name=Teval, the Balanced Scale
 1 Floral Evoker|TDC|1
 1 Steward of the Harvest|TDC|1
 1 Colossal Grave-Reaver|TDC|1
-1 Gravecrawler|TDC|1
+1 Gravecrawler|INR|[380]
 1 Amphin Mutineer|TDC|1
 1 River Kelpie|TDC|1
-1 Dauthi Voidwalker|TDC|1
+1 Dauthi Voidwalker|MH2|[397]
 1 Disciple of Bolas|TDC|1
 1 Junji, the Midnight Sky|TDC|1
 1 Lord of the Forsaken|TDC|1
 1 Necropolis Fiend|TDC|1
 1 Noxious Gearhulk|TDC|1
 1 Ob Nixilis, the Fallen|TDC|1
-1 Tasigur, the Golden Fang|TDC|1
-1 Woe Strider|TDC|1
-1 Avenger of Zendikar|TDC|1
-1 Multani, Yavimaya's Avatar|TDC|1
+1 Tasigur, the Golden Fang|TSR|[333]
+1 Woe Strider|SOC|[231]
+1 Avenger of Zendikar|ECC|[98]
+1 Multani, Yavimaya's Avatar|EOC|[100]
 1 Shigeki, Jukai Visionary|TDC|1
-1 Consuming Aberration|TDC|1
+1 Consuming Aberration|TSR|[374]
 1 Jarad, Golgari Lich Lord|TDC|1
 1 Lord of Extinction|TDC|1
 1 Meren of Clan Nel Toth|TDC|1
 1 Hedron Crab|TDC|1
-1 Wonder|TDC|1
+1 Wonder|JUD|[54]
 1 Reassembling Skeleton|TDC|1
 1 Stitcher's Supplier|TDC|1
 1 Kishla Skimmer|TDM|1
-1 Sakura-Tribe Elder|TDC|1
-1 Satyr Wayfinder|TDC|1
-1 Springbloom Druid|TDC|1
+1 Sakura-Tribe Elder|SOC|[285]
+1 Satyr Wayfinder|EOC|[106]
+1 Springbloom Druid|SOC|[287]
 1 Timeless Witness|TDC|1
 1 Nyx Weaver|TDC|1
 1 Skull Prophet|TDC|1
-1 Millikin|TDC|1
+1 Millikin|ODY|[302]
 1 Afterlife from the Loam|TDC|1
 1 Welcome the Dead|TDC|1
 1 Will of the Sultai|TDC|1
-1 Life from the Loam|TDC|1
-1 Casualties of War|TDC|1
-1 Living Death|TDC|1
+1 Life from the Loam|RVR|[350]
+1 Casualties of War|SOC|[300]
+1 Living Death|TMP|[142]
 1 Necromantic Selection|TDC|1
-1 Treasure Cruise|TDC|1
-1 Victimize|TDC|1
-1 Cultivate|TDC|1
-1 Farseek|TDC|1
-1 Rampant Growth|TDC|1
+1 Treasure Cruise|TSR|[319]
+1 Victimize|MH3|[413]
+1 Cultivate|SOC|[265]
+1 Farseek|RVR|[347]
+1 Rampant Growth|TMP|[245]
 1 Teval's Judgment|TDC|1
-1 Phyrexian Reclamation|TDC|1
+1 Phyrexian Reclamation|ULG|[63]
 1 Crawling Sensation|TDC|1
 1 Lethal Scheme|TDC|1
-1 Forbidden Alchemy|TDC|1
-1 Grapple with the Past|TDC|1
-1 Harrow|TDC|1
-1 Tear Asunder|TDC|1
+1 Forbidden Alchemy|INR|[355]
+1 Grapple with the Past|INR|[412]
+1 Harrow|INV|[189]
+1 Tear Asunder|EOC|[109]
 1 Grisly Salvage|TDC|1
-1 Putrefy|TDC|1
+1 Putrefy|RVR|[378]
 1 Conduit of Worlds|TDC|1
 1 Essence Anchor|TDM|1
-1 Arcane Signet|TDC|1
-1 Sol Ring|TDC|1
-1 Command Beacon|TDC|1
+1 Arcane Signet|TRC|[485]
+1 Sol Ring|LEB|[270]
+1 Command Beacon|TRC|[373]
 1 Crypt of Agadeem|TDC|1
-1 Watery Grave|GTC
-1 Dreamroot Cascade|TDC|1
+1 Watery Grave|RVR|[415]
+1 Dreamroot Cascade|SOS|[254]
 1 Drownyard Temple|TDC|1
-1 Exotic Orchard|TDC|1
-1 Fetid Pools|TDC|1
-1 Hinterland Harbor|TDC|1
-1 Llanowar Wastes|TDC|1
-1 Sunken Hollow|TDC|1
-1 Temple of Malady|TDC|1
-1 Woodland Cemetery|TDC|1
-1 Command Tower|TDC|1
-1 Opulent Palace|TDM|1
-1 Cephalid Coliseum|TDC|1
+1 Exotic Orchard|TRC|[378]
+1 Fetid Pools|TRC|[380]
+1 Hinterland Harbor|DMR|[396]
+1 Llanowar Wastes|APC|[141]
+1 Sunken Hollow|TRC|[407]
+1 Temple of Malady|SOC|[413]
+1 Woodland Cemetery|DMR|[401]
+1 Command Tower|TRC|[521]
+1 Opulent Palace|ECC|[157]
+1 Cephalid Coliseum|ODY|[317]
 1 Contaminated Aquifer|TDC|1
 1 Foreboding Landscape|TDC|1
-1 Golgari Rot Farm|TDC|1
-1 Haunted Mire|TDC|1
+1 Golgari Rot Farm|ECC|[151]
+1 Haunted Mire|SOC|[379]
 1 Memorial to Folly|TDC|1
-1 Myriad Landscape|TDC|1
-1 Terramorphic Expanse|TDC|1
-2 Island|TDM|2
-2 Island|TDM|3
-3 Swamp|TDM|2
-2 Swamp|TDM|3
-3 Forest|TDM|2
-3 Forest|TDM|3
+1 Myriad Landscape|EOC|[169]
+1 Terramorphic Expanse|TRC|[571]
+2 Island|INR|[290]
+2 Island|INR|[290]
+3 Swamp|INR|[292]
+2 Swamp|INR|[292]
+3 Forest|INR|[296]
+3 Forest|INR|[296]
 [Sideboard]

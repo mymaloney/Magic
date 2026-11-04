@@ -5,35 +5,35 @@ Name=Ingris Stingerquill
 [Main]
 1 Ajani Unrelenting|fra
 1 Alesha, Who Laughs at Fate|fdn
-1 Basilisk Collar|fdn
+1 Basilisk Collar|FDC|[246]
 1 Beseech the Mirror|woe
-1 Blasphemous Act|dsc
-1 Chaos Warp|cmd
-1 Command Tower|frc
-1 Crawlspace|c13
-1 Darkness|tsb
-1 Dauthi Voidwalker|tdc
-1 Dragonskull Summit|xln
-1 Escape Tunnel|mkm
-1 Evolving Wilds|fdn
+1 Blasphemous Act|SOC|[238]
+1 Chaos Warp|MBC|[72]
+1 Command Tower|TRC|[521]
+1 Crawlspace|DMR|[375]
+1 Darkness|LEG|[94]
+1 Dauthi Voidwalker|MH2|[397]
+1 Dragonskull Summit|TRC|[375]
+1 Escape Tunnel|EOC|[157]
+1 Evolving Wilds|TRC|[527]
 1 Urabrask's Forge|one
 1 Redoubled Stormsinger|soc
-1 Foreboding Ruins|dsc
+1 Foreboding Ruins|TRC|[381]
 1 Funeral Room|dsk
 1 Gleeful Arsonist|dsc
-1 Goblin Sharpshooter|spg
+1 Goblin Sharpshooter|ONS|[207]
 1 Guff Rewrites History|cmm
-1 Hypnotic Specter|m10
-1 Impact Tremors|wot
+1 Hypnotic Specter|LEB|[113]
+1 Impact Tremors|FDN|[717]
 1 Iridescent Vinelasher|blb
-1 Arcane Signet|frc
-1 Talisman of Indulgence|frc
+1 Arcane Signet|TRC|[485]
+1 Talisman of Indulgence|TRC|[507]
 1 Fiery Emancipation|m21
 1 Bitterblossom|2x2
 1 Stigma Lasher|eve
 1 Decorum Dissertation|sos
-1 Haunted Ridge|mid
-1 Blackcleave Cliffs|one
+1 Haunted Ridge|FRA|[180]
+1 Blackcleave Cliffs|DSC|[263]
 1 Blightstep Pathway|khm
 1 Chandra, Torch of Defiance|fra
 1 Loyal Apprentice|tdc
@@ -48,30 +48,30 @@ Name=Ingris Stingerquill
 1 Stingcaster Mage|fra
 1 Stingerquill Voxmancer|fra
 1 Stingerquill Charm|fra
-1 Krenko, Mob Boss|fdn
-1 Krenko, Tin Street Kingpin|nec
-1 Manabarbs|4ed
+1 Krenko, Mob Boss|RVR|[335]
+1 Krenko, Tin Street Kingpin|J25|[572]
+1 Manabarbs|LEB|[164]
 1 Master of Barbs|fra
 1 Molten Gatekeeper|mh3
-5 Mountain|fra|[391]
-5 Mountain|fra|[392]
-4 Mountain|fra|[393]
+5 Mountain|INR|[294]
+5 Mountain|INR|[294]
+4 Mountain|INR|[294]
 1 Naktamun Lorespinner|soc
 1 Ojer Axonil, Deepest Might|lci
-1 Pitiless Plunderer|rix
+1 Pitiless Plunderer|J25|[476]
 1 Pyrohemia|cma
-1 Ragavan, Nimble Pilferer|mh2
+1 Ragavan, Nimble Pilferer|H2R|[11]
 1 Rankle, Master of Pranks|otc
 1 Razorkin Needlehead|dsk
 1 Revel in Riches|xln
 1 Scuzzback Scrounger|ecl
-1 Smoldering Marsh|msc
-1 Sol Ring|frc
+1 Smoldering Marsh|TRC|[403]
+1 Sol Ring|LEB|[270]
 1 Stormfist Crusader|dsc
-1 Sulfurous Springs|eoc
-5 Swamp|fra|[388]
-4 Swamp|fra|[389]
-4 Swamp|fra|[390]
+1 Sulfurous Springs|ICE|[360]
+5 Swamp|INR|[292]
+4 Swamp|INR|[292]
+4 Swamp|INR|[292]
 1 Stingerquill Annex|fra
 1 The Infamous Cruelclaw|blb
 1 The Lord of Pain|dsc

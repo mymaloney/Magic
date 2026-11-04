@@ -3,75 +3,75 @@ Name=Hajar
 [Commander]
 1 Hajar, Loyal Bodyguard|BRO
 [Main]
-1 Arcane Signet|DMC
-1 Hurricane|POR
-1 Earthquake|POR
-1 Chaos Warp|BLC
-1 Lightning Bolt|M10
-1 Sword of the Chosen|DMC
+1 Arcane Signet|TRC|[485]
+1 Hurricane|PO2|[129]
+1 Earthquake|PO2|[94]
+1 Chaos Warp|MBC|[72]
+1 Lightning Bolt|LEB|[162]
+1 Sword of the Chosen|STH|[141]
 1 Leyline Immersion|MAT
 1 Hero's Heirloom|DMU
 1 Champion's Helm|CMM
-1 Beast Whisperer|GRN
-1 Beast Within|NPH
-1 Blackblade Reforged|DOM
-1 Blasphemous Act|BRC
+1 Beast Whisperer|TSR|[356]
+1 Beast Within|TSR|[357]
+1 Blackblade Reforged|DMC|[178]
+1 Blasphemous Act|SOC|[238]
 1 Breeches, Eager Pillager|LCI
-1 Chain Reaction|NEC
-1 Domri, Anarch of Bolas|WAR
-1 Etali, Primal Storm|RIX
-16 Forest|BRO
-1 Command Tower|BRC
-1 Path of Ancestry|LCC
+1 Chain Reaction|TRC|[280]
+1 Domri, Anarch of Bolas|BLC|[98]
+1 Etali, Primal Storm|TSR|[342]
+16 Forest|INR|[296]
+1 Command Tower|TRC|[521]
+1 Path of Ancestry|TRC|[545]
 1 Rootbound Crag|ECC
-1 Stomping Ground|GTC
+1 Stomping Ground|RVR|[413]
 1 Karplusan Forest|ICE
 1 Plaza of Heroes|DMU
-1 Copperline Gorge|ONE
+1 Copperline Gorge|BLC|[301]
 1 Gallia of the Endless Dance|THB
 1 Goblin Anarchomancer|MH2
-1 Goreclaw, Terror of Qal Sisma|MUL
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
 1 Grand Warlord Radha|DOM
-1 Grumgully, the Generous|ELD
-1 Guardian Project|RNA
+1 Grumgully, the Generous|BLC|[253]
+1 Guardian Project|RVR|[349]
 1 Gwenna, Eyes of Gaea|BRO
-1 Heroes' Podium|BNG
+1 Heroes' Podium|DMC|[185]
 1 Heroic Intervention|CMM
-1 Honor-Worn Shaku|CHK
-1 Jaya's Immolating Inferno|DOM
-1 Jhoira's Familiar|DOM
+1 Honor-Worn Shaku|DMC|[187]
+1 Jaya's Immolating Inferno|CMR|[415]
+1 Jhoira's Familiar|2XM|[265]
 1 Kamahl, Heart of Krosa|CMR
 1 Kamahl's Druidic Vow|DOM
 1 Klothys, God of Destiny|THB
 1 Kolvori, God of Kinship|KHM
 1 Migloz, Maze Crusher|ONE
-13 Mountain|BRO
+13 Mountain|INR|[294]
 1 Phylath, World Sculptor|ZNR
-1 Purphoros, God of the Forge|CMM
+1 Purphoros, God of the Forge|PIO|[296]
 1 Questing Beast|ELD
 1 Radha, Heart of Keld|M21
 1 Radha, Heir to Keld|DMR
-1 Rampant Growth|NEC
+1 Rampant Growth|TMP|[245]
 1 Reki, the History of Kamigawa|SOK
 1 Relic of Legends|DMU
-1 Rhythm of the Wild|RNA
-1 Rishkar, Peema Renegade|AER
-1 Rishkar's Expertise|NEC
-1 Ruby, Daring Tracker|WOE
+1 Rhythm of the Wild|RVR|[380]
+1 Rishkar, Peema Renegade|FDC|[225]
+1 Rishkar's Expertise|FDC|[226]
+1 Ruby, Daring Tracker|FDN|[245]
 1 Rulik Mons, Warren Chief|DMU
-1 Ruric Thar, the Unbowed|2X2
-1 Saryth, the Viper's Fang|MID
-1 Sol Ring|BRC
+1 Ruric Thar, the Unbowed|PIO|[239]
+1 Saryth, the Viper's Fang|MKC|[185]
+1 Sol Ring|LEB|[270]
 1 Svella, Ice Shaper|KHM
-1 Tamiyo's Safekeeping|NEO
+1 Tamiyo's Safekeeping|FDC|[233]
 1 The Irencrag|WOE
-1 The Reaver Cleaver|DMC
+1 The Reaver Cleaver|M3C|[217]
 1 Thrun, Breaker of Silence|ONE
-1 Time of Need|CHK
+1 Time of Need|TSR|[369]
 1 Tooth and Nail|CMM
-1 Toski, Bearer of Secrets|KHM
-1 Tuya Bearclaw|CMR
+1 Toski, Bearer of Secrets|BLC|[244]
+1 Tuya Bearclaw|CMM|[360]
 1 Vivien Reid|FDN
-1 Vivien, Champion of the Wilds|WAR
-1 Weatherlight|DOM
-1 Xenagos, the Reveler|THS
+1 Vivien, Champion of the Wilds|CLB|[838]
+1 Weatherlight|NEC|[165]
+1 Xenagos, the Reveler|PIO|[357]

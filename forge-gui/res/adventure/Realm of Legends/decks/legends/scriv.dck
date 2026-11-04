@@ -3,40 +3,40 @@ Name=scriv
 [Commander]
 1 Scriv, the Obligator|SOC
 [Main]
-9 Swamp|SOS
-9 Plains|SOS
+9 Swamp|INR|[292]
+9 Plains|INR|[288]
 1 War Room|SOC
-1 Bojuka Bog|SOC
+1 Bojuka Bog|TSR|[406]
 1 Study Hall|SOC
 1 Sunlit Marsh|SOC
-1 Command Tower|SOC
-1 Exotic Orchard|SOC
-1 Fabled Passage|SOC
+1 Command Tower|TRC|[521]
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
 1 Forum of Amity|SOS
 1 Turbulent Moor|SOC
-1 Umbral Expanse|SOC
-1 Caves of Koilos|SOC
-1 Eclipsed Steppe|SOC
-1 Isolated Chapel|SOC
-1 Path of Ancestry|SOC
+1 Umbral Expanse|TRC|[414]
+1 Caves of Koilos|APC|[140]
+1 Eclipsed Steppe|TRC|[377]
+1 Isolated Chapel|DMR|[397]
+1 Path of Ancestry|TRC|[545]
 1 Arcane Lighthouse|SOC
-1 Shineshadow Snarl|SOC
+1 Shineshadow Snarl|TRC|[400]
 1 Temple of Silence|SOC
 1 Silverquill Campus|SOC
-1 Terramorphic Expanse|SOS
+1 Terramorphic Expanse|TRC|[571]
 1 Fracture|SOC
 1 Inkshield|SOC
 1 Vanishing Verse|SOC
-1 Anguished Unmaking|SOC
-1 Land Tax|SOC
-1 Animate Dead|SOC
+1 Anguished Unmaking|TRC|[310]
+1 Land Tax|LEG|[26]
+1 Animate Dead|LEB|[93]
 1 Fallen Ideal|SOC
 1 Spirit Mantle|SOC
 1 Ghostly Prison|SOC
 1 Redemption Arc|SOC
 1 Sage's Reverie|SOC
 1 Angelic Destiny|SOC
-1 Flickering Ward|SOC
+1 Flickering Ward|TMP|[19]
 1 Martial Impetus|SOC
 1 Sentinel's Eyes|SOC
 1 Changing Loyalty|SOC
@@ -54,10 +54,10 @@ Name=scriv
 1 Songbirds' Blessing|SOC
 1 Eldrazi Conscription|SOC
 1 Intermediate Chirography|SOC
-1 Sol Ring|SOC
-1 Arcane Signet|SOC
-1 Fellwar Stone|SOC
-1 Talisman of Hierarchy|SOC
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Fellwar Stone|DRK|[102]
+1 Talisman of Hierarchy|TRC|[506]
 1 Keen Duelist|SOC
 1 Ajani's Chosen|SOC
 1 Doomwake Giant|SOC
@@ -77,12 +77,12 @@ Name=scriv
 1 Archon of Sun's Grace|SOC
 1 Breena, the Demagogue|SOC
 1 Mangara, the Diplomat|SOC
-1 Sram, Senior Edificer|SOC
+1 Sram, Senior Edificer|TSR|[303]
 1 Tomik, Wielder of Law|SOC
 1 Nils, Discipline Enforcer|SOC
 1 Pearl-Ear, Imperial Advisor|SOC
 1 Eidolon of Countless Battles|SOC
 1 Eriette of the Charmed Apple|SOC
-1 Winds of Rath|SOC
+1 Winds of Rath|TMP|[52]
 1 Secret Rendezvous|SOC
-1 Promise of Loyalty|SOC
+1 Promise of Loyalty|TRC|[234]

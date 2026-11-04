@@ -1,7 +1,7 @@
 [metadata]
 Name=Mishra
 [Main]
-4 Mishra's Factory|ATQ
+4 Mishra's Factory|DMR|[399]
 4 Mishra's Workshop|ATQ
 4 Strip Mine|ATQ
 4 Wasteland|TMP
@@ -23,5 +23,5 @@ Name=Mishra
 [StartInBattle_Reference]
 1 Mishra's Workshop|ATQ
 1 Mishra's Groundbreaker|ALL
-1 Ankh of Mishra|LEA
-1 Dragon Engine|3ED
+1 Ankh of Mishra|LEB|[231]
+1 Dragon Engine|ATQ|[49]

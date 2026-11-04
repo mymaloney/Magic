@@ -1,7 +1,7 @@
 [metadata]
 Name=Knight of Shadow
 [Main]
-20 Swamp|TMP
+20 Swamp|INR|[292]
 4 Dauthi Ghoul|TMP
 4 Dauthi Mindripper|TMP
 4 Dauthi Slayer|TMP
@@ -12,5 +12,5 @@ Name=Knight of Shadow
 2 Dauthi Mercenary|TMP
 2 Dauthi Horror|TMP
 4 Wall of Shadows|LEG
-4 Will-o'-the-Wisp|4ED
+4 Will-o'-the-Wisp|LEB|[136]
 4 Nocturnal Raid|MIR

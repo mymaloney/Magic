@@ -1,34 +1,34 @@
 [metadata]
 Name=Black Sliver
 [Main]
-2 Acidic Sliver|TPR|1
+2 Acidic Sliver|STH|[126]
 2 Blade Sliver|LGN|1
-2 Bladeback Sliver|J21|1
-4 Cavern of Souls|AVR|1
-1 Choked Estuary|SCD|1
-2 Clot Sliver|TPR|1
+2 Bladeback Sliver|MH1|[119]
+4 Cavern of Souls|LCI|[269]
+1 Choked Estuary|TRC|[370]
+2 Clot Sliver|TMP|[112]
 3 Crypt Sliver|LGN|1
 2 Diffusion Sliver|M15|1
-1 Dragonskull Summit|DMC|1
-1 Foreboding Ruins|SCD|1
-2 Frenzy Sliver|PDS|1
+1 Dragonskull Summit|TRC|[375]
+1 Foreboding Ruins|TRC|[381]
+2 Frenzy Sliver|FUT|[85]
 2 Galerider Sliver|M14|1
-4 Leeching Sliver|J21|1
-2 Mountain|TPR|1
-1 Mountain|TPR|4
-2 Mutavault|PCMP|1
-2 Sedge Sliver|PLIST|1
+4 Leeching Sliver|M15|[102]
+2 Mountain|INR|[294]
+1 Mountain|INR|[294]
+2 Mutavault|CLB|[903]
+2 Sedge Sliver|TSR|[187]
 2 Shadow Sliver|TSP|1
-4 Sliver Hive|J21|1
-1 Smoldering Marsh|SCD|1
-2 Spiteful Sliver|J21|1
+4 Sliver Hive|M15|[247]
+1 Smoldering Marsh|TRC|[403]
+2 Spiteful Sliver|MH1|[148]
 2 Spitting Sliver|PLC|1
-2 Striking Sliver|J21|1
-1 Sunken Hollow|SCD|1
-1 Swamp|TPR|1
-2 Swamp|TPR|2
-1 Swamp|TPR|3
+2 Striking Sliver|M14|[157]
+1 Sunken Hollow|TRC|[407]
+1 Swamp|INR|[292]
+2 Swamp|INR|[292]
+1 Swamp|INR|[292]
 4 Syphon Sliver|M14|1
 2 Thorncaster Sliver|M14|1
-3 Toxin Sliver|PLST|1
+3 Toxin Sliver|LGN|[84]
 [Sideboard]

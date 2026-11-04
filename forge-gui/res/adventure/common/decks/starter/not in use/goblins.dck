@@ -9,16 +9,16 @@ Name=Goblins
 [Main]
 4 Goblin Bully|POR
 4 Goblin Cavaliers|PO2
-4 Goblin Chariot|S99
+4 Goblin Chariot|7ED|[185]
 4 Goblin General|PO2
 2 Goblin Glider|PO2
 4 Goblin Piker|PO2
-4 Goblin Raider|PO2
-2 Goblin War Strike|PO2
+4 Goblin Raider|USG|[194]
+2 Goblin War Strike|SCG|[96]
 2 Hulking Goblin|POR
-10 Mountain|PO2|1
-5 Mountain|PO2|2
-5 Mountain|PO2|3
-4 Raging Goblin|POR|2
+10 Mountain|INR|[294]
+5 Mountain|INR|[294]
+5 Mountain|INR|[294]
+4 Raging Goblin|PO2|[114]
 4 Relentless Assault|PO2
-2 Volcanic Hammer|POR
+2 Volcanic Hammer|PO2|[119]

@@ -1,11 +1,11 @@
 [metadata]
 Name=ragavan
 [Main]
-10 Mountain|MIR|2
-6 Forest|MIR|2
+10 Mountain|INR|[294]
+6 Forest|INR|[296]
 4 Treetop Village|ULG
 4 Mountain Valley|MIR
-4 Rampant Growth|MIR
+4 Rampant Growth|TMP|[245]
 4 Uktabi Orangutan|VIS
 4 Ravenous Baboons|EXO
 2 Tree Monkey|PO2
@@ -14,7 +14,7 @@ Name=ragavan
 4 Gorilla War Cry|ALL
 4 Kird Ape|ARN
 4 Monkey Cage|MMQ
-4 Simoon|VIS
+4 Simoon|INV|[272]
 
 [StartInBattle_Reference]
 1 Tree Monkey|PO2

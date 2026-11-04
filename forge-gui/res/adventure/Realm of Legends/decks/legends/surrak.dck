@@ -1,92 +1,92 @@
 [metadata]
 Name=Surrak
 [Commander]
-1 Surrak Dragonclaw|KTK
+1 Surrak Dragonclaw|DMC|[169]
 [Main]
 1 Herd Heirloom|TDM
 1 Rattleclaw Mystic|KTK
-1 Aetherspouts|M15
-1 Arcane Signet|MKC
-1 Blasphemous Act|NCC
+1 Aetherspouts|MIC|[97]
+1 Arcane Signet|TRC|[485]
+1 Blasphemous Act|SOC|[238]
 1 Bleeding Woods|DSK
 1 Boltwave|FDN
-1 Bountiful Landscape|MH3
+1 Bountiful Landscape|TDC|[342]
 1 Mindswipe|KTK
 1 Stubborn Denial|KTK
 1 Chaos Maw|HOU
-1 Temur War Shaman|FRF
-1 Coiling Oracle|C21
-1 Command Tower|TDC
-1 Crater Hellion|DDL
+1 Temur War Shaman|DSC|[200]
+1 Coiling Oracle|RVR|[361]
+1 Command Tower|TRC|[521]
+1 Crater Hellion|USG|[179]
 1 Savage Knuckleblade|KTK
-1 Dreamroot Cascade|TDC
-1 Temur Charm|KTK
+1 Dreamroot Cascade|SOS|[254]
+1 Temur Charm|C20|[230]
 1 Icy Blast|KTK
 1 Crater's Claws|KTK
-1 Farseek|M13
-1 Fog|M10
-5 Forest|FDN
-1 Frontier Bivouac|KTK
-1 Frostboil Snarl|STX
-1 Game Trail|MKC
-1 Garruk's Uprising|FDN
-1 Giant Adephage|GTC
+1 Farseek|RVR|[347]
+1 Fog|MIR|[216]
+5 Forest|INR|[296]
+1 Frontier Bivouac|ECC|[150]
+1 Frostboil Snarl|TRC|[383]
+1 Game Trail|BLC|[306]
+1 Garruk's Uprising|ECC|[109]
+1 Giant Adephage|DSC|[179]
 1 Golden Hind|JOU
-1 Goreclaw, Terror of Qal Sisma|J22
-1 Growth Spiral|RNA
-1 Gruul Turf|HOP
-1 Haunting Figment|DMU
-1 Eshki Dragonclaw|FRF
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
+1 Growth Spiral|DSC|[88]
+1 Gruul Turf|ECC|[152]
+1 Haunting Figment|J25|[317]
+1 Eshki Dragonclaw|TDM|[182]
 1 Humble Naturalist|IKO
-1 Bear's Companion|KTK
+1 Bear's Companion|2X2|[182]
 1 Avalanche Tusker|KTK
 1 Dragonclaw Strike|TDM
-1 Savage Punch|KTK
-1 Epic Confrontation|DTK
+1 Savage Punch|PIO|[192]
+1 Epic Confrontation|BRO|[176]
 1 Heir of the Wilds|KTK
 1 Mammoth Bellow|TDM
 1 Roar of Endless Song|TDM
-5 Island|FDN
-1 Izzet Boilerworks|GPT
+5 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
 1 Veteran Ice Climber|TDM
-1 Kazandu Refuge|CMD
+1 Kazandu Refuge|SCD|[307]
 1 Ketria Triome|IKO
 1 Lakeside Shack|DSK
 1 Awaken the Bear|KTK
 1 Surrak, Elusive Hunter|TDM
-5 Mountain|FDN
-1 Obsidian Fireheart|ZEN
-1 Overrun|C14
+5 Mountain|INR|[294]
+1 Obsidian Fireheart|E01|[55]
+1 Overrun|ODY|[260]
 1 Peculiar Lighthouse|DSK
-1 Surrak and Goreclaw|MOM
+1 Surrak and Goreclaw|FDC|[231]
 1 Primordial Sage|JMP
 1 Winds of Qal Sisma|FRF
 1 Quaketusk Boar|BLB
-1 Rampant Growth|C21
-1 Rugged Highlands|NEO
-1 Sheltered Thicket|TDC
-1 Simic Growth Chamber|DIS
-1 Sleep|M10
+1 Rampant Growth|TMP|[245]
+1 Rugged Highlands|TDM|[265]
+1 Sheltered Thicket|ECC|[167]
+1 Simic Growth Chamber|DSC|[298]
+1 Sleep|M19|[74]
 1 Heritage Reclamation|TDM
-1 Sol Ring|MKC
-1 Roar of Challenge|KTK
+1 Sol Ring|LEB|[270]
+1 Roar of Challenge|J22|[720]
 1 Shaman of the Great Hunt|FRF
-1 Star of Extinction|XLN
-1 Steel Hellkite|SOM
-1 Stormcarved Coast|INR
+1 Star of Extinction|CMM|[259]
+1 Steel Hellkite|TDC|[327]
+1 Stormcarved Coast|SOS|[263]
 1 Eshki, Temur's Roar|TDC
-1 Swiftwater Cliffs|FDN
-1 Tatyova, Benthic Druid|FDN
-1 Temple of Epiphany|TDC
-1 Temple of Mystery|TDC
-1 Temur Ascendancy|TDC
+1 Swiftwater Cliffs|TDM|[268]
+1 Tatyova, Benthic Druid|DMR|[371]
+1 Temple of Epiphany|SOC|[412]
+1 Temple of Mystery|SOC|[414]
+1 Temur Ascendancy|TSR|[387]
 1 Temur Battlecrier|TDM
-1 Thornwood Falls|IKO
-1 Thought Vessel|CMR
+1 Thornwood Falls|TDM|[269]
+1 Thought Vessel|TRC|[509]
 1 Ureni, the Song Unending|TDM
 1 Tuktuk Rubblefort|ZNR
-1 Whisperwood Elemental|FRF
-1 Vineglimmer Snarl|STX
-1 Vorapede|DKA
-1 Surrak, the Hunt Caller|DTK
-1 Yavimaya Elder|CMD
+1 Whisperwood Elemental|PIO|[200]
+1 Vineglimmer Snarl|SOC|[420]
+1 Vorapede|C20|[195]
+1 Surrak, the Hunt Caller|FDC|[232]
+1 Yavimaya Elder|UDS|[124]

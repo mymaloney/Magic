@@ -2,14 +2,14 @@
 Name=High Priest of Shandalar
 [Main]
 2 Abu Ja'far|ARN
-2 Mesa Pegasus|LEA
-4 Savannah Lions|LEA
+2 Mesa Pegasus|LEB|[29]
+4 Savannah Lions|DMR|[270]
 4 Tundra Wolves|LEG
-4 White Knight|LEA
-4 Healing Salve|LEA
-4 Armageddon|LEA
-4 Dingus Egg|LEA
-4 Consecrate Land|LEA
-4 Holy Strength|LEA
-20 Plains|LEA
-4 Mishra's Factory|ATQ
+4 White Knight|LGN|[27]
+4 Healing Salve|USG|[16]
+4 Armageddon|PO2|[12]
+4 Dingus Egg|LEB|[242]
+4 Consecrate Land|LEB|[15]
+4 Holy Strength|LEB|[25]
+20 Plains|INR|[288]
+4 Mishra's Factory|DMR|[399]

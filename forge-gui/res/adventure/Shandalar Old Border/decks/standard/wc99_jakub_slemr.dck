@@ -4,20 +4,20 @@ Name=WC99 Jakub Slemr - Mono Black Control
 1 Bottle Gnomes|TMP
 1 Phyrexian Negator|UDS
 3 Phyrexian Plaguelord|ULG
-3 Ravenous Rats|UDS
+3 Ravenous Rats|INV|[120]
 2 Ticking Gnomes|ULG
 3 Cursed Scroll|TMP
 4 Powder Keg|UDS
 2 Corpse Dance|TMP
-4 Dark Ritual|MIR
+4 Dark Ritual|MMQ|[129]
 4 Diabolic Edict|TMP
 1 Rapid Decay|UDS
-1 Vampiric Tutor|VIS
-4 Duress|USG
+1 Vampiric Tutor|DMR|[314]
+4 Duress|DMR|[303]
 2 Stupor|MIR
 3 Yawgmoth's Will|USG
 2 Spawning Pool|ULG
-15 Swamp|USG
+15 Swamp|INR|[292]
 1 Volrath's Stronghold|STH
 4 Wasteland|TMP
 [Sideboard]

@@ -1,9 +1,9 @@
 [metadata]
 Name=harpy
 [Main]
-2 Dark Ritual|2ED
+2 Dark Ritual|MMQ|[129]
 2 Hymn to Tourach|FEM
-24 Swamp|INV
+24 Swamp|INR|[292]
 3 Molting Harpy|MMQ
 3 Screeching Harpy|TMP
 4 Carnophage|EXO
@@ -12,4 +12,4 @@ Name=harpy
 4 Demonic Consultation|ICE
 4 Phyrexian Battleflies|INV
 4 Ravenous Rats|INV
-4 Vampiric Tutor|6ED
+4 Vampiric Tutor|DMR|[314]

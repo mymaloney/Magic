@@ -1,33 +1,33 @@
 [metadata]
 Name=mighty_djinn
 [Main]
-3 Aether Gale|C21|1
-1 Amnesia|MED|1
-4 Ancestral Recall|30A|1
-4 Braingeyser|30A|1
+3 Aether Gale|SOC|[186]
+1 Amnesia|DRK|[20]
+4 Ancestral Recall|LEB|[48]
+4 Braingeyser|LEB|[51]
 3 Calim, Djinn Emperor|HBG|1
-2 Cloud Djinn|VMA|1
-4 Counterspell|30A|1
-4 Echoing Truth|C15|1
-4 Haughty Djinn|DMU|1
-12 Island|30A|1
-3 Island|30A|2
-7 Island|30A|3
-7 Island|30A|4
-7 Island|30A|5
-4 Mahamoti Djinn|M15|1
-2 Negate|BBD|1
-2 Old Man of the Sea|PRM|1
+2 Cloud Djinn|WTH|[36]
+4 Counterspell|DMR|[281]
+4 Echoing Truth|DMC|[109]
+4 Haughty Djinn|TDC|[154]
+12 Island|INR|[290]
+3 Island|INR|[290]
+7 Island|INR|[290]
+7 Island|INR|[290]
+7 Island|INR|[290]
+4 Mahamoti Djinn|LEB|[65]
+2 Negate|TRC|[439]
+2 Old Man of the Sea|ARN|[18]
 4 Raise the Palisade|LTC|1
-4 River's Rebuke|GN2|1
-4 Sage-Eye Avengers|PFRF|1
-4 Serendib Djinn|ME4|1
-4 Tempest Djinn|DOM|1
-4 Tidespout Tyrant|BBD|1
-4 Unsummon|30A|1
+4 River's Rebuke|FDN|[595]
+4 Sage-Eye Avengers|DDS|[8]
+4 Serendib Djinn|ARN|[19]
+4 Tempest Djinn|FDN|[598]
+4 Tidespout Tyrant|RVR|[320]
+4 Unsummon|LEB|[87]
 2 Waterfall Aerialist|STX|1
-2 Waterspout Djinn|JVC|1
-4 Whirlwind Adept|KTK|1
-4 Zahid, Djinn of the Lamp|PDOM|1
+2 Waterspout Djinn|VIS|[50]
+4 Whirlwind Adept|UMA|[82]
+4 Zahid, Djinn of the Lamp|CMM|[136]
 [Sideboard]
 [Schemes]

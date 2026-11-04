@@ -1,13 +1,13 @@
 [metadata]
 Name=Fungus of Verdeloth
 [Main]
-20 Forest|PALP
-4 Wild Growth|LEA
+20 Forest|INR|[296]
+4 Wild Growth|DMR|[352]
 4 Overgrowth|STH
 2 Verdeloth the Ancient|INV
 2 Nemata, Grove Guardian|PLS
 3 Verdant Force|TMP
-3 Saproling Symbiosis|INV
+3 Saproling Symbiosis|DMR|[348]
 3 Spontaneous Generation|MMQ
 3 Feral Thallid|FEM
 4 Naturalize|ONS
@@ -16,11 +16,11 @@ Name=Fungus of Verdeloth
 2 Thallid Devourer|FEM
 2 Spore Flower|FEM
 2 Spidersilk Armor|MMQ
-2 Overrun|TMP
+2 Overrun|ODY|[260]
 
 [StartInBattle_Reference]
 1 Elvish Farmer|FEM
-1 Forest|PALP|2
+1 Forest|INR|[296]
 1 Mindbender Spores|MIR
 1 Sporogenesis|USG
 1 Thallid|FEM|3

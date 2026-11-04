@@ -3,18 +3,18 @@ Name=Bayou Dweller of Darigaaz
 [Main]
 2 Koskun Keep|HML
 2 Darigaaz's Caldera|PLS
-4 Bayou|LEA
+4 Bayou|LEB|[279]
 4 Llanowar Wastes|APC
-4 Mountain|INV
-4 Swamp|INV
-4 Forest|INV
+4 Mountain|INR|[294]
+4 Swamp|INR|[292]
+4 Forest|INR|[296]
 2 Sword of the Chosen|STH
 2 Urza's Filter|INV
 2 Vhati il-Dal|TMP
 2 Darigaaz, the Igniter|INV
 2 Bartel Runeaxe|LEG
 2 Vaevictis Asmadi|LEG
-2 Xira Arien|LEG
+2 Xira Arien|DMR|[373]
 1 Earthlink|ICE
 1 Destructive Flow|PLS
 4 Darigaaz's Charm|PLS
@@ -26,5 +26,5 @@ Name=Bayou Dweller of Darigaaz
 2 Consume Strength|APC
 2 Ebony Treefolk|APC
 2 Llanowar Dead|APC
-1 Spiritmonger|APC
+1 Spiritmonger|DMR|[370]
 1 Death Mutation|APC

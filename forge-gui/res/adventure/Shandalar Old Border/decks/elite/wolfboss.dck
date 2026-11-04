@@ -1,27 +1,27 @@
 [metadata]
 Name=wolfboss
 [Main]
-4 Savannah|2ED
+4 Savannah|LEB|[281]
 4 Brushland|ICE
-4 Windswept Heath|ONS
-4 Forest|ICE
-4 Plains|LEB
+4 Windswept Heath|MH3|[440]
+4 Forest|INR|[296]
+4 Plains|INR|[288]
 4 Shared Triumph|ONS
-4 Tundra Wolves|5ED
-4 Lone Wolf|PO2
-4 Wyluli Wolf|6ED
+4 Tundra Wolves|LEG|[40]
+4 Lone Wolf|ULG|[105]
+4 Wyluli Wolf|ARN|[55]
 2 Wolf Pack|PTK
 2 Arctic Wolves|WTH
 4 Howling Wolf|MMQ
-4 Giant Growth|7ED
-4 Swords to Plowshares|LEA
-2 Disenchant|2ED
+4 Giant Growth|ICE|[246]
+4 Swords to Plowshares|DMR|[275]
+2 Disenchant|MMQ|[18]
 2 Naturalize|ONS
 4 Overrun|ODY
 
 [StartInBattle_Reference]
-1 Savannah|2ED
-1 Timber Wolves|LEA
-1 Timber Wolves|LEA
+1 Savannah|LEB|[281]
+1 Timber Wolves|LEB|[220]
+1 Timber Wolves|LEB|[220]
 1 Tundra Wolves|LEG
 1 Tundra Wolves|LEG

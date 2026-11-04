@@ -3,74 +3,74 @@ Name=Starter_Blue
 [Commander]
 1 Esior, Wardwing Familiar|CMR
 [Main]
-15 Island|FDN|[274]
-15 Island|FDN|[275]
-1 Thriving Isle|JMP
-1 Vivid Creek|CMD
-1 Lonely Sandbar|CMD
-1 Command Tower|CMD
-1 Opal Palace|C13
-1 Path of Ancestry|C17
-1 Exotic Orchard|C19
-1 Terramorphic Expanse|M10
-1 Evolving Wilds|FDN
-1 Ash Barrens|C16
-1 Sol Ring|CMD
-1 Arcane Signet|ELD
-1 Commander's Sphere|C14
-1 Mind Stone|CMM
-1 Thought Vessel|C15
-1 Wayfarer's Bauble|C14
-1 Swiftfoot Boots|FDN
-1 Jayemdae Tome|4ED
-1 Geode Golem|C18
-1 Solemn Simulacrum|C14
-1 Opt|FDN
-1 Aetherize|FDN
-1 Imprisoned in the Moon|FDN
-1 Quick Study|FDN
-1 Think Twice|FDN
+15 Island|INR|[290]
+15 Island|INR|[290]
+1 Thriving Isle|ECC|[173]
+1 Vivid Creek|NCC|[444]
+1 Lonely Sandbar|ONS|[320]
+1 Command Tower|TRC|[521]
+1 Opal Palace|SOC|[390]
+1 Path of Ancestry|TRC|[545]
+1 Exotic Orchard|TRC|[378]
+1 Terramorphic Expanse|TRC|[571]
+1 Evolving Wilds|TRC|[527]
+1 Ash Barrens|TDC|[339]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Commander's Sphere|TRC|[487]
+1 Mind Stone|DMR|[385]
+1 Thought Vessel|TRC|[509]
+1 Wayfarer's Bauble|TRC|[511]
+1 Swiftfoot Boots|TRC|[501]
+1 Jayemdae Tome|LEB|[255]
+1 Geode Golem|CMM|[386]
+1 Solemn Simulacrum|TSR|[400]
+1 Opt|INV|[64]
+1 Aetherize|RVR|[448]
+1 Imprisoned in the Moon|INR|[358]
+1 Quick Study|SOS|[65]
+1 Think Twice|INR|[369]
 1 Mocking Sprite|FDN
 1 Tolarian Terror|FDN
 1 Bigfin Bouncer|FDN
 1 Spectral Sailor|FDN
 1 Mischievous Mystic|FDN
-1 Into the Roil|CMR
+1 Into the Roil|FDN|[509]
 1 Aven Surveyor|CMR
-1 Fact or Fiction|CMR
-1 Mulldrifter|CMR
-1 Arcane Denial|CMR
-1 Deranged Assistant|CMR
+1 Fact or Fiction|DMR|[283]
+1 Mulldrifter|TSR|[311]
+1 Arcane Denial|ALL|[22a]
+1 Deranged Assistant|INR|[61]
 1 Omenspeaker|CMR
 1 Loyal Drake|CMM
-1 Sky Diamond|CMR
-1 Wind Drake|M13
-1 Fog Bank|M13
-1 Augur of Bolas|M13
-1 Scroll Thief|M13
-1 Archaeomancer|M13
-1 Divination|M13
-1 Rewind|M13
-1 Switcheroo|M13
-1 Negate|M13
-1 Essence Scatter|M13
-1 Robe of Mirrors|10E
-1 Deluge|10E
-1 Cancel|10E
-1 Boomerang|10E
-1 Peek|10E
-1 Merfolk Looter|10E
-1 Sage Owl|10E
-1 Phantom Warrior|10E
-1 Puppeteer|10E
-1 Thieving Magpie|10E
-1 Prodigal Sorcerer|4ED
-1 Giant Tortoise|4ED
-1 Apprentice Wizard|4ED
-1 Air Elemental|4ED
-1 Water Elemental|4ED
-1 Gaseous Form|4ED
-1 Counterspell|4ED
-1 Control Magic|4ED
-1 Unsummon|4ED
-1 Twiddle|4ED
+1 Sky Diamond|MIR|[319]
+1 Wind Drake|TMP|[105]
+1 Fog Bank|USG|[75]
+1 Augur of Bolas|J25|[286]
+1 Scroll Thief|DDT|[17]
+1 Archaeomancer|PIO|[284]
+1 Divination|M19|[51]
+1 Rewind|USG|[93]
+1 Switcheroo|M19|[78]
+1 Negate|TRC|[439]
+1 Essence Scatter|SOS|[47]
+1 Robe of Mirrors|EXO|[43]
+1 Deluge|ODY|[80]
+1 Cancel|FDN|[505]
+1 Boomerang|MIR|[56]
+1 Peek|ODY|[91]
+1 Merfolk Looter|EXO|[39]
+1 Sage Owl|WTH|[52]
+1 Phantom Warrior|WTH|[48]
+1 Puppeteer|ODY|[97]
+1 Thieving Magpie|UDS|[49]
+1 Prodigal Sorcerer|LEB|[74]
+1 Giant Tortoise|ARN|[15]
+1 Apprentice Wizard|DRK|[21]
+1 Air Elemental|PO2|[31]
+1 Water Elemental|LEB|[92]
+1 Gaseous Form|TMP|[65]
+1 Counterspell|DMR|[281]
+1 Control Magic|LEB|[53]
+1 Unsummon|LEB|[87]
+1 Twiddle|LEB|[86]

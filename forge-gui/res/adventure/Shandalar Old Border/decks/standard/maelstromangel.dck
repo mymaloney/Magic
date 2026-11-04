@@ -1,20 +1,20 @@
 [metadata]
 Name=Maelstrom Angel
 [Main]
-8 Forest|INV
-3 Island|INV
-3 Mountain|INV
-3 Swamp|INV
-3 Plains|INV
-4 City of Brass|5ED
-4 Rampant Growth|MIR
+8 Forest|INR|[296]
+3 Island|INR|[290]
+3 Mountain|INR|[294]
+3 Swamp|INR|[292]
+3 Plains|INR|[288]
+4 City of Brass|ARN|[71]
+4 Rampant Growth|TMP|[245]
 2 Untamed Wilds|PO2
 2 New Frontiers|ODY
 4 Lightning Angel|APC
 4 Iridescent Angel|ODY
-4 Wrath of God|7ED
+4 Wrath of God|DMR|[279]
 2 Cromat|APC
-1 Legacy Weapon|APC
+1 Legacy Weapon|DMR|[383]
 1 Global Ruin|INV
 2 Collective Restraint|INV
 3 Tribal Flames|INV

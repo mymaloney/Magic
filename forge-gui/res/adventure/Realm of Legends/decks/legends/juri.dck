@@ -1,18 +1,18 @@
 [metadata]
 Name=Juri
 [Commander]
-1 Juri, Master of the Revue|cmr
+1 Juri, Master of the Revue|EOC|[119]
 [Main]
-1 Abrade|tdc
+1 Abrade|TRC|[449]
 1 Anax, Hardened in the Forge|cmm
 1 Blood Artist|inr
 1 Bloodfell Caves|tdm
-1 Bloodghast|ima
+1 Bloodghast|SOC|[210]
 1 Brass's Bounty|fdn
 1 Callous Sell-Sword|woe
 1 Captain Lannery Storm|otc
-1 Conspiracy|tsb
-1 Costly Plunder|xln
+1 Conspiracy|MMQ|[127]
+1 Costly Plunder|2XM|[80]
 1 Crime Novelist|mkm
 1 Deadly Dispute|tdc
 1 Disciple of Griselbrand|c13
@@ -20,60 +20,60 @@ Name=Juri
 1 Dockside Chef|neo
 1 Escape Tunnel|eoc
 1 Evereth, Viceroy of Plunder|j25
-1 Evolving Wilds|tdm
+1 Evolving Wilds|TRC|[527]
 1 Fake Your Own Death|fdn
-1 Fling|j25
+1 Fling|STH|[82]
 1 Fountainport Bell|blb
 1 Chainsaw|dsk
-1 Lyzolda, the Blood Witch|dis
-1 Executioner's Capsule|ala
-1 Oni-Cult Anvil|neo
-1 Plaguecrafter|grn
-1 Wayfarer's Bauble|5dn
-1 Sol Ring|dsc
-1 Arcane Signet|dsc
+1 Lyzolda, the Blood Witch|GK2|[65]
+1 Executioner's Capsule|BRC|[104]
+1 Oni-Cult Anvil|BRC|[127]
+1 Plaguecrafter|BLC|[187]
+1 Wayfarer's Bauble|TRC|[511]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
 1 Goldvein Pick|fdn
-1 Gratuitous Violence|blc
+1 Gratuitous Violence|ONS|[212]
 1 Impulsive Pilferer|otc
 1 Imskir Iron-Eater|mh3
-1 Infernal Grasp|tdc
+1 Infernal Grasp|INR|[385]
 1 Judith, the Scourge Diva|cmm
 1 Kazuul's Fury|znr
-1 Kolaghan's Command|2x2
+1 Kolaghan's Command|M3C|[268]
 1 Krenko, Baron of Tin Street|mkm
-1 Krenko, Mob Boss|fdn
+1 Krenko, Mob Boss|RVR|[335]
 1 Lagomos, Hand of Hatred|dmu
 1 Loyal Apprentice|tdc
 1 Magda, the Hoardmaster|otj
-1 Mayhem Devil|dsc
+1 Mayhem Devil|RVR|[374]
 1 Memorial to Folly|tdc
 1 Mirkwood Bats|ltr
-13 Mountain|rtr
+13 Mountain|INR|[294]
 1 Nadier's Nightblade|blc
 1 Nightblade Brigade|tdm
 1 Nine-Lives Familiar|fdn
 1 Ozox, the Clattering King|j25
 1 Persistent Specimen|j25
 1 Radiant Performer|c21
-1 Rakdos Carnarium|clu
-1 Rakdos Guildgate|clu
+1 Rakdos Carnarium|ECC|[161]
+1 Rakdos Guildgate|RVR|[408]
 1 Rakdos Joins Up|otj
 1 Reassembling Skeleton|tdc
 1 Reckless Lackey|otj
-1 Riveteers Overlook|snc
+1 Riveteers Overlook|ECC|[162]
 1 Rune of Mortality|khm
 1 Ruthless Knave|j25
 1 Sawblade Skinripper|dsk
-1 Sign in Blood|dsc
-1 Smoldering Marsh|tdc
+1 Sign in Blood|FDC|[125]
+1 Smoldering Marsh|TRC|[403]
 1 Stormclaw Rager|mom
-1 Supernatural Stamina|cmm
-13 Swamp|rtr
+1 Supernatural Stamina|PIO|[112]
+13 Swamp|INR|[292]
 1 Tarrian's Soulcleaver|lci
-1 Terminate|ecc
+1 Terminate|PLS|[128]
 1 Treasure Nabber|cmm
 1 Treasure Vault|drc
-1 Vampiric Rites|j22
+1 Vampiric Rites|FDN|[615]
 1 Vat of Rebirth|one
 1 Venerated Stormsinger|tdm
 1 Victim of Night|ddq

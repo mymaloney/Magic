@@ -2,26 +2,26 @@
 Name=hidden wall
 [Main]
 2 Ageless Sentinels|SCG|1
-4 Animate Wall|30A|1
+4 Animate Wall|LEB|[1]
 4 Arctic Treeline|KHM|1
-2 Assault Formation|DTK|1
+2 Assault Formation|TDC|[246]
 1 Aurification|ONS|1
-4 Canopy Vista|MOC|1
+4 Canopy Vista|TDC|[343]
 4 Clockwork Drawbridge|DMU|1
 2 Consulate Skygate|BBD|1
-2 Faithbound Judge|VOW|1
-4 Fierce Retribution|VOW|1
-5 Forest|10E|2
-3 Fortified Village|MOC|1
-4 Grasslands|AFC|1
-4 Immolating Glare|POGW|1
-4 Overgrown Battlement|NCC|1
-5 Plains|10E|2
+2 Faithbound Judge|DBL|[279]
+4 Fierce Retribution|DBL|[280]
+5 Forest|INR|[296]
+3 Fortified Village|TDC|[366]
+4 Grasslands|MIR|[327]
+4 Immolating Glare|OGW|[20]
+4 Overgrown Battlement|TDC|[264]
+5 Plains|INR|[288]
 2 Roving Keep|JMP|1
-4 Scattered Groves|PIP|3
-2 Wall of Omens|2X2|1
+4 Scattered Groves|OTC|[315]
+2 Wall of Omens|TDC|[138]
 2 Wall of One Thousand Cuts|MH1|1
-4 Wall of Swords|10E|1
-2 Weathered Sentinels|NCC|1
+4 Wall of Swords|POR|[37]
+2 Weathered Sentinels|TDC|[336]
 [Sideboard]
 [Schemes]

@@ -3,19 +3,19 @@ Name=unholyknight
 [Main]
 2 Unholy Citadel|LEG
 2 Urborg Volcano|INV
-26 Swamp|2ED|3
-4 Bad Moon|2ED
-4 Black Knight|ATH
-4 Corrupt|7ED
-4 Dark Ritual|TMP
-4 Demonic Tutor|3ED
+26 Swamp|INR|[292]
+4 Bad Moon|LEB|[94]
+4 Black Knight|LEB|[95]
+4 Corrupt|USG|[124]
+4 Dark Ritual|MMQ|[129]
+4 Demonic Tutor|LEB|[105]
 4 Hymn to Tourach|FEM
-4 Persecute|7ED
+4 Persecute|USG|[146]
 4 Phyrexian Scuta|PLS
-4 Raise Dead|2ED
-4 Terror|5ED
-4 Unholy Strength|2ED
-4 Vampiric Tutor|VIS
+4 Raise Dead|PO2|[86]
+4 Terror|DMR|[312]
+4 Unholy Strength|LEB|[132]
+4 Vampiric Tutor|DMR|[314]
 
 [StartInBattle_Reference]
 1 Maze of Shadows|TMP

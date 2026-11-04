@@ -3,11 +3,11 @@ Name=parrot
 [Main]
 4 Coastal Tower|INV
 4 Elfhame Palace|INV
-8 Forest|INV
-4 Island|INV
-4 Plains|INV
-4 Birds of Paradise|7ED
-4 Fertile Ground|USG
+8 Forest|INR|[296]
+4 Island|INR|[290]
+4 Plains|INR|[288]
+4 Birds of Paradise|RVR|[344]
+4 Fertile Ground|INV|[188]
 4 Coastal Piracy|MMQ
 4 Talas Warrior|PO2
 2 Dream Thrush|INV

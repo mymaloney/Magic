@@ -1,34 +1,34 @@
 [metadata]
 Name=Odysseus 3
 [Main]
-21 Plains
-1 Karakas
-1 Soul's Attendant
-4 Dryad Militant
-1 Icatian Javelineers
-2 Thalia, Guardian of Thraben
-1 Grand Abolisher
-1 True Believer
-1 Kataki, War's Wage
-1 Leonin Relic-Warder
-1 Samurai of the Pale Curtain
-2 Knight of the White Orchid
-1 Veteran Armorer
-1 Kitchen Finks
-1 Glowrider
-2 Vryn Wingmare
-4 Fiend Hunter
-2 Mentor of the Meek
-1 Mirran Crusader
-1 Archetype of Courage
-1 Silverblade Paladin
-1 Soltari Champion
-1 Linvala, Keeper of Silence
-1 Angel of Jubilation
-1 Celestial Crusader
-1 Loxodon Gatekeeper
-1 Hero of Bladehold
-1 Crovax, Ascendant Hero
-1 Elesh Norn, Grand Cenobite
-1 Imposing Sovereign
+21 Plains|INR|[288]
+1 Karakas|LEG|[303]
+1 Soul's Attendant|ROE|[44]
+4 Dryad Militant|FDN|[656]
+1 Icatian Javelineers|FEM|[8a]
+2 Thalia, Guardian of Thraben|DBL|[305]
+1 Grand Abolisher|BIG|[2]
+1 True Believer|ONS|[57]
+1 Kataki, War's Wage|MD1|[24]
+1 Leonin Relic-Warder|C17|[65]
+1 Samurai of the Pale Curtain|CHK|[43]
+2 Knight of the White Orchid|PIO|[21]
+1 Veteran Armorer|MMA|[34]
+1 Kitchen Finks|UMA|[216]
+1 Glowrider|LGN|[15]
+2 Vryn Wingmare|M21|[43]
+4 Fiend Hunter|INR|[340]
+2 Mentor of the Meek|INR|[345]
+1 Mirran Crusader|MM2|[25]
+1 Archetype of Courage|BNG|[4]
+1 Silverblade Paladin|C14|[88]
+1 Soltari Champion|STH|[18]
+1 Linvala, Keeper of Silence|JMP|[119]
+1 Angel of Jubilation|AVR|[2]
+1 Celestial Crusader|TSR|[13]
+1 Loxodon Gatekeeper|RAV|[25]
+1 Hero of Bladehold|TDC|[119]
+1 Crovax, Ascendant Hero|TSR|[15]
+1 Elesh Norn, Grand Cenobite|IMA|[18]
+1 Imposing Sovereign|PIO|[18]
 [Sideboard]

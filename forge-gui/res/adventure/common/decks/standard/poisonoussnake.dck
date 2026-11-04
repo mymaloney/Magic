@@ -1,20 +1,20 @@
 [metadata]
 Name=poisonoussnake
 [Main]
-4 Ambush Viper|CMR|1
+4 Ambush Viper|INR|[186]
 3 Blight Mamba|ONC|1
-2 Death-Hood Cobra|MM3|1
-14 Forest|GNT|1
-6 Forest|GNT|2
-4 Giant Growth|BRO|1
-2 Inkmoth Nexus|WMC|1
-4 Lotus Cobra|ZNR|1
+2 Death-Hood Cobra|2XM|[163]
+14 Forest|INR|[296]
+6 Forest|INR|[296]
+4 Giant Growth|ICE|[246]
+2 Inkmoth Nexus|MBS|[145]
+4 Lotus Cobra|J25|[685]
 4 Marsh Viper|DRK|1
 4 Moss Viper|THB|1
-4 Overrun|TPR|1
-2 Saryth, the Viper's Fang|MID|1
+4 Overrun|ODY|[260]
+2 Saryth, the Viper's Fang|MKC|[185]
 2 The Seedcore|ONE|1
-2 Triumph of the Hordes|NPH|1
-3 Wasteland Viper|GK2|1
+2 Triumph of the Hordes|TD2|[78]
+3 Wasteland Viper|RVR|[160]
 [Sideboard]
 [Schemes]

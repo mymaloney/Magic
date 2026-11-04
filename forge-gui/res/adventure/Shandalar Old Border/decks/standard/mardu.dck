@@ -2,21 +2,21 @@
 Name=mardu
 [Main]
 1 Caves of Koilos|APC
-1 Plains|2ED|2
-13 Mountain|2ED|2
+1 Plains|INR|[288]
+13 Mountain|INR|[294]
 2 Anarchy|ICE
 2 Battlefield Forge|APC
-2 Black Ward|4ED
-2 Dark Ritual|TMP
-2 Goblin Raider|7ED
-2 Lightning Bolt|LEA
-2 Raise Dead|2ED
+2 Black Ward|LEB|[5]
+2 Dark Ritual|MMQ|[129]
+2 Goblin Raider|USG|[194]
+2 Lightning Bolt|LEB|[162]
+2 Raise Dead|PO2|[86]
 2 Shatter|TMP
-4 Bad Moon|2ED
-4 Black Knight|2ED
+4 Bad Moon|LEB|[94]
+4 Black Knight|LEB|[95]
 4 Goblin Warchief|SCG
 4 Mogg Fanatic|TMP
-4 Orcish Artillery|4ED
-4 Shivan Dragon|2ED
+4 Orcish Artillery|LEB|[166]
+4 Shivan Dragon|DMR|[329]
 4 Sulfurous Springs|ICE
-5 Swamp|2ED|2
+5 Swamp|INR|[292]

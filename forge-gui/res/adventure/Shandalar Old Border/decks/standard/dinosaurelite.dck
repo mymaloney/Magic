@@ -1,8 +1,8 @@
 [metadata]
 Name=Dinosaur Elite
 [Main]
-20 Forest|ONS
-4 Wild Growth|ICE
+20 Forest|INR|[296]
+4 Wild Growth|DMR|[352]
 4 Overgrowth|STH
 4 Wirewood Savage|ONS
 4 Krosan Warchief|SCG

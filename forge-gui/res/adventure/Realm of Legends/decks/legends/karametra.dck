@@ -1,82 +1,82 @@
 [metadata]
 Name=Karametra, God of Harvests
 [Commander]
-1 Karametra, God of Harvests|BNG
+1 Karametra, God of Harvests|PIO|[310]
 [Main]
-1 Arbor Elf|M13
+1 Arbor Elf|A25|[160]
 1 Aura Shards|INV
-1 Avacyn's Pilgrim|ISD
-1 Avenger of Zendikar|WWK
-1 Beast Whisperer|GRN
+1 Avacyn's Pilgrim|SCD|[171]
+1 Avenger of Zendikar|ECC|[98]
+1 Beast Whisperer|TSR|[356]
 1 Moment's Peace|ODY
-1 Craterhoof Behemoth|AVR
-1 Dryad Arbor|TSR
-1 Elemental Bond|ORI
+1 Craterhoof Behemoth|INR|[480]
+1 Dryad Arbor|DSC|[273]
+1 Elemental Bond|TDC|[254]
 1 Growing Rites of Itlimoc|LCI
-1 Elvish Mystic|M15
-1 Emeria Angel|ZEN
-1 End-Raze Forerunners|KHC
-1 Felidar Retreat|ZNR
+1 Elvish Mystic|TSR|[360]
+1 Emeria Angel|TDC|[114]
+1 End-Raze Forerunners|BLC|[214]
+1 Felidar Retreat|FDN|[574]
 1 Field of the Dead|M20
-11 Forest|THB
-1 Fyndhorn Elves|CMR
-1 Genesis Wave|IMA
-1 God-Eternal Oketra|WAR
-1 Green Sun's Zenith|V13
-1 Guardian Project|RNA
-1 Kabira Takedown|ZNR
+11 Forest|INR|[296]
+1 Fyndhorn Elves|ICE|[244]
+1 Genesis Wave|FDN|[221]
+1 God-Eternal Oketra|DRC|[66]
+1 Green Sun's Zenith|2X2|[150]
+1 Guardian Project|RVR|[349]
+1 Kabira Takedown|PIO|[19]
 1 Kazandu Mammoth|ZNR
 1 King Darien XLVIII|DMU
 1 Kogla, the Titan Ape|IKO
-1 Llanowar Elves|PDOM
-1 Loyal Guardian|C18
-1 Loyal Unicorn|C18
+1 Llanowar Elves|LEB|[211]
+1 Loyal Guardian|CMM|[304]
+1 Loyal Unicorn|CMM|[40]
 1 Masked Vandal|KHM
-1 Moonshaker Cavalry|WOE
-1 Mother of Runes|EMA
+1 Moonshaker Cavalry|SOC|[110]
+1 Mother of Runes|ULG|[14]
 1 Nacatl War-Pride|FUT
-1 Nature's Claim|IMA
+1 Nature's Claim|TSR|[364]
 1 Oltec Matterweaver|BIG
 1 Ondu Inversion|ZNR
-1 Path to Exile|CMD
-7 Plains|THB
-1 Temple of Plenty|BNG
-1 Qasali Pridemage|ARB
-1 Rampaging Baloths|CMR
-1 Ranger of Eos|ALA
-1 Reclamation Sage|2XM
+1 Path to Exile|TSR|[299]
+7 Plains|INR|[288]
+1 Temple of Plenty|TDC|[405]
+1 Qasali Pridemage|TSR|[383]
+1 Rampaging Baloths|EOC|[104]
+1 Ranger of Eos|MM3|[19]
+1 Reclamation Sage|TSR|[366]
 1 Regal Force|DDU
-1 Sakura-Tribe Elder|CNS
-1 Scattered Groves|AKH
-1 Scavenging Ooze|PLG21
+1 Sakura-Tribe Elder|SOC|[285]
+1 Scattered Groves|OTC|[315]
+1 Scavenging Ooze|FDC|[227]
 1 Mythweaver Poq|YLCI
 1 Selvala, Eager Trailblazer|OTJ
 1 Karametra's Acolyte|THS
-1 Shamanic Revelation|FRF
+1 Shamanic Revelation|PIO|[194]
 1 Silverback Elder|DMU
-4 Snow-Covered Forest|MH1
-4 Snow-Covered Plains|MH1
-1 Sol Ring|TDC
+4 Snow-Covered Forest|ICE|[383]
+4 Snow-Covered Plains|ICE|[367]
+1 Sol Ring|LEB|[270]
 1 Soul of the Harvest|JMP
-1 Loran of the Third Path|BRO
+1 Loran of the Third Path|TRC|[229]
 1 Fanatic of Rhonas|MH3
 1 Spelunking|LCI
-1 Stonecloaker|PLC
-1 Sunblast Angel|C20
-1 Swords to Plowshares|3ED
+1 Stonecloaker|TSR|[45]
+1 Sunblast Angel|FDC|[52]
+1 Swords to Plowshares|DMR|[275]
 1 Tangled Florahedron|ZNR
-1 Temple Garden|GRN
-1 The Great Henge|ELD
-1 Thespian's Stage|GTC
+1 Temple Garden|RVR|[414]
+1 The Great Henge|CMM|[294]
+1 Thespian's Stage|RVR|[466]
 1 Thorn Mammoth|ELD
-1 Thunderfoot Baloth|C16
+1 Thunderfoot Baloth|DSC|[201]
 1 Tiller Engine|DMC
-1 Tireless Provisioner|MH2
-1 Tireless Tracker|SOI
-1 Torens, Fist of the Angels|VOW
-1 Tragic Arrogance|ORI
+1 Tireless Provisioner|J25|[728]
+1 Tireless Tracker|EOC|[110]
+1 Torens, Fist of the Angels|INR|[250]
+1 Tragic Arrogance|SOC|[182]
 1 Ulvenwald Tracker|MM3
-1 Whitemane Lion|PLC
-1 Windbrisk Heights|C20
+1 Whitemane Lion|DMR|[277]
+1 Windbrisk Heights|TDC|[411]
 1 Witch Enchanter|MH3
-1 Zendikar Resurgent|OGW
+1 Zendikar Resurgent|C17|[160]

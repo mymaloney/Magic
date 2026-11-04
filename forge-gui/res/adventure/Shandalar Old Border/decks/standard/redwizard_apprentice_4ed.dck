@@ -1,38 +1,38 @@
 [metadata]
 Name=Apprentice Red Wizard - 4th Edition
 [Main]
-24 Mountain|4ED
-1 Stone Rain|4ED
-1 The Brute|4ED
-1 Shatter|4ED
-1 Sisters of the Flame|4ED
-1 Immolation|4ED
-2 Lightning Bolt|4ED
-1 Hurloon Minotaur|4ED
-1 Ironclaw Orcs|4ED
-1 Gray Ogre|4ED
-1 Hill Giant|4ED
-1 Giant Strength|4ED
-1 Firebreathing|4ED
-2 Fireball|4ED
-1 Fissure|4ED
-1 Disintegrate|4ED
-1 Blood Lust|4ED
-1 Bird Maiden|4ED
-1 Brothers of Fire|4ED
-1 Wall of Fire|4ED
-1 Uthden Troll|4ED
-1 Stone Giant|4ED
-1 Pyrotechnics|4ED
-1 Orcish Artillery|4ED
-1 Goblin Balloon Brigade|4ED
-1 Keldon Warlord|4ED
-1 Earthquake|4ED
-1 Orcish Oriflamme|4ED
-1 Fire Elemental|4ED
-1 Earth Elemental|4ED
-1 Hurr Jackal|4ED
-1 Shivan Dragon|4ED
-1 Dragon Whelp|4ED
-1 Crimson Manticore|4ED
-1 Ball Lightning|4ED
+24 Mountain|INR|[294]
+1 Stone Rain|MMQ|[215]
+1 The Brute|LEG|[167]
+1 Shatter|TMP|[203]
+1 Sisters of the Flame|DRK|[74]
+1 Immolation|LEG|[153]
+2 Lightning Bolt|LEB|[162]
+1 Hurloon Minotaur|LEB|[159]
+1 Ironclaw Orcs|LEB|[160]
+1 Gray Ogre|LEB|[157]
+1 Hill Giant|POR|[133]
+1 Giant Strength|TMP|[178]
+1 Firebreathing|MIR|[174]
+2 Fireball|LEB|[150]
+1 Fissure|DRK|[63]
+1 Disintegrate|LEB|[141]
+1 Blood Lust|LEG|[135]
+1 Bird Maiden|ARN|[37]
+1 Brothers of Fire|DRK|[59]
+1 Wall of Fire|LEB|[182]
+1 Uthden Troll|LEB|[181]
+1 Stone Giant|LEB|[177]
+1 Pyrotechnics|LEG|[161]
+1 Orcish Artillery|LEB|[166]
+1 Goblin Balloon Brigade|LEB|[154]
+1 Keldon Warlord|LEB|[161]
+1 Earthquake|PO2|[94]
+1 Orcish Oriflamme|LEB|[167]
+1 Fire Elemental|LEB|[149]
+1 Earth Elemental|LEB|[145]
+1 Hurr Jackal|ARN|[39]
+1 Shivan Dragon|DMR|[329]
+1 Dragon Whelp|DMR|[317]
+1 Crimson Manticore|LEG|[140]
+1 Ball Lightning|DRK|[57]

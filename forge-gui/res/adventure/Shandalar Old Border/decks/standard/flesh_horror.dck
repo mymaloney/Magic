@@ -1,8 +1,8 @@
 [metadata]
 Name=flesh_horror
 [Main]
-14 Swamp|ODY|3
-2 Forest|ODY|3
+14 Swamp|INR|[292]
+2 Forest|INR|[296]
 4 Cursed Monstrosity|ODY
 4 Dusk Imp|ODY
 4 Flesh Reaver|USG

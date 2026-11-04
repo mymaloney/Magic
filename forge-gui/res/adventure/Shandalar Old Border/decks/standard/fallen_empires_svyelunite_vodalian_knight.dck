@@ -1,7 +1,7 @@
 [metadata]
 Name=Vodalian Knight
 [Main]
-15 Island|3ED
+15 Island|INR|[290]
 2 Svyelunite Temple|FEM
 2 Lonely Sandbar|ONS
 1 Remote Isle|USG
@@ -23,6 +23,6 @@ Name=Vodalian Knight
 4 Lingering Mirage|USG
 [StartInBattle_Reference]
 1 Svyelunite Temple|FEM
-1 Island|3ED
+1 Island|INR|[290]
 1 Coral Reef|HML
 1 Vodalian Knights|FEM

@@ -1,80 +1,80 @@
 [metadata]
 Name=Xenagos, God of Revels
 [Commander]
-1 Xenagos, God of Revels|BNG
+1 Xenagos, God of Revels|PIO|[318]
 [Main]
-1 Aggressive Mammoth|M20
-1 Avatar of Fury|E01
-1 Beanstalk Giant|ELD
-1 Beast Within|CMR
-1 Berserk|CN2
-1 Berserkers' Onslaught|DTK
-1 Blasphemous Act|C21
+1 Aggressive Mammoth|FDN|[551]
+1 Avatar of Fury|PCY|[82]
+1 Beanstalk Giant|DSC|[172]
+1 Beast Within|TSR|[357]
+1 Berserk|LEB|[186]
+1 Berserkers' Onslaught|BLC|[192]
+1 Blasphemous Act|SOC|[238]
 1 Bridgeworks Battle|MH3
 1 Bulk Up|FDN
-1 Chandra's Ignition|ORI
-1 Collective Resistance|MH3
+1 Chandra's Ignition|FDC|[145]
+1 Collective Resistance|FDC|[196]
 1 Disciple of Freyalise|MH3
 1 Embercleave|ELD
 1 Exponential Growth|STX
-1 Fiery Emancipation|WOT
-16 Forest|THB
-1 Forgotten Ancient|CM2
-1 Garruk's Uprising|WOT
-1 Ghalta, Primal Hunger|JMP
-1 Goreclaw, Terror of Qal Sisma|M19
-1 Gratuitous Violence|CN2
+1 Fiery Emancipation|M21|[143]
+16 Forest|INR|[296]
+1 Forgotten Ancient|DMR|[341]
+1 Garruk's Uprising|ECC|[109]
+1 Ghalta, Primal Hunger|FDC|[8]
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
+1 Gratuitous Violence|ONS|[212]
 1 Gravitic Punch|GRN
-1 Greater Good|BBD
+1 Greater Good|USG|[257]
 1 Gruul Charm|GK2
 1 Hamletback Goliath|JMP
-1 Heroic Intervention|AER
+1 Heroic Intervention|CMM|[295]
 1 Jeska, Thrice Reborn|CMR
 1 Karplusan Forest|ICE
 1 Kazuul's Fury|ZNR
-1 Kessig Wolf Run|C20
-1 Kodama's Reach|CMR
+1 Kessig Wolf Run|TDC|[375]
+1 Kodama's Reach|ECC|[113]
 1 Kogla, the Titan Ape|IKO
 1 Shadowspear|THB
 1 Malignus|AVR
-1 Managorger Hydra|C16
-1 Monstrous Onslaught|CMR
-1 Mosswort Bridge|C20
-10 Mountain|THB
-1 Command Tower|SCD
-1 Nature's Lore|PO2
+1 Managorger Hydra|FDC|[216]
+1 Monstrous Onslaught|FDC|[217]
+1 Mosswort Bridge|TDC|[379]
+10 Mountain|INR|[294]
+1 Command Tower|TRC|[521]
+1 Nature's Lore|DMR|[346]
 1 Overgrowth|STH
-1 Quartzwood Crasher|IKO
-1 Raging Ravine|UMA
-1 Ram Through|IKO
-1 Relentless Assault|HOP
-1 Return of the Wildspeaker|ZNC
-1 Rishkar's Expertise|AER
-1 Rogue's Passage|CMR
-1 Rugged Highlands|M21
-1 Sakura-Tribe Elder|CHK
-1 Seize the Day|UMA
-1 Selvala, Heart of the Wilds|CMM
+1 Quartzwood Crasher|LCC|[281]
+1 Raging Ravine|ECC|[160]
+1 Ram Through|FDC|[221]
+1 Relentless Assault|PO2|[115]
+1 Return of the Wildspeaker|ECC|[115]
+1 Rishkar's Expertise|FDC|[226]
+1 Rogue's Passage|TRC|[552]
+1 Rugged Highlands|TDM|[265]
+1 Sakura-Tribe Elder|SOC|[285]
+1 Seize the Day|ODY|[220]
+1 Selvala, Heart of the Wilds|ECC|[116]
 1 Shriekwood Devourer|DSC
 1 Siege Behemoth|CMA
-1 Skarrg, the Rage Pits|GPT
-1 Stomping Ground|GTC
+1 Skarrg, the Rage Pits|PCA|[127]
+1 Stomping Ground|RVR|[413]
 1 Fanatic of Rhonas|MH3
-1 Sol Ring|KHC
+1 Sol Ring|LEB|[270]
 1 Soul's Fire|CMR
-1 Stonehoof Chieftain|C16
+1 Stonehoof Chieftain|CMM|[325]
 1 Stump Stomp|MH3
 1 Sundering Eruption|MH3
-1 Temple of Abandon|THB
-1 Temple of the False God|C20
-1 Temur Battle Rage|CMR
+1 Temple of Abandon|TDC|[400]
+1 Temple of the False God|SCG|[143]
+1 Temur Battle Rage|TSR|[351]
 1 Traverse the Outlands|CLB
-1 Treeshaker Chimera|THB
+1 Treeshaker Chimera|NCC|[318]
 1 Undergrowth|ALL
-1 Unleash Fury|M21
-1 Unnatural Growth|WOT
+1 Unleash Fury|J25|[608]
+1 Unnatural Growth|INR|[223]
 1 Up the Beanstalk|WOE
 1 Voracious Hydra|M20
-1 Wild Growth|LEB
-1 Woodfall Primus|UMA
-1 Zendikar Resurgent|OGW
+1 Wild Growth|DMR|[352]
+1 Woodfall Primus|NCC|[322]
+1 Zendikar Resurgent|C17|[160]

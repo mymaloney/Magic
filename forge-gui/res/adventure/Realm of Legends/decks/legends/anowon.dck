@@ -3,74 +3,74 @@ Name=Anowon, the Ruin Thief
 [Commander]
 1 Anowon, the Ruin Thief|ZNC
 [Main]
-1 Aetherize|ZNC
-1 Arcane Signet|ZNC
-1 Blackblade Reforged|ZNC
-1 Bonehoard|ZNC
-1 Changeling Outcast|ZNC
-1 Command Tower|ZNC
-1 Commander's Sphere|ZNC
-1 Consuming Aberration|ZNC
-1 Dimir Aqueduct|ZNC
-1 Dimir Guildgate|ZNC
-1 Dimir Keyrune|ZNC
+1 Aetherize|RVR|[448]
+1 Arcane Signet|TRC|[485]
+1 Blackblade Reforged|DMC|[178]
+1 Bonehoard|NEC|[147]
+1 Changeling Outcast|OTC|[128]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Consuming Aberration|TSR|[374]
+1 Dimir Aqueduct|DSC|[270]
+1 Dimir Guildgate|RVR|[400]
+1 Dimir Keyrune|CLB|[856]
 1 Dimir Locket|ZNC
-1 Talisman of Dominance|MKC
-1 Dismal Backwater|ZNC
-1 Distant Melody|ZNC
+1 Talisman of Dominance|TRC|[505]
+1 Dismal Backwater|TDM|[254]
+1 Distant Melody|ECC|[45]
 1 Endless Obedience|ZNC
 1 Enigma Thief|ZNC
-1 Extract from Darkness|ZNC
-1 Fact or Fiction|ZNC
-1 Faerie Vandal|ZNC
+1 Extract from Darkness|2X2|[210]
+1 Fact or Fiction|DMR|[283]
+1 Faerie Vandal|J25|[311]
 1 Fated Return|ZNC
 1 Frogtosser Banneret|ZNC
-1 Gonti, Lord of Luxury|ZNC
-1 Heirloom Blade|ZNC
-1 In Garruk's Wake|ZNC
+1 Gonti, Lord of Luxury|OTC|[135]
+1 Heirloom Blade|LCC|[303]
+1 In Garruk's Wake|CLB|[759]
 1 Invisible Stalker|ZNC
-15 Island|ZNR
-1 Jwar Isle Refuge|ZNC
+15 Island|INR|[290]
+1 Jwar Isle Refuge|SCD|[306]
 1 Latchkey Faerie|ZNC
 1 Lazav, Dimir Mastermind|ZNC
 1 Marang River Prowler|ZNC
 1 Marsh Flitter|ZNC
 1 Master Thief|ZNC
 1 Merfolk Windrobber|ZNR
-1 Military Intelligence|ZNC
-1 Mind Stone|ZNC
-1 Murder|ZNC
-1 Myriad Landscape|ZNC
-1 Necromantic Selection|ZNC
-1 Nighthowler|ZNC
-1 Nightveil Sprite|ZNC
-1 Notion Thief|ZNC
+1 Military Intelligence|J22|[322]
+1 Mind Stone|DMR|[385]
+1 Murder|J25|[467]
+1 Myriad Landscape|EOC|[169]
+1 Necromantic Selection|TDC|[189]
+1 Nighthowler|PIO|[98]
+1 Nightveil Sprite|J25|[335]
+1 Notion Thief|PIO|[235]
 1 Notorious Throng|ZNC
 1 Obelisk of Urd|ZNC
-1 Ogre Slumlord|ZNC
+1 Ogre Slumlord|BLC|[186]
 1 Oona's Blackguard|ZNC
-1 Oona, Queen of the Fae|ZNC
+1 Oona, Queen of the Fae|WOC|[142]
 1 Open into Wonder|ZNC
-1 Price of Fame|ZNC
+1 Price of Fame|MKC|[135]
 1 Rise from the Grave|ZNC
-1 Rogue's Passage|ZNC
-1 Scourge of Fleets|ZNC
-1 Scytheclaw|ZNC
-1 Sepulchral Primordial|ZNC
+1 Rogue's Passage|TRC|[552]
+1 Scourge of Fleets|CMR|[403]
+1 Scytheclaw|CMM|[408]
+1 Sepulchral Primordial|SCD|[106]
 1 Silumgar's Command|ZNC
-1 Slither Blade|ZNC
+1 Slither Blade|OTC|[114]
 1 Soaring Thought-Thief|ZNR
-1 Sol Ring|ZNC
+1 Sol Ring|LEB|[270]
 1 Soul Manipulation|ZNC
-1 Spinal Embrace|ZNC
+1 Spinal Embrace|DMR|[369]
 1 Stinkdrinker Bandit|ZNC
-1 Stolen Identity|ZNC
-1 Submerged Boneyard|ZNC
+1 Stolen Identity|NCC|[233]
+1 Submerged Boneyard|SCD|[321]
 1 Sure-Footed Infiltrator|ZNR
-15 Swamp|ZNR
+15 Swamp|INR|[292]
 1 Sygg, River Cutthroat|ZNC
-1 Syr Konrad, the Grim|ZNC
-1 Triton Shorestalker|ZNC
-1 Whirler Rogue|ZNC
+1 Syr Konrad, the Grim|DSC|[158]
+1 Triton Shorestalker|OTC|[121]
+1 Whirler Rogue|DRC|[85]
 1 Whispersteel Dagger|ZNC
-1 Zulaport Cutthroat|ZNC
+1 Zulaport Cutthroat|TSR|[337]

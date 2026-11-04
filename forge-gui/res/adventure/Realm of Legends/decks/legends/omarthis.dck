@@ -4,98 +4,98 @@ Name=Omarthis
 1 Omarthis, Ghostfire Initiate|CMM
 [Main]
 1 Eldritch Immunity|M3C
-1 Arcbound Crusher|DST
+1 Arcbound Crusher|HOP|[105]
 1 Cityscape Leveler|BRO
 1 Glaring Fleshraker|MH3
 1 Hexavus|BRC
-1 Stonecoil Serpent|ELD
+1 Stonecoil Serpent|SOC|[356]
 1 Surge Conductor|EOC
-1 Witch's Clinic|C21
+1 Witch's Clinic|FDC|[318]
 1 Syr Ginger, the Meal Ender|WOE
-1 Triskelion|MDC
+1 Triskelion|DMR|[389]
 1 Zenith Chronicler|ONE
 1 Ugin, Eye of the Storms|TDM
-1 All Is Dust|CMM
+1 All Is Dust|FDC|[9]
 1 Drannith Ruins|MAT
 1 Arcbound Ravager|MMA
-1 Blade of the Bloodchief|C17
-1 Bonders' Enclave|CMM
-1 Buried Ruin|ONC
+1 Blade of the Bloodchief|LCC|[300]
+1 Bonders' Enclave|FDC|[297]
+1 Buried Ruin|EOC|[150]
 1 Cauldron of Souls|CM2
 1 Chronomaton|DDM
-1 Circuit Mender|J22
-1 Command Beacon|CMR
+1 Circuit Mender|BLC|[267]
+1 Command Beacon|TRC|[373]
 1 Commander's Plate|CMR
-1 Darksteel Citadel|BRC
+1 Darksteel Citadel|FDC|[300]
 1 Environmental Sciences|STX
-1 Everflowing Chalice|CMM
+1 Everflowing Chalice|TSR|[394]
 1 Field of the Dead|M20
-1 Forge of Heroes|CMM
-1 Forsaken Monument|CMM
-1 Foundry Inspector|CMM
-1 Geier Reach Sanitarium|CMM
-1 Hangarback Walker|CMM
-1 Hedron Archive|CMM
+1 Forge of Heroes|C18|[58]
+1 Forsaken Monument|TRC|[343]
+1 Foundry Inspector|FDC|[259]
+1 Geier Reach Sanitarium|FDC|[303]
+1 Hangarback Walker|SOC|[348]
+1 Hedron Archive|TSR|[395]
 1 Helm of Awakening|DMR
-1 High Market|AFC
-1 Inventors' Fair|PLST
+1 High Market|MMQ|[320]
+1 Inventors' Fair|KLD|[247]
 1 Jhoira's Familiar|2XM
 1 Karn, Legacy Reforged|MAT
-1 Karn's Bastion|CMM
+1 Karn's Bastion|RVR|[464]
 1 Kozilek, Butcher of Truth|2X2
 1 Liberator, Urza's Battlethopter|BRO
-1 Lightning Greaves|CMM
-1 Mage-Ring Network|CMM
-1 Matter Reshaper|CMM
+1 Lightning Greaves|TRC|[496]
+1 Mage-Ring Network|C21|[300]
+1 Matter Reshaper|OGW|[6]
 1 Mikokoro, Center of the Sea|DMC
-1 Mimic Vat|NCC
-1 Mind Stone|CMM
+1 Mimic Vat|LCC|[115]
+1 Mind Stone|DMR|[385]
 1 Miren, the Moaning Well|SOK
 1 Mirrex|ONE
-1 Moonsilver Key|MID
-1 Myr Retriever|2XM
-1 Mystic Forge|CMM
-1 Nevinyrral's Disk|CMM
+1 Moonsilver Key|DBL|[255]
+1 Myr Retriever|FDC|[274]
+1 Mystic Forge|M3C|[302]
+1 Nevinyrral's Disk|LEB|[267]
 1 Null Elemental Blast|MH3
-1 Palladium Myr|CMM
-1 Patchwork Automaton|NEO
-1 Reliquary Tower|CMM
-1 Rogue's Passage|CMM
-1 Ruins of Oran-Rief|CMM
+1 Palladium Myr|FDC|[278]
+1 Patchwork Automaton|J25|[757]
+1 Reliquary Tower|TRC|[551]
+1 Rogue's Passage|TRC|[552]
+1 Ruins of Oran-Rief|M3C|[370]
 1 Sanctum of Ugin|BFZ
 1 Scour from Existence|BFZ
 1 Sensei's Divining Top|2X2
 1 Sequestered Stash|KLD
 1 Shadowspear|THB
-1 Shrine of the Forsaken Gods|CMM
-1 Sol Ring|CMM
+1 Shrine of the Forsaken Gods|M3C|[376]
+1 Sol Ring|LEB|[270]
 1 Sol Talisman|MH2
-1 Solemn Simulacrum|CMM
-1 Staff of Compleation|ONE
-1 Steel Overseer|J22
-1 Swiftfoot Boots|SCD
-1 Sword of Truth and Justice|MH1
+1 Solemn Simulacrum|TSR|[400]
+1 Staff of Compleation|TDC|[326]
+1 Steel Overseer|EOC|[144]
+1 Swiftfoot Boots|TRC|[501]
+1 Sword of Truth and Justice|H1R|[32]
 1 The Ozolith|IKO
-1 Thespian's Stage|2XM
-1 Thought Vessel|CMM
-1 Thran Dynamo|BRC
+1 Thespian's Stage|RVR|[466]
+1 Thought Vessel|TRC|[509]
+1 Thran Dynamo|UDS|[139]
 1 Throne of Geth|2XM
-1 Titan's Presence|CMM
-1 Tyrite Sanctum|CMM
-1 Ugin, the Ineffable|CMM
+1 Titan's Presence|J22|[749]
+1 Tyrite Sanctum|DMC|[240]
+1 Ugin, the Ineffable|M3C|[160]
 1 Ugin, the Spirit Dragon|M21
 1 Ugin's Conjurant|WAR
-1 Ugin's Mastery|CMM
+1 Ugin's Mastery|MKC|[53]
 1 Ulamog, the Infinite Gyre|2X2
 1 Urza's Factory|J22
-1 Urza's Mine|CMM
-1 Urza's Power Plant|CMM
+1 Urza's Mine|ATQ|[83a]
+1 Urza's Power Plant|ATQ|[84a]
 1 Urza's Saga|MH2
-1 Urza's Tower|CMM
+1 Urza's Tower|ATQ|[85a]
 1 Urza's Workshop|BRC
 1 Wandering Archaic|STX
-1 War Room|CMM
-1 Warping Wail|CMM
-5 Wastes|CMM
-1 Wayfarer's Bauble|CMM
+1 War Room|SOC|[422]
+1 Warping Wail|M3C|[162]
+5 Wastes|TSR|[410]
+1 Wayfarer's Bauble|TRC|[511]
 1 Zhalfirin Void|AFC

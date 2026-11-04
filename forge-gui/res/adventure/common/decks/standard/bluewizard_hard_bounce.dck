@@ -1,21 +1,21 @@
 [metadata]
 Name=R2-D2 3
 [Main]
-20 Island|M11
-1 The Tabernacle at Pendrell Vale
-1 Mox Sapphire
-4 Evacuation
-4 Upheaval
-4 Trinket Mage
-4 Black Vise
-1 Echoing Truth
-3 Boomerang
-1 Repulse
-4 Hoodwink
-3 Words of Wisdom
-1 Ancestral Recall
-4 Vision Skeins
-3 Howling Mine
-1 Remand
-1 Frozen Aether
+20 Island|INR|[290]
+1 The Tabernacle at Pendrell Vale|LEG|[307]
+1 Mox Sapphire|LEB|[266]
+4 Evacuation|STH|[30]
+4 Upheaval|ODY|[113]
+4 Trinket Mage|TSR|[320]
+4 Black Vise|LEB|[234]
+1 Echoing Truth|DMC|[109]
+3 Boomerang|MIR|[56]
+1 Repulse|INV|[70]
+4 Hoodwink|MMQ|[84]
+3 Words of Wisdom|ODY|[114]
+1 Ancestral Recall|LEB|[48]
+4 Vision Skeins|E01|[29]
+3 Howling Mine|LEB|[248]
+1 Remand|TSR|[316]
+1 Frozen Aether|PLC|[54]
 [Sideboard]

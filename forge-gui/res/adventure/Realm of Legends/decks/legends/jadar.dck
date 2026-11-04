@@ -1,24 +1,24 @@
 [metadata]
 Name=Jadar
 [Commander]
-1 Jadar, Ghoulcaller of Nephalia|MID
+1 Jadar, Ghoulcaller of Nephalia|SOC|[217]
 [Main]
 1 Accursed Marauder|MH3
-1 Animate Dead|MKC
+1 Animate Dead|LEB|[93]
 1 Archfiend of Depravity|SCD
-1 Diabolic Edict|MH1
+1 Diabolic Edict|TMP|[128]
 1 Braids, Arisen Nightmare|EOC
 1 Breach the Multiverse|MOM
 1 Blasphemous Edict|FDN
 1 Eaten Alive|INR
-1 Dreadhorde Invasion|WAR
+1 Dreadhorde Invasion|FRC|[48]
 1 Bone Shards|MH2
 1 Crux of Fate|C17
 1 Crypt Ghast|RVR
-1 Chainer's Edict|TOR
+1 Chainer's Edict|DMR|[300]
 1 Dark Prophecy|M14
-1 Dark Ritual|USG
-1 Darkness|SPG
+1 Dark Ritual|MMQ|[129]
+1 Darkness|LEG|[94]
 1 Demon's Disciple|CMM
 1 Extract a Confession|MKM
 1 Flare of Malice|MH3
@@ -26,32 +26,32 @@ Name=Jadar
 1 Force of Despair|MH1
 1 Gix's Command|BRO
 1 Gravelighter|NEO
-1 Gray Merchant of Asphodel|DSC
+1 Gray Merchant of Asphodel|TSR|[323]
 1 Grim Haruspex|CLB
 1 Homeward Path|C16
-1 Innocent Blood|EMA
-1 Liliana of the Veil|DMU
+1 Innocent Blood|ODY|[145]
+1 Liliana of the Veil|INR|[475]
 1 Liliana, Dreadhorde General|FDN
-1 Liliana's Triumph|WAR
-1 Living Death|TDC
+1 Liliana's Triumph|TSR|[327]
+1 Living Death|TMP|[142]
 1 Do or Die|INV
-1 Massacre Wurm|DSC
+1 Massacre Wurm|FDN|[714]
 1 Meathook Massacre II|DSK
 1 Merciless Executioner|FRF
 1 Midnight Reaper|DRC
 1 Mire in Misery|C19
-1 Morbid Opportunist|TDC
+1 Morbid Opportunist|INR|[388]
 1 Mutilate|TOR
-1 Necromancy|MKC
-1 Necrotic Hex|SCD
+1 Necromancy|VIS|[64]
+1 Necrotic Hex|FDC|[118]
 1 Nightmare Shepherd|DSC
-1 Phyrexian Arena|FDN
-1 Phyrexian Reclamation|TDC
+1 Phyrexian Arena|APC|[47]
+1 Phyrexian Reclamation|ULG|[63]
 1 Plaguecrafter|BLC
-1 Priest of Forgotten Gods|J25
+1 Priest of Forgotten Gods|SOC|[225]
 1 Professor Onyx|DSC
-1 Reanimate|DSC
-1 Reliquary Tower|TDC
+1 Reanimate|TMP|[151]
+1 Reliquary Tower|TRC|[551]
 1 Rise of the Dark Realms|FDN
 1 Rottenmouth Viper|BLB
 1 Season of Loss|BLB
@@ -59,7 +59,7 @@ Name=Jadar
 1 Sheoldred's Edict|ONE
 1 Smallpox|TSR
 35 Swamp|INR
-1 Sol Ring|EOC
+1 Sol Ring|LEB|[270]
 1 Soul Shatter|SCD
 1 Szat's Will|CMR
 1 Tevesh Szat, Doom of Fools|CMR
@@ -67,4 +67,4 @@ Name=Jadar
 1 Tithing Blade|LCI
 1 Toxic Deluge|MH3
 1 Vona's Hunger|RIX
-1 Cruel Edict|DVD
+1 Cruel Edict|PO2|[67]

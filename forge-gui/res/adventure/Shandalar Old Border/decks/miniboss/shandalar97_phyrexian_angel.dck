@@ -3,15 +3,15 @@ Name=Phyrexian Angel
 [Main]
 4 Tainted Field|TOR
 4 Caves of Koilos|APC
-4 Plains|2ED
-8 Swamp|2ED
-4 Dark Ritual|LEA
+4 Plains|INR|[288]
+8 Swamp|INR|[292]
+4 Dark Ritual|MMQ|[129]
 2 Desolation Angel|APC
 2 Soul Link|APC
 4 Death Grasp|APC
 4 Phyrexian Scuta|PLS
 4 Fallen Angel|LEG
-4 Royal Assassin|LEA
+4 Royal Assassin|DMR|[310]
 4 King's Assassin|POR
 4 Benalish Trapper|INV
 4 Whipcorder|ONS

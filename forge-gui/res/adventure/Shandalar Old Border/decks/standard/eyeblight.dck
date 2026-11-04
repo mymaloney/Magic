@@ -1,15 +1,15 @@
 [metadata]
 Name=eyeblight
 [Main]
-17 Mountain|MIR|3
-2 Forest|MIR|3
+17 Mountain|INR|[294]
+2 Forest|INR|[296]
 4 Eye of Ramos|MMQ
-4 Incinerate|5ED
+4 Incinerate|MIR|[184]
 4 Karplusan Forest|ICE
-4 Lightning Bolt|4ED
-4 Orcish Artillery|5ED
+4 Lightning Bolt|LEB|[162]
+4 Orcish Artillery|LEB|[166]
 4 Orcish Cannoneers|ICE
-4 Pyroblast|5ED
-4 Shivan Dragon|5ED
+4 Pyroblast|ICE|[213]
+4 Shivan Dragon|DMR|[329]
 4 Uktabi Orangutan|VIS
 4 Wheel of Fortune|LEB

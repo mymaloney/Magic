@@ -1,13 +1,13 @@
 [metadata]
 Name=bat
 [Main]
-24 Swamp|PO2
+24 Swamp|INR|[292]
 4 Vampire Bats|LEG
 4 Dakmor Bat|PO2
 4 Sengir Bats|HML
-4 Sengir Vampire|BTD
-4 Terror|4ED
-4 Drain Life|4ED
-4 Syphon Soul|LEG
+4 Sengir Vampire|TOR|[80]
+4 Terror|DMR|[312]
+4 Drain Life|MIR|[118]
+4 Syphon Soul|ONS|[176]
 4 Rhystic Syphon|PCY
-4 Unholy Strength|LEA
+4 Unholy Strength|LEB|[132]

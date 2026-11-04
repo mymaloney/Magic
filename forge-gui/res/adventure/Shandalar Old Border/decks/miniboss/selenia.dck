@@ -1,10 +1,10 @@
 [metadata]
 Name=Selenia, Dark Angel
 [Main]
-4 Scrubland|LEA
+4 Scrubland|LEB|[282]
 4 Caves of Koilos|APC
-6 Plains|ICE
-6 Swamp|ICE
+6 Plains|INR|[288]
+6 Swamp|INR|[292]
 4 Vindicate|APC
 2 Serra's Embrace|USG
 2 Empyrial Armor|WTH
@@ -16,11 +16,11 @@ Name=Selenia, Dark Angel
 2 Replenish|UDS
 2 Seal of Cleansing|NMS
 2 Necromancy|VIS
-2 Animate Dead|LEA
+2 Animate Dead|LEB|[93]
 2 Hatred|EXO
-2 No Mercy|ULG
+2 No Mercy|DMR|[308]
 2 Persecute|USG
-2 Mind Twist|LEA
+2 Mind Twist|LEB|[116]
 2 Phyrexian Arena|APC
 2 Seal of Doom|NMS
 

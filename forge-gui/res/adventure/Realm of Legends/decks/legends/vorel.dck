@@ -1,83 +1,83 @@
 [metadata]
 Name=Vorel
 [Commander]
-1 Vorel of the Hull Clade|dgm
+1 Vorel of the Hull Clade|LCC|[294]
 [Main]
 1 Arashi, the Sky Asunder|c21
 1 Barkchannel Pathway|khm
-1 Biomass Mutation|c21
+1 Biomass Mutation|SOC|[297]
 1 Branching Evolution|mh3
-1 Brawn|cm2
-1 Bred for the Hunt|dgm
-1 Breeding Pool|rna
+1 Brawn|JUD|[107]
+1 Bred for the Hunt|CM2|[151]
+1 Breeding Pool|RVR|[399]
 1 Capricopian|c20
-1 Channeler Initiate|akh
-1 Chasm Skulker|ncc
-1 Crawling Barrens|znr
-1 Cryptolith Rite|soi
-1 Curse of the Swine|c21
+1 Channeler Initiate|ECC|[101]
+1 Chasm Skulker|PIO|[49]
+1 Crawling Barrens|FDN|[685]
+1 Cryptolith Rite|INR|[408]
+1 Curse of the Swine|SOC|[192]
 1 Didn't Say Please|eld
-1 Djinn of Wishes|c18
-1 Evolution Sage|war
-1 Fathom Mage|gtc
-11 Forest|gk2|[133]
-1 Forgotten Ancient|c21
-1 Fractal Harness|c21
+1 Djinn of Wishes|J22|[287]
+1 Evolution Sage|ECC|[105]
+1 Fathom Mage|NCC|[339]
+11 Forest|INR|[296]
+1 Forgotten Ancient|DMR|[341]
+1 Fractal Harness|SOC|[268]
 1 Galloping Lizrog|rna
-1 Gilded Goose|eld
+1 Gilded Goose|SOC|[269]
 1 Gilder Bairn|eve
-1 Growth Spiral|rna
+1 Growth Spiral|DSC|[88]
 1 Gyre Engineer|rna
-1 Gyre Sage|mic
+1 Gyre Sage|MOC|[300]
 1 Hadana's Climb|rix
-1 Hardened Scales|ktk
-1 Herald of Secret Streams|xln
-1 Heroes' Bane|jou
-1 Hinterland Harbor|dom
-1 Hydroid Krasis|rna
-1 Incubation Druid|c21
-12 Island|gk2|[132]
+1 Hardened Scales|SOC|[272]
+1 Herald of Secret Streams|LCC|[158]
+1 Heroes' Bane|FDN|[639]
+1 Hinterland Harbor|DMR|[396]
+1 Hydroid Krasis|SOC|[315]
+1 Incubation Druid|MOC|[302]
+12 Island|INR|[290]
 1 Kadena's Silencer|c19
-1 Karn's Bastion|war
+1 Karn's Bastion|RVR|[464]
 1 Kurbis, Harvest Celebrant|mic
-1 Llanowar Reborn|c21
-1 Managorger Hydra|c16
-1 Master Biomancer|c21
-1 Merfolk Skydiver|war
-1 Mosswort Bridge|c21
+1 Llanowar Reborn|LCC|[341]
+1 Managorger Hydra|FDC|[216]
+1 Master Biomancer|CLU|[200]
+1 Merfolk Skydiver|LCC|[277]
+1 Mosswort Bridge|TDC|[379]
 1 Myojin of Towering Might|nec
-1 Nadir Kraken|ncc
+1 Nadir Kraken|J25|[332]
 1 Novijen, Heart of Progress|c21
-1 Sol Ring|mkc
-1 Opal Palace|c21
-1 Oran-Rief, the Vastwood|c20
-1 Oversimplify|c21
+1 Sol Ring|LEB|[270]
+1 Opal Palace|SOC|[390]
+1 Oran-Rief, the Vastwood|SOC|[391]
+1 Oversimplify|SOC|[322]
 1 Paradox Zone|c21
-1 Phantom Nantuko|c13
+1 Phantom Nantuko|JUD|[128]
 1 Pir, Imaginative Rascal|bbd
-1 Plasm Capture|ddo
-1 Primal Empathy|iko
-1 Lightning Greaves|tdc
-1 Arcane Signet|eld
+1 Plasm Capture|OTC|[237]
+1 Primal Empathy|NCC|[348]
+1 Lightning Greaves|TRC|[496]
+1 Arcane Signet|TRC|[485]
 1 Ravenous Slime|c18
 1 Renata, Called to the Hunt|thb
-1 Repudiate|rna
-1 Ruinous Intrusion|mic
-1 Scavenging Ooze|m21
+1 Repudiate|RVR|[249]
+1 Ruinous Intrusion|LCC|[255]
+1 Scavenging Ooze|FDC|[227]
 1 Sequence Engine|c21
-1 Simic Ascendancy|rna
-1 Simic Growth Chamber|c21
+1 Simic Ascendancy|BLC|[260]
+1 Simic Growth Chamber|DSC|[298]
 1 Simic Manipulator|gtc
-1 Siren Stormtamer|xln
-1 Steelbane Hydra|eld
-1 Temple of Mystery|tdc
-1 Thallid|mma
+1 Siren Stormtamer|LCC|[171]
+1 Steelbane Hydra|SOC|[288]
+1 Temple of Mystery|SOC|[414]
+1 Thallid|FEM|[74a]
 1 Toothy, Imaginary Friend|bbd
 1 Twenty-Toed Toad|blc
-1 Tyrite Sanctum|khm
+1 Tyrite Sanctum|DMC|[240]
 1 Vastwood Hydra|c20
-1 Vineglimmer Snarl|stx
-1 Wildwood Scourge|m21
-1 Willow Geist|mid
-1 Wonder|cm2
-1 Yavimaya Coast|ori
+1 Vineglimmer Snarl|SOC|[420]
+1 Wildwood Scourge|FDN|[236]
+1 Willow Geist|DBL|[207]
+1 Wonder|JUD|[54]
+1 Yavimaya Coast|APC|[143]

@@ -6,21 +6,21 @@ Description=UB Infect deck
 Icon=Jabba the Hutt.jpg
 Deck Type=constructed
 [Main]
-2 Bonesplitter
-3 Hand of the Praetors
-3 Ichorclaw Myr
-3 Necropede
-3 Plague Stinger
-4 Phyrexian Crusader
-3 Phyrexian Vatmother
-2 Doom Blade
-3 Counterspell
-3 Corrupted Conscience
-3 Despise
-4 Blighted Agent
-5 Island|M12
-7 Swamp|M12
-4 Darkslick Shores
-4 Drowned Catacomb
-4 Inkmoth Nexus
+2 Bonesplitter|CMR|[458]
+3 Hand of the Praetors|SOM|[66]
+3 Ichorclaw Myr|ONC|[133]
+3 Necropede|SOM|[185]
+3 Plague Stinger|ONC|[96]
+4 Phyrexian Crusader|MBS|[50]
+3 Phyrexian Vatmother|MBS|[52]
+2 Doom Blade|GN3|[47]
+3 Counterspell|DMR|[281]
+3 Corrupted Conscience|MBS|[22]
+3 Despise|KTK|[69]
+4 Blighted Agent|NPH|[29]
+5 Island|INR|[290]
+7 Swamp|INR|[292]
+4 Darkslick Shores|OTC|[281]
+4 Drowned Catacomb|TRC|[376]
+4 Inkmoth Nexus|MBS|[145]
 [Sideboard]

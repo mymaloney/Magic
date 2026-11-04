@@ -1,37 +1,37 @@
 [metadata]
 Name=Emperor Mihail II
 [Commander]
-1 Emperor Mihail II|dmc
+1 Emperor Mihail II|LCC|[155]
 [Main]
-1 Aetherize|blc
+1 Aetherize|RVR|[448]
 1 Amphibian Downpour|mh3
 1 Aquitect's Will|ddt
-1 Arcane Denial|cmr
-1 Arcane Signet|ncc
+1 Arcane Denial|ALL|[22a]
+1 Arcane Signet|TRC|[485]
 1 Banner of Kinship|fdn
 1 Deepchannel Mentor|shm
 1 Saw it Coming|khm
-1 Distant Melody|mor
+1 Distant Melody|ECC|[45]
 1 Chronicle of Victory|ecl
-1 Thassa, god of the sea|ths
+1 Thassa, god of the sea|PIO|[288]
 1 Champions of the Shoal|ecl
 1 Coralhelm Commander|lcc
-1 Counterspell|6ed
+1 Counterspell|DMR|[281]
 1 Dakra Mystic|jou
-1 Deeproot Pilgrimage|plci
-1 Eaten by Piranhas|lci
+1 Deeproot Pilgrimage|LCI|[52]
+1 Eaten by Piranhas|FDN|[507]
 1 Enter the Enigma|dsk
 1 Harmonized Crescendo|ecl
-1 Herald's Horn|lcc
+1 Herald's Horn|TRC|[493]
 1 Imprisoned in the Moon|inr
-33 Island|dmu
+33 Island|INR|[290]
 1 Kefnet's Monument|akh
 1 Kindred Discovery|lcc
 1 Kopala, Warden of Waves|lcc
-1 Lord of Atlantis|sum
+1 Lord of Atlantis|LEB|[63]
 1 Lullmage Mentor|zen
-1 Master of the Pearl Trident|lcc
-1 Merfolk Looter|a25
+1 Master of the Pearl Trident|TSR|[310]
+1 Merfolk Looter|EXO|[39]
 1 Merfolk Sovereign|lcc
 1 Merrow Commerce|lrw
 1 Merrow Harbinger|lrw
@@ -40,33 +40,33 @@ Name=Emperor Mihail II
 1 Mist Dancer|lcc
 1 Mistrise Village|tdm
 1 Narset's Reversal|tdc
-1 Path of Ancestry|ecc
-1 Polymorphist's Jest|m15
-1 Ponder|lrw
-1 Propaganda|c20
+1 Path of Ancestry|TRC|[545]
+1 Polymorphist's Jest|C17|[90]
+1 Ponder|TSR|[315]
+1 Propaganda|TMP|[80]
 1 Reef Shaman|apc
 1 Reflections of Littjara|tdc
 1 Replicating Ring|moc
-1 Rogue's Passage|rtr
-1 Rootwater Thief|nem
-1 Sapphire Medallion|mh3
+1 Rogue's Passage|TRC|[552]
+1 Rootwater Thief|NMS|[40]
+1 Sapphire Medallion|TMP|[306]
 1 Seafloor Oracle|lcc
-1 Seahunter|nem
-1 Serum Visions|cn2
-1 Skullclamp|tdc
-1 Sol Ring|afc
-1 Stonybrook Banneret|mor
+1 Seahunter|NMS|[41]
+1 Serum Visions|OTC|[112]
+1 Skullclamp|TRC|[354]
+1 Sol Ring|LEB|[270]
+1 Stonybrook Banneret|LCC|[173]
 1 Streambed Aquitects|ddt
 1 Strix Serenade|mh3
 1 Surgespanner|lcc
-1 Svyelun of Sea and Sky|lcc
+1 Svyelun of Sea and Sky|MH2|[393]
 1 Thada Adel, Acquisitor|wwk
 1 Thassa's Rebuff|bng
 1 Tide Shaper|mh2
 1 Tishana's Tidebinder|lci
 1 Unable to Scream|dsk
-1 Vanquisher's Banner|lcc
+1 Vanquisher's Banner|TSR|[402]
 1 Vodalian Hexcatcher|dmu
 1 Wash Away|dbl
 1 Wild Unraveling|ecl
-1 Wonder|ema
+1 Wonder|JUD|[54]

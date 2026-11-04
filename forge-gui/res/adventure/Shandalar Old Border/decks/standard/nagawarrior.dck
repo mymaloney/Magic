@@ -1,21 +1,21 @@
 [metadata]
 Name=nagawarrior
 [Main]
-1 Mountain|4ED|3
+1 Mountain|INR|[294]
 1 Shivan Reef|APC
-12 Forest|4ED|3
-2 Aspect of Wolf|4ED
+12 Forest|INR|[296]
+2 Aspect of Wolf|LEB|[185]
 2 Emerald Charm|VIS
-2 Instill Energy|4ED
+2 Instill Energy|LEB|[203]
 2 Karplusan Forest|ICE
-2 Wild Growth|4ED
-4 Control Magic|4ED
-4 Force of Nature|4ED
-4 Giant Growth|4ED
-4 Lightning Bolt|4ED
-4 Lure|4ED
-4 Mahamoti Djinn|4ED
+2 Wild Growth|DMR|[352]
+4 Control Magic|LEB|[53]
+4 Force of Nature|LEB|[195]
+4 Giant Growth|ICE|[246]
+4 Lightning Bolt|LEB|[162]
+4 Lure|MMQ|[258]
+4 Mahamoti Djinn|LEB|[65]
 4 Snake Basket|VIS
-4 Unsummon|4ED
+4 Unsummon|LEB|[87]
 4 Yavimaya Coast|APC
-7 Island|4ED|3
+7 Island|INR|[290]

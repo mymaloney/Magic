@@ -1,80 +1,80 @@
 [metadata]
 Name=Ruric Thar, the Unbowed
 [Commander]
-1 Ruric Thar, the Unbowed|DGM
+1 Ruric Thar, the Unbowed|PIO|[239]
 [Main]
 1 Herald of Ilharg|CLU
-1 Arbor Elf|WWK
+1 Arbor Elf|A25|[160]
 1 Archetype of Aggression|BNG
 1 Augur of Autumn|EOC
-1 Bane of Progress|CC1
-1 Beast Whisperer|CLU
-1 Cinder Glade|EOC
+1 Bane of Progress|ECC|[99]
+1 Beast Whisperer|TSR|[356]
+1 Cinder Glade|ECC|[146]
 1 Cindervines|RVR
-1 Decimate|SLD
-1 Domri Rade|RVR
-1 Duskwatch Recruiter|SOI
-1 Elvish Mystic|CMM
-1 End-Raze Forerunners|CLB
-1 Etali, Primal Storm|MKC
+1 Decimate|DMR|[356]
+1 Domri Rade|PIO|[353]
+1 Duskwatch Recruiter|INR|[467]
+1 Elvish Mystic|TSR|[360]
+1 End-Raze Forerunners|BLC|[214]
+1 Etali, Primal Storm|TSR|[342]
 1 Farhaven Elf|SCD
-16 Forest|GK2|106
+16 Forest|INR|[296]
 1 Frontier Warmonger|MKC
-1 Fyndhorn Elder|5ED
-1 Fyndhorn Elves|CMR
+1 Fyndhorn Elder|ICE|[243]
+1 Fyndhorn Elves|ICE|[244]
 1 Game Trail|BLC
-1 Garruk's Horde|M14
-1 Garruk's Packleader|C19
+1 Garruk's Horde|W17|[24]
+1 Garruk's Packleader|FDC|[205]
 1 Gemrazer|IKO
-1 Glorybringer|AKH
+1 Glorybringer|TDC|[215]
 1 Goblin Anarchomancer|MH2
 1 God-Eternal Rhonas|WAR
-1 Goreclaw, Terror of Qal Sisma|MUL
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
 1 Grand Warlord Radha|DOM
-1 Greater Tanuki|CMM
-1 Growing Rites of Itlimoc|XLN
-1 Gruul Turf|2X2
+1 Greater Tanuki|DSC|[181]
+1 Growing Rites of Itlimoc|LCI|[188]
+1 Gruul Turf|ECC|[152]
 1 Gyre Sage|MOC
 1 Halana, Kessig Ranger|CMR
 1 Heartwood Storyteller|TSR
-1 Ilysian Caryatid|CMM
-1 Kessig Wolf Run|MKC
+1 Ilysian Caryatid|FDC|[211]
+1 Kessig Wolf Run|TDC|[375]
 1 Klothys, God of Destiny|THB
 1 Kogla and Yidaro|MOM
-1 Krosan Tusker|J25
+1 Krosan Tusker|ONS|[272]
 1 Leafkin Avenger|M21
-1 Llanowar Elves|DOM
+1 Llanowar Elves|LEB|[211]
 1 Manglehorn|AKH
-1 Mosswort Bridge|BLC
-10 Mountain|GK2|105
-1 Myriad Landscape|MKC
+1 Mosswort Bridge|TDC|[379]
+10 Mountain|INR|[294]
+1 Myriad Landscape|EOC|[169]
 1 Nikya of the Old Ways|RNA
 1 Nylea, Keen-Eyed|THB
-1 Ogre Battledriver|DDN
+1 Ogre Battledriver|TDC|[227]
 1 Ohran Viper|C15
 1 Primordial Sage|JMP
-1 Reclamation Sage|SCD
+1 Reclamation Sage|TSR|[366]
 1 Regal Behemoth|LCC
 1 Restless Ridgeline|LCI
-1 Return of the Wildspeaker|OTC
+1 Return of the Wildspeaker|ECC|[115]
 1 Rhythm of the Wild|RVR
-1 Rishkar's Expertise|LCC
-1 Rugged Highlands|MOM
+1 Rishkar's Expertise|FDC|[226]
+1 Rugged Highlands|TDM|[265]
 1 Runic Armasaur|LCC
-1 Sakura-Tribe Elder|TDC
+1 Sakura-Tribe Elder|SOC|[285]
 1 Sawtusk Demolisher|C20
-1 Scavenging Ooze|M21
-1 Scytheclaw Raptor|LCI
+1 Scavenging Ooze|FDC|[227]
+1 Scytheclaw Raptor|PIO|[156]
 1 Slippery Bogbonder|NCC
-1 Sol Ring|TDC
+1 Sol Ring|LEB|[270]
 1 Somberwald Sage|INR
-1 Spinerock Knoll|CLB
+1 Spinerock Knoll|FDC|[314]
 1 Stump Stomp|MH3
 1 Surrak, Elusive Hunter|TDM
-1 Tectonic Giant|SCD
-1 Temple of Abandon|CLB
+1 Tectonic Giant|DSC|[168]
+1 Temple of Abandon|TDC|[400]
 1 Temur Sabertooth|NCC
-1 Topiary Stomper|LCC
-1 Wood Elves|MOC
-1 Zealous Conscripts|INR
-1 Zhur-Taa Druid|DGM
+1 Topiary Stomper|J25|[730]
+1 Wood Elves|EXO|[130]
+1 Zealous Conscripts|TSR|[354]
+1 Zhur-Taa Druid|GK2|[101]

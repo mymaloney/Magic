@@ -1,35 +1,35 @@
 [metadata]
 Name=holypaladin
 [Main]
-2 Akroma's Vengeance|C18|1
-2 Ambitious Farmhand|MID|1
+2 Akroma's Vengeance|ONS|[2]
+2 Ambitious Farmhand|INR|[448]
 1 Cavalier of Dawn|M20|1
 2 Cerise, Slayer of Fear|YWOE|1
 3 Champions of Tyr|HBG|1
 1 Charismatic Conqueror|LCC|2
 2 Chivalric Alliance|MOC|1
-2 Cleansing Nova|CMM|1
-2 Dawn of Hope|J22|1
+2 Cleansing Nova|FDC|[20]
+2 Dawn of Hope|SCD|[17]
 4 Dawnstrike Paladin|DDL|1
 2 Daxos, Blessed by the Sun|THB|1
 4 Elenda's Hierophant|LCC|2
-2 Elspeth's Smite|MOM|1
-4 Fiendslayer Paladin|M14|1
+2 Elspeth's Smite|FDN|[493]
+4 Fiendslayer Paladin|PIO|[281]
 3 Heliod, Sun-Crowned|CMM|1
 3 History of Benalia|DOM|1
-2 Intrepid Adversary|MID|1
-4 Kabira Crossroads|C17|1
-2 Knight of the White Orchid|VOC|1
-1 Moonshaker Cavalry|SCH|1
-25 Plains|DOM|1
+2 Intrepid Adversary|DBL|[25]
+4 Kabira Crossroads|J25|[768]
+2 Knight of the White Orchid|PIO|[21]
+1 Moonshaker Cavalry|SOC|[110]
+25 Plains|INR|[288]
 4 Radiant Smite|YLCI|1
 2 Reverent Hoplite|THB|1
-4 Seraph Sanctuary|SLD|2
+4 Seraph Sanctuary|FDC|[313]
 4 Serra Ascendant|IMA|1
 2 Silverblade Paladin|C14|1
-4 Soul Warden|MM3|1
-2 Swords to Plowshares|GN3|1
+4 Soul Warden|EXO|[21]
+2 Swords to Plowshares|DMR|[275]
 2 Virtue of Loyalty|WOE|1
-3 Worthy Knight|ELD|1
+3 Worthy Knight|MOC|[217]
 [Sideboard]
 [Schemes]

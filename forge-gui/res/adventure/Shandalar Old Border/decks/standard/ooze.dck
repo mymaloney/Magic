@@ -1,9 +1,9 @@
 [metadata]
 Name=ooze
 [Main]
-4 Mountain|USG
-4 Swamp|USG
-4 Forest|USG
+4 Mountain|INR|[294]
+4 Swamp|INR|[292]
+4 Forest|INR|[296]
 4 Urborg Volcano|INV
 4 Shivan Oasis|INV
 4 Ancient Ooze|SCG
@@ -15,7 +15,7 @@ Name=ooze
 2 Caustic Tar|ODY
 4 Misfortune|ALL
 2 Weird Harvest|ONS
-2 Terror|LEA
-2 Lightning Bolt|LEA
+2 Terror|DMR|[312]
+2 Lightning Bolt|LEB|[162]
 2 Rancor|ULG
 4 Rampant Growth|TMP

@@ -1,95 +1,95 @@
 [metadata]
 Name=Sharuum
 [Commander]
-1 Sharuum the Hegemon|c16
+1 Sharuum the Hegemon|BRC|[128]
 [Main]
-1 Academy Ruins|mma
-1 Angel of the Ruins|c21
-1 Arcane Sanctum|ala
-1 Arcane Signet|ecc
-1 Azorius Signet|gk2
-1 Baleful Strix|otc
-1 Tezzeret the Seeker|ala
-1 Filigree Angel|arb
-1 Esper Charm|ala
-1 Executioner's Capsule|ala
+1 Academy Ruins|TRC|[366]
+1 Angel of the Ruins|EOC|[63]
+1 Arcane Sanctum|TRC|[513]
+1 Arcane Signet|TRC|[485]
+1 Azorius Signet|FRC|[53]
+1 Baleful Strix|BLC|[86]
+1 Tezzeret the Seeker|MM2|[62]
+1 Filigree Angel|C16|[199]
+1 Esper Charm|C18|[179]
+1 Executioner's Capsule|BRC|[104]
 1 Sphinx Sovereign|ala
-1 Buried Ruin|c18
-1 Burnished Hart|c19
-1 Cataclysmic Gearhulk|kld
+1 Buried Ruin|EOC|[150]
+1 Burnished Hart|FDN|[250]
+1 Cataclysmic Gearhulk|MOC|[176]
 1 Chief Engineer|c16
-1 Command Tower|eld
-1 Conjurer's Closet|2xm
+1 Command Tower|TRC|[521]
+1 Conjurer's Closet|INR|[441]
 1 Machine God's Effigy|brc
-1 Crawlspace|c13
+1 Crawlspace|DMR|[375]
 1 Tezzeret, Master of the Bridge|war
-1 Darksteel Citadel|c18
+1 Darksteel Citadel|FDC|[300]
 1 Demonic Junker|dft
-1 Deserted Beach|inr
-1 Talisman of Dominance|mrd
-1 Dispeller's Capsule|cmr
+1 Deserted Beach|FRA|[176]
+1 Talisman of Dominance|TRC|[505]
+1 Dispeller's Capsule|C21|[89]
 1 Ethersworn Sphinx|mh2
-1 Ephemerate|sta
-1 Esper Sentinel|mh2
-1 Etherium Sculptor|c18
-1 Ethersworn Canonist|ala
-1 Fact or Fiction|cmm
+1 Ephemerate|H1R|[1]
+1 Esper Sentinel|H2R|[2]
+1 Etherium Sculptor|EOC|[72]
+1 Ethersworn Canonist|2XM|[14]
+1 Fact or Fiction|DMR|[283]
 1 Flooded Strand|mh3
-1 Glimmervoid|mma
-1 Godless Shrine|eoe
-1 Grand Architect|som
-1 Hallowed Fountain|unf
+1 Glimmervoid|2XM|[319]
+1 Godless Shrine|RVR|[401]
+1 Grand Architect|2XM|[53]
+1 Hallowed Fountain|RVR|[404]
 1 Inventors' Fair|kld
-5 Island|ala|[236]
-1 Lightning Greaves|mrd
-1 Magister Sphinx|con
-1 Master Transmuter|con
-1 Meteor Golem|m20
-1 Goldmire Bridge|mh2
+5 Island|INR|[290]
+1 Lightning Greaves|TRC|[496]
+1 Magister Sphinx|2X2|[247]
+1 Master Transmuter|FDC|[67]
+1 Meteor Golem|FDN|[256]
+1 Goldmire Bridge|MOC|[407]
 1 Mirrodin Besieged|mh1
 1 Archway of Innovation|mh3
-1 Mistvault Bridge|mh2
-1 Myr Retriever|2xm
-1 Nihil Spellbomb|a25
+1 Mistvault Bridge|BRC|[189]
+1 Myr Retriever|FDC|[274]
+1 Nihil Spellbomb|SCD|[270]
 1 Ondu Inversion|znr
 1 Ornithopter of Paradise|mh2
 1 Otawara, Soaring City|neo
-1 Phyrexia's Core|cm2
-1 Phyrexian Metamorph|nph
-3 Plains|ala|[233]
-1 Polluted Delta|ktk
+1 Phyrexia's Core|C21|[309]
+1 Phyrexian Metamorph|EOC|[75]
+3 Plains|INR|[288]
+1 Polluted Delta|MH3|[438]
 1 Raffine's Tower|snc
-1 Razortide Bridge|mh2
+1 Razortide Bridge|EOC|[171]
 1 Repurposing Bay|dft
-1 Rhystic Study|j22
+1 Rhystic Study|PCY|[45]
 1 Riptide Gearhulk|dft
-1 Saheeli's Artistry|kld
-1 Scrap Trawler|aer
-1 Sculpting Steel|mrd
-1 Shipwreck Marsh|inr
-1 Silent Arbiter|cns
+1 Saheeli's Artistry|MOC|[234]
+1 Scrap Trawler|MOC|[373]
+1 Sculpting Steel|MOC|[374]
+1 Shipwreck Marsh|FRA|[189]
+1 Silent Arbiter|C20|[250]
 1 Sink into Stupor|mh3
-1 Skullclamp|dst
-1 Sol Ring|ecc
-1 Solemn Simulacrum|m12
+1 Skullclamp|TRC|[354]
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
 1 Sphinx of the Steel Wind|ema
-1 Sphinx Summoner|c16
-1 Spire of Industry|aer
-1 Steel Hellkite|c18
+1 Sphinx Summoner|2XM|[220]
+1 Spire of Industry|TRC|[405]
+1 Steel Hellkite|TDC|[327]
 1 Steelswarm Operator|eoe
 1 Stern Lesson|bro
-4 Swamp|ala|[238]
-1 Swords to Plowshares|ima
+4 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
 1 Tarrian's Journal|lci
-1 Teferi's Protection|sta
+1 Teferi's Protection|2X2|[32]
 1 Thaumatic Compass|xln
-1 The Mycosynth Gardens|one
-1 Thirst for Knowledge|mrd
+1 The Mycosynth Gardens|EOC|[168]
+1 Thirst for Knowledge|TRC|[443]
 1 Thopter Foundry|2xm
 1 Thran Spider|bro
-1 Trading Post|m13
-1 Urza, Lord High Artificer|mh1
+1 Trading Post|BRC|[169]
+1 Urza, Lord High Artificer|DMR|[296]
 1 Urza's Saga|mh2
-1 Vedalken Engineer|c16
-1 Watery Grave|grn
-1 Wurmcoil Engine|cm2
+1 Vedalken Engineer|J22|[367]
+1 Watery Grave|RVR|[415]
+1 Wurmcoil Engine|2XM|[308]

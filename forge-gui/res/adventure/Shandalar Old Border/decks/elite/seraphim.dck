@@ -1,17 +1,17 @@
 [metadata]
 Name=seraphim
 [Main]
-20 Plains|ONS
+20 Plains|INR|[288]
 4 Moat|LEG
 4 Karmic Justice|ODY
 4 Worship|USG
 4 Opalescence|UDS
-4 Sacred Mesa|ATH
+4 Sacred Mesa|MIR|[37]
 3 Crackdown|MMQ
 3 Aurification|ONS
 4 Planar Collapse|ULG
 4 Arrest|MMQ
-4 Pacifism|MIR
+4 Pacifism|ONS|[47]
 2 Mobilization|ONS
 
 [StartInBattle_Reference]

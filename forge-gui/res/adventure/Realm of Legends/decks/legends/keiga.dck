@@ -1,73 +1,73 @@
 [metadata]
 Name=Keiga, the Tide Star
 [Commander]
-1 Keiga, the Tide Star|CHK
+1 Keiga, the Tide Star|TDC|[156]
 [Main]
-1 Apprentice Wizard|2XM
-1 Aqueous Form|THS
+1 Apprentice Wizard|DRK|[21]
+1 Aqueous Form|PIO|[45]
 1 Artful Dodge|DKA
 1 Blade of Shared Souls|ONE
-1 Blustersquall|RTR
-1 Burnished Hart|THS
-1 Cackling Counterpart|ISD
-1 Carnage Altar|ZEN
+1 Blustersquall|C15|[89]
+1 Burnished Hart|FDN|[250]
+1 Cackling Counterpart|INR|[353]
+1 Carnage Altar|C13|[238]
 1 Chancellor of the Spires|NPH
-1 Counterspell|CMM
-1 Culling Dais|SOM
-1 Desert of the Mindful|HOU
+1 Counterspell|DMR|[281]
+1 Culling Dais|2XM|[246]
+1 Desert of the Mindful|DRC|[150]
 1 Displace|EMN
-1 Distortion Strike|ROE
-1 Dream Eater|GRN
-1 Dreamscape Artist|PLC
+1 Distortion Strike|IMA|[52]
+1 Dream Eater|DSC|[116]
+1 Dreamscape Artist|TSR|[64]
 1 Elite Arcanist|M14
 1 Kairi, the Swirling Sky|NEO
 1 Fated Infatuation|BNG
-1 Fireshrieker|MRD
-1 Followed Footsteps|RAV
-1 Frantic Search|CMM
+1 Fireshrieker|J25|[750]
+1 Followed Footsteps|CN2|[111]
+1 Frantic Search|DMR|[285]
 1 Ghostly Flicker|CMM
-1 Gigantoplasm|C15
+1 Gigantoplasm|RVR|[450]
 1 Glasspool Mimic|ZNR
-1 Haunted Cloak|SOI
-1 Haunted Fengraf|DKA
+1 Haunted Cloak|CMM|[389]
+1 Haunted Fengraf|C18|[254]
 1 Identity Thief|NCC
 1 Illusionist's Stratagem|AER
-32 Island|CHK
-1 Jace's Mindseeker|M14
-1 Jalira, Master Polymorphist|M15
-1 Loxodon Warhammer|HOP
-1 Memorial to Genius|DOM
+32 Island|INR|[290]
+1 Jace's Mindseeker|DDM|[19]
+1 Jalira, Master Polymorphist|A25|[63]
+1 Loxodon Warhammer|ONC|[135]
+1 Memorial to Genius|J25|[771]
 1 Mesmerizing Benthid|RNA
-1 Mimic Vat|C18
-1 Mind Stone|BLC
+1 Mimic Vat|LCC|[115]
+1 Mind Stone|DMR|[385]
 1 Mirage Mockery|ONC
-1 Mirror Image|M19
+1 Mirror Image|J22|[62]
 1 Mirror Mockery|DTK
-1 Mirrorhall Mimic|VOW
-1 Mulldrifter|LRW
-1 Negate|MOR
-1 Neurok Invisimancer|SOM
+1 Mirrorhall Mimic|DBL|[335]
+1 Mulldrifter|TSR|[311]
+1 Negate|TRC|[439]
+1 Neurok Invisimancer|DDI|[8]
 1 Oracle of Tragedy|MOM
-1 Palladium Myr|SOM
+1 Palladium Myr|FDC|[278]
 1 Psychic Pickpocket|SNC
-1 Ravenform|KHM
-1 Reality Shift|FRF
+1 Ravenform|LCC|[167]
+1 Reality Shift|SOC|[199]
 1 Renegade Doppelganger|ROE
-1 Rite of Replication|ZEN
+1 Rite of Replication|SOC|[202]
 1 Rush of Knowledge|SCG
 1 Sakashima's Protege|CMR
-1 Sol Ring|DSC
-1 Solemn Simulacrum|TDC
-1 Sphinx of Magosi|ROE
-1 Sphinx of Uthuun|M12
-1 Stolen Identity|GTC
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
+1 Sphinx of Magosi|PIO|[286]
+1 Sphinx of Uthuun|CMR|[406]
+1 Stolen Identity|NCC|[233]
 1 Svyelunite Temple|FEM
 1 Sword of Vengeance|BLB
 1 Tempest Caller|XLN
 1 The Surgical Bay|ONE
-1 Torrential Gearhulk|KLD
-1 Trophy Mage|AER
-1 Vizier of Many Faces|AKH
-1 Whirler Rogue|ORI
+1 Torrential Gearhulk|CMM|[128]
+1 Trophy Mage|DDU|[42]
+1 Vizier of Many Faces|DRC|[84]
+1 Whirler Rogue|DRC|[85]
 1 Whirlpool Drake|APC
-1 Whitewater Naiads|JOU
+1 Whitewater Naiads|C18|[112]

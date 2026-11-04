@@ -1,12 +1,12 @@
 [metadata]
 Name=Human Footsoldier
 [Main]
-20 Plains|ONS|3
+20 Plains|INR|[288]
 2 Daru Encampment|ONS
 4 Infantry Veteran|VIS
 4 Soltari Foot Soldier|TMP
 4 Expendable Troops|ULG
-4 Royal Trooper|S99
+4 Royal Trooper|BBD|[104]
 4 Enlistment Officer|APC
 2 Gempalm Avenger|LGN
 2 Staunch Defenders|TMP

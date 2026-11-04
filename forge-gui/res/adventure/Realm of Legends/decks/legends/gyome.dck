@@ -1,90 +1,90 @@
 [metadata]
 Name=Gyome
 [Commander]
-1 Gyome, Master Chef|c21
+1 Gyome, Master Chef|SOC|[313]
 [Main]
-1 Arcane Signet|c21
-1 Assassin's Trophy|grn
-1 Mortality Spear|stx
+1 Arcane Signet|TRC|[485]
+1 Assassin's Trophy|SOC|[294]
+1 Mortality Spear|SOC|[321]
 1 Brackish Trudge|stx
 1 Honor Troll|stx
-1 Trudge Garden|c21
+1 Trudge Garden|SOC|[290]
 1 Sproutback Trudge|c21
-1 Ravenous Chupacabra|rix
+1 Ravenous Chupacabra|MKC|[136]
 1 Taste of Death|c21
-1 Wall of Limbs|m15
-1 Bake into a Pie|jmp
-1 Bala Ged Recovery|znr
-1 Beledros Witherbloom|stx
+1 Wall of Limbs|TDC|[200]
+1 Bake into a Pie|FDN|[169]
+1 Bala Ged Recovery|PIO|[165]
+1 Beledros Witherbloom|SOC|[296]
 1 Blighted Woodland|tsr
 1 Bristlebud Farmer|big
 1 Callous Bloodmage|stx
-1 Cauldron Familiar|eld
-1 Chittering Witch|eld
-1 Clifftop Lookout|blb
-1 Command Tower|khc
-1 Crypt Incursion|dgm
-1 Cuombajj Witches|cmr
-1 Deadly Tempest|c21
-1 Deathsprout|war
-1 Dina, Soul Steeper|stx
+1 Cauldron Familiar|JMP|[216]
+1 Chittering Witch|TDC|[175]
+1 Clifftop Lookout|FDC|[195]
+1 Command Tower|TRC|[521]
+1 Crypt Incursion|PIO|[88]
+1 Cuombajj Witches|ARN|[23]
+1 Deadly Tempest|SCD|[75]
+1 Deathsprout|C20|[208]
+1 Dina, Soul Steeper|SOC|[305]
 1 Diresight|blb
-1 Erebos, God of the Dead|ths
+1 Erebos, God of the Dead|PIO|[291]
 1 Essence Pulse|c21
-1 Evolving Wilds|sld
-1 Exotic Orchard|c20
-1 Exsanguinate|som
-8 Forest|stx
-1 Gilded Goose|eld
-1 Gingerbread Cabin|eld
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
+1 Exsanguinate|FDN|[173]
+8 Forest|INR|[296]
+1 Gilded Goose|SOC|[269]
+1 Gingerbread Cabin|C21|[290]
 1 Gluttonous Troll|c21
 1 God-Eternal Bontu|eoc
-1 Golgari Rot Farm|khc
+1 Golgari Rot Farm|ECC|[151]
 1 Greta, Sweettooth Scourge|woe
 1 Healing Technique|c21
 1 Heaped Harvest|blb
-1 High Market|2xm
-1 Jungle Hollow|khc
-1 Kalitas, Traitor of Ghet|ogw
-1 Killer Service|ncc
-1 Llanowar Wastes|c20
+1 High Market|MMQ|[320]
+1 Jungle Hollow|TDM|[258]
+1 Kalitas, Traitor of Ghet|FDC|[108]
+1 Killer Service|MKC|[174]
+1 Llanowar Wastes|APC|[141]
 1 Marionette Apprentice|mh3
-1 Moldervine Reclamation|c21
-1 Myriad Landscape|khc
-1 Open the Way|mat
-1 Pest Infestation|c21
+1 Moldervine Reclamation|SOC|[320]
+1 Myriad Landscape|EOC|[169]
+1 Open the Way|SOC|[280]
+1 Pest Infestation|SOC|[282]
 1 Phyrexian Delver|inv
-1 Radiant Fountain|m21
-1 Reassembling Skeleton|m12
+1 Radiant Fountain|FDC|[308]
+1 Reassembling Skeleton|TDC|[195]
 1 Restless Cottage|woe
 1 Ripples of Undeath|mh3
-1 Rogue's Passage|cmr
+1 Rogue's Passage|TRC|[552]
 1 Savvy Hunter|eld
-1 Skullclamp|c17
-1 Sol Ring|c21
-1 Spawning Pit|dst
+1 Skullclamp|TRC|[354]
+1 Sol Ring|LEB|[270]
+1 Spawning Pit|J22|[136]
 1 Stargaze|blb
-1 Study Hall|c21
-8 Swamp|stx
-1 Syr Konrad, the Grim|eld
-1 Tainted Wood|cma
-1 Talisman of Resilience|mh1
-1 Temple of Malady|m21
+1 Study Hall|SOC|[407]
+8 Swamp|INR|[292]
+1 Syr Konrad, the Grim|DSC|[158]
+1 Tainted Wood|TOR|[143]
+1 Talisman of Resilience|SOC|[432]
+1 Temple of Malady|SOC|[413]
 1 The Underworld Cookbook|mh2
-1 Thriving Grove|jmp
-1 Thriving Moor|jmp
-1 Tireless Provisioner|mh2
-1 Tough Cookie|woe
-1 Trading Post|m13
-1 Trail of Crumbs|eld
+1 Thriving Grove|ECC|[171]
+1 Thriving Moor|ECC|[174]
+1 Tireless Provisioner|J25|[728]
+1 Tough Cookie|J25|[731]
+1 Trading Post|BRC|[169]
+1 Trail of Crumbs|J25|[732]
 1 Valentin, Dean of the Vein|stx
-1 Veinwitch Coven|c21
-1 Vito, Thorn of the Dusk Rose|m21
-1 Westvale Abbey|soi
-1 Whip of Erebos|ths
+1 Veinwitch Coven|SOC|[228]
+1 Vito, Thorn of the Dusk Rose|J25|[71]
+1 Westvale Abbey|INR|[474]
+1 Whip of Erebos|PIO|[119]
 1 Willowdusk, Essence Seer|c21
-1 Witch of the Moors|jmp
-1 Witch's Cauldron|m21
-1 Witch's Clinic|c21
+1 Witch of the Moors|SOC|[230]
+1 Witch's Cauldron|CMM|[199]
+1 Witch's Clinic|FDC|[318]
 1 Witch's Oven|eld
-1 Witherbloom Campus|stx
+1 Witherbloom Campus|SOC|[423]

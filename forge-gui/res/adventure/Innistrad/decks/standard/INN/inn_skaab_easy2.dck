@@ -4,18 +4,18 @@ Name=INN_skaab_easy2
 
 [Main]
 2 Frightful Delusion|ISD|1
-2 Drownyard Amalgam|MID|1
-1 Memory Deluge|MID|1
+2 Drownyard Amalgam|DBL|[50]
+1 Memory Deluge|INR|[361]
 2 Armored Skaab|ISD|1
-2 Larder Zombie|MID|1
+2 Larder Zombie|DBL|[58]
 2 Seagraf Skaab|SOI|1
-2 Silent Departure|ISD|1
-2 Curiosity|ISD|1
-2 Stitched Mangler|SOI|1
-2 Thought Scour|DKA|1
-2 Startle|MID|1
-2 Falcon Abomination|MID|1
-17 Island|ISD|2
+2 Silent Departure|INR|[367]
+2 Curiosity|EXO|[29]
+2 Stitched Mangler|INR|[87]
+2 Thought Scour|2X2|[65]
+2 Startle|DBL|[78]
+2 Falcon Abomination|DBL|[52]
+17 Island|INR|[290]
 [Sideboard]
 
 [Planes]

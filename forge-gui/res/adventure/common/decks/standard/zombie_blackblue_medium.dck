@@ -1,35 +1,35 @@
 [metadata]
 Name=zombie_blackblue_medium
 [Main]
-1 Cemetery Reaper|MIC|1
-2 Champion of the Perished|MID|1
+1 Cemetery Reaper|DRC|[87]
+2 Champion of the Perished|FDC|[91]
 2 Cleaver Skaab|MIC|1
-1 Cryptbreaker|EMN|1
-1 Death Baron|M19|1
+1 Cryptbreaker|DRC|[41]
+1 Death Baron|FDC|[95]
 2 Diregraf Captain|SCD|1
-2 Fatal Push|F17|1
-1 Ghoulcaller Gisa|JMP|1
-3 Go for the Throat|BRO|1
-2 Grave Titan|C14|1
-2 Gravecrawler|2X2|1
-3 Island|M20|1
-1 Island|M20|2
-3 Island|M20|3
-1 Island|M20|4
-2 Jadar, Ghoulcaller of Nephalia|MID|1
-1 Lord of the Accursed|MIC|1
-2 Master of Death|MH2|1
-1 Mikaeus, the Unhallowed|UMA|1
-1 Murderous Rider|J21|1
-1 Necroduality|VOW|1
+2 Fatal Push|2XM|[93]
+1 Ghoulcaller Gisa|FDC|[6]
+3 Go for the Throat|FDC|[100]
+2 Grave Titan|ECC|[74]
+2 Gravecrawler|INR|[380]
+3 Island|INR|[290]
+1 Island|INR|[290]
+3 Island|INR|[290]
+1 Island|INR|[290]
+2 Jadar, Ghoulcaller of Nephalia|SOC|[217]
+1 Lord of the Accursed|DRC|[95]
+2 Master of Death|MKC|[216]
+1 Mikaeus, the Unhallowed|CMM|[173]
+1 Murderous Rider|DRC|[45]
+1 Necroduality|INR|[365]
 1 Relentless Dead|SOI|1
-8 Swamp|M20|1
-1 The Scarab God|2XM|1
-2 Undead Warchief|HOP|1
-4 Underground Sea|30A|1
-2 Unearth|A25|1
-4 Watery Grave|SLD|1
+8 Swamp|INR|[292]
+1 The Scarab God|DRC|[120]
+2 Undead Warchief|SCG|[78]
+4 Underground Sea|LEB|[286]
+2 Unearth|ULG|[72]
+4 Watery Grave|RVR|[415]
 2 Wilhelt, the Rotcleaver|MIC|1
-1 Zombie Master|30A|1
+1 Zombie Master|LEB|[138]
 [Sideboard]
 [Schemes]

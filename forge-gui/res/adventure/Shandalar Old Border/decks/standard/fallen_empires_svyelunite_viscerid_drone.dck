@@ -1,10 +1,10 @@
 [metadata]
 Name=Viscerid Drone
 [Main]
-6 Island|3ED
-13 Swamp|3ED
+6 Island|INR|[290]
+13 Swamp|INR|[292]
 2 Bad River|MIR
-2 Polluted Delta|ONS
+2 Polluted Delta|MH3|[438]
 1 River Delta|ICE
 1 Salt Marsh|INV
 1 Everglades|VIS
@@ -24,7 +24,7 @@ Name=Viscerid Drone
 1 Marsh Gas|DRK
 1 Land Equilibrium|LEG
 2 Dirtwater Wraith|MIR
-1 Evil Presence|3ED
+1 Evil Presence|LEB|[108]
 3 Spiny Starfish|ALL
 1 Homarid Spawning Bed|FEM
 [StartInBattle_Reference]

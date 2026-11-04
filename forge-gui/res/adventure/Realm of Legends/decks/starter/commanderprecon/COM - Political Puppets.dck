@@ -2,90 +2,90 @@
 Name=Political Puppets [COM] [2011]
 Set=COM
 [Commander]
-1 Zedruu the Greathearted|COM
+1 Zedruu the Greathearted|C16|[231]
 [Main]
-1 Arbiter of Knollridge|COM
-1 Armillary Sphere|COM
-1 Austere Command|COM
-1 Azorius Chancery|COM
-1 Azorius Guildmage|COM
-1 Boros Garrison|COM
-1 Brainstorm|COM
-1 Breath of Darigaaz|COM
-1 Brion Stoutarm|COM
-1 Champion's Helm|COM
-1 Chaos Warp|COM
-1 Chromeshell Crab|COM
-1 Command Tower|COM
-1 Court Hussar|COM
-1 Crescendo of War|COM
-1 Darksteel Ingot|COM
-1 Death by Dragons|COM
-1 Dominus of Fealty|COM
-1 Dreamstone Hedron|COM
-1 Evolving Wilds|COM
-1 False Prophet|COM
-1 Fellwar Stone|COM
-1 Flametongue Kavu|COM
-1 Flusterstorm|COM
-1 Fog Bank|COM
-1 Ghostly Prison|COM
-1 Goblin Cadets|COM
-1 Gomazoa|COM
-1 Guard Gomazoa|COM
-1 Howling Mine|COM
-1 Insurrection|COM
-3 Island|COM|1
-3 Island|COM|2
-3 Island|COM|3
-3 Island|COM|4
-1 Izzet Boilerworks|COM
-1 Izzet Chronarch|COM
-1 Jötun Grunt|COM
-1 Journey to Nowhere|COM
-1 Lash Out|COM
-1 Lightning Greaves|COM
-1 Martyr's Bond|COM
-2 Mountain|COM|1
-2 Mountain|COM|2
-2 Mountain|COM|3
-2 Mountain|COM|4
-1 Murmurs from Beyond|COM
-1 Nin, the Pain Artist|COM
-1 Numot, the Devastator|COM
-1 Oblation|COM
-1 Perilous Research|COM
-2 Plains|COM|1
-2 Plains|COM|2
-2 Plains|COM|3
-2 Plains|COM|4
-1 Plumeveil|COM
-1 Pollen Lullaby|COM
-1 Prison Term|COM
-1 Propaganda|COM
-1 Prophetic Prism|COM
-1 Punishing Fire|COM
-1 Rapacious One|COM
-1 Reins of Power|COM
-1 Repulse|COM
-1 Ruhan of the Fomori|COM
-1 Scattering Stroke|COM
-1 Skyscribing|COM
-1 Sol Ring|COM
-1 Soul Snare|COM
-1 Spell Crumple|COM
-1 Spurnmage Advocate|COM
-1 Terramorphic Expanse|COM
-1 Trade Secrets|COM
-1 Vedalken Plotter|COM
-1 Vision Skeins|COM
-1 Vow of Duty|COM
-1 Vow of Flight|COM
-1 Vow of Lightning|COM
-1 Wall of Denial|COM
-1 Wall of Omens|COM
-1 Whirlpool Whelm|COM
-1 Wild Ricochet|COM
-1 Windborn Muse|COM
+1 Arbiter of Knollridge|CM2|[17]
+1 Armillary Sphere|CMR|[298]
+1 Austere Command|FDC|[18]
+1 Azorius Chancery|DSC|[261]
+1 Azorius Guildmage|RVR|[165]
+1 Boros Garrison|CLU|[231]
+1 Brainstorm|MMQ|[61]
+1 Breath of Darigaaz|INV|[138]
+1 Brion Stoutarm|A25|[200]
+1 Champion's Helm|CMM|[375]
+1 Chaos Warp|MBC|[72]
+1 Chromeshell Crab|LGN|[32]
+1 Command Tower|TRC|[521]
+1 Court Hussar|GK2|[5]
+1 Crescendo of War|CMD|[12]
+1 Darksteel Ingot|PIO|[254]
+1 Death by Dragons|CMA|[80]
+1 Dominus of Fealty|CMD|[194]
+1 Dreamstone Hedron|M3C|[289]
+1 Evolving Wilds|TRC|[527]
+1 False Prophet|UDS|[6]
+1 Fellwar Stone|DRK|[102]
+1 Flametongue Kavu|DMR|[320]
+1 Flusterstorm|IMA|[55]
+1 Fog Bank|USG|[75]
+1 Ghostly Prison|SOC|[146]
+1 Goblin Cadets|USG|[189]
+1 Gomazoa|CMD|[48]
+1 Guard Gomazoa|PCA|[17]
+1 Howling Mine|LEB|[248]
+1 Insurrection|ONS|[213]
+3 Island|INR|[290]
+3 Island|INR|[290]
+3 Island|INR|[290]
+3 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
+1 Izzet Chronarch|C17|[175]
+1 Jötun Grunt|CMD|[16]
+1 Journey to Nowhere|CMD|[17]
+1 Lash Out|CMD|[127]
+1 Lightning Greaves|TRC|[496]
+1 Martyr's Bond|CMD|[19]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+1 Murmurs from Beyond|CMD|[53]
+1 Nin, the Pain Artist|C17|[183]
+1 Numot, the Devastator|CMD|[215]
+1 Oblation|ONS|[46]
+1 Perilous Research|MMA|[58]
+2 Plains|INR|[288]
+2 Plains|INR|[288]
+2 Plains|INR|[288]
+2 Plains|INR|[288]
+1 Plumeveil|UMA|[218]
+1 Pollen Lullaby|CMD|[26]
+1 Prison Term|CMD|[27]
+1 Propaganda|TMP|[80]
+1 Prophetic Prism|J25|[758]
+1 Punishing Fire|CMD|[131]
+1 Rapacious One|CMM|[249]
+1 Reins of Power|STH|[41]
+1 Repulse|INV|[70]
+1 Ruhan of the Fomori|CMD|[221]
+1 Scattering Stroke|CMD|[60]
+1 Skyscribing|C13|[57]
+1 Sol Ring|LEB|[270]
+1 Soul Snare|MH2|[387]
+1 Spell Crumple|CM2|[50]
+1 Spurnmage Advocate|JUD|[27]
+1 Terramorphic Expanse|TRC|[571]
+1 Trade Secrets|ONS|[118]
+1 Vedalken Plotter|CMD|[66]
+1 Vision Skeins|E01|[29]
+1 Vow of Duty|MKC|[89]
+1 Vow of Flight|GN3|[42]
+1 Vow of Lightning|MKC|[164]
+1 Wall of Denial|MM3|[201]
+1 Wall of Omens|TDC|[138]
+1 Whirlpool Whelm|CMD|[69]
+1 Wild Ricochet|SCD|[169]
+1 Windborn Muse|DMR|[278]
 [Sideboard]
 

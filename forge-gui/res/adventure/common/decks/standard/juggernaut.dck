@@ -3,18 +3,18 @@ Name=Juggernaut
 [Main]
 2 Arcbound Crusher|HOP|1
 4 Automated Artificer|NEO|1
-2 Darksteel Juggernaut|C18|1
-4 Foundry Inspector|CMM|1
-2 Graaz, Unstoppable Juggernaut|ONE|1
-4 Juggernaut|DOM|1
+2 Darksteel Juggernaut|FDC|[252]
+4 Foundry Inspector|FDC|[259]
+2 Graaz, Unstoppable Juggernaut|FDC|[260]
+4 Juggernaut|DMR|[382]
 2 Liberator, Urza's Battlethopter|BRO|1
-2 Meteor Golem|CMM|1
+2 Meteor Golem|FDN|[256]
 2 Mishra's Foundry|BRO|1
-2 Myr Retriever|C14|1
-4 Ornithopter of Paradise|J21|1
+2 Myr Retriever|FDC|[274]
+4 Ornithopter of Paradise|MH2|[430]
 4 Ramroller|ORI|1
-4 Traveler's Amulet|2X2|1
-4 Wasteland|OLGC|2
-18 Wastes|SLD|1
+4 Traveler's Amulet|INR|[273]
+4 Wasteland|TMP|[330]
+18 Wastes|TSR|[410]
 [Sideboard]
 [Schemes]

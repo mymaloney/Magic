@@ -1,76 +1,76 @@
 [metadata]
 Name=Kangee, Sky Warden
 [Commander]
-1 Kangee, Sky Warden|CMR
+1 Kangee, Sky Warden|SCD|[234]
 [Main]
-1 Absorb|RNA
-1 Adarkar Wastes|DMU
+1 Absorb|DMR|[354]
+1 Adarkar Wastes|ICE|[351]
 1 Aerial Assault|JMP
-1 Aetherize|ZNC
+1 Aetherize|RVR|[448]
 1 Aetherspouts|MIC
 1 Animal Sanctuary|M21
-1 Arcane Signet|SCD
-1 Archon of Redemption|JMP
-1 Austere Command|MOC
-1 Aven Gagglemaster|M21
+1 Arcane Signet|TRC|[485]
+1 Archon of Redemption|SCD|[7]
+1 Austere Command|FDC|[18]
+1 Aven Gagglemaster|SCD|[8]
 1 Aven Skirmisher|FRF
-1 Azorius Signet|NCC
+1 Azorius Signet|FRC|[53]
 1 Battlefield Raptor|KHM
 1 Cloud Sprite|MMQ
-1 Coldsteel Heart|2X2
-1 Command Tower|C14
-1 Demolition Field|BRO
-1 Disdainful Stroke|SNC
+1 Coldsteel Heart|J22|[94]
+1 Command Tower|TRC|[521]
+1 Demolition Field|FDN|[687]
+1 Disdainful Stroke|TSR|[307]
 1 Donal, Herald of Wings|VOC
-1 Empyrean Eagle|KHC
-1 Faerie Seer|MH1
-1 Favorable Winds|GNT
-1 Fell the Mighty|MOC
-1 Flying Men|TSB
-1 Frantic Search|NCC
-1 Generous Gift|MOC
-1 Gravitational Shift|ROE
-1 Gust of Wind|IKO
-1 Healer's Hawk|JMP
-1 Imprisoned in the Moon|MOC
-15 Island|JMP|3
+1 Empyrean Eagle|FDN|[239]
+1 Faerie Seer|J25|[106]
+1 Favorable Winds|SCD|[52]
+1 Fell the Mighty|MKC|[65]
+1 Flying Men|ARN|[14]
+1 Frantic Search|DMR|[285]
+1 Generous Gift|BLC|[106]
+1 Gravitational Shift|SCD|[54]
+1 Gust of Wind|PIO|[57]
+1 Healer's Hawk|FDN|[142]
+1 Imprisoned in the Moon|INR|[358]
+15 Island|INR|[290]
 1 Jace's Phantasm|IMA
-1 Jubilant Skybonder|IKO
-1 Judge's Familiar|RTR
+1 Jubilant Skybonder|SCD|[232]
+1 Judge's Familiar|RVR|[192]
 1 Lofty Denial|M21
-1 Mana Leak|2X2
-1 Marble Diamond|CLB
-1 Mind Stone|MOC
+1 Mana Leak|STH|[36]
+1 Marble Diamond|MIR|[310]
+1 Mind Stone|DMR|[385]
 1 Mothrider Patrol|NEO
-1 Nevinyrral's Disk|MH2
+1 Nevinyrral's Disk|LEB|[267]
 1 Ornithopter of Paradise|MH2
-1 Path to Exile|MOC
-15 Plains|JMP|3
-1 Prismatic Lens|TSR
+1 Path to Exile|TSR|[299]
+15 Plains|INR|[288]
+1 Prismatic Lens|OTC|[264]
 1 Radiant, Archangel|ULG
 1 Radiant, Serra Archangel|CMR
 1 Rustwing Falcon|M19
 1 Seaside Haven|ONS
-1 Segovian Angel|MH1
-1 Sephara, Sky's Blade|M20
+1 Segovian Angel|FDC|[46]
+1 Sephara, Sky's Blade|FDC|[47]
 1 Serra Aviary|HML
 1 Siani, Eye of the Storm|CMR
-1 Siren Stormtamer|CMR
-1 Sky Diamond|CLB
-1 Sol Ring|SCD
-1 Soulcatcher|EMA
-1 Spectral Sailor|VOC
+1 Siren Stormtamer|LCC|[171]
+1 Sky Diamond|MIR|[319]
+1 Sol Ring|LEB|[270]
+1 Soulcatcher|ODY|[47]
+1 Spectral Sailor|FDN|[164]
 1 Spirit of the Spires|RNA
-1 Sprite Noble|EMA
-1 Star Compass|IMA
-1 Steel-Plume Marshal|JMP
+1 Sprite Noble|J25|[365]
+1 Star Compass|PLS|[134]
+1 Steel-Plume Marshal|SCD|[35]
 1 Swooping Lookout|ONE
-1 Swords to Plowshares|MOC
-1 Thunderclap Wyvern|KHC
-1 Tide Skimmer|M21
-1 Unbreakable Formation|MOC
-1 Warden of Evos Isle|CMR
+1 Swords to Plowshares|DMR|[275]
+1 Thunderclap Wyvern|PIO|[248]
+1 Tide Skimmer|J25|[375]
+1 Unbreakable Formation|RVR|[32]
+1 Warden of Evos Isle|J25|[385]
 1 Watcher of the Spheres|M21
-1 Windreader Sphinx|JMP
-1 Windstorm Drake|JMP
-1 Winged Words|JMP
+1 Windreader Sphinx|J25|[391]
+1 Windstorm Drake|J25|[392]
+1 Winged Words|J25|[393]

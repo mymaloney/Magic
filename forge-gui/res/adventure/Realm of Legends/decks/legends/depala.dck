@@ -6,30 +6,30 @@ Name=Depala, Pilot Exemplar
 1 Act on Impulse|J22
 1 Aerial Surveyor|NEC
 1 Aethershield Artificer|J22
-1 Arcane Signet|TDC
+1 Arcane Signet|TRC|[485]
 1 Astor, Bearer of Blades|DMU
-1 Battlefield Forge|EOC
-1 Boros Charm|NCC
-1 Boros Signet|CM2
+1 Battlefield Forge|APC|[139]
+1 Boros Charm|FDN|[721]
+1 Boros Signet|TDC|[314]
 1 Built to Last|J22
 1 Buried Ruin|EOC
-1 Castle Embereth|NCC
-1 Chain Reaction|EOC
-1 Chaos Warp|MOC
-1 Chief of the Foundry|BRC
+1 Castle Embereth|TDC|[347]
+1 Chain Reaction|TRC|[280]
+1 Chaos Warp|MBC|[72]
+1 Chief of the Foundry|FDC|[249]
 1 Condemn|RVR
 1 Country Roads|DFT
-1 Crush Contraband|NEC
-1 Digsite Engineer|C21
-1 Dispatch|NEC
+1 Crush Contraband|SCD|[16]
+1 Digsite Engineer|BRC|[71]
+1 Dispatch|TRC|[421]
 1 Duergar Hedge-Mage|MOC
 1 Dwarven Hold|FEM
 1 Dwarven Mine|ELD
 1 Dwarven Recruiter|ODY
-1 Evolving Wilds|EOC
-1 Forgotten Cave|J25
-1 Foundry Inspector|BRR
-1 Furycalm Snarl|M3C
+1 Evolving Wilds|TRC|[527]
+1 Forgotten Cave|ONS|[317]
+1 Foundry Inspector|FDC|[259]
+1 Furycalm Snarl|TRC|[384]
 1 Gearshift Ace|KLD
 1 Magda, Brazen Outlaw|KHM
 1 Guidelight Matrix|DFT
@@ -38,39 +38,39 @@ Name=Depala, Pilot Exemplar
 1 Lifecraft Engine|DFT
 1 Mech Hangar|NEO
 1 Valor's Flagship|DFT
-1 Monologue Tax|DSC
-11 Mountain|KLD
+1 Monologue Tax|SOC|[157]
+11 Mountain|INR|[294]
 1 No Witnesses|MKM
 1 Parhelion II|NEC
-1 Peacewalker Colossus|NEC
-10 Plains|KLD
+1 Peacewalker Colossus|J22|[96]
+10 Plains|INR|[288]
 1 Raiders' Karve|J22
 1 Reckless Crew|KHM
 1 Reckoner Bankbuster|NEO
 1 Refurbish|KLD
-1 Reliquary Tower|TDC
+1 Reliquary Tower|TRC|[551]
 1 Renegade Wheelsmith|AER
 1 Restoration Specialist|AER
 1 Rocky Roads|DFT
 1 Salvation Engine|DFT
-1 Secluded Courtyard|FDN
+1 Secluded Courtyard|ECC|[62]
 7 Seven Dwarves|ELD
-1 Skysovereign, Consul Flagship|NEC
-1 Sol Ring|EOC
-1 Solemn Simulacrum|FDN
-1 Sram, Senior Edificer|NEC
+1 Skysovereign, Consul Flagship|FDC|[285]
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
+1 Sram, Senior Edificer|TSR|[303]
 1 Star of Extinction|CMM
 1 Start Your Engines|KLD
 1 Stoic Farmer|KHC
 1 Sudden Salvation|VOC
 1 Sunhome, Fortress of the Legion|OTC
 1 Surgehacker Mech|NEO
-1 Swiftfoot Boots|MIC
-1 Tempered Steel|BRC
-1 Temple of Triumph|EOC
-1 Terramorphic Expanse|TDC
-1 Thrill of Possibility|M21
-1 Tragic Arrogance|C21
+1 Swiftfoot Boots|TRC|[501]
+1 Tempered Steel|TRC|[241]
+1 Temple of Triumph|SOC|[417]
+1 Terramorphic Expanse|TRC|[571]
+1 Thrill of Possibility|TRC|[455]
+1 Tragic Arrogance|SOC|[182]
 1 Untethered Express|AER
 1 Veteran Motorist|KLD
 1 Visionary Augmenter|KLD

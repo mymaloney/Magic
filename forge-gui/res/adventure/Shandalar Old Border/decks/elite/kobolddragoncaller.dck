@@ -1,7 +1,7 @@
 [metadata]
 Name=kobolddragoncaller
 [Main]
-22 Mountain|ONS
+22 Mountain|INR|[294]
 4 Crimson Kobolds|LEG
 4 Crookshank Kobolds|LEG
 4 Kobolds of Kher Keep|LEG
@@ -11,8 +11,8 @@ Name=kobolddragoncaller
 4 Dragonspeaker Shaman|SCG
 2 Rathi Dragon|TMP
 2 Lightning Dragon|USG
-2 Dragon Whelp|LEA
-2 Shivan Dragon|LEA
+2 Dragon Whelp|DMR|[317]
+2 Shivan Dragon|DMR|[329]
 4 Incinerate|MIR
 
 [StartInBattle_Reference]

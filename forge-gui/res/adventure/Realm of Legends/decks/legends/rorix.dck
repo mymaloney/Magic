@@ -11,8 +11,8 @@ Name=Rorix Bladewing
 1 Crater Hellion|USG
 1 Crimson Hellkite|MIR
 1 Demoralize|ODY
-1 Disintegrate|FBB
-1 Downhill Charge|NEM
+1 Disintegrate|LEB|[141]
+1 Downhill Charge|NMS|[79]
 1 Dragon Breath|SCG
 1 Dragon Mage|SCG
 1 Dragonspeaker Shaman|SCG
@@ -21,29 +21,29 @@ Name=Rorix Bladewing
 1 Fire Diamond|MIR
 1 Fire Dragon|POR
 1 Fireball|LEB
-1 Flametongue Kavu|PLS
+1 Flametongue Kavu|DMR|[320]
 1 Fling|STH
-1 Flowstone Slide|NEM
+1 Flowstone Slide|NMS|[83]
 1 Gauntlet of Might|LEB
 1 Furnace of Rath|TMP
 1 Power Matrix|MMQ
 1 Blood Moon|DRK
-1 Nevinyrral's Disk|3ED
+1 Nevinyrral's Disk|LEB|[267]
 1 Ghitu Fire|INV
 1 Ghitu War Cry|ULG
 1 Goblin War Drums|FEM
 1 Gorilla Shaman|ALL
 1 Granite Grip|ULG
 1 Gratuitous Violence|ONS
-1 Icy Manipulator|ICE
+1 Icy Manipulator|DMR|[380]
 1 Insurrection|ONS
 1 Kaervek's Torch|MIR
 1 Lava Burst|ICE
-1 Lightning Bolt|3ED
+1 Lightning Bolt|LEB|[162]
 1 Magmasaur|TMP
-1 Mana Flare|3ED
-1 Mogg Salvage|NEM
-38 Mountain|ONS
+1 Mana Flare|LEB|[163]
+1 Mogg Salvage|NMS|[94]
+38 Mountain|INR|[294]
 1 Outmaneuver|USG
 1 Price of Progress|EXO
 1 Kamahl, Pit Fighter|ODY
@@ -54,11 +54,11 @@ Name=Rorix Bladewing
 1 Rolling Thunder|TMP
 1 Ruby Medallion|TMP
 1 Seize the Day|ODY
-1 Shivan Dragon|LEA
+1 Shivan Dragon|DMR|[329]
 1 Sisay's Ring|VIS
-1 Sneak Attack|USG
-1 Sol Ring|3ED
-1 Sulfuric Vortex|SCG
+1 Sneak Attack|DMR|[331]
+1 Sol Ring|LEB|[270]
+1 Sulfuric Vortex|DMR|[332]
 1 Sword of the Chosen|STH
 1 Temple of the False God|SCG
 1 Thieves' Auction|MMQ

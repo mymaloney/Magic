@@ -1,18 +1,18 @@
 [metadata]
 Name=Necromancer of Shandalar
 [Main]
-4 Bog Wraith|LEA
+4 Bog Wraith|POR|[83]
 2 Cosmic Horror|LEG
 4 Lost Soul|LEG
-4 Scathe Zombies|LEA
-2 Wall of Bone|LEA
-4 Zombie Master|LEA
-2 Dark Ritual|LEA
-2 Drain Life|LEA
-2 Raise Dead|LEA
-2 Animate Dead|LEA
-2 Bad Moon|LEA
-4 Evil Presence|LEA
+4 Scathe Zombies|LEB|[126]
+2 Wall of Bone|LEB|[133]
+4 Zombie Master|LEB|[138]
+2 Dark Ritual|MMQ|[129]
+2 Drain Life|MIR|[118]
+2 Raise Dead|PO2|[86]
+2 Animate Dead|LEB|[93]
+2 Bad Moon|LEB|[94]
+4 Evil Presence|LEB|[108]
 2 Necropolis of Azar|PAST
-2 Unholy Strength|LEA
-22 Swamp|LEA
+2 Unholy Strength|LEB|[132]
+22 Swamp|INR|[292]

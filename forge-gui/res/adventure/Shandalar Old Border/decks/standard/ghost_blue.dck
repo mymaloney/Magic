@@ -2,17 +2,17 @@
 Name=Ghost Blue
 [Main]
 1 Brushland|ICE
-1 Forest|2ED|3
+1 Forest|INR|[296]
 2 Yavimaya Coast|APC
 4 Adarkar Wastes|ICE
-4 Azure Drake|5ED
+4 Azure Drake|LEG|[46]
 4 Dreamwinder|ODY
 4 Ghostly Wings|TOR
 4 Keeneye Aven|LGN
 4 Phantom Flock|JUD
-4 Phantom Nishoba|JUD
+4 Phantom Nishoba|DMR|[361]
 4 Shared Triumph|ONS
 4 Shoreline Ranger|SCG
 4 Skywing Aven|TOR
-6 Plains|2ED|3
-9 Island|2ED|3
+6 Plains|INR|[288]
+9 Island|INR|[290]

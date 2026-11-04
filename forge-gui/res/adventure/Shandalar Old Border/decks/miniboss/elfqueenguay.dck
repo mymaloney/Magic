@@ -1,18 +1,18 @@
 [metadata]
 Name=Elf Queen Guay
 [Main]
-12 Plains|CMM|2
-12 Island|CMM|2
-12 Forest|CMM|2
-4 Priest of Titania|USG
+12 Plains|INR|[288]
+12 Island|INR|[290]
+12 Forest|INR|[296]
+4 Priest of Titania|MH3|[428]
 2 Sky Spirit|TMP
 1 Asmira, Holy Avenger|MIR
 1 Vitalizing Cascade|MIR
-2 Wood Elves|POR
-1 Wanderlust|5ED
+2 Wood Elves|EXO|[130]
+1 Wanderlust|LEB|[227]
 2 Taunting Elf|ONS
 1 Seedtime|JUD
-1 Thoughtleech|7ED
+1 Thoughtleech|ICE|[269]
 2 Respite|TMP
 2 Resuscitate|EXO
 2 Quirion Trailblazer|INV
@@ -30,17 +30,17 @@ Name=Elf Queen Guay
 1 Elvish Lyrist|USG
 1 Barbtooth Wurm|PO2
 1 Wall of Tears|STH
-1 Sea Sprite|5ED
+1 Sea Sprite|HML|[38]
 2 Wonder|JUD
 1 Traveler's Cloak|INV
 1 Thornwind Faeries|ULG
 1 Memory Lapse|MIR
 1 Sea Drake|PO2
-1 Phantom Monster|5ED
-1 Boomerang|7ED
+1 Phantom Monster|LEB|[70]
+1 Boomerang|MIR|[56]
 2 Starlit Angel|POR
 1 Angelic Page|USG
-2 Serra Angel|O90P
+2 Serra Angel|DMR|[271]
 1 Gaea's Blessing|WTH
 1 Vigilant Martyr|MIR
 1 Sustaining Spirit|ALL
@@ -51,12 +51,12 @@ Name=Elf Queen Guay
 1 Auramancer|ODY
 1 Devout Harpist|ULG
 1 Embolden|ODY
-1 Angelic Wall|PO2
+1 Angelic Wall|ODY|[3]
 
 [StartInBattle_Reference]
-1 Plains|CMM|2
-1 Island|CMM|2
-1 Forest|CMM|2
+1 Plains|INR|[288]
+1 Island|INR|[290]
+1 Forest|INR|[296]
 1 Vernal Equinox|MMQ
 1 Briar Patch|MMQ
 1 Serra's Blessing|WTH

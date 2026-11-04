@@ -3,7 +3,7 @@ Name=Vogar
 [Commander]
 1 Vogar, Necropolis Tyrant|GN3
 [Main]
-44 Swamp|JMP|[56]
-40 Walking Corpse|ISD
-10 Unbreathing Horde|ISD
-5 Noosegraf Mob|EMN
+44 Swamp|INR|[292]
+40 Walking Corpse|M21|[128]
+10 Unbreathing Horde|SCD|[113]
+5 Noosegraf Mob|BBD|[151]

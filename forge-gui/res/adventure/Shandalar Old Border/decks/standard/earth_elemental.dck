@@ -1,13 +1,13 @@
 [metadata]
 Name=earth_elemental
 [Main]
-1 Disenchant|2ED
+1 Disenchant|MMQ|[18]
 1 Llanowar Wastes|APC
 1 Naturalize|ONS
 2 Caves of Koilos|APC
 2 Phyrexian Furnace|WTH
 2 Recurring Nightmare|EXO
-2 Swamp|MMQ|2
+2 Swamp|INR|[292]
 2 Vindicate|APC
 2 Wall of Blossoms|STH
 3 Dust Bowl|MMQ
@@ -16,9 +16,9 @@ Name=earth_elemental
 4 Brushland|ICE
 4 Decree of Justice|SCG
 4 Exalted Angel|ONS
-4 Rampant Growth|6ED
-4 Swords to Plowshares|2ED
+4 Rampant Growth|TMP|[245]
+4 Swords to Plowshares|DMR|[275]
 4 Treetop Village|ULG
-4 Windswept Heath|ONS
-6 Forest|MMQ|2
-8 Plains|MMQ|2
+4 Windswept Heath|MH3|[440]
+6 Forest|INR|[296]
+8 Plains|INR|[288]

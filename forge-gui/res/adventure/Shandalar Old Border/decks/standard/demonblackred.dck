@@ -2,8 +2,8 @@
 Name=demonblackred
 [Main]
 1 Battlefield Forge|APC
-1 Plains|LEB
-11 Swamp|LEB
+1 Plains|INR|[288]
+11 Swamp|INR|[292]
 2 Caves of Koilos|APC
 2 Cursed Scroll|TMP
 2 Grinning Demon|ONS
@@ -11,13 +11,13 @@ Name=demonblackred
 2 Mox Diamond|STH
 2 Phyrexian Arena|APC
 2 Phyrexian Furnace|WTH
-2 Shatter|LEB
+2 Shatter|TMP|[203]
 3 Necropotence|ICE
-3 Raise Dead|LEB
-3 Vampiric Tutor|VIS
+3 Raise Dead|PO2|[86]
+3 Vampiric Tutor|DMR|[314]
 4 Black Ward|LEB
-4 Fireblast|VIS
+4 Fireblast|DMR|[319]
 4 Lightning Bolt|LEB
 4 Sulfurous Springs|ICE
 4 Yawgmoth's Will|USG
-5 Mountain|LEB
+5 Mountain|INR|[294]

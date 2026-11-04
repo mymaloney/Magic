@@ -4,80 +4,80 @@ Name=Talion
 1 Talion, the Kindly Lord|woe
 [Main]
 1 Alela, Cunning Conqueror|woc
-1 An Offer You Can't Refuse|snc
-1 Arcane Denial|a25
-1 Arcane Signet|otc
+1 An Offer You Can't Refuse|FDN|[160]
+1 Arcane Denial|ALL|[22a]
+1 Arcane Signet|TRC|[485]
 1 Archmage of Echoes|woc
-1 Bident of Thassa|ths
-1 Bitter Triumph|lci
+1 Bident of Thassa|PIO|[47]
+1 Bitter Triumph|TRC|[445]
 1 Bitterbloom Bearer|ecl
-1 Bitterblossom|mor
-1 Bojuka Bog|c18
-1 Brazen Borrower|woc
-1 Choked Estuary|soi
-1 Command Tower|cmm
-1 Counterspell|a25
-1 Darkslick Shores|som
+1 Bitterblossom|2X2|[69]
+1 Bojuka Bog|TSR|[406]
+1 Brazen Borrower|SOC|[190]
+1 Choked Estuary|TRC|[370]
+1 Command Tower|TRC|[521]
+1 Counterspell|DMR|[281]
+1 Darkslick Shores|OTC|[281]
 1 Dire Undercurrents|shm
-1 Drowned Catacomb|m13
+1 Drowned Catacomb|TRC|[376]
 1 Faerie Bladecrafter|woc
-1 Faerie Conclave|p10e
+1 Faerie Conclave|ULG|[139]
 1 Faerie Harbinger|lrw
-1 Faerie Mastermind|mom
+1 Faerie Mastermind|SOC|[114]
 1 Faerie Slumber Party|woe
-1 Fellwar Stone|cm2
-1 Frantic Search|uma
-1 Glen Elendra Archmage|uma
-1 Glen Elendra Liege|pc2
-1 Go for the Throat|f11
+1 Fellwar Stone|DRK|[102]
+1 Frantic Search|DMR|[285]
+1 Glen Elendra Archmage|WOC|[94]
+1 Glen Elendra Liege|WOC|[138]
+1 Go for the Throat|FDC|[100]
 1 Gravitational Shift|scd
 1 Halo Forager|woc
-1 Herald's Horn|moc
+1 Herald's Horn|TRC|[493]
 1 High Fae Trickster|fdn
-1 Hypnotic Sprite|eld
-1 Infernal Grasp|mid
-13 Island|woe
-1 Kindred Discovery|wot|[69]
+1 Hypnotic Sprite|WOC|[96]
+1 Infernal Grasp|INR|[385]
+13 Island|INR|[290]
+1 Kindred Discovery|LCC|[159]
 1 Likeness Looter|woe
 1 Midnight Clock|drc
-1 Mind Stone|blc
-1 Misleading Signpost|woc
+1 Mind Stone|DMR|[385]
+1 Misleading Signpost|FDC|[69]
 1 Mistbind Clique|lrw
 1 Ego Drain|woe
 1 Faebloom Trick|fdn
 1 Faerie Fencing|woe
 1 Nettling Nuisance|woc
-1 Notorious Throng|mor
-1 Nymris, Oona's Trickster|cmr
+1 Notorious Throng|ZNC|[33]
+1 Nymris, Oona's Trickster|WOC|[141]
 1 Obyra, Dreaming Duelist|woe
-1 Oona, Queen of the Fae|shm
-1 Oona's Blackguard|mor
-1 Patchwork Banner|blb
-1 Path of Ancestry|tdc
-1 Phyrexian Arena|cn2
-1 Rankle, Master of Pranks|cmm
-1 Reliquary Tower|pm19
-1 River of Tears|ima
-1 Scion of Oona|mma
-1 Secluded Glen|lrw
+1 Oona, Queen of the Fae|WOC|[142]
+1 Oona's Blackguard|ZNC|[51]
+1 Patchwork Banner|SOC|[353]
+1 Path of Ancestry|TRC|[545]
+1 Phyrexian Arena|APC|[47]
+1 Rankle, Master of Pranks|OTC|[148]
+1 Reliquary Tower|TRC|[551]
+1 River of Tears|MKC|[283]
+1 Scion of Oona|WOC|[109]
+1 Secluded Glen|WOC|[166]
 1 Shadow Puppeteers|woc
-1 Sol Ring|c18
-1 Sower of Temptation|bbd
+1 Sol Ring|LEB|[270]
+1 Sower of Temptation|WOC|[111]
 1 Spell Stutter|woe
-1 Spellstutter Sprite|lrw
-1 Stolen by the Fae|blc
-1 Sunken Hollow|bfz
-10 Swamp|woe
-1 Swan Song|ths
-1 Tainted Isle|pca
+1 Spellstutter Sprite|J22|[65]
+1 Stolen by the Fae|J25|[369]
+1 Sunken Hollow|TRC|[407]
+10 Swamp|INR|[292]
+1 Swan Song|EOC|[46]
+1 Tainted Isle|TOR|[141]
 1 Talion's Messenger|woe
-1 Talisman of Dominance|mrd
+1 Talisman of Dominance|TRC|[505]
 1 Tegwyll, Duke of Splendor|woc
 1 Tegwyll's Scouring|woc
-1 Temple of Deceit|thb
-1 Thought Vessel|mkc
+1 Temple of Deceit|DRC|[176]
+1 Thought Vessel|TRC|[509]
 1 Toxic Deluge|mh3
-1 Underground River|cm2
-1 Vendilion Clique|a25
+1 Underground River|ICE|[362]
+1 Vendilion Clique|J22|[368]
 1 Voracious Tome-Skimmer|ecl
 1 Waterlogged Teachings|mh3

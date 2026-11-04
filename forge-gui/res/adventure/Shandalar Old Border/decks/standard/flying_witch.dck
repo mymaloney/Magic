@@ -1,19 +1,19 @@
 [metadata]
 Name=flying_witch
 [Main]
-24 Swamp|TMP
-4 Pestilence|BRB
+24 Swamp|INR|[292]
+4 Pestilence|USG|[147]
 4 Mutilate|TOR
 4 Lethal Vapors|SCG
 2 Spreading Plague|INV
-2 No Mercy|ULG
-4 Corrupt|7ED
-4 Drain Life|BTD
+2 No Mercy|DMR|[308]
+4 Corrupt|USG|[124]
+4 Drain Life|MIR|[118]
 4 Innocent Blood|ODY
 4 Choking Sands|MIR
-2 Dregs of Sorrow|7ED
+2 Dregs of Sorrow|TMP|[131]
 2 Forced March|MMQ
 
 [StartInBattle_Reference]
-1 Swamp|TMP|1
+1 Swamp|INR|[292]
 1 Vile Consumption|INV

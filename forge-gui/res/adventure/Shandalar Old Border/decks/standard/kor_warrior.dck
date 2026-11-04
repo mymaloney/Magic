@@ -1,7 +1,7 @@
 [metadata]
 Name=Kor Warrior
 [Main]
-23 Plains|TMP|3
+23 Plains|INR|[288]
 1 Kor Haven|NMS
 4 Nomads en-Kor|STH
 4 Warrior en-Kor|STH
@@ -11,6 +11,6 @@ Name=Kor Warrior
 3 Dawn Elemental|SCG
 3 Champion Lancer|S99
 2 Pariah|USG
-4 Divine Sacrament|ODY
-4 Swords to Plowshares|ICE
+4 Divine Sacrament|DMR|[262]
+4 Swords to Plowshares|DMR|[275]
 4 Disenchant|MMQ

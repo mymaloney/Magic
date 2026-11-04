@@ -1,23 +1,23 @@
 [metadata]
 Name=angelwarrior
 [Main]
-22 Plains|USG
-3 Marble Diamond|7ED
-3 Urza's Incubator|UDS
+22 Plains|INR|[288]
+3 Marble Diamond|MIR|[310]
+3 Urza's Incubator|DMR|[392]
 2 Angelic Page|USG
-1 Serra Advocate|7ED
+1 Serra Advocate|UDS|[19]
 1 Herald of Serra|USG
-1 Angel of Light|S99
-1 Angel of Mercy|PO2
+1 Angel of Light|PLST|[ME2-3]
+1 Angel of Mercy|INV|[2]
 1 Avenging Angel|TMP
 1 Starlit Angel|POR
-1 Archangel|VIS
-1 Archangel|POR
+1 Archangel|PO2|[11]
+1 Archangel|PO2|[11]
 1 Angel of Retribution|TOR
 1 Seraph|ICE
 1 Angel of Fury|PO2
 1 Warrior Angel|STH
-2 Serra Angel|7ED
+2 Serra Angel|DMR|[271]
 1 Voice of Duty|UDS
 1 Voice of Grace|USG
 1 Voice of Law|USG

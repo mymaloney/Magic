@@ -1,91 +1,91 @@
 [metadata]
 Name=Yennett
 [Commander]
-1 Yennett, Cryptic Sovereign|C18
+1 Yennett, Cryptic Sovereign|CMM|[363]
 [Main]
 1 Aminatou, the Fateshifter|2X2
-1 Anguished Unmaking|2X2
-1 Arcane Signet|MOC
+1 Anguished Unmaking|TRC|[310]
+1 Arcane Signet|TRC|[485]
 1 Atemsis, All-Seeing|M20
 1 Dakkon, Shadow Slayer|MH2
-1 Body of Knowledge|CMR
-1 Bojuka Bog|MOC
+1 Body of Knowledge|DSC|[112]
+1 Bojuka Bog|TSR|[406]
 1 Brilliant Ultimatum|ALA
-1 Cavalier of Gales|M20
-1 Chromatic Lantern|RTR
-1 Command Tower|SCD
-1 Commander's Sphere|C14
-1 Arcane Sanctum|DSC
-1 Generous Gift|LCC
+1 Cavalier of Gales|J25|[296]
+1 Chromatic Lantern|RVR|[390]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Arcane Sanctum|TRC|[513]
+1 Generous Gift|BLC|[106]
 1 Counterspell|DMR
-1 Stroke of Midnight|WOE
-1 Dazzling Sphinx|C21
-1 Urza's Incubator|MH3
+1 Stroke of Midnight|FRC|[35]
+1 Dazzling Sphinx|OTC|[93]
+1 Urza's Incubator|DMR|[392]
 1 Defiler of Dreams|DMU
-1 Deserted Beach|MID
+1 Deserted Beach|FRA|[176]
 1 Devastation Tide|C18
-1 Sphinx of the Revelation|M3X
-1 Dovin's Veto|WAR
+1 Sphinx of the Revelation|M3C|[75]
+1 Dovin's Veto|TSR|[375]
 1 Quantum Riddler|EOE
 1 Emergency Powers|RNA
 1 Enigma Thief|ZNC
 1 Entreat the Dead|C18
 1 Esper Charm|C18
 1 Ethersworn Sphinx|MH2
-1 Exotic Orchard|C17
+1 Exotic Orchard|TRC|[378]
 1 Extinction Event|IKO
-1 Future Sight|MH1
+1 Future Sight|ONS|[84]
 1 Glacial Floodplain|KHM
-1 Godless Shrine|RNA
-1 Hallowed Fountain|RNA
-1 Unesh, Criosphinx Sovereign
+1 Godless Shrine|RVR|[401]
+1 Hallowed Fountain|RVR|[404]
+1 Unesh, Criosphinx Sovereign|HOU|[52]
 1 Ice Tunnel|KHM
-1 Imprisoned in the Moon|MOC
-1 In Garruk's Wake|C19
-7 Island|SCD
+1 Imprisoned in the Moon|INR|[358]
+1 In Garruk's Wake|CLB|[759]
+7 Island|INR|[290]
 1 Elspeth Conquers Death|THB
 1 Kindred Discovery|LCC
 1 Magister Sphinx|2X2
-1 Mortify|MOC
-1 Mystic Confluence|NCC
+1 Mortify|TSR|[381]
+1 Mystic Confluence|TSR|[312]
 1 Conspiracy Unraveler|MKM
-1 Worn Powerstone|MH3
-1 Path to Exile|MOC
+1 Worn Powerstone|USG|[318]
+1 Path to Exile|TSR|[299]
 1 Glasspool Mimic|ZNR
 1 Necromancy|VIS
-5 Plains|SCD
-1 Path of Ancestry|LCC
-1 Prairie Stream|MOC
-1 Prognostic Sphinx|AFC
-1 Psychosis Crawler|MOC
+5 Plains|INR|[288]
+1 Path of Ancestry|TRC|[545]
+1 Prairie Stream|TRC|[394]
+1 Prognostic Sphinx|DSC|[124]
+1 Psychosis Crawler|FDC|[280]
 1 Raffine, Scheming Seer|SNC
 1 Raffine's Tower|SNC
-1 Reliquary Tower|BRC
-1 Rhystic Study|J22
+1 Reliquary Tower|TRC|[551]
+1 Rhystic Study|PCY|[45]
 1 Scholar of the Lost Trove|JMP
-1 Skyclave Relic|ZNR
+1 Skyclave Relic|MOC|[380]
 1 Sea Gate Restoration|ZNR
-1 Shattered Sanctum|VOW
-1 Shipwreck Marsh|MID
+1 Shattered Sanctum|SOS|[260]
+1 Shipwreck Marsh|FRA|[189]
 1 Snowfield Sinkhole|CLB
-1 Sol Ring|SCD
-1 Reanimate|DSC
+1 Sol Ring|LEB|[270]
+1 Reanimate|TMP|[151]
 1 Sphinx Ambassador|M10
 1 Sphinx Mindbreaker|THB
-1 Sphinx of the Final Word|OGW
+1 Sphinx of the Final Word|FDN|[597]
 1 Sphinx of the Steel Wind|EMA
 1 Sphinx of Uthuun|CMR
-1 Sphinx's Tutelage|PLST
-1 Sunken Hollow|MOC
-1 Sunlit Marsh|DMU
-4 Swamp|JMP
-1 Swords to Plowshares|MOC
-1 Talisman of Dominance|SCD
-1 Talisman of Hierarchy|MOC
-1 Talisman of Progress|SCD
-1 Dismember|MM2
-1 Terramorphic Expanse|JMP
+1 Sphinx's Tutelage|PIO|[287]
+1 Sunken Hollow|TRC|[407]
+1 Sunlit Marsh|SOC|[409]
+4 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
+1 Talisman of Dominance|TRC|[505]
+1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Progress|TRC|[508]
+1 Dismember|TSR|[322]
+1 Terramorphic Expanse|TRC|[571]
 1 Void Rend|SNC
-1 Watery Grave|GRN
-1 Wayfarer's Bauble|5DN
-1 Windreader Sphinx|SCD
+1 Watery Grave|RVR|[415]
+1 Wayfarer's Bauble|TRC|[511]
+1 Windreader Sphinx|J25|[391]

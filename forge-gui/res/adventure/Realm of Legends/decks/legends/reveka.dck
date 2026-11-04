@@ -4,7 +4,7 @@ Name=Reveka, Wizard Savant
 1 Reveka, Wizard Savant|HML
 [Main]
 1 Arcane Denial|ALL
-1 Psionic Blast|LEA
+1 Psionic Blast|LEB|[75]
 1 Mind Bomb|DRK
 1 Mawcor|TMP
 1 Suq'Ata Firewalker|MIR
@@ -14,57 +14,57 @@ Name=Reveka, Wizard Savant
 1 Charisma|MMQ
 1 Sigil of Sleep|UDS
 1 Aphetto Alchemist|ONS
-1 Arcane Signet|ELD
-1 Archmage's Charm|MH1
-1 Basilisk Collar|DSC
+1 Arcane Signet|TRC|[485]
+1 Archmage's Charm|H1R|[7]
+1 Basilisk Collar|FDC|[246]
 1 Capsize|TMP
-1 Counterspell|DSC
-1 Creature Bond|4ED
+1 Counterspell|DMR|[281]
+1 Creature Bond|LEB|[56]
 1 Curiosity|EXO
-1 Deep Analysis|TDC
+1 Deep Analysis|TOR|[36]
 1 Delay|TSR
-1 Dig Through Time|DSC
+1 Dig Through Time|SOC|[195]
 1 Dismiss into Dream|M14
-1 Dramatic Reversal|KLD
+1 Dramatic Reversal|PIO|[364]
 1 Drift of Phantasms|RVR
-1 Fact or Fiction|WOC
-1 Fellwar Stone|TDC
+1 Fact or Fiction|DMR|[283]
+1 Fellwar Stone|DRK|[102]
 1 Fleeting Reflection|OTJ
 1 Flow of Ideas|SHM
-1 Frantic Search|TDC
-1 Gilded Lotus|BLC
+1 Frantic Search|DMR|[285]
+1 Gilded Lotus|FDN|[725]
 1 Helm of Awakening|DMR
-1 High Tide|FEM
+1 High Tide|DMR|[286]
 1 Imprisoned in the Moon|INR
 1 Into the Flood Maw|BLB
-35 Island|5ED
+35 Island|INR|[290]
 1 Marvin, Murderous Mimic|DSK
 1 Midnight Clock|DRC
-1 Mind Stone|DSC
+1 Mind Stone|DMR|[385]
 1 Ophidian Eye|TSP
 1 Otawara, Soaring City|NEO
-1 Pongify|TDC
-1 Prodigal Sorcerer|LEA
-1 Psychic Venom|LEA
-1 Rapid Hybridization|TDC
-1 Reality Shift|TDC
+1 Pongify|TRC|[441]
+1 Prodigal Sorcerer|LEB|[74]
+1 Psychic Venom|LEB|[76]
+1 Rapid Hybridization|SOC|[198]
+1 Reality Shift|SOC|[199]
 1 Recurring Insight|ROE
 1 Retreat to Coralhelm|DSC
-1 Riptide Laboratory|MH2
+1 Riptide Laboratory|ONS|[322]
 1 Sakashima the Impostor|SOK
 1 Scrawling Crawler|FDN
 1 Sea Gate Restoration|ZNR
-1 Shark Typhoon|DSC
-1 Sol Ring|EOC
+1 Shark Typhoon|FRC|[44]
+1 Sol Ring|LEB|[270]
 1 Spark Double|RVR
 1 Staff of Nin|CM2
 1 Stock Up|DFT
 1 Swan Song|EOC
-1 Thought Vessel|DSC
+1 Thought Vessel|TRC|[509]
 1 Thousand-Year Elixir|C21
-1 Thran Dynamo|BLC
-1 Turnabout|DMR
-1 War Room|MKC
-1 Wayfarer's Bauble|TDC
+1 Thran Dynamo|UDS|[139]
+1 Turnabout|RVR|[452]
+1 War Room|SOC|[422]
+1 Wayfarer's Bauble|TRC|[511]
 1 Willbreaker|ORI
-1 Windfall|OTC
+1 Windfall|USG|[111]

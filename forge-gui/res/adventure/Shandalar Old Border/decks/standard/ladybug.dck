@@ -6,22 +6,22 @@ Name=Kid's Pet Ladybug
 2 Armor of Thorns|MIR
 1 Armored Pegasus|TMP
 1 Bullwhip|STH
-1 D'Avenant Archer|CHR
-2 Disenchant|MIR
+1 D'Avenant Archer|LEG|[7]
+2 Disenchant|MMQ|[18]
 1 Elven Rite|STH
 1 Elvish Healer|ICE
 2 Elvish Hunter|FEM
 1 Festival of Trokin|PO2
 1 Field of Souls|TMP
-9 Forest|MIR
-1 Fountain of Youth|CHR
-2 Giant Growth|4ED
+9 Forest|INR|[296]
+1 Fountain of Youth|DRK|[103]
+2 Giant Growth|ICE|[246]
 1 Hidden Spider|USG
-2 Holy Strength|4ED
+2 Holy Strength|LEB|[25]
 1 Hornet Cannon|STH
 1 Hymn of Rebirth|ICE
 1 Icatian Javelineers|FEM
-1 Instill Energy|4ED
+1 Instill Energy|LEB|[203]
 1 Jolrael's Centaur|MIR
 1 Juniper Order Advocate|ALL
 1 Kelsinko Ranger|ICE
@@ -29,16 +29,16 @@ Name=Kid's Pet Ladybug
 1 Lotus Petal|TMP
 1 Mortal Wound|VIS
 1 Mounted Archers|TMP
-1 Pacifism|TMP
-10 Plains|4ED
+1 Pacifism|ONS|[47]
+10 Plains|INR|[288]
 1 Radiant Essence|MIR
 1 Remedy|VIS
 1 Reprisal|ALL
 1 Rootbreaker Wurm|TMP
 1 Scalebane's Elite|VIS
 1 Silent Attendant|USG
-1 Tundra Wolves|4ED
-1 Urza's Mine|CHR
-1 Urza's Power Plant|CHR
+1 Tundra Wolves|LEG|[40]
+1 Urza's Mine|ATQ|[83a]
+1 Urza's Power Plant|ATQ|[84a]
 1 Wall of Essence|STH
-1 Wanderlust|4ED
+1 Wanderlust|LEB|[227]

@@ -1,26 +1,26 @@
 [metadata]
 Name=UR Geistmage
 [Main]
-2 Geistcatcher's Rig
-1 Alchemist's Greeting
-4 Whispering Wizard
-3 Geistflame Reservoir
-3 Geistblast
-3 Thirst for Discovery
-3 Galvanic Iteration
-3 Arcane Infusion
+2 Geistcatcher's Rig|INR|[264]
+1 Alchemist's Greeting|INR|[393]
+4 Whispering Wizard|DBL|[355]
+3 Geistflame Reservoir|DBL|[142]
+3 Geistblast|SOI|[160]
+3 Thirst for Discovery|DBL|[352]
+3 Galvanic Iteration|INR|[430]
+3 Arcane Infusion|DBL|[210]
 4 Geistchanneler
-3 Geistwave
-4 Geistflame
-1 Syncopate
-4 Consider
-1 Stormcarved Coast
-1 Sulfur Falls
-2 Island
-1 Island
-4 Island
-3 Island
-1 Mountain
-4 Mountain
-1 Mountain
-4 Mountain
+3 Geistwave|DBL|[56]
+4 Geistflame|DDK|[61]
+1 Syncopate|ODY|[103]
+4 Consider|TDC|[148]
+1 Stormcarved Coast|SOS|[263]
+1 Sulfur Falls|DMR|[400]
+2 Island|INR|[290]
+1 Island|INR|[290]
+4 Island|INR|[290]
+3 Island|INR|[290]
+1 Mountain|INR|[294]
+4 Mountain|INR|[294]
+1 Mountain|INR|[294]
+4 Mountain|INR|[294]

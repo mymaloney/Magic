@@ -3,15 +3,15 @@ Name=Ihsan's Shade
 [Commander]
 1 Ihsan's Shade|hml
 [Main]
-31 Swamp|LEA
-1 Mox Jet|LEA
-1 Black Lotus|LEA
-1 Sol Ring|LEA
-1 Arcane Signet|ELD
-1 Lightning Greaves|MRD
+31 Swamp|INR|[292]
+1 Mox Jet|LEB|[263]
+1 Black Lotus|LEB|[233]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Lightning Greaves|TRC|[496]
 1 Accursed Marauder|mh3
-1 Animate Dead|mkc
-1 Bastion of Remembrance|iko
+1 Animate Dead|LEB|[93]
+1 Bastion of Remembrance|TDC|[171]
 1 Bitterblossom|2x2
 1 Black Market|mmq
 1 Black Market Connections|lcc
@@ -21,50 +21,50 @@ Name=Ihsan's Shade
 1 Bloodletter of Aclazotz|lci
 1 Bloodthirsty Conqueror|fdn
 1 Boggart Trawler|mh3
-1 Bolas's Citadel|mb2
+1 Bolas's Citadel|WAR|[79]
 1 Braids, Arisen Nightmare|eoc
 1 Breach the Multiverse|mom
 1 Crypt Ghast|rvr
 1 Damnation|2x2
-1 Dark Ritual|mb2
+1 Dark Ritual|MMQ|[129]
 1 Dauthi Voidwalker|mh2
 1 Deadly Rollick|cmm
-1 Dread Return|cmm
+1 Dread Return|DMR|[302]
 1 Exquisite Blood|lcc
-1 Exsanguinate|som
-1 Feed the Swarm|znr
+1 Exsanguinate|FDN|[173]
+1 Feed the Swarm|TDC|[180]
 1 Fell the Profane|mh3
-1 Go for the Throat|j25
-1 Grave Pact|cmm
-1 Gray Merchant of Asphodel|dsc
-1 Infernal Grasp|ecc
+1 Go for the Throat|FDC|[100]
+1 Grave Pact|STH|[60]
+1 Gray Merchant of Asphodel|TSR|[323]
+1 Infernal Grasp|INR|[385]
 1 Liliana, Dreadhorde General|fdn
 1 Malakir Rebirth|znr
 1 Marionette Apprentice|mh3
 1 Massacre Wurm|fdn
-1 Morbid Opportunist|mid
-1 Night's Whisper|ecc
-1 Ophiomancer|c13
+1 Morbid Opportunist|INR|[388]
+1 Night's Whisper|TRC|[446]
+1 Ophiomancer|SOC|[118]
 1 Opposition Agent|cmr
-1 Phyrexian Arena|fdn
-1 Pitiless Plunderer|rix
+1 Phyrexian Arena|APC|[47]
+1 Pitiless Plunderer|J25|[476]
 1 Plaguecrafter|blc
-1 Reanimate|fic
+1 Reanimate|TMP|[151]
 1 Ripples of Undeath|mh3
 1 Rise of the Dark Realms|fdn
-1 Sanguine Bond|ltc
+1 Sanguine Bond|TSR|[330]
 1 Sheoldred, the Apocalypse|dmu
-1 Sheoldred, Whispering One|nph
-1 Sign in Blood|dsc
-1 Snuff Out|gvl
+1 Sheoldred, Whispering One|JMP|[278]
+1 Sign in Blood|FDC|[125]
+1 Snuff Out|MMQ|[162]
 1 Syr Konrad, the Grim|dsc
 1 The Meathook Massacre|inr
 1 Torment of Hailfire|hou
 1 Toxic Deluge|mh3
 1 Tragic Slip|inr
-1 Victimize|tdc
+1 Victimize|MH3|[413]
 1 Vito, Thorn of the Dusk Rose|j25
-1 Whip of Erebos|dsc
-1 Withering Torment|dsk
+1 Whip of Erebos|PIO|[119]
+1 Withering Torment|FDC|[134]
 1 Yawgmoth, Thran Physician|dmr
-1 Zulaport Cutthroat|blc
+1 Zulaport Cutthroat|TSR|[337]

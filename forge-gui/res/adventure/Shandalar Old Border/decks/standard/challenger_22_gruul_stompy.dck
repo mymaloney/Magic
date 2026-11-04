@@ -1,15 +1,15 @@
 [metadata]
 Name=challenger_22_gruul_stompy
 [Main]
-10 Forest|ODY|3
+10 Forest|INR|[296]
 4 Call of the Herd|ODY
 4 Elvish Berserker|EXO
 4 Firebolt|ODY
-4 Giant Growth|7ED
+4 Giant Growth|ICE|[246]
 4 Kamahl, Pit Fighter|ODY
 4 Karplusan Forest|ICE
 4 Keldon Vandals|UDS
-4 Lightning Bolt|LEA
-4 Llanowar Elves|4ED
+4 Lightning Bolt|LEB|[162]
+4 Llanowar Elves|LEB|[211]
 4 Rofellos, Llanowar Emissary|UDS
-9 Mountain|ODY|3
+9 Mountain|INR|[294]

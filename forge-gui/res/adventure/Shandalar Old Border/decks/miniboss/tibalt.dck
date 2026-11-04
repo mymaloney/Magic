@@ -1,23 +1,23 @@
 [metadata]
 Name=Specter King
 [Main]
-4 Badlands|LEA
-4 Bloodstained Mire|ONS
-4 Swamp|PELP
-4 Mishra's Factory|ATQ
+4 Badlands|LEB|[278]
+4 Bloodstained Mire|MH3|[435]
+4 Swamp|INR|[292]
+4 Mishra's Factory|DMR|[399]
 4 Strip Mine|ATQ
-4 Hypnotic Specter|LEA
+4 Hypnotic Specter|LEB|[113]
 4 Blazing Specter|INV
-4 Royal Assassin|LEA
+4 Royal Assassin|DMR|[310]
 2 Abyssal Specter|ICE
-2 Mindslicer|ODY
+2 Mindslicer|DMR|[305]
 4 Bottomless Pit|STH
 4 Hymn to Tourach|FEM
 4 Pox|ICE
-4 Meekstone|LEA
+4 Meekstone|LEB|[261]
 4 The Rack|ATQ
-2 Mind Twist|LEA
-2 Sulfuric Vortex|SCG
+2 Mind Twist|LEB|[116]
+2 Sulfuric Vortex|DMR|[332]
 
 [StartInBattle_Reference]
 1 Charcoal Diamond|MIR

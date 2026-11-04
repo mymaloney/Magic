@@ -1,14 +1,14 @@
 [metadata]
 Name=Homelands Chef
 [Main]
-4 Taiga|LEA
-4 Savannah|LEA
-4 Plateau|LEA
+4 Taiga|LEB|[283]
+4 Savannah|LEB|[281]
+4 Plateau|LEB|[280]
 2 Brushland|ICE
 2 Karplusan Forest|ICE
-2 Forest|ICE
-2 Plains|ICE
-2 Mountain|ICE
+2 Forest|INR|[296]
+2 Plains|INR|[288]
+2 Mountain|INR|[294]
 2 Joven's Tools|HML
 4 Serrated Arrows|HML
 2 Ebony Rhino|HML

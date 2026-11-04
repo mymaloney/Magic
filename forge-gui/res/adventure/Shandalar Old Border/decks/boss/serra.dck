@@ -1,7 +1,7 @@
 [metadata]
 Name=Serra the Benevolent
 [Main]
-22 Plains|LEA
+22 Plains|INR|[288]
 4 Secluded Steppe|ONS
 4 Drifting Meadow|USG
 2 Karakas|LEG
@@ -9,10 +9,10 @@ Name=Serra the Benevolent
 2 Serra's Sanctum|USG
 2 Purify|ULG
 2 Worship|USG
-1 Serra Angel|LEA
-1 Serra Angel|ATH
-1 Serra Angel|7ED
-1 Serra Angel|O90P
+1 Serra Angel|DMR|[271]
+1 Serra Angel|DMR|[271]
+1 Serra Angel|DMR|[271]
+1 Serra Angel|DMR|[271]
 4 Serra Advocate|UDS
 4 Herald of Serra|USG
 4 Exalted Angel|ONS
@@ -28,14 +28,14 @@ Name=Serra the Benevolent
 4 Harsh Mercy|ONS
 2 Aura of Silence|WTH
 2 Serra's Liturgy|USG
-4 Swords to Plowshares|LEA
+4 Swords to Plowshares|DMR|[275]
 4 Mother of Runes|ULG
 4 Academy Rector|UDS
-2 Wrath of God|LEA
+2 Wrath of God|DMR|[279]
 2 Sigil of the New Dawn|ONS
 
 [StartInBattle_Reference]
-1 Serra Angel|LEA
+1 Serra Angel|DMR|[271]
 1 Worship|USG
 1 Serra's Liturgy|USG
 1 Remembrance|USG

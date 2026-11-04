@@ -3,73 +3,73 @@ Name=Unctus
 [Commander]
 1 Unctus, Grand Metatect|one
 [Main]
-1 Aetherspouts|m15
-1 Alandra, Sky Dreamer|j22
-1 Arcane Signet|scd
-1 Baral's Expertise|aer
-1 Castle Vantress|eld
-1 Chasm Skulker|m15
+1 Aetherspouts|MIC|[97]
+1 Alandra, Sky Dreamer|MKC|[94]
+1 Arcane Signet|TRC|[485]
+1 Baral's Expertise|TDC|[146]
+1 Castle Vantress|DSC|[267]
+1 Chasm Skulker|PIO|[49]
 1 Circular Logic|tor
-1 Containment Construct|neo
+1 Containment Construct|SOC|[344]
 1 Counterspell|dmr
-1 Cyberdrive Awakener|nec
-1 Demolition Field|bro
-1 Disallow|aer
+1 Cyberdrive Awakener|EOC|[69]
+1 Demolition Field|FDN|[687]
+1 Disallow|TRC|[253]
 1 Drafna, Founder of Lat-Nam|bro
-1 Drake Haven|akh
-1 Dramatic Reversal|kld
-1 Emry, Lurker of the Loch|mul
+1 Drake Haven|C20|[110]
+1 Dramatic Reversal|PIO|[364]
+1 Emry, Lurker of the Loch|EOC|[71]
 1 Encroaching Mycosynth|one
-1 Engulf the Shore|ddt
-1 Etherium Sculptor|nec
-1 Faerie Vandal|eld
-1 Foundry Inspector|brr
+1 Engulf the Shore|GN2|[21]
+1 Etherium Sculptor|EOC|[72]
+1 Faerie Vandal|J25|[311]
+1 Foundry Inspector|FDC|[259]
 1 Glasspool Mimic|znr
-1 Grand Architect|som
+1 Grand Architect|2XM|[53]
 1 Invasion of Segovia|mom
-30 Island|one
-1 Jwari Disruption|znr
+30 Island|INR|[290]
+1 Jwari Disruption|PIO|[62]
 1 Liberator, Urza's Battlethopter|bro
 1 Liquimetal Torque|mh2
-1 Looter il-Kor|tsp
+1 Looter il-Kor|CMM|[102]
 1 Machine God's Effigy|brc
-1 Master of Etherium|nec
-1 Master Transmuter|arc
-1 Mind Stone|c18
+1 Master of Etherium|FDC|[66]
+1 Master Transmuter|FDC|[67]
+1 Mind Stone|DMR|[385]
 1 Mirrorshell Crab|neo
-1 Mystic Confluence|bbd
-1 Ominous Seas|plst
+1 Mystic Confluence|TSR|[312]
+1 Ominous Seas|IKO|[61]
 1 Opposition|dmr
-1 Padeem, Consul of Innovation|brc
-1 Path of Ancestry|clb
-1 Pongify|tsr
-1 Propaganda|c20
-1 Psychosis Crawler|brr
-1 Ravenform|khm
-1 Renowned Weaponsmith|m20
-1 Research Thief|nec
-1 Sai, Master Thopterist|nec
+1 Padeem, Consul of Innovation|J25|[62]
+1 Path of Ancestry|TRC|[545]
+1 Pongify|TRC|[441]
+1 Propaganda|TMP|[80]
+1 Psychosis Crawler|FDC|[280]
+1 Ravenform|LCC|[167]
+1 Renowned Weaponsmith|CMM|[114]
+1 Research Thief|FDC|[74]
+1 Sai, Master Thopterist|DRC|[82]
 1 Scavenged Brawler|brc
-1 Seat of the Synod|brc
-1 Sharding Sphinx|c18
-1 Shimmer Dragon|j22
-1 Shimmer Myr|cmr
-1 Silver Myr|nec
-1 Siren Stormtamer|xln
-1 Sol Ring|c18
-1 Soul of New Phyrexia|m15
+1 Seat of the Synod|EOC|[176]
+1 Sharding Sphinx|MOC|[235]
+1 Shimmer Dragon|FDC|[75]
+1 Shimmer Myr|FDC|[283]
+1 Silver Myr|FDC|[284]
+1 Siren Stormtamer|LCC|[171]
+1 Sol Ring|LEB|[270]
+1 Soul of New Phyrexia|MOC|[382]
 1 Spectral Deluge|khc
 1 Surge Engine|bro
 1 Teferi, Temporal Pilgrim|bro
-1 Teferi's Ageless Insight|m21
-1 Tetsuko Umezawa, Fugitive|mul
-1 The Mycosynth Gardens|one
+1 Teferi's Ageless Insight|J25|[371]
+1 Tetsuko Umezawa, Fugitive|FRA|[221]
+1 The Mycosynth Gardens|EOC|[168]
 1 The Reality Chip|neo
-1 Thieving Skydiver|znr
-1 Thopter Spy Network|ori
-1 Thoughtcast|mrd
-1 Traxos, Scourge of Kroog|dmc
+1 Thieving Skydiver|OTC|[118]
+1 Thopter Spy Network|DRC|[83]
+1 Thoughtcast|TRC|[444]
+1 Traxos, Scourge of Kroog|BRC|[170]
 1 Urza, Powerstone Prodigy|bro
-1 Vedalken Archmage|mrd
-1 Vedalken Engineer|nec
+1 Vedalken Archmage|FDC|[82]
+1 Vedalken Engineer|J22|[367]
 1 Wizard Class|blc

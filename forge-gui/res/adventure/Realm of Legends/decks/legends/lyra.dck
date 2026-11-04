@@ -1,76 +1,76 @@
 [metadata]
 Name=Lyra Dawnbringer
 [Commander]
-1 Lyra Dawnbringer|DOM
+1 Lyra Dawnbringer|DMR|[266]
 [Main]
-1 Lightning Greaves|DRC
-1 Archangel of Thune|M14
-1 Nykthos Paragon|MH2
+1 Lightning Greaves|TRC|[496]
+1 Archangel of Thune|PIO|[4]
+1 Nykthos Paragon|J25|[230]
 1 Banner of Kinship|FDN
 1 Ajani, Strength of the Pride|J22
 1 Angel of Jubilation|AVR
-1 Angel of Vitality|M20
+1 Angel of Vitality|FDC|[13]
 1 Angelic Accord|IMA
 1 Angelic Arbiter|JMP
-1 Angelic Field Marshal|C14
+1 Angelic Field Marshal|FDC|[15]
 1 Angelic Skirmisher|GTC
-1 Arcane Signet|ELD
-1 Archangel of Tithes|ORI
+1 Arcane Signet|TRC|[485]
+1 Archangel of Tithes|FDC|[17]
 1 Astelli Reclaimer|EOE
-1 Bonders' Enclave|IKO
+1 Bonders' Enclave|FDC|[297]
 1 Breathkeeper Seraph|VOC
-1 Bruna, the Fading Light|V17
+1 Bruna, the Fading Light|INR|[14]
 1 Cosmos Elixir|KHM
-1 Court of Grace|ONC
+1 Court of Grace|FDC|[21]
 1 Dazzling Angel|FDN
 1 Elspeth, Storm Slayer|TDM
-1 Emeria Shepherd|ZNC
-1 Emeria, the Sky Ruin|ZEN
-1 Everflowing Chalice|NCC
+1 Emeria Shepherd|FDC|[27]
+1 Emeria, the Sky Ruin|SOC|[368]
+1 Everflowing Chalice|TSR|[394]
 1 Exalted Sunborn|EOE
 1 Exemplar of Light|FDN
-1 Fellwar Stone|NCC
-1 Firemane Commando|MOC
+1 Fellwar Stone|DRK|[102]
+1 Firemane Commando|SOC|[145]
 1 Get Lost|LCI
-1 Giada, Font of Hope|SNC
-1 Gisela, the Broken Blade|V17
-1 Grasp of Fate|WOT
+1 Giada, Font of Hope|FDC|[4]
+1 Gisela, the Broken Blade|INR|[24]
+1 Grasp of Fate|FDC|[32]
 1 Haliya, Guided by Light|EOE
 1 Herald of Eternal Dawn|FDN
 1 Lyra, Archangel of Dawn|FRA
-1 Herald of War|J25
-1 Inspiring Overseer|J25
-1 Karmic Guide|VOC
+1 Herald of War|FDC|[34]
+1 Inspiring Overseer|FDC|[35]
+1 Karmic Guide|ULG|[11]
 1 Luminarch Ascension|A25
-1 Metropolis Reformer|MAT
-1 Mind Stone|LCC
-1 Path of Ancestry|BLC
-1 Path to Exile|BLC
+1 Metropolis Reformer|FDC|[40]
+1 Mind Stone|DMR|[385]
+1 Path of Ancestry|TRC|[545]
+1 Path to Exile|TSR|[299]
 1 Pearl Medallion|TMP
-29 Plains|DOM|3
-1 Platinum Angel|V15
+29 Plains|INR|[288]
+1 Platinum Angel|CN2|[214]
 1 Razorgrass Ambush|MH3
 1 Resplendent Angel|LCI
-1 Righteous Valkyrie|J25
-1 Sejiri Shelter|ZNR
-1 Sephara, Sky's Blade|M20
-1 Seraph Sanctuary|AVR
-1 Serra's Emissary|MH2
-1 Sigarda's Splendor|MID
-1 Sol Ring|DRC
-1 Speaker of the Heavens|J25
+1 Righteous Valkyrie|FDC|[43]
+1 Sejiri Shelter|PIO|[31]
+1 Sephara, Sky's Blade|FDC|[47]
+1 Seraph Sanctuary|FDC|[313]
+1 Serra's Emissary|FRC|[32]
+1 Sigarda's Splendor|DBL|[33]
+1 Sol Ring|LEB|[270]
+1 Speaker of the Heavens|FDC|[50]
 1 Starfield Shepherd|EOE
-1 Starnheim Aspirant|KHM
+1 Starnheim Aspirant|FDC|[51]
 1 Starnheim Unleashed|KHM
-1 Sunblast Angel|AFC
-1 Swords to Plowshares|C16
-1 Thought Vessel|CLB
-1 Thraben Watcher|MH2
+1 Sunblast Angel|FDC|[52]
+1 Swords to Plowshares|DMR|[275]
+1 Thought Vessel|TRC|[509]
+1 Thraben Watcher|FDC|[54]
 1 Throne of Eldraine|WOC
 1 Valkyrie Harbinger|J25
 1 Vanguard Seraph|FDN
-1 War Room|MKC
-1 Windbrisk Heights|LCC
+1 War Room|SOC|[422]
+1 Windbrisk Heights|TDC|[411]
 1 Witch Enchanter|MH3
-1 Wojek Investigator|MKM
-1 Youthful Valkyrie|FDN
+1 Wojek Investigator|FDC|[57]
+1 Youthful Valkyrie|FDC|[58]

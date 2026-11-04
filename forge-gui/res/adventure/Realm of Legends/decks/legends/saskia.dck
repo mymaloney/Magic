@@ -4,67 +4,67 @@ Name=Saskia
 1 Saskia the Unyielding|c16
 [Main]
 1 Abzan Charm|dmc
-1 Adeline, Resplendent Cathar|moc
-1 Anguished Unmaking|soi
+1 Adeline, Resplendent Cathar|TDC|[108]
+1 Anguished Unmaking|TRC|[310]
 1 Annie Joins Up|otj
-1 sol ring|moc
+1 sol ring|LEB|[270]
 1 Arid Mesa|mh2
-1 Artifact Mutation|ncc
-1 Augur of Autumn|dsc
-1 Aura Mutation|scd
+1 Artifact Mutation|INV|[231]
+1 Augur of Autumn|EOC|[92]
+1 Aura Mutation|INV|[232]
 1 The Eternal Wanderer|one
-1 Bala Ged Recovery|znr
-1 Beast Whisperer|clu
+1 Bala Ged Recovery|PIO|[165]
+1 Beast Whisperer|TSR|[356]
 1 Birds of Paradise|rvr
-1 Blood Crypt|rtr
-1 Boros Charm|c21
-1 Canopy Vista|moc
+1 Blood Crypt|RVR|[397]
+1 Boros Charm|FDN|[721]
+1 Canopy Vista|TDC|[343]
 1 Chainer, Nightmare Adept|mh2
-1 Farewell|neo|[365]
-1 Command Tower|moc
+1 Farewell|M3C|[170]
+1 Command Tower|TRC|[521]
 1 Coppercoat Vanguard|mat
 1 Damn|mh2
-1 Esper Sentinel|mh2
-1 Eternal Witness|2x2
-1 Exotic Orchard|moc
-7 Forest|c16
+1 Esper Sentinel|H2R|[2]
+1 Eternal Witness|TSR|[361]
+1 Exotic Orchard|TRC|[378]
+7 Forest|INR|[296]
 1 General's Enforcer|iko
-1 Godless Shrine|rna
+1 Godless Shrine|RVR|[401]
 1 Guardian Project|rvr
 1 Honest Rutstein|otj
-1 Elspeth, Sun's Champion|mkc
+1 Elspeth, Sun's Champion|FRC|[24]
 1 Indatha Triome|iko
-1 Iroas, God of Victory|c16
+1 Iroas, God of Victory|PIO|[309]
 1 Jirina, Dauntless General|mat
-1 Jungle Shrine|znc
-1 Kolaghan's Command|2x2
-1 Lightning Greaves|dde
-1 Loran of the Third Path|bro
+1 Jungle Shrine|ECC|[154]
+1 Kolaghan's Command|M3C|[268]
+1 Lightning Greaves|TRC|[496]
+1 Loran of the Third Path|TRC|[229]
 1 Rakdos Joins Up|otj
 1 Marsh Flats|mh2
-2 Mountain|c16
+2 Mountain|INR|[294]
 1 Myrel, Shield of Argive|bro
-1 Nature's Lore|mkc
-1 Naya Charm|c19
-1 Plateau|vma
-1 Ohran Frostfang|otc
-1 Ornithopter of Paradise|drc
-1 Overgrown Tomb|grn
-1 Path of Ancestry|drc
-4 Plains|c16
-1 Professional Face-Breaker|snc
-1 Rakdos Charm|voc
-1 Rhythm of the Wild|nec
+1 Nature's Lore|DMR|[346]
+1 Naya Charm|DMC|[162]
+1 Plateau|LEB|[280]
+1 Ohran Frostfang|SOC|[279]
+1 Ornithopter of Paradise|MH2|[430]
+1 Overgrown Tomb|RVR|[407]
+1 Path of Ancestry|TRC|[545]
+4 Plains|INR|[288]
+1 Professional Face-Breaker|TRC|[291]
+1 Rakdos Charm|TSR|[384]
+1 Rhythm of the Wild|RVR|[380]
 1 Roaming Throne|lci
-1 Sacred Foundry|gtc
-1 Sakura-Tribe Elder|nec
+1 Sacred Foundry|RVR|[409]
+1 Sakura-Tribe Elder|SOC|[285]
 1 Savai Triome|iko
 1 Shanid, Sleepers' Scourge|dmc
-1 Stomping Ground|eoe
+1 Stomping Ground|RVR|[413]
 1 Kamahl, Heart of Krosa|CMR 
-1 Urza's Ruinous Blast|cmm
-3 Swamp|c16
-1 Swords to Plowshares|moc
+1 Urza's Ruinous Blast|BRC|[79]
+3 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
 1 Dihada, Binder of Wills|dmc
 1 fiery emancipation|m21
 1 city on fire|mom
@@ -74,19 +74,19 @@ Name=Saskia
 1 Ratadrabik of Urborg|dmu
 1 Bolas's Citadel|war
 1 avacyn's memorial|mic
-1 Temple Garden|rtr
-1 Tendershoot Dryad|blc
+1 Temple Garden|RVR|[414]
+1 Tendershoot Dryad|SOC|[125]
 1 The Great Henge|cmm
-1 Three Visits|otc
-1 Torens, Fist of the Angels|vow|[328]
-1 Toski, Bearer of Secrets|khm
-1 Overwhelming Stampede|m11
+1 Three Visits|SOC|[289]
+1 Torens, Fist of the Angels|INR|[250]
+1 Toski, Bearer of Secrets|BLC|[244]
+1 Overwhelming Stampede|FDC|[218]
 1 Turntimber Symbiosis|znr
 1 Tymna the Weaver|c16
 1 Unbreakable Formation|rvr
 1 Utter End|dsc
 1 Verdant Catacombs|mh2
 1 Vraska Joins Up|otj
-1 Wear|dmc
-1 Windswept Heath|ktk
-1 Wooded Foothills|ktk
+1 Wear|PIO|[398]
+1 Windswept Heath|MH3|[440]
+1 Wooded Foothills|MH3|[441]

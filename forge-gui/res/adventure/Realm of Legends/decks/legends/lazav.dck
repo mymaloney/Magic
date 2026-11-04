@@ -1,86 +1,86 @@
 [metadata]
 Name=Lazav, Dimir Mastermind
 [Commander]
-1 Lazav, Dimir Mastermind|GTC
+1 Lazav, Dimir Mastermind|ZNC|[92]
 [Main]
 1 Lazav, Wearer of Faces|MKM
 1 Lazav, Familiar Stranger|OTJ
 1 Desertion|VIS
-1 Chromatic Lantern|RTR
-1 Animate Dead|3ED
-1 Arcane Signet|DSC
-1 Body Double|PLC
+1 Chromatic Lantern|RVR|[390]
+1 Animate Dead|LEB|[93]
+1 Arcane Signet|TRC|[485]
+1 Body Double|CMM|[75]
 1 Bojuka Bog|TSR
 1 Bond of Insight|WAR
-1 Choked Estuary|NCC
+1 Choked Estuary|TRC|[370]
 1 Clearwater Pathway|ZNR
-1 Clone|3ED
-1 Command Tower|CC2
-1 Consuming Aberration|GTC
-1 Control Magic|3ED
-1 Counterspell|7ED
+1 Clone|ONS|[75]
+1 Command Tower|TRC|[521]
+1 Consuming Aberration|TSR|[374]
+1 Control Magic|LEB|[53]
+1 Counterspell|DMR|[281]
 1 Court of Cunning|CMR
-1 Creeping Tar Pit|NCC
+1 Creeping Tar Pit|CLB|[888]
 1 Cruel Somnophage|WOE
 1 Cut Your Losses|SNC
-1 Damnation|PLC
-1 Darkslick Shores|ONE
-1 Dimir Aqueduct|RAV
-1 Dimir Charm|GTC
-1 Dimir Doppelganger|RAV
-1 Drown in the Loch|ELD
-1 Drowned Catacomb|XLN
+1 Damnation|2X2|[73]
+1 Darkslick Shores|OTC|[281]
+1 Dimir Aqueduct|DSC|[270]
+1 Dimir Charm|GK1|[11]
+1 Dimir Doppelganger|GK1|[12]
+1 Drown in the Loch|CLB|[842]
+1 Drowned Catacomb|TRC|[376]
 1 Duskmantle Guildmage|GTC
-1 Evil Twin|ISD
-1 Extract from Darkness|ZNC
+1 Evil Twin|BBD|[222]
+1 Extract from Darkness|2X2|[210]
 1 Fact or Fiction|DMR
-1 Feed the Swarm|MIC
-1 Fractured Sanity|MH2
-1 Geth, Lord of the Vault|SOM
+1 Feed the Swarm|TDC|[180]
+1 Fractured Sanity|CLB|[722]
+1 Geth, Lord of the Vault|BRC|[107]
 1 Glimpse the Unthinkable|2X2
-1 Grisly Spectacle|GTC
-1 Hedron Crab|ZEN
+1 Grisly Spectacle|IMA|[92]
+1 Hedron Crab|TDC|[155]
 1 Inevitable Betrayal|MH2
-11 Island|GK1|[24]
+11 Island|INR|[290]
 1 Jace, the Perfected Mind|ONE
-1 Lazav, the Multifarious|GRN
-1 Lightning Greaves|SCD
+1 Lazav, the Multifarious|RVR|[371]
+1 Lightning Greaves|TRC|[496]
 1 Likeness Looter|WOE
 1 Maddening Cacophony|ZNR
-1 Memory Erosion|ALA
-1 Memory Plunder|SHM
-1 Mesmeric Orb|BRR
+1 Memory Erosion|CM2|[45]
+1 Memory Plunder|CLB|[849]
+1 Mesmeric Orb|2XM|[272]
 1 Mind Grind|GTC
 1 Mind Stone|DMR
-1 Mindcrank|NPH
-1 Mirko Vosk, Mind Drinker|DGM
-1 Pilfered Plans|MM3
+1 Mindcrank|CLB|[866]
+1 Mirko Vosk, Mind Drinker|GK1|[17]
+1 Pilfered Plans|SCD|[238]
 1 Psychic Corrosion|M19
 1 Psychic Strike|GTC
 1 Sakashima of a Thousand Faces|CMR
 1 See Double|MOM
-1 Sepulchral Primordial|GTC
+1 Sepulchral Primordial|SCD|[106]
 1 Shadow Kin|MIC
-1 Shipwreck Marsh|MID
+1 Shipwreck Marsh|FRA|[189]
 1 Singularity Rupture|EOE
-1 Sol Ring|DSC
-1 Solemn Simulacrum|DSC
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
 1 Spark Double|RVR
-1 Sphinx's Tutelage|ORI
-1 Stolen Identity|GTC
-1 Stunt Double|CN2
-1 Sunken Hollow|MIC
-9 Swamp|GK1|[25]
-1 Syr Konrad, the Grim|ELD
-1 Tainted Isle|MIC
-1 Talisman of Dominance|MRD
+1 Sphinx's Tutelage|PIO|[287]
+1 Stolen Identity|NCC|[233]
+1 Stunt Double|CLU|[101]
+1 Sunken Hollow|TRC|[407]
+9 Swamp|INR|[292]
+1 Syr Konrad, the Grim|DSC|[158]
+1 Tainted Isle|TOR|[141]
+1 Talisman of Dominance|TRC|[505]
 1 Terisian Mindbreaker|BRO
 1 The Ancient One|LCI
-1 Thief of Sanity|NCC
-1 Thought Collapse|RNA
+1 Thief of Sanity|OTC|[243]
+1 Thought Collapse|JMP|[184]
 1 Thought Scour|2X2
-1 Traumatize|M11
-1 Underground River|BRO
+1 Traumatize|ODY|[110]
+1 Underground River|ICE|[362]
 1 Watery Grave|RVR
-1 Whispering Madness|GTC
-1 Windfall|LCC
+1 Whispering Madness|C16|[229]
+1 Windfall|USG|[111]

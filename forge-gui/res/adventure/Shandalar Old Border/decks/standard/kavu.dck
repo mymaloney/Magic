@@ -2,7 +2,7 @@
 Name=kavu
 [Main]
 1 Battlefield Forge|APC
-1 Plains|INV
+1 Plains|INR|[288]
 2 Brushland|ICE
 3 Armadillo Cloak|INV
 3 Harrow|INV
@@ -17,8 +17,8 @@ Name=kavu
 4 Shivan Oasis|INV
 4 Thornscape Battlemage|PLS
 4 Tribal Flames|INV
-8 Mountain|INV
-9 Forest|INV
+8 Mountain|INR|[294]
+9 Forest|INR|[296]
 
 [StartInBattle_Reference]
 1 Kavu Monarch|INV

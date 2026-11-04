@@ -3,12 +3,12 @@ Name=Gyruda
 [Commander]
 1 Gyruda, Doom of Depths|iko
 [Main]
-1 Ancient Excavation|c16
-1 Apprentice Necromancer|uma
-1 Archaeomancer|j25
-1 Baleful Strix|c16
+1 Ancient Excavation|CM2|[150]
+1 Apprentice Necromancer|UDS|[51]
+1 Archaeomancer|PIO|[284]
+1 Baleful Strix|BLC|[86]
 1 Capsize|tmp
-1 Conjurer's Closet|drc
+1 Conjurer's Closet|INR|[441]
 1 Deadly Tempest|scd
 1 Demonlord Belzenlok|cmm
 1 Deranged Assistant|inr
@@ -16,61 +16,61 @@ Name=Gyruda
 1 Sky Diamond|mir
 1 Tormod, the Desecrator|cmr
 1 Charcoal Diamond|mir
-1 Counterspell|dsc
-1 Dimir Charm|gtc
-1 Talisman of Dominance|mkc
-1 Thran Dynamo|c14
+1 Counterspell|DMR|[281]
+1 Dimir Charm|GK1|[11]
+1 Talisman of Dominance|TRC|[505]
+1 Thran Dynamo|UDS|[139]
 1 Dismal Backwater|tdm
 1 Drownyard Temple|tdc
 1 Epic Downfall|eld
-1 Etrata, the Silencer|grn
+1 Etrata, the Silencer|GK1|[1]
 1 Extinction Event|iko
 1 Amphin Mutineer|tdc
-1 Clone|m14
+1 Clone|ONS|[75]
 1 Hostage Taker|otc
 1 Crabomination|mh3
 1 Lorthos, the Tidemaker|cmm
 1 Metamorphosis Fanatic|dsc
-1 Shipbreaker Kraken|cmr
+1 Shipbreaker Kraken|PIO|[72]
 1 Trench Gorger|cmd
-1 Wonder|tdc
-1 Mind Stone|dsc
-1 Arcane Signet|eld
-1 Animate Dead|mkc
-1 Reality Shift|cmm
-1 Doom Blade|m10
+1 Wonder|JUD|[54]
+1 Mind Stone|DMR|[385]
+1 Arcane Signet|TRC|[485]
+1 Animate Dead|LEB|[93]
+1 Reality Shift|SOC|[199]
+1 Doom Blade|GN3|[47]
 1 Charnel Serenade|mkc
-1 Deep Analysis|tdc
+1 Deep Analysis|TOR|[36]
 1 Fathom Feeder|bfz
-1 Field of Ruin|ltc
-1 Silver Myr|mrd
-1 Leaden Myr|mrd
-1 Solemn Simulacrum|tdc
+1 Field of Ruin|TSR|[407]
+1 Silver Myr|FDC|[284]
+1 Leaden Myr|SOM|[170]
+1 Solemn Simulacrum|TSR|[400]
 1 Dream Eater|dsc
 1 Frost Titan|c14
-1 Gifted Aetherborn|aer
+1 Gifted Aetherborn|GN3|[52]
 1 Goremand|j25
-1 Gravedigger|j25
+1 Gravedigger|ODY|[140]
 1 Infernal Genesis|pcy
-15 Island|iko
-1 Fetid Pools|tdc
-1 Watery Grave|eoe
-1 Lazav, the Multifarious|mkc
+15 Island|INR|[290]
+1 Fetid Pools|TRC|[380]
+1 Watery Grave|RVR|[415]
+1 Lazav, the Multifarious|RVR|[371]
 1 Magus of the Abyss|2xm
-1 Negate|fdn
-1 Nezumi Graverobber|chk
+1 Negate|TRC|[439]
+1 Nezumi Graverobber|CM2|[71]
 1 Rain of Revelation|m21
-1 Scavenger Grounds|hou
-1 Sign in Blood|dsc
-1 Arcane Denial|c13
-1 Stormtide Leviathan|cmr
+1 Scavenger Grounds|FDC|[311]
+1 Sign in Blood|FDC|[125]
+1 Arcane Denial|ALL|[22a]
+1 Stormtide Leviathan|PIO|[75]
 1 Stunt Double|clu
 1 Supplant Form|frf
-15 Swamp|iko
-1 Command Tower|c20
+15 Swamp|INR|[292]
+1 Command Tower|TRC|[521]
 1 Teferi's Time Twist|war
 1 Tolarian Kraken|j25
-1 Tormod's Crypt|mdmr
+1 Tormod's Crypt|DMR|[388]
 1 Ulamog's Crusher|m3c
 1 Whisper, Blood Liturgist|cmm
 1 Wrexial, the Risen Deep|ncc

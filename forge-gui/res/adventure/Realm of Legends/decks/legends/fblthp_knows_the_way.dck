@@ -7,24 +7,24 @@ Name=Fblthp, Knows the Way
 1 Augur of Autumn|eoc
 1 Ayula's Influence|mh1
 1 Bag of Holding|j22
-1 Beast Within|nph
+1 Beast Within|TSR|[357]
 1 Broken Bond|j22
 1 Case of the Locked Hothouse|mkm
 1 Centaur Vinecrasher|eoc
-1 Conduit of Worlds|one
+1 Conduit of Worlds|TDC|[251]
 1 Crawling Sensation|tdc
-1 Cultivate|lcc
+1 Cultivate|SOC|[265]
 1 Cultivator Colossus|inr
-1 Currency Converter|ncc
+1 Currency Converter|FRC|[55]
 1 Dawnstrider|mmq
 1 Deepwood Drummer|mmq
 1 Edge of Autumn|tsr
 1 Enter the Unknown|rix
 1 Exploration Broodship|eoc
-1 Explore|jmp
-20 Forest|mkm|[276]
+1 Explore|J25|[146]
+20 Forest|INR|[296]
 1 Go Forth|j25
-1 Harvest Mage|nem
+1 Harvest Mage|NMS|[105]
 1 Insidious Fungus|dsk
 1 Jadelight Ranger|j25
 1 Jadelight Spelunker|lci
@@ -37,14 +37,14 @@ Name=Fblthp, Knows the Way
 1 Dryad of the Ilysian Grove|m3c
 1 Simulacrum Shaper|fra
 1 Marwyn, the Preserver|fra
-1 Sol Ring|frc
+1 Sol Ring|LEB|[270]
 1 Overlord of the Hauntwoods|dsk
 1 Braulios of Pheres Band|j25
 1 Nishoba Brawler|dmu
 1 Monument to Endurance|dft
 1 Multani, Yavimaya's Avatar|eoc
-1 Nantuko Cultivator|otc
-1 Nature's Lore|por
+1 Nantuko Cultivator|TOR|[133]
+1 Nature's Lore|DMR|[346]
 1 Open the Gates|rvr
 1 Oracle of Mul Daya|eoc
 1 Over the Edge|lci
@@ -54,15 +54,15 @@ Name=Fblthp, Knows the Way
 1 Ramunap Excavator|m3c
 1 Return of the Wildspeaker|ecc
 1 Herd Migration|dmu
-1 Gaea's Might|dmu
-1 Might of Alara|con
+1 Gaea's Might|PLS|[81]
+1 Might of Alara|CFX|[85]
 1 Six|mh3
 1 Skola Grovedancer|dsc
 1 Snag|pcy
-10 Snow-Covered Forest|sld|[329]
-5 Snow-Covered Wastes|mb2
-1 Stampede Driver|a25
+10 Snow-Covered Forest|ICE|[383]
+5 Snow-Covered Wastes|MH3|[439]
+1 Stampede Driver|NMS|[122]
 1 Sunstone|ice
 1 Territorial Scythecat|j25
 1 Tireless Provisioner|j25
-5 Wastes|ogw|[184]
+5 Wastes|TSR|[410]

@@ -1,27 +1,27 @@
 [metadata]
 Name=orc_hunter
 [Main]
-4 Alchemist's Gift|J21|1
+4 Alchemist's Gift|J25|[397]
 1 Assault on Osgiliath|LTR|1
 1 Barad-dûr|LTR|1
 1 Bleeding Edge|WAR|1
-4 Blood Crypt|RNA|1
+4 Blood Crypt|RVR|[397]
 1 Blood-Chin Fanatic|DTK|1
-4 Bloodchief's Thirst|J21|1
+4 Bloodchief's Thirst|ZNR|[94]
 1 Book of Mazarbul|LTR|1
 3 Brutal Hordechief|C16|1
 2 Burakos, Party Leader|CLB|2
 1 Fall of Cair Andros|LTR|1
 1 Foray of Orcs|LTR|1
-2 Ironclaw Orcs|30A|1
-2 Mardu Outrider|ANB|1
-2 Merciless Executioner|LTC|1
+2 Ironclaw Orcs|LEB|[160]
+2 Mardu Outrider|MB2|[1]
+2 Merciless Executioner|FRF|[76]
 2 Moria Marauder|LTR|1
-8 Mountain|30A|1
-2 Murder|CLB|1
+8 Mountain|INR|[294]
+2 Murder|J25|[467]
 3 Orc Sureshot|FRF|1
-2 Orcish Artillery|30A|1
+2 Orcish Artillery|LEB|[166]
 4 Orcish Bowmasters|LTR|1
-9 Swamp|30A|1
+9 Swamp|INR|[292]
 [Sideboard]
 [Schemes]

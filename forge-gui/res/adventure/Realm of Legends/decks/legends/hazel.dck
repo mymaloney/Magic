@@ -4,21 +4,21 @@ Name=Hazel of the Rootbloom
 1 Hazel of the Rootbloom|BLC|1
 [Main]
 1 Academy Manufactor|BLC|1
-1 Arasta of the Endless Web|BLC|1
-1 Beledros Witherbloom|BLC|1
-1 Chatterfang, Squirrel General|BLC|1
-1 Chittering Witch|BLC|1
+1 Arasta of the Endless Web|TDC|[244]
+1 Beledros Witherbloom|SOC|[296]
+1 Chatterfang, Squirrel General|MH2|[410]
+1 Chittering Witch|TDC|[175]
 1 Deep Forest Hermit|BLC|1
 1 End-Raze Forerunners|BLC|1
-1 Gilded Goose|BLC|1
-1 Haywire Mite|BLC|1
+1 Gilded Goose|SOC|[269]
+1 Haywire Mite|SOC|[349]
 1 Hazel's Brewmaster|BLC|1
 1 Honored Dreyleader|BLB|1
 1 Insatiable Frugivore|BLC|1
 1 Moonstone Eulogist|BLC|1
-1 Morbid Opportunist|BLC|1
+1 Morbid Opportunist|INR|[388]
 1 Nadier's Nightblade|BLC|1
-1 Nested Shambler|BLC|1
+1 Nested Shambler|MH2|[399]
 1 The Odd Acorn Gang|BLC|1
 1 Ogre Slumlord|BLC|1
 1 Plaguecrafter|BLC|1
@@ -27,70 +27,70 @@ Name=Hazel of the Rootbloom
 1 Ravenous Squirrel|BLC|1
 1 Scurry of Squirrels|BLC|1
 1 Skyfisher Spider|BLC|1
-1 Squirrel Sovereign|BLC|1
-1 Tireless Provisioner|BLC|1
+1 Squirrel Sovereign|MH2|[415]
+1 Tireless Provisioner|J25|[728]
 1 Toski, Bearer of Secrets|BLC|1
-1 Woe Strider|BLC|1
-1 Zulaport Cutthroat|BLC|1
+1 Woe Strider|SOC|[231]
+1 Zulaport Cutthroat|TSR|[337]
 1 Garruk, Cursed Huntsman|BLC|1
 1 Cache Grab|BLB|1
-1 Deadly Dispute|BLC|1
-1 Plumb the Forbidden|BLC|1
-1 Putrefy|BLC|1
+1 Deadly Dispute|TDC|[177]
+1 Plumb the Forbidden|SOC|[224]
+1 Putrefy|RVR|[378]
 1 Saw in Half|BLC|1
-1 Second Harvest|BLC|1
-1 Tear Asunder|BLC|1
-1 Windgrace's Judgment|BLC|1
-1 Casualties of War|BLC|1
-1 Chatterstorm|BLC|1
-1 Decree of Pain|BLC|1
-1 Maelstrom Pulse|BLC|1
+1 Second Harvest|INR|[417]
+1 Tear Asunder|EOC|[109]
+1 Windgrace's Judgment|EOC|[129]
+1 Casualties of War|SOC|[300]
+1 Chatterstorm|MH2|[411]
+1 Decree of Pain|SCG|[64]
+1 Maelstrom Pulse|INR|[244]
 1 Rootcast Apprenticeship|BLC|1
-1 Shamanic Revelation|BLC|1
+1 Shamanic Revelation|PIO|[194]
 1 Swarmyard Massacre|BLC|1
-1 Arcane Signet|BLC|1
+1 Arcane Signet|TRC|[485]
 1 Chitterspitter|BLC|1
-1 Fellwar Stone|ECC
-1 Idol of Oblivion|BLC|1
-1 Maskwood Nexus|BLC|1
-1 Skullclamp|BLC|1
-1 Sol Ring|BLC|1
+1 Fellwar Stone|DRK|[102]
+1 Idol of Oblivion|TDC|[319]
+1 Maskwood Nexus|DRC|[132]
+1 Skullclamp|TRC|[354]
+1 Sol Ring|LEB|[270]
 1 Sword of the Squeak|BLC|1
-1 Talisman of Resilience|BLC|1
-1 Bastion of Remembrance|BLC|1
+1 Talisman of Resilience|SOC|[432]
+1 Bastion of Remembrance|TDC|[171]
 1 Beastmaster Ascension|BLC|1
-1 Binding the Old Gods|BLC|1
+1 Binding the Old Gods|ECC|[120]
 1 Gourmand's Talent|BLC|1
-1 Moldervine Reclamation|BLC|1
-1 Squirrel Nest|BLC|1
+1 Moldervine Reclamation|SOC|[320]
+1 Squirrel Nest|DMR|[349]
 1 Wolfwillow Haven|BLC|1
-1 Barren Moor|BLC|1
-1 Bojuka Bog|BLC|1
-1 Command Tower|BLC|1
-1 Evolving Wilds|BLC|1
-1 Exotic Orchard|BLC|1
-1 Golgari Rot Farm|BLC|1
-1 Grim Backwoods|BLC|1
-1 Haunted Mire|BLC|1
-1 Jungle Hollow|BLC|1
-1 Llanowar Wastes|BLC|1
-1 Necroblossom Snarl|BLC|1
-1 Oran-Rief, the Vastwood|BLC|1
-1 Path of Ancestry|BLC|1
+1 Barren Moor|ONS|[312]
+1 Bojuka Bog|TSR|[406]
+1 Command Tower|TRC|[521]
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
+1 Golgari Rot Farm|ECC|[151]
+1 Grim Backwoods|SOC|[377]
+1 Haunted Mire|SOC|[379]
+1 Jungle Hollow|TDM|[258]
+1 Llanowar Wastes|APC|[141]
+1 Necroblossom Snarl|SOC|[389]
+1 Oran-Rief, the Vastwood|SOC|[391]
+1 Path of Ancestry|TRC|[545]
 1 Swarmyard|BLC|1
-1 Tainted Wood|BLC|1
-1 Temple of Malady|BLC|1
-1 Terramorphic Expanse|BLC|1
-1 Tranquil Thicket|BLC|1
-1 Twilight Mire|BLC|1
-1 Overgrown Tomb|RTR
-1 Woodland Cemetery|BLC|1
-2 Swamp|BLB|1
-2 Swamp|BLB|2
-2 Swamp|BLB|3
-2 Swamp|BLB|4
-3 Forest|BLB|1
-2 Forest|BLB|2
-2 Forest|BLB|3
-2 Forest|BLB|4
+1 Tainted Wood|TOR|[143]
+1 Temple of Malady|SOC|[413]
+1 Terramorphic Expanse|TRC|[571]
+1 Tranquil Thicket|ONS|[326]
+1 Twilight Mire|SOC|[418]
+1 Overgrown Tomb|RVR|[407]
+1 Woodland Cemetery|DMR|[401]
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+3 Forest|INR|[296]
+2 Forest|INR|[296]
+2 Forest|INR|[296]
+2 Forest|INR|[296]
 [Sideboard]

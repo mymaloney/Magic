@@ -2,94 +2,94 @@
 Name=Heavenly Inferno [COM] [2011]
 Set=COM
 [Commander]
-1 Kaalia of the Vast|COM
+1 Kaalia of the Vast|MH3|[290]
 [Main]
-1 Akoum Refuge|COM
-1 Akroma's Vengeance|COM
-1 Akroma, Angel of Fury|COM
-1 Angel of Despair|COM
-1 Angelic Arbiter|COM
-1 Anger|COM
-1 Archangel of Strife|COM
-1 Armillary Sphere|COM
-1 Avatar of Slaughter|COM
-1 Barren Moor|COM
-1 Basandra, Battle Seraph|COM
-1 Bathe in Light|COM
-1 Bladewing the Risen|COM
-1 Bojuka Bog|COM
-1 Boros Garrison|COM
-1 Boros Guildmage|COM
-1 Boros Signet|COM
-1 Cleansing Beam|COM
-1 Comet Storm|COM
-1 Command Tower|COM
-1 Congregate|COM
-1 Darksteel Ingot|COM
-1 Death by Dragons|COM
-1 Diabolic Tutor|COM
-1 Dragon Whelp|COM
-1 Dread Cacodemon|COM
-1 Duergar Hedge-Mage|COM
-1 Earthquake|COM
-1 Evincar's Justice|COM
-1 Evolving Wilds|COM
-1 Fallen Angel|COM
-1 Forgotten Cave|COM
-1 Furnace Whelp|COM
-1 Gwyllion Hedge-Mage|COM
-1 Lightkeeper of Emeria|COM
-1 Lightning Greaves|COM
-1 Malfegor|COM
-1 Mana-Charged Dragon|COM
-1 Master Warcraft|COM
-1 Molten Slagheap|COM
-1 Mortify|COM
-1 Mother of Runes|COM
-2 Mountain|COM|1
-2 Mountain|COM|2
-2 Mountain|COM|3
-2 Mountain|COM|4
-1 Oni of Wild Places|COM
-1 Orim's Thunder|COM
-1 Oros, the Avenger|COM
-1 Orzhov Basilica|COM
-1 Orzhov Guildmage|COM
-1 Orzhov Signet|COM
-1 Path to Exile|COM
-2 Plains|COM|1
-2 Plains|COM|2
-2 Plains|COM|3
-2 Plains|COM|4
-1 Pyrohemia|COM
-1 Rakdos Carnarium|COM
-1 Rakdos Signet|COM
-1 Razorjaw Oni|COM
-1 Reiver Demon|COM
-1 Return to Dust|COM
-1 Righteous Cause|COM
-1 Rupture Spire|COM
-1 Secluded Steppe|COM
-1 Serra Angel|COM
-1 Shattered Angel|COM
-1 Sol Ring|COM
-1 Soul Snare|COM
-1 Stranglehold|COM
-1 Sulfurous Blast|COM
-2 Swamp|COM|1
-2 Swamp|COM|2
-2 Swamp|COM|3
-2 Swamp|COM|4
-1 Syphon Flesh|COM
-1 Syphon Mind|COM
-1 Tariel, Reckoner of Souls|COM
-1 Terminate|COM
-1 Vivid Meadow|COM
-1 Voice of All|COM
-1 Vow of Duty|COM
-1 Vow of Lightning|COM
-1 Vow of Malice|COM
-1 Wrecking Ball|COM
-1 Zoetic Cavern|COM
+1 Akoum Refuge|SCD|[289]
+1 Akroma's Vengeance|ONS|[2]
+1 Akroma, Angel of Fury|FRC|[19]
+1 Angel of Despair|GK2|[37]
+1 Angelic Arbiter|JMP|[86]
+1 Anger|JUD|[77]
+1 Archangel of Strife|CMA|[5]
+1 Armillary Sphere|CMR|[298]
+1 Avatar of Slaughter|CMM|[206]
+1 Barren Moor|ONS|[312]
+1 Basandra, Battle Seraph|CMA|[174]
+1 Bathe in Light|CMA|[6]
+1 Bladewing the Risen|SCG|[136]
+1 Bojuka Bog|TSR|[406]
+1 Boros Garrison|CLU|[231]
+1 Boros Guildmage|RVR|[168]
+1 Boros Signet|TDC|[314]
+1 Cleansing Beam|CMA|[78]
+1 Comet Storm|CMR|[411]
+1 Command Tower|TRC|[521]
+1 Congregate|USG|[8]
+1 Darksteel Ingot|PIO|[254]
+1 Death by Dragons|CMA|[80]
+1 Diabolic Tutor|ODY|[129]
+1 Dragon Whelp|DMR|[317]
+1 Dread Cacodemon|CMA|[55]
+1 Duergar Hedge-Mage|MOC|[324]
+1 Earthquake|PO2|[94]
+1 Evincar's Justice|TMP|[134]
+1 Evolving Wilds|TRC|[527]
+1 Fallen Angel|LEG|[97]
+1 Forgotten Cave|ONS|[317]
+1 Furnace Whelp|SCD|[143]
+1 Gwyllion Hedge-Mage|CMA|[201]
+1 Lightkeeper of Emeria|CMA|[15]
+1 Lightning Greaves|TRC|[496]
+1 Malfegor|IMA|[205]
+1 Mana-Charged Dragon|CMA|[84]
+1 Master Warcraft|CMR|[447]
+1 Molten Slagheap|SCD|[309]
+1 Mortify|TSR|[381]
+1 Mother of Runes|ULG|[14]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+1 Oni of Wild Places|CMA|[85]
+1 Orim's Thunder|APC|[15]
+1 Oros, the Avenger|CMA|[188]
+1 Orzhov Basilica|DRC|[164]
+1 Orzhov Guildmage|CLU|[201]
+1 Orzhov Signet|TDC|[323]
+1 Path to Exile|TSR|[299]
+2 Plains|INR|[288]
+2 Plains|INR|[288]
+2 Plains|INR|[288]
+2 Plains|INR|[288]
+1 Pyrohemia|CMA|[86]
+1 Rakdos Carnarium|ECC|[161]
+1 Rakdos Signet|FRC|[60]
+1 Razorjaw Oni|CMA|[63]
+1 Reiver Demon|CMA|[64]
+1 Return to Dust|TRC|[427]
+1 Righteous Cause|ONS|[51]
+1 Rupture Spire|CMR|[355]
+1 Secluded Steppe|ONS|[324]
+1 Serra Angel|DMR|[271]
+1 Shattered Angel|MOC|[206]
+1 Sol Ring|LEB|[270]
+1 Soul Snare|MH2|[387]
+1 Stranglehold|CMA|[87]
+1 Sulfurous Blast|CMM|[262]
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+1 Syphon Flesh|FDC|[127]
+1 Syphon Mind|ONS|[175]
+1 Tariel, Reckoner of Souls|2X2|[281]
+1 Terminate|PLS|[128]
+1 Vivid Meadow|NCC|[446]
+1 Voice of All|PLS|[19]
+1 Vow of Duty|MKC|[89]
+1 Vow of Lightning|MKC|[164]
+1 Vow of Malice|CM2|[82]
+1 Wrecking Ball|GK2|[74]
+1 Zoetic Cavern|MKC|[311]
 [Sideboard]
 

@@ -5,75 +5,75 @@ Name=Eloise, Nephalia Sleuth
 [Main]
 1 Wilhelt, the Rotcleaver|MIC
 1 Aetherspouts|MIC
-1 Arcane Signet|MIC
-1 Army of the Damned|MIC
-1 Bojuka Bog|MIC
-1 Butcher of Malakir|MIC
-1 Cemetery Reaper|MIC
-1 Charcoal Diamond|MIC
-1 Choked Estuary|MIC
+1 Arcane Signet|TRC|[485]
+1 Army of the Damned|FDC|[85]
+1 Bojuka Bog|TSR|[406]
+1 Butcher of Malakir|LCC|[187]
+1 Cemetery Reaper|DRC|[87]
+1 Charcoal Diamond|MIR|[296]
+1 Choked Estuary|TRC|[370]
 1 Cleaver Skaab|MIC
-1 Command Tower|MIC
-1 Commander's Sphere|MIC
-1 Corpse Augur|MIC
-1 Crowded Crypt|MIC
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Corpse Augur|DRC|[40]
+1 Crowded Crypt|DRC|[88]
 1 Curse of the Restless Dead|MIC
 1 Curse of Unbinding|MIC
 1 Dark Salvation|MIC
-1 Watery Grave|GTC
-1 Death Baron|MIC
-1 Dimir Aqueduct|MIC
-1 Diregraf Captain|MIC
-1 Diregraf Colossus|MIC
-1 Distant Melody|MIC
-1 Dread Summons|MIC
-1 Dreadhorde Invasion|MIC
-1 Drown in Dreams|MIC
+1 Watery Grave|RVR|[415]
+1 Death Baron|FDC|[95]
+1 Dimir Aqueduct|DSC|[270]
+1 Diregraf Captain|SCD|[224]
+1 Diregraf Colossus|FDC|[96]
+1 Distant Melody|ECC|[45]
+1 Dread Summons|DRC|[90]
+1 Dreadhorde Invasion|FRC|[48]
+1 Drown in Dreams|M3C|[181]
 1 Eater of Hope|MIC
 1 Empty the Laboratory|MIC
-1 Endless Ranks of the Dead|MIC
-1 Eternal Skylord|MIC
-1 Exotic Orchard|MIC
-1 Feed the Swarm|MIC
-1 Fleshbag Marauder|MIC
-1 Forgotten Creation|MIC
+1 Endless Ranks of the Dead|FDC|[97]
+1 Eternal Skylord|DRC|[76]
+1 Exotic Orchard|TRC|[378]
+1 Feed the Swarm|TDC|[180]
+1 Fleshbag Marauder|DRC|[92]
+1 Forgotten Creation|DRC|[77]
 1 Ghouls' Night Out|MIC
-1 Gisa and Geralf|MIC
-1 Gleaming Overseer|MIC
-1 Go for the Throat|MIC
-1 Gorex, the Tombshell|MIC
-1 Gravespawn Sovereign|MIC
+1 Gisa and Geralf|INR|[237]
+1 Gleaming Overseer|DRC|[116]
+1 Go for the Throat|FDC|[100]
+1 Gorex, the Tombshell|J25|[67]
+1 Gravespawn Sovereign|ONS|[152]
 1 Havengul Runebinder|MIC
 1 Hordewing Skaab|MIC
 1 Hour of Eternity|MIC
-12 Island|MID
-1 Liliana's Devotee|MIC
-1 Liliana's Mastery|MIC
-1 Liliana, Death's Majesty|MIC
-1 Lord of the Accursed|MIC
-1 Midnight Reaper|MIC
-1 Mortuary Mire|MIC
-1 Myriad Landscape|MIC
-1 Open the Graves|MIC
-1 Overseer of the Damned|MIC
-1 Path of Ancestry|MIC
+12 Island|INR|[290]
+1 Liliana's Devotee|SCD|[85]
+1 Liliana's Mastery|FDC|[109]
+1 Liliana, Death's Majesty|DRC|[94]
+1 Lord of the Accursed|DRC|[95]
+1 Midnight Reaper|DRC|[44]
+1 Mortuary Mire|J22|[817]
+1 Myriad Landscape|EOC|[169]
+1 Open the Graves|FDC|[121]
+1 Overseer of the Damned|MKC|[132]
+1 Path of Ancestry|TRC|[545]
 1 Prowling Geistcatcher|MIC
 1 Ravenous Rotbelly|MIC
-1 Rooftop Storm|MIC
+1 Rooftop Storm|INR|[83]
 1 Ruthless Deathfang|MIC
 1 Shadow Kin|MIC
-1 Sky Diamond|MIC
-1 Sol Ring|MIC
-1 Spark Reaper|MIC
-1 Stitcher Geralf|MIC
-1 Sunken Hollow|MIC
-15 Swamp|MID
-1 Syphon Flesh|MIC
-1 Tainted Isle|MIC
-1 Talisman of Dominance|MIC
-1 Temple of Deceit|MIC
+1 Sky Diamond|MIR|[319]
+1 Sol Ring|LEB|[270]
+1 Spark Reaper|SCD|[109]
+1 Stitcher Geralf|CMM|[121]
+1 Sunken Hollow|TRC|[407]
+15 Swamp|INR|[292]
+1 Syphon Flesh|FDC|[127]
+1 Tainted Isle|TOR|[141]
+1 Talisman of Dominance|TRC|[505]
+1 Temple of Deceit|DRC|[176]
 1 Tomb Tyrant|MIC
-1 Unclaimed Territory|MIC
+1 Unclaimed Territory|ECC|[175]
 1 Undead Alchemist|MIC
-1 Undead Augur|MIC
-1 Zombie Apocalypse|MIC
+1 Undead Augur|DRC|[100]
+1 Zombie Apocalypse|SCD|[121]

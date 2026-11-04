@@ -1,15 +1,15 @@
 [metadata]
 Name=AI Chandra B 3
 [Main]
-4 Chain Lightning|JMP|1
-4 Chandra's Phoenix|PM12|1
+4 Chain Lightning|DMR|[316]
+4 Chandra's Phoenix|E01|[44]
 1 Chandra, Fire of Kaladesh|ORI|1
-2 Chandra, Pyromaster|AKR|1
-2 Chandra, Torch of Defiance|KLD|1
-4 Grim Lavamancer|G06|1
-4 Lava Spike|MMA|1
-4 Lightning Bolt|M10|1
-24 Mountain|RAV|1
-4 Pyromancer Ascension|ZEN|1
-4 Searing Blaze|WWK|1
-4 Skullcrack|GTC|1
+2 Chandra, Pyromaster|E01|[42]
+2 Chandra, Torch of Defiance|FRA|[244]
+4 Grim Lavamancer|DMR|[324]
+4 Lava Spike|TSR|[347]
+4 Lightning Bolt|LEB|[162]
+24 Mountain|INR|[294]
+4 Pyromancer Ascension|MM3|[108]
+4 Searing Blaze|DDI|[67]
+4 Skullcrack|RVR|[341]

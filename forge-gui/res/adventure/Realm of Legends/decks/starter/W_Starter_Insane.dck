@@ -1,76 +1,76 @@
 [metadata]
 Name=Starter_White
 [Commander]
-1 Keleth, Sunmane Familiar|CMR
+1 Keleth, Sunmane Familiar|CMM|[33]
 [Main]
-15 Plains|FDN|[272]
-15 Plains|FDN|[273]
-1 Thriving Heath|JMP
-1 Vivid Meadow|CMD
-1 Secluded Steppe|CMD
-1 Command Tower|CMD
-1 Opal Palace|C13
-1 Path of Ancestry|C17
-1 Exotic Orchard|C19
-1 Terramorphic Expanse|M10
-1 Evolving Wilds|FDN
-1 Ash Barrens|C16
-1 Sol Ring|CMD
-1 Arcane Signet|ELD
-1 Commander's Sphere|C14
-1 Mind Stone|CMM
-1 Thought Vessel|C15
-1 Wayfarer's Bauble|C14
-1 Swiftfoot Boots|FDN
-1 Jayemdae Tome|4ED
-1 Geode Golem|C18
-1 Solemn Simulacrum|C14
-1 Inspiring Overseer|FDN
-1 Hinterland Sanctifier|FDN
+15 Plains|INR|[288]
+15 Plains|INR|[288]
+1 Thriving Heath|ECC|[172]
+1 Vivid Meadow|NCC|[446]
+1 Secluded Steppe|ONS|[324]
+1 Command Tower|TRC|[521]
+1 Opal Palace|SOC|[390]
+1 Path of Ancestry|TRC|[545]
+1 Exotic Orchard|TRC|[378]
+1 Terramorphic Expanse|TRC|[571]
+1 Evolving Wilds|TRC|[527]
+1 Ash Barrens|TDC|[339]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Commander's Sphere|TRC|[487]
+1 Mind Stone|DMR|[385]
+1 Thought Vessel|TRC|[509]
+1 Wayfarer's Bauble|TRC|[511]
+1 Swiftfoot Boots|TRC|[501]
+1 Jayemdae Tome|LEB|[255]
+1 Geode Golem|CMM|[386]
+1 Solemn Simulacrum|TSR|[400]
+1 Inspiring Overseer|FDC|[35]
+1 Hinterland Sanctifier|J25|[5]
 1 Resolute Reinforcements|FDN
 1 Dauntless Veteran|FDN
 1 Healer's Hawk|FDN
-1 Moment of Triumph|FDN
-1 Stroke of Midnight|FDN
-1 Make a Stand|FDN
-1 Banishing Light|FDN
-1 Angelic Edict|FDN
+1 Moment of Triumph|J25|[229]
+1 Stroke of Midnight|FRC|[35]
+1 Make a Stand|J25|[222]
+1 Banishing Light|TSR|[291]
+1 Angelic Edict|J25|[164]
 1 Seraph of Dawn|CMR
-1 Angelic Gift|CMR
-1 Doomed Traveler|CMR
-1 Raise the Alarm|CMR
-1 Return to Dust|CMR
-1 Flickerwisp|CMR
-1 Ancestral Blade|CMR
+1 Angelic Gift|J25|[165]
+1 Doomed Traveler|CLU|[59]
+1 Raise the Alarm|J25|[101]
+1 Return to Dust|TRC|[427]
+1 Flickerwisp|TSR|[294]
+1 Ancestral Blade|J25|[160]
 1 Loyal Unicorn|CMM
-1 Marble Diamond|CMR
-1 Captain's Call|M13
+1 Marble Diamond|MIR|[310]
+1 Captain's Call|DMU|[9]
 1 Aven Squire|M13
-1 Attended Knight|M13
-1 Crusader of Odric|M13
-1 Griffin Protector|M13
+1 Attended Knight|MM3|[1]
+1 Crusader of Odric|INR|[338]
+1 Griffin Protector|DMU|[18]
 1 Safe Passage|M13
-1 Divine Verdict|M13
-1 Oblivion Ring|M13
-1 Ajani's Sunstriker|M13
-1 Divine Favor|M13
-1 Suntail Hawk|10E
-1 Skyhunter Prowler|10E
-1 Soul Warden|10E
-1 Skyhunter Skirmisher|10E
-1 Youthful Knight|10E
-1 Warrior's Honor|10E
-1 Pacifism|10E
-1 Holy Day|10E
-1 Reviving Dose|10E
-1 Serra's Embrace|10E
-1 Disenchant|4ED
-1 Death Ward|4ED
-1 Swords to Plowshares|4ED
-1 Spirit Link|4ED
-1 Kismet|4ED
-1 Tundra Wolves|4ED
-1 Amrou Kithkin|4ED
-1 White Knight|4ED
-1 Serra Angel|4ED
-1 Wall of Swords|4ED
+1 Divine Verdict|J22|[177]
+1 Oblivion Ring|MM2|[29]
+1 Ajani's Sunstriker|CNS|[66]
+1 Divine Favor|J25|[191]
+1 Suntail Hawk|JUD|[28]
+1 Skyhunter Prowler|J22|[246]
+1 Soul Warden|EXO|[21]
+1 Skyhunter Skirmisher|MM2|[32]
+1 Youthful Knight|STH|[25]
+1 Warrior's Honor|VIS|[24]
+1 Pacifism|ONS|[47]
+1 Holy Day|INV|[20]
+1 Reviving Dose|INV|[31]
+1 Serra's Embrace|USG|[47]
+1 Disenchant|MMQ|[18]
+1 Death Ward|ICE|[19]
+1 Swords to Plowshares|DMR|[275]
+1 Spirit Link|DMR|[274]
+1 Kismet|LEG|[25]
+1 Tundra Wolves|LEG|[40]
+1 Amrou Kithkin|LEG|[3]
+1 White Knight|LGN|[27]
+1 Serra Angel|DMR|[271]
+1 Wall of Swords|POR|[37]

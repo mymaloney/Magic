@@ -1,21 +1,21 @@
 [metadata]
 Name=Domain Keeper of Cromat
 [Main]
-1 Bayou|LEA
-1 Underground Sea|LEA
-1 Tundra|LEA
-1 Plateau|LEA
+1 Bayou|LEB|[279]
+1 Underground Sea|LEB|[286]
+1 Tundra|LEB|[285]
+1 Plateau|LEB|[280]
 1 Volcanic Island|LEB
-1 Tropical Island|LEA
-1 Taiga|LEA
-1 Badlands|LEA
-1 Scrubland|LEA
-1 Savannah|LEA
-2 Windswept Heath|ONS
-2 Polluted Delta|ONS
-2 Bloodstained Mire|ONS
-2 Flooded Strand|ONS
-2 Wooded Foothills|ONS
+1 Tropical Island|LEB|[284]
+1 Taiga|LEB|[283]
+1 Badlands|LEB|[278]
+1 Scrubland|LEB|[282]
+1 Savannah|LEB|[281]
+2 Windswept Heath|MH3|[440]
+2 Polluted Delta|MH3|[438]
+2 Bloodstained Mire|MH3|[435]
+2 Flooded Strand|MH3|[436]
+2 Wooded Foothills|MH3|[441]
 4 City of Brass|ARN
 2 Cromat|APC
 2 Atogatog|ODY

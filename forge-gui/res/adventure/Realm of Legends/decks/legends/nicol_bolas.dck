@@ -3,7 +3,7 @@ Name=Nicol Bolas
 [Commander]
 1 Nicol Bolas|LEG
 [Main]
-1 Animate Dead|4ED
+1 Animate Dead|LEB|[93]
 1 Arcane Denial|ALL
 1 Ashen Powder|MIR
 1 Avatar of Fury|PCY
@@ -13,14 +13,14 @@ Name=Nicol Bolas
 1 Nevinyrral's Disk|LEB
 1 Blatant Thievery|ONS
 1 Bloodstone Cameo|INV
-1 Boomerang|LEG
+1 Boomerang|MIR|[56]
 1 Capsize|TMP
 1 Charcoal Diamond|MIR
-1 City of Brass|5ED
+1 City of Brass|ARN|[71]
 1 Clone|ONS
 1 Coffin Queen|TMP
 1 Collective Restraint|INV
-1 Counterspell|ICE
+1 Counterspell|DMR|[281]
 1 Crosis, the Purger|INV
 1 Crosis's Catacombs|PLS
 1 Decree of Pain|SCG
@@ -32,32 +32,32 @@ Name=Nicol Bolas
 1 Evacuation|STH
 1 Fellwar Stone|DRK
 1 Fire Diamond|MIR
-1 Royal Assassin|LEB
+1 Royal Assassin|DMR|[310]
 1 Reanimate|TMP
-1 Earthquake|LEB
+1 Earthquake|PO2|[94]
 1 Treachery|UDS
 1 Bribery|MMQ
 1 Forced March|MMQ
 1 Forgotten Cave|ONS
 1 Future Sight|ONS
 1 Grand Coliseum|ONS
-1 Greed|4ED
+1 Greed|LEG|[101]
 1 Phyrexian Arena|APC
-7 Island|LEB
-1 Lightning Bolt|4ED
+7 Island|INR|[290]
+1 Lightning Bolt|LEB|[162]
 1 Megrim|STH
-5 Mountain|LEB
-1 Bloodstained Mire|ONS
-1 Polluted Delta|ONS
-1 Mystic Remora|ICE
+5 Mountain|INR|[294]
+1 Bloodstained Mire|MH3|[435]
+1 Polluted Delta|MH3|[438]
+1 Mystic Remora|DMR|[288]
 1 Nekrataal|VIS
 1 Nightscape Familiar|PLS
-1 Confiscate|7ED
+1 Confiscate|USG|[66]
 1 Mana Drain|LEG
 1 Pillage|ALL
 1 Polluted Mire|USG
 1 Ponder|TSR
-1 Control Magic|LEA
+1 Control Magic|LEB|[53]
 1 Propaganda|TMP
 1 Read the Bones|TSR
 1 Remote Isle|USG
@@ -65,25 +65,25 @@ Name=Nicol Bolas
 1 Rocky Tar Pit|MIR
 1 Salt Marsh|INV
 1 Shadowmage Infiltrator|ODY
-1 Shatter|ICE
+1 Shatter|TMP|[203]
 1 Sky Diamond|MIR
-1 Sol Ring|3ED
+1 Sol Ring|LEB|[270]
 1 Spawning Pool|ULG
-6 Swamp|LEB
+6 Swamp|INR|[292]
 1 Hymn to Tourach|FEM
 1 Tainted Isle|TOR
 1 Tarnished Citadel|ODY
 1 Terminal Moraine|PLS
 1 Terminate|PLS
-1 Terror|4ED
+1 Terror|DMR|[312]
 1 Tetsuo Umezawa|LEG
-1 Tormod's Crypt|CHR
-1 Mind Twist|LEA
+1 Tormod's Crypt|DMR|[388]
+1 Mind Twist|LEB|[116]
 1 Reanimate|TMP
-1 Underground River|6ED
+1 Underground River|ICE|[362]
 1 Urborg Volcano|INV
 1 Vampiric Dragon|ODY
-1 Underground Sea|3ED
-1 Badlands|3ED
-1 Volcanic Island|3ED
-1 Vesuvan Doppelganger|3ED
+1 Underground Sea|LEB|[286]
+1 Badlands|LEB|[278]
+1 Volcanic Island|LEB|[287]
+1 Vesuvan Doppelganger|LEB|[88]

@@ -1,26 +1,26 @@
 [metadata]
 Name=Keiga's Forged Alliance 2
 [Main]
-1 Black Vise|2ED
+1 Black Vise|LEB|[234]
 1 Chain of Vapor|ONS
 1 Darkwater Catacombs|ODY
-1 Diabolic Edict|BTD
-1 Engineered Plague|7ED
-1 Force Spike|5ED
+1 Diabolic Edict|TMP|[128]
+1 Engineered Plague|ULG|[51]
+1 Force Spike|LEG|[58]
 1 Phyrexian Furnace|WTH
 1 Smother|ONS
-10 Island|ODY|3
-2 Impulse|BTD
+10 Island|INR|[290]
+2 Impulse|DMR|[287]
 2 Lat-Nam's Legacy|ALL
 2 Powder Keg|UDS
 2 Wasteland|TMP
 3 Innocent Blood|ODY
 3 Undermine|INV
-4 Counterspell|2ED
-4 Duress|7ED
-4 Mana Leak|BRB
-4 Mishra's Factory|4ED
-4 Polluted Delta|ONS
+4 Counterspell|DMR|[281]
+4 Duress|DMR|[303]
+4 Mana Leak|STH|[36]
+4 Mishra's Factory|DMR|[399]
+4 Polluted Delta|MH3|[438]
 4 Standstill|ODY
-4 Swamp|ODY|3
-4 Underground River|5ED
+4 Swamp|INR|[292]
+4 Underground River|ICE|[362]

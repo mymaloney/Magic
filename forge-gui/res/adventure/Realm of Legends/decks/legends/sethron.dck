@@ -3,64 +3,64 @@ Name=Sethron
 [Commander]
 1 Sethron, Hurloon General|jmp
 [Main]
-1 Ahn-Crop Crasher|akh
-1 Akoum Refuge|zen
-1 Akoum Warrior|znr
+1 Ahn-Crop Crasher|J25|[514]
+1 Akoum Refuge|SCD|[289]
+1 Akoum Warrior|PIO|[122]
 1 Anaba Ancestor|hml
 1 Anaba Spirit Crafter|hml
 1 Burning-Fist Minotaur|hou
-1 Changeling Outcast|mh1
-1 Charcoal Diamond|cmr
+1 Changeling Outcast|OTC|[128]
+1 Charcoal Diamond|MIR|[296]
 1 Cursed Minotaur|akh
 1 Deathbellow Raider|ths
 1 Deathbellow War Cry|thb
-1 Arcane Signet|scd
+1 Arcane Signet|TRC|[485]
 1 Didgeridoo|hml
-1 Evolving Wilds|fdn
-1 Fanatic of Mogis|ths
-1 Feed the Swarm|znr
+1 Evolving Wilds|TRC|[527]
+1 Fanatic of Mogis|PIO|[295]
+1 Feed the Swarm|TDC|[180]
 1 Felhide Brawler|bng
 1 Felhide Petrifier|jou
 1 Felhide Spiritbinder|bng
 1 Ferocity of the Wilds|eld
-1 Fervor|m13
+1 Fervor|WTH|[99]
 1 Fire Covenant|ice
-1 Fire Diamond|cmr
+1 Fire Diamond|MIR|[302]
 1 Gnarled Scarhide|jou
-1 Goblin War Drums|a25
-1 Gorehorn Minotaurs|m12
+1 Goblin War Drums|FEM|[58a]
+1 Gorehorn Minotaurs|E01|[49]
 1 Grave Upheaval|c16
 1 Heart of Ramos|mmq
-1 Heirloom Blade|znc
+1 Heirloom Blade|LCC|[303]
 1 Gornog, the Red Reaper|j25
 1 Tether Technician|fra
-1 Maze of Ith|drk
+1 Maze of Ith|DMR|[398]
 1 Insult|akh
 1 Kragma Butcher|bng
 1 Kragma Warcaller|ths
-1 Labyrinth of Skophos|thb
+1 Labyrinth of Skophos|MKC|[272]
 1 Labyrinth Raptor|iko
 1 Lightning Visionary|jmp
 1 Lord of Shatterskull Pass|roe
-1 Midnight Reaper|grn
+1 Midnight Reaper|DRC|[44]
 1 Minotaur Aggressor|rtr
 1 Minotaur Skullcleaver|jmp
 1 Minotaur Warrior|por
-1 Moraug, Fury of Akoum|znr
+1 Moraug, Fury of Akoum|EOC|[89]
 17 Snow-Covered Mountain|ice
 1 Mystifying Maze|c17
-1 Neheb, Dreadhorde Champion|war
-1 Neheb, the Eternal|hou
+1 Neheb, Dreadhorde Champion|DMC|[125]
+1 Neheb, the Eternal|MKC|[158]
 1 Neheb, the Worthy|akh
 1 Maelstrom Artisan|sos
-1 Path of Ancestry|khc
+1 Path of Ancestry|TRC|[545]
 1 Rage Reflection|2xm
 1 Rage-Scarred Berserker|thb
 1 Rageblood Shaman|jmp
 1 Ragemonger|bng
-1 Rakdos Carnarium|c20
-1 Rakdos Charm|gk2
-1 Sol Ring|c14
+1 Rakdos Carnarium|ECC|[161]
+1 Rakdos Charm|TSR|[384]
+1 Sol Ring|LEB|[270]
 1 Rocky Tar Pit|mir
 1 Sardian Cliffstomper|bro
 1 Skophos Maze-Warden|thb
@@ -71,6 +71,6 @@ Name=Sethron
 13 Snow-Covered Swamp|ice
 1 Tahngarth, Talruum Hero|pls
 1 Talruum Piper|vis
-1 Terminate|mm3
-1 Terramorphic Expanse|eoc
-1 Warstorm Surge|c19
+1 Terminate|PLS|[128]
+1 Terramorphic Expanse|TRC|[571]
+1 Warstorm Surge|FDC|[186]

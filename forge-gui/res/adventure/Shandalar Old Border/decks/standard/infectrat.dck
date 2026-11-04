@@ -1,7 +1,7 @@
 [metadata]
 Name=Wild Rat - Plague Rats
 [Main]
-20 Swamp|LEA
-8 Dark Ritual|LEA
+20 Swamp|INR|[292]
+8 Dark Ritual|MMQ|[129]
 2 Intimidation|MMQ
-30 Plague Rats|LEA
+30 Plague Rats|LEB|[122]

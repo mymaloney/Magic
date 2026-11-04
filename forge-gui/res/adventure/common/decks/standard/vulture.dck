@@ -2,14 +2,14 @@
 Name=vulture
 [Main]
 4 Aphetto Vulture|ONS|1
-4 Bone Picker|JMP|1
+4 Bone Picker|J22|[383]
 4 Circling Vultures|WTH|1
-4 Doom Blade|E01|1
-4 Duress|M21|1
-4 Gorging Vulture|J22|1
-4 Screeching Buzzard|BBD|1
+4 Doom Blade|GN3|[47]
+4 Duress|DMR|[303]
+4 Gorging Vulture|J25|[449]
+4 Screeching Buzzard|ONS|[165]
 4 Sultai Scavenger|KTK|1
-4 Swamp|J22|1
-9 Swamp|J22|2
-11 Swamp|J22|3
-4 Wake of Vultures|EMA|1
+4 Swamp|INR|[292]
+9 Swamp|INR|[292]
+11 Swamp|INR|[292]
+4 Wake of Vultures|VIS|[74]

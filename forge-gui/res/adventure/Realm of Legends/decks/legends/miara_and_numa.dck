@@ -1,75 +1,75 @@
 [metadata]
 Name=Miara and Numa
 [Commander]
-1 Miara, Thorn of the Glade|CMR
-1 Numa, Joraga Chieftain|CMR
+1 Miara, Thorn of the Glade|KHC|[51]
+1 Numa, Joraga Chieftain|KHC|[71]
 [Main]
-1 Arbor Elf|WWK
-1 Beast Whisperer|C20
+1 Arbor Elf|A25|[160]
+1 Beast Whisperer|TSR|[356]
 1 Birchlore Rangers|ONS
 1 Bloodline Shaman|ONS
-1 Bounty of Skemfar|KHC
+1 Bounty of Skemfar|J25|[638]
 1 Canopy Tactician|KHM
-1 Command Tower|KHC
-1 Deathreap Ritual|2XM
-1 Descendants' Path|AVR
-1 Dwynen, Gilt-Leaf Daen|KHC
-1 Dwynen's Elite|ORI
+1 Command Tower|TRC|[521]
+1 Deathreap Ritual|DSC|[86]
+1 Descendants' Path|LCC|[238]
+1 Dwynen, Gilt-Leaf Daen|FDN|[217]
+1 Dwynen's Elite|FDN|[218]
 1 Elderfang Venom|KHC
-1 Elven Ambush|KHM
+1 Elven Ambush|GN3|[92]
 1 Elves of Deep Shadow|DRK
-1 Elvish Archdruid|KHC
-1 Elvish Champion|8ED
+1 Elvish Archdruid|FDN|[219]
+1 Elvish Champion|INV|[186]
 1 Elvish Dreadlord|CMR
 1 Elvish Guidance|ONS
 1 Elvish Harbinger|EVG
 1 Elvish Promenade|KHC
-1 Elvish Visionary|CMR
-1 Elvish Warmaster|KHM
-1 Evolutionary Leap|ORI
-1 Ezuri, Renegade Leader|C14
-22 Forest|LRW
-1 Freyalise, Llanowar's Fury|C14
+1 Elvish Visionary|J25|[145]
+1 Elvish Warmaster|J22|[654]
+1 Evolutionary Leap|TSR|[362]
+1 Ezuri, Renegade Leader|DDU|[1]
+22 Forest|INR|[296]
+1 Freyalise, Llanowar's Fury|CMM|[290]
 1 Kamahl, Heart of Krosa|CMR
 1 Gilt-Leaf Palace|LRW
 1 Harald Unites the Elves|KHM
 1 Harald, King of Skemfar|KHM
-1 Immaculate Magistrate|CMR
-1 Imperious Perfect|KHC
+1 Immaculate Magistrate|GN3|[98]
+1 Imperious Perfect|FDN|[719]
 1 Joraga Warcaller|CMA
-1 Jungle Hollow|KTK
-1 Lathril, Blade of the Elves|KHC
-1 Leaf-Crowned Visionary|DMU
-1 Llanowar Elves|M11
-1 Llanowar Tribe|KHC
-1 Lys Alana Huntmaster|KHC
-1 Marwyn, the Nurturer|KHC
+1 Jungle Hollow|TDM|[258]
+1 Lathril, Blade of the Elves|FDN|[242]
+1 Leaf-Crowned Visionary|J25|[683]
+1 Llanowar Elves|LEB|[211]
+1 Llanowar Tribe|FDC|[214]
+1 Lys Alana Huntmaster|J22|[686]
+1 Marwyn, the Nurturer|J25|[687]
 1 Nadier, Agent of the Duskenel|CMR
-1 Nullmage Shepherd|KHC
-1 Oran-Rief, the Vastwood|C20
-1 Path of Ancestry|KHC
-1 Poison-Tip Archer|KHC
-1 Priest of Titania|USG
+1 Nullmage Shepherd|SCD|[200]
+1 Oran-Rief, the Vastwood|SOC|[391]
+1 Path of Ancestry|TRC|[545]
+1 Poison-Tip Archer|BLC|[256]
+1 Priest of Titania|MH3|[428]
 1 Prowess of the Fair|KHC
 1 Quirion Ranger|VIS
-1 Reclamation Sage|KHC
+1 Reclamation Sage|TSR|[366]
 1 Ruthless Winnower|KHC
 1 Seeker of Skybreak|TMP
 1 Serpent's Soul-Jar|KHC
 1 Shaman of the Pack|KHC
 1 Skemfar Avenger|KHM
-1 Skemfar Shadowsage|KHM
-1 Skullclamp|C15
-1 Skyshroud Poacher|NEM
-9 Swamp|LRW
-1 Sylvan Offering|CMA
-1 Taunting Elf|UDS
-1 Timberwatch Elf|C14
-1 Viridian Zealot|DST
+1 Skemfar Shadowsage|J25|[489]
+1 Skullclamp|TRC|[354]
+1 Skyshroud Poacher|NMS|[119]
+9 Swamp|INR|[292]
+1 Sylvan Offering|NCC|[314]
+1 Taunting Elf|ONS|[290]
+1 Timberwatch Elf|LGN|[140]
+1 Viridian Zealot|CMA|[163]
 1 Wellwisher|ONS
-1 Wirewood Channeler|KHC
+1 Wirewood Channeler|LGN|[144]
 1 Wirewood Hivemaster|LGN
-1 Wirewood Symbiote|EMA
-1 Wolverine Riders|KHC
-1 Wood Elves|POR
-1 Zendikar Resurgent|OGW
+1 Wirewood Symbiote|SCG|[133]
+1 Wolverine Riders|J22|[743]
+1 Wood Elves|EXO|[130]
+1 Zendikar Resurgent|C17|[160]

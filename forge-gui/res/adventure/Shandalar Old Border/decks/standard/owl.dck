@@ -2,8 +2,8 @@
 Name=owl
 [Main]
 4 Coastal Tower|INV
-8 Plains|INV
-8 Island|INV
+8 Plains|INR|[288]
+8 Island|INR|[290]
 2 Seaside Haven|ONS
 2 Kangee, Aerie Keeper|INV
 3 Airborne Aid|ONS
@@ -15,5 +15,5 @@ Name=owl
 4 Stormscape Familiar|PLS
 4 Soulcatcher|ODY
 4 Soulcatchers' Aerie|JUD
-4 Disenchant|MIR
-4 Pacifism|MIR
+4 Disenchant|MMQ|[18]
+4 Pacifism|ONS|[47]

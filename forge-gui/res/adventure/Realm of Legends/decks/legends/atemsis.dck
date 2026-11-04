@@ -3,73 +3,73 @@ Name=Atemsis
 [Commander]
 1 Atemsis, All-Seeing|M20
 [Main]
-1 Aetherspouts|M15
-1 Aqueous Form|CMR
-1 Body of Knowledge|CMR
+1 Aetherspouts|MIC|[97]
+1 Aqueous Form|PIO|[45]
+1 Body of Knowledge|DSC|[112]
 1 Kozilek's Unsealing|MH3
 1 Conspiracy Unraveler|MKM
 1 Conundrum Sphinx|C18
-1 Coral Atoll|CMR
-1 Counterspell|CMM
-1 Curse of the Swine|OTC
+1 Coral Atoll|VIS|[160]
+1 Counterspell|DMR|[281]
+1 Curse of the Swine|SOC|[192]
 1 Defiler of Dreams|DMU
 1 Devastation Tide|C18
 1 Discontinuity|M21
-1 Dream Eater|MKC
+1 Dream Eater|DSC|[116]
 1 Enigma Thief|ZNC
-1 Finale of Revelation|WAR
+1 Finale of Revelation|FDN|[589]
 1 Flood of Tears|VOC
-1 Hall of Oracles|STX
-1 Urza's Incubator|MH3
-1 Arcane Signet|ELD
+1 Hall of Oracles|SOC|[378]
+1 Urza's Incubator|DMR|[392]
+1 Arcane Signet|TRC|[485]
 1 Kindred Discovery|LCC
 1 Throne of Eldraine|WOC
-1 Arcane Denial|C13
+1 Arcane Denial|ALL|[22a]
 1 Unwind|DOM
 1 High Tide|DMR
-1 Imprisoned in the Moon|MOC
-1 Gravitational Shift|ROE
+1 Imprisoned in the Moon|INR|[358]
+1 Gravitational Shift|SCD|[54]
 1 Inspired Sphinx|SCD
-30 Island|MH3
+30 Island|INR|[290]
 1 Lunar Insight|FDN
 1 Master of Predicaments|M15
 1 Master of Winds|ZNR
 1 Mirror Room|DSK
-1 Myriad Landscape|MKC
-1 Mystic Sanctuary|MKC
-1 Omniscience|WOT
+1 Myriad Landscape|EOC|[169]
+1 Mystic Sanctuary|TSR|[408]
+1 Omniscience|FDN|[161]
 1 Ormos, Archive Keeper|JMP
-1 Rapid Hybridization|GTC
-1 Path of Ancestry|BLC
+1 Rapid Hybridization|SOC|[198]
+1 Path of Ancestry|TRC|[545]
 1 Proft's Eidetic Memory|MKM
-1 Prognostic Sphinx|AFC
-1 Propaganda|OTC
-1 Pull from Tomorrow|MOC
+1 Prognostic Sphinx|DSC|[124]
+1 Propaganda|TMP|[80]
+1 Pull from Tomorrow|SOC|[116]
 1 Quantum Riddler|EOE
 1 Ravenform|LCC
-1 Reliquary Tower|OTC
-1 Rescuer Sphinx|WAR
+1 Reliquary Tower|TRC|[551]
+1 Rescuer Sphinx|CLU|[95]
 1 Scholar of the Lost Trove|JMP
 1 Serum Sovereign|ONE
 1 Sink into Stupor|MH3
-1 Sol Ring|M3C
+1 Sol Ring|LEB|[270]
 1 Stubborn Denial|KTK
-1 Sphinx of Enlightenment|SCD
+1 Sphinx of Enlightenment|J25|[364]
 1 Sphinx of Foresight|RNA
 1 Sphinx of Forgotten Lore|FDN
 1 Sphinx of Jwar Isle|C18
-1 Sphinx of Magosi|CN2
-1 Sphinx of the Final Word|OGW
+1 Sphinx of Magosi|PIO|[286]
+1 Sphinx of the Final Word|FDN|[597]
 1 Sphinx of the Second Sun|MKC
 1 Stoic Sphinx|OTJ
-1 Summary Dismissal|EMN
-1 Swiftfoot Boots|OTC
-1 Tectonic Edge|C14
-1 Temple of the False God|OTC
-1 Sapphire Medallion|MH3
-1 Thassa, God of the Sea|LCC
+1 Summary Dismissal|INR|[368]
+1 Swiftfoot Boots|TRC|[501]
+1 Tectonic Edge|M3C|[384]
+1 Temple of the False God|SCG|[143]
+1 Sapphire Medallion|TMP|[306]
+1 Thassa, God of the Sea|PIO|[288]
 1 The Magic Mirror|ELD
-1 Thought Vessel|CMM
+1 Thought Vessel|TRC|[509]
 1 Unesh, Criosphinx Sovereign|HOU
-1 Whispersilk Cloak|DST
-1 Windreader Sphinx|SCD
+1 Whispersilk Cloak|DSC|[257]
+1 Windreader Sphinx|J25|[391]

@@ -1,18 +1,18 @@
 [metadata]
 Name=Athreos, God of Passage
 [Commander]
-1 Athreos, God of Passage|JOU
+1 Athreos, God of Passage|PIO|[303]
 [Main]
-1 Athreos, Shroud-Veiled|THB
+1 Athreos, Shroud-Veiled|DSC|[212]
 1 Ajani, Strength of the Pride|J22
-1 Alhammarret's Archive|C21
+1 Alhammarret's Archive|TRC|[337]
 1 Angel of Destiny|ZNR
-1 Anguished Unmaking|SOI
-1 Approach of the Second Sun|STA
-1 Arcane Signet|SCD
+1 Anguished Unmaking|TRC|[310]
+1 Approach of the Second Sun|AKH|[4]
+1 Arcane Signet|TRC|[485]
 1 Auriok Champion|IMA
-1 Beacon of Immortality|10E
-1 Black Market Connections|CLB
+1 Beacon of Immortality|E02|[1]
+1 Black Market Connections|LCC|[181]
 1 Bleachbone Verge|DFT
 1 Boon Reflection|2XM
 1 Case of the Uneaten Feast|MKM
@@ -21,62 +21,62 @@ Name=Athreos, God of Passage
 1 Chromatic Lantern|RVR
 1 Cleric of Life's Bond|ZNR
 1 Clever Concealment|ONC
-1 Command Tower|CC2
+1 Command Tower|TRC|[521]
 1 Cosmos Elixir|KHM
-1 Doomed Necromancer|AFC
+1 Doomed Necromancer|ONS|[140]
 1 Drana's Emissary|BFZ
 1 Edgewalker|SCG
 1 Elas il-Kor, Sadistic Pilgrim|DMU
 1 Elenda's Hierophant|LCC
-1 Erebos, God of the Dead|THS
+1 Erebos, God of the Dead|PIO|[291]
 1 Essence Channeler|BLB
 1 Everything Comes to Dust|WHO
 1 Exquisite Blood|LCC
-1 Exsanguinate|J22
+1 Exsanguinate|FDN|[173]
 1 Flare of Fortitude|MH3
-1 Glorious Protector|KHM
-1 Godless Shrine|PRNA
-1 Grand Abolisher|E01
+1 Glorious Protector|CLB|[695]
+1 Godless Shrine|RVR|[401]
+1 Grand Abolisher|BIG|[2]
 1 Guide of Souls|MH3
-1 Hinterland Sanctifier|FDN
-1 Isolated Chapel|DOM
+1 Hinterland Sanctifier|J25|[5]
+1 Isolated Chapel|DMR|[397]
 1 Legions to Ashes|BRO
 1 Lunar Convocation|BLB
-1 Marauding Blight-Priest|ZNR
+1 Marauding Blight-Priest|FDN|[178]
 1 Neglected Manor|DSK
-1 Orzhov Basilica|2X2
-1 Patchwork Banner|BLB
-1 Path of Ancestry|PLG21
-1 Path to Exile|CMM
+1 Orzhov Basilica|DRC|[164]
+1 Patchwork Banner|SOC|[353]
+1 Path of Ancestry|TRC|[545]
+1 Path to Exile|TSR|[299]
 1 Phyrexian Arena|APC
-1 Phyrexian Reclamation|JMP
-13 Plains|THB
+1 Phyrexian Reclamation|ULG|[63]
+13 Plains|INR|[288]
 1 Relic Vial|ZNR
-1 Reliquary Tower|BRC
+1 Reliquary Tower|TRC|[551]
 1 Revenge of Ravens|ELD
 1 Revival|RVR
-1 Righteous Valkyrie|KHM
+1 Righteous Valkyrie|FDC|[43]
 1 Roaming Throne|LCI
-1 Selfless Spirit|EMN
-1 Shattered Sanctum|VOW
-1 Shineshadow Snarl|STX
+1 Selfless Spirit|SOC|[167]
+1 Shattered Sanctum|SOS|[260]
+1 Shineshadow Snarl|TRC|[400]
 1 Sinister Monolith|BLB
-1 Skemfar Shadowsage|KHM
-1 Sol Ring|CC2
+1 Skemfar Shadowsage|J25|[489]
+1 Sol Ring|LEB|[270]
 1 Soul Warden|EXO
 1 Soul's Attendant|ROE
-1 Staff of Compleation|ONE
-1 Starlit Sanctum|CLB
+1 Staff of Compleation|TDC|[326]
+1 Starlit Sanctum|ONS|[325]
 1 Starscape Cleric|BLB
-11 Swamp|THB
-1 Swords to Plowshares|LCC
+11 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
 1 Taborax, Hope's Demise|J25
-1 Talisman of Hierarchy|LCC
-1 The Meathook Massacre|MID
+1 Talisman of Hierarchy|TRC|[506]
+1 The Meathook Massacre|INR|[387]
 1 Three Tree City|BLB
-1 Twilight Prophet|RIX
-1 Urborg, Tomb of Yawgmoth|TSR
+1 Twilight Prophet|MKC|[143]
+1 Urborg, Tomb of Yawgmoth|PIO|[118]
 1 Vito, Thorn of the Dusk Rose|J25
-1 Voice of the Blessed|VOW
-1 Weathered Wayfarer|2X2
-1 Westvale Abbey|SOI
+1 Voice of the Blessed|INR|[50]
+1 Weathered Wayfarer|ONS|[59]
+1 Westvale Abbey|INR|[474]

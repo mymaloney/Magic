@@ -1,7 +1,7 @@
 [metadata]
 Name=Dark Ages Preacher
 [Main]
-24 Plains|2ED
+24 Plains|INR|[288]
 4 Preacher|DRK
 4 Witch Hunter|DRK
 4 Miracle Worker|DRK
@@ -16,7 +16,7 @@ Name=Dark Ages Preacher
 2 Exorcist|DRK
 
 [StartInBattle_Reference]
-3 Plains|2ED
+3 Plains|INR|[288]
 1 Preacher|DRK
 1 Exorcist|DRK
 1 Witch Hunter|DRK

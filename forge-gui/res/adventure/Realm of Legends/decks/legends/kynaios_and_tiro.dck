@@ -3,96 +3,96 @@ Name=Kynaios and Tiro
 [Commander]
 1 Kynaios and Tiro of Meletis|c16
 [Main]
-1 Adarkar Wastes|eoc
-1 Arcane Signet|c20
+1 Adarkar Wastes|ICE|[351]
+1 Arcane Signet|TRC|[485]
 1 Arcbond|frf
-1 Blasphemous Act|2xm
+1 Blasphemous Act|SOC|[238]
 1 Blazing Sunsteel|cmr
-1 Body of Knowledge|cmr
-1 Boros Charm|gtc
-1 Boros Reckoner|gtc
-1 Brash Taunter|m21
+1 Body of Knowledge|DSC|[112]
+1 Boros Charm|FDN|[721]
+1 Boros Reckoner|PIO|[208]
+1 Brash Taunter|DSC|[161]
 1 Canopy Vista|tdc
-1 Chain Reaction|c18
-1 Chromatic Lantern|plst
-1 Cinder Glade|eoc
-1 Command Tower|c20
+1 Chain Reaction|TRC|[280]
+1 Chromatic Lantern|RVR|[390]
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
 1 Contest of Claws|lcc
-1 Darksteel Plate|mbs
-1 Deflecting Palm|ktk
-1 Deserted Beach|mid
-1 Exotic Orchard|eoc
-1 Faeburrow Elder|eld
-1 Fellwar Stone|cm2
+1 Darksteel Plate|TRC|[341]
+1 Deflecting Palm|MKC|[205]
+1 Deserted Beach|FRA|[176]
+1 Exotic Orchard|TRC|[378]
+1 Faeburrow Elder|ECC|[53]
+1 Fellwar Stone|DRK|[102]
 1 Fiendlash|cmm
-1 Flawless Maneuver|c20
-3 Forest|ths
+1 Flawless Maneuver|FRC|[25]
+3 Forest|INR|[296]
 1 Giggling Skitterspike|dsc
 1 Golden Guardian|rix
-1 Grothama, All-Devouring|bbd
-1 Hammer of Nazahn|2xm
-1 Heroic Intervention|m21
-1 Ill-Tempered Loner|vow
-2 Island|ths
+1 Grothama, All-Devouring|BLC|[224]
+1 Hammer of Nazahn|CMM|[388]
+1 Heroic Intervention|CMM|[295]
+1 Ill-Tempered Loner|DBL|[429]
+2 Island|INR|[290]
 1 Jetmir's Garden|snc
-1 Karplusan Forest|eoc
+1 Karplusan Forest|ICE|[356]
 1 Ketria Triome|iko
-1 Krosan Verge|znc
+1 Krosan Verge|JUD|[141]
 1 Lightmine Field|roe
-1 Master Warcraft|gk1
-1 Michiko Konda, Truth Seeker|sok
-3 Mountain|ths
-1 Myriad Landscape|cmr
+1 Master Warcraft|CMR|[447]
+1 Michiko Konda, Truth Seeker|J22|[215]
+3 Mountain|INR|[294]
+1 Myriad Landscape|EOC|[169]
 1 Nemesis Mask|dst
 1 New Way Forward|tdm
 1 Neyith of the Dire Hunt|jmp
 1 Nin, the Pain Artist|c17
-1 Open the Way|mat
+1 Open the Way|SOC|[280]
 1 Pain for All|eoe
-1 Pariah|cn2
-1 Pariah's Shield|rav
+1 Pariah|USG|[28]
+1 Pariah's Shield|RVR|[393]
 1 Phyrexian Vindicator|one
-2 Plains|ths
-1 Prairie Stream|tdc
+2 Plains|INR|[288]
+1 Prairie Stream|TRC|[394]
 1 Protector of the Crown|cn2
 1 Pyrohemia|cma
-1 Radiant Summit|eoc
-1 Ranging Raptors|gn2
-1 Reflecting Pool|cns
-1 Tropical Island|vma
-1 Ripjaw Raptor|gn2
-1 Rockfall Vale|mid
-1 Sacred Foundry|eoe
+1 Radiant Summit|TRC|[395]
+1 Ranging Raptors|LCC|[249]
+1 Reflecting Pool|TMP|[322]
+1 Tropical Island|LEB|[284]
+1 Ripjaw Raptor|FDC|[224]
+1 Rockfall Vale|FRA|[186]
+1 Sacred Foundry|RVR|[409]
 1 Saving Grace|hou
 1 Screaming Nemesis|dsk
-1 Tundra|vma
-1 Shielded by Faith|ss2
-1 Shivan Reef|eoc
+1 Tundra|LEB|[285]
+1 Shielded by Faith|SOC|[172]
+1 Shivan Reef|APC|[142]
 1 Smothering Tithe|cmm
-1 Sol Ring|c20
-1 Plateau|vma
-1 Taiga|vma
+1 Sol Ring|LEB|[270]
+1 Plateau|LEB|[280]
+1 Taiga|LEB|[283]
 1 Spiteful Sliver|mh1
-1 Spitemare|eve
-1 Star of Extinction|xln
-1 Stomping Ground|eoe
-1 Stormcarved Coast|inr
-1 Stuffy Doll|m13
+1 Spitemare|DDH|[16]
+1 Star of Extinction|CMM|[259]
+1 Stomping Ground|RVR|[413]
+1 Stormcarved Coast|SOS|[263]
+1 Stuffy Doll|CLB|[875]
 1 Swans of Bryn Argoll|mm2
-1 Tamiyo's Safekeeping|neo
+1 Tamiyo's Safekeeping|FDC|[233]
 1 The Pride of Hull Clade|mkm
-1 Timely Ward|cmr
+1 Timely Ward|DSC|[107]
 1 Toralf, God of Fury|khm
-1 Volcanic Island|vma
-1 Truefire Captain|grn
+1 Volcanic Island|LEB|[287]
+1 Truefire Captain|RVR|[235]
 1 Ulvenwald Tracker|mm3
 1 Wayta, Trainer Prodigy|lcc
 1 Teferi, Hero of Dominaria|dom
-1 Elspeth, sun's champion|mkc
+1 Elspeth, sun's champion|FRC|[24]
 1 oko, thief of crowns|eld
-1 Chandra, torch of defiance|cmm
+1 Chandra, torch of defiance|FRA|[244]
 1 the eternal wanderer|one
 1 Chandra, hope's beacon|mom
-1 Mana drain|2x2
+1 Mana drain|LEG|[65]
 1 Wrathful Raptors|lcc
-1 Yavimaya Coast|tdc
+1 Yavimaya Coast|APC|[143]

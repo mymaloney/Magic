@@ -3,12 +3,12 @@ Name=Arch Angel of Shandalar
 [Main]
 4 Onulet|ATQ
 4 Osai Vultures|LEG
-4 Serra Angel|LEA
+4 Serra Angel|DMR|[271]
 4 Tetravus|ATQ
-4 Swords to Plowshares|LEA
-4 Wrath of God|LEA
-2 Mana Vault|LEA
-4 Soul Net|LEA
-4 The Hive|LEA
-22 Plains|LEA
-4 Mishra's Factory|ATQ
+4 Swords to Plowshares|DMR|[275]
+4 Wrath of God|DMR|[279]
+2 Mana Vault|LEB|[260]
+4 Soul Net|LEB|[271]
+4 The Hive|LEB|[273]
+22 Plains|INR|[288]
+4 Mishra's Factory|DMR|[399]

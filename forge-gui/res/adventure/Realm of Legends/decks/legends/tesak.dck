@@ -3,25 +3,25 @@ Name=Tesak
 [Commander]
 1 Tesak, Judith's Hellhound|mkc
 [Main]
-1 Aggravated Assault|wot
+1 Aggravated Assault|ONS|[185]
 1 Akki Battle Squad|nec
 1 Akoum Hellhound|znr
 1 Ambitious Assault|neo
 1 Animal Sanctuary|m21
 1 Arcbound Tracker|mh2
-1 Basilisk Collar|fdn
+1 Basilisk Collar|FDC|[246]
 1 Bedlam|usg
-1 Bolt Hound|m21
-1 Arcane Signet|eld
+1 Bolt Hound|J22|[504]
+1 Arcane Signet|TRC|[485]
 1 Burn Bright|rvr
-1 Castle Embereth|eld
-1 Chandra's Magmutt|m21
-1 Chaos Warp|cmd
-1 Comet Storm|c17
+1 Castle Embereth|TDC|[347]
+1 Chandra's Magmutt|J22|[512]
+1 Chaos Warp|MBC|[72]
+1 Comet Storm|CMR|[411]
 1 Connecting the Dots|mkm
 1 Demoralize|ody
 1 Dogpile|rvr
-1 Dragon Mantle|wot
+1 Dragon Mantle|PIO|[131]
 1 Dragonrage|frf
 1 Edgewall Pack|woe
 1 Emergence Zone|war
@@ -31,11 +31,11 @@ Name=Tesak
 1 Fiery Hellhound|ori
 1 Flameshadow Conjuring|moc
 1 Fury Storm|c18
-1 Goldhound|snc
+1 Goldhound|J22|[549]
 1 Great Train Heist|otj
-1 Hazoret's Monument|akh
-1 Hellfire Mongrel|zen
-1 Heraldic Banner|eld
+1 Hazoret's Monument|FDC|[261]
+1 Hellfire Mongrel|DDH|[48]
+1 Heraldic Banner|FDN|[254]
 1 Hidden Volcano|lci
 1 Horizon Stone|cmr
 1 Hound of Griselbrand|avr
@@ -43,37 +43,37 @@ Name=Tesak
 1 Immolating Souleater|nph
 1 Taurean Mauler|tdc
 1 Kami of Celebration|nec
-1 Karn's Bastion|moc
-1 Kindred Charge|spg
+1 Karn's Bastion|RVR|[464]
+1 Kindred Charge|C17|[27]
 1 Komainu Battle Armor|nec
-1 Lunar Frenzy|mid
+1 Lunar Frenzy|DBL|[147]
 1 Mercadia's Downfall|mmq
 1 Mishra's Onslaught|bro
-1 Mogis's Warhound|jou
-1 Molten Echoes|c20
+1 Mogis's Warhound|PIO|[146]
+1 Molten Echoes|VOC|[148]
 1 Monstrous Rage|woe
-26 Mountain|mkm
-1 Opal Palace|cmm
-1 Path of Ancestry|plg21
+26 Mountain|INR|[294]
+1 Opal Palace|SOC|[390]
+1 Path of Ancestry|TRC|[545]
 1 Pyre Hound|a25
-1 Reverberate|m11
-1 Rogue's Passage|fdn
-1 Ruby Medallion|mh3
+1 Reverberate|M13|[145]
+1 Rogue's Passage|TRC|[552]
+1 Ruby Medallion|TMP|[305]
 1 Savage Beating|cmm
 1 Scrapwork Mutt|bro
 1 Scrapyard Mongrel|m15
-1 Shared Animosity|wot
+1 Shared Animosity|TRC|[295]
 1 Shinka, the Bloodsoaked Keep|chk
-1 Sol Ring|znc
-1 Spinerock Knoll|c20
+1 Sol Ring|LEB|[270]
+1 Spinerock Knoll|FDC|[314]
 1 Tears of Rage|dst
-1 Temur Battle Rage|frf
+1 Temur Battle Rage|TSR|[351]
 1 Thundering Raiju|neo
 1 Two-Headed Cerberus|ths
 1 Uncivil Unrest|moc
 1 Underworld Rage-Hound|thb
-1 Patchwork Banner|blb
-1 War Room|mkc
+1 Patchwork Banner|SOC|[353]
+1 War Room|SOC|[422]
 1 Wildfire Cerberus|jou
-1 Witch's Mark|woe
+1 Witch's Mark|PIO|[160]
 1 Wrenn's Resolve|mom

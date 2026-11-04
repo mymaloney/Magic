@@ -1,18 +1,18 @@
 [metadata]
 Name=giralfgisa
 [Main]
-2 Animate Dead|LEA
-2 Demonic Tutor|LEA
-2 Raise Dead|LEA
-2 Terror|LEA
-33 Swamp|LEA|2
+2 Animate Dead|LEB|[93]
+2 Demonic Tutor|LEB|[105]
+2 Raise Dead|PO2|[86]
+2 Terror|DMR|[312]
+33 Swamp|INR|[292]
 4 Carnophage|EXO
-4 Dark Ritual|TMP
-4 Duress|USG
-4 Gravedigger|TMP
-4 Hymn to Tourach|ATH
+4 Dark Ritual|MMQ|[129]
+4 Duress|DMR|[303]
+4 Gravedigger|ODY|[140]
+4 Hymn to Tourach|FEM|[38a]
 4 Ichorid|TOR
-4 Lich|LEA
+4 Lich|LEB|[114]
 4 Phyrexian Arena|APC
 4 Plaguebearer|EXO
 4 Restless Dead|MIR

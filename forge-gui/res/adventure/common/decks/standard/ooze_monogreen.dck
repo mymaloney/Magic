@@ -2,15 +2,15 @@
 Name=ooze_monogreen
 [Main]
 4 Druid's Deliverance|C19|1
-24 Forest|AFR|1
+24 Forest|INR|[296]
 4 Gelatinous Genesis|2XM|1
-4 Miming Slime|GK2|1
-4 Mitotic Slime|TD2|1
+4 Miming Slime|PIO|[382]
+4 Mitotic Slime|NCC|[302]
 4 Ochre Jelly|AFR|1
-4 Prey Upon|AJMP|1
-2 Rampant Growth|AFC|1
+4 Prey Upon|J22|[710]
+2 Rampant Growth|TMP|[245]
 4 Slime Molding|MM3|1
-2 Splitting Slime|PZ2|1
-4 Wild Growth|AFC|1
+2 Splitting Slime|CN2|[72]
+4 Wild Growth|DMR|[352]
 [Sideboard]
 [Schemes]

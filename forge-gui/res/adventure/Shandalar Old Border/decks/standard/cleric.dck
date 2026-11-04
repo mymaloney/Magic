@@ -1,7 +1,7 @@
 [metadata]
 Name=cleric
 [Main]
-20 Plains|ODY|2
+20 Plains|INR|[288]
 2 Starlit Sanctum|ONS
 2 Noble Templar|SCG
 1 Weathered Wayfarer|ONS
@@ -21,7 +21,7 @@ Name=cleric
 4 Doubtless One|ONS
 1 Daunting Defender|ONS
 1 Beloved Chaplain|ODY
-1 Samite Healer|LEA
+1 Samite Healer|LEB|[38]
 1 True Believer|ONS
 1 Glowrider|LGN
 1 Preacher|DRK

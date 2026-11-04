@@ -1,18 +1,18 @@
 [metadata]
 Name=mageripper
 [Main]
-16 Forest|6ED|3
-2 Scryb Sprites|BRB
+16 Forest|INR|[296]
+2 Scryb Sprites|LEB|[216]
 2 Shanodin Dryads|LEB
-2 Shatter|LEA
+2 Shatter|TMP|[203]
 2 Wildfire|USG
-4 Elvish Archers|6ED
+4 Elvish Archers|LEB|[192]
 4 Elvish Berserker|EXO
-4 Giant Growth|4ED
+4 Giant Growth|ICE|[246]
 4 Karplusan Forest|ICE
-4 Lightning Bolt|4ED
-4 Llanowar Elves|7ED
-4 Lure|6ED
+4 Lightning Bolt|LEB|[162]
+4 Llanowar Elves|LEB|[211]
+4 Lure|MMQ|[258]
 4 Quirion Elves|INV
 4 Wellwisher|ONS
-5 Mountain|6ED|3
+5 Mountain|INR|[294]

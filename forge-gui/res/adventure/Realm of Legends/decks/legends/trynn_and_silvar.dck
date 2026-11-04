@@ -4,88 +4,88 @@ Name=Trynn and Silvar
 1 Silvar, Devourer of the Free|C20
 1 Trynn, Champion of Freedom|C20
 [Main]
-1 Ambition's Cost|C20
-1 Battlefield Forge|C20
-1 Bojuka Bog|C20
-1 Boros Garrison|C20
-1 Boros Signet|C20
-1 Dearly Departed|C20
+1 Ambition's Cost|FDC|[84]
+1 Battlefield Forge|APC|[139]
+1 Bojuka Bog|TSR|[406]
+1 Boros Garrison|CLU|[231]
+1 Boros Signet|TDC|[314]
+1 Dearly Departed|MIC|[84]
 1 Devout Chaplain|C20
-1 Disciple of Bolas|C20
-1 Evolving Wilds|IKO
-1 Exotic Orchard|C20
+1 Disciple of Bolas|TDC|[178]
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
 1 Fumiko the Lowblood|C20
-1 Increasing Devotion|C20
-1 Knight of the White Orchid|C20
+1 Increasing Devotion|ONC|[76]
+1 Knight of the White Orchid|PIO|[21]
 1 Magus of the Disk|C20
-4 Mountain|IKO
-1 Orzhov Basilica|C20
-1 Orzhov Signet|C20
-8 Plains|IKO
-1 Rakdos Carnarium|C20
-1 Rakdos Signet|C20
-1 Riders of Gavony|C20
-1 Shadowblood Ridge|C20
-1 Skullclamp|C20
-1 Sol Ring|C20
-1 Spinerock Knoll|C20
-4 Swamp|IKO
-1 Temple of the False God|C20
-1 Terminate|C20
+4 Mountain|INR|[294]
+1 Orzhov Basilica|DRC|[164]
+1 Orzhov Signet|TDC|[323]
+8 Plains|INR|[288]
+1 Rakdos Carnarium|ECC|[161]
+1 Rakdos Signet|FRC|[60]
+1 Riders of Gavony|MIC|[93]
+1 Shadowblood Ridge|ODY|[326]
+1 Skullclamp|TRC|[354]
+1 Sol Ring|LEB|[270]
+1 Spinerock Knoll|FDC|[314]
+4 Swamp|INR|[292]
+1 Temple of the False God|SCG|[143]
+1 Terminate|PLS|[128]
 1 Thraben Doomsayer|C20
 1 Vigilante Justice|C20
-1 Windbrisk Heights|C20
-1 Frontline Medic|C20
-1 Shared Animosity|C20
-1 Odric, Master Tactician|C20
-1 Banisher Priest|C20
-1 Xathrid Necromancer|C20
+1 Windbrisk Heights|TDC|[411]
+1 Frontline Medic|CLB|[693]
+1 Shared Animosity|TRC|[295]
+1 Odric, Master Tactician|CMM|[46]
+1 Banisher Priest|J25|[169]
+1 Xathrid Necromancer|PIO|[120]
 1 Cavalry Pegasus|C20
 1 Titan of Eternal Fire|C20
-1 Command Tower|C20
+1 Command Tower|TRC|[521]
 1 Unexpectedly Absent|C20
-1 Bloodfell Caves|IKO
-1 Crackling Doom|C20
+1 Bloodfell Caves|TDM|[250]
+1 Crackling Doom|2X2|[196]
 1 Jirina Kudro|C20
-1 Nomad Outpost|C20
-1 Scoured Barrens|IKO
-1 Wind-Scarred Crag|IKO
-1 Commander's Sphere|C20
-1 Myriad Landscape|C20
-1 Alesha, Who Smiles at Death|C20
-1 Humble Defector|C20
-1 Outpost Siege|C20
-1 Painful Truths|C20
-1 Smoldering Marsh|C20
-1 Zulaport Cutthroat|C20
-1 Magus of the Wheel|C20
+1 Nomad Outpost|TRC|[544]
+1 Scoured Barrens|TDM|[267]
+1 Wind-Scarred Crag|TDM|[271]
+1 Commander's Sphere|TRC|[487]
+1 Myriad Landscape|EOC|[169]
+1 Alesha, Who Smiles at Death|TSR|[338]
+1 Humble Defector|PIO|[141]
+1 Outpost Siege|PIO|[150]
+1 Painful Truths|TRC|[274]
+1 Smoldering Marsh|TRC|[403]
+1 Zulaport Cutthroat|TSR|[337]
+1 Magus of the Wheel|CMM|[241]
 1 Nahiri, the Harbinger|C20
 1 Thalia's Lieutenant|C20
-1 Adriana, Captain of the Guard|C20
-1 Path of Ancestry|C20
-1 Heirloom Blade|C20
-1 Captivating Crew|C20
-1 Unclaimed Territory|C20
-1 Garna, the Bloodflame|C20
-1 Cleansing Nova|C20
-1 Citywide Bust|C20
+1 Adriana, Captain of the Guard|ONC|[114]
+1 Path of Ancestry|TRC|[545]
+1 Heirloom Blade|LCC|[303]
+1 Captivating Crew|OTC|[159]
+1 Unclaimed Territory|ECC|[175]
+1 Garna, the Bloodflame|DMC|[151]
+1 Cleansing Nova|FDC|[20]
+1 Citywide Bust|SCD|[11]
 1 Bounty Agent|C20
-1 Arcane Signet|C20
-1 Verge Rangers|C20
+1 Arcane Signet|TRC|[485]
+1 Verge Rangers|DSC|[108]
 1 Kelsien, the Plague|C20
-1 Titan Hunter|C20
-1 Call the Coppercoats|C20
+1 Titan Hunter|SCD|[112]
+1 Call the Coppercoats|ONC|[60]
 1 General's Enforcer|IKO
 1 Dire Tactics|IKO
-1 Parasitic Impetus|C20
-1 Shiny Impetus|C20
+1 Parasitic Impetus|SOC|[222]
+1 Shiny Impetus|TDC|[231]
 1 Species Specialist|C20
 1 Sanctuary Lockdown|IKO
-1 Bonder's Ornament|C20
-1 Bastion of Remembrance|IKO
+1 Bonder's Ornament|CMM|[370]
+1 Bastion of Remembrance|TDC|[171]
 1 Fireflux Squad|C20
-1 Flawless Maneuver|C20
-1 Frontier Warmonger|C20
-1 Martial Impetus|C20
-1 Molten Echoes|C20
+1 Flawless Maneuver|FRC|[25]
+1 Frontier Warmonger|MKC|[154]
+1 Martial Impetus|SOC|[156]
+1 Molten Echoes|VOC|[148]
 1 Sanctuary Blade|C20

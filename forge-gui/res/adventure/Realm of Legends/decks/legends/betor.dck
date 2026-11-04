@@ -20,12 +20,12 @@ Name=Betor, Ancestor's Voice
 1 Zetalpa, Primal Dawn|TDC
 1 Arasta of the Endless Web|TDC
 1 Hornet Nest|TDC
-1 Seedborn Muse|TDC
+1 Seedborn Muse|LGN|[138]
 1 Sylvan Caryatid|TDC
 1 Towering Titan|TDC
 1 Dragonlord Dromoka|TDC
-1 Faeburrow Elder|TDC
-1 Shadrix Silverquill|TDC
+1 Faeburrow Elder|ECC|[53]
+1 Shadrix Silverquill|SOC|[330]
 1 Sidar Kondo of Jamuraa|TDC
 1 Weathered Sentinels|TDC
 1 Nyx-Fleece Ram|TDC
@@ -33,13 +33,13 @@ Name=Betor, Ancestor's Voice
 1 Wingmantle Chaplain|TDC
 1 Blight Pile|TDC
 1 Wall of Limbs|TDC
-1 Arboreal Grazer|TDC
+1 Arboreal Grazer|RVR|[343]
 1 Axebane Guardian|TDC
 1 Carven Caryatid|TDC
 1 Jaddi Offshoot|TDC
 1 Overgrown Battlement|TDC
-1 Wall of Blossoms|TDC
-1 Wall of Roots|TDC
+1 Wall of Blossoms|STH|[125]
+1 Wall of Roots|MIR|[253]
 1 Indulging Patrician|TDC
 1 Crashing Drawbridge|TDC
 1 Walking Bulwark|TDC
@@ -52,41 +52,41 @@ Name=Betor, Ancestor's Voice
 1 Jaws of Defeat|TDC
 1 Assault Formation|TDC
 1 Behind the Scenes|TDC
-1 Anguished Unmaking|TDC
-1 Swords to Plowshares|TDC
-1 Infernal Grasp|TDC
+1 Anguished Unmaking|TRC|[310]
+1 Swords to Plowshares|DMR|[275]
+1 Infernal Grasp|INR|[385]
 1 Tower Defense|TDC
-1 Despark|TDC
+1 Despark|FRC|[50]
 1 Colfenor's Urn|TDC
 1 Staff of Compleation|TDC
-1 Arcane Signet|TDC
-1 Sol Ring|TDC
-1 Talisman of Hierarchy|TDC
+1 Arcane Signet|TRC|[485]
+1 Sol Ring|LEB|[270]
+1 Talisman of Hierarchy|TRC|[506]
 1 Talisman of Unity|MKC
-1 Swiftfoot Boots|TDC
+1 Swiftfoot Boots|TRC|[501]
 1 Canopy Vista|TDC
-1 Exotic Orchard|TDC
+1 Exotic Orchard|TRC|[378]
 1 Fortified Village|TDC
-1 Isolated Chapel|TDC
-1 Overgrown Farmland|TDC
-1 Sungrass Prairie|TDC
+1 Isolated Chapel|DMR|[397]
+1 Overgrown Farmland|FRA|[185]
+1 Sungrass Prairie|ODY|[328]
 1 Sunpetal Grove|TDC
-1 Temple of Malady|TDC
+1 Temple of Malady|SOC|[413]
 1 Temple of Plenty|TDC
-1 Temple of Silence|TDC
-1 Overgrown Tomb|RTR
-1 Woodland Cemetery|TDC
-1 Command Tower|TDC
-1 Evolving Wilds|TDM
-1 Sandsteppe Citadel|TDM
+1 Temple of Silence|SOC|[415]
+1 Overgrown Tomb|RVR|[407]
+1 Woodland Cemetery|DMR|[401]
+1 Command Tower|TRC|[521]
+1 Evolving Wilds|TRC|[527]
+1 Sandsteppe Citadel|ECC|[164]
 1 Access Tunnel|TDC
-1 Bojuka Bog|TDC
+1 Bojuka Bog|TSR|[406]
 1 Deceptive Landscape|TDC
-1 Path of Ancestry|TDC
+1 Path of Ancestry|TRC|[545]
 1 Radiant Grove|TDC
-3 Plains|TDM|277
-3 Plains|TDM|278
-3 Swamp|TDM|281
-2 Swamp|TDM|282
-4 Forest|TDM|285
-3 Forest|TDM|286
+3 Plains|INR|[288]
+3 Plains|INR|[288]
+3 Swamp|INR|[292]
+2 Swamp|INR|[292]
+4 Forest|INR|[296]
+3 Forest|INR|[296]

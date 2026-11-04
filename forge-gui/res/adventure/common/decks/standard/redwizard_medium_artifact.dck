@@ -1,43 +1,43 @@
 [metadata]
 Name=Iron Man 2
 [Main]
-12 Mountain
-4 Great Furnace
-4 Darksteel Citadel
-1 Memnite
-1 Frogmite
-1 Arcbound Worker
-1 Brass Gnat
-1 Flayer Husk
-1 Leonin Scimitar
-1 Pyrite Spellbomb
-1 Tablet of Epityr
-1 Urza's Chalice
-1 Iron Myr
-1 Arcbound Stinger
-1 Executioner's Hood
-1 Golem's Heart
-1 Jhoira's Toolbox
-1 Myr Sire
-1 Golem Foundry
-1 Snapsail Glider
-1 Oxidda Golem
-1 Battered Golem
-1 Yotian Soldier
-1 Myr Enforcer
-1 Junk Diver
-1 Chrome Steed
-1 Rusted Relic
-1 Drill-Skimmer
-1 Synod Centurion
-1 Razorfield Rhino
-1 Hammer of Purphoros
-1 Moltensteel Dragon
-1 Slash Panther
-3 Whipflare
-3 Galvanic Blast
-1 Blade-Tribe Berserkers
-1 Concussive Bolt
-1 Kuldotha Phoenix
-1 Feedback Bolt
+12 Mountain|INR|[294]
+4 Great Furnace|EOC|[161]
+4 Darksteel Citadel|FDC|[300]
+1 Memnite|TD2|[2]
+1 Frogmite|MM2|[215]
+1 Arcbound Worker|MMA|[201]
+1 Brass Gnat|TSP|[249]
+1 Flayer Husk|2XM|[256]
+1 Leonin Scimitar|J25|[152]
+1 Pyrite Spellbomb|2XM|[283]
+1 Tablet of Epityr|ATQ|[67]
+1 Urza's Chalice|ATQ|[75]
+1 Iron Myr|SOM|[168]
+1 Arcbound Stinger|MMA|[199]
+1 Executioner's Hood|DKA|[148]
+1 Golem's Heart|SOM|[161]
+1 Jhoira's Toolbox|ULG|[128]
+1 Myr Sire|CMM|[400]
+1 Golem Foundry|EOC|[138]
+1 Snapsail Glider|SOM|[203]
+1 Oxidda Golem|JVC|[46]
+1 Battered Golem|5DN|[106]
+1 Yotian Soldier|ATQ|[79]
+1 Myr Enforcer|J25|[756]
+1 Junk Diver|UDS|[132]
+1 Chrome Steed|SOM|[142]
+1 Rusted Relic|MM2|[227]
+1 Drill-Skimmer|DST|[118]
+1 Synod Centurion|DDF|[53]
+1 Razorfield Rhino|MBS|[127]
+1 Hammer of Purphoros|EOC|[88]
+1 Moltensteel Dragon|NPH|[88]
+1 Slash Panther|NPH|[96]
+3 Whipflare|CM2|[130]
+3 Galvanic Blast|2XM|[125]
+1 Blade-Tribe Berserkers|SOM|[84]
+1 Concussive Bolt|MBS|[60]
+1 Kuldotha Phoenix|SOM|[95]
+1 Feedback Bolt|5DN|[64]
 [Sideboard]

@@ -1,17 +1,17 @@
 [metadata]
 Name=Scourgemaster - Mono Black Demons
 [Main]
-24 Swamp|ICE|3
-4 Dark Ritual|ICE
+24 Swamp|INR|[292]
+4 Dark Ritual|MMQ|[129]
 4 Grinning Demon|ONS
 2 Yawgmoth's Will|USG
-2 Demonic Tutor|3ED
-2 Animate Dead|LEA
+2 Demonic Tutor|LEB|[105]
+2 Animate Dead|LEB|[93]
 2 Diabolic Servitude|USG
 4 Diabolic Edict|TMP
 4 Hymn to Tourach|FEM|3
-2 Demonic Hordes|LEA
+2 Demonic Hordes|LEB|[104]
 2 Havoc Demon|LGN
 4 Juzám Djinn|ARN
-2 Pestilence|LEA
+2 Pestilence|USG|[147]
 2 Decree of Pain|SCG

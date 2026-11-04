@@ -1,8 +1,8 @@
 [metadata]
 Name=fox
 [Main]
-11 Plains|ICE
-11 Island|ICE
+11 Plains|INR|[288]
+11 Island|INR|[290]
 2 Sky Diamond|MIR
 2 Marble Diamond|MIR
 4 Arctic Foxes|ICE

@@ -3,83 +3,83 @@ Name=Dalakos
 [Commander]
 1 Dalakos, Crafter of Wonders|thb
 [Main]
-1 Abrade|tdc
+1 Abrade|TRC|[449]
 1 Adaptive Omnitool|drc
 1 Akki Battle Squad|nec
 1 An Offer You Can't Refuse|fdn
-1 Arcane Signet|eoc
+1 Arcane Signet|TRC|[485]
 1 Arid Archway|otj
 1 Armory Automaton|c16
-1 Basilisk Collar|dsc
+1 Basilisk Collar|FDC|[246]
 1 Beamtown Beatstick|mom
 1 Blackblade Reforged|dmc
 1 Blacksmith's Talent|blb
 1 Blade of Shared Souls|one
 1 Bladegraft Aspirant|one
-1 Blasphemous Act|eoc
-1 Bloodforged Battle-Axe|c17
-1 Brass Knuckles|snc
+1 Blasphemous Act|SOC|[238]
+1 Bloodforged Battle-Axe|MOC|[349]
+1 Brass Knuckles|CMM|[372]
 1 Brass Squire|cmr
-1 Chaos Warp|eoc
-1 Command Tower|eoc
-1 Counterspell|dsc
-1 Darksteel Citadel|dst
+1 Chaos Warp|MBC|[72]
+1 Command Tower|TRC|[521]
+1 Counterspell|DMR|[281]
+1 Darksteel Citadel|FDC|[300]
 1 Diamond Pick-Axe|lci
 1 Emry, Lurker of the Loch|eoc
 1 Enthusiastic Mechanaut|eoc
 1 Etherium Sculptor|eoc
-1 Faithless Looting|tdc
-1 Fellwar Stone|tdc
-1 Foundry Inspector|cmm
+1 Faithless Looting|SOC|[244]
+1 Fellwar Stone|DRK|[102]
+1 Foundry Inspector|FDC|[259]
 1 Mask of Memory|onc
-1 Frostboil Snarl|drc
+1 Frostboil Snarl|TRC|[383]
 1 Great Furnace|eoc
 1 Hammer of Nazahn|cmm
 1 Hexgold Halberd|one
 1 Hexplate Wallbreaker|onc
-11 Island|thb|[280]
-1 Izzet Boilerworks|otc
+11 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
 1 Jhoira, Ageless Innovator|dmu
 1 Komainu Battle Armor|nec
-1 Swiftfoot Boots|fdn
+1 Swiftfoot Boots|TRC|[501]
 1 Lizard Blades|neo
 1 Loxodon Warhammer|onc
-1 Masterwork of Ingenuity|c14
-1 Mind Stone|dsc
-10 Mountain|thb|[284]
-1 Pongify|tdc
-1 Reliquary Tower|tdc
+1 Masterwork of Ingenuity|AFC|[209]
+1 Mind Stone|DMR|[385]
+10 Mountain|INR|[294]
+1 Pongify|TRC|[441]
+1 Reliquary Tower|TRC|[551]
 1 Riverglide Pathway|znr
 1 Rogue's Gloves|jmp
-1 Rogue's Passage|otc
+1 Rogue's Passage|TRC|[552]
 1 Sai, Master Thopterist|drc
 1 Seat of the Synod|eoc
-1 Shivan Reef|eoc
-1 Bonesplitter|mrd
+1 Shivan Reef|APC|[142]
+1 Bonesplitter|CMR|[458]
 1 Silverbluff Bridge|eoc
-1 Sol Ring|eoc
+1 Sol Ring|LEB|[270]
 1 Stoic Rebuttal|mm2
-1 Stormcarved Coast|inr
-1 Sulfur Falls|eoc
+1 Stormcarved Coast|SOS|[263]
+1 Sulfur Falls|DMR|[400]
 1 Sword of Kaldra|mrd
 1 Sword of the Animist|cmm
 1 Shield of Kaldra|dst
 1 Helm of Kaldra|5dn
 1 Sunset Strikemaster|tdm
-1 Ornithopter of Paradise|drc
-1 Iron Myr|mrd
-1 Silver Myr|mrd
+1 Ornithopter of Paradise|MH2|[430]
+1 Iron Myr|SOM|[168]
+1 Silver Myr|FDC|[284]
 1 Tezzeret, Betrayer of Flesh|mkc
-1 Palladium Myr|cmm
-1 Soulblade Djinn|ori
+1 Palladium Myr|FDC|[278]
+1 Soulblade Djinn|GNT|[24]
 1 Dream-Thief's Bandana|otc
 1 Dissection Tools|dsk
 1 Chainsaw|dsk
 1 Batterbone|mh2
-1 Talisman of Creativity|tdc
-1 Thought Vessel|dsc
+1 Talisman of Creativity|TRC|[504]
+1 Thought Vessel|TRC|[509]
 1 Thran Power Suit|bro
 1 Thundering Falls|mkm
-1 Valduk, Keeper of the Flame|cmm
-1 Vandalblast|otc
+1 Valduk, Keeper of the Flame|DMR|[333]
+1 Vandalblast|TSR|[352]
 1 Vedalken Engineer|j22

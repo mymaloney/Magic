@@ -1,13 +1,13 @@
 [metadata]
 Name=bluewizard_apprentice_2
 [Main]
-23 Island|MIR
+23 Island|INR|[290]
 4 Apprentice Wizard|DRK
-4 Azure Drake|5ED
-4 Counterspell|7ED
+4 Azure Drake|LEG|[46]
+4 Counterspell|DMR|[281]
 4 Foil|PCY
 4 Hydroblast|ICE
-4 Impulse|BTD
-4 Mahamoti Djinn|4ED
+4 Impulse|DMR|[287]
+4 Mahamoti Djinn|LEB|[65]
 4 Mana Leak|STH
-4 Mystical Tutor|6ED
+4 Mystical Tutor|DMR|[289]

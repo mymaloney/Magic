@@ -7,14 +7,14 @@ Name=Forge - Byrke, Long Ear Of The Law
 1 Valley Questcaller|BLB|36
 1 Branching Evolution|MH3|285
 1 Conclave Sledge-Captain|MOC|36
-1 Forgotten Ancient|BLC|217
-1 Hardened Scales|WOT|55
+1 Forgotten Ancient|DMR|[341]
+1 Hardened Scales|SOC|[272]
 1 Hungering Hydra|C20|177
 1 Innkeeper's Talent|BLB|180
 1 Kalonian Hydra|BLC|226
-1 Managorger Hydra|BLC|230
+1 Managorger Hydra|FDC|[216]
 1 Nyxborn Hydra|MH3|164
-1 Ozolith, the Shattered Spire|MOM|198
+1 Ozolith, the Shattered Spire|SOC|[281]
 1 Pawpatch Recruit|BLB|187
 1 Pridemalkin|J25|700
 1 Spike Breeder|STH|116
@@ -23,7 +23,7 @@ Name=Forge - Byrke, Long Ear Of The Law
 1 Wildwood Scourge|FDN|236
 1 Spike Tiller|TSP|218
 1 Zodiac Rabbit|PTK|162
-1 Inspiring Call|DTK|191
+1 Inspiring Call|FDN|[226]
 1 Master of Ceremonies|NCC|18
 1 Mouth|AKH|214
 1 Stocking the Pantry|BLB|194
@@ -33,9 +33,9 @@ Name=Forge - Byrke, Long Ear Of The Law
 1 Regal Bunnicorn|WOE|25
 1 Arctic Treeline|KHM|249
 1 Canopy Vista|TDC|343
-18 Forest|BLB|[377]
+18 Forest|INR|[296]
 1 Lush Portico|MKM|263
-13 Plains|BLB|[369]
+13 Plains|INR|[288]
 1 Scattered Groves|OTC|315
 1 Strength of the Harvest|MH3|258
 1 Temple Garden|RVR|290
@@ -43,29 +43,29 @@ Name=Forge - Byrke, Long Ear Of The Law
 1 Windswept Heath|MH3|235
 1 Hinterland Sanctifier|J25|5
 1 Spike Feeder|STH
-1 Heroic Intervention|AER|109
-1 Arcane Signet|BLC
+1 Heroic Intervention|CMM|[295]
+1 Arcane Signet|TRC|[485]
 1 Unbreakable Formation|RVR|32
-1 Vigor|JUD
+1 Vigor|BBD|[215]
 1 Wrap in Vigor|CNS|183
 1 Avacyn's Pilgrim|SCD|171
-1 Claim Jumper|OTJ|8
+1 Claim Jumper|SOC|[140]
 1 Defiler of Vigor|DMU|160
-1 Goldvein Hydra|OTJ|167
-1 Gyre Sage|GTC|123
+1 Goldvein Hydra|SOC|[270]
+1 Gyre Sage|MOC|[300]
 1 Hamza, Guardian of Arashin|CMM|339
-1 Incubation Druid|RNA|131
+1 Incubation Druid|MOC|[302]
 1 Jiang Yanggu, Wildcrafter|J25|677
-1 Rampant Growth|M12|190
-1 Rishkar, Peema Renegade|J25|708
-1 Sol Ring|EOC|57
+1 Rampant Growth|TMP|[245]
+1 Rishkar, Peema Renegade|FDC|[225]
+1 Sol Ring|LEB|[270]
 1 Tempt with Discovery|BLC|124
 1 Dewdrop Cure|BLB|10
-1 Chains of Custody|J25|180
+1 Chains of Custody|SOC|[139]
 1 Damning Verdict|NCC|15
 1 Seal Away|DOM|31
 1 Soul Tithe|RTR|23
-1 Swords to Plowshares|EOC|45
+1 Swords to Plowshares|DMR|[275]
 1 Werefox Bodyguard|WOE|39
 1 Loxodon Gatekeeper|RAV|25
 1 Hop to It|BLB|16

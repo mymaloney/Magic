@@ -3,69 +3,69 @@ Name=Azor, the Lawbringer
 [Commander]
 1 Azor, the Lawbringer|RIX
 [Main]
-1 Absorb|RNA
-1 Supreme Verdict|RTR
-1 Azorius Guildgate|RTR
-1 Hallowed Fountain|DIS
+1 Absorb|DMR|[354]
+1 Supreme Verdict|RVR|[461]
+1 Azorius Guildgate|RVR|[396]
+1 Hallowed Fountain|RVR|[404]
 1 Aeon Chronicler|TSR
-1 Arcane Signet|TDC
+1 Arcane Signet|TRC|[485]
 1 Azor's Gateway|RIX
 1 Azorius Chancery|DSC
-1 Azorius Signet|TDC
-1 Basalt Monolith|2XM
+1 Azorius Signet|FRC|[53]
+1 Basalt Monolith|LEB|[232]
 1 Blue Sun's Zenith|A25
 1 Celestial Colonnade|UMA
-1 Clever Impersonator|KTK
-1 Counterspell|DSC
-1 Disallow|DRC
-1 Dovin's Veto|WAR
-1 Detention Sphere|RTR
+1 Clever Impersonator|C19|[82]
+1 Counterspell|DMR|[281]
+1 Disallow|TRC|[253]
+1 Dovin's Veto|TSR|[375]
+1 Detention Sphere|GK2|[10]
 1 Dream Trawler|THB
-1 Dreamstone Hedron|CMM
-1 Drown in Dreams|MIC
-1 Entreat the Angels|MM3
-1 Everflowing Chalice|CMM
+1 Dreamstone Hedron|M3C|[289]
+1 Drown in Dreams|M3C|[181]
+1 Entreat the Angels|DSC|[99]
+1 Everflowing Chalice|TSR|[394]
 1 Fatestitcher|ALA
-1 Finale of Glory|WAR
-1 Finale of Revelation|OTC
+1 Finale of Glory|CLU|[61]
+1 Finale of Revelation|FDN|[589]
 1 Gadwick, the Wizened|ELD
-1 Gilded Lotus|BLC
-1 Grand Crescendo|TDC
-1 Hedron Archive|BLC
+1 Gilded Lotus|FDN|[725]
+1 Grand Crescendo|TRC|[222]
+1 Hedron Archive|TSR|[395]
 1 Heliod's Intervention|OTC
 1 Invasion of New Phyrexia|MOM
-20 Island|GK2|[27]
-1 Lightning Greaves|TDC
-1 Martial Coup|CMR
+20 Island|INR|[290]
+1 Lightning Greaves|TRC|[496]
+1 Martial Coup|FRC|[28]
 1 Mass Manipulation|RNA
-1 Mind Stone|DSC
-1 Mystic Confluence|CMM
-1 Path to Exile|BLC
-1 Pearl Medallion|MH3
-15 Plains|GK2|[26]
-1 Propaganda|M3C
-1 Psychosis Crawler|MOC
-1 Pull from Tomorrow|DRC
-1 Righteous Authority|RTR
+1 Mind Stone|DMR|[385]
+1 Mystic Confluence|TSR|[312]
+1 Path to Exile|TSR|[299]
+1 Pearl Medallion|TMP|[300]
+15 Plains|INR|[288]
+1 Propaganda|TMP|[80]
+1 Psychosis Crawler|FDC|[280]
+1 Pull from Tomorrow|SOC|[116]
+1 Righteous Authority|C18|[188]
 1 Redress Fate|DSC
-1 Sapphire Medallion|MH3
+1 Sapphire Medallion|TMP|[306]
 1 Shabraz, the Skyshark|C20
 1 Silver Scrutiny|DMU
-1 Sol Ring|TDC
+1 Sol Ring|LEB|[270]
 1 Sphinx of the Revelation|M3C
 1 Sphinx's Revelation|RVR
 1 Stolen by the Fae|J25
-1 Swords to Plowshares|TDC
-1 Talisman of Progress|TDC
-1 Teferi, Who Slows the Sunset|MID
+1 Swords to Plowshares|DMR|[275]
+1 Talisman of Progress|TRC|[508]
+1 Teferi, Who Slows the Sunset|DBL|[245]
 1 Teferi's Ageless Insight|J25
-1 Thought Vessel|DSC
-1 Thran Dynamo|BLC
+1 Thought Vessel|TRC|[509]
+1 Thran Dynamo|UDS|[139]
 1 Time Wipe|TDC
-1 Turnabout|DMR
+1 Turnabout|RVR|[452]
 1 Unstoppable Plan|DFT
 1 Vizier of Tumbling Sands|CMM
-1 White Sun's Twilight|ONE
+1 White Sun's Twilight|FRC|[38]
 1 White Sun's Zenith|ONC
 1 Wizard Class|BLC
-1 Worn Powerstone|MH3
+1 Worn Powerstone|USG|[318]

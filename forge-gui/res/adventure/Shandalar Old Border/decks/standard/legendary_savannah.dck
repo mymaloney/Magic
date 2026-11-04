@@ -1,10 +1,10 @@
 [metadata]
 Name=Legend of the Savannah
 [Main]
-4 Savannah|LEA
+4 Savannah|LEB|[281]
 4 Brushland|ICE
-8 Plains|MIR
-8 Forest|MIR
+8 Plains|INR|[288]
+8 Forest|INR|[296]
 2 Sword of the Chosen|STH
 2 Urza's Filter|INV
 2 Captain Sisay|INV

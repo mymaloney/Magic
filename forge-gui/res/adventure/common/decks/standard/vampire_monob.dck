@@ -1,36 +1,36 @@
 [metadata]
 Name=vampire_monob
 [Main]
-1 Baron Sengir|PRM|1
+1 Baron Sengir|HML|[41]
 2 Bloodletter of Aclazotz|LCI|2
-2 Bloodlord of Vaasgoth|C17|1
-3 Callous Bloodmage|J21|1
-2 Captivating Vampire|C17|1
+2 Bloodlord of Vaasgoth|VOC|[121]
+3 Callous Bloodmage|STX|[66]
+2 Captivating Vampire|INR|[374]
 4 Cordial Vampire|LCC|1
-3 Drana, Liberator of Malakir|JMP|1
-4 Fatal Push|AER|1
-4 Feed the Swarm|MIC|1
-4 Gifted Aetherborn|SCH|1
-1 Henrika Domnathi|VOW|1
-2 Kalastria Highborn|PLIST|1
-1 Kalitas, Traitor of Ghet|OGW|1
+3 Drana, Liberator of Malakir|LCC|[193]
+4 Fatal Push|2XM|[93]
+4 Feed the Swarm|TDC|[180]
+4 Gifted Aetherborn|GN3|[52]
+1 Henrika Domnathi|DBL|[386]
+2 Kalastria Highborn|FDN|[607]
+1 Kalitas, Traitor of Ghet|FDC|[108]
 4 Knight of the Ebon Legion|M20|1
-1 Necropolis Regent|C21|1
-2 Nighthawk Scavenger|LCC|1
-4 Nullpriest of Oblivion|J21|1
-3 Reanimate|VMA|1
-4 Sanctum Seeker|XLN|1
-2 Sorin the Mirthless|VOW|1
-2 Sorin, Imperious Bloodlord|M20|1
-5 Swamp|ISD|1
-33 Swamp|ISD|2
-1 Timothar, Baron of Bats|VOC|1
-4 Urge to Feed|E02|1
-4 Vampire Lacerator|MM2|1
-4 Vampire Nighthawk|PLST|1
-4 Vampire Nocturnus|M10|1
+1 Necropolis Regent|J25|[469]
+2 Nighthawk Scavenger|OTC|[144]
+4 Nullpriest of Oblivion|J25|[472]
+3 Reanimate|TMP|[151]
+4 Sanctum Seeker|J25|[485]
+2 Sorin the Mirthless|DBL|[398]
+2 Sorin, Imperious Bloodlord|INR|[476]
+5 Swamp|INR|[292]
+33 Swamp|INR|[292]
+1 Timothar, Baron of Bats|LCC|[210]
+4 Urge to Feed|J25|[502]
+4 Vampire Lacerator|A25|[114]
+4 Vampire Nighthawk|FDN|[186]
+4 Vampire Nocturnus|M13|[113]
 1 Vengeant Vampire|G18|1
-4 Vicious Conquistador|XLN|1
-1 Yahenni, Undying Partisan|KLR|1
+4 Vicious Conquistador|J25|[507]
+1 Yahenni, Undying Partisan|SOC|[232]
 [Sideboard]
 [Schemes]

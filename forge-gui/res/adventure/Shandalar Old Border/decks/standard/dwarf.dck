@@ -1,7 +1,7 @@
 [metadata]
 Name=dwarf
 [Main]
-22 Mountain|ODY|2
+22 Mountain|INR|[294]
 2 Dwarven Ruins|FEM
 2 Shower of Coals|ODY
 4 Dwarven Lieutenant|FEM
@@ -11,9 +11,9 @@ Name=dwarf
 4 Dwarven Bloodboiler|JUD
 2 Dwarven Strike Force|ODY
 2 Dwarven Vigilantes|VIS
-2 Dwarven Warriors|LEA
+2 Dwarven Warriors|LEB|[144]
 2 Dwarven Landslide|APC
-2 Giant Strength|5ED
+2 Giant Strength|TMP|[178]
 1 Dwarven Soldier|FEM|2
 1 Dwarven Soldier|FEM|3
 4 Fit of Rage|WTH

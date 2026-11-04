@@ -1,7 +1,7 @@
 [metadata]
 Name=Goreclaw, Terror of Qal Sisma
 [Commander]
-1 Goreclaw, Terror of Qal Sisma|M19
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
 [Main]
 1 Conifer Wurm|MH1
 1 Drover Grizzly|OTJ
@@ -10,62 +10,62 @@ Name=Goreclaw, Terror of Qal Sisma
 1 Alpine Grizzly|KTK
 1 Rampaging Ursaguana|YMKM
 1 Evercoat Ursine|BLC
-1 Surrak and Goreclaw|MOM
+1 Surrak and Goreclaw|FDC|[231]
 1 Copper Host Crusher|MOM
 1 Spirit of the Aldergard|KHM
 1 Lumra, Bellow of the Woods|BLB
-1 Annoyed Altisaur|CMR
-1 Apex Devastator|CMR
+1 Annoyed Altisaur|MH3|[284]
+1 Apex Devastator|M3C|[220]
 1 Appetite for the Unnatural|KLD
 1 Avoid Fate|LEG
-1 Beast Within|NPH
-1 Birds of Paradise|4ED
+1 Beast Within|TSR|[357]
+1 Birds of Paradise|RVR|[344]
 1 Blessing of Frost|KHM
 1 Blizzard Brawl|KHM
-1 Bonders' Enclave|IKO
+1 Bonders' Enclave|FDC|[297]
 1 Boon of Boseiju|NEO
-1 Carnage Tyrant|XLN
+1 Carnage Tyrant|FDC|[193]
 1 Castle Garenbrig|ELD
-1 Colossal Majesty|M19
-1 Crashing Drawbridge|ELD
+1 Colossal Majesty|FDC|[197]
+1 Crashing Drawbridge|TDC|[316]
 1 Earthshaker Giant|GN2
-1 Elder Gargaroth|M21
-1 Elemental Bond|C19
-1 Emerald Medallion|CMA
-1 End-Raze Forerunners|RNA
-1 Ezuri's Predation|DSC
-1 Nature's Lore|PO2
-1 Garruk's Uprising|NCC
-1 Genesis Hydra|NEC
-1 Ghalta, Primal Hunger|JMP
+1 Elder Gargaroth|DRC|[111]
+1 Elemental Bond|TDC|[254]
+1 Emerald Medallion|TMP|[283]
+1 End-Raze Forerunners|BLC|[214]
+1 Ezuri's Predation|FDC|[203]
+1 Nature's Lore|DMR|[346]
+1 Garruk's Uprising|ECC|[109]
+1 Genesis Hydra|OTC|[193]
+1 Ghalta, Primal Hunger|FDC|[8]
 1 Surrak, Elusive Hunter|TDM
 1 Heroic Intervention|CMM
-1 Hunted Wumpus|BBD
+1 Hunted Wumpus|MMQ|[253]
 1 Indrik Stomphowler|NCC
-1 Jugan, the Rising Star|CHK
+1 Jugan, the Rising Star|IMA|[172]
 1 Kura, the Boundless Sky|NEO
 1 Lurking Predators|JMP
 1 Bloomvine Regent|TDM
 1 Mosswort Bridge|TDC
 1 Sculptor of Winter|KHM
-1 Ohran Frostfang|OTC
+1 Ohran Frostfang|SOC|[279]
 1 Oran-Rief Hydra|E01
-1 Overwhelming Stampede|C19
+1 Overwhelming Stampede|FDC|[218]
 1 Primordial Sage|JMP
 1 Questing Beast|ELD
-1 Rampaging Baloths|C21
-1 Return of the Wildspeaker|ELD
-1 Return to the Earth|FRF
-1 Selvala's Stampede|CN2
-1 Shamanic Revelation|NCC
+1 Rampaging Baloths|EOC|[104]
+1 Return of the Wildspeaker|ECC|[115]
+1 Return to the Earth|BBD|[210]
+1 Selvala's Stampede|TDC|[269]
+1 Shamanic Revelation|PIO|[194]
 1 Siege Behemoth|CMA
-34 Snow-Covered Forest|KHM
-1 Sol Ring|C17
+34 Snow-Covered Forest|ICE|[383]
+1 Sol Ring|LEB|[270]
 1 Soul of the Harvest|JMP
 1 Spearbreaker Behemoth|NEC
-1 Terastodon|C21
-1 Thunderfoot Baloth|NCC
+1 Terastodon|M3C|[249]
+1 Thunderfoot Baloth|DSC|[201]
 1 Thundering Ceratok|WAR
-1 Verdant Sun's Avatar|C21
-1 Surrak, the Hunt Caller|DTK
+1 Verdant Sun's Avatar|FDC|[239]
+1 Surrak, the Hunt Caller|FDC|[232]
 1 Yorvo, Lord of Garenbrig|ELD

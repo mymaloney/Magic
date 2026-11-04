@@ -3,89 +3,89 @@ Name=Commodore Guff
 [Commander]
 1 Commodore Guff|cmm
 [Main]
-1 Ajani Steadfast|cmm
+1 Ajani Steadfast|PIO|[319]
 1 All Will Be One|one
-1 Arcane Signet|cmm
+1 Arcane Signet|TRC|[485]
 1 Archon of Absolution|eld
-1 Baird, Steward of Argive|cmm
-1 Battlefield Forge|m15
-1 Resourceful Defense|ncc
-1 jace, the mind sculptor|wwk
-1 scalding tarn|zen
-1 flooded strand|ktk
-1 arid mesa|zen
+1 Baird, Steward of Argive|BLC|[135]
+1 Battlefield Forge|APC|[139]
+1 Resourceful Defense|EOC|[67]
+1 jace, the mind sculptor|BLC|[75]
+1 scalding tarn|MH2|[439]
+1 flooded strand|MH3|[436]
+1 arid mesa|MH2|[436]
 1 raugrin triome|iko
-1 Blasphemous Act|cmm
-1 Cascade Bluffs|cmm
+1 Blasphemous Act|SOC|[238]
+1 Cascade Bluffs|SOC|[364]
 1 Chandra, Acolyte of Flame|m20
-1 Chandra, Awakened Inferno|cmm
+1 Chandra, Awakened Inferno|M20|[127]
 1 Chandra, Legacy of Fire|cmm
-1 Chandra, Torch of Defiance|cmm
+1 Chandra, Torch of Defiance|FRA|[244]
 1 Charismatic Conqueror|lcc
-1 Command Tower|cmm
-1 Deepglow Skate|cmm
-1 Deserted Beach|inr
+1 Command Tower|TRC|[521]
+1 Deepglow Skate|EOC|[70]
+1 Deserted Beach|FRA|[176]
 1 Dovin Baan|kld
-1 Elspeth, Sun's Champion|cmm
-1 Exotic Orchard|cmm
-1 Fellwar Stone|cmm
+1 Elspeth, Sun's Champion|FRC|[24]
+1 Exotic Orchard|TRC|[378]
+1 Fellwar Stone|DRK|[102]
 1 Fiery Islet|mh1
-1 Flux Channeler|cmm
-1 Frostboil Snarl|cmm
-1 Furycalm Snarl|cmm
+1 Flux Channeler|WAR|[52]
+1 Frostboil Snarl|TRC|[383]
+1 Furycalm Snarl|TRC|[384]
 1 Gatewatch Beacon|cmm
-1 Grateful Apparition|cmm
+1 Grateful Apparition|ONC|[73]
 1 Guff Rewrites History|cmm
 1 Ichormoon Gauntlet|one
-1 Interplanar Beacon|cmm
-5 Island|dmr
-1 Jace, Architect of Thought|cmm
+1 Interplanar Beacon|WAR|[247]
+5 Island|INR|[290]
+1 Jace, Architect of Thought|PIO|[329]
 1 Jaya's Phoenix|cmm
-1 Karn's Bastion|cmm
-1 Kazuul, Tyrant of the Cliffs|cmm
+1 Karn's Bastion|RVR|[464]
+1 Kazuul, Tyrant of the Cliffs|MKC|[157]
 1 Leori, Sparktouched Hunter|cmm
 1 Luxior, Giada's Gift|snc
-1 Mangara, the Diplomat|cmm
+1 Mangara, the Diplomat|SOC|[155]
 1 Maze of Ith|dmr
 1 Mila, Crafty Companion|stx
-6 Mountain|cmm
-1 Mystic Gate|cmm
-1 Mystic Monastery|cmm
-1 Narset of the Ancient Way|cmm
-1 Oath of Gideon|cmm
-1 Oath of Teferi|cmm
+6 Mountain|INR|[294]
+1 Mystic Gate|FRC|[76]
+1 Mystic Monastery|TRC|[543]
+1 Narset of the Ancient Way|IKO|[195]
+1 Oath of Gideon|PIO|[323]
+1 Oath of Teferi|DOM|[200]
 1 Onakke Oathkeeper|cmm
-1 Path to Exile|cmm
-6 Plains|cmm
-1 Port Town|cmm
-1 Prairie Stream|cmm
+1 Path to Exile|TSR|[299]
+6 Plains|INR|[288]
+1 Port Town|TRC|[393]
+1 Prairie Stream|TRC|[394]
 1 Ral Zarek|rvr
-1 Reliquary Tower|cmm
+1 Reliquary Tower|TRC|[551]
 1 Rings of Brighthearth|cmr
-1 Rowan Kenrith|bbd
+1 Rowan Kenrith|CLB|[805]
 1 Rowan's Talent|moc
-1 Saheeli, Sublime Artificer|cmm
-1 Sarkhan the Masterless|cmm
-1 Silent Arbiter|cmm
-1 Sol Ring|cmm
+1 Saheeli, Sublime Artificer|DRC|[119]
+1 Sarkhan the Masterless|WAR|[143]
+1 Silent Arbiter|C20|[250]
+1 Sol Ring|LEB|[270]
 1 Spark Double|rvr
 1 Sparkshaper Visionary|cmm
 1 Sulfur Falls|dmr
-1 Swords to Plowshares|cmm
-1 Talisman of Conviction|cmm
-1 Talisman of Creativity|cmm
-1 Talisman of Progress|cmm
+1 Swords to Plowshares|DMR|[275]
+1 Talisman of Conviction|TRC|[503]
+1 Talisman of Creativity|TRC|[504]
+1 Talisman of Progress|TRC|[508]
 1 Teferi, Master of Time|m21
 1 Teferi, Temporal Archmage|cmm
 1 Teferi, Temporal Pilgrim|bro
-1 Teferi, Time Raveler|war
-1 Teferi, Who Slows the Sunset|mid
+1 Teferi, Time Raveler|BLC|[92]
+1 Teferi, Who Slows the Sunset|DBL|[245]
 1 Teferi's Talent|moc
 1 Teyo, Geometric Tactician|cmm
-1 The Chain Veil|cmm
+1 The Chain Veil|PIO|[358]
 1 The Eternal Wanderer|one
 1 The Peregrine Dynamo|dmc
-1 Thrummingbird|cmm
-1 Venser, the Sojourner|som
+1 Thrummingbird|EOC|[80]
+1 Venser, the Sojourner|DDI|[1]
 1 Vronos, Masked Inquisitor|cmm
-1 Will Kenrith|bbd
+1 Will Kenrith|CLB|[738]

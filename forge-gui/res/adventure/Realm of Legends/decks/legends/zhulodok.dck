@@ -4,98 +4,98 @@ Name=Zhulodok
 1 Zhulodok, Void Gorger|cmm
 [Main]
 1 Akroma's Memorial|tsr
-1 All Is Dust|roe
-1 Artisan of Kozilek|cmm
-1 Basalt Monolith|2xm
-1 Blast Zone|cmm
-1 Bonders' Enclave|cmm
+1 All Is Dust|FDC|[9]
+1 Artisan of Kozilek|M3C|[153]
+1 Basalt Monolith|LEB|[232]
+1 Blast Zone|M3C|[322]
+1 Bonders' Enclave|FDC|[297]
 1 Breaker of Armies|bfz
 1 Breaker of Creation|mh3
-1 Buried Ruin|jmp
+1 Buried Ruin|EOC|[150]
 1 Chronicle of Victory|ecl
 1 Conduit of Ruin|bfz
-1 Darksteel Citadel|dst
-1 Darksteel Monolith|cmm
+1 Darksteel Citadel|FDC|[300]
+1 Darksteel Monolith|SLZ|[102]
 1 Devourer of Destiny|mh3
-1 Dreamstone Hedron|cmm
-1 Duplicant|cmm
+1 Dreamstone Hedron|M3C|[289]
+1 Duplicant|DRC|[54]
 1 Echoes of Eternity|mh3
-1 Ancient Tomb|eos|[46]
-1 Eldrazi Temple|cmm
+1 Ancient Tomb|TMP|[315]
+1 Eldrazi Temple|M3C|[339]
 1 Eldritch Immunity|m3c
-1 Emrakul, the Promised End|emn
-1 Endbringer|ogw
+1 Emrakul, the Promised End|INR|[330]
+1 Endbringer|M3C|[156]
 1 Eye of Ugin|mm2
-1 Fellwar Stone|blc
+1 Fellwar Stone|DRK|[102]
 1 Flayer of Loyalties|cmm
-1 Forsaken Monument|cmm
-1 Geier Reach Sanitarium|cmm
+1 Forsaken Monument|TRC|[343]
+1 Geier Reach Sanitarium|FDC|[303]
 1 Glaring Fleshraker|mh3
 1 Talon Gates of Madara|m3c
-1 Hedron Archive|cmm
-1 Homeward Path|cmd
+1 Hedron Archive|TSR|[395]
+1 Homeward Path|C16|[301]
 1 Introduction to Annihilation|stx
-1 It That Betrays|cmm
+1 It That Betrays|DDP|[43]
 1 Kozilek, the Broken Reality|mh3
-1 Lightning Greaves|cmm
-1 Meteor Golem|cmm
+1 Lightning Greaves|TRC|[496]
+1 Meteor Golem|FDN|[256]
 1 Mikokoro, Center of the Sea|dmc
-1 Mind Stone|cmm
-1 Mirage Mirror|cmm
+1 Mind Stone|DMR|[385]
+1 Mirage Mirror|M3C|[300]
 1 Muraganda Raceway|dft
-1 Mystic Forge|cmm
-1 Nevinyrral's Disk|mh2
-1 Not of This World|cmm
+1 Mystic Forge|M3C|[302]
+1 Nevinyrral's Disk|LEB|[267]
+1 Not of This World|ROE|[8]
 1 Null Elemental Blast|mh3
-1 Pathrazer of Ulamog|roe
+1 Pathrazer of Ulamog|CMM|[4]
 1 Planar Nexus|m3c
-1 Prismatic Lens|c18
-1 Reliquary Tower|cmm
+1 Prismatic Lens|OTC|[264]
+1 Reliquary Tower|TRC|[551]
 1 Rise of the Eldrazi|cmm
 1 Sanctum of Ugin|bfz
-1 Scavenger Grounds|cmm
+1 Scavenger Grounds|FDC|[311]
 1 Scour from Existence|bfz
-1 Sculpting Steel|brr
-1 Shrine of the Forsaken Gods|cmm
+1 Sculpting Steel|MOC|[374]
+1 Shrine of the Forsaken Gods|M3C|[376]
 1 Skittering Cicada|cmm
-1 Solemn Simulacrum|fdn
+1 Solemn Simulacrum|TSR|[400]
 1 Spawnbed Protector|m3c
-1 Spawning Bed|bfz
+1 Spawning Bed|PIO|[277]
 1 Spawnsire of Ulamog|roe
-1 Steel Hellkite|cmm
-1 Tectonic Edge|plst
-1 Temple of the False God|cmm
+1 Steel Hellkite|TDC|[327]
+1 Tectonic Edge|M3C|[384]
+1 Temple of the False God|SCG|[143]
 1 The Endstone|eoe
-1 The Immortal Sun|cmm
-1 The Mycosynth Gardens|one
-1 Thespian's Stage|c19
-1 Thought Vessel|dsc
+1 The Immortal Sun|TRC|[347]
+1 The Mycosynth Gardens|EOC|[168]
+1 Thespian's Stage|RVR|[466]
+1 Thought Vessel|TRC|[509]
 1 Thought-Knot Seer|ogw
-1 Thran Dynamo|cmm
+1 Thran Dynamo|UDS|[139]
 1 Ugin, Eye of the Storms|tdm
-1 Ugin, the Ineffable|cmm
+1 Ugin, the Ineffable|M3C|[160]
 1 Ugin, the Spirit Dragon|m21
 1 Ugin's Labyrinth|mh3
 1 Ulamog, the Ceaseless Hunger|cmm
-1 Sol Ring|m3c
-1 Darksteel Forge|dst
+1 Sol Ring|LEB|[270]
+1 Darksteel Forge|2XM|[248]
 1 It That Heralds the End|mh3
 1 Eldrazi Confluence|m3c
 1 Selective Obliteration|m3c
-1 Chimil, the Inner Sun|lci
+1 Chimil, the Inner Sun|ECC|[137]
 1 Roaming Throne|lci
 1 Wasteland|tmp
 1 Strip Mine|atq
 1 Urza's Cave|mh3
 1 Urza's Factory|j22
 1 Urza's Incubator|dmr
-1 Urza's Mine|2xm
-1 Urza's Power Plant|2xm
-1 Urza's Tower|2xm
+1 Urza's Mine|ATQ|[83a]
+1 Urza's Power Plant|ATQ|[84a]
+1 Urza's Tower|ATQ|[85a]
 1 Urza's Workshop|brc
-1 Void Winnower|bfz
+1 Void Winnower|PIO|[3]
 1 Wandering Archaic|stx
-1 War Room|mkc
-1 Warping Wail|cmm
+1 War Room|SOC|[422]
+1 Warping Wail|M3C|[162]
 3 Snow-Covered Wastes|mh3|[229]
 2 Snow-Covered Wastes|mh3|[309]

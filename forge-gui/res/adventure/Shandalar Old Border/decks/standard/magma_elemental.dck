@@ -1,7 +1,7 @@
 [metadata]
 Name=magma_elemental
 [Main]
-21 Mountain|TMP
+21 Mountain|INR|[294]
 3 Dormant Volcano|VIS
 4 Fire Diamond|MIR
 4 Bogardan Firefiend|WTH
@@ -16,6 +16,6 @@ Name=magma_elemental
 2 Lava Blister|ODY
 2 Lavaborn Muse|LGN
 2 Lava Flow|POR
-1 Lava Axe|POR
-1 Lava Axe|PO2
+1 Lava Axe|ULG|[84]
+1 Lava Axe|ULG|[84]
 2 Lava Storm|WTH

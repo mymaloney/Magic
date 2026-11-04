@@ -3,21 +3,21 @@ Name=Goblin King Phil
 [Main]
 4 Sulfurous Springs|ICE
 4 Underground River|ICE
-4 Island|UGL
-4 Mountain|UGL
-4 Swamp|UGL
-1 Mishra's Factory|ATQ|1
-1 Mishra's Factory|ATQ|2
-1 Mishra's Factory|ATQ|3
-1 Mishra's Factory|ATQ|4
+4 Island|INR|[290]
+4 Mountain|INR|[294]
+4 Swamp|INR|[292]
+1 Mishra's Factory|DMR|[399]
+1 Mishra's Factory|DMR|[399]
+1 Mishra's Factory|DMR|[399]
+1 Mishra's Factory|DMR|[399]
 4 Urza's Science Fair Project|UGL
 2 Mirror Universe|LEG
 2 Ramirez DePietro|LEG
-4 Goblin King|5ED
+4 Goblin King|LEB|[155]
 3 Goblin Chirurgeon|FEM|2
-3 Goblin Digging Team|5ED
+3 Goblin Digging Team|DRK|[65]
 3 Command of Unsummoning|POR
-1 Gaseous Form|LEG
+1 Gaseous Form|TMP|[65]
 2 Cloud Pirates|POR
 1 Apathy|WTH
 1 Dream Cache|TMP
@@ -32,9 +32,9 @@ Name=Goblin King Phil
 
 [StartInBattle_Reference]
 1 Sulfurous Springs|ICE
-1 Island|UGL
+1 Island|INR|[290]
 1 Runed Arch|ICE
 1 Conch Horn|FEM
 1 Orcish Librarian|ICE
-1 Goblin Digging Team|5ED
+1 Goblin Digging Team|DRK|[65]
 1 Goblin Chirurgeon|FEM|2

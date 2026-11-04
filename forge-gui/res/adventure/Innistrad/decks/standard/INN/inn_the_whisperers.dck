@@ -3,26 +3,26 @@ Name=INN_The_Whisperers
 [Avatar]
 
 [Main]
-1 Moorland Haunt|ISD|1
-10 Plains|SOI|3
-13 Island|SOI|3
-2 Patrician Geist|MID|1
-2 Rattlechains|SOI|1
-2 Battleground Geist|ISD|1
-2 Drogskol Captain|DKA|1
-2 Gallows Warden|ISD|1
-2 Midnight Haunting|ISD|1
-2 Malevolent Hermit|MID|1
-2 Thing in the Ice|SOI|1
-2 Ambitious Farmhand|MID|1
-2 Chalice of Life|DKA|1
-2 Chaplain of Alms|MID|1
+1 Moorland Haunt|SCD|[310]
+10 Plains|INR|[288]
+13 Island|INR|[290]
+2 Patrician Geist|DBL|[69]
+2 Rattlechains|VOC|[110]
+2 Battleground Geist|INR|[53]
+2 Drogskol Captain|VOC|[154]
+2 Gallows Warden|J22|[187]
+2 Midnight Haunting|ONC|[82]
+2 Malevolent Hermit|DBL|[61]
+2 Thing in the Ice|INR|[460]
+2 Ambitious Farmhand|INR|[448]
+2 Chalice of Life|INR|[471]
+2 Chaplain of Alms|DBL|[13]
 2 Curious Homunculus|EMN|1
-2 Haunted Cloak|SOI|1
-2 Mysterious Tome|MID|1
-2 Neglected Heirloom|SOI|1
-2 Overwhelmed Archivist|MID|1
-2 Spectral Shepherd|SOI|1
+2 Haunted Cloak|CMM|[389]
+2 Mysterious Tome|DBL|[63]
+2 Neglected Heirloom|INR|[473]
+2 Overwhelmed Archivist|DBL|[68]
+2 Spectral Shepherd|INR|[349]
 2 Uninvited Geist|SOI|1
 [Sideboard]
 

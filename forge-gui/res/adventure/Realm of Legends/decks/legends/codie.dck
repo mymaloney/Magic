@@ -3,102 +3,102 @@ Name=Codie
 [Commander]
 1 Codie, Vociferous Codex|stx
 [Main]
-1 All Is Dust|uma
-1 Approach of the Second Sun|sta
-1 Arachnogenesis|c15
-1 Army of the Damned|ncc
-1 Artificer's Epiphany|ori
-1 Azorius Charm|rtr
-1 Blasphemous Act|isd
-1 Tendrils of Agony|sta
-1 Increasing Vengeance|sta
-1 Mizzix's Mastery|sta
-1 Stone Rain|sta
-1 Urza's Rage|sta
-1 Regrowth|sta
-1 Krosan Grip|sta
-1 Electrolyze|sta
-1 Snakeskin Veil|sta
-1 Chaos Warp|sta
-1 Inquisition of Kozilek|sta
-1 Eliminate|sta
-1 Doom Blade|sta
-1 Duress|sta
-1 Swords to Plowshares|sta
-1 Day of Judgment|sta
+1 All Is Dust|FDC|[9]
+1 Approach of the Second Sun|AKH|[4]
+1 Arachnogenesis|FDC|[187]
+1 Army of the Damned|FDC|[85]
+1 Artificer's Epiphany|J22|[272]
+1 Azorius Charm|PIO|[205]
+1 Blasphemous Act|SOC|[238]
+1 Tendrils of Agony|SCG|[75]
+1 Increasing Vengeance|C19|[147]
+1 Mizzix's Mastery|RVR|[339]
+1 Stone Rain|MMQ|[215]
+1 Urza's Rage|INV|[178]
+1 Regrowth|LEB|[215]
+1 Krosan Grip|C21|[198]
+1 Electrolyze|GK1|[37]
+1 Snakeskin Veil|TDM|[159]
+1 Chaos Warp|MBC|[72]
+1 Inquisition of Kozilek|2X2|[80]
+1 Eliminate|M21|[97]
+1 Doom Blade|GN3|[47]
+1 Duress|DMR|[303]
+1 Swords to Plowshares|DMR|[275]
+1 Day of Judgment|FDC|[23]
 1 Browbeat|jud
-1 Command Tower|c15
+1 Command Tower|TRC|[521]
 1 Commercial District|mkm
-1 Consider|mid
+1 Consider|TDC|[148]
 1 Consult the Necrosages|rav
-1 Cultivate|sta
-1 Deadly Tempest|c15
-1 Debt to the Deathless|dgm
-1 Detection Tower|pm19
-1 Duneblast|ktk
+1 Cultivate|SOC|[265]
+1 Deadly Tempest|SCD|[75]
+1 Debt to the Deathless|RVR|[364]
+1 Detection Tower|M19|[249]
+1 Duneblast|DMC|[148]
 1 Elegant Parlor|mkm
-1 Ezuri's Predation|clb
-1 Forest|mh2
-1 Lightning Bolt|sta
-1 Growth Spiral|sta
+1 Ezuri's Predation|FDC|[203]
+1 Forest|INR|[296]
+1 Lightning Bolt|LEB|[162]
+1 Growth Spiral|DSC|[88]
 1 Hedge Maze|mkm
-1 Frontier Bivouac|ktk
-1 Reins of Power|cmd
-1 Island|mh2
-1 Jungle Shrine|ala
-1 Sandsteppe Citadel|ktk
-1 Kodama's Reach|c15
+1 Frontier Bivouac|ECC|[150]
+1 Reins of Power|STH|[41]
+1 Island|INR|[290]
+1 Jungle Shrine|ECC|[154]
+1 Sandsteppe Citadel|ECC|[164]
+1 Kodama's Reach|ECC|[113]
 1 Lush Portico|mkm
 1 Maddening Cacophony|znr
 1 Manamorphose|2xm
-1 Mass Mutiny|pc2
+1 Mass Mutiny|OTC|[174]
 1 Meticulous Archive|mkm
-1 Migration Path|dmc
+1 Migration Path|TDC|[262]
 1 Mnemonic Deluge|cmr
-1 Mountain|mh2
-1 Opt|sta
-1 Plains|mh2
+1 Mountain|INR|[294]
+1 Opt|INV|[64]
+1 Plains|INR|[288]
 1 Practical Research|stx
-1 Praetor's Counsel|mbs
-1 Putrefy|sta
+1 Praetor's Counsel|CMA|[134]
+1 Putrefy|RVR|[378]
 1 Raffine's Tower|snc
-1 Rampant Growth|c16
+1 Rampant Growth|TMP|[245]
 1 Raucous Theater|mkm
-1 Mystic Monastery|ktk
+1 Mystic Monastery|TRC|[543]
 1 Ravnica at War|war
-1 Read the Bones|ths
-1 Repulse|cn2
-1 Rise of the Dark Realms|jmp
-1 Evolving Wilds|fdn
-1 Nomad Outpost|ktk
-1 Despark|sta
+1 Read the Bones|TSR|[328]
+1 Repulse|INV|[70]
+1 Rise of the Dark Realms|FDN|[183]
+1 Evolving Wilds|TRC|[527]
+1 Nomad Outpost|TRC|[544]
+1 Despark|FRC|[50]
 1 Shadowy Backstreet|mkm
-1 Silundi Vision|znr
-1 Seaside Citadel|ala
-1 Storm Herd|gpt
-1 Sunset Revelry|mid
-1 Swamp|mh2
-1 Swords to Plowshares|a25
-1 Temple of Abandon|thb
-1 Temple of Deceit|thb
-1 Temple of Enlightenment|bng
-1 Temple of Epiphany|m20
-1 Temple of Malady|m20
-1 Temple of Malice|thb
-1 Temple of Mystery|m20
-1 Temple of Plenty|mic
-1 Temple of Silence|ths
-1 Temple of Triumph|m20
+1 Silundi Vision|PIO|[74]
+1 Seaside Citadel|ECC|[166]
+1 Storm Herd|SCD|[36]
+1 Sunset Revelry|DBL|[38]
+1 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
+1 Temple of Abandon|TDC|[400]
+1 Temple of Deceit|DRC|[176]
+1 Temple of Enlightenment|EOC|[186]
+1 Temple of Epiphany|SOC|[412]
+1 Temple of Malady|SOC|[413]
+1 Temple of Malice|TRC|[410]
+1 Temple of Mystery|SOC|[414]
+1 Temple of Plenty|TDC|[405]
+1 Temple of Silence|SOC|[415]
+1 Temple of Triumph|SOC|[417]
 1 Thundering Falls|mkm
-1 Time Wipe|war
+1 Time Wipe|TDC|[308]
 1 Topple the Statue|2xm
 1 Torment of Hailfire|hou
 1 Treacherous Terrain|znc
 1 Undercity Sewers|mkm
 1 Underground Mortuary|mkm
-1 Unexpected Results|gtc
-1 Urban Evolution|cmr
-1 Volcanic Vision|dtk
-1 Crumbling Necropolis|ala
-1 Opulent Palace|ktk
-1 Savage Lands|ala
+1 Unexpected Results|PIO|[397]
+1 Urban Evolution|PIO|[251]
+1 Volcanic Vision|C21|[182]
+1 Crumbling Necropolis|LCC|[326]
+1 Opulent Palace|ECC|[157]
+1 Savage Lands|ECC|[165]

@@ -3,23 +3,23 @@ Name=Adventure - Low Black
 [Avatar]
 
 [Main]
-1 Animate Dead|PLST|1
-1 Archfiend of Depravity|E01|1
+1 Animate Dead|LEB|[93]
+1 Archfiend of Depravity|SCD|[67]
 1 Banewhip Punisher|HOU|1
-2 Cartouche of Ambition|AKR|1
-2 Chainer's Edict|HA3|1
+2 Cartouche of Ambition|AKH|[83]
+2 Chainer's Edict|DMR|[300]
 1 Clattering Augur|MH2|1
-1 Dance of the Dead|ME2|1
-1 Deadly Dispute|AFR|1
-2 Doom Blade|STA|1
+1 Dance of the Dead|ICE|[118]
+1 Deadly Dispute|TDC|[177]
+2 Doom Blade|GN3|[47]
 1 Draugr Recruiter|KHM|1
-2 Ecstatic Awakener|MID|1
-1 Indulgent Tormentor|IMA|1
-1 Reassembling Skeleton|AFC|1
-2 Sanitarium Skeleton|CMR|1
+2 Ecstatic Awakener|INR|[462]
+1 Indulgent Tormentor|SCD|[81]
+1 Reassembling Skeleton|TDC|[195]
+2 Sanitarium Skeleton|INR|[129]
 2 Soldevi Adnate|ALL|1
-1 Stab Wound|JMP|1
-18 Swamp|GK1|2
+1 Stab Wound|PIO|[111]
+18 Swamp|INR|[292]
 [Sideboard]
 
 [Planes]

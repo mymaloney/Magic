@@ -2,20 +2,20 @@
 Name=The Dragon Lord
 [Main]
 4 Aladdin|ARN
-4 Dragon Whelp|LEA
+4 Dragon Whelp|DMR|[317]
 4 Dragon Engine|ATQ
-4 Nalathni Dragon|DRC94
-4 Shivan Dragon|LEA
-4 Lightning Bolt|LEA
-1 Wheel of Fortune|LEA
-1 Black Lotus|LEA
-4 Gauntlet of Might|LEA
-1 Mox Ruby|LEA
-1 Sol Ring|LEA
-4 Mana Flare|LEA
-22 Mountain|LEA
+4 Nalathni Dragon|MB2|[197]
+4 Shivan Dragon|DMR|[329]
+4 Lightning Bolt|LEB|[162]
+1 Wheel of Fortune|LEB|[184]
+1 Black Lotus|LEB|[233]
+4 Gauntlet of Might|LEB|[245]
+1 Mox Ruby|LEB|[265]
+1 Sol Ring|LEB|[270]
+4 Mana Flare|LEB|[163]
+22 Mountain|INR|[294]
 
 [StartInBattle_Reference]
-1 Mox Ruby|LEA
-1 Nalathni Dragon|DRC94
-1 Dragon Engine|3ED
+1 Mox Ruby|LEB|[265]
+1 Nalathni Dragon|MB2|[197]
+1 Dragon Engine|ATQ|[49]

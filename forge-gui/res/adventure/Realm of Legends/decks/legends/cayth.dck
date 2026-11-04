@@ -4,91 +4,91 @@ Name=Cayth, Famed Mechanist
 1 Cayth, Famed Mechanist|M3C|1
 [Main]
 1 Aethergeode Miner|M3C|1
-1 Aethersquall Ancient|M3C|1
+1 Aethersquall Ancient|DRC|[68]
 1 Aetherstorm Roc|M3C|1
-1 Aethertide Whale|M3C|1
+1 Aethertide Whale|DRC|[69]
 1 Amped Raptor|MH3|1
-1 Angel of Invention|M3C|1
+1 Angel of Invention|TDC|[109]
 1 Aurora Shifter|M3C|2
 1 Blaster Hulk|M3C|2
-1 Brudiclad, Telchor Engineer|M3C|1
-1 Burnished Hart|M3C|1
-1 Combustible Gearhulk|M3C|1
-1 Goldspan Dragon|M3C|1
-1 Grenzo, Havoc Raiser|M3C|1
-1 Lightning Runner|M3C|1
-1 Myr Battlesphere|M3C|1
+1 Brudiclad, Telchor Engineer|SOC|[299]
+1 Burnished Hart|FDN|[250]
+1 Combustible Gearhulk|DRC|[102]
+1 Goldspan Dragon|SOC|[245]
+1 Grenzo, Havoc Raiser|TDC|[216]
+1 Lightning Runner|DRC|[103]
+1 Myr Battlesphere|TDC|[322]
 1 Overclocked Electromancer|M3C|2
-1 Professional Face-Breaker|M3C|1
+1 Professional Face-Breaker|TRC|[291]
 1 Razorfield Ripper|M3C|2
 1 Roil Cartographer|MH3|1
 1 Salvation Colossus|M3C|2
 1 Silverquill Lecturer|M3C|2
-1 Skyclave Apparition|M3C|1
-1 Solemn Simulacrum|M3C|1
+1 Skyclave Apparition|SOC|[173]
+1 Solemn Simulacrum|TSR|[400]
 1 Sphinx of the Revelation|M3C|2
-1 Whirler Virtuoso|M3C|1
+1 Whirler Virtuoso|DRC|[122]
 1 Aether Refinery|M3C|2
 1 Aethersphere Harvester|M3C|1
-1 Aetherworks Marvel|M3C|1
-1 Arcane Signet|M3C|1
-1 Bespoke Battlewagon|MH3|1
-1 Bident of Thassa|M3C|1
+1 Aetherworks Marvel|DRC|[123]
+1 Arcane Signet|TRC|[485]
+1 Bespoke Battlewagon|DRC|[71]
+1 Bident of Thassa|PIO|[47]
 1 Coalition Relic|M3C|1
 1 Conversion Apparatus|M3C|2
-1 Coveted Jewel|M3C|1
-1 Decoction Module|M3C|1
+1 Coveted Jewel|BLC|[268]
+1 Decoction Module|DRC|[128]
 1 Filigree Racer|M3C|2
 1 Gonti's Aether Heart|M3C|1
 1 Hourglass of the Lost|M3C|2
 1 Izzet Generatorium|MH3|1
-1 Midnight Clock|M3C|1
-1 Sol Ring|M3C|1
-1 Solar Transformer|MH3|1
+1 Midnight Clock|DRC|[79]
+1 Sol Ring|LEB|[270]
+1 Solar Transformer|DRC|[137]
 1 Stone Idol Generator|M3C|2
-1 Talisman of Conviction|M3C|1
-1 Talisman of Creativity|M3C|1
-1 Talisman of Progress|M3C|1
+1 Talisman of Conviction|TRC|[503]
+1 Talisman of Creativity|TRC|[504]
+1 Talisman of Progress|TRC|[508]
 1 Unstable Amulet|MH3|1
-1 Wayfarer's Bauble|M3C|1
-1 Era of Innovation|M3C|1
-1 Legion Loyalty|M3C|1
+1 Wayfarer's Bauble|TRC|[511]
+1 Era of Innovation|DRC|[75]
+1 Legion Loyalty|TDC|[122]
 1 Scurry of Gremlins|MH3|1
 1 Akroma's Will|M3C|1
-1 Glimmer of Genius|M3C|1
-1 Swords to Plowshares|M3C|1
-1 Austere Command|M3C|1
-1 Confiscation Coup|M3C|1
+1 Glimmer of Genius|DRC|[78]
+1 Swords to Plowshares|DMR|[275]
+1 Austere Command|FDC|[18]
+1 Confiscation Coup|DRC|[73]
 1 Farewell|M3C|1
 1 Jolted Awake|MH3|1
 1 Localized Destruction|M3C|2
-1 Tezzeret's Gambit|M3C|1
-1 Adarkar Wastes|M3C|1
-1 Aether Hub|M3C|1
-1 Azorius Chancery|M3C|1
-1 Battlefield Forge|M3C|1
-1 Castle Vantress|M3C|1
-1 Command Tower|M3C|1
-1 Demolition Field|M3C|1
-1 Frostboil Snarl|M3C|1
-1 Furycalm Snarl|M3C|1
+1 Tezzeret's Gambit|EOC|[47]
+1 Adarkar Wastes|ICE|[351]
+1 Aether Hub|DRC|[145]
+1 Azorius Chancery|DSC|[261]
+1 Battlefield Forge|APC|[139]
+1 Castle Vantress|DSC|[267]
+1 Command Tower|TRC|[521]
+1 Demolition Field|FDN|[687]
+1 Frostboil Snarl|TRC|[383]
+1 Furycalm Snarl|TRC|[384]
 1 Izzet Boilerworks|M3C|1
-1 Mystic Gate|M3C|1
-1 Mystic Monastery|M3C|1
-1 Port Town|M3C|1
-1 Prairie Stream|M3C|1
+1 Mystic Gate|FRC|[76]
+1 Mystic Monastery|TRC|[543]
+1 Port Town|TRC|[393]
+1 Prairie Stream|TRC|[394]
 1 Satya, Aetherflux Genius|M3C|1
-1 Shivan Reef|M3C|1
-1 Temple of Enlightenment|M3C|1
-1 Temple of Epiphany|M3C|1
-1 Temple of Triumph|M3C|1
-2 Island|MH3|1
-2 Island|MH3|2
-1 Island|MH3|3
-2 Mountain|MH3|1
-2 Mountain|MH3|2
-1 Mountain|MH3|3
-4 Plains|MH3|1
-3 Plains|MH3|2
-3 Plains|MH3|3
+1 Shivan Reef|APC|[142]
+1 Temple of Enlightenment|EOC|[186]
+1 Temple of Epiphany|SOC|[412]
+1 Temple of Triumph|SOC|[417]
+2 Island|INR|[290]
+2 Island|INR|[290]
+1 Island|INR|[290]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+1 Mountain|INR|[294]
+4 Plains|INR|[288]
+3 Plains|INR|[288]
+3 Plains|INR|[288]
 [Sideboard]

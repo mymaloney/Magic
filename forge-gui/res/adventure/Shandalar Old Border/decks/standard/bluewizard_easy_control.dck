@@ -2,11 +2,11 @@
 Name=Kojak 1
 [Main]
 2 Sunken City|DRK
-20 Island|7ED|2
-4 Boomerang|7ED
+20 Island|INR|[290]
+4 Boomerang|MIR|[56]
 4 Concentrate|ODY
-4 Counterspell|LEA
-4 Invisibility|2ED
+4 Counterspell|DMR|[281]
+4 Invisibility|LEB|[60]
 4 Manta Ray|WTH
 4 Thalakos Seer|TMP
-4 Tidings|S99
+4 Tidings|C18|[108]

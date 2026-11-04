@@ -1,17 +1,17 @@
 [metadata]
 Name=horror
 [Main]
-15 Swamp|TMP|3
-2 City of Brass|5ED
-2 Forest|TMP|3
+15 Swamp|INR|[292]
+2 City of Brass|ARN|[71]
+2 Forest|INR|[296]
 2 Ichorid|TOR
 2 Shambling Swarm|TOR
 2 Thran Quarry|USG
 3 Faceless Butcher|TOR
-3 Hidden Horror|6ED
-3 Oversold Cemetery|ONS
+3 Hidden Horror|PO2|[75]
+3 Oversold Cemetery|DMR|[309]
 3 Pernicious Deed|APC
-4 Dark Ritual|2ED
+4 Dark Ritual|MMQ|[129]
 4 Drinker of Sorrow|LGN
 4 Llanowar Wastes|APC
 4 Mesmeric Fiend|TOR

@@ -1,24 +1,24 @@
 [metadata]
 Name=Demonlord Belzenlok
 [Commander]
-1 Demonlord Belzenlok|SLD|[159]
+1 Demonlord Belzenlok|CMM|[151]
 [Main]
 1 Archfiend of Depravity|SCD
-1 Archfiend of Despair|CMM
+1 Archfiend of Despair|FRC|[46]
 1 Archfiend of Spite|C19
 1 Ashes to Ashes|DRK
-1 Azor's Gateway|PLST
-1 Baleful Mastery|STX
+1 Azor's Gateway|RIX|[176]
+1 Baleful Mastery|OTC|[126]
 1 Beacon of Unrest|2XM
-1 Black Market|CLB
+1 Black Market|MMQ|[116]
 1 Blood Speaker|CHK
-1 Bojuka Bog|DSC
+1 Bojuka Bog|TSR|[406]
 1 Bolas's Citadel|WAR
-1 Caged Sun|PLST
+1 Caged Sun|CM2|[178]
 1 Corrosive Mentor|SHM
 1 Crypt Ghast|RVR
-1 Deadly Dispute|BLC
-1 Defile|MH1
+1 Deadly Dispute|TDC|[177]
+1 Defile|H1R|[13]
 1 Flare of Malice|MH3
 1 Consuming Corruption|MH3
 1 Kindred Dominance|WOC
@@ -31,44 +31,44 @@ Name=Demonlord Belzenlok
 1 Eat to Extinction|THB
 1 Erebos's Intervention|THB
 1 Ever After|C20
-1 Everflowing Chalice|MKC
-1 Everglades|C14
-1 Exsanguinate|CMM
-1 Feed the Swarm|DSC
+1 Everflowing Chalice|TSR|[394]
+1 Everglades|VIS|[162]
+1 Exsanguinate|FDN|[173]
+1 Feed the Swarm|TDC|[180]
 1 Force of Despair|MH1
-1 Gray Merchant of Asphodel|THS
-1 Hedron Archive|BLC
+1 Gray Merchant of Asphodel|TSR|[323]
+1 Hedron Archive|TSR|[395]
 1 In Garruk's Wake|CLB
-1 K'rrik, Son of Yawgmoth|C19
-1 Kothophed, Soul Hoarder|SLD
+1 K'rrik, Son of Yawgmoth|MH3|[274]
+1 Kothophed, Soul Hoarder|J22|[431]
 1 Lashwrithe|C14
-1 Liliana of the Dark Realms|M14
-1 Liliana's Contract|SLD|[161]
+1 Liliana of the Dark Realms|PIO|[334]
+1 Liliana's Contract|M19|[107]
 1 Demonic Covenant|DSC
-1 Midnight Banshee|MM2
+1 Midnight Banshee|ECC|[80]
 1 Nightmare Unmaking|WOC
-1 Nirkana Revenant|SLD
-1 Noxious Gearhulk|KLD
+1 Nirkana Revenant|VOC|[134]
+1 Noxious Gearhulk|TDC|[191]
 1 Ob Nixilis of the Black Oath|CMM
-1 Path of Ancestry|BLC
+1 Path of Ancestry|TRC|[545]
 1 Phyrexian Obliterator|ONE
 1 Damnation|2X2
 1 Pristine Talisman|C21
-1 Razaketh, the Foulblooded|SLD
-1 Reliquary Tower|DSC
-1 Rune-Scarred Demon|CMM
-1 Snuff Out|GVL
-1 Sol Ring|DSC
+1 Razaketh, the Foulblooded|CMM|[181]
+1 Reliquary Tower|TRC|[551]
+1 Rune-Scarred Demon|FDN|[184]
+1 Snuff Out|MMQ|[162]
+1 Sol Ring|LEB|[270]
 1 Staff of the Death Magus|M15
 1 Stinging Study|C21
-31 Swamp|FDN
-1 Temple of the False God|DSC
-1 Thought Vessel|DSC
+31 Swamp|INR|[292]
+1 Temple of the False God|SCG|[143]
+1 Thought Vessel|TRC|[509]
 1 Toxic Deluge|MH3
 1 Twilight Prophet|MKC
 1 Unholy Annex|DSK
 1 Varragoth, Bloodsky Sire|KHM
 1 Venser's Journal|C21
-1 Vilis, Broker of Blood|M20
-1 Westvale Abbey|SOI
-1 Whip of Erebos|THS
+1 Vilis, Broker of Blood|J25|[70]
+1 Westvale Abbey|INR|[474]
+1 Whip of Erebos|PIO|[119]

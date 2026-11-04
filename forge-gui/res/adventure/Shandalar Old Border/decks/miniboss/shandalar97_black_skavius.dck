@@ -1,25 +1,25 @@
 [metadata]
 Name=The Lichlord of Azar
 [Main]
-3 Bog Imp|DRK
-4 Hypnotic Specter|LEA
-2 Lord of the Pit|LEA
-4 Sengir Vampire|LEA
+3 Bog Imp|POR|[81]
+4 Hypnotic Specter|LEB|[113]
+2 Lord of the Pit|LEB|[115]
+4 Sengir Vampire|TOR|[80]
 3 Tetravus|ATQ
-3 Will-o'-the-Wisp|LEA
-4 Dark Ritual|LEA
-4 Howl from Beyond|LEA
-4 Drain Life|LEA
-1 Mind Twist|LEA
-1 Black Lotus|LEA
-1 Black Vise|LEA
-1 Mox Jet|LEA
-1 Sol Ring|LEA
-1 Gloom|LEA
+3 Will-o'-the-Wisp|LEB|[136]
+4 Dark Ritual|MMQ|[129]
+4 Howl from Beyond|ICE|[132]
+4 Drain Life|MIR|[118]
+1 Mind Twist|LEB|[116]
+1 Black Lotus|LEB|[233]
+1 Black Vise|LEB|[234]
+1 Mox Jet|LEB|[263]
+1 Sol Ring|LEB|[270]
+1 Gloom|LEB|[111]
 2 Greed|LEG
-22 Swamp|LEA
+22 Swamp|INR|[292]
 
 [StartInBattle_Reference]
-1 Mox Jet|LEA
-1 Will-o'-the-Wisp|LEA
-1 Bog Imp|DRK
+1 Mox Jet|LEB|[263]
+1 Will-o'-the-Wisp|LEB|[136]
+1 Bog Imp|POR|[81]

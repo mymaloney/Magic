@@ -1,10 +1,10 @@
 [metadata]
 Name=Valyx the Tormentor
 [Main]
-4 Scrubland|LEA
+4 Scrubland|LEB|[282]
 4 Caves of Koilos|APC
-4 Plains|2ED
-4 Swamp|2ED
+4 Plains|INR|[288]
+4 Swamp|INR|[292]
 4 Grim Monolith|ULG
 4 Desolation Angel|APC
 2 Selenia, Dark Angel|TMP
@@ -13,8 +13,8 @@ Name=Valyx the Tormentor
 4 Rotlung Reanimator|ONS
 4 Preacher|DRK
 2 False Prophet|UDS
-2 Wrath of God|LEA
-4 Gerrard's Verdict|APC
+2 Wrath of God|DMR|[279]
+4 Gerrard's Verdict|DMR|[358]
 4 Death Grasp|APC
-4 Armageddon|LEA
+4 Armageddon|PO2|[12]
 4 Vindicate|APC

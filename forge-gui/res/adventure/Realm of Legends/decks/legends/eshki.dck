@@ -3,90 +3,90 @@ Name=Eshki, Temur's Roar
 [Commander]
 1 Eshki, Temur's Roar|TDC
 [Main]
-1 Animar, Soul of Elements|CMD
-1 Arixmethes, Slumbering Isle|MUL
-1 Beanstalk Giant|ELD
-1 Beast Within|TDC
+1 Animar, Soul of Elements|2X2|[171]
+1 Arixmethes, Slumbering Isle|DSC|[211]
+1 Beanstalk Giant|DSC|[172]
+1 Beast Within|TSR|[357]
 1 Become the Avalanche|TDC
-1 Blasphemous Act|TDC
+1 Blasphemous Act|SOC|[238]
 1 Bountiful Landscape|TDC
-1 Nature's Lore|POR
+1 Nature's Lore|DMR|[346]
 1 Cactusfolk Sureshot|OTJ
 1 Chandra's Incinerator|M21
-1 Cinder Glade|TDC
+1 Cinder Glade|ECC|[146]
 1 Colossal Skyturtle|NEO
-1 Command Tower|TDC
+1 Command Tower|TRC|[521]
 1 Disciple of Freyalise|MH3
-1 Dragonhawk, Fate's Tempest|BLB
+1 Dragonhawk, Fate's Tempest|FDC|[151]
 1 Eshki Dragonclaw|TDM
 1 Dreamtide Whale|MH3
 1 Drowner of Truth|MH3
-1 Elemental Bond|ORI
-1 Etali, Primal Storm|BLC
-1 Evolving Wilds|TDM
-1 Lightning Bolt|M10
-1 Counterspell|ICE
-1 Exotic Orchard|TDC
+1 Elemental Bond|TDC|[254]
+1 Etali, Primal Storm|TSR|[342]
+1 Evolving Wilds|TRC|[527]
+1 Lightning Bolt|LEB|[162]
+1 Counterspell|DMR|[281]
+1 Exotic Orchard|TRC|[378]
 1 Fanatic of Rhonas|MH3
-6 Forest|TDM
-1 Frontier Bivouac|TDM
+6 Forest|INR|[296]
+1 Frontier Bivouac|ECC|[150]
 1 Frostcliff Siege|TDM
-1 Garruk's Uprising|WOT
-1 Ghalta, Primal Hunger|RIX
+1 Garruk's Uprising|ECC|[109]
+1 Ghalta, Primal Hunger|FDC|[8]
 1 Glasspool Mimic|ZNR
-1 Goreclaw, Terror of Qal Sisma|CMM
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
 1 Herd Heirloom|TDM
 1 Hideous Taskmaster|M3C
-1 Hinterland Harbor|TDC
+1 Hinterland Harbor|DMR|[396]
 1 Hydroelectric Specimen|MH3
-3 Island|TDM
+3 Island|INR|[290]
 1 Jolene, Plundering Pugilist|OTJ
-1 Kami of Whispered Hopes|MOM
-1 Karplusan Forest|TDC
+1 Kami of Whispered Hopes|SOC|[273]
+1 Karplusan Forest|ICE|[356]
 1 Keruga, the Macrosage|IKO
 1 Kessig Wolf Run|TDC
-1 Khalni Ambush|ZNR
+1 Khalni Ambush|PIO|[181]
 1 Kiora, Behemoth Beckoner|WAR
-1 Kodama of the East Tree|CMR
+1 Kodama of the East Tree|BLC|[227]
 1 Kogla, the Titan Ape|IKO
 1 Kozilek's Unsealing|MH3
-1 Rampant Growth|TDC
-1 Three Visits|TDC
+1 Rampant Growth|TMP|[245]
+1 Three Visits|SOC|[289]
 1 Ketria Triome|IKO
-1 Stomping Ground|GTC
+1 Stomping Ground|RVR|[413]
 1 Mosswort Bridge|TDC
-6 Mountain|TDM
+6 Mountain|INR|[294]
 1 Outcaster Trailblazer|OTJ
 1 Arcane Denial|ALL
-1 Rishkar's Expertise|LCC
-1 Rockfall Vale|TDC
-1 Rogue's Passage|CN2
-1 Rootbound Crag|TDC
-1 Ruric Thar, the Unbowed|DGM
-1 Sakura-Tribe Elder|CNS
-1 Sarkhan's Unsealing|M19
-1 Scrapshooter|BLB
+1 Rishkar's Expertise|FDC|[226]
+1 Rockfall Vale|FRA|[186]
+1 Rogue's Passage|TRC|[552]
+1 Rootbound Crag|ECC|[163]
+1 Ruric Thar, the Unbowed|PIO|[239]
+1 Sakura-Tribe Elder|SOC|[285]
+1 Sarkhan's Unsealing|JMP|[361]
+1 Scrapshooter|FDC|[228]
 1 Shaman of the Great Hunt|FRF
-1 Shivan Reef|TDC
+1 Shivan Reef|APC|[142]
 1 Ureni, the Song Unending|TDM
-1 Sol Ring|TDC
+1 Sol Ring|LEB|[270]
 1 Solphim, Mayhem Dominus|ONE
-1 Sulfur Falls|TDC
+1 Sulfur Falls|DMR|[400]
 1 Sundering Eruption|MH3
 1 Surrak Dragonclaw|DMC
 1 Surrak, Elusive Hunter|TDM
 1 Temple of Abandon|TDC
-1 Temple of Mystery|TDC
-1 Temple of the False God|C16
-1 Temur Ascendancy|KTK
+1 Temple of Mystery|SOC|[414]
+1 Temple of the False God|SCG|[143]
+1 Temur Ascendancy|TSR|[387]
 1 Temur Battlecrier|TDM
 1 Thorn Mammoth|ELD
-1 Topiary Stomper|SNC
-1 Ulvenwald Tracker|AVR
-1 Urabrask the Hidden|NPH
+1 Topiary Stomper|J25|[730]
+1 Ulvenwald Tracker|MM3|[144]
+1 Urabrask the Hidden|CLB|[811]
 1 Uro, Titan of Nature's Wrath|M3C
 1 Volatile Fjord|KHM
 1 Vorinclex|MOM
-1 Warstorm Surge|C15
-1 Wild Growth|ICE
-1 Yavimaya Coast|TDC
+1 Warstorm Surge|FDC|[186]
+1 Wild Growth|DMR|[352]
+1 Yavimaya Coast|APC|[143]

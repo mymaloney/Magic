@@ -3,85 +3,85 @@ Name=Zaffai, Thunder Conductor
 [Commander]
 1 Zaffai, Thunder Conductor|C21
 [Main]
-1 Aether Gale|C21
-1 Aetherspouts|C21
-1 Apex of Power|C21
-1 Arcane Signet|C21
-1 Blasphemous Act|C21
+1 Aether Gale|SOC|[186]
+1 Aetherspouts|MIC|[97]
+1 Apex of Power|AFC|[114]
+1 Arcane Signet|TRC|[485]
+1 Blasphemous Act|SOC|[238]
 1 Blighted Cataract|C21
-1 Brainstorm|C21
-1 Brass's Bounty|C21
-1 Call the Skybreaker|C21
-1 Charmbreaker Devils|C21
-1 Command Tower|C21
-1 Crackling Drake|C21
-1 Creative Technique|C21
-1 Dazzling Sphinx|C21
-1 Desert of the Fervent|C21
-1 Desert of the Mindful|C21
-1 Dig Through Time|C21
-1 Diluvian Primordial|C21
+1 Brainstorm|MMQ|[61]
+1 Brass's Bounty|FDN|[190]
+1 Call the Skybreaker|NCC|[333]
+1 Charmbreaker Devils|J25|[132]
+1 Command Tower|TRC|[521]
+1 Crackling Drake|RVR|[362]
+1 Creative Technique|SOC|[241]
+1 Dazzling Sphinx|OTC|[93]
+1 Desert of the Fervent|J25|[764]
+1 Desert of the Mindful|DRC|[150]
+1 Dig Through Time|SOC|[195]
+1 Diluvian Primordial|OTC|[96]
 1 Dualcaster Mage|C21
 1 Elemental Masterpiece|STX
-1 Elementalist's Palette|C21
-1 Epic Experiment|C21
+1 Elementalist's Palette|SOC|[346]
+1 Epic Experiment|TSR|[376]
 1 Erratic Cyclops|C21
-1 Etali, Primal Storm|C21
-1 Exotic Orchard|C21
-1 Expressive Iteration|STX
-1 Faithless Looting|C21
+1 Etali, Primal Storm|TSR|[342]
+1 Exotic Orchard|TRC|[378]
+1 Expressive Iteration|SOC|[309]
+1 Faithless Looting|SOC|[244]
 1 Fiery Encore|C21
-1 Fiery Fall|C21
-1 Forgotten Cave|C21
-1 Hedron Archive|C21
-1 Humble Defector|C21
+1 Fiery Fall|J25|[546]
+1 Forgotten Cave|ONS|[317]
+1 Hedron Archive|TSR|[395]
+1 Humble Defector|PIO|[141]
 1 Inferno Project|C21
 1 Inspiring Refrain|C21
-10 Island|STX
-1 Izzet Boilerworks|C21
-1 Fellwar Stone|ECC
+10 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
+1 Fellwar Stone|DRK|[102]
 1 Jaya Ballard|C21
-1 Letter of Acceptance|STX
+1 Letter of Acceptance|CMM|[397]
 1 Living Lore|C21
-1 Lonely Sandbar|C21
+1 Lonely Sandbar|ONS|[320]
 1 Mage-Ring Network|C21
-1 Mana Geyser|C21
-1 Memorial to Genius|C21
+1 Mana Geyser|SOC|[247]
+1 Memorial to Genius|J25|[771]
 1 Metallurgic Summonings|C21
-1 Mind Stone|C21
-1 Mind's Desire|C21
-9 Mountain|STX
+1 Mind Stone|DMR|[385]
+1 Mind's Desire|SCG|[41]
+9 Mountain|INR|[294]
 1 Muse Vortex|C21
-1 Myriad Landscape|C21
+1 Myriad Landscape|EOC|[169]
 1 Naru Meha, Master Wizard|C21
-1 Octavia, Living Thesis|C21
-1 Ponder|C21
-1 Prismari Campus|STX
-1 Pyromancer's Goggles|C21
+1 Octavia, Living Thesis|OTC|[103]
+1 Ponder|TSR|[315]
+1 Prismari Campus|SOC|[394]
+1 Pyromancer's Goggles|FDN|[677]
 1 Radiant Performer|C21
 1 Reinterpret|C21
-1 Reliquary Tower|C21
-1 Resculpt|STX
-1 Rionya, Fire Dancer|C21
-1 Rootha, Mercurial Artist|STX
-1 Rousing Refrain|C21
-1 Scavenger Grounds|C21
+1 Reliquary Tower|TRC|[551]
+1 Resculpt|SOC|[201]
+1 Rionya, Fire Dancer|SOC|[252]
+1 Rootha, Mercurial Artist|SOC|[329]
+1 Rousing Refrain|SOC|[253]
+1 Scavenger Grounds|FDC|[311]
 1 Seething Song|C21
-1 Serum Visions|C21
-1 Shivan Reef|C21
-1 Sly Instigator|C21
-1 Sol Ring|C21
-1 Storm-Kiln Artist|STX
-1 Study Hall|C21
-1 Sunbird's Invocation|C21
-1 Surge to Victory|C21
+1 Serum Visions|OTC|[112]
+1 Shivan Reef|APC|[142]
+1 Sly Instigator|CLB|[736]
+1 Sol Ring|LEB|[270]
+1 Storm-Kiln Artist|SOC|[255]
+1 Study Hall|SOC|[407]
+1 Sunbird's Invocation|BLC|[116]
+1 Surge to Victory|SOC|[256]
 1 Swarm Intelligence|C21
-1 Talisman of Creativity|C21
-1 Talrand, Sky Summoner|C21
-1 Temple of Epiphany|C21
-1 Temple of the False God|C21
+1 Talisman of Creativity|TRC|[504]
+1 Talrand, Sky Summoner|TSR|[318]
+1 Temple of Epiphany|SOC|[412]
+1 Temple of the False God|SCG|[143]
 1 Traumatic Visions|C21
-1 Treasure Cruise|C21
-1 Veyran, Voice of Duality|C21
+1 Treasure Cruise|TSR|[319]
+1 Veyran, Voice of Duality|SOC|[337]
 1 Volcanic Vision|C21
-1 Wildfire Devils|C21
+1 Wildfire Devils|SCD|[170]

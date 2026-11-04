@@ -3,83 +3,83 @@ Name=Kiora
 [Commander]
 1 Kiora, Sovereign of the Deep|mat|[85]
 [Main]
-1 Aesi, Tyrant of Gyre Strait|cmr
-1 Apex Devastator|cmr
-1 Arcane Signet|blc
-1 Archetype of Imagination|bng
-1 Arixmethes, Slumbering Isle|mul
+1 Aesi, Tyrant of Gyre Strait|DSC|[210]
+1 Apex Devastator|M3C|[220]
+1 Arcane Signet|TRC|[485]
+1 Archetype of Imagination|DSC|[111]
+1 Arixmethes, Slumbering Isle|DSC|[211]
 1 Auroral Procession|tdm
 1 Barkchannel Pathway|khm
-1 Birds of Paradise|lea
+1 Birds of Paradise|RVR|[344]
 1 Breaching Leviathan|c14
 1 Breeding Pool|rvr
-1 Brinelin, the Moon Kraken|cmr
-1 Command Tower|c15
+1 Brinelin, the Moon Kraken|CMM|[78]
+1 Command Tower|TRC|[521]
 1 Kiora of Salt and Sand|fra
-1 Counterspell|mmq
-1 Cultivate|m21
+1 Counterspell|DMR|[281]
+1 Cultivate|SOC|[265]
 1 Cyclonic Rift|rvr
 1 Deep-Sea Kraken|dds
-1 Dreamroot Cascade|vow
-1 Exploration|2xm
+1 Dreamroot Cascade|SOS|[254]
+1 Exploration|DMR|[339]
 1 Fanatic of Rhonas|mh3
 1 Fierce Guardianship|cmm
-1 Flooded Strand|ktk
-1 Spell Swindle|xln
+1 Flooded Strand|MH3|[436]
+1 Spell Swindle|MOC|[237]
 1 Frenzied Baloth|eoe
-1 Garruk's Uprising|wot
+1 Garruk's Uprising|ECC|[109]
 1 Ghalta, Stampede Tyrant|lci
-1 Goreclaw, Terror of Qal Sisma|m19
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
 1 Grappling Kraken|fdn
 1 Gwenna, Eyes of Gaea|bro
 1 Hedge Maze|mkm
 1 Herd Heirloom|tdm
-1 Heroic Intervention|m21
-1 Hullbreaker Horror|vow
+1 Heroic Intervention|CMM|[295]
+1 Hullbreaker Horror|INR|[357]
 1 Icebreaker Kraken|khm
 1 Imoti, Celebrant of Bounty|cmr
 1 Kiora Bests the Sea God|thb
 1 Kiora, Behemoth Beckoner|war
 1 Kiora, Master of the Depths|bfz
-1 Kiora, the Crashing Wave|bng
+1 Kiora, the Crashing Wave|PIO|[354]
 1 Kiora, the Rising Tide|fdn|[309]
-1 Koma, Cosmos Serpent|khm
+1 Koma, Cosmos Serpent|MKC|[213]
 1 Koma, World-Eater|fdn
-1 Lightning Greaves|mrd
+1 Lightning Greaves|TRC|[496]
 1 Lorthos, the Tidemaker|cmm
-1 Mana Drain|2x2
+1 Mana Drain|LEG|[65]
 1 Mistrise Village|tdm
-1 Misty Rainforest|zne
+1 Misty Rainforest|MH2|[438]
 1 Monstrous Vortex|mh3
 1 Mosswort Bridge|tdc
 1 Kiora, the Tide's Fury|j21
-1 Aetherspouts|m15
-1 Aetherize|gtc
-1 Rishkar's Expertise|aer
+1 Aetherspouts|MIC|[97]
+1 Aetherize|RVR|[448]
+1 Rishkar's Expertise|FDC|[226]
 1 Glacier Godmaw|eoe
-1 Omniscience|wot
+1 Omniscience|FDN|[161]
 1 Planar Genesis|mh3
-1 Reliquary Tower|tdc
+1 Reliquary Tower|TRC|[551]
 1 Rimewood Falls|khm
-1 Rogue's Passage|rtr
+1 Rogue's Passage|TRC|[552]
 1 Scourge of Fleets|cmr
 1 Selvala's Stampede|tdc
 1 Serpent of Yawning Depths|thb
 1 Slinn Voda, the Rising Deep|cmr
-9 Snow-Covered Forest|mh1
-12 Snow-Covered Island|mh1
-1 Fabled passage|eld
-1 Prismatic Vista|mh1
-1 Sol Ring|tdc
+9 Snow-Covered Forest|ICE|[383]
+12 Snow-Covered Island|ICE|[371]
+1 Fabled passage|TRC|[379]
+1 Prismatic Vista|H1R|[40]
+1 Sol Ring|LEB|[270]
 1 Spawning Kraken|c21
 1 Starwinder|eoe|[291]
 1 Stormsurge Kraken|cmm
-1 Stormtide Leviathan|cmr
-1 Thassa, God of the Sea|ths
-1 The Great Henge|eld
-1 Thryx, the Sudden Storm|cmm
-1 Tromokratis|bng
-1 Tropical Island|lea
+1 Stormtide Leviathan|PIO|[75]
+1 Thassa, God of the Sea|PIO|[288]
+1 The Great Henge|CMM|[294]
+1 Thryx, the Sudden Storm|J25|[65]
+1 Tromokratis|CMM|[129]
+1 Tropical Island|LEB|[284]
 1 Up the Beanstalk|woe
 1 Whelming Wave|cmr
 1 Xolatoyac, the Smiling Flood|lcc

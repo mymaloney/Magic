@@ -6,30 +6,30 @@ Description=UB Zombie deck
 Icon=The Zombie.jpg
 Deck Type=constructed
 [Main]
-2 Swamp
-4 Island
-4 Underground Sea
-4 Polluted Delta
-3 Drowned Catacomb
-2 Flooded Strand
-1 Scalding Tarn
-1 Urborg, Tomb of Yawgmoth
-1 Mox Jet
-1 Mox Sapphire
-4 Screeching Skaab
-4 Armored Skaab
-4 Mental Note
-1 Forbidden Alchemy
-4 Gravecrawler
-4 Diregraf Captain
-1 Cemetery Reaper
-4 Death Baron
-2 Lord of the Undead
-1 Zombie Master
-1 Lich Lord of Unx
-2 Stitched Drake
-2 Skaab Ruinator
-1 Havengul Runebinder
-1 Soulless One
-1 Vengeful Pharaoh
+2 Swamp|INR|[292]
+4 Island|INR|[290]
+4 Underground Sea|LEB|[286]
+4 Polluted Delta|MH3|[438]
+3 Drowned Catacomb|TRC|[376]
+2 Flooded Strand|MH3|[436]
+1 Scalding Tarn|MH2|[439]
+1 Urborg, Tomb of Yawgmoth|PIO|[118]
+1 Mox Jet|LEB|[263]
+1 Mox Sapphire|LEB|[266]
+4 Screeching Skaab|EMA|[69]
+4 Armored Skaab|ISD|[43]
+4 Mental Note|JUD|[46]
+1 Forbidden Alchemy|INR|[355]
+4 Gravecrawler|INR|[380]
+4 Diregraf Captain|SCD|[224]
+1 Cemetery Reaper|DRC|[87]
+4 Death Baron|FDC|[95]
+2 Lord of the Undead|PLS|[44]
+1 Zombie Master|LEB|[138]
+1 Lich Lord of Unx|ARB|[24]
+2 Stitched Drake|J25|[368]
+2 Skaab Ruinator|DSC|[128]
+1 Havengul Runebinder|MIC|[101]
+1 Soulless One|ONS|[171]
+1 Vengeful Pharaoh|M12|[116]
 [Sideboard]

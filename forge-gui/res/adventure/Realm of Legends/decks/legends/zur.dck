@@ -3,88 +3,88 @@ Name=Zur
 [Commander]
 1 Zur, Eternal Schemer|dmu
 [Main]
-1 Extinguish All Hope|jou
-1 Luminarch Ascension|zen
-1 Ondu Spiritdancer|cmm
+1 Extinguish All Hope|CMM|[157]
+1 Luminarch Ascension|A25|[23]
+1 Ondu Spiritdancer|DSC|[101]
 1 Seal from Existence|mom
 1 Trapped in the Screen|dsk
-1 Cyclonic Rift|rtr
-1 Athreos, Shroud-Veiled|thb
+1 Cyclonic Rift|RVR|[313]
+1 Athreos, Shroud-Veiled|DSC|[212]
 1 Void Rend|snc
 1 Replenish|uds
-1 Adarkar Wastes|dmu
-1 Arcane Sanctum|moc
-1 Arcane Signet|moc
+1 Adarkar Wastes|ICE|[351]
+1 Arcane Sanctum|TRC|[513]
+1 Arcane Signet|TRC|[485]
 1 Archetype of Courage|bng
-1 Archon of Sun's Grace|thb
-1 Zur the Enchanter|csp
-1 Azorius Signet|scd
+1 Archon of Sun's Grace|SOC|[137]
+1 Zur the Enchanter|DMR|[374]
+1 Azorius Signet|FRC|[53]
 1 Lurker in the Deep|ydsk
-1 Bident of Thassa|lcc
-1 Bojuka Bog|moc
+1 Bident of Thassa|PIO|[47]
+1 Bojuka Bog|TSR|[406]
 1 Cacophony Unleashed|cmm
-1 Cast Out|cmm
-1 Caves of Koilos|dmu
+1 Cast Out|DRC|[64]
+1 Caves of Koilos|APC|[140]
 1 Fear of Ridicule|ydsk
 1 Collective Restraint|inv
-1 Command Tower|c15
-1 Counterspell|ice
-1 Demon of Fate's Design|cmm
-1 Deserted Beach|mid
-1 Detention Sphere|rtr
-1 Doomwake Giant|jou
-1 Dovin's Veto|war
-1 Drowned Catacomb|xln
-1 Timely Ward|cmr
+1 Command Tower|TRC|[521]
+1 Counterspell|DMR|[281]
+1 Demon of Fate's Design|DSC|[137]
+1 Deserted Beach|FRA|[176]
+1 Detention Sphere|GK2|[10]
+1 Doomwake Giant|SOC|[212]
+1 Dovin's Veto|TSR|[375]
+1 Drowned Catacomb|TRC|[376]
+1 Timely Ward|DSC|[107]
 1 Enduring Curiosity|dsk
 1 Enduring Tenacity|dsk
 1 Entity Tracker|dsk
-1 Ephara, God of the Polis|bng
-1 Erebos, God of the Dead|ths
+1 Ephara, God of the Polis|PIO|[305]
+1 Erebos, God of the Dead|PIO|[291]
 1 Fear of Impostors|dsk
 1 Ghostly Dancers|dsk
-1 Ghostly Prison|onc
-1 Glacial Fortress|xln
-1 Grasp of Fate|c15
+1 Ghostly Prison|SOC|[146]
+1 Glacial Fortress|TRC|[385]
+1 Grasp of Fate|FDC|[32]
 1 Grim Guardian|jou
-1 Tundra|vma
-1 Underground Sea|vma
-1 Scrubland|vma
-1 Hallowed Haunting|vow
-1 Heliod, Sun-Crowned|thb
+1 Tundra|LEB|[285]
+1 Underground Sea|LEB|[286]
+1 Scrubland|LEB|[282]
+1 Hallowed Haunting|DBL|[284]
+1 Heliod, Sun-Crowned|CMM|[29]
 1 Heliod, the Radiant Dawn|mom
 1 Inquisitive Glimmer|dsk
-4 Snow-Covered Island|csp
+4 Snow-Covered Island|ICE|[371]
 1 Isolated Chapel|dmr
 1 Leyline Binding|dmu
-1 Mesa Enchantress|c15
-1 Mystic Remora|ice
-1 Nykthos Paragon|mh2
+1 Mesa Enchantress|DMR|[267]
+1 Mystic Remora|DMR|[288]
+1 Nykthos Paragon|J25|[230]
 1 Obscura Storefront|dsc
 1 Overlord of the Floodpits|dsk
 1 Phyrexian Arena|apc
-9 Snow-Covered Plains|csp
-1 Prairie Stream|moc
-1 Prayer of Binding|dmu
+9 Snow-Covered Plains|ICE|[367]
+1 Prairie Stream|TRC|[394]
+1 Prayer of Binding|FDN|[502]
 1 Propaganda|tmp
-1 Reliquary Tower|tdc
+1 Reliquary Tower|TRC|[551]
 1 Resurgent Belief|mh2
 1 Rhystic Study|pcy
 1 Seal Away|dom
 1 Forum Filibuster|soc
-1 Shattered Sanctum|vow
-1 Shipwreck Marsh|mid
-1 Sigil of the Empty Throne|j22
+1 Shattered Sanctum|SOS|[260]
+1 Shipwreck Marsh|FRA|[189]
+1 Sigil of the Empty Throne|TSR|[301]
 1 Soaring Lightbringer|dsc
-1 Sol Ring|c21
-1 Sphere of Safety|rtr
-1 Starfield Mystic|woc
-1 Starfield of Nyx|ori
-1 Stasis Snare|bfz
-1 Sunken Hollow|moc
-1 Supreme Verdict|2x2
-4 Snow-Covered Swamp|csp
-1 Talisman of Dominance|scd
-1 Talisman of Hierarchy|moc
-1 Talisman of Progress|scd
-1 Underground River|bro
+1 Sol Ring|LEB|[270]
+1 Sphere of Safety|RVR|[447]
+1 Starfield Mystic|SOC|[177]
+1 Starfield of Nyx|PIO|[36]
+1 Stasis Snare|PIO|[37]
+1 Sunken Hollow|TRC|[407]
+1 Supreme Verdict|RVR|[461]
+4 Snow-Covered Swamp|ICE|[372]
+1 Talisman of Dominance|TRC|[505]
+1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Progress|TRC|[508]
+1 Underground River|ICE|[362]

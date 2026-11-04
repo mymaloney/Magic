@@ -3,84 +3,84 @@ Name=Evereth, Viceroy of Plunder
 [Commander]
 1 Evereth, Viceroy of Plunder|J25
 [Main]
-1 Academy Manufactor|MOC
-1 Scion of Opulence|VOC
+1 Academy Manufactor|BLC|[264]
+1 Scion of Opulence|J25|[597]
 1 Rankle and Torbran|MOM
 1 Rev, Tithe Extractor|J25
 1 Generous Plunderer|BIG
 1 Sword of Wealth and Power|BIG
 1 Blood Money|LCC
 1 Great Train Heist|OTJ
-1 Professional Face-Breaker|SNC
+1 Professional Face-Breaker|TRC|[291]
 1 Beamtown Beatstick|MOM
 1 Alchemist's Talent|BLC
-1 Vampire of the Dire Moon|M20
+1 Vampire of the Dire Moon|J25|[504]
 1 Vein Ripper|MKM
 1 Vampire Nighthawk|FDN
 1 Nighthawk Scavenger|OTC
 1 Mari, the Killing Quill|OTC
-1 Arcane Signet|MKC
-1 Big Score|SNC
-1 Bojuka Bog|C20
+1 Arcane Signet|TRC|[485]
+1 Big Score|SOC|[237]
+1 Bojuka Bog|TSR|[406]
 1 Brass's Bounty|FDN
-1 Canyon Slough|WHO
-1 Captain Lannery Storm|DMC
-1 Chaos Warp|MKC
-1 Command Tower|WHO
+1 Canyon Slough|TRC|[369]
+1 Captain Lannery Storm|OTC|[158]
+1 Chaos Warp|MBC|[72]
+1 Command Tower|TRC|[521]
 1 Cordial Vampire|LCC
 1 Crime Novelist|MKM
-1 Deadly Dispute|J25
+1 Deadly Dispute|TDC|[177]
 1 Decadent Dragon|WOE
 1 Diamond Pick-Axe|LCI
-1 Dire Fleet Hoarder|XLN
-1 Dreadhorde Invasion|MIC
-1 Drossforge Bridge|MH2
-1 Exotic Orchard|C20
+1 Dire Fleet Hoarder|J25|[422]
+1 Dreadhorde Invasion|FRC|[48]
+1 Drossforge Bridge|BRC|[183]
+1 Exotic Orchard|TRC|[378]
 1 Fake Your Own Death|FDN
 1 Fanatical Offering|LCI
-1 Feed the Swarm|ZNR
-1 Foreboding Ruins|DMC
+1 Feed the Swarm|TDC|[180]
+1 Foreboding Ruins|TRC|[381]
 1 Geothermal Bog|DSC
 1 Greedy Freebooter|LCI
 1 Guild Artisan|CLB
 1 Hell to Pay|OTJ
-1 Impulsive Pilferer|CMM
-1 Jadar, Ghoulcaller of Nephalia|MID
-1 Juri, Master of the Revue|MUL
+1 Impulsive Pilferer|OTC|[171]
+1 Jadar, Ghoulcaller of Nephalia|SOC|[217]
+1 Juri, Master of the Revue|EOC|[119]
 1 Kazuul's Fury|ZNR
-1 Kher Keep|MKC
+1 Kher Keep|FRC|[75]
 1 Lagomos, Hand of Hatred|DMU
-1 Loyal Apprentice|C18
+1 Loyal Apprentice|TDC|[222]
 1 Marionette Apprentice|MH3
-1 Marionette Master|KLD
-1 Mayhem Devil|WAR
+1 Marionette Master|BRC|[109]
+1 Mayhem Devil|RVR|[374]
 1 Mind Stone|DMR
-1 Morbid Opportunist|J25
-9 Mountain|J25|1
-1 Nadier's Nightblade|CMR
-1 Night's Whisper|J25
+1 Morbid Opportunist|INR|[388]
+9 Mountain|INR|[294]
+1 Nadier's Nightblade|BLC|[184]
+1 Night's Whisper|TRC|[446]
 1 Not Dead After All|WOE
-1 Oni-Cult Anvil|NEO
-1 Path of Ancestry|M3C
+1 Oni-Cult Anvil|BRC|[127]
+1 Path of Ancestry|TRC|[545]
 1 Patron of the Vein|LCC
-1 Phyrexian Arena|FDN
+1 Phyrexian Arena|APC|[47]
 1 Pitiless Plunderer|J25
-1 Rakdos Carnarium|DMC
-1 Rakdos Signet|AFC
-1 Reassembling Skeleton|FDN
-1 Rogue's Passage|FDN
+1 Rakdos Carnarium|ECC|[161]
+1 Rakdos Signet|FRC|[60]
+1 Reassembling Skeleton|TDC|[195]
+1 Rogue's Passage|TRC|[552]
 1 Ruthless Technomancer|J25
-1 Sign in Blood|M15
-1 Smoldering Marsh|OTC
-1 Sol Ring|CM2
-1 Solemn Simulacrum|NEC
+1 Sign in Blood|FDC|[125]
+1 Smoldering Marsh|TRC|[403]
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
 1 Sulfurous Mire|KHM
-11 Swamp|J25|2
-1 Swiftfoot Boots|FDN
-1 Tainted Peak|OTC
-1 Talisman of Indulgence|M3C
-1 Tarrian's Soulcleaver|PLCI
-1 Temple of Malice|DMC
-1 Terminate|DMC
+11 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Tainted Peak|TOR|[142]
+1 Talisman of Indulgence|TRC|[507]
+1 Tarrian's Soulcleaver|LCI|[264]
+1 Temple of Malice|TRC|[410]
+1 Terminate|PLS|[128]
 1 Waltz of Rage|DSK
 1 Whispersilk Cloak|DSC

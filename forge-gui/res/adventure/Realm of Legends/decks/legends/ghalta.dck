@@ -1,9 +1,9 @@
 [metadata]
 Name=Ghalta, Primal Hunger
 [Commander]
-1 Ghalta, Primal Hunger|RIX
+1 Ghalta, Primal Hunger|FDC|[8]
 [Main]
-1 Topiary Stomper|SNC
+1 Topiary Stomper|J25|[730]
 1 Agonasaur Rex|DFT
 1 Regal Imperiosaur|DFT
 1 Frenzied Baloth|EOE
@@ -11,59 +11,59 @@ Name=Ghalta, Primal Hunger
 1 Annoyed Altisaur|MH3
 1 Apex Altisaur|LCC
 1 Asceticism|SOM
-1 Beast Within|DSC
-1 Carnage Tyrant|XLN
-1 Tangleweave Armor|ONC
+1 Beast Within|TSR|[357]
+1 Carnage Tyrant|FDC|[193]
+1 Tangleweave Armor|FDC|[234]
 1 Territorial Allosaurus|DOM
-1 Colossal Majesty|CLU
+1 Colossal Majesty|FDC|[197]
 1 Fanatic of Rhonas|MH3
-1 Door of Destinies|C17
+1 Door of Destinies|TRC|[342]
 1 Earthshaker Dreadmaw|LCI
-1 Elvish Mystic|CMM
-1 Emerald Medallion|MH3
+1 Elvish Mystic|TSR|[360]
+1 Emerald Medallion|TMP|[283]
 1 Fireshrieker|J25
 1 Flourishing Hunter|J22
-36 Forest|RIX
-1 Garruk, Caller of Beasts|J25
+36 Forest|INR|[296]
+1 Garruk, Caller of Beasts|PIO|[347]
 1 Garruk, Primal Hunter|C21
-1 Garruk's Uprising|BLC
+1 Garruk's Uprising|ECC|[109]
 1 Ghalta, Stampede Tyrant|LCI
 1 Gift of the Viper|MH3
-1 Gigantosaurus|M19
-1 Goreclaw, Terror of Qal Sisma|BLC
+1 Gigantosaurus|FDC|[207]
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
 1 Green Sun's Twilight|ONE
-1 Herald's Horn|LCC
+1 Herald's Horn|TRC|[493]
 1 Heroic Intervention|CMM
-1 Hulking Raptor|LCI
+1 Hulking Raptor|FDC|[210]
 1 Invasion of Ikoria|MOM
 1 Ixalli's Lorekeeper|LCI
 1 Terrian, World Tyrant|DFT
 1 Leyline Immersion|MAT
 1 Monstrous Vortex|MH3
-1 Nissa's Pilgrimage|C17
+1 Nissa's Pilgrimage|PIO|[348]
 1 Nyx Lotus|THB
 1 Prowling Serpopard|J22
 1 Quakestrider Ceratops|FDN
 1 Rampaging Brontodon|LCC
-1 Rampant Growth|J25
+1 Rampant Growth|TMP|[245]
 1 Up the Beanstalk|WOE
-1 Overwhelming Stampede|DSC
-1 Reliquary Tower|DSC
-1 Pugnacious Hammerskull|LCI
-1 Ripjaw Raptor|LCC
+1 Overwhelming Stampede|FDC|[218]
+1 Reliquary Tower|TRC|[551]
+1 Pugnacious Hammerskull|FDC|[220]
+1 Ripjaw Raptor|FDC|[224]
 1 Runic Armasaur|LCC
 1 Shifting Ceratops|LCC
-1 Snakeskin Veil|J25
-1 Sol Ring|DRC
-1 Tamiyo's Safekeeping|NEO
+1 Snakeskin Veil|TDM|[159]
+1 Sol Ring|LEB|[270]
+1 Tamiyo's Safekeeping|FDC|[233]
 1 The Tarrasque|AFR
-1 Thought Vessel|DSC
-1 Rishkar's Expertise|LCC
+1 Thought Vessel|TRC|[509]
+1 Rishkar's Expertise|FDC|[226]
 1 Thundering Spineback|J25
 1 Tranquil Frillback|MAT
-1 Traverse the Outlands|C17
+1 Traverse the Outlands|CLB|[258]
 1 Ghalta the Unstoppable|FRA
 1 Vaultborn Tyrant|BIG
-1 Verdant Sun's Avatar|LCC
+1 Verdant Sun's Avatar|FDC|[239]
 1 Wayward Swordtooth|LCC
 1 Wrap in Vigor|CNS

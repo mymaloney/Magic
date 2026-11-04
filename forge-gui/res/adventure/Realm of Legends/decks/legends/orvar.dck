@@ -4,68 +4,68 @@ Name=Orvar
 1 Orvar, the All-Form|khm
 [Main]
 1 An Offer You Can't Refuse|fdn
-1 Arcane Signet|eld
-1 Archaeomancer|uma
+1 Arcane Signet|TRC|[485]
+1 Archaeomancer|PIO|[284]
 1 Archmage of Runes|fdn
-1 Mizzium Skin|rtr
+1 Mizzium Skin|PIO|[64]
 1 Fated Infatuation|bng
 1 Artful Dodge|dka
 1 Taigam's Strike|dtk
-1 Man-o'-War|vis
+1 Man-o'-War|POR|[59]
 1 Enlightened Maniac|emn
 1 Corsair Captain|fdn
-1 Distortion Strike|roe
+1 Distortion Strike|IMA|[52]
 1 Case of the Ransacked Lab|mkm
 1 Cerulean Wisps|shm
-1 Cloudpost|mrd
-1 Counterspell|mmq
-1 Mind Stone|woc
-1 Dive Down|xln
+1 Cloudpost|M3C|[330]
+1 Counterspell|DMR|[281]
+1 Mind Stone|DMR|[385]
+1 Dive Down|FDN|[588]
 1 Dream's Grip|mrd
-1 Energy Tap|4ed
+1 Energy Tap|LEG|[54]
 1 Enervate|ice
 1 Enter the Enigma|dsk
-1 Essence Flux|soi
+1 Essence Flux|INR|[354]
 1 Fleeting Distraction|fdn
-1 Ghostly Flicker|avr
-1 High Tide|fem
+1 Ghostly Flicker|CMM|[98]
+1 High Tide|DMR|[286]
 1 Hydroelectric Specimen|mh3
 1 Infuse|ice
-34 Island|khm
+34 Island|INR|[290]
 1 Jinx|hml
 1 Leap|sth
-1 Micromancer|dmu
-1 Midnight Clock|eld
+1 Micromancer|FDN|[158]
+1 Midnight Clock|DRC|[79]
 1 Mind Games|sth
 1 Mirror Box|neo
-1 Mulldrifter|lrw
-1 Murmuring Mystic|rvr
+1 Mulldrifter|TSR|[311]
+1 Murmuring Mystic|PIO|[65]
 1 Naga Fleshcrafter|tdm
-1 Negate|dtk
-1 Niblis of Frost|emn
+1 Negate|TRC|[439]
+1 Niblis of Frost|PIO|[66]
 1 Peregrine Drake|dmr
 1 Powerstone Shard|dom
-1 Precursor Golem|brr
-1 Propaganda|c1
+1 Precursor Golem|MM2|[225]
+1 Propaganda|TMP|[80]
 1 Quasiduplicate|rvr
-1 Reliquary Tower|mb2
-1 Sapphire Medallion|mh3
-1 Scourge of Fleets|znc
+1 Reliquary Tower|TRC|[551]
+1 Sapphire Medallion|TMP|[306]
+1 Scourge of Fleets|CMR|[403]
 1 Shadow Rift|tmp
 1 Shimmering Mirage|apc
-1 Shipwreck Dowser|m21
-1 Shore Up|dmu
-1 Slip Out the Back|snc
-1 Snap|dmr
-1 Sol Ring|khc
-1 Stormchaser Drake|vow
-1 Swiftfoot Boots|scd
-1 Talrand, Sky Summoner|2x2
+1 Shipwreck Dowser|J25|[354]
+1 Shore Up|BLB|[69]
+1 Slip Out the Back|CLU|[99]
+1 Snap|ULG|[43]
+1 Sol Ring|LEB|[270]
+1 Stormchaser Drake|DBL|[349]
+1 Swiftfoot Boots|TRC|[501]
+1 Talrand, Sky Summoner|TSR|[318]
 1 Thermal Flux|csp
-1 Thought Vessel|plg22
-1 Twiddle|4ed
+1 Thought Vessel|TRC|[509]
+1 Twiddle|LEB|[86]
 1 Updraft|ice
 1 Vesuvan Duplimancy|dmu
-1 Wayfarer's Bauble|tdc
+1 Wayfarer's Bauble|TRC|[511]
 1 Whim of Volrath|tmp
 1 Will of the Temur|tdc

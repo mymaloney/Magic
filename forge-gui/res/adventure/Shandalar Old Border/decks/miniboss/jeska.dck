@@ -1,15 +1,15 @@
 [metadata]
 Name=Jeska, Warrior Adept
 [Main]
-4 Taiga|LEA
-4 Wooded Foothills|ONS
-6 Mountain|ICE
-6 Forest|ICE
+4 Taiga|LEB|[283]
+4 Wooded Foothills|MH3|[441]
+6 Mountain|INR|[294]
+6 Forest|INR|[296]
 4 Avatar of Fury|PCY
 2 Jeska, Warrior Adept|JUD
 2 Kamahl, Pit Fighter|ODY
-2 Kamahl, Fist of Krosa|ONS
-2 Decimate|ODY
+2 Kamahl, Fist of Krosa|DMR|[344]
+2 Decimate|DMR|[356]
 2 Viashivan Dragon|VIS
 1 Livonya Silone|LEG
 1 Stangg|LEG
@@ -19,7 +19,7 @@ Name=Jeska, Warrior Adept
 4 Avatar of Might|PCY
 2 Ancient Ooze|SCG
 2 Symbiotic Wurm|ONS
-4 Flametongue Kavu|PLS
+4 Flametongue Kavu|DMR|[320]
 4 Ravenous Baboons|EXO
 
 [StartInBattle_Reference]

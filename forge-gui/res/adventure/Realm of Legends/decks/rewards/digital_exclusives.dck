@@ -155,7 +155,7 @@ Name=Digital Exclusives
 1 Forceful Cultivator|YNEO
 1 Forgeborn Phoenix|YNEO
 1 Forgefire Automaton|YBRO
-1 Forsaken Crossroads|YMID
+1 Forsaken Crossroads|MB2|[264]
 1 Foundry Beetle|YNEO
 1 Foundry Groundbreaker|YBRO
 1 Fountainport Charmer|YBLB
@@ -304,7 +304,7 @@ Name=Digital Exclusives
 1 Ominous Lockbox|YMKM
 1 Ominous Traveler|YMID
 1 Opulent Clomper|YECL
-1 Oracle of the Alpha|YDMU
+1 Oracle of the Alpha|MBC|[64]
 1 Ornate Imitations|YDFT
 1 Oura, the Imitator|YECL
 1 Outfitted Jouster|YWOE
@@ -374,13 +374,13 @@ Name=Digital Exclusives
 1 Runaway Growth|YNEO
 1 Runeblade Raiser|YTDM
 1 Runecarved Obelisk|YOTJ
-1 Rusko, Clockmaker|YBRO
+1 Rusko, Clockmaker|MB2|[263]
 1 Saiba Syphoner|YNEO
 1 Saint Elenda|YOTJ
 1 Salacinder and Soot, Rascals|YECL
 1 Sala, Deck Boss|YDFT
 1 Sandcloud Harbinger|YBLB
-1 Sanguine Brushstroke|YMID
+1 Sanguine Brushstroke|MB2|[260]
 1 Sanguine Soothsayer|YBLB
 1 Sap Vitality|YMID
 1 Scalar Scholar|YSOS
@@ -398,7 +398,7 @@ Name=Digital Exclusives
 1 Sheoldred's Assimilator|YONE
 1 Shove Aside|YMKM
 1 Sibsig's Artisan|YTDM
-1 Sigardian Evangel|YMID
+1 Sigardian Evangel|MB2|[258]
 1 Silent Extraction|YOTJ
 1 Sinister Reflections|YMID
 1 Skullpiercer Gnat|YONE
@@ -456,7 +456,7 @@ Name=Digital Exclusives
 1 Tawnos Endures|YBRO
 1 Teferi's Contingency|YDMU
 1 Tempest Trapper|YBLB
-1 Tenacious Pup|YMID
+1 Tenacious Pup|MB2|[262]
 1 Tend to the Kiln|YECL
 1 Territorial Strike|YTDM
 1 Terrors of the Track|YDFT
@@ -482,7 +482,7 @@ Name=Digital Exclusives
 1 Tomakul Phoenix|YBRO
 1 Tome of Gadwick|YWOE
 1 Topsoil Turner|YECL
-1 Toralf's Disciple|YMID
+1 Toralf's Disciple|MB2|[261]
 1 Town-Razer Tyrant|YMID
 1 Trackhand Trainer|YDFT
 1 Traumatic Prank|YSNC
@@ -636,13 +636,13 @@ Name=Digital Exclusives
 1 Murgish Cemetery|PSDG
 1 Saji's Torrent|PSDG
 1 Tornellan Protector|PSDG
-1 Velukan Dragon|PSDG
+1 Velukan Dragon|MB2|[145]
 1 Baloth Packhunter|ANB
 1 Compound Fracture|ANB
 1 Cruel Cut|ANB
-1 Goblin Gang Leader|ANB
+1 Goblin Gang Leader|MB2|[144]
 1 Hallowed Priest|ANB
-1 Mardu Outrider|ANB
+1 Mardu Outrider|MB2|[1]
 1 Nimble Pilferer|ANB
 1 Soulhunter Rakshasa|ANB
 1 Tin Street Cadet|ANB

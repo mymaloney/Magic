@@ -8,17 +8,17 @@ Name=WC03 Daniel Zink - Wake
 3 Cunning Wish|JUD
 4 Mana Leak|STH
 3 Moment's Peace|ODY
-3 Renewed Faith|ONS
+3 Renewed Faith|DMR|[269]
 2 Vengeful Dreams|TOR
 2 Decree of Justice|SCG
 4 Deep Analysis|TOR
-4 Wrath of God|LEB
+4 Wrath of God|DMR|[279]
 2 Elfhame Palace|INV
-2 Flooded Strand|ONS
-4 Forest|ONS
-7 Island|ONS
+2 Flooded Strand|MH3|[436]
+4 Forest|INR|[296]
+7 Island|INR|[290]
 4 Krosan Verge|JUD
-4 Plains|ONS
+4 Plains|INR|[288]
 4 Skycloud Expanse|ODY
 [Sideboard]
 3 Anurid Brushhopper|JUD
@@ -28,6 +28,6 @@ Name=WC03 Daniel Zink - Wake
 1 Krosan Reclamation|JUD
 1 Ray of Distortion|ODY
 3 Ray of Revelation|JUD
-1 Renewed Faith|ONS
+1 Renewed Faith|DMR|[269]
 1 Vengeful Dreams|TOR
 1 Wing Shards|SCG

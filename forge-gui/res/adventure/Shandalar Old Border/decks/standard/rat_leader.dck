@@ -1,17 +1,17 @@
 [metadata]
 Name=Rat Leader
 [Main]
-20 Swamp|PO2|3
-4 Dark Ritual|MIR
+20 Swamp|INR|[292]
+4 Dark Ritual|MMQ|[129]
 4 Pestilence Rats|ICE
 4 Swarm of Rats|PO2
 4 Razortooth Rats|WTH
-4 Ravenous Rats|PO2
+4 Ravenous Rats|INV|[120]
 4 Carrion Rats|TOR
 4 Sewer Rats|MIR
 2 Bog Rats|DRK
 2 Zodiac Rat|PTK
-4 Bad Moon|LEA
+4 Bad Moon|LEB|[94]
 4 Nocturnal Raid|MIR
 
 [StartInBattle_Reference]

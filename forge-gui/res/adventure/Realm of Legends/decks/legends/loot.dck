@@ -5,35 +5,35 @@ Name=Loot, the Key to Everything
 [Main]
 1 Polygoyf|M3C
 1 Pyrogoyf|M3C
-1 Tarmogoyf|TSR
+1 Tarmogoyf|FRA|[116]
 1 Overgrowth|STH
 1 Chandra, Fire Artisan|WAR
 1 Dazzling Sphinx|OTC
-1 Fertile Ground|USG
+1 Fertile Ground|INV|[188]
 1 Crawlspace|DMR
 1 Oko, the Ringleader|OTJ
 1 Oko, Thief of Crowns|ELD
 1 Party Thrasher|MH3
 1 Kami of Celebration|NEC
-1 Arcane Signet|M3C
-1 Azusa, Lost but Seeking|M21
+1 Arcane Signet|TRC|[485]
+1 Azusa, Lost but Seeking|CMM|[274]
 1 Loot, Exuberant Explorer|FDN
-1 Bountiful Landscape|MH3
+1 Bountiful Landscape|TDC|[342]
 1 Charred Foyer|DSK
-1 Cindervines|RNA
+1 Cindervines|RVR|[360]
 1 Cloak and Dagger|MOR
-1 Command Tower|ZNC
+1 Command Tower|TRC|[521]
 1 Doc Aurlock, Grizzled Genius|OTJ
-1 Dragonmaster Outcast|BFZ
-1 Dreamroot Cascade|M3C
+1 Dragonmaster Outcast|TDC|[211]
+1 Dreamroot Cascade|SOS|[254]
 1 Dryad of the Ilysian Grove|M3C
 1 Etali, Primal Conqueror|MOM
-1 Etali, Primal Storm|DMC
+1 Etali, Primal Storm|TSR|[342]
 1 Extraordinary Journey|WOE
 1 Loot, the Pathfinder|DFT
-9 Forest|MH3
-1 Frontier Bivouac|KTK
-1 Garruk Wildspeaker|CMD
+9 Forest|INR|[296]
+1 Frontier Bivouac|ECC|[150]
+1 Garruk Wildspeaker|GVL|[1]
 1 Loot, the Nexus|FRA
 1 Hugs, Grisly Guardian|BLB
 1 Invasion of Ergamon|MOM
@@ -43,37 +43,37 @@ Name=Loot, the Key to Everything
 1 Invasion of Pyrulea|MOM
 1 Invasion of Shandalar|MOM
 1 Invasion of Zendikar|MOM
-9 Island|MH3
-1 Talisman of Curiosity|MKC
-1 Kenrith's Transformation|ELD
+9 Island|INR|[290]
+1 Talisman of Curiosity|SOC|[430]
+1 Kenrith's Transformation|FDC|[212]
 1 Kiora, Behemoth Beckoner|WAR
-1 Laelia, the Blade Reforged|MH3
-1 Lightning Greaves|CMD
+1 Laelia, the Blade Reforged|SOC|[246]
+1 Lightning Greaves|TRC|[496]
 1 Lignify|GVL
-1 Managorger Hydra|ORI
+1 Managorger Hydra|FDC|[216]
 1 Matzalantli, the Great Door|LCI
-1 Mirrormade|ELD
-10 Mountain|MH3
+1 Mirrormade|DSC|[120]
+10 Mountain|INR|[294]
 1 Muerra, Trash Tactician|BLB
-1 Nissa, Steward of Elements|C20
-1 Nissa, Voice of Zendikar|OGW
-1 Path of Ancestry|CMR
-1 Plargg and Nassari|MAT
-1 Propaganda|M3C
+1 Nissa, Steward of Elements|M3C|[270]
+1 Nissa, Voice of Zendikar|PIO|[188]
+1 Path of Ancestry|TRC|[545]
+1 Plargg and Nassari|SOC|[250]
+1 Propaganda|TMP|[80]
 1 Rashmi and Ragavan|MOC
-1 Rootbound Crag|TDC
-1 Saheeli, Sublime Artificer|WAR
+1 Rootbound Crag|ECC|[163]
+1 Saheeli, Sublime Artificer|DRC|[119]
 1 Savvy Trader|OTC
-1 Scrapshooter|BLB
-1 Sheltered Thicket|EOC
+1 Scrapshooter|FDC|[228]
+1 Sheltered Thicket|ECC|[167]
 1 Talisman of Impulse|TDC
-1 Sol Ring|M3C
-1 Stolen Strategy|BBD
-1 Swiftfoot Boots|NCC
+1 Sol Ring|LEB|[270]
+1 Stolen Strategy|CLB|[807]
+1 Swiftfoot Boots|TRC|[501]
 1 Tarmogoyf Nest|M3C
 1 Temple of Abandon|TDC
-1 Third Path Iconoclast|BRO
+1 Third Path Iconoclast|TDC|[307]
 1 Unstable Amulet|MH3
 1 Valakut Exploration|ZNR
-1 Wild Growth|3ED
-1 Yavimaya Coast|M3C
+1 Wild Growth|DMR|[352]
+1 Yavimaya Coast|APC|[143]

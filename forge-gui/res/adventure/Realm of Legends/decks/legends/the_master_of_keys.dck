@@ -7,13 +7,13 @@ Name=The Master of Keys
 1 Archetype of Imagination|DSC|1
 1 Overlord of the Balemurk|DSK|1
 1 Athreos, Shroud-Veiled|DSC|1
-1 Auramancer|DSC|1
-1 Burnished Hart|DSC|1
+1 Auramancer|ODY|[5]
+1 Burnished Hart|FDN|[250]
 1 Demon of Fate's Design|DSC|1
-1 Doomwake Giant|DSC|1
+1 Doomwake Giant|SOC|[212]
 1 Dream Eater|DSC|1
 1 Fear of Sleep Paralysis|DSC|1
-1 Mesa Enchantress|DSC|1
+1 Mesa Enchantress|DMR|[267]
 1 Metamorphosis Fanatic|DSC|1
 1 Moon-Blessed Cleric|DSC|1
 1 Nightmare Shepherd|DSC|1
@@ -21,73 +21,73 @@ Name=The Master of Keys
 1 Phenomenon Investigators|DSC|1
 1 Prognostic Sphinx|DSC|1
 1 Soaring Lightbringer|DSC|1
-1 Solemn Simulacrum|DSC|1
-1 Starfield Mystic|DSC|1
+1 Solemn Simulacrum|TSR|[400]
+1 Starfield Mystic|SOC|[177]
 1 Aminatou, Veil Piercer|DSC|1
 1 Verge Rangers|DSC|1
-1 Arcane Denial|DSC|1
-1 Brainstorm|DSC|1
-1 Inkshield|DSC|1
+1 Arcane Denial|ALL|[22a]
+1 Brainstorm|MMQ|[61]
+1 Inkshield|SOC|[316]
 1 Otherworldly Gaze|DSC|1
-1 Return to Dust|DSC|1
-1 Swords to Plowshares|DSC|1
+1 Return to Dust|TRC|[427]
+1 Swords to Plowshares|DMR|[275]
 1 Telling Time|DSC|1
 1 Thirst for Meaning|DSC|1
 1 Utter End|DSC|1
 1 Aminatou's Augury|DSC|1
-1 Diabolic Vision|DSC|1
+1 Diabolic Vision|ICE|[284]
 1 Entreat the Angels|DSC|1
-1 Ponder|DSC|1
-1 Portent|DSC|1
-1 Read the Bones|DSC|1
+1 Ponder|TSR|[315]
+1 Portent|ICE|[90]
+1 Read the Bones|TSR|[328]
 1 Redress Fate|DSC|1
 1 Terminus|DSC|1
-1 Time Wipe|DSC|1
+1 Time Wipe|TDC|[308]
 1 Bottomless Pool|DSK|1
-1 Cast Out|DSC|1
+1 Cast Out|DRC|[64]
 1 Cramped Vents|DSC|1
-1 Extravagant Replication|DSC|1
+1 Extravagant Replication|FDN|[154]
 1 Life Insurance|DSC|1
 1 Mirrormade|DSC|1
-1 Monologue Tax|DSC|1
+1 Monologue Tax|SOC|[157]
 1 One with the Multiverse|DSC|1
 1 Secret Arcade|DSC|1
-1 Shark Typhoon|DSC|1
-1 Sigil of the Empty Throne|DSC|1
-1 Sphere of Safety|DSC|1
+1 Shark Typhoon|FRC|[44]
+1 Sigil of the Empty Throne|TSR|[301]
+1 Sphere of Safety|RVR|[447]
 1 Spirit-Sister's Call|DSC|1
 1 The Eldest Reborn|DSC|1
 1 Timely Ward|DSC|1
-1 Arcane Signet|DSC|1
-1 Azorius Signet|DSC|1
-1 Brainstone|DSC|1
-1 Commander's Sphere|DSC|1
-1 Mind Stone|DSC|1
-1 Orzhov Signet|DSC|1
-1 Sol Ring|DSC|1
-1 Adarkar Wastes|DSC|1
-1 Arcane Sanctum|DSC|1
-1 Ash Barrens|DSC|1
+1 Arcane Signet|TRC|[485]
+1 Azorius Signet|FRC|[53]
+1 Brainstone|MH2|[426]
+1 Commander's Sphere|TRC|[487]
+1 Mind Stone|DMR|[385]
+1 Orzhov Signet|TDC|[323]
+1 Sol Ring|LEB|[270]
+1 Adarkar Wastes|ICE|[351]
+1 Arcane Sanctum|TRC|[513]
+1 Ash Barrens|TDC|[339]
 1 Azorius Chancery|DSC|1
-1 Bojuka Bog|DSC|1
-1 Caves of Koilos|DSC|1
-1 Command Tower|DSC|1
+1 Bojuka Bog|TSR|[406]
+1 Caves of Koilos|APC|[140]
+1 Command Tower|TRC|[521]
 1 Dimir Aqueduct|DSC|1
-1 Evolving Wilds|DSC|1
+1 Evolving Wilds|TRC|[527]
 1 Halimar Depths|DSC|1
 1 Hall of Heliod's Generosity|DSC|1
 1 Obscura Storefront|DSC|1
-1 Orzhov Basilica|DSC|1
-1 Tainted Field|DSC|1
-1 Tainted Isle|DSC|1
-1 Temple of Deceit|DSC|1
-1 Temple of Enlightenment|DSC|1
-1 Temple of Silence|DSC|1
-1 Terramorphic Expanse|DSK|1
-1 Thriving Heath|DSC|1
-1 Thriving Isle|DSC|1
-1 Thriving Moor|DSC|1
-1 Underground River|DSC|1
-4 Island|DSK
-5 Plains|DSK
-5 Swamp|DSK
+1 Orzhov Basilica|DRC|[164]
+1 Tainted Field|TOR|[140]
+1 Tainted Isle|TOR|[141]
+1 Temple of Deceit|DRC|[176]
+1 Temple of Enlightenment|EOC|[186]
+1 Temple of Silence|SOC|[415]
+1 Terramorphic Expanse|TRC|[571]
+1 Thriving Heath|ECC|[172]
+1 Thriving Isle|ECC|[173]
+1 Thriving Moor|ECC|[174]
+1 Underground River|ICE|[362]
+4 Island|INR|[290]
+5 Plains|INR|[288]
+5 Swamp|INR|[292]

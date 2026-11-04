@@ -3,76 +3,76 @@ Name=Kura
 [Commander]
 1 Kura, the Boundless Sky|neo
 [Main]
-1 Arboreal Grazer|war
-1 Avenger of Zendikar|tdc
-1 Azusa, Lost but Seeking|chk
-1 Basilisk Collar|fdn
-1 Beast Within|eoc
-1 Beastmaster Ascension|zen
-1 Birds of Paradise|5ed
-1 Bite Down|fdn
+1 Arboreal Grazer|RVR|[343]
+1 Avenger of Zendikar|ECC|[98]
+1 Azusa, Lost but Seeking|CMM|[274]
+1 Basilisk Collar|FDC|[246]
+1 Beast Within|TSR|[357]
+1 Beastmaster Ascension|BLC|[118]
+1 Birds of Paradise|RVR|[344]
+1 Bite Down|FDC|[192]
 1 Bow of Nylea|ths
 1 Bristly Bill, Spine Sower|otj
 1 Burgeoning|sth
 1 Commander's Plate|cmr
-1 Cultivate|blc
-1 Jugan, the Rising Star|chk
+1 Cultivate|SOC|[265]
+1 Jugan, the Rising Star|IMA|[172]
 1 Myojin of Towering Might|nec
-1 Nature's Lore|eoc
-1 Three Visits|otc
-1 Kodama of the East Tree|cmr
+1 Nature's Lore|DMR|[346]
+1 Three Visits|SOC|[289]
+1 Kodama of the East Tree|BLC|[227]
 1 Jugan Defends the Temple|neo
 1 Patron of the Orochi|bok
 1 Canopy Gargantuan|tdc
 1 Spinning Wheel Kick|neo
 1 Invoke the Ancients|neo
-1 Ram Through|iko
+1 Ram Through|FDC|[221]
 1 Boseiju Reaches Skyward|neo
 1 Dust Bowl|mmq
 1 Exploration|dmr
-1 Explore|mm3
-1 Ezuri's Predation|dsc
-27 Forest|neo|[302]
-1 Forgotten Ancient|c15
-1 Fyndhorn Elves|cmr
-1 Garruk's Packleader|blc
-1 Garruk's Uprising|wot
+1 Explore|J25|[146]
+1 Ezuri's Predation|FDC|[203]
+27 Forest|INR|[296]
+1 Forgotten Ancient|DMR|[341]
+1 Fyndhorn Elves|ICE|[244]
+1 Garruk's Packleader|FDC|[205]
+1 Garruk's Uprising|ECC|[109]
 1 Glacier Godmaw|eoe
-1 Goreclaw, Terror of Qal Sisma|blc
-1 Guildless Commons|cmm
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
+1 Guildless Commons|CMR|[351]
 1 Heaped Harvest|blb
-1 Kodama's Reach|tdc
+1 Kodama's Reach|ECC|[113]
 1 Life's Legacy|ncc
-1 Llanowar Elves|m11
+1 Llanowar Elves|LEB|[211]
 1 Maze of Ith|dmr
 1 Mightform Harmonizer|eoe
-1 Migration Path|iko
+1 Migration Path|TDC|[262]
 1 Mossborn Hydra|fdn
 1 Mosswort Bridge|tdc
 1 Myriad Landscape|eoc
 1 Obscuring Haze|cmm
-1 Ohran Frostfang|otc
+1 Ohran Frostfang|SOC|[279]
 1 Oviya, Automech Artisan|dft
-1 Pest Infestation|otp
+1 Pest Infestation|SOC|[282]
 1 Preposterous Proportions|fdn
-1 Primeval Bounty|fdn
+1 Primeval Bounty|J25|[701]
 1 Rampaging Baloths|eoc
-1 Rampant Growth|lcc
-1 Rancor|m13
-1 Reliquary Tower|tdc
-1 Rogue's Passage|rtr
-1 Sakura-Tribe Elder|chk
+1 Rampant Growth|TMP|[245]
+1 Rancor|ULG|[110]
+1 Reliquary Tower|TRC|[551]
+1 Rogue's Passage|TRC|[552]
+1 Sakura-Tribe Elder|SOC|[285]
 1 Sakura-Tribe Scout|sok
 1 Sandwurm Convergence|dsc
-1 Scavenger Grounds|eos
-1 Sol Ring|dmc
+1 Scavenger Grounds|FDC|[311]
+1 Sol Ring|LEB|[270]
 1 Spelunking|lci
 1 Temple of the False God|scg
-1 Thought Vessel|cmm
-1 Tireless Provisioner|blc
+1 Thought Vessel|TRC|[509]
+1 Tireless Provisioner|J25|[728]
 1 Tireless Tracker|eoc
 1 Unnatural Growth|inr
 1 Up the Beanstalk|woe
 1 Vibrant Cityscape|tmc
-1 War Room|mkc
+1 War Room|SOC|[422]
 1 Wayward Swordtooth|lcc

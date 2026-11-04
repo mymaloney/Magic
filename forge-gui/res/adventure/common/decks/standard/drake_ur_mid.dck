@@ -1,19 +1,19 @@
 [metadata]
 Name=Amonkhet - Drakes 3 mid
 [Main]
-4 Abrade|SCD|1
-3 Alandra, Sky Dreamer|J22|1
-3 Compulsive Research|E01|1
-3 Crackling Drake|GRN|1
-4 Enigma Drake|AKR|1
-4 Faithless Looting|DKA|1
+4 Abrade|TRC|[449]
+3 Alandra, Sky Dreamer|MKC|[94]
+3 Compulsive Research|RVR|[311]
+3 Crackling Drake|RVR|[362]
+4 Enigma Drake|FDN|[657]
+4 Faithless Looting|SOC|[244]
 4 Force Away|KTK|1
-4 Incubation // Incongruity|RNA|1
-8 Island|AKR|4
-4 Izzet Charm|RTR|1
-8 Mountain|AKR|4
-4 Steam Vents|RTR|1
-4 Stormcarved Coast|VOW|1
-3 Talrand, Sky Summoner|M13|1
+4 Incubation // Incongruity|CLU|[197]
+8 Island|INR|[290]
+4 Izzet Charm|RVR|[368]
+8 Mountain|INR|[294]
+4 Steam Vents|RVR|[412]
+4 Stormcarved Coast|SOS|[263]
+3 Talrand, Sky Summoner|TSR|[318]
 [Sideboard]
 [Schemes]

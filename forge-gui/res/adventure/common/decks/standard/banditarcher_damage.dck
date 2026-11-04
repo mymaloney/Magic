@@ -1,30 +1,30 @@
 [metadata]
 Name=Hellboy 2
 [Main]
-5 Swamp
-7 Mountain
-3 Blackcleave Cliffs
-3 Dragonskull Summit
-1 Blood Crypt
-4 Bloodstained Mire
-1 Stensia Bloodhall
-4 Bump in the Night
-4 Lava Spike
-3 Flame Jet
-1 Lava Blister
-1 Molten Influence
-1 Smash to Smithereens
-2 Blightning
-2 Flames of the Blood Hand
-2 Pulse of the Forge
-1 Sizzle
-2 Poison the Well
-3 Scorching Missile
-3 Breath of Malfegor
-1 Burning Fields
-1 Lava Axe
-1 Kiss of Death
-1 Stolen Grain
-2 Curse of Bloodletting
-1 Fire Servant
+5 Swamp|INR|[292]
+7 Mountain|INR|[294]
+3 Blackcleave Cliffs|DSC|[263]
+3 Dragonskull Summit|TRC|[375]
+1 Blood Crypt|RVR|[397]
+4 Bloodstained Mire|MH3|[435]
+1 Stensia Bloodhall|SCD|[320]
+4 Bump in the Night|DDK|[57]
+4 Lava Spike|TSR|[347]
+3 Flame Jet|UDS|[81]
+1 Lava Blister|ODY|[200]
+1 Molten Influence|ODY|[207]
+1 Smash to Smithereens|PIO|[343]
+2 Blightning|A25|[198]
+2 Flames of the Blood Hand|BOK|[101]
+2 Pulse of the Forge|DST|[66]
+1 Sizzle|MMQ|[213]
+2 Poison the Well|SHM|[193]
+3 Scorching Missile|ODY|[219]
+3 Breath of Malfegor|SCD|[218]
+1 Burning Fields|PTK|[103]
+1 Lava Axe|ULG|[84]
+1 Kiss of Death|PO2|[76]
+1 Stolen Grain|PTK|[83]
+2 Curse of Bloodletting|DKA|[85]
+1 Fire Servant|M11|[137]
 [Sideboard]

@@ -1,13 +1,13 @@
 [metadata]
 Name=White Knight 2
 [Main]
-19 Plains|ONS|3
+19 Plains|INR|[288]
 2 Knight Errant|POR
-3 Holy Day|LEG
+3 Holy Day|INV|[20]
 3 Piety Charm|ONS
-3 Serra's Blessing|6ED
+3 Serra's Blessing|WTH|[25]
 4 Aven Cloudchaser|ODY
 4 Exalted Angel|ONS
-4 Gallantry|TMP
+4 Gallantry|ODY|[23]
 4 Path of Peace|USG
-4 White Knight|LEB
+4 White Knight|LGN|[27]

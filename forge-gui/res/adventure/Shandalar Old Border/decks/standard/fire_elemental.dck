@@ -1,17 +1,17 @@
 [metadata]
 Name=fire_elemental
 [Main]
-1 Forest|4ED|3
-13 Mountain|4ED|3
-2 Earthquake|4ED
+1 Forest|INR|[296]
+13 Mountain|INR|[294]
+2 Earthquake|PO2|[94]
 2 Firestorm|WTH
-2 Hurricane|4ED
-2 Wheel of Fortune|LEA
-4 Earth Elemental|4ED
-4 Fire Elemental|4ED
-4 Incinerate|DKM
+2 Hurricane|PO2|[129]
+2 Wheel of Fortune|LEB|[184]
+4 Earth Elemental|LEB|[145]
+4 Fire Elemental|LEB|[149]
+4 Incinerate|MIR|[184]
 4 Karplusan Forest|ICE
-4 Lightning Bolt|4ED
+4 Lightning Bolt|LEB|[162]
 4 Shatter|TMP
-4 Stone Rain|4ED
+4 Stone Rain|MMQ|[215]
 4 Sulfur Vent|INV

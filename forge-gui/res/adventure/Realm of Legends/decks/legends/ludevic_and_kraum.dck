@@ -5,71 +5,71 @@ Name=Ludevic and Kraum
 1 Kraum, Ludevic's Opus|C16
 [Main]
 1 Aetherspouts|MIC
-1 Arcane Bombardment|SNC
-1 Arcane Signet|TDC
+1 Arcane Bombardment|OTC|[154]
+1 Arcane Signet|TRC|[485]
 1 Beacon Bolt|GRN
 1 Cleaver Skaab|MIC
-1 Coat of Arms|9ED
-1 Comet Storm|C17
-1 Command Tower|MIC
-1 Counterspell|TMP
-1 Deadapult|DMR
+1 Coat of Arms|EXO|[131]
+1 Comet Storm|CMR|[411]
+1 Command Tower|TRC|[521]
+1 Counterspell|DMR|[281]
+1 Deadapult|PLS|[59]
 1 Displace|EMN
-1 Dreadhorde Arcanist|J25
+1 Dreadhorde Arcanist|TSR|[341]
 1 Dreadhorde Twins|WAR
 1 Empty the Laboratory|MIC
 1 Eternal Skylord|DRC
 1 Flare of Denial|MH3
-1 Flip the Switch|MID
+1 Flip the Switch|DBL|[54]
 1 Font of Magic|CLB
 1 Geralf, the Fleshwright|OTJ
-1 Geralf, Visionary Stitcher|VOW
+1 Geralf, Visionary Stitcher|DBL|[328]
 1 God-Eternal Kefnet|WAR
-1 Grimoire of the Dead|ISD
+1 Grimoire of the Dead|SCD|[265]
 1 Halo-Charged Skaab|MOM
 1 Hordewing Skaab|MIC
 1 Hour of Eternity|MIC
 1 Invade the City|WAR
 1 Invert Polarity|MH3
-19 Island|MID
+19 Island|INR|[290]
 1 Izzet Boilerworks|M3C
-1 Undead Alchemist|ISD
-1 Arcane Denial|C13
-1 Patchwork Crawler|VOW
-1 Reflections of Littjara|KHM
+1 Undead Alchemist|MIC|[105]
+1 Arcane Denial|ALL|[22a]
+1 Patchwork Crawler|DBL|[339]
+1 Reflections of Littjara|TDC|[164]
 1 Lier, Disciple of the Drowned|TDC
 1 Fatestitcher|ALA
 1 Compelling Deterrence|INR
-1 Patchwork Banner|BLB
+1 Patchwork Banner|SOC|[353]
 1 Karfell Harbinger|KHM
 1 Kraum, Violent Cacophony|OTJ
-1 Lazotep Plating|WAR
-1 Lightning Bolt|M10
-1 Metallic Mimic|LCC
-1 Mizzium Mortars|C15
-12 Mountain|MID
+1 Lazotep Plating|SCD|[57]
+1 Lightning Bolt|LEB|[162]
+1 Metallic Mimic|INR|[445]
+1 Mizzium Mortars|PIO|[376]
+12 Mountain|INR|[294]
 1 Narset's Reversal|TDC
 1 Necroduality|INR
 1 Neheb, Dreadhorde Champion|DMC
 1 Neheb, the Eternal|MKC
-1 Path of Ancestry|M3C
-1 Poppet Stitcher|MID
-1 Propaganda|C13
+1 Path of Ancestry|TRC|[545]
+1 Poppet Stitcher|DBL|[71]
+1 Propaganda|TMP|[80]
 1 Prophet of the Scarab|DRC
-1 Reliquary Tower|TDC
-1 Repository Skaab|VOW
-1 Rise from the Tides|UMA
-1 Rite of Replication|ZEN
+1 Reliquary Tower|TRC|[551]
+1 Repository Skaab|DBL|[340]
+1 Rise from the Tides|INR|[366]
+1 Rite of Replication|SOC|[202]
 1 Rooftop Storm|INR
-1 Shivan Reef|TDC
-1 Snap|DMR
-1 Sol Ring|TDC
-1 Spelltwine|DDM
-1 Steam Vents|RTR
+1 Shivan Reef|APC|[142]
+1 Snap|ULG|[43]
+1 Sol Ring|LEB|[270]
+1 Spelltwine|C17|[94]
+1 Steam Vents|RVR|[412]
 1 Stitcher Geralf|CMM
-1 Sulfur Falls|TDC
+1 Sulfur Falls|DMR|[400]
 1 Swarm Intelligence|C21
-1 Talisman of Creativity|TDC
-1 Thought Vessel|BLC
+1 Talisman of Creativity|TRC|[504]
+1 Thought Vessel|TRC|[509]
 1 Wildfire Eternal|HOU
 1 Wizard's Lightning|DOM

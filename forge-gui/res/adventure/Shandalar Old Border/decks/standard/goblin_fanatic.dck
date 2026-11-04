@@ -1,18 +1,18 @@
 [metadata]
 Name=goblin_fanatic
 [Main]
-1 Plains|USG|3
-15 Mountain|USG|3
+1 Plains|INR|[288]
+15 Mountain|INR|[294]
 2 Goblin Burrows|ONS
 2 Goblin Cadets|USG
-2 Goblin King|ATH
+2 Goblin King|LEB|[155]
 2 Goblin Trenches|APC
-2 Mogg Flunkies|ATH
+2 Mogg Flunkies|STH|[92]
 2 Mogg Maniac|STH
 2 Sulfur Vent|INV
 4 Battlefield Forge|APC
-4 Fireblast|VIS
-4 Goblin Grenade|ATH
+4 Fireblast|DMR|[319]
+4 Goblin Grenade|FEM|[56a]
 4 Goblin Piledriver|ONS
 4 Goblin Sledder|ONS
 4 Incinerate|MIR

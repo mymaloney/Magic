@@ -4,20 +4,20 @@ Name=Aerid Konstrari
 1 Aerid Konstrari|fra
 [Main]
 1 Anzrag, the Quake-Mole|mkm
-1 Arcane Signet|frc
-1 Beast Within|nph
-1 Big Score|snc
+1 Arcane Signet|TRC|[485]
+1 Beast Within|TSR|[357]
+1 Big Score|SOC|[237]
 1 Birds of Paradise|rvr
 1 Bolt Bend|fdn
-1 Bootleggers' Stash|snc
+1 Bootleggers' Stash|DRC|[110]
 1 Brass Knuckles|cmm
 1 Chandra, Flameshaper|fdn
-1 Chaos Warp|eoc
+1 Chaos Warp|MBC|[72]
 1 Chiss-Goria, Forge Tyrant|onc
-1 Combustible Gearhulk|kld
-1 Command Tower|frc
+1 Combustible Gearhulk|DRC|[102]
+1 Command Tower|TRC|[521]
 1 Craterclaw Colossus|fra
-1 Darksteel Citadel|brc
+1 Darksteel Citadel|FDC|[300]
 1 Darksteel Forge|2xm
 1 Decimate|dmr
 1 Demand Answers|mkm
@@ -25,31 +25,31 @@ Name=Aerid Konstrari
 1 Devastating Onslaught|eoe
 1 Dowsing Device|lci
 1 Echoing Assault|blc
-1 Eternal Witness|cmm
-1 Exotic Orchard|blc
+1 Eternal Witness|TSR|[361]
+1 Exotic Orchard|TRC|[378]
 1 Fanatic of Rhonas|mh3
-1 Farseek|rav
-1 Copperline Gorge|one
-1 Fog|ema
-4 Forest|fra|[394]
-4 Forest|fra|[395]
-3 Forest|fra|[396]
-1 Slagwoods Bridge|mh2
+1 Farseek|RVR|[347]
+1 Copperline Gorge|BLC|[301]
+1 Fog|MIR|[216]
+4 Forest|INR|[296]
+4 Forest|INR|[296]
+3 Forest|INR|[296]
+1 Slagwoods Bridge|DRC|[171]
 1 Furnace Hellkite|mh3
-1 Garruk's Uprising|wot
-1 Ghalta, Primal Hunger|fdn
-1 Great Furnace|mrd
+1 Garruk's Uprising|ECC|[109]
+1 Ghalta, Primal Hunger|FDC|[8]
+1 Great Furnace|EOC|[161]
 1 Talisman of Impulse|tdc
-1 Hellkite Igniter|brc
+1 Hellkite Igniter|MOC|[284]
 1 Herd Heirloom|tdm
-1 Heroic Intervention|aer
-1 Karplusan Forest|prm
+1 Heroic Intervention|CMM|[295]
+1 Karplusan Forest|ICE|[356]
 1 Kediss, Emberclaw Familiar|cmr
-1 Kodama's Reach|chk
-1 Lightning Greaves|mrd
-1 Wurmcoil Engine|2x2
+1 Kodama's Reach|ECC|[113]
+1 Lightning Greaves|TRC|[496]
+1 Wurmcoil Engine|2XM|[308]
 1 Mage Slayer|nec
-1 Verdurous Gearhulk|kld
+1 Verdurous Gearhulk|MIC|[145]
 1 Pyrewood Gearhulk|dft
 1 Hungering Puppetbeast|fra
 1 Ajani's Anguish|fra
@@ -60,27 +60,27 @@ Name=Aerid Konstrari
 1 Woodwork Prodigy|fra
 1 Meria, Scholar of Antiquity|dmu
 1 Konstrari Annex|fra
-5 Mountain|fra|[391]
-4 Mountain|fra|[392]
-4 Mountain|fra|[393]
+5 Mountain|INR|[294]
+4 Mountain|INR|[294]
+4 Mountain|INR|[294]
 1 Rockfall Vale|fra
-1 Pathbreaker Ibex|c15
-1 Reckless Fireweaver|kld
-1 Rogue's Passage|ncc
-1 Rootbound Crag|xln
+1 Pathbreaker Ibex|CMA|[132]
+1 Reckless Fireweaver|DRC|[106]
+1 Rogue's Passage|TRC|[552]
+1 Rootbound Crag|ECC|[163]
 1 Roxanne, Starfall Savant|otj
 1 Ruin Grinder|c21
 1 Sandstorm Crasher|j25
 1 Sarinth Greatwurm|bro
-1 Skarrg, the Rage Pits|ddl
-1 Sol Ring|frc
-1 Solemn Simulacrum|nec
-1 Stomping Ground|prm
+1 Skarrg, the Rage Pits|PCA|[127]
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
+1 Stomping Ground|RVR|[413]
 1 Sunder Shaman|rvr
 1 Svella, Ice Shaper|khm
-1 Tamiyo's Safekeeping|neo
+1 Tamiyo's Safekeeping|FDC|[233]
 1 Tenured Tethermage|fra
-1 The Great Henge|eld
-1 The Immortal Sun|cmm
-1 Tree of Tales|mrd
-1 Vandalblast|cmm
+1 The Great Henge|CMM|[294]
+1 The Immortal Sun|TRC|[347]
+1 Tree of Tales|DSC|[319]
+1 Vandalblast|TSR|[352]

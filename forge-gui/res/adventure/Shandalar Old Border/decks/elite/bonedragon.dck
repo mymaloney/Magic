@@ -1,25 +1,25 @@
 [metadata]
 Name=Bone Dragon
 [Main]
-10 Mountain|LEB|3
-10 Swamp|LEB|3
+10 Mountain|INR|[294]
+10 Swamp|INR|[292]
 4 Sulfurous Springs|ICE
 2 Bladewing the Risen|SCG
-2 Volcanic Dragon|MIR
+2 Volcanic Dragon|POR|[153]
 2 Catacomb Dragon|MIR
 2 Ebon Dragon|POR
-2 Shivan Dragon|7ED
+2 Shivan Dragon|DMR|[329]
 2 Fledgling Dragon|JUD
-2 Incinerate|ICE
+2 Incinerate|MIR|[184]
 2 Fire Covenant|ICE
 2 Torrent of Fire|SCG
 4 Drudge Skeletons|LEB
 2 Vampiric Dragon|ODY
-4 Wall of Bone|LEA
-4 Duress|7ED
-4 Dark Ritual|LEB
+4 Wall of Bone|LEB|[133]
+4 Duress|DMR|[303]
+4 Dark Ritual|MMQ|[129]
 
 [StartInBattle_Reference]
 1 Bladewing's Thrall|SCG
 1 Dragonspeaker Shaman|SCG
-1 Wall of Bone|LEA
+1 Wall of Bone|LEB|[133]

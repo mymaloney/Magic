@@ -1,27 +1,27 @@
 [metadata]
 Name=The Sainted One
 [Main]
-2 Personal Incarnation|LEA
+2 Personal Incarnation|LEB|[32]
 3 Rainbow Knights|PAST
-2 Serra Angel|LEA
-3 White Knight|LEA
-1 Disenchant|LEA
-2 Swords to Plowshares|LEA
-3 Armageddon|LEA
-1 Balance|LEA
+2 Serra Angel|DMR|[271]
+3 White Knight|LGN|[27]
+1 Disenchant|MMQ|[18]
+2 Swords to Plowshares|DMR|[275]
+3 Armageddon|PO2|[12]
+1 Balance|LEB|[3]
 3 Armageddon Clock|ATQ
-1 Black Lotus|LEA
+1 Black Lotus|LEB|[233]
 3 Bottle of Suleiman|ARN
-3 Dingus Egg|LEA
-1 Mox Pearl|LEA
-1 Sol Ring|LEA
+3 Dingus Egg|LEB|[242]
+1 Mox Pearl|LEB|[264]
+1 Sol Ring|LEB|[270]
 2 White Mana Battery|LEG
-2 Blessing|LEA
+2 Blessing|LEB|[7]
 4 Circle of Protection: Artifacts|ATQ
-22 Plains|LEA
+22 Plains|INR|[288]
 1 Mishra's Workshop|ATQ
 
 [StartInBattle_Reference]
-1 Mox Pearl|LEA
+1 Mox Pearl|LEB|[264]
 1 Rainbow Knights|PAST
-1 White Knight|LEA
+1 White Knight|LGN|[27]

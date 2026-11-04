@@ -1,22 +1,22 @@
 [metadata]
 Name=The Great Druid
 [Main]
-3 Birds of Paradise|LEA
-3 Gaea's Liege|LEA
+3 Birds of Paradise|RVR|[344]
+3 Gaea's Liege|LEB|[197]
 4 Killer Bees|LEG
-3 Llanowar Elves|LEA
-2 Verduran Enchantress|LEA
-3 Desert Twister|ARN
-3 Stream of Life|LEA
-3 Untamed Wilds|LEG
-3 Jayemdae Tome|LEA
-4 Aspect of Wolf|LEA
-3 Instill Energy|LEA
-2 Living Artifact|LEA
-2 Living Lands|LEA
-22 Forest|LEA
+3 Llanowar Elves|LEB|[211]
+2 Verduran Enchantress|LEB|[223]
+3 Desert Twister|MMQ|[243]
+3 Stream of Life|LEB|[218]
+3 Untamed Wilds|PO2|[149]
+3 Jayemdae Tome|LEB|[255]
+4 Aspect of Wolf|LEB|[185]
+3 Instill Energy|LEB|[203]
+2 Living Artifact|LEB|[209]
+2 Living Lands|LEB|[210]
+22 Forest|INR|[296]
 
 [StartInBattle_Reference]
-1 Mox Emerald|LEA
-1 Llanowar Elves|LEA
+1 Mox Emerald|LEB|[262]
+1 Llanowar Elves|LEB|[211]
 1 Killer Bees|LEG

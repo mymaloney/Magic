@@ -3,17 +3,17 @@ Name=Sliver_Green
 [Main]
 1 Yavimaya Coast|APC
 2 Brushland|ICE
-3 Mountain|TMP
-3 Swamp|TMP
+3 Mountain|INR|[294]
+3 Swamp|INR|[292]
 4 Adarkar Wastes|ICE
 4 Crystalline Sliver|STH
 4 Cursed Totem|MIR
 4 Essence Sliver|LGN
-4 Forest|TMP
+4 Forest|INR|[296]
 4 Hibernation Sliver|STH
-4 Island|TMP
+4 Island|INR|[290]
 4 Muscle Sliver|TMP
 4 Sliver Queen|STH
 4 Spined Sliver|STH
 4 Ward Sliver|LGN
-5 Plains|TMP
+5 Plains|INR|[288]

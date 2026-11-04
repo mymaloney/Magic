@@ -1,100 +1,100 @@
 [metadata]
 Name=Sliver Hivelord
 [Commander]
-1 Sliver Hivelord|cmm
+1 Sliver Hivelord|M15|[211]
 [Main]
-1 Akroma's Will|lcc
-1 Arcane Denial|drc
-1 Arcane Signet|otc
+1 Akroma's Will|M3C|[165]
+1 Arcane Denial|ALL|[22a]
+1 Arcane Signet|TRC|[485]
 1 Arid Mesa|mh2
-1 Rampant Growth|10e
-1 Blasphemous Act|lcc
+1 Rampant Growth|TMP|[245]
+1 Blasphemous Act|SOC|[238]
 1 Bloodline Bidding|ecl
 1 Bloodstained Mire|mh3
-1 Bloom Tender|2x2
-1 Bonescythe Sliver|cmm
-1 Breeding Pool|eoe
+1 Bloom Tender|ECL|[166]
+1 Bonescythe Sliver|M14|[9]
+1 Breeding Pool|RVR|[399]
 1 Case of the Shattered Pact|mkm
 1 Cavern of Souls|lci
-1 Sol Ring|ecc
-1 Cleansing Nova|cmm
-1 Cloudshredder Sliver|cmm
-1 Command Tower|lcc
-1 Constricting Sliver|cmm
-1 Crystalline Sliver|cmm
-1 Culling Ritual|dsc
-1 Damn|lcc
+1 Sol Ring|LEB|[270]
+1 Cleansing Nova|FDC|[20]
+1 Cloudshredder Sliver|TSR|[373]
+1 Command Tower|TRC|[521]
+1 Constricting Sliver|M15|[7]
+1 Crystalline Sliver|STH|[127]
+1 Culling Ritual|SOC|[302]
+1 Damn|MH2|[396]
 1 Deadly Rollick|cmm
-1 Diffusion Sliver|cmm
-1 Austere Command|mkc
-1 Farseek|eoc
+1 Diffusion Sliver|M15|[50]
+1 Austere Command|FDC|[18]
+1 Farseek|RVR|[347]
 1 Finale of Devastation|cmm
 1 Flooded Strand|mh3
-1 Forest|lci
-1 Galerider Sliver|cmm
-1 Gemhide Sliver|cmm
+1 Forest|INR|[296]
+1 Galerider Sliver|M14|[57]
+1 Gemhide Sliver|TSR|[205]
 1 Gemstone Caverns|tsr
-1 Godless Shrine|eoe
-1 Guardian Project|rna
+1 Godless Shrine|RVR|[401]
+1 Guardian Project|RVR|[349]
 1 Hallowed Fountain|rvr
-1 Harmonic Sliver|cmm
-1 Hibernation Sliver|cmm
+1 Harmonic Sliver|TSR|[254]
+1 Hibernation Sliver|STH|[128]
 1 Homing Sliver|tsr
 1 Hunter Sliver|lgn
 1 Indatha Triome|iko
-1 Island|lci
+1 Island|INR|[290]
 1 Jetmir's Garden|snc
 1 Ketria Triome|iko
 1 Magma Sliver|lgn
-1 Mana Drain|2x2
-1 Manaweft Sliver|cmm
+1 Mana Drain|LEG|[65]
+1 Manaweft Sliver|M14|[184]
 1 Marsh Flats|mh2
-1 Megantic Sliver|cmm
+1 Megantic Sliver|M14|[185]
 1 Misty Rainforest|mh2
-1 Morophon, the Boundless|cmm
-1 Mountain|lci
-1 Nature's Lore|cmm
-1 Necrotic Sliver|cmm
+1 Morophon, the Boundless|M3C|[157]
+1 Mountain|INR|[294]
+1 Nature's Lore|DMR|[346]
+1 Necrotic Sliver|AFC|[188]
 1 Overgrown Tomb|rvr
-1 Plains|lci
+1 Plains|INR|[288]
 1 Polluted Delta|mh3
 1 Raugrin Triome|iko
-1 Realmwalker|lcc
+1 Realmwalker|ECC|[114]
 1 Sacred Foundry|rvr
-1 Sakura-Tribe Elder|tdc
+1 Sakura-Tribe Elder|SOC|[285]
 1 Savai Triome|iko
 1 Scalding Tarn|mh2
-1 Sentinel Sliver|cmm
-1 Shifting Sliver|cmm
-1 Skyshroud Claim|eoc
+1 Sentinel Sliver|M14|[30]
+1 Shifting Sliver|LGN|[52]
+1 Skyshroud Claim|NMS|[117]
 1 Smothering Tithe|cmm
 1 Spara's Headquarters|snc
-1 Spiteful Sliver|cmm
+1 Spiteful Sliver|MH1|[148]
 1 Stomping Ground|rvr
-1 Swamp|lci
-1 Syphon Sliver|cmm
+1 Swamp|INR|[292]
+1 Syphon Sliver|M14|[117]
 1 Teferi's Protection|2x2
-1 Temple Garden|grn
-1 The First Sliver|mh1
+1 Temple Garden|RVR|[414]
+1 The First Sliver|H1R|[26]
 1 The Great Henge|cmm
-1 Overwhelming Stampede|m11
-1 Supreme Verdict|rtr
-1 Eldrazi Monument|zen
+1 Overwhelming Stampede|FDC|[218]
+1 Supreme Verdict|RVR|[461]
+1 Eldrazi Monument|M3C|[290]
 1 Bonds of Mortality|ogw
 1 Deflecting Swat|cmm
-1 Bolt Bend|war
+1 Bolt Bend|FDN|[619]
 1 Fracturing Gust|shm
 1 An Offer You Can't Refuse|fdn
 1 Begin Anew|ymid
 1 Boundless Realms|m13
 1 Clever Concealment|onc
-1 Three Visits|otc
+1 Three Visits|SOC|[289]
 1 Thrumming Hivepool|eoe
 1 Titan of Littjara|cmm
-1 Two-Headed Sliver|cmm
-1 Wayfarer's Bauble|5dn
-1 Vanquish the Horde|mid
-1 Venom Sliver|cmm
+1 Two-Headed Sliver|TSR|[197]
+1 Wayfarer's Bauble|TRC|[511]
+1 Vanquish the Horde|TRC|[245]
+1 Venom Sliver|M15|[205]
 1 Verdant Catacombs|mh2
 1 Ward Sliver|lgn
 1 Windswept Heath|mh3

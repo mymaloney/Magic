@@ -3,9 +3,9 @@ Name=Karn, Gilded Guardian
 [Commander]
 1 Karn, Gilded Guardian|fra
 [Main]
-1 Alibou, Ancient Witness|c21
+1 Alibou, Ancient Witness|EOC|[113]
 1 Ancient Cornucopia|big
-1 Arcane Signet|frc
+1 Arcane Signet|TRC|[485]
 1 Brightglass Gearhulk|dft
 1 Sphinx of the Guildpact|2xm
 1 Pinnacle Emissary|eoe
@@ -17,84 +17,84 @@ Name=Karn, Gilded Guardian
 1 Craftwork Crusher|fra
 1 Solitary Cell|fra
 1 The Reaper, King No More|ecc
-1 Baleful Strix|otc
+1 Baleful Strix|BLC|[86]
 1 Breya, Etherium Shaper|mh3
-1 Chromatic Lantern|drc
+1 Chromatic Lantern|RVR|[390]
 1 Coalstoke Gearhulk|dft
-1 Command Tower|frc
+1 Command Tower|TRC|[521]
 1 Court of Vantress|woc
-1 Deserted Beach|inr
-1 Dragon Arch|2x2
+1 Deserted Beach|FRA|[176]
+1 Dragon Arch|APC|[135]
 1 Enigma Sphinx|c18
-1 Enthusiastic Mechanaut|neo
-1 Etherium Sculptor|ala
-1 Exotic Orchard|tdc
-1 Faeburrow Elder|tdc
+1 Enthusiastic Mechanaut|EOC|[114]
+1 Etherium Sculptor|EOC|[72]
+1 Exotic Orchard|TRC|[378]
+1 Faeburrow Elder|ECC|[53]
 1 Fallaji Wayfarer|dmc
 1 Organic Extinction|eoc
-1 Fellwar Stone|tdc
-1 Forest|fra
-1 Foundry Inspector|cmm
+1 Fellwar Stone|DRK|[102]
+1 Forest|INR|[296]
+1 Foundry Inspector|FDC|[259]
 1 General Ferrous Rokiric|mh2
 1 Glen Elendra Liege|woc
 1 Goldmire Bridge|moc
 1 Infinite Guideline Station|eoe
 1 Inspirit, Flagship Vessel|eoc
 1 Inventors' Fair|kld
-2 Island|fra
-1 Jhoira, Weatherlight Captain|2xm
+2 Island|INR|[290]
+1 Jhoira, Weatherlight Captain|EOC|[118]
 1 Kilo, Apogee Mind|eoc
 1 Knight of New Alara|dmc
-1 Lux Artillery|onc
+1 Lux Artillery|EOC|[140]
 1 Magister Sphinx|2x2
 1 Mana Cannons|dmc
 1 Master's Guide-Mural|lci
 1 Mendicant Core, Guidelight|dft
-1 Mistvault Bridge|mh2
-2 Mountain|fra
+1 Mistvault Bridge|BRC|[189]
+2 Mountain|INR|[294]
 1 Oildeep Gearhulk|dft
-2 Plains|fra
+2 Plains|INR|[288]
 1 Platoon Dispenser|bro
 1 Pyrewood Gearhulk|dft
-1 Razortide Bridge|mh2
-1 Path of Ancestry|lcc
+1 Razortide Bridge|EOC|[171]
+1 Path of Ancestry|TRC|[545]
 1 Rienne, Angel of Rebirth|dmc
 1 Riptide Gearhulk|dft
-1 Rustvale Bridge|mh2
+1 Rustvale Bridge|EOC|[175]
 1 Salvation Engine|dft
-1 Sharuum the Hegemon|v11
-1 Shattered Sanctum|tdc
-1 Shipwreck Marsh|inr
-1 Darkmoss Bridge|mh2
-1 Drossforge Bridge|mh2
+1 Sharuum the Hegemon|BRC|[128]
+1 Shattered Sanctum|SOS|[260]
+1 Shipwreck Marsh|FRA|[189]
+1 Darkmoss Bridge|DSC|[269]
+1 Drossforge Bridge|BRC|[183]
 1 Thornglint Bridge|mh2
-1 Tanglepool Bridge|mh2
-1 Slagwoods Bridge|mh2
-1 Silverbluff Bridge|mh2
-1 Arcane Sanctum|ala
-1 Savage Lands|ala
-1 Jungle Shrine|ala
-1 Seaside Citadel|ala
-1 Crumbling Necropolis|ala
-1 Frontier Bivouac|ktk
-1 Opulent Palace|ktk
-1 Mystic Monastery|ktk
-1 Sandsteppe Citadel|ktk
-1 Nomad Outpost|ktk
-1 Sol Ring|frc
+1 Tanglepool Bridge|DRC|[175]
+1 Slagwoods Bridge|DRC|[171]
+1 Silverbluff Bridge|EOC|[180]
+1 Arcane Sanctum|TRC|[513]
+1 Savage Lands|ECC|[165]
+1 Jungle Shrine|ECC|[154]
+1 Seaside Citadel|ECC|[166]
+1 Crumbling Necropolis|LCC|[326]
+1 Frontier Bivouac|ECC|[150]
+1 Opulent Palace|ECC|[157]
+1 Mystic Monastery|TRC|[543]
+1 Sandsteppe Citadel|ECC|[164]
+1 Nomad Outpost|TRC|[544]
+1 Sol Ring|LEB|[270]
 1 Solar Array|eoc
 1 Sphinx of the Steel Wind|ema
 1 Sphinx Sovereign|ala
 1 Sphinx Summoner|2xm
-1 Stormcarved Coast|inr
+1 Stormcarved Coast|SOS|[263]
 1 Sunbird Standard|lci
-1 Sundown Pass|inr
-2 Swamp|acr
+1 Sundown Pass|SOS|[264]
+2 Swamp|INR|[292]
 1 Terisiare's Devastation|brc
 1 The Mana Rig|dmc
-1 Thought Monitor|j25
+1 Thought Monitor|EOC|[79]
 1 Tome of the Guildpact|rna
 1 Urza, Chief Artificer|brc
 1 Urza, Prince of Kroog|bro
 1 Urza's Filter|inv
-1 Vandalblast|otc
+1 Vandalblast|TSR|[352]

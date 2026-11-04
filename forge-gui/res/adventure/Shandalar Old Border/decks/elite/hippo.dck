@@ -1,22 +1,22 @@
 [metadata]
 Name=hippo
 [Main]
-4 Island|POR
-4 Plains|POR
+4 Island|INR|[290]
+4 Plains|INR|[288]
 4 Brushland|ICE
 4 Yavimaya Coast|APC
 4 Adarkar Wastes|ICE
-3 Forest|POR
+3 Forest|INR|[296]
 1 Yavimaya Hollow|UDS
 4 Pygmy Hippo|VIS
-4 Bull Hippo|POR
+4 Bull Hippo|USG|[239]
 4 Questing Phelddagrif|PLS
 2 Phelddagrif|ALL
 2 Seedtime|JUD
 4 Treva's Charm|PLS
 4 Rancor|ULG
 4 Armadillo Cloak|INV
-4 Swords to Plowshares|ICE
+4 Swords to Plowshares|DMR|[275]
 4 Arcane Denial|ALL
 
 [StartInBattle_Reference]

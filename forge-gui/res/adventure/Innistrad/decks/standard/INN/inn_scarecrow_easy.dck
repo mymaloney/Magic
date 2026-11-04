@@ -3,21 +3,21 @@ Name=INN_scarecrow_easy
 [Avatar]
 
 [Main]
-2 Crossroads Candleguide|MID|1
-4 Field Creeper|EMN|1
+2 Crossroads Candleguide|DBL|[253]
+4 Field Creeper|M19|[234]
 1 Geist-Fueled Scarecrow|EMN|1
-3 Harvest Hand|SOI|1
+3 Harvest Hand|INR|[265]
 2 One-Eyed Scarecrow|ISD|1
 1 Scarecrone|JMP|1
-2 Traveler's Amulet|ISD|1
-3 Scarecrow|ME4|1
-2 Wild-Field Scarecrow|SOI|1
-2 Jack-o'-Lantern|MID|1
+2 Traveler's Amulet|INR|[273]
+3 Scarecrow|DRK|[108]
+2 Wild-Field Scarecrow|INR|[447]
+2 Jack-o'-Lantern|DBL|[254]
 2 Wicker Witch|SOI|1
-5 Island|ISD|2
-5 Mountain|ISD|2
-5 Swamp|ISD|2
-5 Plains|ISD|2
+5 Island|INR|[290]
+5 Mountain|INR|[294]
+5 Swamp|INR|[292]
+5 Plains|INR|[288]
 [Sideboard]
 
 [Planes]

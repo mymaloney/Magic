@@ -1,11 +1,11 @@
 [metadata]
 Name=Empress Galina
 [Main]
-4 Tropical Island|LEA
+4 Tropical Island|LEB|[284]
 4 Yavimaya Coast|APC
-6 Island|PALP
-6 Forest|PALP
-4 Birds of Paradise|LEA
+6 Island|INR|[290]
+6 Forest|INR|[296]
+4 Birds of Paradise|RVR|[344]
 1 Aboshan, Cephalid Emperor|ODY
 1 Empress Galina|INV
 1 Molimo, Maro-Sorcerer|INV
@@ -19,10 +19,10 @@ Name=Empress Galina
 4 Yavimaya's Embrace|APC
 2 Evacuation|STH
 2 Vitalizing Wind|PCY
-2 Exploration|USG
+2 Exploration|DMR|[339]
 2 Moment's Peace|ODY
 
 [StartInBattle_Reference]
-1 Forest|PALP
-1 Howling Mine|LEA
-1 Island|PALP
+1 Forest|INR|[296]
+1 Howling Mine|LEB|[248]
+1 Island|INR|[290]

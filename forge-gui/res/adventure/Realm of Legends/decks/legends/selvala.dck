@@ -1,91 +1,91 @@
 [metadata]
 Name=Selvala, Explorer Returned
 [Commander]
-1 Selvala, Explorer Returned|CNS
+1 Selvala, Explorer Returned|BLC|[259]
 [Main]
-1 Adventurous Impulse|STA
-1 Aggressive Mammoth|M19
-1 Selvala, Heart of the Wilds|CN2
+1 Adventurous Impulse|J25|[621]
+1 Aggressive Mammoth|FDN|[551]
+1 Selvala, Heart of the Wilds|ECC|[116]
 1 Selvala, Eager Trailblazer|OTJ
-1 Arch of Orazca|RIX
-1 Battle Mammoth|KHM
+1 Arch of Orazca|TSR|[404]
+1 Battle Mammoth|CLB|[818]
 1 Beast Whisperer|TSR
-1 Behemoth Sledge|ARB
+1 Behemoth Sledge|AFC|[180]
 1 Blessing of Frost|KHM
-1 Blossoming Sands|NEO
+1 Blossoming Sands|TDM|[251]
 1 Botanical Plaza|SNC
 1 Bountiful Promenade|CLB
 1 Branchloft Pathway|ZNR
-1 Brawn|EMA
+1 Brawn|JUD|[107]
 1 Call of the Herd|ODY
-1 Camaraderie|GRN
-1 Canopy Vista|BFZ
-1 Cleansing Nova|M19
-1 Command Tower|CMM
-1 Cultivate|LCC
-1 Dawn of Hope|GRN
-1 Elemental Bond|ORI
-1 Evolving Wilds|MID
+1 Camaraderie|SCD|[219]
+1 Canopy Vista|TDC|[343]
+1 Cleansing Nova|FDC|[20]
+1 Command Tower|TRC|[521]
+1 Cultivate|SOC|[265]
+1 Dawn of Hope|SCD|[17]
+1 Elemental Bond|TDC|[254]
+1 Evolving Wilds|TRC|[527]
 1 Fell the Mighty|MKC
-1 Flawless Maneuver|C20
-1 Forgotten Ancient|CN2
-1 Fracturing Gust|V14
-1 Gavony Township|ISD
-1 Generous Gift|CMR
-1 Grasslands|C17
-1 Graypelt Refuge|ZEN
-1 Hamza, Guardian of Arashin|CMR
-1 Heroic Intervention|M21
+1 Flawless Maneuver|FRC|[25]
+1 Forgotten Ancient|DMR|[341]
+1 Fracturing Gust|SHM|[227]
+1 Gavony Township|MOC|[406]
+1 Generous Gift|BLC|[106]
+1 Grasslands|MIR|[327]
+1 Graypelt Refuge|SCD|[303]
+1 Hamza, Guardian of Arashin|CMM|[339]
+1 Heroic Intervention|CMM|[295]
 1 Honey Mammoth|IKO
-1 Hurricane|10E
-1 Inspiring Call|IMA
+1 Hurricane|PO2|[129]
+1 Inspiring Call|FDN|[226]
 1 Into the North|CSP
-1 Karametra, God of Harvests|CMR
+1 Karametra, God of Harvests|PIO|[310]
 1 Kazandu Mammoth|ZNR
-1 Kazandu Tuskcaller|ROE
-1 Kodama's Reach|MMA
+1 Kazandu Tuskcaller|C21|[196]
+1 Kodama's Reach|ECC|[113]
 1 Krosan Verge|JUD
-1 Lifecrafter's Bestiary|AER
+1 Lifecrafter's Bestiary|MKC|[231]
 1 Loxodon Gatekeeper|RAV
-1 Loxodon Hierarch|RAV
+1 Loxodon Hierarch|GK1|[114]
 1 Loxodon Lifechanter|M20
-1 Loxodon Partisan|MBS
-1 Loxodon Smiter|RTR
-1 Loxodon Warhammer|MRD
-1 Luminous Broodmoth|IKO
+1 Loxodon Partisan|DDO|[17]
+1 Loxodon Smiter|PIO|[230]
+1 Loxodon Warhammer|ONC|[135]
+1 Luminous Broodmoth|BLC|[74]
 1 Nature's Lore|DMR
-1 Nissa's Pilgrimage|F16
-1 Oran-Rief, the Vastwood|ZEN
-1 Overwhelming Stampede|C15
-1 Path to Exile|BLC
+1 Nissa's Pilgrimage|PIO|[348]
+1 Oran-Rief, the Vastwood|SOC|[391]
+1 Overwhelming Stampede|FDC|[218]
+1 Path to Exile|TSR|[299]
 1 Play of the Game|BBD
 1 Rampant Elephant|INV
-1 Rampant Growth|2X2
-1 Retreat to Kazandu|BFZ
-1 Return of the Wildspeaker|ELD
-1 Sakura-Tribe Elder|CHK
-1 Scattered Groves|AKH
-1 Selesnya Guildgate|MM3
+1 Rampant Growth|TMP|[245]
+1 Retreat to Kazandu|J25|[707]
+1 Return of the Wildspeaker|ECC|[115]
+1 Sakura-Tribe Elder|SOC|[285]
+1 Scattered Groves|OTC|[315]
+1 Selesnya Guildgate|RVR|[410]
 1 Selvala's Charge|CNS
-1 Selvala's Stampede|CN2
-8 Snow-Covered Forest|MH1
-6 Snow-Covered Plains|MH1
+1 Selvala's Stampede|TDC|[269]
+8 Snow-Covered Forest|ICE|[383]
+6 Snow-Covered Plains|ICE|[367]
 1 Spelltithe Enforcer|GPT
-1 Sundering Growth|MM3
-1 Sunpetal Grove|M10
-1 Swords to Plowshares|SCD
-1 Temple Garden|RTR
-1 Temple of Plenty|THB
-1 Terastodon|C21
-1 Terramorphic Expanse|M11
+1 Sundering Growth|C19|[203]
+1 Sunpetal Grove|TDC|[399]
+1 Swords to Plowshares|DMR|[275]
+1 Temple Garden|RVR|[414]
+1 Temple of Plenty|TDC|[405]
+1 Terastodon|M3C|[249]
+1 Terramorphic Expanse|TRC|[571]
 1 Thorn Mammoth|ELD
 1 Trained Armodon|TMP
-1 Tranquil Expanse|M19
+1 Tranquil Expanse|SCD|[330]
 1 Trumpeting Armodon|TMP
 1 Trumpeting Herd|MH1
-1 Tuskguard Captain|KTK
-1 Venerated Loxodon|GRN
-1 War Mammoth|LEA
+1 Tuskguard Captain|CMM|[328]
+1 Venerated Loxodon|J25|[278]
+1 War Mammoth|LEB|[228]
 1 Wild Elephant|MIR
 1 Elephant Graveyard|ARN
 1 Wirewood Lodge|ONS

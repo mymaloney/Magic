@@ -1,8 +1,8 @@
 [metadata]
 Name=Cephalid Mindslaver - Tribal Control
 [Main]
-24 Island|ODY
-4 High Tide|FEM|3
+24 Island|INR|[290]
+4 High Tide|DMR|[286]
 2 Llawan, Cephalid Empress|TOR
 2 Aboshan, Cephalid Emperor|ODY
 2 Cephalid Broker|ODY
@@ -12,8 +12,8 @@ Name=Cephalid Mindslaver - Tribal Control
 2 Cephalid Inkshrouder|JUD
 2 Cephalid Looter|ODY
 2 Persuasion|ODY
-4 Control Magic|4ED
-4 Counterspell|MMQ
+4 Control Magic|LEB|[53]
+4 Counterspell|DMR|[281]
 2 Steal Enchantment|TMP
-2 Steal Artifact|5ED
-2 Confiscate|7ED
+2 Steal Artifact|LEB|[82]
+2 Confiscate|USG|[66]

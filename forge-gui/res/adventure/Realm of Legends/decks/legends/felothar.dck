@@ -4,82 +4,82 @@ Name=Felothar the Steadfast
 1 Felothar the Steadfast|TDC
 [Main]
 1 Access Tunnel|TDC
-1 Anguished Unmaking|TDC
+1 Anguished Unmaking|TRC|[310]
 1 Arasta of the Endless Web|TDC
 1 Arbor Adherent|TDC
-1 Arboreal Grazer|TDC
-1 Arcane Signet|TDC
-1 Assault Formation|DTK
+1 Arboreal Grazer|RVR|[343]
+1 Arcane Signet|TRC|[485]
+1 Assault Formation|TDC|[246]
 1 Axebane Guardian|TDC
 1 Baldin, Century Herdmaster|TDC
 1 Bedrock Tortoise|LCI
 1 Behind the Scenes|TDC
 1 Canopy Vista|TDC
-1 Catapult Fodder|VOW
-1 Command Tower|TDC
+1 Catapult Fodder|DBL|[366]
+1 Command Tower|TRC|[521]
 1 Crashing Drawbridge|TDC
 1 Deceptive Landscape|TDC
 1 Delney, Streetwise Lookout|MKM
-1 Despark|TDC
-1 Dusk|AKH
+1 Despark|FRC|[50]
+1 Dusk|DRC|[65]
 1 Eerie Ultimatum|IKO
-1 Evolving Wilds|TDM
-1 Exotic Orchard|TDC
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
 1 Expel the Interlopers|TDC
 1 Fecund Greenshell|BLB
-1 Fell the Mighty|C17
-9 Forest|TDM
+1 Fell the Mighty|MKC|[65]
+9 Forest|INR|[296]
 1 Generous Ent|LTR
-1 Guardian Project|RNA
-1 Haunted Mire|TDC
-1 Isolated Chapel|TDC
+1 Guardian Project|RVR|[349]
+1 Haunted Mire|SOC|[379]
+1 Isolated Chapel|DMR|[397]
 1 Jaws of Defeat|TDC
-1 Lightning Greaves|C17
-1 Mirari's Wake|MH2
+1 Lightning Greaves|TRC|[496]
+1 Mirari's Wake|JUD|[139]
 1 Mother of Runes|ULG
-1 Nature's Lore|CLB
-1 Nethroi, Apex of Death|IKO
-1 Ohran Frostfang|C19
-1 Talisman of Hierarchy|TDC
+1 Nature's Lore|DMR|[346]
+1 Nethroi, Apex of Death|DMC|[163]
+1 Ohran Frostfang|SOC|[279]
+1 Talisman of Hierarchy|TRC|[506]
 1 Overgrown Battlement|TDC
-1 Overgrown Farmland|TDC
-1 Path of Ancestry|TDC
-7 Plains|TDM
+1 Overgrown Farmland|FRA|[185]
+1 Path of Ancestry|TRC|[545]
+7 Plains|INR|[288]
 1 Rampart Architect|TDC
 1 Reconnaissance|EXO
-1 Reliquary Tower|M19
+1 Reliquary Tower|TRC|[551]
 1 Resolute Watchdog|RNA
 1 Reunion of the House|TDC
-1 Sandsteppe Citadel|TDM
-1 Shadrix Silverquill|TDC
+1 Sandsteppe Citadel|ECC|[164]
+1 Shadrix Silverquill|SOC|[330]
 1 Shield Sphere|ALL
 1 Sidar Kondo of Jamuraa|TDC
 1 Slaughter the Strong|TDC
-1 Sol Ring|TDC
+1 Sol Ring|LEB|[270]
 1 Spidersilk Armor|MMQ
 1 Stalwart Shield-Bearers|ROE
-1 Sungrass Prairie|TDC
+1 Sungrass Prairie|ODY|[328]
 1 Sunpetal Grove|TDC
-1 Path to Exile|CMD
-6 Swamp|TDM
-1 Swiftfoot Boots|TDC
-1 Swords to Plowshares|TDC
+1 Path to Exile|TSR|[299]
+6 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Swords to Plowshares|DMR|[275]
 1 Sylvan Caryatid|TDC
 1 Tadeas, Juniper Ascendant|SLX
-1 Temple Garden|RTR
-1 Temple of Silence|TDC
+1 Temple Garden|RVR|[414]
+1 Temple of Silence|SOC|[415]
 1 Tip the Scales|TDC
-1 Tower Defense|GTC
-1 Tree of Perdition|EMN
+1 Tower Defense|TDC|[275]
+1 Tree of Perdition|ECC|[49]
 1 Tree of Redemption|TDC
-1 Twilight Mire|TDC
+1 Twilight Mire|SOC|[418]
 1 Walking Bulwark|TDC
-1 Wall of Blossoms|TDC
+1 Wall of Blossoms|STH|[125]
 1 Wall of Omens|TDC
-1 Wall of Roots|IMA
+1 Wall of Roots|MIR|[253]
 1 Wall of Shards|CSP
 1 Wall of Tanglecord|SOM
-1 Wave of Reckoning|C16
+1 Wave of Reckoning|MMQ|[56]
 1 Weathered Sentinels|TDC
 1 Welcoming Vampire|TDC
-1 Woodland Cemetery|TDC
+1 Woodland Cemetery|DMR|[401]

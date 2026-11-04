@@ -3,20 +3,20 @@ Name=INN_green_scout
 [Avatar]
 
 [Main]
-2 Somberwald Sage|AVR|1
+2 Somberwald Sage|INR|[418]
 2 Briarbridge Patrol|SOI|1
-1 Tireless Tracker|SOI|1
-2 Clear Shot|MID|1
-2 Graf Mole|SOI|1
-2 Hamlet Captain|ISD|1
-2 Bramble Armor|MID|1
+1 Tireless Tracker|EOC|[110]
+2 Clear Shot|INR|[188]
+2 Graf Mole|MKC|[170]
+2 Hamlet Captain|INR|[413]
+2 Bramble Armor|DBL|[171]
 2 Confront the Unknown|SOI|1
-2 Borderland Ranger|AVR|1
+2 Borderland Ranger|E02|[31]
 2 Clinging Mists|DKA|1
-2 Byway Courier|SOI|1
-2 Ranger's Guile|ISD|1
-9 Forest|ISD|2
-8 Forest|SOI|2
+2 Byway Courier|J25|[642]
+2 Ranger's Guile|M21|[199]
+9 Forest|INR|[296]
+8 Forest|INR|[296]
 [Sideboard]
 
 [Planes]

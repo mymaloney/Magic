@@ -1,18 +1,18 @@
 [metadata]
 Name=sun titan
 [Main]
-4 Bulwark Giant|PLST|1
+4 Bulwark Giant|RVR|[11]
 4 Caravan Hurda|ZEN|1
 4 Goliath Paladin|CLB|1
 4 Hundred-Handed One|CN2|1
-4 Kalemne's Captain|CM2|1
-10 Plains|C16|1
-9 Plains|C16|2
-5 Plains|C16|3
+4 Kalemne's Captain|C20|[92]
+10 Plains|INR|[288]
+9 Plains|INR|[288]
+5 Plains|INR|[288]
 2 Planar Cleansing|M20|1
-4 Realm-Cloaked Giant|AFC|1
-4 Sun Titan|E01|1
-2 Swords to Plowshares|VMA|1
-4 Wrath of God|V14|1
+4 Realm-Cloaked Giant|BLC|[149]
+4 Sun Titan|SOC|[178]
+2 Swords to Plowshares|DMR|[275]
+4 Wrath of God|DMR|[279]
 [Sideboard]
 [Schemes]

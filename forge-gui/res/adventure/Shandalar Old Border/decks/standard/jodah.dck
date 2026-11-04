@@ -1,15 +1,15 @@
 [metadata]
 Name=jodah
 [Main]
-11 Island|LEB
-4 City of Brass|CHR
-4 Counterspell|4ED
-4 Dark Ritual|BRB
-4 Duress|USG
-4 Hydroblast|5ED
+11 Island|INR|[290]
+4 City of Brass|ARN|[71]
+4 Counterspell|DMR|[281]
+4 Dark Ritual|MMQ|[129]
+4 Duress|DMR|[303]
+4 Hydroblast|ICE|[72]
 4 Hymn to Tourach|FEM
-4 Lord of Atlantis|5ED
-4 Mahamoti Djinn|BTD
+4 Lord of Atlantis|LEB|[63]
+4 Mahamoti Djinn|LEB|[65]
 4 Phantom Monster|LEB
 4 Underground River|ICE
-5 Swamp|LEB
+5 Swamp|INR|[292]

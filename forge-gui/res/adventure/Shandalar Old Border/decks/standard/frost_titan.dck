@@ -1,11 +1,11 @@
 [metadata]
 Name=frost_titan
 [Main]
-1 Mountain|TMP|3
+1 Mountain|INR|[294]
 1 Shivan Reef|APC
-11 Plains|TMP|3
+11 Plains|INR|[288]
 2 Battlefield Forge|APC
-3 Island|TMP|3
+3 Island|INR|[290]
 4 Adarkar Wastes|ICE
 4 Benalish Hero|LEB
 4 Cloudchaser Eagle|TMP

@@ -1,14 +1,14 @@
 [metadata]
 Name=horsemanship
 [Main]
-1 Brilliant Plan|PTK
+1 Brilliant Plan|GS1|[17]
 1 Broken Dam|PTK
 1 Eightfold Maze|PTK
-1 Exhaustion|PTK
-1 Mystic Denial|PTK
+1 Exhaustion|USG|[74]
+1 Mystic Denial|PO2|[41]
 1 Ravages of War|PTK
-1 Vengeance|PTK
-16 Plains|LEB
+1 Vengeance|PO2|[27]
+16 Plains|INR|[288]
 2 Liu Bei, Lord of Shu|PTK
 2 Riding Red Hare|PTK
 2 Virtuous Charge|PTK
@@ -21,4 +21,4 @@ Name=horsemanship
 4 Shu Elite Companions|PTK
 4 Wu Light Cavalry|PTK
 4 Wu Scout|PTK
-5 Island|LEB
+5 Island|INR|[290]

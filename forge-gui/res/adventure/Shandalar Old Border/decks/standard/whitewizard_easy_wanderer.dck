@@ -1,13 +1,13 @@
 [metadata]
 Name=The Wanderer's Entourage 1
 [Main]
-1 Swamp|MMQ|2
-14 Plains|MMQ|2
+1 Swamp|INR|[292]
+14 Plains|INR|[288]
 2 Kjeldoran Outpost|ALL
 2 Ramosian Sky Marshal|MMQ
 4 Aven Flock|ODY
 4 Caves of Koilos|APC
-4 Healing Salve|7ED
+4 Healing Salve|USG|[16]
 4 Ramosian Commander|MMQ
 4 Ramosian Lieutenant|MMQ
 4 Ramosian Rally|MMQ

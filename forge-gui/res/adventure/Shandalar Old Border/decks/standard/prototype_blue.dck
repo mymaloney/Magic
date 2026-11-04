@@ -1,11 +1,11 @@
 [metadata]
 Name=Prototype Blue
 [Main]
-12 Island|MIR
-4 Mishra's Factory|ATQ|4
+12 Island|INR|[290]
+4 Mishra's Factory|DMR|[399]
 4 Stalking Stones|TMP
 4 Scorched Ruins|WTH
-4 Copy Artifact|LEA
+4 Copy Artifact|LEB|[54]
 2 Argivian Restoration|WTH
 2 Magus of the Unseen|ICE
 2 Opportunity|ULG
@@ -19,5 +19,5 @@ Name=Prototype Blue
 1 Matopi Golem|VIS
 1 Basalt Golem|MIR
 2 Beast of Burden|ULG
-2 Phyrexian Colossus|7ED
+2 Phyrexian Colossus|USG|[305]
 4 Thran Dynamo|UDS

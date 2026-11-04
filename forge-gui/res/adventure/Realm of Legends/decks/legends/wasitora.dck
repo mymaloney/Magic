@@ -3,89 +3,89 @@ Name=Wasitora
 [Commander]
 1 Wasitora, Nekoru Queen|2x2
 [Main]
-1 Aggravated Assault|sld|[2691]
-1 Arcane Lighthouse|c14
-1 Arcane Signet|sld|[1919]
+1 Aggravated Assault|ONS|[185]
+1 Arcane Lighthouse|SOC|[361]
+1 Arcane Signet|TRC|[485]
 1 Arena of Glory|mh3
-1 Atarka, World Render|frf
-1 Atsushi, the Blazing Sky|neo
-1 Balefire Dragon|isd
-1 Beast Within|nec
+1 Atarka, World Render|TDC|[281]
+1 Atsushi, the Blazing Sky|SOC|[236]
+1 Balefire Dragon|INR|[479]
+1 Beast Within|TSR|[357]
 1 Black Market Connections|lcc
-1 Blasphemous Act|c21
+1 Blasphemous Act|SOC|[238]
 1 Blightstep Pathway|khm
-1 Blood Crypt|rtr
+1 Blood Crypt|RVR|[397]
 1 Bloodstained Mire|mh3
-1 Chaos Warp|sld|[2692]
-1 Chromatic Lantern|rtr
-1 Cinder Glade|clb
-1 Command Tower|soc
-1 Crucible of Fire|ala
-1 Cultivate|m21|[317]
+1 Chaos Warp|MBC|[72]
+1 Chromatic Lantern|RVR|[390]
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
+1 Crucible of Fire|FDC|[148]
+1 Cultivate|SOC|[265]
 1 Decadent Dragon|woe
-1 Dictate of Erebos|jou
-1 Dragon Tempest|dtk
-1 Dragon's Hoard|m19
-1 Dragonhawk, Fate's Tempest|blb
-1 Elemental Bond|ori
-1 Fabled Passage|blb
-1 Farseek|rav
-1 Feed the Swarm|soa
+1 Dictate of Erebos|PIO|[91]
+1 Dragon Tempest|TDC|[94]
+1 Dragon's Hoard|TDC|[317]
+1 Dragonhawk, Fate's Tempest|FDC|[151]
+1 Elemental Bond|TDC|[254]
+1 Fabled Passage|TRC|[379]
+1 Farseek|RVR|[347]
+1 Feed the Swarm|TDC|[180]
 1 Feline Sovereign|m21
-6 Forest|sld|[1515]
+6 Forest|INR|[296]
 1 Garruk's Uprising|ecc
-1 Ghost Quarter|c14
+1 Ghost Quarter|CM2|[253]
 1 Guardian Project|rvr
-1 Hellish Rebuke|sld|[7171]
+1 Hellish Rebuke|AFC|[26]
 1 Hull Breach|pls
 1 Jedit Ojanen of Efrava|c17
-1 Keeper of Fables|eld
-1 Lord Windgrace|sld|[1184]
-1 Sol Ring|sld|[1512]
-1 In Garruk's Wake|pm15
+1 Keeper of Fables|ZNC|[71]
+1 Lord Windgrace|C18|[43]
+1 Sol Ring|LEB|[270]
+1 In Garruk's Wake|CLB|[759]
 1 Plague Wind|pcy
 1 Vona's Hunger|rix
 1 Massacre Wurm|fdn
 1 Nine-Lives Familiar|fdn
 1 Nacatl War-Pride|fut
 1 Darigaaz, Shivan Champion|ydmu
-1 Thundermaw Hellkite|ima
+1 Thundermaw Hellkite|SCD|[164]
 1 Falthis, Shadowcat Familiar|cmr
 1 Mirri the Cursed|tsr
 1 Masked Vandal|khm
-1 Maskwood Nexus|khm
+1 Maskwood Nexus|DRC|[132]
 1 Mass Hysteria|inr
-5 Mountain|sld|[1514]
-1 Nature's Lore|sld|[2278]
-1 Overgrown Tomb|rtr
-1 Path of Ancestry|sld|[2684]
-1 Phyrexian Arena|cn2
-1 Prowling Serpopard|akh
-1 Putrefy|dgm
-1 Qasali Slingers|sld|[24]
-1 Realmwalker|khm
-1 Return of the Wildspeaker|c21
-1 Rhythm of the Wild|nec
-1 Rockfall Vale|mid
-1 Rogue's Passage|znc
-1 Rootbound Crag|m13
-1 Ryusei, the Falling Star|c17
-1 Savage Lands|f11
-1 Scourge of Valkas|ima
-1 Skyline Despot|afc
-1 Soul of Windgrace|dmu
-1 Soul Shatter|znr
+5 Mountain|INR|[294]
+1 Nature's Lore|DMR|[346]
+1 Overgrown Tomb|RVR|[407]
+1 Path of Ancestry|TRC|[545]
+1 Phyrexian Arena|APC|[47]
+1 Prowling Serpopard|J22|[713]
+1 Putrefy|RVR|[378]
+1 Qasali Slingers|C17|[33]
+1 Realmwalker|ECC|[114]
+1 Return of the Wildspeaker|ECC|[115]
+1 Rhythm of the Wild|RVR|[380]
+1 Rockfall Vale|FRA|[186]
+1 Rogue's Passage|TRC|[552]
+1 Rootbound Crag|ECC|[163]
+1 Ryusei, the Falling Star|CLB|[806]
+1 Savage Lands|ECC|[165]
+1 Scourge of Valkas|PIO|[155]
+1 Skyline Despot|FDC|[176]
+1 Soul of Windgrace|EOC|[126]
+1 Soul Shatter|SCD|[108]
 1 Spectacular Showdown|mkc
-1 Stomping Ground|gtc
-5 Swamp|sld|[1384]
+1 Stomping Ground|RVR|[413]
+5 Swamp|INR|[292]
 1 Takenuma, Abandoned Mire|neo
-1 Talisman of Impulse|mrd
+1 Talisman of Impulse|TDC|[332]
 1 Tergrid, God of Fright|khm
 1 Terror of the Peaks|otj
-1 The Eldest Reborn|dom
-1 Three Visits|cmr
+1 The Eldest Reborn|DSC|[139]
+1 Three Visits|SOC|[289]
 1 Verdant Catacombs|mh2
 1 Virtus's Maneuver|bbd
 1 Wastewood Verge|dft
-1 Ziatora, the Incinerator|snc
+1 Ziatora, the Incinerator|M3C|[279]
 1 Ziatora's Proving Ground|snc

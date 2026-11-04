@@ -1,10 +1,10 @@
 [metadata]
 Name=Legend of the Tundra
 [Main]
-4 Tundra|LEA
+4 Tundra|LEB|[285]
 4 Adarkar Wastes|ICE
-8 Plains|MIR
-8 Island|MIR
+8 Plains|INR|[288]
+8 Island|INR|[290]
 2 Sword of the Chosen|STH
 2 Urza's Filter|INV
 2 Gosta Dirk|LEG
@@ -20,7 +20,7 @@ Name=Legend of the Tundra
 1 Wings of Aesthir|ICE
 1 Energy Arc|ALL
 1 Guiding Spirit|VIS
-1 Absorb|INV
+1 Absorb|DMR|[354]
 1 Tempest Drake|VIS
 1 Sky Spirit|TMP
 1 Angelic Shield|INV

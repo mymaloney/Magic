@@ -4,23 +4,23 @@ Name=Adventure - INN A Token Investigation
 
 [Main]
 1 Briarbridge Patrol|SOI|1
-1 Byway Courier|SOI|1
+1 Byway Courier|J25|[642]
 2 Confront the Unknown|SOI|1
-2 Drownyard Explorers|SOI|1
-1 Erdwal Illuminator|SOI|1
-2 Secrets of the Key|MID|1
-7 Forest|SOI|1
-2 Candlelit Cavalry|MID|1
-1 Graf Mole|SOI|1
-7 Island|MID|3
+2 Drownyard Explorers|J22|[289]
+1 Erdwal Illuminator|MKC|[104]
+2 Secrets of the Key|DBL|[73]
+7 Forest|INR|[296]
+2 Candlelit Cavalry|DBL|[175]
+1 Graf Mole|MKC|[170]
+7 Island|INR|[290]
 1 Parallel Lives|ISD|1
-1 Magnifying Glass|SOI|1
-1 Ongoing Investigation|SOI|1
-2 Jace's Scrutiny|SOI|1
-2 Traveler's Amulet|ISD|1
-1 Ulvenwald Mysteries|SOI|1
-2 Shadowbeast Sighting|MID|1
-4 Woodland Stream|SOI|1
+1 Magnifying Glass|MKM|[255]
+1 Ongoing Investigation|MKC|[114]
+2 Jace's Scrutiny|J22|[311]
+2 Traveler's Amulet|INR|[273]
+1 Ulvenwald Mysteries|INR|[423]
+2 Shadowbeast Sighting|DBL|[198]
+4 Woodland Stream|CMR|[503]
 [Sideboard]
 
 [Planes]

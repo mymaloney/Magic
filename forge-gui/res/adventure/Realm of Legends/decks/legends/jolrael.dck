@@ -5,79 +5,79 @@ Name=Jolrael
 [Main]
 1 Aetherize|RVR|[448]
 1 Arcane Denial|ALL
-1 Arcane Signet|BRC
-1 Arcanis the Omnipotent|ONS
-1 Birds of Paradise|7ED
+1 Arcane Signet|TRC|[485]
+1 Arcanis the Omnipotent|DMR|[280]
+1 Birds of Paradise|RVR|[344]
 1 Blighted Woodland|TSR
 1 Breeding Pool|RVR|[399]
 1 Burgeoning|STH
 1 Capsize|TMP
 1 Coiling Oracle|RVR|[361]
-1 Command Tower|BRC
-1 Counterspell|ICE
+1 Command Tower|TRC|[521]
+1 Counterspell|DMR|[281]
 1 Courser of Kruphix|TSR
 1 Jolrael, Empress of Beasts|PCY
 1 Cultivator Colossus|INR|[409]
-1 Darksteel Citadel|BRC
+1 Darksteel Citadel|FDC|[300]
 1 Deep Reconnaissance|ODY
 1 Desertion|VIS
 1 Diplomatic Escort|MMQ
 1 Disdainful Stroke|TSR
 1 Dissipate|MIR
-1 Ensnare|NEM
+1 Ensnare|NMS|[32]
 1 Eternal Witness|TSR
-1 Exploration|USG
+1 Exploration|DMR|[339]
 1 Explosive Vegetation|ONS
 1 Faerie Conclave|ULG
 1 Far Wanderings|TOR
-1 Three Visits|PTK
+1 Three Visits|SOC|[289]
 1 Foil|PCY
 1 Forbid|EXO
-12 Forest|PO2
+12 Forest|INR|[296]
 1 Llanowar Elves|LEB
 1 Gush|MMQ
 1 Harrow|INV
-1 Hinterland Harbor|TSR|[396]
+1 Hinterland Harbor|DMR|[396]
 1 Hullbreaker Horror|INR|[357]
-9 Island|PO2
+9 Island|INR|[290]
 1 Jolrael, Mwonvuli Recluse|DMR|[343]
 1 Lonely Sandbar|ONS
-1 Mishra's Factory|ATQ
+1 Mishra's Factory|DMR|[399]
 1 Misty Rainforest|MH2
 1 Multani, Maro-Sorcerer|ULG
 1 Mystic Confluence|TSR
-1 Mystic Remora|ICE
-1 Mystic Snake|TSB
-1 Nature's Lore|PO2
-1 Nissa, Who Shakes the World|SLD|[1042]
+1 Mystic Remora|DMR|[288]
+1 Mystic Snake|APC|[112]
+1 Nature's Lore|DMR|[346]
+1 Nissa, Who Shakes the World|BLC|[84]
 1 Nulldrifter|MH3|[388]
-1 Open the Way|MAT|[73]
-1 Path of Ancestry|BRC
+1 Open the Way|SOC|[280]
+1 Path of Ancestry|TRC|[545]
 1 Prime Speaker Zegana|RVR|[377]
 1 Propaganda|TMP
-1 Psychosis Crawler|BRR
-1 Rampant Growth|MIR
+1 Psychosis Crawler|FDC|[280]
+1 Rampant Growth|TMP|[245]
 1 Reclamation Sage|TSR
-1 Reliquary Tower|BRC
+1 Reliquary Tower|TRC|[551]
 1 Trygon Predator|TSR
 1 Rewind|USG
 1 Rhystic Study|PCY
 1 Shadow of the Second Sun|MH3|[402]
 1 Yavimaya Coast|APC
 1 Fellwar Stone|DRK
-1 Skyshroud Claim|NEM
+1 Skyshroud Claim|NMS|[117]
 1 Snapcaster Mage|INR
-1 Sol Ring|3ED
+1 Sol Ring|LEB|[270]
 1 Tatyova, Benthic Druid|DMR|[371]
-1 Temple of the False God|ONS
-1 Thought Vessel|BRC
+1 Temple of the False God|SCG|[143]
+1 Thought Vessel|TRC|[509]
 1 Thwart|MMQ
-1 Bident of Thassa|BRC
+1 Bident of Thassa|PIO|[47]
 1 Titania, Protector of Argoth|MH2|[416]
 1 Tranquil Thicket|ONS
 1 Treetop Village|ULG
 1 Tidespout Tyrant|RVR|[320]
-1 Wooded Foothills|ONS
+1 Wooded Foothills|MH3|[441]
 1 Voidslime|RVR|[388]
 1 Wood Elves|EXO
 1 Worldly Tutor|DMR

@@ -4,84 +4,84 @@ Name=Kalemne, Disciple of Iroas
 1 Kalemne, Disciple of Iroas|CM2
 [Main]
 1 Stinkdrinker Daredevil|CM2
-1 Taurean Mauler|CM2
+1 Taurean Mauler|TDC|[238]
 1 Dawnglare Invoker|CM2
-1 Magus of the Wheel|CM2
-1 Desolation Giant|CM2
-1 Fumiko the Lowblood|CM2
+1 Magus of the Wheel|CMM|[241]
+1 Desolation Giant|APC|[59]
+1 Fumiko the Lowblood|C20|[152]
 1 Hunted Dragon|CM2
-1 Stoneshock Giant|CM2
+1 Stoneshock Giant|PIO|[298]
 1 Thundercloud Shaman|CM2
 1 Warchief Giant|CM2
-1 Oreskos Explorer|CM2
-1 Herald of the Host|CM2
-1 Kalemne's Captain|CM2
-1 Anya, Merciless Angel|CM2
+1 Oreskos Explorer|C21|[98]
+1 Herald of the Host|CMM|[30]
+1 Kalemne's Captain|C20|[92]
+1 Anya, Merciless Angel|MKC|[199]
 1 Sunrise Sovereign|CM2
 1 Hammerfist Giant|CM2
-1 Inferno Titan|CM2
+1 Inferno Titan|BLC|[198]
 1 Dawnbreak Reclaimer|CM2
-1 Sun Titan|CM2
+1 Sun Titan|SOC|[178]
 1 Hostility|CM2
-1 Jareth, Leonine Titan|CM2
+1 Jareth, Leonine Titan|ONS|[43]
 1 Victory's Herald|CM2
-1 Sandstone Oracle|CM2
-1 Hamletback Goliath|CM2
+1 Sandstone Oracle|CMM|[406]
+1 Hamletback Goliath|JMP|[332]
 1 Arbiter of Knollridge|CM2
 1 Borderland Behemoth|CM2
-1 Dream Pillager|CM2
-1 Magma Giant|CM2
-1 Angel of Serenity|CM2
-1 Gisela, Blade of Goldnight+|CM2
-1 Breath of Darigaaz|CM2
-1 Fiery Confluence|CM2
+1 Dream Pillager|SCD|[139]
+1 Magma Giant|PO2|[108]
+1 Angel of Serenity|C21|[83]
+1 Gisela, Blade of Goldnight+|MKC|[211]
+1 Breath of Darigaaz|INV|[138]
+1 Fiery Confluence|LCC|[226]
 1 Disaster Radius|CM2
-1 Earthquake|CM2
+1 Earthquake|PO2|[94]
 1 Meteor Blast|CM2
-1 Fall of the Hammer|CM2
-1 Orim's Thunder|CM2
-1 Sol Ring|CM2
-1 Sacred Foundry|GTC
-1 Arcane Signet|ELD
-1 Coldsteel Heart|CM2
-1 Fellwar Stone|CM2
-1 Lightning Greaves|CM2
-1 Mind Stone|CM2
-1 Thought Vessel|CM2
-1 Basalt Monolith|CM2
+1 Fall of the Hammer|PIO|[134]
+1 Orim's Thunder|APC|[15]
+1 Sol Ring|LEB|[270]
+1 Sacred Foundry|RVR|[409]
+1 Arcane Signet|TRC|[485]
+1 Coldsteel Heart|J22|[94]
+1 Fellwar Stone|DRK|[102]
+1 Lightning Greaves|TRC|[496]
+1 Mind Stone|DMR|[385]
+1 Thought Vessel|TRC|[509]
+1 Basalt Monolith|LEB|[232]
 1 Boros Cluestone|CM2
-1 Darksteel Ingot|CM2
-1 Loxodon Warhammer|CM2
-1 Urza's Incubator|CM2
-1 Worn Powerstone|CM2
-1 Seer's Sundial|CM2
-1 Dreamstone Hedron|CM2
+1 Darksteel Ingot|PIO|[254]
+1 Loxodon Warhammer|ONC|[135]
+1 Urza's Incubator|DMR|[392]
+1 Worn Powerstone|USG|[318]
+1 Seer's Sundial|M3C|[304]
+1 Dreamstone Hedron|M3C|[289]
 1 Staff of Nin|CM2
 1 Curse of the Nightly Hunt|CM2
-1 Banishing Light|CM2
-1 Faith's Fetters|CM2
-1 Rite of the Raging Storm|CM2
-1 Warstorm Surge|CM2
+1 Banishing Light|TSR|[291]
+1 Faith's Fetters|RVR|[307]
+1 Rite of the Raging Storm|MKC|[159]
+1 Warstorm Surge|FDC|[186]
 1 Ancient Amphitheater|CM2
-1 Blasted Landscape|CM2
-1 Boros Garrison|CM2
-1 Boros Guildgate|CM2
-1 Command Tower|CM2
-1 Drifting Meadow|CM2
-1 Evolving Wilds|CM2
-1 Forgotten Cave|CM2
-1 Secluded Steppe|CM2
-1 Smoldering Crater|CM2
-1 Terramorphic Expanse|CM2
+1 Blasted Landscape|USG|[319]
+1 Boros Garrison|CLU|[231]
+1 Boros Guildgate|RVR|[398]
+1 Command Tower|TRC|[521]
+1 Drifting Meadow|USG|[320]
+1 Evolving Wilds|TRC|[527]
+1 Forgotten Cave|ONS|[317]
+1 Secluded Steppe|ONS|[324]
+1 Smoldering Crater|USG|[328]
+1 Terramorphic Expanse|TRC|[571]
 1 Vivid Crag|CM2
-1 Vivid Meadow|CM2
-1 Wind-Scarred Crag|CM2
-4 Mountain|CM2|1
-4 Mountain|CM2|2
-3 Mountain|CM2|4
-3 Mountain|CM2|5
-3 Plains|CM2|1
-3 Plains|CM2|3
-3 Plains|CM2|4
-2 Plains|CM2|6
-1 Crib Swap|CM2
+1 Vivid Meadow|NCC|[446]
+1 Wind-Scarred Crag|TDM|[271]
+4 Mountain|INR|[294]
+4 Mountain|INR|[294]
+3 Mountain|INR|[294]
+3 Mountain|INR|[294]
+3 Plains|INR|[288]
+3 Plains|INR|[288]
+3 Plains|INR|[288]
+2 Plains|INR|[288]
+1 Crib Swap|ECL|[11]

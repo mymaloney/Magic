@@ -2,8 +2,8 @@
 Name=Necrogoyf
 [Main]
 4 Llanowar Wastes|APC
-5 Swamp|ICE|1
-5 Forest|ICE|1
+5 Swamp|INR|[292]
+5 Forest|INR|[296]
 2 Pine Barrens|TMP
 2 Cabal Pit|ODY
 2 Centaur Garden|ODY

@@ -3,50 +3,50 @@ Name=The Madcap Jester
 [Commander]
 1 The Madcap Jester|mbc
 [Main]
-1 Arcane Signet|slz|[336]
-1 Ashiok, Nightmare Weaver|ths
+1 Arcane Signet|TRC|[485]
+1 Ashiok, Nightmare Weaver|PIO|[352]
 1 Bloodsoaked Insight|mh3
 1 Brainstealer Dragon|otc
-1 Chaos Warp|2x2|[359]
+1 Chaos Warp|MBC|[72]
 1 Ashiok, Nightmare Muse|thb
-1 Imprisoned in the Moon|slz|[262]
-1 An Offer you can't refuse|slz|[269]
-1 Animate Dead|slz|[276]
-1 Cruel Reality|slz|[278]
-1 Duress|slz|[282]
-1 Feed the Swarm|slz|[283]
-1 Go for the Throat|slz|[284]
-1 Hypnotic Specter|slz|[286]
-1 Night's Whisper|slz|[290]
-1 Imp's Mischief|slz|[287]
-1 Kazuul, Tyrant of the Cliffs|slz|[304]
-1 Lightning Bolt|slz|[305]
-1 Price of Progress|slz|[307]
-1 Vandalblast|slz|[311]
-1 Baleful Strix|slz|[330]
-1 Chromatic Lantern|slz|338]
+1 Imprisoned in the Moon|INR|[358]
+1 An Offer you can't refuse|FDN|[160]
+1 Animate Dead|LEB|[93]
+1 Cruel Reality|AKH|[84]
+1 Duress|DMR|[303]
+1 Feed the Swarm|TDC|[180]
+1 Go for the Throat|FDC|[100]
+1 Hypnotic Specter|LEB|[113]
+1 Night's Whisper|TRC|[446]
+1 Imp's Mischief|CMM|[167]
+1 Kazuul, Tyrant of the Cliffs|MKC|[157]
+1 Lightning Bolt|LEB|[162]
+1 Price of Progress|EXO|[95]
+1 Vandalblast|TSR|[352]
+1 Baleful Strix|BLC|[86]
+1 Chromatic Lantern|RVR|[390]
 1 Clown Car|slz|[342]
-1 Skullclamp|slz|[355]
-1 Dark Ritual|slz|[280]
+1 Skullclamp|TRC|[354]
+1 Dark Ritual|MMQ|[129]
 1 Don Andres, the Renegade|lcc
 1 Dream Harvest|ecl
 1 Fathom Feeder|bfz
-1 Grenzo, Havoc Raiser|otc
+1 Grenzo, Havoc Raiser|TDC|[216]
 1 Grimoire Thief|mor
 1 Harmonic Prodigy|soc
-11 Island|unf|[236]
-1 Command Tower|slz|[360]
+11 Island|INR|[290]
+1 Command Tower|TRC|[521]
 1 Jeleva, Nephalia's Scourge|c13
 1 Jester's Scepter|csp
-1 Jester's Cap|slz|[347]
+1 Jester's Cap|DMR|[381]
 1 Laughing Jasper Flint|otj
-1 Lightning Greaves|tdc
+1 Lightning Greaves|TRC|[496]
 1 Memory Vessel|big
-11 Mountain|unf|[238]
-1 Oboro, Palace in the Clouds|slz|[361]
+11 Mountain|INR|[294]
+1 Oboro, Palace in the Clouds|SOK|[164]
 1 Sulfurous Springs|ice
 1 Neheb, the Eternal|mkc
-1 Nightscape Familiar|dmr
+1 Nightscape Familiar|PLS|[48]
 1 Oblivion Sower|m3c
 1 Orochi Soul-Reaver|otc
 1 Party Thrasher|mh3
@@ -54,21 +54,21 @@ Name=The Madcap Jester
 1 Psychic Surgery|nph
 1 Raven Guild Master|scg
 1 Rev, Tithe Extractor|j25
-1 Rootwater Thief|nem
+1 Rootwater Thief|NMS|[40]
 1 Rousing Refrain|soc
 1 Sadistic Sacrament|zen
 1 Scrib Nibblers|wwk
 1 Sire of Stagnation|m3c
-1 Sol Ring|slz|[356]
-10 Swamp|unf|[237]
-1 Urborg, Tomb of Yawgmoth|slz|[363]
-1 Talisman of Creativity|mh1
-1 Talisman of Dominance|mrd
-1 Talisman of Indulgence|mh1
+1 Sol Ring|LEB|[270]
+10 Swamp|INR|[292]
+1 Urborg, Tomb of Yawgmoth|PIO|[118]
+1 Talisman of Creativity|TRC|[504]
+1 Talisman of Dominance|TRC|[505]
+1 Talisman of Indulgence|TRC|[507]
 1 Thieving Aven|yotj
 1 Impetuous Lootmonger|yotj
 1 Thieving Varmint|otc
-1 Thran Dynamo|blc
+1 Thran Dynamo|UDS|[139]
 1 Toxic Deluge|mh3
 1 Umbris, Fear Manifest|voc
 1 Triumphant Getaway|yotj

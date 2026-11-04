@@ -3,92 +3,92 @@ Name=Henzie "Toolbox" Torre
 [Commander]
 1 Henzie "Toolbox" Torre|NCC|1
 [Main]
-1 Arcane Signet|NCC|1
-1 Artisan of Kozilek|NCC|1
-1 Ash Barrens|NCC|1
-1 Avenger of Zendikar|NCC|1
+1 Arcane Signet|TRC|[485]
+1 Artisan of Kozilek|M3C|[153]
+1 Ash Barrens|TDC|[339]
+1 Avenger of Zendikar|ECC|[98]
 1 Bellowing Mauler|NCC|1
-1 Blasphemous Act|NCC|1
-1 Blighted Woodland|NCC|1
+1 Blasphemous Act|SOC|[238]
+1 Blighted Woodland|TSR|[405]
 1 Caldaia Guardian|NCC|1
-1 Chaos Warp|NCC|1
-1 Cinder Glade|NCC|1
-1 Command Tower|NCC|1
-1 Commander's Sphere|NCC|1
-1 Deathbringer Regent|NCC|1
+1 Chaos Warp|MBC|[72]
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Deathbringer Regent|J22|[396]
 1 Aether Snap|NCC|1
-1 Deathreap Ritual|NCC|1
-1 Disciple of Bolas|NCC|1
+1 Deathreap Ritual|DSC|[86]
+1 Disciple of Bolas|TDC|[178]
 1 Dodgy Jalopy|NCC|1
-1 Etali, Primal Storm|NCC|1
-1 Evolutionary Leap|NCC|1
-1 Exotic Orchard|NCC|1
-1 Explore|NCC|1
-1 Farseek|NCC|1
-1 Fellwar Stone|NCC|1
+1 Etali, Primal Storm|TSR|[342]
+1 Evolutionary Leap|TSR|[362]
+1 Exotic Orchard|TRC|[378]
+1 Explore|J25|[146]
+1 Farseek|RVR|[347]
+1 Fellwar Stone|DRK|[102]
 1 First Responder|NCC|1
-1 Foreboding Ruins|NCC|1
-6 Forest|SNC|1
-1 Game Trail|NCC|1
-1 Garruk's Uprising|NCC|1
-1 Giant Adephage|NCC|1
-1 Glittering Stockpile|SNC|1
-1 Greenwarden of Murasa|NCC|1
+1 Foreboding Ruins|TRC|[381]
+6 Forest|INR|[296]
+1 Game Trail|BLC|[306]
+1 Garruk's Uprising|ECC|[109]
+1 Giant Adephage|DSC|[179]
+1 Glittering Stockpile|OTC|[167]
+1 Greenwarden of Murasa|ECC|[110]
 1 Grime Gorger|NCC|1
 1 Indrik Stomphowler|NCC|1
 1 Industrial Advancement|NCC|1
-1 Inferno Titan|NCC|1
+1 Inferno Titan|BLC|[198]
 1 Jolene, the Plunder Queen|NCC|1
 1 Jund Panorama|NCC|1
-1 Kessig Wolf Run|NCC|1
-1 Kodama's Reach|NCC|1
+1 Kessig Wolf Run|TDC|[375]
+1 Kodama's Reach|ECC|[113]
 1 Kresh the Bloodbraided|NCC|1
 1 Life's Legacy|NCC|1
-1 Lifecrafter's Bestiary|NCC|1
+1 Lifecrafter's Bestiary|MKC|[231]
 1 Mezzio Mugger|NCC|1
-1 Migration Path|NCC|1
+1 Migration Path|TDC|[262]
 1 Mitotic Slime|NCC|1
-1 Stomping Ground|GTC
-1 Mosswort Bridge|NCC|1
-5 Mountain|SNC|1
-1 Myriad Landscape|NCC|1
+1 Stomping Ground|RVR|[413]
+1 Mosswort Bridge|TDC|[379]
+5 Mountain|INR|[294]
+1 Myriad Landscape|EOC|[169]
 1 Next of Kin|NCC|1
-1 Noxious Gearhulk|NCC|1
-1 Overgrown Battlement|NCC|1
-1 Painful Truths|NCC|1
-1 Path of Ancestry|NCC|1
+1 Noxious Gearhulk|TDC|[191]
+1 Overgrown Battlement|TDC|[264]
+1 Painful Truths|TRC|[274]
+1 Path of Ancestry|TRC|[545]
 1 Protection Racket|NCC|1
-1 Rain of Riches|NCC|1
-1 Rampant Growth|NCC|1
-1 Riveteers Charm|SNC|1
+1 Rain of Riches|BLC|[200]
+1 Rampant Growth|TMP|[245]
+1 Riveteers Charm|M3C|[271]
 1 Riveteers Confluence|NCC|1
-1 Riveteers Overlook|SNC|1
-1 Savage Lands|NCC|1
-1 Blood Crypt|RTR
-1 Smoldering Marsh|NCC|1
-1 Sol Ring|NCC|1
-1 Solemn Simulacrum|NCC|1
-1 Spinerock Knoll|NCC|1
-1 Stalking Vengeance|NCC|1
-4 Swamp|SNC|1
-1 Temple of Malady|NCC|1
-1 Temple of the False God|NCC|1
+1 Riveteers Overlook|ECC|[162]
+1 Savage Lands|ECC|[165]
+1 Blood Crypt|RVR|[397]
+1 Smoldering Marsh|TRC|[403]
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
+1 Spinerock Knoll|FDC|[314]
+1 Stalking Vengeance|RVR|[126]
+4 Swamp|INR|[292]
+1 Temple of Malady|SOC|[413]
+1 Temple of the False God|SCG|[143]
 1 Temur Sabertooth|NCC|1
-1 Terminate|NCC|1
+1 Terminate|PLS|[128]
 1 The Beamtown Bullies|NCC|1
-1 Thragtusk|NCC|1
-1 Thriving Bluff|NCC|1
-1 Thriving Grove|NCC|1
-1 Thriving Moor|NCC|1
+1 Thragtusk|TSR|[368]
+1 Thriving Bluff|ECC|[170]
+1 Thriving Grove|ECC|[171]
+1 Thriving Moor|ECC|[174]
 1 Treeshaker Chimera|NCC|1
 1 Turf War|NCC|1
-1 Twilight Mire|NCC|1
-1 Victimize|NCC|1
-1 Warstorm Surge|NCC|1
+1 Twilight Mire|SOC|[418]
+1 Victimize|MH3|[413]
+1 Warstorm Surge|FDC|[186]
 1 Wave of Rats|NCC|1
-1 Weathered Sentinels|NCC|1
-1 Windgrace's Judgment|NCC|1
+1 Weathered Sentinels|TDC|[336]
+1 Windgrace's Judgment|EOC|[129]
 1 Woodfall Primus|NCC|1
-1 World Shaper|NCC|1
+1 World Shaper|OTC|[214]
 [Sideboard]
 

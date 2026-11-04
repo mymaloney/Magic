@@ -1,19 +1,19 @@
 [metadata]
 Name=Lightning Elemental
 [Main]
-4 Ball Lightning|MED|1
-2 Chandra's Pyrohelix|KLD|1
+4 Ball Lightning|DRK|[57]
+2 Chandra's Pyrohelix|J22|[514]
 4 Dwarven Mine|ELD|1
-2 Fork|ME4|1
-4 Incinerate|10E|1
-4 Lightning Bolt|MED|1
-4 Lightning Elemental|10E|1
-9 Mountain|BRO|1
-7 Mountain|BRO|2
-2 Reverberate|M11|1
-4 Shock|10E|1
+2 Fork|LEB|[153]
+4 Incinerate|MIR|[184]
+4 Lightning Bolt|LEB|[162]
+4 Lightning Elemental|TMP|[186]
+9 Mountain|INR|[294]
+7 Mountain|INR|[294]
+2 Reverberate|M13|[145]
+4 Shock|ONS|[227]
 4 Spark Elemental|10E|1
-4 Thunderbreak Regent|DTK|1
+4 Thunderbreak Regent|TDC|[241]
 2 Thunderkin Awakener|M20|1
-2 Thundermaw Hellkite|M13|1
-2 Thunderous Wrath|AVR|1
+2 Thundermaw Hellkite|SCD|[164]
+2 Thunderous Wrath|MM3|[113]

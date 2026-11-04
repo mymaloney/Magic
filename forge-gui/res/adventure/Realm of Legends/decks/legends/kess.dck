@@ -1,93 +1,93 @@
 [metadata]
 Name=Kess, Dissident Mage
 [Commander]
-1 Kess, Dissident Mage|C17
+1 Kess, Dissident Mage|NCC|[344]
 [Main]
 1 Inalla, Archmage Ritualist|C17
-1 Apprentice Necromancer|C17
-1 Arcanis the Omnipotent|C17
-1 Archaeomancer|C17
-1 Azami, Lady of Scrolls|C17
-1 Bloodline Necromancer|C17
-1 Body Double|C17
-1 Cauldron Dance|C17
-1 Chaos Warp|C17
-1 Clone Legion|C17
-1 Comet Storm|C17
-1 Command Tower|C17
-1 Commander's Sphere|C17
-1 Corpse Augur|C17
-1 Crosis's Charm|C17
-1 Crumbling Necropolis|C17
-1 Curse of Disturbance|C17
-1 Curse of Opulence|C17
-1 Curse of Verbosity|C17
-1 Darksteel Ingot|C17
-1 Decree of Pain|C17
-1 Dimir Aqueduct|C17
-1 Dismal Backwater|C17
+1 Apprentice Necromancer|UDS|[51]
+1 Arcanis the Omnipotent|DMR|[280]
+1 Archaeomancer|PIO|[284]
+1 Azami, Lady of Scrolls|CMM|[74]
+1 Bloodline Necromancer|LCC|[185]
+1 Body Double|CMM|[75]
+1 Cauldron Dance|INV|[238]
+1 Chaos Warp|MBC|[72]
+1 Clone Legion|NCC|[215]
+1 Comet Storm|CMR|[411]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Corpse Augur|DRC|[40]
+1 Crosis's Charm|PLS|[99]
+1 Crumbling Necropolis|LCC|[326]
+1 Curse of Disturbance|SCD|[74]
+1 Curse of Opulence|TDC|[209]
+1 Curse of Verbosity|CLB|[717]
+1 Darksteel Ingot|PIO|[254]
+1 Decree of Pain|SCG|[64]
+1 Dimir Aqueduct|DSC|[270]
+1 Dismal Backwater|TDM|[254]
 1 Etherium-Horn Sorcerer|C17
-1 Evolving Wilds|C17
-1 Exotic Orchard|C17
-1 Fellwar Stone|C17
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
+1 Fellwar Stone|DRK|[102]
 1 Galecaster Colossus|C17
-1 Go for the Throat|C17
-1 Grixis Panorama|C17
-1 Harbinger of the Tides|C17
-1 Havengul Lich|C17
-1 Into the Roil|C17
-4 Island|C17|1
-3 Island|C17|2
-3 Island|C17|3
-1 Izzet Boilerworks|C17
-1 Izzet Chemister|C17
+1 Go for the Throat|FDC|[100]
+1 Grixis Panorama|NCC|[407]
+1 Harbinger of the Tides|FDN|[593]
+1 Havengul Lich|SCD|[231]
+1 Into the Roil|FDN|[509]
+4 Island|INR|[290]
+3 Island|INR|[290]
+3 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
+1 Izzet Chemister|CLB|[798]
 1 Izzet Chronarch|C17
-1 Jwar Isle Refuge|C17
-1 Kindred Dominance|C17
-1 Magus of the Abyss|C17
+1 Jwar Isle Refuge|SCD|[306]
+1 Kindred Dominance|WOC|[113]
+1 Magus of the Abyss|2XM|[97]
 1 Magus of the Mind|C17
 1 Mairsil, the Pretender|C17
-1 Marchesa, the Black Rose|C17
-1 Memory Plunder|C17
-1 Merchant of Secrets|C17
-1 Mercurial Chemister|C17
+1 Marchesa, the Black Rose|2X2|[248]
+1 Memory Plunder|CLB|[849]
+1 Merchant of Secrets|LGN|[44]
+1 Mercurial Chemister|C20|[221]
 1 Mirror of the Forebears|C17
-2 Mountain|C17|1
-1 Mountain|C17|2
-1 Mountain|C17|3
-1 Mystifying Maze|M11|1
-1 Necromantic Selection|C17
-1 Nevinyrral's Disk|C17
+2 Mountain|INR|[294]
+1 Mountain|INR|[294]
+1 Mountain|INR|[294]
+1 Mystifying Maze|C17|[264]
+1 Necromantic Selection|TDC|[189]
+1 Nevinyrral's Disk|LEB|[267]
 1 Nin, the Pain Artist|C17
-1 Niv-Mizzet, the Firemind|C17
-1 Nivix Guildmage|C17
-1 Opportunity|C17
-1 Path of Ancestry|C17
+1 Niv-Mizzet, the Firemind|RVR|[467]
+1 Nivix Guildmage|GK1|[42]
+1 Opportunity|ULG|[37]
+1 Path of Ancestry|TRC|[545]
 1 Polymorphist's Jest|C17
-1 Portal Mage|C17
-1 Puppeteer Clique|C17
-1 Rakdos Carnarium|C17
-1 Rakdos Charm|C17
-1 Reality Shift|C17
-1 Sea Gate Oracle|C17
+1 Portal Mage|CMM|[112]
+1 Puppeteer Clique|ECC|[84]
+1 Rakdos Carnarium|ECC|[161]
+1 Rakdos Charm|TSR|[384]
+1 Reality Shift|SOC|[199]
+1 Sea Gate Oracle|GN3|[38]
 1 Serendib Sorcerer|C17
-1 Shadowmage Infiltrator|C17
-1 Shifting Shadow|C17
-1 Silumgar's Command|C17
-1 Sol Ring|C17
+1 Shadowmage Infiltrator|ODY|[294]
+1 Shifting Shadow|NEC|[109]
+1 Silumgar's Command|ZNC|[99]
+1 Sol Ring|LEB|[270]
 1 Spelltwine|C17
-2 Swamp|C17|1
-2 Swamp|C17|2
-2 Swamp|C17|3
-1 Swiftwater Cliffs|C17
-1 Taigam, Sidisi's Hand|C17
-1 Temple of the False God|C17
-1 Terminate|C17
-1 Terramorphic Expanse|C17
-1 Unstable Obelisk|C17
-1 Vela the Night-Clad|C17
-1 Vindictive Lich|C17
-1 Vivid Crag|C17
-1 Vivid Creek|C17
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+1 Swiftwater Cliffs|TDM|[268]
+1 Taigam, Sidisi's Hand|CMM|[357]
+1 Temple of the False God|SCG|[143]
+1 Terminate|PLS|[128]
+1 Terramorphic Expanse|TRC|[571]
+1 Unstable Obelisk|CMM|[416]
+1 Vela the Night-Clad|SCD|[256]
+1 Vindictive Lich|CMM|[196]
+1 Vivid Crag|CM2|[276]
+1 Vivid Creek|NCC|[444]
 1 Vivid Marsh|C17
-1 Worn Powerstone|C17
+1 Worn Powerstone|USG|[318]

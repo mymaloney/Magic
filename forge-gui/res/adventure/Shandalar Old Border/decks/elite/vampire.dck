@@ -1,7 +1,7 @@
 [metadata]
 Name=vampire
 [Main]
-24 Swamp|TMP
+24 Swamp|INR|[292]
 4 Ravenous Vampire|MIR
 4 Sengir Autocrat|HML
 2 Krovikan Vampire|ICE
@@ -10,8 +10,8 @@ Name=vampire
 2 Attrition|UDS
 2 Vampire Hounds|EXO
 2 Skyshroud Vampire|TMP
-4 Animate Dead|3ED
-4 Drain Life|LEB
+4 Animate Dead|LEB|[93]
+4 Drain Life|MIR|[118]
 2 Cover of Darkness|ONS
 2 Vampiric Embrace|USG
 2 Vampire Bats|LEG
@@ -20,4 +20,4 @@ Name=vampire
 1 Cemetery Gate|HML|1
 1 Cemetery Gate|HML|2
 1 Crovax the Cursed|STH
-1 Swamp|TMP|2
+1 Swamp|INR|[292]

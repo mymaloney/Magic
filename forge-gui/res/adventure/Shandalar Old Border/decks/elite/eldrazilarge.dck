@@ -1,25 +1,25 @@
 [metadata]
 Name=Elder Entity of Origin
 [Main]
-10 Island|S99
-10 Mountain|S99
-4 Giant Octopus|S99
-4 Ogre Warrior|S99
-2 Air Elemental|S99
-2 Water Elemental|S99
-2 Fire Elemental|S99
-2 Earth Elemental|S99
-4 Touch of Brilliance|S99
-4 Jagged Lightning|S99
-4 Trained Orgg|S99
-4 Vizzerdrix|S99
-2 Thunder Dragon|S99
-2 Denizen of the Deep|S99
-2 Cinder Storm|S99
-2 Time Warp|S99
+10 Island|INR|[290]
+10 Mountain|INR|[294]
+4 Giant Octopus|POR|[56]
+4 Ogre Warrior|PO2|[113]
+2 Air Elemental|PO2|[31]
+2 Water Elemental|LEB|[92]
+2 Fire Elemental|LEB|[149]
+2 Earth Elemental|LEB|[145]
+4 Touch of Brilliance|PO2|[58]
+4 Jagged Lightning|USG|[200]
+4 Trained Orgg|7ED|[224]
+4 Vizzerdrix|7ED|[110]
+2 Thunder Dragon|CLB|[810]
+2 Denizen of the Deep|DMR|[282]
+2 Cinder Storm|A25|[126]
+2 Time Warp|TMP|[97]
 
 [StartInBattle_Reference]
-2 Mountain|S99
-2 Island|S99
-1 Merfolk of the Pearl Trident|S99
-1 Mons's Goblin Raiders|S99
+2 Mountain|INR|[294]
+2 Island|INR|[290]
+1 Merfolk of the Pearl Trident|POR|[60]
+1 Mons's Goblin Raiders|LEB|[165]

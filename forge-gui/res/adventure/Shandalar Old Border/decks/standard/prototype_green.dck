@@ -1,15 +1,15 @@
 [metadata]
 Name=Prototype Green
 [Main]
-12 Forest|USG
-4 Mishra's Factory|ATQ|4
+12 Forest|INR|[296]
+4 Mishra's Factory|DMR|[399]
 4 Stalking Stones|TMP
 4 Scorched Ruins|WTH
-1 Living Artifact|LEA
+1 Living Artifact|LEB|[209]
 1 Scarwood Bandits|DRK
 2 Tribal Unity|ONS
-2 Wild Growth|ICE
-2 Ley Druid|LEA
+2 Wild Growth|DMR|[352]
+2 Ley Druid|LEB|[206]
 2 Krosan Restorer|TOR
 2 Argothian Elder|USG
 4 Brass Herald|APC
@@ -21,5 +21,5 @@ Name=Prototype Green
 1 Matopi Golem|VIS
 1 Basalt Golem|MIR
 2 Beast of Burden|ULG
-2 Phyrexian Colossus|7ED
+2 Phyrexian Colossus|USG|[305]
 4 Overgrowth|STH

@@ -5,23 +5,23 @@ Name=Adventure - INN Midnight Transformation
 [Main]
 2 Loyal Cathar|DKA|1
 1 Pious Evangel|SOI|1
-1 Defenestrate|MID|1
-4 Forsaken Sanctuary|SOI|1
-1 Neglected Heirloom|SOI|1
+1 Defenestrate|J25|[420]
+4 Forsaken Sanctuary|C18|[247]
+1 Neglected Heirloom|INR|[473]
 2 Thraben Sentry|ISD|1
-2 Murderous Compulsion|SOI|1
-2 Lunarch Veteran|MID|1
-1 Liesa, Forgotten Archangel|MID|1
-1 Shady Traveler|MID|1
-2 Honored Heirloom|VOW|1
-6 Plains|SOI|1
-1 Beloved Beggar|MID|1
+2 Murderous Compulsion|INR|[126]
+2 Lunarch Veteran|INR|[450]
+1 Liesa, Forgotten Archangel|INR|[433]
+1 Shady Traveler|DBL|[120]
+2 Honored Heirloom|DBL|[524]
+6 Plains|INR|[288]
+1 Beloved Beggar|DBL|[3]
 1 Kindly Stranger|SOI|1
-1 Graveyard Trespasser|MID|1
+1 Graveyard Trespasser|DBL|[104]
 2 Alms of the Vein|SOI|1
-2 Mourning Patrol|MID|1
-7 Swamp|SOI|1
-1 Chaplain of Alms|MID|1
+2 Mourning Patrol|DBL|[28]
+7 Swamp|INR|[292]
+1 Chaplain of Alms|DBL|[13]
 [Sideboard]
 
 [Planes]

@@ -1,15 +1,15 @@
 [metadata]
 Name=ooze_monogreen
 [Main]
-17 Forest|MMQ|3
-2 Swamp|MMQ|3
+17 Forest|INR|[296]
+2 Swamp|INR|[292]
 4 Deepwood Ghoul|MMQ
 4 Deepwood Tantiv|MMQ
 4 Elvish Pioneer|ONS
-4 Giant Growth|LEA
-4 Llanowar Elves|BRB
+4 Giant Growth|ICE|[246]
+4 Llanowar Elves|LEB|[211]
 4 Llanowar Wastes|APC
-4 Rampant Growth|MIR
+4 Rampant Growth|TMP|[245]
 4 Spined Wurm|STH
 4 Vine Dryad|MMQ
-4 Wild Growth|6ED
+4 Wild Growth|DMR|[352]

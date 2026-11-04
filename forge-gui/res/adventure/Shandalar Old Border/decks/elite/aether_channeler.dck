@@ -1,13 +1,13 @@
 [metadata]
 Name=aether_channeler
 [Main]
-4 Tropical Island|LEA
-4 Underground Sea|3ED
-4 Bayou|LEA
-4 Polluted Delta|ONS
-2 Island|LEA
-1 Swamp|5ED
-1 Forest|3ED
+4 Tropical Island|LEB|[284]
+4 Underground Sea|LEB|[286]
+4 Bayou|LEB|[279]
+4 Polluted Delta|MH3|[438]
+2 Island|INR|[290]
+1 Swamp|INR|[292]
+1 Forest|INR|[296]
 2 Nantuko Vigilante|LGN
 2 Broodhatch Nantuko|ONS
 2 Root Elemental|SCG
@@ -20,11 +20,11 @@ Name=aether_channeler
 4 Quicksilver Dragon|ONS
 2 Silent Specter|ONS
 2 Chromeshell Crab|LGN
-4 Counterspell|5ED
+4 Counterspell|DMR|[281]
 4 Thran Dynamo|UDS
 
 [StartInBattle_Reference]
 1 Dream Chisel|ONS
 1 Ixidor, Reality Sculptor|ONS
-1 Tropical Island|LEA
-1 Underground Sea|LEA
+1 Tropical Island|LEB|[284]
+1 Underground Sea|LEB|[286]

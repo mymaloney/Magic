@@ -9,7 +9,7 @@ Name=Jareth, Leonine Titan
 1 Balancing Act|ODY
 1 Battle Screech|JUD
 1 Beloved Chaplain|ODY
-1 Blinding Angel|NEM
+1 Blinding Angel|NMS|[3]
 1 Blinding Light|INV
 1 Commander Eesha|JUD
 1 Congregate|USG
@@ -20,29 +20,29 @@ Name=Jareth, Leonine Titan
 1 Decree of Justice|SCG
 1 Desert|ARN
 1 Devoted Caretaker|ODY
-1 Disenchant|ICE
+1 Disenchant|MMQ|[18]
 1 Dogged Hunter|ODY
 1 Dust Bowl|MMQ
 1 Equipoise|VIS
 1 Exalted Angel|ONS
 1 Field of Souls|TMP
 1 Flickering Ward|TMP
-1 Glory|JUD
-1 Holy Day|LEG
-1 Intrepid Hero|7ED
+1 Glory|DMR|[264]
+1 Holy Day|INV|[20]
+1 Intrepid Hero|USG|[19]
 1 Jabari's Influence|MIR
 1 Karmic Guide|ULG
-1 Kor Haven|NEM
-1 Land Tax|4ED
-1 Lieutenant Kirtar|ODY
-1 Mishra's Factory|4ED
+1 Kor Haven|NMS|[141]
+1 Land Tax|LEG|[26]
+1 Lieutenant Kirtar|DMR|[265]
+1 Mishra's Factory|DMR|[399]
 1 Mother of Runes|ULG
 1 Noble Purpose|MMQ
 1 Oblation|ONS
 1 Opal Archangel|USG
-1 Pacifism|MIR
+1 Pacifism|ONS|[47]
 1 Pearl Medallion|TMP
-34 Plains|ONS|3
+34 Plains|INR|[288]
 1 Power Matrix|MMQ
 1 Prismatic Strands|JUD
 1 Radiant, Archangel|ULG
@@ -51,21 +51,21 @@ Name=Jareth, Leonine Titan
 1 Reya Dawnbringer|INV
 1 Righteous Fury|PO2
 1 Rout|INV
-1 Icy Manipulator|3ED
-1 Serra Angel|4ED
-1 Serra Avatar|USG
+1 Icy Manipulator|DMR|[380]
+1 Serra Angel|DMR|[271]
+1 Serra Avatar|DMR|[272]
 1 Shelter|ODY
-1 Sol Ring|3ED
+1 Sol Ring|LEB|[270]
 1 Soltari Visionary|EXO
 1 Soul Sculptor|USG
 1 Soul Warden|EXO
 1 Spurnmage Advocate|JUD
-1 Swords to Plowshares|ICE
+1 Swords to Plowshares|DMR|[275]
 1 Temple of the False God|SCG
 1 Thran Dynamo|UDS
 1 Voice of All|PLS
 1 Weathered Wayfarer|ONS
-1 Windborn Muse|LGN
+1 Windborn Muse|DMR|[278]
 1 Worn Powerstone|USG
 1 Worship|USG
-1 Wrath of God|4ED
+1 Wrath of God|DMR|[279]

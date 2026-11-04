@@ -3,23 +3,23 @@ Name=Adventure - INN Low White
 [Avatar]
 
 [Main]
-1 Intangible Virtue|ISD|1
-2 Cathedral Sanctifier|AVR|1
+1 Intangible Virtue|TSR|[295]
+2 Cathedral Sanctifier|DDQ|[3]
 1 Blessed Alliance|EMN|1
-1 Goldnight Commander|AVR|1
-1 Ambitious Farmhand|MID|1
-2 Bound by Moonsilver|SOI|1
+1 Goldnight Commander|TDC|[117]
+1 Ambitious Farmhand|INR|[448]
+2 Bound by Moonsilver|INR|[335]
 1 Commander's Authority|AVR|1
-1 Goldnight Redeemer|AVR|1
-2 Chapel Geist|ISD|1
-2 Gather the Townsfolk|DKA|1
-1 Tenacity|SOI|1
-2 Doomed Traveler|ISD|1
-1 Bygone Bishop|SOI|1
-2 Seraph of Dawn|AVR|1
-2 Thraben Inspector|SOI|1
+1 Goldnight Redeemer|DDQ|[13]
+2 Chapel Geist|DDQ|[5]
+2 Gather the Townsfolk|INR|[341]
+1 Tenacity|J25|[104]
+2 Doomed Traveler|CLU|[59]
+1 Bygone Bishop|CLB|[689]
+2 Seraph of Dawn|CMR|[44]
+2 Thraben Inspector|TSR|[305]
 1 Spare from Evil|ISD|1
-18 Plains|DKA|2
+18 Plains|INR|[288]
 [Sideboard]
 
 [Planes]

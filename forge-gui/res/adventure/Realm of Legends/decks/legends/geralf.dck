@@ -3,75 +3,75 @@ Name=Geralf
 [Commander]
 1 Geralf, the Fleshwright|OTJ
 [Main]
-1 Aether Spellbomb|J22
-1 Aetherize|LCC
-1 Arcane Denial|OTC
-1 Arcane Signet|OTC
-1 Baral, Chief of Compliance|AER
-1 Bident of Thassa|LCC
-1 Brainstorm|MKC
-1 Sapphire Medallion|MH3
-1 Lightning Greaves|CMM
-1 Coastal Piracy|JMP
-1 Shark Typhoon|IKO
+1 Aether Spellbomb|FDC|[244]
+1 Aetherize|RVR|[448]
+1 Arcane Denial|ALL|[22a]
+1 Arcane Signet|TRC|[485]
+1 Baral, Chief of Compliance|TSR|[306]
+1 Bident of Thassa|PIO|[47]
+1 Brainstorm|MMQ|[61]
+1 Sapphire Medallion|TMP|[306]
+1 Lightning Greaves|TRC|[496]
+1 Coastal Piracy|MMQ|[68]
+1 Shark Typhoon|FRC|[44]
 1 Clairvoyance|ICE
 1 Contentious Plan|WAR
-1 Counterspell|CMM
-1 Crashing Drawbridge|CMM
-1 Demolition Field|OTC
-1 Distant Melody|LCC
-1 Eternal Skylord|MIC
-1 Everflowing Chalice|MKC
-1 Experimental Augury|ONE
-1 Fellwar Stone|OTC
-1 Flux Channeler|CMM
-1 Forgotten Creation|CLB
-1 Frantic Search|CMM
-1 Geralf, Visionary Stitcher|VOW
-1 Heraldic Banner|ELD
+1 Counterspell|DMR|[281]
+1 Crashing Drawbridge|TDC|[316]
+1 Demolition Field|FDN|[687]
+1 Distant Melody|ECC|[45]
+1 Eternal Skylord|DRC|[76]
+1 Everflowing Chalice|TSR|[394]
+1 Experimental Augury|EOC|[73]
+1 Fellwar Stone|DRK|[102]
+1 Flux Channeler|WAR|[52]
+1 Forgotten Creation|DRC|[77]
+1 Frantic Search|DMR|[285]
+1 Geralf, Visionary Stitcher|DBL|[328]
+1 Heraldic Banner|FDN|[254]
 1 High Tide|DMR
 1 Impulse|DMR
-1 Spark Double|WAR
-28 Island|OTJ
-1 Karn's Bastion|LCC
+1 Spark Double|RVR|[319]
+28 Island|INR|[290]
+1 Karn's Bastion|RVR|[464]
 1 Kindred Discovery|LCC
-1 Larder Zombie|MID
+1 Larder Zombie|DBL|[58]
 1 Lavaspur Boots|OTJ
-1 Lazotep Plating|WAR
-1 Lonely Sandbar|MKC
+1 Lazotep Plating|SCD|[57]
+1 Lonely Sandbar|ONS|[320]
 1 Meeting of Minds|MOM
-1 Midnight Clock|OTC
-1 Mind Stone|MKC
-1 Myriad Landscape|MKC
-1 Obsessive Search|DMR
+1 Midnight Clock|DRC|[79]
+1 Mind Stone|DMR|[385]
+1 Myriad Landscape|EOC|[169]
+1 Obsessive Search|TOR|[43]
 1 Octavia, Living Thesis|OTC
 1 Of One Mind|IKO
-1 Opt|OTC
+1 Opt|INV|[64]
 1 Ornithopter|DMR
-1 Ponder|OTC
-1 Portent|C18
-1 Preordain|OTC
-1 Rapid Hybridization|CLU
-1 Reliquary Tower|OTC
-1 Resculpt|CMM
+1 Ponder|TSR|[315]
+1 Portent|ICE|[90]
+1 Preordain|TDC|[161]
+1 Rapid Hybridization|SOC|[198]
+1 Reliquary Tower|TRC|[551]
+1 Resculpt|SOC|[201]
 1 Scour All Possibilities|MH1
-1 Sleight of Hand|WOE
+1 Sleight of Hand|PO2|[46]
 1 Slip Through Space|OGW
-1 Snap|DMR
-1 Sol Ring|OTC
-1 Solemn Simulacrum|MKC
+1 Snap|ULG|[43]
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
 1 Spectral Deluge|KHC
-1 Springleaf Drum|2XM
+1 Springleaf Drum|ECL|[260]
 1 Step Between Worlds|OTJ
-1 Swiftfoot Boots|OTC
-1 Talrand, Sky Summoner|OTC
-1 Teferi's Ageless Insight|MKC
-1 Temple of the False God|OTC
-1 Tezzeret's Gambit|OTC
-1 Thought Vessel|MKC
+1 Swiftfoot Boots|TRC|[501]
+1 Talrand, Sky Summoner|TSR|[318]
+1 Teferi's Ageless Insight|J25|[371]
+1 Temple of the False God|SCG|[143]
+1 Tezzeret's Gambit|EOC|[47]
+1 Thought Vessel|TRC|[509]
 1 Transcendent Message|MOM
 1 Undead Alchemist|MIC
-1 Unsummon|M20
-1 War Room|MKC
-1 Wash Out|2X2
-1 Wayfarer's Bauble|LCC
+1 Unsummon|LEB|[87]
+1 War Room|SOC|[422]
+1 Wash Out|INV|[87]
+1 Wayfarer's Bauble|TRC|[511]

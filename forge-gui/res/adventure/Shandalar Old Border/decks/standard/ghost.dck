@@ -1,9 +1,9 @@
 [metadata]
 Name=ghost
 [Main]
-24 Swamp|PO2|3
-1 Will-o'-the-Wisp|LEA
-1 Nether Shadow|LEA
+24 Swamp|INR|[292]
+1 Will-o'-the-Wisp|LEB|[136]
+1 Nether Shadow|LEB|[117]
 2 Skulking Ghost|MIR
 2 Chilling Apparition|PCY
 2 Lost Soul|LEG

@@ -1,91 +1,91 @@
 [metadata]
 Name=Sigarda, Host of Herons
 [Commander]
-1 Sigarda, Host of Herons|AVR
+1 Sigarda, Host of Herons|INR|[434]
 [Main]
-1 Ajani, Mentor of Heroes|JOU
+1 Ajani, Mentor of Heroes|PIO|[351]
 1 Angelic Skirmisher|GTC
 1 Archetype of Courage|BNG
 1 Arctic Treeline|KHM
 1 Aura Shards|INV
-1 Avacyn, Angel of Hope|CMM
+1 Avacyn, Angel of Hope|INR|[477]
 1 Beanstalk Giant|DSC
-1 Beast Whisperer|CLU
-1 Blighted Woodland|CLB
+1 Beast Whisperer|TSR|[356]
+1 Blighted Woodland|TSR|[405]
 1 Bramble Sovereign|CLB
 1 Branchloft Pathway|ZNR
 1 Bretagard Stronghold|MOC
 1 Bridgeworks Battle|MH3
-1 Canopy Vista|BFZ
-1 Castle Ardenvale|BLC
+1 Canopy Vista|TDC|[343]
+1 Castle Ardenvale|TDC|[346]
 1 Castle Garenbrig|ELD
-1 Avacyn's Pilgrim|ISD
-1 Cloud Key|TSR
-1 Command Tower|CMA
-1 Dragonlord Dromoka|2X2
-1 Dromoka's Command|DTK
-1 Dryad Arbor|V12
-1 Duskwatch Recruiter|SOI
-1 Elesh Norn, Grand Cenobite|NPH
-1 Emeria, the Sky Ruin|C14
+1 Avacyn's Pilgrim|SCD|[171]
+1 Cloud Key|EOC|[54]
+1 Command Tower|TRC|[521]
+1 Dragonlord Dromoka|TDC|[286]
+1 Dromoka's Command|MOC|[323]
+1 Dryad Arbor|DSC|[273]
+1 Duskwatch Recruiter|INR|[467]
+1 Elesh Norn, Grand Cenobite|IMA|[18]
+1 Emeria, the Sky Ruin|SOC|[368]
 1 Enduring Vitality|DSK
 1 Farewell|M3C
-1 Farseek|BLC
-8 Forest|AVR
-1 Fortified Village|SOI
-1 Fracturing Gust|V14
-1 Garruk's Uprising|M21
-1 Gavony Township|ISD
+1 Farseek|RVR|[347]
+8 Forest|INR|[296]
+1 Fortified Village|TDC|[366]
+1 Fracturing Gust|SHM|[227]
+1 Garruk's Uprising|ECC|[109]
+1 Gavony Township|MOC|[406]
 1 Holy Cow|OTJ
-1 Intrepid Adversary|MID
+1 Intrepid Adversary|DBL|[25]
 1 King Darien XLVIII|DMU
-1 Krosan Verge|C16
-1 Loyal Unicorn|C18
+1 Krosan Verge|JUD|[141]
+1 Loyal Unicorn|CMM|[40]
 1 Maja, Bretagard Protector|SCD
 1 Sigardian Zealot|MIC
-1 Sigardian Savior|MID
-1 Sigardian Evangel|YMID
+1 Sigardian Savior|DBL|[34]
+1 Sigardian Evangel|MB2|[258]
 1 Sigardian Priest|EMN
-1 Mirari's Wake|CNS
-1 Nature's Lore|MKC
+1 Mirari's Wake|JUD|[139]
+1 Nature's Lore|DMR|[346]
 1 Odric, Lunarch Marshal|INR
-1 Ohran Frostfang|OTC
-1 Overgrown Farmland|INR
-7 Plains|AVR
-1 Return of the Wildspeaker|OTC
-1 Return to Dust|C18
-1 Sakura-Tribe Elder|DSC
-1 Path to Exile|SCD
+1 Ohran Frostfang|SOC|[279]
+1 Overgrown Farmland|FRA|[185]
+7 Plains|INR|[288]
+1 Return of the Wildspeaker|ECC|[115]
+1 Return to Dust|TRC|[427]
+1 Sakura-Tribe Elder|SOC|[285]
+1 Path to Exile|TSR|[299]
 1 Saryth, the Viper's Fang|MKC
-1 Scattered Groves|AKH
-1 Scavenging Ooze|M14
-1 Selesnya Charm|CMA
-1 Shalai, Voice of Plenty|WOC
-1 Shamanic Revelation|BLC
+1 Scattered Groves|OTC|[315]
+1 Scavenging Ooze|FDC|[227]
+1 Selesnya Charm|PIO|[240]
+1 Shalai, Voice of Plenty|TDC|[130]
+1 Shamanic Revelation|PIO|[194]
 1 Sigarda, Heron's Grace|MIC
 1 Sigarda, Font of Blessings|MAT
-1 Sigarda, Champion of Light|MID
+1 Sigarda, Champion of Light|DBL|[240]
 1 Sigarda's Vanguard|MIC
-1 Sigarda's Imprisonment|VOW
-1 Skyshroud Claim|CMM
+1 Sigarda's Imprisonment|DBL|[302]
+1 Skyshroud Claim|NMS|[117]
 1 Heronblade Elite|MIC
-1 Sol Ring|MIC
+1 Sol Ring|LEB|[270]
 1 Springheart Nantuko|MH3
-1 Stirring Wildwood|C17
-1 Sun Titan|BLC
-1 Sunpetal Grove|M13
-1 Swiftfoot Boots|FDN
-1 Swords to Plowshares|IMA
-1 Temple Garden|GRN
-1 Temple of Plenty|BNG
+1 Stirring Wildwood|UMA|[251]
+1 Sun Titan|SOC|[178]
+1 Sunpetal Grove|TDC|[399]
+1 Swiftfoot Boots|TRC|[501]
+1 Swords to Plowshares|DMR|[275]
+1 Temple Garden|RVR|[414]
+1 Temple of Plenty|TDC|[405]
 1 The Great Henge|CMM
-1 Thespian's Stage|GTC
-1 Thraben Watcher|MH2
+1 Thespian's Stage|RVR|[466]
+1 Thraben Watcher|FDC|[54]
 1 Toski, Bearer of Secrets|BLC
 1 Trostani Discordant|CLU
-1 Ulvenwald Oddity|VOW
-1 Vitu-Ghazi, the City-Tree|DDH
-1 Vivien Reid|M19
-1 Wilt-Leaf Liege|MM2
+1 Ulvenwald Oddity|DBL|[492]
+1 Vitu-Ghazi, the City-Tree|WOC|[173]
+1 Vivien Reid|FDN|[234]
+1 Wilt-Leaf Liege|FDN|[668]
 1 Winds of Abandon|MH1
-1 Windswept Heath|KTK
+1 Windswept Heath|MH3|[440]

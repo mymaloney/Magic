@@ -1,22 +1,22 @@
 [metadata]
 Name=Yawgmoth
 [Main]
-24 Swamp|LEA
+24 Swamp|INR|[292]
 4 Spawning Pool|ULG
 4 Tarnished Citadel|ODY
 3 Strip Mine|ATQ
 3 Wasteland|TMP
 2 Pox|ICE
-3 Dark Ritual|LEA
+3 Dark Ritual|MMQ|[129]
 3 Culling the Weak|EXO
 4 Phyrexian Arena|APC
 2 Grave Pact|STH
 2 Do or Die|INV
-2 Pestilence|LEA
+2 Pestilence|USG|[147]
 4 Corrupt|USG
 2 Annihilate|INV
 3 Plague Wind|PCY
-3 Overwhelming Forces|PTK
+3 Overwhelming Forces|OTP|[17]
 4 Yawgmoth's Will|USG
 4 Ritual of the Machine|ALL
 4 Phyrexian Scuta|PLS
@@ -43,7 +43,7 @@ Name=Yawgmoth
 1 Phyrexian Altar|INV
 1 Phyrexian Lens|INV
 1 Phyrexian Reclamation|ULG
-1 Swamp|USG|1
-1 Swamp|USG|2
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
 2 Phyrexian Walker|VIS
 2 Phyrexian Battleflies|INV

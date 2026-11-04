@@ -1,13 +1,13 @@
 [metadata]
 Name=gravetitan
 [Main]
-20 Swamp|ONS
+20 Swamp|INR|[292]
 4 Scion of Darkness|LGN
 4 Avatar of Woe|PCY
 2 Phage the Untouchable|LGN
 2 Visara the Dreadful|ONS
-4 Nightmare|2ED
-4 Dakmor Sorceress|S99
+4 Nightmare|LEB|[119]
+4 Dakmor Sorceress|PO2|[71]
 4 Plague Wind|PCY
 4 Decree of Pain|SCG
 4 Cabal Conditioning|SCG
@@ -16,6 +16,6 @@ Name=gravetitan
 
 [StartInBattle_Reference]
 1 Rotting Giant|ODY
-1 Swamp|ODY|1
-1 Swamp|ODY|2
-1 Swamp|ODY|3
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]

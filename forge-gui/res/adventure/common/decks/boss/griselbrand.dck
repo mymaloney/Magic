@@ -1,40 +1,40 @@
 [metadata]
 Name=Griselbrand
 [Main]
-4 Animate Dead|VMA|1
+4 Animate Dead|LEB|[93]
 4 Archfiend of Depravity|SCD|1
-2 Archfiend of Despair|BBD|1
-3 Cabal Coffers|MH2|1
-1 Carnifex Demon|AJMP|1
+2 Archfiend of Despair|FRC|[46]
+3 Cabal Coffers|TOR|[139]
+1 Carnifex Demon|ECC|[72]
 4 Damnation|2X2|1
-1 Demon of Death's Gate|PLIST|1
-4 Demon's Disciple|ZNR|1
-2 Demonlord Belzenlok|DOM|1
+1 Demon of Death's Gate|M11|[92]
+4 Demon's Disciple|CMM|[149]
+2 Demonlord Belzenlok|CMM|[151]
 4 Doom Blade|GN3|1
-4 Griselbrand|PGPX|1
-3 Harvester of Souls|JMP|1
-4 Infernal Grasp|PSVC|1
+4 Griselbrand|INR|[381]
+3 Harvester of Souls|TSR|[325]
+4 Infernal Grasp|INR|[385]
 3 Infernal Sovereign|MOC|1
-4 Liliana's Contract|SLD|1
+4 Liliana's Contract|M19|[107]
 4 Manor Guardian|J21|1
 4 Master of the Feast|JOU|1
-4 Nightmare Shepherd|THB|1
-2 Ob Nixilis of the Black Oath|PZ1|1
-4 Ob Nixilis, the Fallen|PLIST|1
+4 Nightmare Shepherd|DSC|[149]
+2 Ob Nixilis of the Black Oath|CMM|[176]
+4 Ob Nixilis, the Fallen|TDC|[192]
 2 Ob Nixilis, Unshackled|2X2|1
-4 Overseer of the Damned|SCD|1
+4 Overseer of the Damned|MKC|[132]
 1 Pestilence Demon|DDR|1
-4 Reanimate|UMA|1
-4 Reaper from the Abyss|J22|1
+4 Reanimate|TMP|[151]
+4 Reaper from the Abyss|J25|[480]
 2 Reiver Demon|CMA|1
-2 Reiver Demon|COM|1
-2 Seizan, Perverter of Truth|CHK|1
+2 Reiver Demon|CMA|[64]
+2 Seizan, Perverter of Truth|J22|[463]
 2 Soulhunter Rakshasa|ANB|1
 2 Stronghold Overseer|TSP|1
-15 Swamp|MOM|1
-9 Swamp|SCD|1
-7 Swamp|SCD|2
-4 Swamp|SCD|3
-9 Swamp|SCD|4
-1 Urborg, Tomb of Yawgmoth|TSR|1
-2 Vilis, Broker of Blood|M20|1
+15 Swamp|INR|[292]
+9 Swamp|INR|[292]
+7 Swamp|INR|[292]
+4 Swamp|INR|[292]
+9 Swamp|INR|[292]
+1 Urborg, Tomb of Yawgmoth|PIO|[118]
+2 Vilis, Broker of Blood|J25|[70]

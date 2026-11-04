@@ -3,102 +3,102 @@ Name=Golos
 [Commander]
 1 Golos, Tireless Pilgrim|m20
 [Main]
-1 Anguished Unmaking|soi
-1 Apex Devastator|cmr
-1 Arcane Signet|c20
-1 Assassin's Trophy|grn
-1 Avacyn, Angel of Hope|avr
-1 Beast Within|nph
+1 Anguished Unmaking|TRC|[310]
+1 Apex Devastator|M3C|[220]
+1 Arcane Signet|TRC|[485]
+1 Assassin's Trophy|SOC|[294]
+1 Avacyn, Angel of Hope|INR|[477]
+1 Beast Within|TSR|[357]
 1 Blazing Archon|rvr
-1 Serra's Emissary|mh2
-1 Cruel Ultimatum|ala
+1 Serra's Emissary|FRC|[32]
+1 Cruel Ultimatum|E01|[82]
 1 Jin-Gitaxias, Progress Tyrant|neo
-1 Archon of Cruelty|mh2
+1 Archon of Cruelty|FRC|[47]
 1 Yidris, Maelstrom Wielder|c16
-1 Elesh Norn, Grand Cenobite|nph
-1 Breeding Pool|gtc
+1 Elesh Norn, Grand Cenobite|IMA|[18]
+1 Breeding Pool|RVR|[399]
 1 Brilliant Ultimatum|ala
-1 Chromatic Lantern|rtr
-1 Chromatic Orrery|m21
-1 Forest|m20
-1 Island|m20
-1 Mountain|m20
-1 Plains|m20
-1 Swamp|m20
-1 Command Tower|cmd
-1 Iona, Shield of Emeria|zen
-1 Dragonskull Summit|m12
-1 Drowned Catacomb|m11
-1 Dryad of the Ilysian Grove|thb
+1 Chromatic Lantern|RVR|[390]
+1 Chromatic Orrery|LCC|[107]
+1 Forest|INR|[296]
+1 Island|INR|[290]
+1 Mountain|INR|[294]
+1 Plains|INR|[288]
+1 Swamp|INR|[292]
+1 Command Tower|TRC|[521]
+1 Iona, Shield of Emeria|MM2|[20]
+1 Dragonskull Summit|TRC|[375]
+1 Drowned Catacomb|TRC|[376]
+1 Dryad of the Ilysian Grove|M3C|[225]
 1 Eerie Ultimatum|iko
 1 Emergent Ultimatum|iko
 1 Enigma Sphinx|c18
 1 Etali, Primal Conqueror|mom
-1 Farseek|rav
+1 Farseek|RVR|[347]
 1 Fellwar Stone|drk
 1 Field of the Dead|m20
 1 Genesis Ultimatum|iko
-1 Glacial Fortress|m13
-1 Godless Shrine|gpt
-1 Hinterland Harbor|dom
+1 Glacial Fortress|TRC|[385]
+1 Godless Shrine|RVR|[401]
+1 Hinterland Harbor|DMR|[396]
 1 Imoti, Celebrant of Bounty|cmr
-1 In Garruk's Wake|c19
+1 In Garruk's Wake|CLB|[759]
 1 Indatha Triome|iko
-1 Isolated Chapel|dom
-1 Jin-Gitaxias, Core Augur|nph
+1 Isolated Chapel|DMR|[397]
+1 Jin-Gitaxias, Core Augur|IMA|[62]
 1 Ketria Triome|iko
-1 Kodama's Reach|uma
+1 Kodama's Reach|ECC|[113]
 1 Krosan Grip|c21
-1 Leyline of Anticipation|m20
-1 Maelstrom Nexus|ala
-1 Maelstrom Wanderer|pca
+1 Leyline of Anticipation|CLB|[726]
+1 Maelstrom Nexus|DMC|[159]
+1 Maelstrom Wanderer|ECC|[127]
 1 Mind's Desire|scg
-1 Mind's Dilation|emn
-1 Mirari's Wake|cns
-1 Nature's Lore|5ed
-1 Nicol Bolas, God-Pharaoh|hou
+1 Mind's Dilation|OTC|[101]
+1 Mirari's Wake|JUD|[139]
+1 Nature's Lore|DMR|[346]
+1 Nicol Bolas, God-Pharaoh|2X2|[260]
 1 Nyxbloom Ancient|thb
-1 Omniscience|m19
-1 Rampant Growth|c21
-1 Reliquary Tower|c20
+1 Omniscience|FDN|[161]
+1 Rampant Growth|TMP|[245]
+1 Reliquary Tower|TRC|[551]
 1 Reshape the Earth|cmr
-1 Rhythm of the Wild|rna
-1 Rootbound Crag|m10
-1 Ruinous Ultimatum|iko
-1 Sacred Foundry|rav
+1 Rhythm of the Wild|RVR|[380]
+1 Rootbound Crag|ECC|[163]
+1 Ruinous Ultimatum|TRC|[329]
+1 Sacred Foundry|RVR|[409]
 1 Violent Ultimatum|ala
 1 Inspired Ultimatum|iko
-1 Titanic Ultimatum|ala
+1 Titanic Ultimatum|DDH|[31]
 1 Time Stretch|dmr
 1 Mnemonic Deluge|cmr
 1 Seedborn Muse|lgn
-1 Sheoldred, Whispering One|nph
-1 Skyshroud Claim|bbd
-1 Smothering Tithe|rna
-1 Sol Ring|cmd
-1 Steam Vents|rtr
-1 Stomping Ground|gtc
-1 Sulfur Falls|dom
-1 Sunbird's Invocation|c21
-1 Sunpetal Grove|m12
-1 Temple Garden|grn
-1 Terastodon|c21
+1 Sheoldred, Whispering One|JMP|[278]
+1 Skyshroud Claim|NMS|[117]
+1 Smothering Tithe|CMM|[57]
+1 Sol Ring|LEB|[270]
+1 Steam Vents|RVR|[412]
+1 Stomping Ground|RVR|[413]
+1 Sulfur Falls|DMR|[400]
+1 Sunbird's Invocation|BLC|[116]
+1 Sunpetal Grove|TDC|[399]
+1 Temple Garden|RVR|[414]
+1 Terastodon|M3C|[249]
 1 The World Tree|khm
-1 Three Visits|cmr
+1 Three Visits|SOC|[289]
 1 Bringer of the Blue Dawn|5dn
-1 Toxic Deluge|ema
-1 Urabrask the Hidden|nph
-1 Vorinclex, Voice of Hunger|nph
-1 Bayou|VMA
-1 Tundra|VMA
-1 Tropical Island|VMA
-1 Volcanic Island|VMA
-1 Underground Sea|VMA
-1 Plateau|VMA
-1 Badlands|VMA
-1 Scrubland|VMA
-1 Taiga|VMA
-1 Savannah|VMA
-1 Woodland Cemetery|dom
+1 Toxic Deluge|MH3|[412]
+1 Urabrask the Hidden|CLB|[811]
+1 Vorinclex, Voice of Hunger|IMA|[189]
+1 Bayou|LEB|[279]
+1 Tundra|LEB|[285]
+1 Tropical Island|LEB|[284]
+1 Volcanic Island|LEB|[287]
+1 Underground Sea|LEB|[286]
+1 Plateau|LEB|[280]
+1 Badlands|LEB|[278]
+1 Scrubland|LEB|[282]
+1 Taiga|LEB|[283]
+1 Savannah|LEB|[281]
+1 Woodland Cemetery|DMR|[401]
 1 Zagoth Triome|iko
-1 Zendikar Resurgent|ogw
+1 Zendikar Resurgent|C17|[160]

@@ -1,85 +1,85 @@
 [metadata]
 Name=Jarad, Golgari Lich Lord
 [Commander]
-1 Jarad, Golgari Lich Lord|RTR
+1 Jarad, Golgari Lich Lord|TDC|[293]
 [Main]
-1 Aftermath Analyst|MKM
-1 Animate Dead|EMA
-1 Bojuka Bog|WOC
-1 Bonehoard|MBS
-1 Boneyard Wurm|ISD
-1 Brawn|EMA
+1 Aftermath Analyst|EOC|[91]
+1 Animate Dead|LEB|[93]
+1 Bojuka Bog|TSR|[406]
+1 Bonehoard|NEC|[147]
+1 Boneyard Wurm|UMA|[159]
+1 Brawn|JUD|[107]
 1 Broodheart Engine|DFT
-1 Sol Ring|C19
-1 Cemetery Tampering|SNC
+1 Sol Ring|LEB|[270]
+1 Cemetery Tampering|DSC|[135]
 1 Come Back Wrong|DSK
-1 Command Tower|CC2
-1 Conduit of Worlds|ONE
-1 Daemogoth Titan|PSTX
+1 Command Tower|TRC|[521]
+1 Conduit of Worlds|TDC|[251]
+1 Daemogoth Titan|STX|[174]
 1 Daemogoth Woe-Eater|STX
-1 Dakmor Salvage|UMA
-1 Deadbridge Chant|DGM
-1 Deathcap Glade|VOW
+1 Dakmor Salvage|EOC|[156]
+1 Deadbridge Chant|DSC|[215]
+1 Deathcap Glade|SOS|[253]
 1 Disciple of Freyalise|MH3
-1 Dread Return|CMM
-1 Dreadhound|J22
-1 Elves of Deep Shadow|RAV
-1 Elvish Mystic|F14
-1 Eternal Witness|CMM
-1 Farseek|LCC
-12 Forest|GK1|[76]
-1 Fyndhorn Elves|CMR
-1 Genesis|MH1
+1 Dread Return|DMR|[302]
+1 Dreadhound|PIO|[92]
+1 Elves of Deep Shadow|DRK|[76]
+1 Elvish Mystic|TSR|[360]
+1 Eternal Witness|TSR|[361]
+1 Farseek|RVR|[347]
+12 Forest|INR|[296]
+1 Fyndhorn Elves|ICE|[244]
+1 Genesis|JUD|[117]
 1 Ghoultree|INR
-1 Golgari Grave-Troll|RAV
-1 Golgari Rot Farm|2X2
-1 Golgari Thug|RAV
-1 Grapple with the Past|2X2
-1 Greater Good|BBD
-1 Grisly Salvage|RTR
+1 Golgari Grave-Troll|RVR|[348]
+1 Golgari Rot Farm|ECC|[151]
+1 Golgari Thug|RVR|[325]
+1 Grapple with the Past|INR|[412]
+1 Greater Good|USG|[257]
+1 Grisly Salvage|TDC|[290]
 1 Hedge Shredder|DSK
 1 Honest Rutstein|OTJ
-1 Jarad's Orders|RTR
+1 Jarad's Orders|PIO|[390]
 1 Lively Dirge|OTJ
-1 Llanowar Elves|DOM
-1 Llanowar Wastes|BRO
-1 Lord of Extinction|2X2
+1 Llanowar Elves|LEB|[211]
+1 Llanowar Wastes|APC|[141]
+1 Lord of Extinction|TDC|[295]
 1 Malakir Rebirth|ZNR
-1 Millikin|MH2
+1 Millikin|ODY|[302]
 1 Molderhulk|GRN
-1 Mosswort Bridge|C15
+1 Mosswort Bridge|TDC|[379]
 1 Mulch|STH
-1 Nature's Lore|CLB
-1 Nighthowler|ZNC
-1 Nurturing Peatland|ACR
-1 Old Stickfingers|MID
+1 Nature's Lore|DMR|[346]
+1 Nighthowler|PIO|[98]
+1 Nurturing Peatland|MH1|[243]
+1 Old Stickfingers|DSC|[227]
 1 Overgrown Tomb|RVR
-1 Perpetual Timepiece|KLD
-1 Ramunap Excavator|PHOU
-1 Reanimate|CC2
+1 Perpetual Timepiece|SOC|[354]
+1 Ramunap Excavator|M3C|[241]
+1 Reanimate|TMP|[151]
 1 Revitalizing Repast|MH3
 1 Ripples of Undeath|MH3
-1 Rushed Rebirth|PSTX
-1 Satyr Wayfinder|OTC
+1 Rushed Rebirth|STX|[228]
+1 Satyr Wayfinder|EOC|[106]
 1 Souls of the Lost|LCI
-1 Splinterfright|2X2
+1 Splinterfright|INR|[420]
 1 Squirming Emergence|LCI
-1 Stinkweed Imp|MMA
+1 Stinkweed Imp|TSR|[332]
 1 Stitch Together|JUD
-1 Stitcher's Supplier|J22
-1 Svogthos, the Restless Tomb|RAV
-9 Swamp|GK1|[75]
-1 Syr Konrad, the Grim|MKC
+1 Stitcher's Supplier|TDC|[196]
+1 Svogthos, the Restless Tomb|CM2|[270]
+9 Swamp|INR|[292]
+1 Syr Konrad, the Grim|DSC|[158]
 1 Takenuma, Abandoned Mire|NEO
 1 The Gitrog, Ravenous Ride|OTJ
-1 Three Visits|OTC
-1 Treasured Find|RTR
+1 Three Visits|SOC|[289]
+1 Treasured Find|GK1|[72]
 1 Underground Mortuary|MKM
 1 Undergrowth Recon|MKM
 1 Verdant Catacombs|MH2
 1 Victimize|MH3
-1 Vigor Mortis|RAV
-1 Wight of the Reliquary|MH3
-1 Witch's Cottage|ELD
-1 Woodland Cemetery|DOM
+1 Vigor Mortis|GK1|[54]
+1 Wight of the Reliquary|SOC|[338]
+1 Witch's Cottage|FDC|[319]
+1 Woodland Cemetery|DMR|[401]
 1 Yargle and Multani|MOM

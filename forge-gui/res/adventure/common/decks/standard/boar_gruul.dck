@@ -7,12 +7,12 @@ Name=boar_gruul
 4 Carefree Swinemaster|CLB|1
 4 Diligent Farmhand|ODY|1
 4 Flinthoof Boar|EMA|1
-9 Forest|DMU|1
-4 Game Trail|CLB|1
-4 Krosan Tusker|DDU|1
-7 Mountain|DMU|1
-4 Outland Boar|KLR|1
-4 Rural Recruit|VOW|1
-4 Wooded Ridgeline|DMU|1
+9 Forest|INR|[296]
+4 Game Trail|BLC|[306]
+4 Krosan Tusker|ONS|[272]
+7 Mountain|INR|[294]
+4 Outland Boar|AER|[132]
+4 Rural Recruit|DBL|[483]
+4 Wooded Ridgeline|BLC|[353]
 [Sideboard]
 [Schemes]

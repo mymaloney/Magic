@@ -1,7 +1,7 @@
 [metadata]
 Name=Baron Von Gant
 [Main]
-12 Plains|ONS
+12 Plains|INR|[288]
 4 Daru Encampment|ONS
 4 Forbidding Watchtower|ULG
 4 Daru Warchief|SCG
@@ -19,7 +19,7 @@ Name=Baron Von Gant
 2 Aven Brigadier|ONS
 2 Gustcloak Savior|ONS
 2 Aysen Crusader|HML
-1 Lieutenant Kirtar|ODY
+1 Lieutenant Kirtar|DMR|[265]
 1 Commander Eesha|JUD
 2 Soltari Champion|STH
 2 Soltari Trooper|TMP

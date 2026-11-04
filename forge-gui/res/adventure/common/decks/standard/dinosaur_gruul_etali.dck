@@ -2,21 +2,21 @@
 Name=dinosaur_gruul_etali
 [Main]
 2 Ancient Imperiosaur|MOM|1
-1 Carnage Tyrant|XLN|1
-1 Colossal Dreadmaw|A25|1
-4 Commune with Dinosaurs|JMP|1
-4 Drover of the Mighty|XLN|1
+1 Carnage Tyrant|FDC|[193]
+1 Colossal Dreadmaw|J25|[646]
+4 Commune with Dinosaurs|J25|[647]
+4 Drover of the Mighty|J25|[650]
 2 Etali, Primal Conqueror|MOM|1
-2 Etali, Primal Storm|AFC|1
-1 Forest|J22|1
-6 Forest|J22|2
-5 Forest|J22|3
-5 Mountain|J22|1
-2 Mountain|J22|2
-5 Mountain|J22|3
+2 Etali, Primal Storm|TSR|[342]
+1 Forest|INR|[296]
+6 Forest|INR|[296]
+5 Forest|INR|[296]
+5 Mountain|INR|[294]
+2 Mountain|INR|[294]
+5 Mountain|INR|[294]
 4 Nest Robber|J22|1
-4 Orazca Frillback|RIX|1
+4 Orazca Frillback|JMP|[416]
 4 Overgrown Armasaur|RIX|1
-4 Rampant Growth|2X2|1
+4 Rampant Growth|TMP|[245]
 2 Ravenous Sailback|MOM|1
-2 Regal Behemoth|CN2|1
+2 Regal Behemoth|LCC|[251]

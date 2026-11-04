@@ -3,89 +3,89 @@ Name=Nikya of the Old Ways
 [Commander]
 1 Nikya of the Old Ways|RNA
 [Main]
-1 Ghor-Clan Rampager|RNA
+1 Ghor-Clan Rampager|PIO|[226]
 1 Gruul Spellbreaker|RNA
 1 Herald of Ilharg|CLU
-1 Ancient Ziggurat|CON
+1 Ancient Ziggurat|ECC|[144]
 1 Anzrag, the Quake-Mole|MKM
-1 Apex Devastator|CMR
-1 Arbor Elf|WWK
-1 Ashaya, Soul of the Wild|ZNR
-1 Augur of Autumn|MID
-1 Avatar of Slaughter|CMA
+1 Apex Devastator|M3C|[220]
+1 Arbor Elf|A25|[160]
+1 Ashaya, Soul of the Wild|DSC|[170]
+1 Augur of Autumn|EOC|[92]
+1 Avatar of Slaughter|CMM|[206]
 1 Azusa, Lost but Seeking|CMM
-1 Bane of Progress|CC1
-1 Beast Whisperer|GRN
-1 Bonders' Enclave|IKO
-1 Captivating Crew|LCC
+1 Bane of Progress|ECC|[99]
+1 Beast Whisperer|TSR|[356]
+1 Bonders' Enclave|FDC|[297]
+1 Captivating Crew|OTC|[159]
 1 Castle Garenbrig|ELD
-1 Cinder Glade|BFZ
-1 Command Tower|C17
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
 1 Cragcrown Pathway|ZNR
-1 Demolition Field|BRO
+1 Demolition Field|FDN|[687]
 1 Disciple of Freyalise|MH3
-1 Drakuseth, Maw of Flames|M20
-1 Reclamation Sage|J22
-1 Duskwatch Recruiter|SOI
+1 Drakuseth, Maw of Flames|FDC|[155]
+1 Reclamation Sage|TSR|[366]
+1 Duskwatch Recruiter|INR|[467]
 1 Eladamri, Korvecdal|MH3
 1 Enduring Courage|DSK
-1 Fabled Passage|M21
-9 Forest|GK2|106
-1 Forgotten Cave|MH1
-1 Ghalta, Primal Hunger|RIX
-1 Ghost Quarter|ISD
+1 Fabled Passage|TRC|[379]
+9 Forest|INR|[296]
+1 Forgotten Cave|ONS|[317]
+1 Ghalta, Primal Hunger|FDC|[8]
+1 Ghost Quarter|CM2|[253]
 1 Goblin Anarchomancer|MH2
-1 Goreclaw, Terror of Qal Sisma|MUL
-1 Gruul Turf|IMA
+1 Goreclaw, Terror of Qal Sisma|PIO|[177]
+1 Gruul Turf|ECC|[152]
 1 Gwenna, Eyes of Gaea|BRO
-1 Halana and Alena, Partners|VOW
+1 Halana and Alena, Partners|FDN|[659]
 1 Braulios of Pheres Band|J25
 1 Insidious Fungus|DSK
-1 Karplusan Forest|DMU
-1 Kessig Wolf Run|ISD
+1 Karplusan Forest|ICE|[356]
+1 Kessig Wolf Run|TDC|[375]
 1 Kogla and Yidaro|MOM
 1 Kogla, the Titan Ape|IKO
-1 Legion Loyalist|GTC
+1 Legion Loyalist|PIO|[144]
 1 Manglehorn|AKH
-1 Moraug, Fury of Akoum|ZNR
-1 Mosswort Bridge|C17
-6 Mountain|GK2|105
+1 Moraug, Fury of Akoum|EOC|[89]
+1 Mosswort Bridge|TDC|[379]
+6 Mountain|INR|[294]
 1 Neyith of the Dire Hunt|JMP
-1 Nylea, God of the Hunt|THS
-1 Nylea, Keen-Eyed|PTHB
-1 Ogre Battledriver|PDP14
-1 Ohran Frostfang|C19
+1 Nylea, God of the Hunt|PIO|[300]
+1 Nylea, Keen-Eyed|THB|[185]
+1 Ogre Battledriver|TDC|[227]
+1 Ohran Frostfang|SOC|[279]
 1 Ojer Kaslem, Deepest Growth|LCI
 1 Outcaster Trailblazer|OTJ
 1 Radha, Heart of Keld|M21
-1 Rogue's Passage|FDN
-1 Rootbound Crag|M12
-1 Ruric Thar, the Unbowed|A25
-1 Sakura-Tribe Elder|C19
+1 Rogue's Passage|TRC|[552]
+1 Rootbound Crag|ECC|[163]
+1 Ruric Thar, the Unbowed|PIO|[239]
+1 Sakura-Tribe Elder|SOC|[285]
 1 Sakura-Tribe Scout|SOK
-1 Saryth, the Viper's Fang|MID
-1 Scavenger Grounds|HOU
-1 Scavenging Ooze|M21
-1 Selvala, Heart of the Wilds|CN2
-1 Sharp-Eyed Rookie|PMKM
-1 Sheltered Thicket|AKH
+1 Saryth, the Viper's Fang|MKC|[185]
+1 Scavenger Grounds|FDC|[311]
+1 Scavenging Ooze|FDC|[227]
+1 Selvala, Heart of the Wilds|ECC|[116]
+1 Sharp-Eyed Rookie|MKM|[176]
+1 Sheltered Thicket|ECC|[167]
 1 Silverback Elder|DMU
-1 Spinerock Knoll|LRW
-1 Spire Garden|BBD
-1 Stomping Ground|RNA
+1 Spinerock Knoll|FDC|[314]
+1 Spire Garden|CLB|[361]
+1 Stomping Ground|RVR|[413]
 1 Stonehoof Chieftain|CMM
-1 Terramorphic Expanse|TSR
+1 Terramorphic Expanse|TRC|[571]
 1 Thundermane Dragon|TDC
-1 Topiary Stomper|SNC
-1 Toski, Bearer of Secrets|KHM
+1 Topiary Stomper|J25|[730]
+1 Toski, Bearer of Secrets|BLC|[244]
 1 Ulvenwald Tracker|MM3
-1 Urabrask the Hidden|NPH
+1 Urabrask the Hidden|CLB|[811]
 1 Vaultborn Tyrant|BIG
 1 Vigor|BBD
-1 Vizier of the Menagerie|AKH
-1 Wayward Swordtooth|CMM
-1 Whiptongue Hydra|NEC
-1 Wood Elves|C15
-1 Wooded Foothills|KTK
-1 Xenagos, God of Revels|BNG
+1 Vizier of the Menagerie|FDN|[649]
+1 Wayward Swordtooth|LCC|[263]
+1 Whiptongue Hydra|FDC|[240]
+1 Wood Elves|EXO|[130]
+1 Wooded Foothills|MH3|[441]
+1 Xenagos, God of Revels|PIO|[318]
 1 Zopandrel, Hunger Dominus|ONE

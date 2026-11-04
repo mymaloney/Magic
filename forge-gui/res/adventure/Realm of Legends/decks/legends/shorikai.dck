@@ -7,72 +7,72 @@ Name=Shorikai, Genesis Engine
 1 Access Denied|NEC|1
 1 Aerial Surveyor|NEC|1
 1 Aeronaut Admiral|NEC|1
-1 Arcane Signet|NEC|1
+1 Arcane Signet|TRC|[485]
 1 Arcanist's Owl|NEC|1
 1 Armed and Armored|NEC|1
-1 Azorius Signet|NEC|1
-1 Cataclysmic Gearhulk|NEC|1
+1 Azorius Signet|FRC|[53]
+1 Cataclysmic Gearhulk|MOC|[176]
 1 Colossal Plow|NEC|1
-1 Command Tower|NEC|1
-1 Crush Contraband|NEC|1
-1 Cultivator's Caravan|NEC|1
-1 Cyberdrive Awakener|NEC|1
+1 Command Tower|TRC|[521]
+1 Crush Contraband|SCD|[16]
+1 Cultivator's Caravan|DRC|[127]
+1 Cyberdrive Awakener|EOC|[69]
 1 Dance of the Manse|NEC|1
-1 Dispatch|NEC|1
-1 Drumbellower|NEC|1
-1 Emry, Lurker of the Loch|NEC|1
-1 Etherium Sculptor|NEC|1
-1 Exotic Orchard|NEC|1
-1 Fellwar Stone|NEC|1
-1 Foundry Inspector|NEC|1
-1 Generous Gift|NEC|1
+1 Dispatch|TRC|[421]
+1 Drumbellower|SOC|[143]
+1 Emry, Lurker of the Loch|EOC|[71]
+1 Etherium Sculptor|EOC|[72]
+1 Exotic Orchard|TRC|[378]
+1 Fellwar Stone|DRK|[102]
+1 Foundry Inspector|FDC|[259]
+1 Generous Gift|BLC|[106]
 1 Gold Myr|NEC|1
-1 Hanna, Ship's Navigator|NEC|1
-1 Imperial Recovery Unit|NEO|1
+1 Hanna, Ship's Navigator|INV|[249]
+1 Imperial Recovery Unit|J22|[197]
 1 Imposter Mech|NEC|1
-1 Indomitable Archangel|NEC|1
+1 Indomitable Archangel|BRC|[72]
 1 Ironsoul Enforcer|NEC|1
-15 Island|NEO|1
-1 Jace, Architect of Thought|NEC|1
-1 Kappa Cannoneer|NEC|1
+15 Island|INR|[290]
+1 Jace, Architect of Thought|PIO|[329]
+1 Kappa Cannoneer|MH3|[401]
 1 Katsumasa, the Animator|NEC|1
-1 Master of Etherium|NEC|1
-1 Mirage Mirror|NEC|1
+1 Master of Etherium|FDC|[66]
+1 Mirage Mirror|M3C|[300]
 1 Mobilizer Mech|NEO|1
-1 Myrsmith|NEC|1
-1 Organic Extinction|NEC|1
+1 Myrsmith|CMM|[44]
+1 Organic Extinction|EOC|[66]
 1 Parhelion II|NEC|1
-1 Peacewalker Colossus|NEC|1
-15 Plains|NEO|1
-1 Port Town|NEC|1
-1 Prairie Stream|NEC|1
+1 Peacewalker Colossus|J22|[96]
+15 Plains|INR|[288]
+1 Port Town|TRC|[393]
+1 Prairie Stream|TRC|[394]
 1 Prodigy's Prototype|NEO|1
-1 Raff Capashen, Ship's Mage|NEC|1
-1 Raiders' Karve|NEC|1
-1 Reality Shift|NEC|1
+1 Raff Capashen, Ship's Mage|CMM|[351]
+1 Raiders' Karve|J22|[793]
+1 Reality Shift|SOC|[199]
 1 Release to Memory|NEC|1
-1 Research Thief|NEC|1
+1 Research Thief|FDC|[74]
 1 Riddlesmith|NEC|1
-1 Sai, Master Thopterist|NEC|1
-1 Shimmer Myr|NEC|1
-1 Silver Myr|NEC|1
-1 Skycloud Expanse|NEC|1
-1 Skysovereign, Consul Flagship|NEC|1
+1 Sai, Master Thopterist|DRC|[82]
+1 Shimmer Myr|FDC|[283]
+1 Silver Myr|FDC|[284]
+1 Skycloud Expanse|ODY|[327]
+1 Skysovereign, Consul Flagship|FDC|[285]
 1 Smuggler's Copter|NEC|1
-1 Sol Ring|NEC|1
-1 Solemn Simulacrum|NEC|1
-1 Spire of Industry|NEC|1
-1 Sram, Senior Edificer|NEC|1
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
+1 Spire of Industry|TRC|[405]
+1 Sram, Senior Edificer|TSR|[303]
 1 Surgehacker Mech|NEO|1
 1 Swift Reconfiguration|NEC|1
-1 Swords to Plowshares|NEC|1
-1 Temple of Enlightenment|NEC|1
-1 Teshar, Ancestor's Apostle|NEC|1
-1 Thopter Spy Network|NEC|1
-1 Thoughtcast|NEC|1
-1 Universal Surveillance|NEC|1
-1 Vedalken Engineer|NEC|1
+1 Swords to Plowshares|DMR|[275]
+1 Temple of Enlightenment|EOC|[186]
+1 Teshar, Ancestor's Apostle|SOC|[180]
+1 Thopter Spy Network|DRC|[83]
+1 Thoughtcast|TRC|[444]
+1 Universal Surveillance|EOC|[81]
+1 Vedalken Engineer|J22|[367]
 1 Weatherlight|NEC|1
-1 Whirler Rogue|NEC|1
+1 Whirler Rogue|DRC|[85]
 [Sideboard]
 

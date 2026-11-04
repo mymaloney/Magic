@@ -1,8 +1,8 @@
 [metadata]
 Name=Gorgon - Medusa Control
 [Main]
-20 Swamp|ONS
-4 Mind Stone|WTH
+20 Swamp|INR|[292]
+4 Mind Stone|DMR|[385]
 4 Dark Ritual|MMQ
 4 Infernal Medusa|LEG
 4 Masked Gorgon|JUD
@@ -12,6 +12,6 @@ Name=Gorgon - Medusa Control
 4 Serpent Assassin|POR
 2 Decree of Pain|SCG
 2 Dirge of Dread|ONS
-2 Dregs of Sorrow|7ED
+2 Dregs of Sorrow|TMP|[131]
 2 Infest|ONS
 4 Stupor|MIR

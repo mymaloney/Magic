@@ -6,29 +6,29 @@ Description=BR Hellbent deck
 Icon=Diablo.jpg
 Deck Type=constructed
 [Main]
-4 Badlands
-4 Bloodstained Mire
-3 Blackcleave Cliffs
-2 Mountain
-4 Swamp
-1 Urborg, Tomb of Yawgmoth
-1 Keldon Megaliths
-1 Mox Jet
-1 Mox Ruby
-3 Simian Spirit Guide
-4 Rakdos Cackler
-1 Tormented Soul
-4 Bump in the Night
-4 Executioner's Capsule
-4 Seal of Fire
-4 Blood Scrivener
-4 Gobhobbler Rats
-1 Drekavac
-2 Avaricious Dragon
-1 Jagged Poppet
-1 Avatar of Discord
-1 Kolaghan's Command
-1 Dark Suspicions
-2 Grafted Skullcap
-2 Bottled Cloister
+4 Badlands|LEB|[278]
+4 Bloodstained Mire|MH3|[435]
+3 Blackcleave Cliffs|DSC|[263]
+2 Mountain|INR|[294]
+4 Swamp|INR|[292]
+1 Urborg, Tomb of Yawgmoth|PIO|[118]
+1 Keldon Megaliths|JVC|[58]
+1 Mox Jet|LEB|[263]
+1 Mox Ruby|LEB|[265]
+3 Simian Spirit Guide|TSR|[190]
+4 Rakdos Cackler|GK2|[67]
+1 Tormented Soul|J22|[477]
+4 Bump in the Night|DDK|[57]
+4 Executioner's Capsule|BRC|[104]
+4 Seal of Fire|NMS|[98]
+4 Blood Scrivener|PIO|[86]
+4 Gobhobbler Rats|RVR|[185]
+1 Drekavac|DIS|[43]
+2 Avaricious Dragon|ORI|[131]
+1 Jagged Poppet|GK2|[64]
+1 Avatar of Discord|GK2|[61]
+1 Kolaghan's Command|M3C|[268]
+1 Dark Suspicions|PLS|[40]
+2 Grafted Skullcap|USG|[296]
+2 Bottled Cloister|RVR|[389]
 [Sideboard]

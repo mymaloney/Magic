@@ -3,51 +3,51 @@ Name=Rocco
 [Commander]
 1 Rocco, Street Chef|mat
 [Main]
-1 Academy Manufactor|mh2
+1 Academy Manufactor|BLC|[264]
 1 Aerial Extortionist|mkc
 1 Annie Joins Up|otj
 1 Apothecary White|clu
-1 Arcane Signet|eld
-1 by invitation only|vow
-1 Bala Ged Recovery|zna
+1 Arcane Signet|TRC|[485]
+1 by invitation only|DBL|[272]
+1 Bala Ged Recovery|PIO|[165]
 1 hold for ransom|snc
 1 welcome to sweettooth|woe
 1 Resourceful collector|yblb
 1 wish good luck|ydft
 1 Provisions Merchant|woe
-1 killer service|ncc
+1 killer service|MKC|[174]
 1 gourmand's talent|blc
 1 late to dinner|mh2
 1 master of ceremonies|ncc
 1 talisman of unity|mkc
-1 Bennie Bracks, Zoologist|ncc
+1 Bennie Bracks, Zoologist|MKC|[57]
 1 Bess, Soul Nourisher|ncc
 1 Boros Garrison|clu
-1 talisman of conviction|tdc
-1 Boss's Chauffeur|ncc
+1 talisman of conviction|TRC|[503]
+1 Boss's Chauffeur|BLC|[137]
 1 Botanical Plaza|snc
 1 Branchloft Pathway|znr
 1 Brazen Upstart|snc
 1 Cabaretti Ascendancy|snc
 1 Cabaretti Charm|snc
 1 Cabaretti Confluence|ncc
-1 Cabaretti Courtyard|snc
+1 Cabaretti Courtyard|EOC|[151]
 1 Chef's Kiss|mh2
-1 Collective Resistance|mh3
-1 Command Tower|cmm
+1 Collective Resistance|FDC|[196]
+1 Command Tower|TRC|[521]
 1 Cragcrown Pathway|znr
 1 Crumb and Get It|blb
 1 Darling of the Masses|snc
-1 Devilish Valet|snc
-1 Exotic Orchard|blc
+1 Devilish Valet|BLC|[195]
+1 Exotic Orchard|TRC|[378]
 1 Fleetfoot Dancer|snc
-1 For the Family|snc
-4 Forest|snc
+1 For the Family|J25|[657]
+4 Forest|INR|[296]
 1 Gala Greeters|snc
-1 Gilded Goose|blc
-1 Grand Crescendo|ncc
+1 Gilded Goose|SOC|[269]
+1 Grand Crescendo|TRC|[222]
 1 talisman of impulse|tdc
-1 Gruul Turf|blc
+1 Gruul Turf|ECC|[152]
 1 Guff Rewrites History|cmm
 1 Halo Fountain|snc
 1 Hot Soup|m15
@@ -57,40 +57,40 @@ Name=Rocco
 1 Jinnie Fay, Jetmir's Second|snc
 1 Luxurious Libation|snc
 1 Mosswort Bridge|tdc
-2 Mountain|snc
+2 Mountain|INR|[294]
 1 Needleverge Pathway|znr
 1 Night of the Sweets' Revenge|woe
-1 Overgrown Farmland|mid
+1 Overgrown Farmland|FRA|[185]
 1 Party Thrasher|mh3
 1 Phabine, Boss's Confidant|ncc
-5 Plains|snc
+5 Plains|INR|[288]
 1 Prosperous Partnership|ncc
 1 Quintorius Kand|lci
 1 Rabble Rousing|snc
 1 Racers' Ring|snc
 1 Ragost, Deft Gastronaut|eoe
 1 Rakish Revelers|snc
-1 Rampant Growth|fic
+1 Rampant Growth|TMP|[245]
 1 Rocco, Cabaretti Caterer|snc
-1 Rockfall Vale|mid
+1 Rockfall Vale|FRA|[186]
 1 Savvy Trader|otc
 1 Scepter of Celebration|ncc
 1 Selesnya Sanctuary|clu
-1 Silkguard|mar
+1 Silkguard|SOC|[286]
 1 Social Climber|snc
-1 Sol Ring|ncc
+1 Sol Ring|LEB|[270]
 1 Soul Partition|bro
 1 Spectator Seating|cmm
-1 Spinerock Knoll|dsc
+1 Spinerock Knoll|FDC|[314]
 1 Stimulus Package|snc
-1 Sundown Pass|vow
+1 Sundown Pass|SOS|[264]
 1 Sylvan Library|dmr
 1 Take to the Streets|snc
-1 Thriving Bluff|blc
-1 Thriving Grove|blc
-1 Thriving Heath|blc
-1 Tireless Provisioner|moc
-1 Venom Connoisseur|snc
+1 Thriving Bluff|ECC|[170]
+1 Thriving Grove|ECC|[171]
+1 Thriving Heath|ECC|[172]
+1 Tireless Provisioner|J25|[728]
+1 Venom Connoisseur|FDN|[648]
 1 Warm Welcome|snc
 1 Windbrisk Heights|tdc
 1 Witty Roastmaster|snc

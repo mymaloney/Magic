@@ -1,29 +1,29 @@
 [metadata]
 Name=Blackbeard 3
 [Main]
-18 Plains|M11
-1 Daru Encampment
-1 Marble Diamond
-2 Tithe
-4 Preeminent Captain
-4 Veteran Armorsmith
-3 Ballyrush Banneret
-3 Veteran Swordsmith
-3 Daru Warchief
-3 Field Marshal
-2 Captain of the Watch
-1 Ranger of Eos
-1 Aven Brigadier
-1 Rhox Pikemaster
-1 Veteran Armorer
-1 Aven Riftwatcher
-1 Soltari Foot Soldier
-1 Raise the Alarm
-1 Mobilization
-1 Elspeth, Knight-Errant
-2 Path to Exile
-2 Valorous Stance
-1 Conqueror's Pledge
-1 Enlistment Officer
-1 Thalia, Guardian of Thraben
+18 Plains|INR|[288]
+1 Daru Encampment|ONS|[315]
+1 Marble Diamond|MIR|[310]
+2 Tithe|VIS|[23]
+4 Preeminent Captain|M15|[25]
+4 Veteran Armorsmith|DDO|[27]
+3 Ballyrush Banneret|FDN|[567]
+3 Veteran Swordsmith|DDO|[28]
+3 Daru Warchief|SCG|[6]
+3 Field Marshal|10E|[15]
+2 Captain of the Watch|GN3|[8]
+1 Ranger of Eos|MM3|[19]
+1 Aven Brigadier|ONS|[7]
+1 Rhox Pikemaster|M10|[26]
+1 Veteran Armorer|MMA|[34]
+1 Aven Riftwatcher|TSR|[6]
+1 Soltari Foot Soldier|TMP|[43]
+1 Raise the Alarm|J25|[101]
+1 Mobilization|ONS|[44]
+1 Elspeth, Knight-Errant|MD1|[13]
+2 Path to Exile|TSR|[299]
+2 Valorous Stance|INR|[352]
+1 Conqueror's Pledge|ZEN|[8]
+1 Enlistment Officer|APC|[9]
+1 Thalia, Guardian of Thraben|DBL|[305]
 [Sideboard]

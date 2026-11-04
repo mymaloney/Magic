@@ -3,80 +3,80 @@ Name=The Ur-Sphinx
 [Commander]
 1 The Ur-Sphinx|frc
 [Main]
-1 Animate Dead|3ed
+1 Animate Dead|LEB|[93]
 1 Magister Sphinx|2x2
-1 Arcane Sanctum|dmc
-1 Arcane Signet|fdc
+1 Arcane Sanctum|TRC|[513]
+1 Arcane Signet|TRC|[485]
 1 Archive Arbiter|fra
-1 Concealed Courtyard|neo
+1 Concealed Courtyard|OTJ|[268]
 1 Atemsis, All-Seeing|m20
-1 Austere Command|m3c
+1 Austere Command|FDC|[18]
 1 Bloodline Bidding|ecl
 1 Chancellor of the Spires|nph
-1 Command Tower|ncc
+1 Command Tower|TRC|[521]
 1 Conspiracy Unraveler|mkm
-1 Counterspell|ice
-1 Cryptic Gateway|ons
+1 Counterspell|DMR|[281]
+1 Cryptic Gateway|DMR|[376]
 1 Curator of Destinies|fdn
-1 Dark Ritual|tmp
-1 Dazzling Sphinx|c21
+1 Dark Ritual|MMQ|[129]
+1 Dazzling Sphinx|OTC|[93]
 1 Quantum Riddler|eoe
 1 Defiler of Dreams|dmu
-1 Talisman of Dominance|frc
-1 Dream Eater|grn
+1 Talisman of Dominance|TRC|[505]
+1 Dream Eater|DSC|[116]
 1 Dream Trawler|thb
 1 Uldaros Theorix|fra
-1 Consecrated Sphinx|nph
-1 Unclaimed Territory|mic
-1 Talisman of Progress|frc
-1 Ghostly Prison|cn2
-1 Gilded Lotus|dom
+1 Consecrated Sphinx|2X2|[43]
+1 Unclaimed Territory|ECC|[175]
+1 Talisman of Progress|TRC|[508]
+1 Ghostly Prison|SOC|[146]
+1 Gilded Lotus|FDN|[725]
 1 Guardian of Tazeem|bfz
-13 Island|fra
+13 Island|INR|[290]
 1 Sharding Sphinx|moc
 1 Raffine, Scheming Seer|snc
-1 Isperia, Supreme Judge|rtr
+1 Isperia, Supreme Judge|SCD|[4]
 1 Kozilek's Unsealing|mh3
 1 Master of Predicaments|m15
-1 Negate|ori
-1 Obscura Storefront|snc
-1 Patchwork Banner|blb
-1 Path to Exile|e02
-6 Plains|fra
-1 Pongify|soa
-1 Prognostic Sphinx|ths
-1 Rapid Hybridization|gtc
-1 Reliquary Tower|c14
+1 Negate|TRC|[439]
+1 Obscura Storefront|DSC|[291]
+1 Patchwork Banner|SOC|[353]
+1 Path to Exile|TSR|[299]
+6 Plains|INR|[288]
+1 Pongify|TRC|[441]
+1 Prognostic Sphinx|DSC|[124]
+1 Rapid Hybridization|SOC|[198]
+1 Reliquary Tower|TRC|[551]
 1 Roaming Throne|lci
-1 Sapphire Medallion|cmm
+1 Sapphire Medallion|TMP|[306]
 1 Sphinx of False Conclusions|fra
-1 Sejiri Shelter|znr
-1 Sharuum the Hegemon|c13
-1 Sol Ring|ncc
+1 Sejiri Shelter|PIO|[31]
+1 Sharuum the Hegemon|BRC|[128]
+1 Sol Ring|LEB|[270]
 1 Sphinx Ambassador|m10
 1 Sphinx of Clear Skies|dmu
-1 Sphinx of Enlightenment|blc
-1 Sphinx of the Second Sun|cmr
+1 Sphinx of Enlightenment|J25|[364]
+1 Sphinx of the Second Sun|MKC|[118]
 1 Sphinx of Forgotten Lore|fdn
 1 Excogitator Sphinx|ymkm
 1 Stoic Sphinx|otj
 1 Stubborn Denial|ktk
-6 Swamp|fra
-1 Swiftfoot Boots|a25
-1 Sword of the Animist|ori
-1 Swords to Plowshares|3ed
-1 Temple of the False God|voc
-1 Fabled Passage|eld
-1 Path of Ancestry|lcc
-1 Hallowed Fountain|rtr
+6 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Sword of the Animist|CMM|[413]
+1 Swords to Plowshares|DMR|[275]
+1 Temple of the False God|SCG|[143]
+1 Fabled Passage|TRC|[379]
+1 Path of Ancestry|TRC|[545]
+1 Hallowed Fountain|RVR|[404]
 1 Raffine's Tower|snc
 1 Kindred Judgment|fra
 1 Tivit, Seller of Secrets|ncc
 1 Unesh, Criosphinx Sovereign|hou
-1 Urza's Incubator|uds
-1 Kindred Dominance|c17
-1 Watery Grave|gtc
+1 Urza's Incubator|DMR|[392]
+1 Kindred Dominance|WOC|[113]
+1 Watery Grave|RVR|[415]
 1 Void Rend|snc
-1 Windreader Sphinx|m14
-1 Farewell|neo
-1 Yennett, Cryptic Sovereign|c18
+1 Windreader Sphinx|J25|[391]
+1 Farewell|M3C|[170]
+1 Yennett, Cryptic Sovereign|CMM|[363]

@@ -4,14 +4,14 @@ Name=dog
 4 Affa Guard Hound|JMP|1
 4 Akroan Mastiff|JOU|1
 4 Animal Sanctuary|M21|1
-2 Isamaru, Hound of Konda|JMP|1
-4 Loyal Warhound|AFR|1
+2 Isamaru, Hound of Konda|J22|[201]
+4 Loyal Warhound|BLC|[107]
 4 Pack Leader|M21|3
-20 Plains|JMP|7
+20 Plains|INR|[288]
 4 Rambunctious Mutt|J22|1
-4 Release the Dogs|JMP|1
-4 Spirited Companion|J22|1
+4 Release the Dogs|TDC|[127]
+4 Spirited Companion|J25|[256]
 2 Thraben Purebloods|ISD|1
-4 Trusty Retriever|JMP|1
+4 Trusty Retriever|J25|[274]
 [Sideboard]
 [Schemes]

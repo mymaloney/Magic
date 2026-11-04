@@ -1,17 +1,17 @@
 [metadata]
 Name=Tsabo Tavoc
 [Main]
-4 Badlands|LEA
-4 Bloodstained Mire|ONS
-6 Swamp|LEA
-6 Mountain|LEA
+4 Badlands|LEB|[278]
+4 Bloodstained Mire|MH3|[435]
+6 Swamp|INR|[292]
+6 Mountain|INR|[294]
 2 Plague Spores|INV
-2 Reckless Spite|TMP
+2 Reckless Spite|INV|[121]
 2 Do or Die|INV
 2 Annihilate|INV
 2 Tsabo's Decree|INV
 2 Tsabo Tavoc|INV
-2 Raging River|LEA
+2 Raging River|LEB|[169]
 4 Reanimate|TMP
 4 Blazing Salvo|ODY
 2 Ruination|STH

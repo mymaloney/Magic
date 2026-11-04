@@ -2,20 +2,20 @@
 Name=blackwizard_hard_knight
 [Main]
 1 Erratic Explosion|ONS
-12 Swamp|3ED|2
-2 Mishra's Factory|4ED
+12 Swamp|INR|[292]
+2 Mishra's Factory|DMR|[399]
 2 Skeletal Scrying|ODY
 2 Tainted Peak|TOR
-3 Grim Lavamancer|TOR
+3 Grim Lavamancer|DMR|[324]
 3 Phyrexian Arena|APC
-4 Badlands|LEA
-4 Bloodstained Mire|ONS
-4 Dark Ritual|2ED
-4 Duress|7ED
-4 Hypnotic Specter|2ED
+4 Badlands|LEB|[278]
+4 Bloodstained Mire|MH3|[435]
+4 Dark Ritual|MMQ|[129]
+4 Duress|DMR|[303]
+4 Hypnotic Specter|LEB|[113]
 4 Insidious Dreams|TOR
-4 Lightning Bolt|2ED
+4 Lightning Bolt|LEB|[162]
 4 Mesmeric Fiend|TOR
-4 Mountain|3ED|2
-4 Sulfurous Springs|5ED
+4 Mountain|INR|[294]
+4 Sulfurous Springs|ICE|[360]
 4 Terminate|PLS

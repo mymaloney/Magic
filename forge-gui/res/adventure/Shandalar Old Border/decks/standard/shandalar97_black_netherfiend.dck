@@ -1,17 +1,17 @@
 [metadata]
 Name=Nether Fiend of Shandalar
 [Main]
-4 Black Knight|LEA
+4 Black Knight|LEB|[95]
 3 Erg Raiders|ARN
-2 Frozen Shade|LEA
+2 Frozen Shade|LEB|[110]
 2 Junún Efreet|ARN
-4 Lord of the Pit|LEA
-4 Nether Shadow|LEA
+4 Lord of the Pit|LEB|[115]
+4 Nether Shadow|LEB|[117]
 3 Xenic Poltergeist|ATQ
-3 Terror|LEA
-2 Kormus Bell|LEA
-2 Soul Net|LEA
-4 The Hive|LEA
-4 Animate Dead|LEA
-20 Swamp|LEA
-4 Mishra's Factory|ATQ
+3 Terror|DMR|[312]
+2 Kormus Bell|LEB|[257]
+2 Soul Net|LEB|[271]
+4 The Hive|LEB|[273]
+4 Animate Dead|LEB|[93]
+20 Swamp|INR|[292]
+4 Mishra's Factory|DMR|[399]

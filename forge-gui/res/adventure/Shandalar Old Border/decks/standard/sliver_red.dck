@@ -3,14 +3,14 @@ Name=sliver_red
 [Main]
 1 Llanowar Wastes|APC
 2 Anger|JUD
-2 Island|MMQ|3
-2 Shivan Dragon|4ED
+2 Island|INR|[290]
+2 Shivan Dragon|DMR|[329]
 2 Sulfurous Springs|ICE
-3 Plains|MMQ|3
-3 Swamp|MMQ|3
+3 Plains|INR|[288]
+3 Swamp|INR|[292]
 4 Acidic Sliver|STH
 4 Crystalline Sliver|STH
-4 Forest|MMQ|3
+4 Forest|INR|[296]
 4 Heart Sliver|TMP
 4 Hunter Sliver|LGN
 4 Karplusan Forest|ICE
@@ -18,4 +18,4 @@ Name=sliver_red
 4 Muscle Sliver|TMP
 4 Sliver Queen|STH
 4 Spined Sliver|STH
-9 Mountain|MMQ|3
+9 Mountain|INR|[294]

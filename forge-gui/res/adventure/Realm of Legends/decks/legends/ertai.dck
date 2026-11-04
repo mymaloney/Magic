@@ -3,89 +3,89 @@ Name=Ertai
 [Commander]
 1 Ertai, the Corrupted|pls
 [Main]
-1 Arcane Sanctum|moc
-1 Arcane Signet|onc
-1 Archon of Justice|jmp
-1 Aron, Benalia's Ruin|dmu
+1 Arcane Sanctum|TRC|[513]
+1 Arcane Signet|TRC|[485]
+1 Archon of Justice|J22|[150]
+1 Aron, Benalia's Ruin|TDC|[280]
 1 Aura of Dominion|chk
-1 Azorius Chancery|brc
-1 Talisman of Progress|mrd
-1 Talisman of Dominance|mrd
-1 Talisman of Hierarchy|tdc
-1 Black Sun's Zenith|c14
-1 Bone Shredder|mh2
+1 Azorius Chancery|DSC|[261]
+1 Talisman of Progress|TRC|[508]
+1 Talisman of Dominance|TRC|[505]
+1 Talisman of Hierarchy|TRC|[506]
+1 Black Sun's Zenith|ECC|[71]
+1 Bone Shredder|ULG|[49]
 1 Brilliant Halo|usg
-1 Celestial Colonnade|wwk
+1 Celestial Colonnade|UMA|[238]
 1 Chancellor of the Annex|nph
 1 Cleansing Meditation|tor
-1 Command Tower|onc
+1 Command Tower|TRC|[521]
 1 Crab Umbra|roe
 1 Creeping Tar Pit|clb
-1 Death Denied|mm2
+1 Death Denied|UMA|[92]
 1 Despondency|usg
-1 Dimir Aqueduct|woc
+1 Dimir Aqueduct|DSC|[270]
 1 Elas il-Kor, Sadistic Pilgrim|dmu
-1 Elesh Norn, Grand Cenobite|nph
+1 Elesh Norn, Grand Cenobite|IMA|[18]
 1 Treachery|uds
 1 Ertai Resurrected|dmu
 1 Ertai's Scorn|dmu
 1 Esper Panorama|ncc
-1 Estrid's Invocation|c18
-1 Geth, Lord of the Vault|2xm
-1 Go for the Throat|mic
-1 Goldmire Bridge|mh2
+1 Estrid's Invocation|MH3|[269]
+1 Geth, Lord of the Vault|BRC|[107]
+1 Go for the Throat|FDC|[100]
+1 Goldmire Bridge|MOC|[407]
 1 Grafted Butcher|mom
 1 Grip of Amnesia|jud
-1 Hatching Plans|wot
+1 Hatching Plans|GPT|[27]
 1 Heliod, the Radiant Dawn|mom
 1 Hinder|2xm
 1 Gixian Puppeteer|bro
-5 Island|usg
-1 Jin-Gitaxias, Core Augur|nph
-1 Mimic Vat|ncc
-1 Mistvault Bridge|mh2
-1 Myr Sire|jmp
-1 Myriad Landscape|clb
-1 Obscura Storefront|snc
+5 Island|INR|[290]
+1 Jin-Gitaxias, Core Augur|IMA|[62]
+1 Mimic Vat|LCC|[115]
+1 Mistvault Bridge|BRC|[189]
+1 Myr Sire|CMM|[400]
+1 Myriad Landscape|EOC|[169]
+1 Obscura Storefront|DSC|[291]
 1 Oculus|mbs
-1 Orzhov Basilica|cmm
-1 Path of Ancestry|clb
-1 Patriarch's Bidding|mh2
+1 Orzhov Basilica|DRC|[164]
+1 Path of Ancestry|TRC|[545]
+1 Patriarch's Bidding|ONS|[161]
 1 Pemmin's Aura|scg
 1 Phyrexian Awakening|mom
 1 Phyrexian Censor|mom
-1 Phyrexian Delver|c18
+1 Phyrexian Delver|INV|[115]
 1 Phyrexian Infiltrator|inv
 1 Phyrexian Lens|inv
 1 Phyrexian Obliterator|one
-1 Phyrexian Rager|dmu
-1 Phyrexian Rebirth|c19
+1 Phyrexian Rager|APC|[49]
+1 Phyrexian Rebirth|MOC|[199]
 1 Phyrexian Reclamation|ulg
 1 Phyrexian Vivisector|dmu
-4 Plains|usg
-1 Infernal Grasp|ecc
-1 Priest of Gix|dde
+4 Plains|INR|[288]
+1 Infernal Grasp|INR|[385]
+1 Priest of Gix|USG|[150]
 1 Psychic Surgery|nph
 1 Raffine's Tower|snc
-1 Razortide Bridge|mh2
-1 Reflections of Littjara|khm
-1 Riptide Laboratory|mh2
+1 Razortide Bridge|EOC|[171]
+1 Reflections of Littjara|TDC|[164]
+1 Riptide Laboratory|ONS|[322]
 1 Sadistic Glee|tmp
-1 Shambling Vent|clb
-1 Sheoldred, Whispering One|sld
-1 Sol Ring|onc
+1 Shambling Vent|PIO|[275]
+1 Sheoldred, Whispering One|JMP|[278]
+1 Sol Ring|LEB|[270]
 1 Spinal Graft|tmp
-7 Swamp|usg
-1 Swords to Plowshares|ncc
-1 Temple of Deceit|fdn
-1 Temple of Enlightenment|nec
-1 Temple of Silence|fdn
+7 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
+1 Temple of Deceit|DRC|[176]
+1 Temple of Enlightenment|EOC|[186]
+1 Temple of Silence|SOC|[415]
 1 Thornbite Staff|mor
-1 Time Wipe|war
+1 Time Wipe|TDC|[308]
 1 Unbender Tine|arc
 1 Vanishing|vis
-1 Vindicate|mh2
+1 Vindicate|APC|[126]
 1 Vohar, Vodalian Desecrator|dmu
 1 Void Rend|snc
 1 Vraan, Executioner Thane|one
-1 White Sun's Twilight|one
+1 White Sun's Twilight|FRC|[38]

@@ -1,103 +1,103 @@
 [metadata]
 Name=Damia
 [Commander]
-1 Damia, Sage of Stone|cmd
+1 Damia, Sage of Stone|CM2|[2]
 [Main]
 1 Accursed Marauder|mh3
-1 Archfiend of Ifnir|akh
-1 Ash Barrens|c16
-1 Beast Within|dsc
-1 Thoughtseize|ths
+1 Archfiend of Ifnir|ECC|[70]
+1 Ash Barrens|TDC|[339]
+1 Beast Within|TSR|[357]
+1 Thoughtseize|TSR|[334]
 1 Nath of the Gilt-Leaf|c16
 1 Tergrid, God of Fright|khm
-1 Mind Twist|lea
+1 Mind Twist|LEB|[116]
 1 Painful Quandary|fdn
-1 Arcane Signet|eld
-1 Sol Ring|cmd
-1 Azusa, Lost but Seeking|chk
-1 Bala Ged Recovery|znr
-1 Bitter Triumph|lci
-1 Bloodstained Mire|ons
-1 Bojuka Bog|wwk
+1 Arcane Signet|TRC|[485]
+1 Sol Ring|LEB|[270]
+1 Azusa, Lost but Seeking|CMM|[274]
+1 Bala Ged Recovery|PIO|[165]
+1 Bitter Triumph|TRC|[445]
+1 Bloodstained Mire|MH3|[435]
+1 Bojuka Bog|TSR|[406]
 1 Bone Miser|c19
 1 Boseiju, Who Endures|neo
 1 Bottomless Pit|sth
-1 Breeding Pool|dis
+1 Breeding Pool|RVR|[399]
 1 Burgeoning|sth
-1 Command Tower|cmd
-1 Counterspell|fbb
-1 Crucible of Worlds|5dn
-1 Cryptbreaker|emn
+1 Command Tower|TRC|[521]
+1 Counterspell|DMR|[281]
+1 Crucible of Worlds|2X2|[303]
+1 Cryptbreaker|DRC|[41]
 1 Cryptcaller Chariot|dft
 1 Cunning Lethemancer|ala
-1 Cyclonic Rift|rtr
-1 Tropical Island|vma
-1 Bayou|vma
-1 Underground Sea|vma
-1 Deathcap Glade|vow
-1 Delirium Skeins|dis
-1 Dimir Aqueduct|rav
-1 Dryad of the Ilysian Grove|thb
-1 Dying to Serve|vow
-1 Exploration|usg
-1 Festering Thicket|eoc
-1 Fetid Pools|akh
+1 Cyclonic Rift|RVR|[313]
+1 Tropical Island|LEB|[284]
+1 Bayou|LEB|[279]
+1 Underground Sea|LEB|[286]
+1 Deathcap Glade|SOS|[253]
+1 Delirium Skeins|MM3|[65]
+1 Dimir Aqueduct|DSC|[270]
+1 Dryad of the Ilysian Grove|M3C|[225]
+1 Dying to Serve|DBL|[376]
+1 Exploration|DMR|[339]
+1 Festering Thicket|SOC|[371]
+1 Fetid Pools|TRC|[380]
 1 Field of the Dead|m20
-1 Flooded Strand|ons
-1 Forest|ths
-1 Gifts Ungiven|chk
-1 Golgari Rot Farm|rav
+1 Flooded Strand|MH3|[436]
+1 Forest|INR|[296]
+1 Gifts Ungiven|2X2|[51]
+1 Golgari Rot Farm|ECC|[151]
 1 Icetill Explorer|eoe
-1 Island|ths
-1 Life from the Loam|rav
-1 Liliana of the Veil|isd
+1 Island|INR|[290]
+1 Life from the Loam|RVR|[350]
+1 Liliana of the Veil|INR|[475]
 1 Liliana, Waker of the Dead|m21
 1 Lluwen, Imperfect Naturalist|ecl
-1 Lotus Field|m20
+1 Lotus Field|SOC|[385]
 1 Lotus Vale|wth
-1 Marsh Flats|zen
+1 Marsh Flats|MH2|[437]
 1 Mind Rake|mh1
 1 Mistrise Village|tdm
-1 Misty Rainforest|zen
+1 Misty Rainforest|MH2|[438]
 1 Monument to Endurance|dft
-1 Muldrotha, the Gravetide|dom
+1 Muldrotha, the Gravetide|ECC|[128]
 1 Necrogen Mists|mrd
 1 Necrogoyf|mh2
 1 Nurturing Peatland|mh1
-1 Oracle of Mul Daya|zen
+1 Oracle of Mul Daya|EOC|[102]
 1 Otawara, Soaring City|neo
-1 Overgrown Tomb|rav
-1 Mana Drain|2x2
-1 Polluted Delta|ons
-1 Ramunap Excavator|hou
+1 Overgrown Tomb|RVR|[407]
+1 Mana Drain|LEG|[65]
+1 Polluted Delta|MH3|[438]
+1 Ramunap Excavator|M3C|[241]
 1 Rankle, Master of Pranks|otc
 1 Realms Uncharted|roe
-1 Scalding Tarn|zen
-1 Scavenger Grounds|hou
+1 Scalding Tarn|MH2|[439]
+1 Scavenger Grounds|FDC|[311]
 1 Shadowgrange Archfiend|voc
-1 Shipwreck Marsh|mid
-1 Simic Growth Chamber|dis
+1 Shipwreck Marsh|FRA|[189]
+1 Simic Growth Chamber|DSC|[298]
 1 Six|mh3
-1 Soul Manipulation|arb
-1 Soul Shatter|znr
+1 Soul Manipulation|ZNC|[100]
+1 Soul Shatter|SCD|[108]
 1 Stronghold Rats|tsr
-1 Sultai Charm|ktk
-2 Swamp|ths
-1 Hymn to Tourach|ema
+1 Sultai Charm|DMC|[168]
+2 Swamp|INR|[292]
+1 Hymn to Tourach|FEM|[38a]
 1 Takenuma, Abandoned Mire|neo
 1 Teval, the Balanced Scale|tdc
 1 Teval's Judgment|tdc
-1 The Gitrog Monster|soi
-1 Tolaria West|fut
+1 The Gitrog Monster|INR|[431]
+1 Tolaria West|TSR|[286]
 1 Tormod, the Desecrator|cmr
 1 Tortured Existence|sth
 1 Toxic Deluge|mh3
-1 Trophy Mage|aer
+1 Trophy Mage|DDU|[42]
 1 Undercity Sewers|mkm
 1 Underground Mortuary|mkm
-1 Verdant Catacombs|zen
+1 Verdant Catacombs|MH2|[440]
 1 Waste Not|c16
-1 Watery Grave|rav
-1 Wizard's Retort|dom
-1 Wooded Foothills|ons
+1 Watery Grave|RVR|[415]
+1 Wizard's Retort|JMP|[198]
+1 Wooded Foothills|MH3|[441]
 1 Zagoth Triome|iko

@@ -4,22 +4,22 @@ Name=Adventure - Low Simic
 
 [Main]
 1 Briarbridge Patrol|SOI|1
-1 Byway Courier|SOI|1
+1 Byway Courier|J25|[642]
 2 Confront the Unknown|SOI|1
-2 Drownyard Explorers|SOI|1
-1 Erdwal Illuminator|SOI|1
-2 Floodhound|MH2|1
-7 Forest|GK2|2
+2 Drownyard Explorers|J22|[289]
+1 Erdwal Illuminator|MKC|[104]
+2 Floodhound|J22|[300]
+7 Forest|INR|[296]
 2 Funnel-Web Recluse|MH2|1
-1 Graf Mole|SOI|1
-7 Island|GK2|2
-1 Lonis, Cryptozoologist|PLIST|1
-1 Magnifying Glass|C18|1
-1 Ongoing Investigation|SOI|1
-2 Secrets of the Key|MID|1
+1 Graf Mole|MKC|[170]
+7 Island|INR|[290]
+1 Lonis, Cryptozoologist|MKC|[215]
+1 Magnifying Glass|MKM|[255]
+1 Ongoing Investigation|MKC|[114]
+2 Secrets of the Key|DBL|[73]
 2 Simic Locket|RNA|1
-1 Ulvenwald Mysteries|PLIST|1
-2 Wavesifter|MH2|1
+1 Ulvenwald Mysteries|INR|[423]
+2 Wavesifter|MKC|[220]
 4 Woodland Stream|CMR|1
 [Sideboard]
 

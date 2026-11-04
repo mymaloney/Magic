@@ -1,13 +1,13 @@
 [metadata]
 Name=Scrublander of Dromar
 [Main]
-4 Scrubland|LEA
+4 Scrubland|LEB|[282]
 4 Caves of Koilos|APC
 2 Wizards' School|HML
 2 Dromar's Cavern|PLS
-4 Island|INV
-4 Plains|INV
-4 Swamp|INV
+4 Island|INR|[290]
+4 Plains|INR|[288]
+4 Swamp|INR|[292]
 2 Sword of the Chosen|STH
 2 Urza's Filter|INV
 2 Selenia, Dark Angel|TMP
@@ -22,7 +22,7 @@ Name=Scrublander of Dromar
 4 Dromar's Charm|PLS
 2 Death Grasp|APC
 2 Soul Link|APC
-2 Gerrard's Verdict|APC
+2 Gerrard's Verdict|DMR|[358]
 2 Putrid Warrior|APC
 1 Martyrs' Tomb|APC
 1 Vindicate|APC

@@ -4,63 +4,63 @@ Name=Tahngarth, Talruum Hero
 [Commander]
 1 Tahngarth, Talruum Hero|PLS
 [Main]
-40 Mountain|7ED
-1 Fire Diamond|7ED
-1 Mind Stone|WTH
+40 Mountain|INR|[294]
+1 Fire Diamond|MIR|[302]
+1 Mind Stone|DMR|[385]
 1 Worn Powerstone|USG
-1 Sol Ring|3ED
+1 Sol Ring|LEB|[270]
 1 Skyship Weatherlight|PLS
-1 Ornithopter|6ED
-1 Brass Man|4ED
-1 Juggernaut|3ED
-1 Dancing Scimitar|6ED
+1 Ornithopter|DMR|[386]
+1 Brass Man|ARN|[59]
+1 Juggernaut|DMR|[382]
+1 Dancing Scimitar|ARN|[61]
 1 Bottle Gnomes|TMP
-1 Disintegrate|5ED
-1 Fireball|5ED
-1 Lightning Bolt|4ED
-1 Incinerate|5ED
-1 Earthquake|7ED
-1 Shatter|7ED
-1 Stone Rain|7ED
-1 Blaze|7ED
+1 Disintegrate|LEB|[141]
+1 Fireball|LEB|[150]
+1 Lightning Bolt|LEB|[162]
+1 Incinerate|MIR|[184]
+1 Earthquake|PO2|[94]
+1 Shatter|TMP|[203]
+1 Stone Rain|MMQ|[215]
+1 Blaze|PO2|[91]
 1 Shock|ONS
-1 Fissure|4ED
+1 Fissure|DRK|[63]
 1 Mob Justice|STH
 1 Threaten|ONS
-1 Relentless Assault|7ED
-1 Blood Lust|5ED
+1 Relentless Assault|PO2|[115]
+1 Blood Lust|LEG|[135]
 1 Falter|USG
 1 Fling|STH
-1 Goblin War Drums|7ED
+1 Goblin War Drums|FEM|[58a]
 1 Ghitu War Cry|ULG
-1 Fork|3ED
+1 Fork|LEB|[153]
 1 Shiv's Embrace|USG
 1 Goblin Soothsayer|MIR
 1 Mogg Fanatic|TMP
-1 Goblin Balloon Brigade|4ED
+1 Goblin Balloon Brigade|LEB|[154]
 1 Bloodfire Dwarf|APC
 1 Mogg Flunkies|STH
-1 Wall of Fire|7ED
+1 Wall of Fire|LEB|[182]
 1 Wall of Razors|STH
 1 Dwarven Berserker|WTH
-1 Atog|5ED
+1 Atog|ATQ|[23]
 1 Goblin Tinkerer|MIR
-1 Ironclaw Orcs|5ED
+1 Ironclaw Orcs|LEB|[160]
 1 Fireslinger|TMP
-1 Hurloon Minotaur|5ED
-1 Uthden Troll|4ED
-1 Granite Gargoyle|3ED
-1 Dragon Whelp|4ED
-1 Ball Lightning|5ED
-1 Keldon Warlord|5ED
-1 Earth Elemental|4ED
-1 Roc of Kher Ridges|3ED
-1 Stone Giant|5ED
+1 Hurloon Minotaur|LEB|[159]
+1 Uthden Troll|LEB|[181]
+1 Granite Gargoyle|LEB|[156]
+1 Dragon Whelp|DMR|[317]
+1 Ball Lightning|DRK|[57]
+1 Keldon Warlord|LEB|[161]
+1 Earth Elemental|LEB|[145]
+1 Roc of Kher Ridges|LEB|[171]
+1 Stone Giant|LEB|[177]
 1 Jeska, Warrior Adept|JUD
 1 Latulla, Keldon Overseer|PCY
 1 Maraxus of Keld|WTH
-1 Rock Hydra|3ED
-1 Shivan Dragon|7ED
-1 Two-Headed Giant of Foriys|2ED
+1 Rock Hydra|LEB|[172]
+1 Shivan Dragon|DMR|[329]
+1 Two-Headed Giant of Foriys|LEB|[180]
 1 Eron the Relentless|HML
-1 Volcanic Dragon|6ED
+1 Volcanic Dragon|POR|[153]

@@ -1,12 +1,12 @@
 [metadata]
 Name=wanderinggiant
 [Main]
-23 Mountain|5ED|2
+23 Mountain|INR|[294]
 4 Craven Giant|STH
 4 Desolation Giant|APC
-4 Hill Giant|LEA
-4 Incinerate|ICE
-4 Lightning Bolt|4ED
+4 Hill Giant|POR|[133]
+4 Incinerate|MIR|[184]
+4 Lightning Bolt|LEB|[162]
 4 Lowland Giant|TMP
 4 Ogre Taskmaster|MMQ
 4 Shock|ONS

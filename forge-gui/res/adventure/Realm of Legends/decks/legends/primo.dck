@@ -3,40 +3,40 @@ Name=Quandrix Unlimited [SOC] [2026]
 [Commander]
 1 Primo, the Unbounded|SOC
 [Main]
-7 Forest|SOS
-8 Island|SOS
+7 Forest|INR|[296]
+8 Island|INR|[290]
 1 Study Hall|SOC
 1 Opal Palace|SOC
-1 Command Tower|SOC
+1 Command Tower|TRC|[521]
 1 Tangled Islet|SOC
-1 Exotic Orchard|SOC
-1 Fabled Passage|SOC
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
 1 Sodden Verdure|SOC
-1 Yavimaya Coast|SOC
+1 Yavimaya Coast|APC|[143]
 1 Zimone, Infinite Analyst|SOC
 1 Paradox Gardens|SOS
 1 Quandrix Campus|SOC
-1 Reliquary Tower|SOC
-1 Rogue's Passage|SOC
-1 Path of Ancestry|SOC
-1 Hinterland Harbor|SOC
+1 Reliquary Tower|TRC|[551]
+1 Rogue's Passage|TRC|[552]
+1 Path of Ancestry|TRC|[545]
+1 Hinterland Harbor|DMR|[396]
 1 Temple of Mystery|SOC
 1 Vineglimmer Snarl|SOC
 1 Alchemist's Refuge|SOC
 1 Rain-Slicked Copse|SOC
-1 Terramorphic Expanse|SOS
+1 Terramorphic Expanse|TRC|[571]
 1 Turbulent Wilderness|SOC
 1 Oran-Rief, the Vastwood|SOC
-1 Temple of the False God|SOC
-1 Sol Ring|SOC
-1 Arcane Signet|SOC
+1 Temple of the False God|SCG|[143]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
 1 Fractal Harness|SOC
-1 Astral Cornucopia|SOC
+1 Astral Cornucopia|TRC|[338]
 1 Brass Infiniscope|SOC
 1 Elementalist's Palette|SOC
 1 Ozolith, the Shattered Spire|SOC
 1 Silkguard|SOC
-1 Beast Within|SOC
+1 Beast Within|TSR|[357]
 1 Eureka Moment|SOC
 1 Tyvar's Stand|SOC
 1 Quandrix Charm|SOS
@@ -45,7 +45,7 @@ Name=Quandrix Unlimited [SOC] [2026]
 1 Perplexing Test|SOC
 1 Biomass Mutation|SOC
 1 Quandrix Command|SOC
-1 Stroke of Genius|SOC
+1 Stroke of Genius|DMR|[293]
 1 Pull from Tomorrow|SOC
 1 Commander's Insight|SOC
 1 Rapid Hybridization|SOC
@@ -65,7 +65,7 @@ Name=Quandrix Unlimited [SOC] [2026]
 1 Primordial Hydra|SOC
 1 Tanazir Quandrix|SOC
 1 The Goose Mother|SOC
-1 Forgotten Ancient|SOC
+1 Forgotten Ancient|DMR|[341]
 1 Hangarback Walker|SOC
 1 Ingenious Prodigy|SOC
 1 Stonecoil Serpent|SOC
@@ -84,7 +84,7 @@ Name=Quandrix Unlimited [SOC] [2026]
 1 Oversimplify|SOC
 1 Primal Might|SOC
 1 Three Visits|SOC
-1 Nature's Lore|SOC
+1 Nature's Lore|DMR|[346]
 1 Entrancing Melody|SOC
 1 Curse of the Swine|SOC
 1 Animist's Awakening|SOC

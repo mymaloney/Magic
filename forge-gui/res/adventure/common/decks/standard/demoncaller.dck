@@ -1,36 +1,36 @@
 [metadata]
 Name=demoncaller
 [Main]
-2 Archfiend of Despair|CMM|1
-4 Badlands|OLGC|1
+2 Archfiend of Despair|FRC|[46]
+4 Badlands|LEB|[278]
 2 Blade of the Oni|NEO|1
-4 Blood Crypt|PLIST|1
-2 Bloodstained Mire|KTK|1
-4 Coldsteel Heart|2X2|1
+4 Blood Crypt|RVR|[397]
+2 Bloodstained Mire|MH3|[435]
+4 Coldsteel Heart|J22|[94]
 2 Damnation|2X2|1
-1 Doom Blade|E02|1
-2 Fatal Push|KLR|1
-2 Harvester of Souls|CN2|1
-1 Lord of the Void|GTC|1
+1 Doom Blade|GN3|[47]
+2 Fatal Push|2XM|[93]
+2 Harvester of Souls|TSR|[325]
+1 Lord of the Void|RVR|[327]
 1 Malfegor|IMA|1
 4 Manor Guardian|J21|1
-2 Master of Cruelties|GK2|1
-10 Mountain|GK2|1
+2 Master of Cruelties|RVR|[373]
+10 Mountain|INR|[294]
 2 Nurgle's Rot|40K|1
 1 Ob Nixilis of the Black Oath|CMM|1
-1 Ob Nixilis Reignited|PRM|1
-2 Ob Nixilis's Cruelty|J21|1
+1 Ob Nixilis Reignited|PIO|[99]
+2 Ob Nixilis's Cruelty|PIO|[100]
 2 Ob Nixilis, Captive Kingpin|MAT|1
 1 Ob Nixilis, the Adversary|SNC|1
-2 Ob Nixilis, the Fallen|PLIST|1
+2 Ob Nixilis, the Fallen|TDC|[192]
 1 Ob Nixilis, the Hate-Twisted|J22|1
 1 Ob Nixilis, Unshackled|2X2|1
-1 Plague Wind|A25|1
-2 Rakdos, the Showstopper|RNA|1
-1 Reaper from the Abyss|ISD|1
+1 Plague Wind|PCY|[74]
+2 Rakdos, the Showstopper|CLU|[205]
+1 Reaper from the Abyss|J25|[480]
 2 Scourge of the Skyclaves|ZNR|1
-10 Swamp|GK2|1
+10 Swamp|INR|[292]
 1 Wake of Destruction|UDS|1
-2 Worn Powerstone|C18|1
+2 Worn Powerstone|USG|[318]
 [Sideboard]
 [Schemes]

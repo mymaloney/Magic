@@ -3,44 +3,44 @@ Name=Kianne
 [Commander]
 1 Kianne, Dean of Substance|stx
 [Main]
-1 Adventurous Impulse|sta
+1 Adventurous Impulse|J25|[621]
 1 Aether Helix|stx
-1 Arcane Signet|onc
-1 Armorcraft Judge|cmr
+1 Arcane Signet|TRC|[485]
+1 Armorcraft Judge|J25|[629]
 1 Bant Panorama|ncc
 1 Biomathematician|stx
 1 Bloated Contaminator|one
 1 Bond Beetle|m13
-1 Bootleggers' Stash|snc
-1 Bred for the Hunt|dgm
-1 Breeding Pool|gtc
-1 Brinelin, the Moon Kraken|cmr
-1 Chasm Skulker|m15
-1 Command Tower|onc
+1 Bootleggers' Stash|DRC|[110]
+1 Bred for the Hunt|CM2|[151]
+1 Breeding Pool|RVR|[399]
+1 Brinelin, the Moon Kraken|CMM|[78]
+1 Chasm Skulker|PIO|[49]
+1 Command Tower|TRC|[521]
 1 Court of Bounty|cmr
 1 Kianne, Corrupted Memory|dsc
 1 Cyclone Summoner|khm
-1 Decisive Denial|stx
+1 Decisive Denial|SOC|[304]
 1 Double Major|stx
-1 Dreamroot Cascade|vow
-1 Eureka Moment|stx
-1 Evolving Wilds|j22
-14 Forest|stx
+1 Dreamroot Cascade|SOS|[254]
+1 Eureka Moment|SOC|[308]
+1 Evolving Wilds|TRC|[527]
+14 Forest|INR|[296]
 1 Fractal Summoning|stx
-1 Give|dgm
-1 Growth Spiral|dmc
+1 Give|PIO|[389]
+1 Growth Spiral|DSC|[88]
 1 Guardian Gladewalker|khm
 1 Guildless Commons|cmr
-1 Hindervines|gtc
-1 Hunt the Weak|plst
+1 Hindervines|MOC|[301]
+1 Hunt the Weak|RIX|[133]
 1 Imoti, Celebrant of Bounty|cmr
 1 In Search of Greatness|khm
-1 Incremental Growth|ktk
-9 Island|stx
-1 Ivy Lane Denizen|j22
-1 Kiora, the Crashing Wave|ddo
-1 Kodama of the East Tree|cmr
-1 Rancor|2x2
+1 Incremental Growth|W16|[14]
+9 Island|INR|[290]
+1 Ivy Lane Denizen|J25|[674]
+1 Kiora, the Crashing Wave|PIO|[354]
+1 Kodama of the East Tree|BLC|[227]
+1 Rancor|ULG|[110]
 1 Leyline Invocation|stx
 1 Littjara Glade-Warden|khm
 1 Littjara Mirrorlake|ncc
@@ -49,35 +49,35 @@ Name=Kianne
 1 Mutant's Prey|dgm
 1 Body of Research|stx
 1 Exponential Growth|stx
-1 Sol Ring|c21
-1 Opal Palace|c16
-1 Ordeal of Nylea|j22
+1 Sol Ring|LEB|[270]
+1 Opal Palace|SOC|[390]
+1 Ordeal of Nylea|FDN|[641]
 1 Peregrination|bng
-1 Plasm Capture|ddo
-1 Primal Command|sta
-1 Quandrix Apprentice|stx
-1 Quandrix Campus|stx
-1 Quandrix Command|stx
+1 Plasm Capture|OTC|[237]
+1 Primal Command|MM3|[132]
+1 Quandrix Apprentice|SOC|[324]
+1 Quandrix Campus|SOC|[395]
+1 Quandrix Command|SOC|[325]
 1 Quandrix Cultivator|stx
 1 Quandrix Pledgemage|stx
-1 Rampant Growth|m10
+1 Rampant Growth|TMP|[245]
 1 Ranger's Path|m13
 1 Renegade Krasis|dgm
 1 Rootless Yew|khm
-1 Servant of the Scale|j22
+1 Servant of the Scale|J25|[711]
 1 Simic Cluestone|dgm
-1 Simic Guildgate|cmr
-1 Slogurk, the Overslime|mid
-1 Slurrk, All-Ingesting|cmr
-1 Snakeskin Veil|khm
+1 Simic Guildgate|RVR|[411]
+1 Slogurk, the Overslime|DBL|[242]
+1 Slurrk, All-Ingesting|MOC|[312]
+1 Snakeskin Veil|TDM|[159]
 1 Sweet-Gum Recluse|clb
-1 Tanazir Quandrix|stx
-1 Terra Stomper|zen
-1 Thrashing Mossdog|dgm
-1 Three Visits|cmr
-1 Unexpected Results|gtc
-1 Vineglimmer Snarl|stx
-1 Vorel of the Hull Clade|ncc
-1 War Room|cmr
-1 Wrenn and Seven|mid
-1 Zimone, Quandrix Prodigy|stx
+1 Tanazir Quandrix|SOC|[332]
+1 Terra Stomper|ORI|[288]
+1 Thrashing Mossdog|CLU|[176]
+1 Three Visits|SOC|[289]
+1 Unexpected Results|PIO|[397]
+1 Vineglimmer Snarl|SOC|[420]
+1 Vorel of the Hull Clade|LCC|[294]
+1 War Room|SOC|[422]
+1 Wrenn and Seven|INR|[226]
+1 Zimone, Quandrix Prodigy|SOC|[341]

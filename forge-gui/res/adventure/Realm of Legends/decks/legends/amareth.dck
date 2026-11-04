@@ -3,90 +3,90 @@ Name=Amareth
 [Commander]
 1 Amareth, the Lustrous|cmr
 [Main]
-1 Alchemist's Refuge|avr
-1 Arasta of the Endless Web|thb
-1 Arcane Signet|eld
-1 Archetype of Imagination|c18
-1 karmic justice|sta
+1 Alchemist's Refuge|SOC|[360]
+1 Arasta of the Endless Web|TDC|[244]
+1 Arcane Signet|TRC|[485]
+1 Archetype of Imagination|DSC|[111]
+1 karmic justice|ODY|[26]
 1 nylea's colossus|c18
-1 teferi's protection|sta
-1 swords to plowshares|blc
-1 wild growth|lea
-1 Bala Ged Recovery|znr
+1 teferi's protection|2X2|[32]
+1 swords to plowshares|DMR|[275]
+1 wild growth|DMR|[352]
+1 Bala Ged Recovery|PIO|[165]
 1 Boseiju, Who Endures|neo
 1 Branchloft Pathway|znr
-1 Breeding Pool|rna
+1 Breeding Pool|RVR|[399]
 1 Calix, Destiny's Hand|thb
 1 Case of the Locked Hothouse|mkm
-1 Command Tower|c16
-1 Counterspell|sta
-1 Court of Grace|cmr
+1 Command Tower|TRC|[521]
+1 Counterspell|DMR|[281]
+1 Court of Grace|FDC|[21]
 1 Court of Vantress|woc
-1 Cultivate|sta
-1 Dance of the Manse|eld
-1 Deserted Beach|mid
-1 Dovin's Veto|war
-1 Dryad of the Ilysian Grove|thb
+1 Cultivate|SOC|[265]
+1 Dance of the Manse|NEC|[136]
+1 Deserted Beach|FRA|[176]
+1 Dovin's Veto|TSR|[375]
+1 Dryad of the Ilysian Grove|M3C|[225]
 1 Treachery|uds
-1 Enchantress's Presence|mh2
+1 Enchantress's Presence|ONS|[261]
 1 Estrid, the Masked|c18
 1 Femeref Enchantress|vis
-1 Flawless Maneuver|c20
-1 Eidolon of Blossoms|cmm
+1 Flawless Maneuver|FRC|[25]
+1 Eidolon of Blossoms|WOC|[124]
 1 Flood of Tears|voc
-1 Flooded Strand|ktk
-5 Forest|thb|[254]
-1 Generous Gift|cmr
-1 Glacial Fortress|xln
-1 Greater Auramancy|wot
+1 Flooded Strand|MH3|[436]
+5 Forest|INR|[296]
+1 Generous Gift|BLC|[106]
+1 Glacial Fortress|TRC|[385]
+1 Greater Auramancy|SHM|[7]
 1 Seal from Existence|mom
-1 Hallowed Fountain|rna
-1 Hallowed Haunting|vow
-1 Ondu Spiritdancer|cmm
+1 Hallowed Fountain|RVR|[404]
+1 Hallowed Haunting|DBL|[284]
+1 Ondu Spiritdancer|DSC|[101]
 1 Hengegate Pathway|khm
-1 sigil of the empty throne|cmm
-1 Heroic Intervention|aer
-1 Hinterland Harbor|dom
-5 Island|thb|[251]
-1 Karametra, God of Harvests|sld
-1 Kruphix, God of Horizons|sld
-1 Luminarch Ascension|zen
-1 Mirari's Wake|mh2
-1 Mirrormade|eld
+1 sigil of the empty throne|TSR|[301]
+1 Heroic Intervention|CMM|[295]
+1 Hinterland Harbor|DMR|[396]
+5 Island|INR|[290]
+1 Karametra, God of Harvests|PIO|[310]
+1 Kruphix, God of Horizons|PIO|[312]
+1 Luminarch Ascension|A25|[23]
+1 Mirari's Wake|JUD|[139]
+1 Mirrormade|DSC|[120]
 1 Misty Rainforest|mh2
 1 Niko Aris|khm
 1 Nyxbloom Ancient|thb
-1 Omniscience|m13
-1 Ondu Inversion|plst
+1 Omniscience|FDN|[161]
+1 Ondu Inversion|ZNR|[30]
 1 Otawara, Soaring City|neo
-1 Overgrown Farmland|mid
-1 Overgrowth|c18
-1 Path to Exile|ss2
-5 Plains|thb|[250]
-1 Privileged Position|gk1
-1 Propaganda|c16
-1 Reliquary Tower|tdc
-1 Render Silent|gk2
-1 Rhystic Study|wot
-1 Sanctum Weaver|mh2
+1 Overgrown Farmland|FRA|[185]
+1 Overgrowth|STH|[111]
+1 Path to Exile|TSR|[299]
+5 Plains|INR|[288]
+1 Privileged Position|2X2|[263]
+1 Propaganda|TMP|[80]
+1 Reliquary Tower|TRC|[551]
+1 Render Silent|PIO|[394]
+1 Rhystic Study|PCY|[45]
+1 Sanctum Weaver|WOC|[131]
 1 Satyr Enchanter|m19
 1 Sea Gate Restoration|znr
-1 Talisman of Unity|MRD
-1 Shark Typhoon|iko
-1 Fertile ground|c18
-1 Skyshroud Claim|bbd
-1 Smothering Tithe|wot
-1 Sol Ring|c21
+1 Talisman of Unity|MKC|[244]
+1 Shark Typhoon|FRC|[44]
+1 Fertile ground|INV|[188]
+1 Skyshroud Claim|NMS|[117]
+1 Smothering Tithe|CMM|[57]
+1 Sol Ring|LEB|[270]
 1 Spara's Headquarters|snc
-1 Sphere of Safety|rtr
-1 Sterling Grove|mh2
-1 Sunpetal Grove|m12
-1 Supreme Verdict|rtr
-1 Swan Song|ths
+1 Sphere of Safety|RVR|[447]
+1 Sterling Grove|INV|[278]
+1 Sunpetal Grove|TDC|[399]
+1 Supreme Verdict|RVR|[461]
+1 Swan Song|EOC|[46]
 1 Sythis, Harvest's Hand|mh2
-1 Talisman of Curiosity|mh1
-1 Talisman of Progress|mrd
-1 Temple Garden|grn
-1 Thassa, God of the Sea|ths
+1 Talisman of Curiosity|SOC|[430]
+1 Talisman of Progress|TRC|[508]
+1 Temple Garden|RVR|[414]
+1 Thassa, God of the Sea|PIO|[288]
 1 Tuvasa the Sunlit|c18
-1 Windswept Heath|ktk
+1 Windswept Heath|MH3|[440]

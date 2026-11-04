@@ -6,67 +6,67 @@ Name=Lurrus
 1 Accursed Marauder|mh3
 1 Ajani's Welcome|m19
 1 Amalia Benavides Aguirre|lci
-1 Animate Dead|mkc
+1 Animate Dead|LEB|[93]
 1 Archfiend's Vessel|j25
-1 Despark|war
+1 Despark|FRC|[50]
 1 March of the Canonized|lcc
-1 Intangible Virtue|isd
-1 Wayfarer's Bauble|5dn
-1 Intrepid Adversary|mid
+1 Intangible Virtue|TSR|[295]
+1 Wayfarer's Bauble|TRC|[511]
+1 Intrepid Adversary|DBL|[25]
 1 Dispeller's Capsule|c21
-1 Executioner's Capsule|2xm
-1 Arcane Signet|eld
-1 Sol Ring|c20
-1 Talisman of Hierarchy|tdc
+1 Executioner's Capsule|BRC|[104]
+1 Arcane Signet|TRC|[485]
+1 Sol Ring|LEB|[270]
+1 Talisman of Hierarchy|TRC|[506]
 1 Auriok Champion|ima
 1 Authority of the Consuls|fdn
 1 Bitterbloom Bearer|ecl
 1 Bleachbone Verge|dft
-1 Blind Obedience|wot
-1 Blood Artist|dsc
-1 Bojuka Bog|dsc
+1 Blind Obedience|RVR|[303]
+1 Blood Artist|INR|[372]
+1 Bojuka Bog|TSR|[406]
 1 Brightclimb Pathway|znr
 1 Case of the Uneaten Feast|mkm
-1 Caves of Koilos|dmu
+1 Caves of Koilos|APC|[140]
 1 Charismatic Conqueror|lcc
-1 Command Tower|blc
+1 Command Tower|TRC|[521]
 1 Concealed Courtyard|otj
 1 Creeping Bloodsucker|j25
-1 Cruel Celebrant|war
+1 Cruel Celebrant|LCC|[267]
 1 Dark Confidant|rvr
-1 Darksteel Mutation|voc
-1 Dauthi Voidwalker|tdc
+1 Darksteel Mutation|SOC|[142]
+1 Dauthi Voidwalker|MH2|[397]
 1 Dawn's Truce|blb
-1 Daxos, Blessed by the Sun|mul
+1 Daxos, Blessed by the Sun|THB|[9]
 1 Dewdrop Cure|blb
 1 Elas il-Kor, Sadistic Pilgrim|dmu
 1 Forbidden Orchard|2x2
-1 Godless Shrine|rna
+1 Godless Shrine|RVR|[401]
 1 Guide of Souls|mh3
 1 Hinterland Sanctifier|j25
 1 Imp's Mischief|cmm
-1 Isolated Chapel|drc
+1 Isolated Chapel|DMR|[397]
 1 Karlov of the Ghost Council|rvr
 1 Kaya's Ghostform|war
-1 Keen Duelist|c21
+1 Keen Duelist|SOC|[218]
 1 Leonin Elder|mrd
 1 Lunar Convocation|blb
-1 Lunarch Veteran|mid
+1 Lunarch Veteran|INR|[450]
 1 Malakir Rebirth|znr
-1 Phyrexian Reclamation|tdc
-10 Plains|iko
+1 Phyrexian Reclamation|ULG|[63]
+10 Plains|INR|[288]
 1 Rally the Ancestors|frf
 1 Rebuff the Wicked|tsr
 1 Retribution of the Ancients|ktk
-1 Rite of Oblivion|mid
+1 Rite of Oblivion|TRC|[478]
 1 Ruin-Lurker Bat|lci
-1 Scoured Barrens|fdn
+1 Scoured Barrens|TDM|[267]
 1 Scout for Survivors|eoe
 1 Selfless Savior|m21
-1 Selfless Spirit|blc
-1 Shattered Sanctum|inr
-1 Sheltered by Ghosts|dsk
-1 Shineshadow Snarl|stx
+1 Selfless Spirit|SOC|[167]
+1 Shattered Sanctum|SOS|[260]
+1 Sheltered by Ghosts|SOC|[171]
+1 Shineshadow Snarl|TRC|[400]
 1 Silent Clearing|mh1
 1 Skyclave Cleric|znr
 1 Soldier of the Pantheon|ths
@@ -76,11 +76,11 @@ Name=Lurrus
 1 Spectrum Sentinel|bro
 1 Starscape Cleric|blb
 1 Suture Priest|moc
-10 Swamp|iko
-1 Swords to Plowshares|m3c
-1 Tainted Field|moc
-1 Voice of the Blessed|vow
+10 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
+1 Tainted Field|TOR|[140]
+1 Voice of the Blessed|INR|[50]
 1 Westvale Abbey|inr
 1 Winds of Abandon|mh1
 1 Worthy Cost|tdm
-1 Zulaport Cutthroat|blc
+1 Zulaport Cutthroat|TSR|[337]

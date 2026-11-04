@@ -1,8 +1,8 @@
 [metadata]
 Name=boar_gruul
 [Main]
-16 Forest|ODY|2
-3 Swamp|ODY|2
+16 Forest|INR|[296]
+3 Swamp|INR|[292]
 4 Basking Rootwalla|TOR
 4 Deepwood Ghoul|MMQ
 4 Deepwood Legate|MMQ

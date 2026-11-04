@@ -1,8 +1,8 @@
 [metadata]
 Name=banditarcher_blink
 [Main]
-12 Swamp|PTK
-12 Mountain|PTK
+12 Swamp|INR|[292]
+12 Mountain|INR|[294]
 3 Fire Bowman|PTK
 2 Tor Wauki|LEG
 3 Mountain Bandit|PTK

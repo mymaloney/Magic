@@ -1,10 +1,10 @@
 [metadata]
 Name=Lion - GW Cats
 [Main]
-9 Plains|MIR
-9 Forest|MIR
-4 Brushland|7ED
-4 Savannah Lions|LEA
+9 Plains|INR|[288]
+9 Forest|INR|[296]
+4 Brushland|ICE|[352]
+4 Savannah Lions|DMR|[270]
 2 Jamuraan Lion|VIS
 4 Mtenda Lion|MIR
 4 Noble Panther|INV
@@ -12,6 +12,6 @@ Name=Lion - GW Cats
 2 Rancor|ULG
 4 Jungle Lion|POR
 4 Shared Triumph|ONS
-4 Pacifism|MIR
-4 Disenchant|MIR
-4 Giant Growth|5ED
+4 Pacifism|ONS|[47]
+4 Disenchant|MMQ|[18]
+4 Giant Growth|ICE|[246]

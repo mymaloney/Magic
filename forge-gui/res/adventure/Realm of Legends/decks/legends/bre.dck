@@ -3,9 +3,9 @@ Name=Bre of Clan Stoutarm
 [Commander]
 1 Bre of Clan Stoutarm|ecl
 [Main]
-1 Ancient Amphitheater|lrw
-1 Arcane Signet|eoc
-1 Battlefield Forge|c20
+1 Ancient Amphitheater|CM2|[232]
+1 Arcane Signet|TRC|[485]
+1 Battlefield Forge|APC|[139]
 1 Adaptive Armorer|yecl
 1 Craterous Stomp|yecl
 1 Kindred Charge|c17
@@ -15,66 +15,66 @@ Name=Bre of Clan Stoutarm
 1 Hovel Hurler|ecl
 1 Chronicle of Victory|ecl
 1 Surtland Flinger|khm
-1 Bloodshot Cyclops|8ed
+1 Bloodshot Cyclops|UDS|[77]
 1 Borderland Behemoth|cm2
-1 Boros Charm|gk1
-1 Boros Garrison|c20
+1 Boros Charm|FDN|[721]
+1 Boros Garrison|CLU|[231]
 1 Brion Stoutarm|a25
 1 Calamity Bearer|khm
-1 Chandra's Ignition|lcc
-1 Clifftop Retreat|tdc
-1 Command Tower|c18
+1 Chandra's Ignition|FDC|[145]
+1 Clifftop Retreat|DMR|[393]
+1 Command Tower|TRC|[521]
 1 Commune with Lava|afc
-1 Cragganwick Cremator|plst
+1 Cragganwick Cremator|2XM|[122]
 1 Crater's Claws|ktk
 1 Crush Underfoot|mma
 1 Curious Colossus|ecl
 1 Disaster Radius|cm2
 1 Duergar Hedge-Mage|moc
 1 Eclipsed Realms|ecl
-1 Evolving Wilds|iko
-1 Faith's Fetters|uma
-1 Furycalm Snarl|msc
-1 Generous Gift|mh1
-1 Gisela, Blade of Goldnight|a25
+1 Evolving Wilds|TRC|[527]
+1 Faith's Fetters|RVR|[307]
+1 Furycalm Snarl|TRC|[384]
+1 Generous Gift|BLC|[106]
+1 Gisela, Blade of Goldnight|MKC|[211]
 1 Goliath Daydreamer|ecl
 1 Hamletback Goliath|jmp
 1 Hundred-Handed One|cn2
-1 Inferno Titan|cm2
-1 Inspiring Vantage|kld
+1 Inferno Titan|BLC|[198]
+1 Inspiring Vantage|OTJ|[269]
 1 Kalemne's Captain|c20
-1 Knight of the White Orchid|c20
-1 Lightning Bolt|a25
-1 Lightning Greaves|tdc
-1 Lightning Helix|gk1
-1 Magma Giant|cm2
-1 Mind Stone|cm2
-13 Mountain|ecl
-1 Needle Spires|ogw
+1 Knight of the White Orchid|PIO|[21]
+1 Lightning Bolt|LEB|[162]
+1 Lightning Greaves|TRC|[496]
+1 Lightning Helix|RVR|[372]
+1 Magma Giant|PO2|[108]
+1 Mind Stone|DMR|[385]
+13 Mountain|INR|[294]
+1 Needle Spires|PIO|[270]
 1 Needleverge Pathway|znr
-1 Oblivion Ring|ddi
-1 Path to Exile|mm3
+1 Oblivion Ring|MM2|[29]
+1 Path to Exile|TSR|[299]
 1 Phlage, Titan of Fire's Fury|mh3
-13 Plains|ecl
+13 Plains|INR|[288]
 1 Quakebringer|khm
 1 Realm-Cloaked Giant|blc
-1 Righteous Confluence|c15
-1 Rite of the Raging Storm|cm2
+1 Righteous Confluence|CMM|[53]
+1 Rite of the Raging Storm|MKC|[159]
 1 Rolling Thunder|tmp
-1 Sacred Foundry|grn
-1 Sol Ring|eoc
+1 Sacred Foundry|RVR|[409]
+1 Sol Ring|LEB|[270]
 1 Squash|khm
-1 Stasis Snare|bfz
+1 Stasis Snare|PIO|[37]
 1 Stinkdrinker Daredevil|cm2
-1 Sun Titan|c20
+1 Sun Titan|SOC|[178]
 1 Sunbird's Invocation|blc
 1 Sundown Pass|sos
 1 Sunrise Sovereign|cm2
-1 Swords to Plowshares|eoc
+1 Swords to Plowshares|DMR|[275]
 1 Taurean Mauler|tdc
-1 Temple of Triumph|m20
+1 Temple of Triumph|SOC|[417]
 1 Thundercloud Shaman|cm2
-1 Urza's Incubator|mh3
-1 Warstorm Surge|c19
-1 Worn Powerstone|c18
-1 Wrath of God|2xm
+1 Urza's Incubator|DMR|[392]
+1 Warstorm Surge|FDC|[186]
+1 Worn Powerstone|USG|[318]
+1 Wrath of God|DMR|[279]

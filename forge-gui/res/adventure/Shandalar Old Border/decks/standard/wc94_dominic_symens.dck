@@ -2,31 +2,31 @@
 Name=WC94 Dominic Symens - Jade Statue Aggro
 [Main]
 1 Aladdin|ARN
-1 Ancestral Recall|LEA
-2 Animate Dead|LEA
-3 Badlands|LEA
-3 Bayou|LEA
-3 Birds of Paradise|LEA
-1 Black Lotus|LEA
-4 Chain Lightning|LEG
-1 Channel|LEA
-1 Chaos Orb|LEA
+1 Ancestral Recall|LEB|[48]
+2 Animate Dead|LEB|[93]
+3 Badlands|LEB|[278]
+3 Bayou|LEB|[279]
+3 Birds of Paradise|RVR|[344]
+1 Black Lotus|LEB|[233]
+4 Chain Lightning|DMR|[316]
+1 Channel|LEB|[189]
+1 Chaos Orb|LEB|[236]
 2 City of Brass|ARN
-1 Demonic Tutor|LEA
-4 Fireball|LEA
-1 Fork|LEA
-4 Jade Statue|LEA
+1 Demonic Tutor|LEB|[105]
+4 Fireball|LEB|[150]
+1 Fork|LEB|[153]
+4 Jade Statue|LEB|[254]
 4 Kird Ape|ARN
-4 Lightning Bolt|LEA
-4 Llanowar Elves|LEA
-1 Mind Twist|LEA
-1 Mox Emerald|LEA
-1 Mox Jet|LEA
-1 Mox Ruby|LEA
-1 Mox Sapphire|LEA
-1 Regrowth|LEA
-1 Sol Ring|LEA
-4 Taiga|LEA
-1 Time Walk|LEA
-3 Tropical Island|LEA
+4 Lightning Bolt|LEB|[162]
+4 Llanowar Elves|LEB|[211]
+1 Mind Twist|LEB|[116]
+1 Mox Emerald|LEB|[262]
+1 Mox Jet|LEB|[263]
+1 Mox Ruby|LEB|[265]
+1 Mox Sapphire|LEB|[266]
+1 Regrowth|LEB|[215]
+1 Sol Ring|LEB|[270]
+4 Taiga|LEB|[283]
+1 Time Walk|LEB|[84]
+3 Tropical Island|LEB|[284]
 1 Volcanic Island|LEB

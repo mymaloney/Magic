@@ -1,81 +1,81 @@
 [metadata]
 Name=Medomai
 [Commander]
-1 Medomai the Ageless|THS
+1 Medomai the Ageless|PIO|[233]
 [Main]
 1 Alquist Proft, Master Sleuth|MKM
 1 Angel's Grace|TSR
 1 Approach of the Second Sun|AKH
-1 Azorius Chancery|DIS
-1 Arcane Signet|SCD
-1 Blink of an Eye|DOM
-1 Brazen Borrower|ELD
-1 Cancel|M15
-1 Cast Out|AKH
-1 Thran Dynamo|C14
-1 Commit|AKH
-1 Compulsive Research|RAV
+1 Azorius Chancery|DSC|[261]
+1 Arcane Signet|TRC|[485]
+1 Blink of an Eye|J25|[289]
+1 Brazen Borrower|SOC|[190]
+1 Cancel|FDN|[505]
+1 Cast Out|DRC|[64]
+1 Thran Dynamo|UDS|[139]
+1 Commit|LCC|[147]
+1 Compulsive Research|RVR|[311]
 1 Confounding Riddle|LCI
 1 Consign to Memory|MH3
 1 Consult the Star Charts|EOE
-1 Counterspell|6ED
-1 Curse of the Swine|THS
-1 Disallow|DRC
-1 Disdainful Stroke|WOE
-1 Dovin's Veto|WAR
+1 Counterspell|DMR|[281]
+1 Curse of the Swine|SOC|[192]
+1 Disallow|TRC|[253]
+1 Disdainful Stroke|TSR|[307]
+1 Dovin's Veto|TSR|[375]
 1 Epiphany at the Drownyard|SOI
-1 Evolving Wilds|ORI
-1 Fact or Fiction|ZNC
+1 Evolving Wilds|TRC|[527]
+1 Fact or Fiction|DMR|[283]
 1 Fortunate Few|C17
-1 Fractured Identity|C17
-1 Fumigate|KLD
-1 Glimmer of Genius|KLD
-1 Hallowed Moonlight|ORI
-1 Fireshrieker|FDN
-1 Duelist's Heritage|MKC
+1 Fractured Identity|TRC|[320]
+1 Fumigate|EOC|[65]
+1 Glimmer of Genius|DRC|[78]
+1 Hallowed Moonlight|PIO|[359]
+1 Fireshrieker|J25|[750]
+1 Duelist's Heritage|TRC|[218]
 1 Leyline Axe|FDN
 1 The Eternal Wanderer|ONE
 1 Hornswoggle|RIX
-1 Hullbreaker Horror|VOW
+1 Hullbreaker Horror|INR|[357]
 1 Hydroelectric Specimen|MH3
 1 Idyllic Beachfront|DMU
 1 Impulse|DMR
 1 Into the Flood Maw|BLB
-1 Irrigated Farmland|AKH
-16 Island|THS
+1 Irrigated Farmland|TRC|[388]
+16 Island|INR|[290]
 1 Keep Watch|JUD
-1 Kefnet the Mindful|AKH
+1 Kefnet the Mindful|DSC|[118]
 1 Leave No Trace|RAV
-1 Talisman of Progress|TDC
-1 Mind Stone|BLC
-1 Narset, Parter of Veils|WAR
-1 Negate|OGW
-1 Nimble Obstructionist|HOU
+1 Talisman of Progress|TRC|[508]
+1 Mind Stone|DMR|[385]
+1 Narset, Parter of Veils|BLC|[76]
+1 Negate|TRC|[439]
+1 Nimble Obstructionist|C20|[121]
 1 Nulldrifter|MH3
 1 Ojutai's Command|DTK
-1 Orim's Chant|MH3
+1 Orim's Chant|PLS|[11]
 1 Path to Exile|TSR
-9 Plains|THS
+9 Plains|INR|[288]
 1 Prahv, Spires of Order|DIS
-1 Prairie Stream|BFZ
-1 Raff Capashen, Ship's Mage|DOM
+1 Prairie Stream|TRC|[394]
+1 Raff Capashen, Ship's Mage|CMM|[351]
 1 Razorgrass Ambush|MH3
-1 Restless Anchorage|LCI
-1 Seachrome Coast|ONE
+1 Restless Anchorage|FRC|[81]
+1 Seachrome Coast|BLC|[328]
 1 Settle the Wreckage|XLN
-1 Silundi Vision|ZNR
-1 Sol Ring|VOC
-1 Spell Pierce|XLN
-1 Stroke of Midnight|FDN
-1 Supreme Will|HOU
+1 Silundi Vision|PIO|[74]
+1 Sol Ring|LEB|[270]
+1 Spell Pierce|DFT|[64]
+1 Stroke of Midnight|FRC|[35]
+1 Supreme Will|J25|[370]
 1 Swords to Plowshares|DMR
-1 Teferi, Time Raveler|WAR
-1 Temple of Enlightenment|SCD
+1 Teferi, Time Raveler|BLC|[92]
+1 Temple of Enlightenment|EOC|[186]
 1 Temporary Lockdown|DMU
-1 Terramorphic Expanse|TSR
+1 Terramorphic Expanse|TRC|[571]
 1 Thassa's Intervention|THB
-1 Time Wipe|WAR
+1 Time Wipe|TDC|[308]
 1 Trail of Evidence|SOI
-1 Treasure Cruise|KTK
-1 Whirlwind Denial|STA
+1 Treasure Cruise|TSR|[319]
+1 Whirlwind Denial|J25|[388]
 1 Witch Enchanter|MH3

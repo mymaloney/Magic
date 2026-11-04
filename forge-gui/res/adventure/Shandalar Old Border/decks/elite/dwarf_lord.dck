@@ -1,7 +1,7 @@
 [metadata]
 Name=dwarf_lord
 [Main]
-12 Plains|MIR
+12 Plains|INR|[288]
 4 Daru Encampment|ONS
 4 Forbidding Watchtower|ULG
 2 Unified Strike|ONS
@@ -14,7 +14,7 @@ Name=dwarf_lord
 4 Shared Triumph|ONS
 2 Intrepid Hero|USG
 2 Master Decoy|TMP
-2 Lieutenant Kirtar|ODY
+2 Lieutenant Kirtar|DMR|[265]
 4 Soltari Champion|STH
 4 Soltari Trooper|TMP
 2 Commander Eesha|JUD

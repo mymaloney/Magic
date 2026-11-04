@@ -1,90 +1,90 @@
 [metadata]
 Name=Kykar, Wind's Fury
 [Commander]
-1 Kykar, Wind's Fury|M20
+1 Kykar, Wind's Fury|BLC|[91]
 [Main]
 1 Abraded Bluffs|OTJ
-1 Aerial Extortionist|NCC
+1 Aerial Extortionist|MKC|[54]
 1 Akroma's Will|M3C
 1 Alrund's Epiphany|KHM
 1 Angelic Renewal|WTH
-1 Arcane Signet|BLC
+1 Arcane Signet|TRC|[485]
 1 Azorius Keyrune|GK2
-1 Balmor, Battlemage Captain|DMU
-1 Bird Maiden|5ED
-1 Blasphemous Act|CM2
-1 Boros Charm|GTC
+1 Balmor, Battlemage Captain|FDN|[237]
+1 Bird Maiden|ARN|[37]
+1 Blasphemous Act|SOC|[238]
+1 Boros Charm|FDN|[721]
 1 Battle Screech|JUD
-1 Izzet Signet|TDC
-1 Azorius Signet|TDC
-1 Breath of Life|7ED
-1 Cascade Bluffs|2XM
-1 Cavern of Souls|UMA
+1 Izzet Signet|FRC|[58]
+1 Azorius Signet|FRC|[53]
+1 Breath of Life|PO2|[15]
+1 Cascade Bluffs|SOC|[364]
+1 Cavern of Souls|LCI|[269]
 1 Celestial Gatekeeper|LGN
-1 Cleansing Nova|SLD
-1 Command Tower|BLC
-1 Commander's Sphere|CM2
+1 Cleansing Nova|FDC|[20]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
 1 Crookclaw Elder|LGN
 1 Debt of Loyalty|WTH
-1 Desertion|SPG
-1 Dovescape|SLD
+1 Desertion|VIS|[30]
+1 Dovescape|GK2|[11]
 1 Empyrean Eagle|FDN
-1 Expressive Iteration|STX
+1 Expressive Iteration|SOC|[309]
 1 Brainstorm|MMQ
-1 Glacial Fortress|XLN
+1 Glacial Fortress|TRC|[385]
 1 Soulcatchers' Aerie|JUD
-1 Hallowed Fountain|RTR
-1 Irrigated Farmland|AKH
-6 Island|UST
-1 Jeskai Ascendancy|KTK
-1 Judge's Familiar|GK2
+1 Hallowed Fountain|RVR|[404]
+1 Irrigated Farmland|TRC|[388]
+6 Island|INR|[290]
+1 Jeskai Ascendancy|2X2|[231]
+1 Judge's Familiar|RVR|[192]
 1 Kangee, Aerie Keeper|INV
-1 Keep Watch|WOC
+1 Keep Watch|JUD|[43]
 1 Keeper of the Nine Gales|LGN
 1 Kykar, Zephyr Awakener|FDN
-1 Lapse of Certainty|CON
+1 Lapse of Certainty|CFX|[9]
 1 Late to Dinner|MH2
 1 Lonely Arroyo|OTJ
 1 Lotusguard Disciple|DFT
-1 Mana Confluence|SLD
-1 Mana Drain|OTP
-6 Mountain|UST
+1 Mana Confluence|JOU|[163]
+1 Mana Drain|LEG|[65]
+6 Mountain|INR|[294]
 1 Mox Amber|DOM
 1 Mox Tantalite|MH1
 1 Murmuration|BLC
-1 Murmuring Mystic|RVR
-1 Mystic Gate|2XM
-1 Mystic Monastery|KTK
+1 Murmuring Mystic|PIO|[65]
+1 Mystic Gate|FRC|[76]
+1 Mystic Monastery|TRC|[543]
 1 Nesting Dovehawk|MOC
-1 Nimble Obstructionist|HOU
-1 Path to Exile|F15
+1 Nimble Obstructionist|C20|[121]
+1 Path to Exile|TSR|[299]
 1 Phantom Flock|JUD
-6 Plains|UST
-1 Prismatic Vista|MH1
+6 Plains|INR|[288]
+1 Prismatic Vista|H1R|[40]
 1 Raugrin Triome|IKO
-1 Ravenform|KHM
-1 Remand|RAV
+1 Ravenform|LCC|[167]
+1 Remand|TSR|[316]
 1 Requisition Raid|OTJ
 1 Rhystic Study|PCY
-1 Rootborn Defenses|RVR
-1 Rugged Prairie|2XM
-1 Sacred Foundry|GRN
-1 Seal of Cleansing|MH2
+1 Rootborn Defenses|CLU|[71]
+1 Rugged Prairie|SOC|[401]
+1 Sacred Foundry|RVR|[409]
+1 Seal of Cleansing|NMS|[18]
 1 Seaside Haven|ONS
 1 Settle the Wreckage|XLN
-1 Sol Ring|BLC
-1 Solitude|MH2
-1 Soulcatcher|EMA
-1 Steam Vents|GRN
-1 Stifle|CNS
-1 Swan Song|SLD
+1 Sol Ring|LEB|[270]
+1 Solitude|H2R|[3]
+1 Soulcatcher|ODY|[47]
+1 Steam Vents|RVR|[412]
+1 Stifle|SCG|[52]
+1 Swan Song|EOC|[46]
 1 Swans of Bryn Argoll|MM2
-1 Temple of Enlightenment|BLC
-1 Temple of Epiphany|M3C
+1 Temple of Enlightenment|EOC|[186]
+1 Temple of Epiphany|SOC|[412]
 1 Three Tree City|BLB
-1 Torrential Gearhulk|KLD
+1 Torrential Gearhulk|CMM|[128]
 1 Transcendent Dragon|TDC
 1 Voracious Bibliophile|TDC
-1 Wayfarer's Bauble|CLB
-1 Wing Shards|MH1
+1 Wayfarer's Bauble|TRC|[511]
+1 Wing Shards|SCG|[25]
 1 Zinnia, Valley's Voice|BLC

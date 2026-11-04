@@ -1,87 +1,87 @@
 [metadata]
 Name=Rashmi, Eternities Crafter
 [Commander]
-1 Rashmi, Eternities Crafter|KLD
+1 Rashmi, Eternities Crafter|DSC|[231]
 [Main]
-1 Alchemist's Refuge|AVR
-1 Baral's Expertise|AER
-1 Beast Within|NPH
-1 Blighted Cataract|BFZ
-1 Blighted Woodland|BFZ
-1 Botanical Sanctum|KLD
-1 Buried Ruin|M12
-1 Coiling Oracle|DIS
-1 Command Tower|CMR
+1 Alchemist's Refuge|SOC|[360]
+1 Baral's Expertise|TDC|[146]
+1 Beast Within|TSR|[357]
+1 Blighted Cataract|C21|[279]
+1 Blighted Woodland|TSR|[405]
+1 Botanical Sanctum|OTJ|[267]
+1 Buried Ruin|EOC|[150]
+1 Coiling Oracle|RVR|[361]
+1 Command Tower|TRC|[521]
 1 Conduit of Ruin|BFZ
-1 Confirm Suspicions|SOI
-1 Counterspell|7ED
-1 Curse of the Swine|THS
-1 Cyclonic Rift|MM3
+1 Confirm Suspicions|MKC|[97]
+1 Counterspell|DMR|[281]
+1 Curse of the Swine|SOC|[192]
+1 Cyclonic Rift|RVR|[313]
 1 Daring Sleuth|SOI
-1 Deepfathom Skulker|OGW
-1 Desolation Twin|BFZ
+1 Deepfathom Skulker|M3C|[180]
+1 Desolation Twin|C21|[82]
 1 Dragon Throne of Tarkir|KTK
-1 Echoing Truth|DST
-1 Emrakul, the Promised End|EMN
-1 Erdwal Illuminator|SOI
-1 Eternal Witness|UMA
-1 Evolving Wilds|IMA
-1 Fade into Antiquity|CN2
+1 Echoing Truth|DMC|[109]
+1 Emrakul, the Promised End|INR|[330]
+1 Erdwal Illuminator|MKC|[104]
+1 Eternal Witness|TSR|[361]
+1 Evolving Wilds|TRC|[527]
+1 Fade into Antiquity|NEO|[182]
 1 Fleetfeather Cockatrice|JOU
-9 Forest|KLD
-1 Greenwarden of Murasa|BFZ
-1 Inspiring Statuary|AER
-1 Into the Roil|C18
+9 Forest|INR|[296]
+1 Greenwarden of Murasa|ECC|[110]
+1 Inspiring Statuary|MKC|[230]
+1 Into the Roil|FDN|[509]
 1 Inventors' Fair|KLD
-10 Island|DLD
-1 Kozilek, the Great Distortion|OGW
-1 Lifecrafter's Bestiary|AER
-1 Lightning Greaves|MRD
-1 Lumbering Falls|BFZ
+10 Island|INR|[290]
+1 Kozilek, the Great Distortion|CMM|[2]
+1 Lifecrafter's Bestiary|MKC|[231]
+1 Lightning Greaves|TRC|[496]
+1 Lumbering Falls|PIO|[268]
 1 Magus of the Library|PLC
-1 Mulldrifter|LRW
-1 Mystic Confluence|BBD
-1 Mystic Snake|TSB
-1 Neurok Stealthsuit|5DN
-1 Ongoing Investigation|SOI
-1 Prognostic Sphinx|THS
-1 Prosperous Pirates|XLN
-1 Reality Shift|UGIN
-1 Reliquary Tower|M19
-1 Retreat to Coralhelm|BFZ
+1 Mulldrifter|TSR|[311]
+1 Mystic Confluence|TSR|[312]
+1 Mystic Snake|APC|[112]
+1 Neurok Stealthsuit|TD2|[25]
+1 Ongoing Investigation|MKC|[114]
+1 Prognostic Sphinx|DSC|[124]
+1 Prosperous Pirates|CMR|[85]
+1 Reality Shift|SOC|[199]
+1 Reliquary Tower|TRC|[551]
+1 Retreat to Coralhelm|DSC|[126]
 1 Return to the Earth|BBD
-1 Sakura-Tribe Elder|CHK
+1 Sakura-Tribe Elder|SOC|[285]
 1 Scour from Existence|BFZ
 1 Shardless Agent|MH2
-1 Sigiled Starfish|JOU
-1 Simic Growth Chamber|DIS
-1 Simic Signet|DIS
-1 Sol Ring|SCD
-1 Spell Swindle|XLN
-1 Strip Mine|ME4
-1 Stunt Double|PZ2
-1 Swan Song|C16
-1 Tamiyo's Journal|SOI
-1 Teferi, Mage of Zhalfir|IMA
-1 Temple of Mystery|THS
+1 Sigiled Starfish|J25|[357]
+1 Simic Growth Chamber|DSC|[298]
+1 Simic Signet|DSC|[252]
+1 Sol Ring|LEB|[270]
+1 Spell Swindle|MOC|[237]
+1 Strip Mine|ATQ|[82a]
+1 Stunt Double|CLU|[101]
+1 Swan Song|EOC|[46]
+1 Tamiyo's Journal|INR|[272]
+1 Teferi, Mage of Zhalfir|TSR|[91]
+1 Temple of Mystery|SOC|[414]
 1 Temple of the False God|SCG
-1 Terramorphic Expanse|UMA
-1 Thornwood Falls|KTK
-1 Thought Vessel|PZ1
-1 Tireless Tracker|SOI
+1 Terramorphic Expanse|TRC|[571]
+1 Thornwood Falls|TDM|[269]
+1 Thought Vessel|TRC|[509]
+1 Tireless Tracker|EOC|[110]
 1 Trail of Evidence|SOI
-1 Treasure Cruise|UMA
-1 Treasure Map|XLN
-1 Trophy Mage|AER
-1 Trygon Predator|EMA
-1 Ugin's Insight|BFZ
-1 Ulamog, the Ceaseless Hunger|BFZ
-1 Ulvenwald Mysteries|SOI
-1 Unexpected Results|GTC
-1 Venser, Shaper Savant|MM3
+1 Treasure Cruise|TSR|[319]
+1 Treasure Map|LCI|[267]
+1 Trophy Mage|DDU|[42]
+1 Trygon Predator|TSR|[389]
+1 Ugin's Insight|M3C|[196]
+1 Ulamog, the Ceaseless Hunger|CMM|[5]
+1 Ulvenwald Mysteries|INR|[423]
+1 Unexpected Results|PIO|[397]
+1 Venser, Shaper Savant|J25|[66]
 1 Whir of Invention|AER
-1 Whisperer of the Wilds|FRF
-1 Whispersilk Cloak|DST
-1 Woodland Stream|XLN
-1 Yavimaya Coast|ORI
-1 Zendikar Resurgent|OGW
+1 Whisperer of the Wilds|FDC|[241]
+1 Whispersilk Cloak|DSC|[257]
+1 Woodland Stream|CMR|[503]
+1 Yavimaya Coast|APC|[143]
+1 Zendikar Resurgent|C17|[160]

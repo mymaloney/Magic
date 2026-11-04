@@ -1,12 +1,12 @@
 [metadata]
 Name=banditslingshot_flyers
 [Main]
-24 Mountain|USG|3
+24 Mountain|INR|[294]
 4 Fireslinger|TMP
 4 Ghitu Slinger|ULG
 2 Slingshot Goblin|PLS
 2 Unerring Sling|MIR
-2 Stone Giant|5ED
+2 Stone Giant|LEB|[177]
 2 Bloodshot Cyclops|UDS
 2 Cinder Wall|WTH
 2 Wall of Razors|STH
@@ -15,6 +15,6 @@ Name=banditslingshot_flyers
 2 Ember Shot|JUD
 2 Pinpoint Avalanche|ONS
 2 Volley of Boulders|ODY
-2 Sudden Impact|7ED
+2 Sudden Impact|TMP|[208]
 2 Chaos Charm|MIR
-2 Shatter|ICE
+2 Shatter|TMP|[203]

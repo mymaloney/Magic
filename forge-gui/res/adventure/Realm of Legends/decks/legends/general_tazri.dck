@@ -3,51 +3,51 @@ Name=Tazri
 [Commander]
 1 General Tazri|ogw
 [Main]
-1 Adaptive Automaton|2xm
+1 Adaptive Automaton|FDN|[723]
 1 Agadeem Occultist|wwk
 1 Allied Reinforcements|ogw
 1 Ally Encampment|bfz
-1 Ancient Ziggurat|con
+1 Ancient Ziggurat|ECC|[144]
 1 Angelic Captain|bfz
 1 Arcane Adaptation|xln
 1 Beastcaller Savant|bfz
 1 Birthing Boughs|mh1
-1 Boros Charm|gtc
+1 Boros Charm|FDN|[721]
 1 Brago, King Eternal|khc
-1 Bramble Sovereign|bbd
+1 Bramble Sovereign|CLB|[218]
 1 Call to the Kindred|dka
 1 Captain's Claws|ogw
-1 Cascading Cataracts|akh
+1 Cascading Cataracts|M3C|[326]
 1 Chasm Guide|bfz
-1 Chromatic Lantern|grn
+1 Chromatic Lantern|RVR|[390]
 1 Cliffhaven Vampire|ogw
-1 Coat of Arms|dds
+1 Coat of Arms|EXO|[131]
 1 Collected Company|dtk
-1 Command Tower|cmr
-1 Distant Melody|voc
-1 Dolmen Gate|plst
-1 Door of Destinies|c17
+1 Command Tower|TRC|[521]
+1 Distant Melody|ECC|[45]
+1 Dolmen Gate|LRW|[256]
+1 Door of Destinies|TRC|[342]
 1 Dowsing Dagger|xln
-1 Dragonskull Summit|m11
+1 Dragonskull Summit|TRC|[375]
 1 Drana's Emissary|bfz
-1 Exotic Orchard|afc
+1 Exotic Orchard|TRC|[378]
 1 Firemantle Mage|bfz
-3 Forest|zen
-1 Gideon, Ally of Zendikar|bfz
+3 Forest|INR|[296]
+1 Gideon, Ally of Zendikar|PIO|[14]
 1 Grovetender Druids|bfz
 1 Hada Freeblade|wwk
 1 Hagra Diabolist|zen
 1 Halimar Excavator|wwk
 1 Harabaz Druid|wwk
-1 Herald's Horn|c17
+1 Herald's Horn|TRC|[493]
 1 Hero of Goma Fada|bfz
-1 Hinterland Harbor|isd
+1 Hinterland Harbor|DMR|[396]
 1 Homeward Path|c16
-1 Island|zen
-1 Isolated Chapel|dom
+1 Island|INR|[290]
+1 Isolated Chapel|DMR|[397]
 1 Join the Ranks|wwk
-1 Joraga Bard|zen
-1 Jungle Shrine|znc
+1 Joraga Bard|DDP|[17]
+1 Jungle Shrine|ECC|[154]
 1 Jwari Shapeshifter|wwk
 1 Kabira Evangel|zen
 1 Kazandu Blademaster|zen
@@ -58,37 +58,37 @@ Name=Tazri
 1 Lantern Scout|bfz
 1 Malakir Soothsayer|ogw
 1 March from the Tomb|bfz
-1 Mirage Mirror|hou
-4 Mountain|zen
+1 Mirage Mirror|M3C|[300]
+4 Mountain|INR|[294]
 1 Murasa Pyromancer|zen
-1 Oath of Gideon|ogw
+1 Oath of Gideon|PIO|[323]
 1 Ondu Cleric|zen
 1 Oran-Rief Survivalist|zen
-1 Overgrown Tomb|rtr
-1 Panharmonicon|kld
-1 Path of Ancestry|voc
+1 Overgrown Tomb|RVR|[407]
+1 Panharmonicon|TSR|[399]
+1 Path of Ancestry|TRC|[545]
 1 Pillar of Origins|xln
-4 Plains|zen
+4 Plains|INR|[288]
 1 Pyre of Heroes|khm
 1 Raugrin Triome|iko
 1 Reconnaissance|exo
-1 Reflections of Littjara|khm
-1 Reliquary Tower|tdc
-1 Rite of Replication|c14
+1 Reflections of Littjara|TDC|[164]
+1 Reliquary Tower|TRC|[551]
+1 Rite of Replication|SOC|[202]
 1 Sea Gate Loremaster|zen
 1 Seascape Aerialist|zen
-1 Seaside Citadel|mkc
-1 Sheltered Thicket|akh
-1 Sol Ring|c19
+1 Seaside Citadel|ECC|[166]
+1 Sheltered Thicket|ECC|[167]
+1 Sol Ring|LEB|[270]
 1 Stoneforge Masterwork|ogw
-1 Sulfur Falls|dom
-3 Swamp|zen
-1 Sword of the Animist|ori
-1 Tajuru Archer|zen
+1 Sulfur Falls|DMR|[400]
+3 Swamp|INR|[292]
+1 Sword of the Animist|CMM|[413]
+1 Tajuru Archer|DDP|[23]
 1 Talus Paladin|wwk
-1 Temple Garden|rtr
+1 Temple Garden|RVR|[414]
 1 Tuktuk Scrapper|wwk
 1 Turntimber Ranger|zen
 1 Umara Raptor|zen
-1 Watery Grave|grn
-1 Zulaport Cutthroat|c20
+1 Watery Grave|RVR|[415]
+1 Zulaport Cutthroat|TSR|[337]

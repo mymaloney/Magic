@@ -2,15 +2,15 @@
 Name=goblin_warrior_easy
 [Main]
 2 Goblin Marshal|UDS
-2 Goblin War Drums|7ED
-2 Raging Goblin|S99
-2 Siege-Gang Commander|SCG
-25 Mountain|ICE
+2 Goblin War Drums|FEM|[58a]
+2 Raging Goblin|PO2|[114]
+2 Siege-Gang Commander|DMR|[330]
+25 Mountain|INR|[294]
 4 Goblin Cadets|USG
-4 Goblin Matron|USG
+4 Goblin Matron|DMR|[323]
 4 Goblin Piledriver|ONS
-4 Goblin Tinkerer|ATH
+4 Goblin Tinkerer|MIR|[180]
 4 Goblin Welder|ULG
-4 Mogg Fanatic|ATH
-4 Mogg Flunkies|ATH
+4 Mogg Fanatic|TMP|[190]
+4 Mogg Flunkies|STH|[92]
 4 Mogg Squad|TMP

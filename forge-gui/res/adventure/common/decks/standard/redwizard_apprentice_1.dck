@@ -1,16 +1,16 @@
 [metadata]
 Name=Adventure - Apprentice Red 3
 [Main]
-2 All Is Dust|ROE|1
-4 Belligerent Guest|VOW|2
-2 Bottle Gnomes|JVC|1
-4 Bronze Sable|THS|1
-4 Filigree Familiar|KLR|1
-4 Living Lightning|2X2|1
-4 Lotus Field|M20|1
-20 Mountain|M20|1
+2 All Is Dust|FDC|[9]
+4 Belligerent Guest|J25|[521]
+2 Bottle Gnomes|TMP|[278]
+4 Bronze Sable|CN2|[208]
+4 Filigree Familiar|CMR|[308]
+4 Living Lightning|CLU|[142]
+4 Lotus Field|SOC|[385]
+20 Mountain|INR|[294]
 4 Scoria Elemental|SOM|1
-4 Strike It Rich|MH2|1
+4 Strike It Rich|H2R|[12]
 4 Tectonic Reformation|C20|1
 4 Underworld Breach|THB|2
 [Sideboard]

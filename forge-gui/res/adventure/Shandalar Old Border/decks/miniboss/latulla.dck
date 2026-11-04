@@ -1,17 +1,17 @@
 [metadata]
 Name=Latulla, Keldon Overseer
 [Main]
-20 Mountain|ICE
-4 Smoke|4ED
+20 Mountain|INR|[294]
+4 Smoke|LEB|[176]
 4 Repercussion|UDS
-4 Rolling Earthquake|PTK
-4 Earthquake|LEA
+4 Rolling Earthquake|2XM|[142]
+4 Earthquake|PO2|[94]
 4 Price of Progress|EXO
 4 Starstorm|ONS
-4 Mana Flare|LEA
+4 Mana Flare|LEB|[163]
 4 Ensnaring Bridge|STH
-4 Fork|LEA
-4 Fireball|LEA
+4 Fork|LEB|[153]
+4 Fireball|LEB|[150]
 
 [StartInBattle_Reference]
 1 Latulla, Keldon Overseer|PCY

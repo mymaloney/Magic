@@ -4,67 +4,67 @@ Name=Tinybones
 1 Tinybones, Trinket Thief|jmp
 [Main]
 1 Aclazotz, Deepest Betrayal|lci
-1 Asylum Visitor|c19
-1 Bloodchief Ascension|zen
+1 Asylum Visitor|INR|[371]
+1 Bloodchief Ascension|CMM|[139]
 1 Bone Miser|c19
 1 Bottomless Pit|sth
-1 Burglar Rat|grn
+1 Burglar Rat|FDN|[170]
 1 Court of Ambition|cmr
 1 Crypt Ghast|rvr
 1 Cunning Lethemancer|ala
-1 Dark Deal|frf
-1 Dark Ritual|4ed
+1 Dark Deal|PIO|[89]
+1 Dark Ritual|MMQ|[129]
 1 Davriel, Rogue Shadowmage|war
-1 Defile|mh1
-1 Duress|md1
-1 Elderfang Disciple|khm
-1 Feed the Swarm|znr
-1 Fell Specter|m19
-1 From Under the Floorboards|soi
+1 Defile|H1R|[13]
+1 Duress|DMR|[303]
+1 Elderfang Disciple|J25|[432]
+1 Feed the Swarm|TDC|[180]
+1 Fell Specter|JMP|[233]
+1 From Under the Floorboards|C19|[113]
 1 Funeral Charm|vis
-1 Geier Reach Sanitarium|lcc
+1 Geier Reach Sanitarium|FDC|[303]
 1 Geth's Grimoire|dst
 1 Go Blank|stx
-1 Gray Merchant of Asphodel|thb
-1 Hypnotic Specter|9ed
-1 Inquisition of Kozilek|sta
-1 Jet Medallion|cmm
-1 Junji, the Midnight Sky|neo
+1 Gray Merchant of Asphodel|TSR|[323]
+1 Hypnotic Specter|LEB|[113]
+1 Inquisition of Kozilek|2X2|[80]
+1 Jet Medallion|TMP|[292]
+1 Junji, the Midnight Sky|TDC|[183]
 1 Tinybones, Pocket Nuisance|fra
 1 Dance of the Dead|ice
-1 Lightning Greaves|c15
-1 Liliana of the Veil|dmu
+1 Lightning Greaves|TRC|[496]
+1 Liliana of the Veil|INR|[475]
 1 Liliana's Caress|m11
-1 Liliana's Specter|cns
-1 Megrim|8ed
+1 Liliana's Specter|PCA|[34]
+1 Megrim|STH|[62]
 1 Monument to Endurance|dft
 1 Necrogen Mists|mrd
 1 Necrogoyf|mh2
-1 Oppression|wot
-1 Painful Quandary|bro
-1 Pelakka Predation|znr
-1 Pilfer|dmu
-1 Plaguecrafter|grn
+1 Oppression|USG|[143]
+1 Painful Quandary|FDN|[179]
+1 Pelakka Predation|PIO|[102]
+1 Pilfer|FDN|[181]
+1 Plaguecrafter|BLC|[187]
 1 Quest for the Nihil Stone|wwk
 1 Raiders' Wake|xln
-1 Rankle, Master of Pranks|eld
-1 Reanimate|jmp
-1 Rise of the Dark Realms|m14
-1 Rogue's Passage|c17
-1 Sangromancer|c17
-1 Animate Dead|4ed
-1 Sol Ring|c18
+1 Rankle, Master of Pranks|OTC|[148]
+1 Reanimate|TMP|[151]
+1 Rise of the Dark Realms|FDN|[183]
+1 Rogue's Passage|TRC|[552]
+1 Sangromancer|J25|[122]
+1 Animate Dead|LEB|[93]
+1 Sol Ring|LEB|[270]
 1 Stronghold Rats|tsr
-35 Swamp|otj
-1 Swiftfoot Boots|brr
-1 Syr Konrad, the Grim|eld
+35 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Syr Konrad, the Grim|DSC|[158]
 1 The Cruelty of Gix|dmu
-1 The Raven Man|pdmu
+1 The Raven Man|DMU|[103]
 1 Tinybones, Bauble Burglar|fdn
 1 Tinybones, the Pickpocket|otj
 1 Tinybones Joins Up|otj
 1 Torment of Hailfire|hou
-1 Unearth|a25
+1 Unearth|ULG|[72]
 1 Vicious Rumors|grn
-1 Virus Beetle|neo
+1 Virus Beetle|EOE|[124]
 1 Waste Not|c16

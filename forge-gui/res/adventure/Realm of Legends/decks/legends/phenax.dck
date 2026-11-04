@@ -1,74 +1,74 @@
 [metadata]
 Name=Phenax, God of Deception
 [Commander]
-1 Phenax, God of Deception|BNG
+1 Phenax, God of Deception|PIO|[316]
 [Main]
-1 Animate Dead|3ED
+1 Animate Dead|LEB|[93]
 1 Aphetto Alchemist|ONS
 1 Arcane Denial|ALL
-1 Arcane Signet|WOC
-1 Arcanis the Omnipotent|ONS
+1 Arcane Signet|TRC|[485]
+1 Arcanis the Omnipotent|DMR|[280]
 1 Aura of Dominion|CHK
-1 Body Double|DDM
-1 Bojuka Bog|C18
-1 Bruvac the Grandiloquent|JMP
+1 Body Double|CMM|[75]
+1 Bojuka Bog|TSR|[406]
+1 Bruvac the Grandiloquent|RVR|[309]
 1 Caelorna, Coral Tyrant|DFT
 1 Charix, the Raging Isle|ZNR
-1 Coalition Relic|DMC
-1 Consuming Aberration|ZNC
-1 Counterspell|MMQ
-1 Crashing Drawbridge|ELD
+1 Coalition Relic|M3C|[286]
+1 Consuming Aberration|TSR|[374]
+1 Counterspell|DMR|[281]
+1 Crashing Drawbridge|TDC|[316]
 1 Cruel Somnophage|WOE
 1 Crumbling Sanctuary|MMQ
 1 Cut Your Losses|SNC
-1 Dimir Aqueduct|2X2
+1 Dimir Aqueduct|DSC|[270]
 1 Eater of the Dead|DRK
-1 Dramatic Reversal|KLD
-1 Drift of Phantasms|RAV
-1 Extract from Darkness|ZNC
-1 Fractured Sanity|MH2
+1 Dramatic Reversal|PIO|[364]
+1 Drift of Phantasms|RVR|[314]
+1 Extract from Darkness|2X2|[210]
+1 Fractured Sanity|CLB|[722]
 1 Freed from the Real|A25
-1 Illusionist's Bracers|GTC
+1 Illusionist's Bracers|RVR|[392]
 1 Imperious Mindbreaker|VOC
-20 Island|THB
-1 Sunken Hollow|C20
-1 Temple of Deceit|THS
-1 Watery Grave|GTC
+20 Island|INR|[290]
+1 Sunken Hollow|TRC|[407]
+1 Temple of Deceit|DRC|[176]
+1 Watery Grave|RVR|[415]
 1 Isleback Spawn|SHM
 1 Jace, Ingenious Mind-Mage|XLN
-1 Jwar Isle Refuge|ZEN
+1 Jwar Isle Refuge|SCD|[306]
 1 Keening Stone|C16
 1 King Macar, the Gold-Cursed|JOU
 1 Lazav, Dimir Mastermind|ZNC
 1 Maddening Cacophony|ZNR
-1 Magewright's Stone|DIS
-1 Memory Plunder|C17
-1 Mesmeric Orb|BRR
+1 Magewright's Stone|RVR|[462]
+1 Memory Plunder|CLB|[849]
+1 Mesmeric Orb|2XM|[272]
 1 Mind Grind|GTC
-1 Mizzium Skin|RTR
-1 Negate|M10
-1 Nighthowler|ZNC
+1 Mizzium Skin|PIO|[64]
+1 Negate|TRC|[439]
+1 Nighthowler|PIO|[98]
 1 Pemmin's Aura|SCG
 1 Ruin Crab|ZNR
 1 The Ancient One|LCI
-1 Sewer Nemesis|CMD
+1 Sewer Nemesis|CLB|[771]
 1 Shadow Kin|MIC
 1 Shield Sphere|ALL
 1 Silent Arbiter|C20
-1 Slagwurm Armor|MRD
-1 Sol Ring|C18
-12 Swamp|THB
-1 Talisman of Dominance|MRD
-1 The Haunt of Hightower|RNA
-1 Thousand-Year Elixir|CMA
+1 Slagwurm Armor|TD2|[21]
+1 Sol Ring|LEB|[270]
+12 Swamp|INR|[292]
+1 Talisman of Dominance|TRC|[505]
+1 The Haunt of Hightower|PLST|[RNA-273]
+1 Thousand-Year Elixir|C21|[271]
 1 Tidal Force|C13
 1 Tideforce Elemental|WWK
-1 Tree of Perdition|EMN
-1 Triton Tactics|THS
-1 Turnabout|USG
-1 Undead Alchemist|ISD
-1 Vesuvan Doppelganger|3ED
+1 Tree of Perdition|ECC|[49]
+1 Triton Tactics|DDT|[23]
+1 Turnabout|RVR|[452]
+1 Undead Alchemist|MIC|[105]
+1 Vesuvan Doppelganger|LEB|[88]
 1 Visions of Beyond|UMA
-1 Vizier of Tumbling Sands|AKH
-1 Wight of Precinct Six|JMP
-1 Worn Powerstone|C18
+1 Vizier of Tumbling Sands|CMM|[131]
+1 Wight of Precinct Six|FDC|[133]
+1 Worn Powerstone|USG|[318]

@@ -1,76 +1,76 @@
 [metadata]
 Name=Veyran
 [Commander]
-1 Veyran, Voice of Duality|c21
+1 Veyran, Voice of Duality|SOC|[337]
 [Main]
-1 Abrade|cmm
+1 Abrade|TRC|[449]
 1 Adeliz, the Cinder Wind|dom
-1 Aetherize|blc
-1 Arcane Signet|ecc
-1 Archmage Emeritus|tdc
+1 Aetherize|RVR|[448]
+1 Arcane Signet|TRC|[485]
+1 Archmage Emeritus|SOC|[188]
 1 Archmage of Runes|fdn
-1 Balmor, Battlemage Captain|dmu
+1 Balmor, Battlemage Captain|FDN|[237]
 1 Beacon Bolt|grn
 1 Beamsplitter Mage|grn
 1 Blitz of the Thunder-Raptor|iko
-1 Brute Force|mm2
-1 Frostboil Snarl|stx
-1 Command Tower|c21
+1 Brute Force|TSR|[157]
+1 Frostboil Snarl|TRC|[383]
+1 Command Tower|TRC|[521]
 1 Coruscation Mage|blb
-1 Counterspell|scd
+1 Counterspell|DMR|[281]
 1 Curious Homunculus|emn
 1 Disperse|m19
-1 Dualcaster Mage|cm2
+1 Dualcaster Mage|C21|[165]
 1 Electroduplicate|fdn
 1 Electrostatic Infantry|dmu
-1 Evolving Wilds|fdn
+1 Evolving Wilds|TRC|[527]
 1 Experimental Overload|m21
-1 Exquisite Firecraft|ori
-1 Fall of the Hammer|bng
-1 Shivan Reef|m3c
-1 Firebrand Archer|j25
+1 Exquisite Firecraft|TSR|[343]
+1 Fall of the Hammer|PIO|[134]
+1 Shivan Reef|APC|[142]
+1 Firebrand Archer|FDN|[196]
 1 Firemind's Research|grn
 1 Frolicking Familiar|woe
 1 Ghostly Flicker|cmm
 1 Goliath Daydreamer|ecl
 1 Impulsivity|ecc
-15 Island|stx
-1 Izzet Boilerworks|cmd
-1 Izzet Charm|gk1
-1 Izzet Chemister|c17
-1 Talisman of Creativity|tdc
+15 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
+1 Izzet Charm|RVR|[368]
+1 Izzet Chemister|CLB|[798]
+1 Talisman of Creativity|TRC|[504]
 1 Kaza, Roil Chaser|otc
-1 Lightning Bolt|m10
-1 Living Lore|uma
-15 Mountain|stx
+1 Lightning Bolt|LEB|[162]
+1 Living Lore|C21|[121]
+15 Mountain|INR|[294]
 1 Narset's Reversal|tdc
-1 Negate|aer
+1 Negate|TRC|[439]
 1 Niv-Mizzet, Parun|rvr
-1 Niv-Mizzet, the Firemind|a25
+1 Niv-Mizzet, the Firemind|RVR|[467]
 1 Obliterating Bolt|fdn
-1 Path of Ancestry|ecc
+1 Path of Ancestry|TRC|[545]
 1 Pyroceratops|iko
 1 Ral, Storm Conduit|war
-1 Ravaging Blaze|ori
-1 Rootha, Mercurial Artist|stx
+1 Ravaging Blaze|CMM|[250]
+1 Rootha, Mercurial Artist|SOC|[329]
 1 Rowan, Scholar of Sparks|stx
-1 Run Amok|dom
-1 Smoldering Egg|mid
-1 Sol Ring|ecc
-1 Banefire|m19
+1 Run Amok|TRC|[582]
+1 Smoldering Egg|DBL|[159]
+1 Sol Ring|LEB|[270]
+1 Banefire|J22|[495]
 1 Spell Satchel|stx
-1 Sprite Dragon|iko
-1 Storm-Kiln Artist|cmm
-1 Stormcatch Mentor|blb
+1 Sprite Dragon|CLB|[852]
+1 Storm-Kiln Artist|SOC|[255]
+1 Stormcatch Mentor|SOC|[331]
 1 Summary Dismissal|inr
-1 Swarm Intelligence|hou
-1 Swiftfoot Boots|c15
+1 Swarm Intelligence|C21|[130]
+1 Swiftfoot Boots|TRC|[501]
 1 Taigam, Master Opportunist|tdm
 1 Tandem Lookout|mm3
 1 Teach by Example|fdn
-1 Thousand-Year Storm|2x2
-1 Twinflame|2x2
+1 Thousand-Year Storm|FDN|[248]
+1 Twinflame|SOC|[258]
 1 Umara Mystic|znr
-1 Volcanic Vision|dtk
+1 Volcanic Vision|C21|[182]
 1 Wingblade Disciple|tdm
 1 Zaffai, Thunder Conductor|c21

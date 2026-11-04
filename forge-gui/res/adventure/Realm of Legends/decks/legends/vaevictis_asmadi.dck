@@ -8,8 +8,8 @@ Name=Vaevictis Asmadi
 1 Amulet of Unmaking|MIR
 1 Army Ants|VIS
 1 Avalanche Riders|ULG
-1 Bayou|3ED
-1 Black Vise|3ED
+1 Bayou|LEB|[279]
+1 Black Vise|LEB|[234]
 1 Juzám Djinn|ARN
 1 Bösium Strip|WTH
 1 Moss Diamond|MIR
@@ -17,12 +17,12 @@ Name=Vaevictis Asmadi
 1 Ancient Tomb|TMP
 1 Concordant Crossroads|LEG
 1 Conquer|ICE
-1 Cyclopean Tomb|2ED
-1 Dark Banishing|ICE
+1 Cyclopean Tomb|LEB|[241]
+1 Dark Banishing|TMP|[117]
 1 Rain of Salt|USG
-1 Rain of Tears|POR
-1 Desert Twister|ARN
-1 Dingus Egg|2ED
+1 Rain of Tears|MMQ|[155]
+1 Desert Twister|MMQ|[243]
+1 Dingus Egg|LEB|[242]
 1 Dingus Staff|WTH
 1 Dwarven Miner|MIR
 1 Earthlink|ICE
@@ -30,10 +30,10 @@ Name=Vaevictis Asmadi
 1 Fire Sprites|LEG
 1 Fissure|DRK
 1 Floral Spuzzem|LEG
-12 Forest|LEB
+12 Forest|INR|[296]
 1 Fire Diamond|MIR
 1 Horn of Greed|STH
-1 Ice Storm|2ED
+1 Ice Storm|LEB|[202]
 1 Icequake|ICE
 1 Khabál Ghoul|ARN
 1 Killer Bees|LEG
@@ -41,9 +41,9 @@ Name=Vaevictis Asmadi
 1 Llanowar Elves|LEB
 1 Mana Web|WTH
 1 Mobilize|POR
-8 Mountain|LEB
+8 Mountain|INR|[294]
 1 Mox Diamond|STH
-1 Nature's Lore|ICE
+1 Nature's Lore|DMR|[346]
 1 Phyrexian Arena|APC
 1 Nether Void|LEG
 1 Orcish Lumberjack|ICE
@@ -52,25 +52,25 @@ Name=Vaevictis Asmadi
 1 Oubliette|ARN
 1 Pillage|ALL
 1 Plow Under|UDS
-1 Animate Dead|LEA
+1 Animate Dead|LEB|[93]
 1 Charcoal Diamond|MIR
-1 Regrowth|LEA
+1 Regrowth|LEB|[215]
 1 Shallow Grave|MIR
-1 Sinkhole|2ED
-1 Stone Rain|LEB
+1 Sinkhole|LEB|[130]
+1 Stone Rain|MMQ|[215]
 1 Storm Seeker|LEG
 1 Strip Mine|ATQ
 1 Sulfurous Springs|ICE
 1 Sunastian Falconer|LEG
-11 Swamp|LEB
-1 Sylvan Library|LEG
-1 Taiga|2ED
+11 Swamp|INR|[292]
+1 Sylvan Library|DMR|[350]
+1 Taiga|LEB|[283]
 1 Tainted Aether|USG
 1 Thermokarst|ICE
 1 Wasteland|TMP
-1 Wild Growth|LEB
-1 Will-o'-the-Wisp|2ED
+1 Wild Growth|DMR|[352]
+1 Will-o'-the-Wisp|LEB|[136]
 1 Worms of the Earth|DRK
-1 Xira Arien|LEG
-1 Dark Ritual|LEB
+1 Xira Arien|DMR|[373]
+1 Dark Ritual|MMQ|[129]
 1 Zuran Orb|ICE

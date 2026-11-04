@@ -1,34 +1,34 @@
 [metadata]
 Name=Xira Arien
 [Main]
-4 Taiga|LEA
-4 Badlands|LEA
-4 Bayou|LEA
-2 Mountain|PGRU
-2 Swamp|PGRU
-4 Forest|PGRU
+4 Taiga|LEB|[283]
+4 Badlands|LEB|[278]
+4 Bayou|LEB|[279]
+2 Mountain|INR|[294]
+2 Swamp|INR|[292]
+4 Forest|INR|[296]
 2 Broodhatch Nantuko|ONS
 2 Saber Ants|MMQ
 2 Caustic Wasps|MMQ
 2 Fog of Gnats|ULG
 2 Stag Beetle|ONS
-4 Deadly Insect|ALL
+4 Deadly Insect|MMQ|[238]
 2 Carrion Ants|LEG
 2 Phantom Nantuko|JUD
 2 Nantuko Mentor|ODY
-2 Nantuko Shade|TOR
+2 Nantuko Shade|DMR|[306]
 2 Thriss, Nantuko Primus|JUD
 4 Terminate|PLS
 4 Naturalize|ONS
-2 Overrun|TMP
+2 Overrun|ODY|[260]
 2 Patriarch's Bidding|ONS
 2 Grave Pact|STH
 2 Gratuitous Violence|ONS
 
 [StartInBattle_Reference]
 1 Fecundity|USG
-1 Taiga|LEA
-1 Bayou|LEA
+1 Taiga|LEB|[283]
+1 Bayou|LEB|[279]
 1 Hornet Cannon|STH
-1 The Hive|LEA
-1 Xira Arien|LEG
+1 The Hive|LEB|[273]
+1 Xira Arien|DMR|[373]

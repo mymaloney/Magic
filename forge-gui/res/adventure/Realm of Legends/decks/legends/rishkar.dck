@@ -1,80 +1,80 @@
 [metadata]
 Name=Rishkar
 [Commander]
-1 Rishkar, Peema Renegade|cmm
+1 Rishkar, Peema Renegade|FDC|[225]
 [Main]
 1 Acidic Slime|m3c
-1 Arcane Signet|drc
-1 Armorcraft Judge|cmm
-1 Beast Whisperer|grn
-1 Blighted Woodland|c17
-1 Blossoming Defense|scd
+1 Arcane Signet|TRC|[485]
+1 Armorcraft Judge|J25|[629]
+1 Beast Whisperer|TSR|[356]
+1 Blighted Woodland|TSR|[405]
+1 Blossoming Defense|ECL|[167]
 1 Clear Shot|inr
-1 Crowned Ceratok|gtc
-1 Cultivate|dsc
+1 Crowned Ceratok|IMA|[158]
+1 Cultivate|SOC|[265]
 1 Durable Handicraft|kld
 1 Elemental Bond|tdc
-1 Elvish Mystic|c14
+1 Elvish Mystic|TSR|[360]
 1 Evolution Sage|ecc
 1 Evolutionary Escalation|c16
-1 Experiment One|2x2
-1 Fertilid|cmr
-25 Forest|kld
-1 Fyndhorn Elves|cmr
-1 Garruk's Uprising|blc
-1 Gingerbread Cabin|eld
-1 Gyre Sage|gtc
-1 Hardened Scales|ktk
+1 Experiment One|RVR|[346]
+1 Fertilid|MOC|[296]
+25 Forest|INR|[296]
+1 Fyndhorn Elves|ICE|[244]
+1 Garruk's Uprising|ECC|[109]
+1 Gingerbread Cabin|C21|[290]
+1 Gyre Sage|MOC|[300]
+1 Hardened Scales|SOC|[272]
 1 Hashep Oasis|m3c
 1 Herd Baloth|mh2
 1 Hooded Hydra|mkc
 1 Hornbash Mentor|iko
-1 Hunter's Insight|cmr
-1 Hydra's Growth|thb
+1 Hunter's Insight|CMM|[296]
+1 Hydra's Growth|J22|[89]
 1 Inscription of Abundance|dsc
-1 Inspiring Call|ktk
-1 Invigorating Surge|m21
-1 Khalni Garden|wwk
-1 Kodama's Reach|tdc
+1 Inspiring Call|FDN|[226]
+1 Invigorating Surge|J25|[673]
+1 Khalni Garden|C18|[262]
+1 Kodama's Reach|ECC|[113]
 1 Lifecrafter's Bestiary|mkc
-1 Llanowar Elves|m10
+1 Llanowar Elves|LEB|[211]
 1 Llanowar Reborn|lcc
-1 Loyal Guardian|scd
+1 Loyal Guardian|CMM|[304]
 1 Memorial to Unity|dom
-1 Mind Stone|blc
-1 Mosswort Bridge|mkc
-1 Myriad Landscape|mkc
-1 Nature's Lore|eoc
-1 Oran-Rief, the Vastwood|blc
-1 Paradise Druid|j25
+1 Mind Stone|DMR|[385]
+1 Mosswort Bridge|TDC|[379]
+1 Myriad Landscape|EOC|[169]
+1 Nature's Lore|DMR|[346]
+1 Oran-Rief, the Vastwood|SOC|[391]
+1 Paradise Druid|FDC|[219]
 1 Pelt Collector|grn
-1 Prey Upon|m13
-1 Pridemalkin|m21
-1 Ram Through|iko
-1 Rampant Growth|dsc
-1 Rancor|m13
-1 Ranger's Guile|m15
+1 Prey Upon|J22|[710]
+1 Pridemalkin|J25|[700]
+1 Ram Through|FDC|[221]
+1 Rampant Growth|TMP|[245]
+1 Rancor|ULG|[110]
+1 Ranger's Guile|M21|[199]
 1 Reclaim the Wastes|znr
-1 Renata, Called to the Hunt|mul
-1 Rishkar's Expertise|aer
-1 Return to Nature|mid
-1 Rogue's Passage|pip
-1 Sakura-Tribe Elder|blc
+1 Renata, Called to the Hunt|THB|[196]
+1 Rishkar's Expertise|FDC|[226]
+1 Return to Nature|MOC|[309]
+1 Rogue's Passage|TRC|[552]
+1 Sakura-Tribe Elder|SOC|[285]
 1 Savage Swipe|mh1
-1 Scrounging Bandar|aer
+1 Scrounging Bandar|J22|[726]
 1 Scurry Oak|mh2
-1 Snakeskin Veil|otj
-1 Sol Ring|drc
+1 Snakeskin Veil|TDM|[159]
+1 Sol Ring|LEB|[270]
 1 Song of Freyalise|dom
-1 Soul's Majesty|c17
-1 Stonecoil Serpent|eld
-1 Study Hall|c21
+1 Soul's Majesty|NEC|[131]
+1 Stonecoil Serpent|SOC|[356]
+1 Study Hall|SOC|[407]
 1 Tangled Florahedron|znr
-1 Tranquil Thicket|blc
-1 Tuskguard Captain|ktk
-1 Tyvar's Stand|one
-1 Vastwood Surge|znr
-1 War Room|cmr
-1 Wildwood Scourge|m21
-1 Yavimaya Elder|dsc
+1 Tranquil Thicket|ONS|[326]
+1 Tuskguard Captain|CMM|[328]
+1 Tyvar's Stand|SOC|[291]
+1 Vastwood Surge|NEC|[133]
+1 War Room|SOC|[422]
+1 Wildwood Scourge|FDN|[236]
+1 Yavimaya Elder|UDS|[124]
 1 Young Wolf|inr

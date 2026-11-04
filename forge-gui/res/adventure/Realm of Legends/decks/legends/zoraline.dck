@@ -5,41 +5,41 @@ Name=Zoraline, Cosmos Caller
 [Main]
 1 Hazel's Nocturne|BLB
 1 Amalia Benavides Aguirre|LCI
-1 Anguished Unmaking|2X2
-1 Arcane Signet|BLC
-1 Banishing Light|BLB
-1 Basilica Screecher|CLU
+1 Anguished Unmaking|TRC|[310]
+1 Arcane Signet|TRC|[485]
+1 Banishing Light|TSR|[291]
+1 Basilica Screecher|PIO|[83]
 1 Darkstar Banisher|YBLB
 1 Black Market Connections|LCC
 1 Blot Out the Sky|STX
-1 Bojuka Bog|DSC
+1 Bojuka Bog|TSR|[406]
 1 Brightclimb Pathway|ZNR
 1 Sanguine Soothsayer|YBLB
 1 Case of the Uneaten Feast|MKM
 1 Cathar Commando|INR
-1 Caves of Koilos|DMU
-1 Command Tower|BLC
-1 Courier Bat|VOW
+1 Caves of Koilos|APC|[140]
+1 Command Tower|TRC|[521]
+1 Courier Bat|DBL|[369]
 1 Damn|MH2
 1 Dark Confidant|RVR
 1 Darkstar Augur|BLB
-1 Darksteel Mutation|CMM
+1 Darksteel Mutation|SOC|[142]
 1 Dawn's Truce|BLB|2
 1 Deep-Cavern Bat|LCI
-1 Desolate Mire|OTC
-1 Dusk|C19
+1 Desolate Mire|SOC|[367]
+1 Dusk|DRC|[65]
 1 Elenda's Hierophant|LCC
 1 Enduring Innocence|DSK
 1 Essence Channeler|BLB
-1 Exotic Orchard|DRC
+1 Exotic Orchard|TRC|[378]
 1 Eyetwitch|STX
-1 Fabled Passage|BLB
-1 Fracture|STX
-1 Generous Gift|CMM
+1 Fabled Passage|TRC|[379]
+1 Fracture|SOC|[310]
+1 Generous Gift|BLC|[106]
 1 Godless Shrine|RVR
-1 Gurmag Swiftwing|KTK
-1 Inkshield|DSC
-1 Isolated Chapel|LCC
+1 Gurmag Swiftwing|CLU|[113]
+1 Inkshield|SOC|[316]
+1 Isolated Chapel|DMR|[397]
 1 Kaya's Wrath|DMC
 1 Lifecreed Duo|BLB
 1 Lunar Convocation|BLB
@@ -52,35 +52,35 @@ Name=Zoraline, Cosmos Caller
 1 Mudflat Village|BLB
 1 Nesting Grounds|MH3
 1 Pact of the Serpent|LCC
-1 Path of Ancestry|CMM
-1 Phyrexian Arena|MKC
-10 Plains|BLB
+1 Path of Ancestry|TRC|[545]
+1 Phyrexian Arena|APC|[47]
+10 Plains|INR|[288]
 1 Raise the Past|FDN
 1 Ripples of Undeath|MH3
 1 Ruin-Lurker Bat|LCI
 1 Sanguine Evangelist|LCI
 1 Saw in Half|BLC
-1 Scoured Barrens|FDN
-1 Sheltered by Ghosts|DSK
-1 Sol Ring|BLC
+1 Scoured Barrens|TDM|[267]
+1 Sheltered by Ghosts|SOC|[171]
+1 Sol Ring|LEB|[270]
 1 Sonar Strike|BLB
 1 Sorin of House Markov|MH3
-1 Soul Warden|MM3
+1 Soul Warden|EXO|[21]
 1 Soul's Attendant|ROE
 1 Star Charter|BLB
 1 Stargaze|BLB
 1 Starlit Soothsayer|BLB
 1 Starscape Cleric|BLB
 1 Starseer Mentor|BLB
-10 Swamp|BLB
-1 Swords to Plowshares|BLC
+10 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
 1 The Meathook Massacre|INR
-1 Tocasia's Welcome|BRO
-1 Unclaimed Territory|LCC
+1 Tocasia's Welcome|SOC|[181]
+1 Unclaimed Territory|ECC|[175]
 1 Valley Rotcaller|BLB
-1 Vault of Champions|CMR
-1 Vault of the Archangel|OTC
+1 Vault of Champions|TRC|[416]
+1 Vault of the Archangel|TDC|[410]
 1 Vito, Thorn of the Dusk Rose|J25
 1 Wax-Wane Witness|BLB
 1 Welcoming Vampire|TDC
-1 Westvale Abbey|SOI
+1 Westvale Abbey|INR|[474]

@@ -2,33 +2,33 @@
 Name=crawler
 [Main]
 2 Bramble Familiar|WOE|1
-2 Forest|C17|1
-1 Forest|C17|2
-2 Forest|C17|3
-2 Glowspore Shaman|GRN|1
-1 Golgari Grave-Troll|DDJ|1
-3 Grisly Salvage|C20|1
+2 Forest|INR|[296]
+1 Forest|INR|[296]
+2 Forest|INR|[296]
+2 Glowspore Shaman|RVR|[184]
+1 Golgari Grave-Troll|RVR|[348]
+3 Grisly Salvage|TDC|[290]
 1 Hogaak, Arisen Necropolis|MH1|1
-1 Izoni, Thousand-Eyed|GK1|1
-2 Jarad, Golgari Lich Lord|C15|1
-2 Living Death|PLST|1
-4 Llanowar Wastes|C19|1
-2 Nyx Weaver|C20|1
-2 Old Stickfingers|MID|1
-4 Overgrown Tomb|SLD|1
+1 Izoni, Thousand-Eyed|M3C|[267]
+2 Jarad, Golgari Lich Lord|TDC|[293]
+2 Living Death|TMP|[142]
+4 Llanowar Wastes|APC|[141]
+2 Nyx Weaver|TDC|[298]
+2 Old Stickfingers|DSC|[227]
+4 Overgrown Tomb|RVR|[407]
 1 Palantír of Orthanc|LTR|1
-2 Putrefy|GK1|1
-2 Ravenous Chupacabra|CLB|1
-1 Sewer Nemesis|PLST|1
-2 Shambling Shell|GK1|1
-2 Skull Prophet|J21|1
+2 Putrefy|RVR|[378]
+2 Ravenous Chupacabra|MKC|[136]
+1 Sewer Nemesis|CLB|[771]
+2 Shambling Shell|RVR|[460]
+2 Skull Prophet|TDC|[304]
 2 Squirming Emergence|LCI|1
-1 Stinkweed Imp|DVD|1
-1 Swamp|C17|1
-1 Swamp|C17|2
-1 Swamp|C17|3
+1 Stinkweed Imp|TSR|[332]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
 1 Terror Tide|LCI|1
 4 Underground Mortuary|MKM|1
-4 Utopia Sprawl|WOC|1
+4 Utopia Sprawl|RVR|[355]
 2 Varolz, the Scar-Striped|DGM|1
-2 Woodland Cemetery|LTC|1
+2 Woodland Cemetery|DMR|[401]

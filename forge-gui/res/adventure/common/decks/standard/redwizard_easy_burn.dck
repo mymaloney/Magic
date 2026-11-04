@@ -6,28 +6,28 @@ Description=Mono-red elemental and burn themed deck
 Icon=Jaya Ballard 1.jpg
 Deck Type=constructed
 [Main]
-2 Ball Lightning
-2 Browbeat
-3 Castle Embereth
-1 Chandra's Incinerator
-2 Cinder Elemental
-2 Cinder Pyromancer
-1 Comet Storm
-2 Disintegrate
-2 Elixir of Immortality
-2 Fire Servant
-2 Hammer of Bogardan
-1 Harmonic Prodigy
-2 Incandescent Soulstoke
-3 Incinerate
-1 Increasing Vengeance
-2 Kiln Fiend
-2 Mimic Vat
-16 Mountain
-3 Pyretic Ritual
-2 Soul-Scar Mage
-1 Spinerock Knoll
-2 Valakut, the Molten Pinnacle
-2 Wildfire Elemental
-2 Young Pyromancer
+2 Ball Lightning|DRK|[57]
+2 Browbeat|JUD|[82]
+3 Castle Embereth|TDC|[347]
+1 Chandra's Incinerator|M21|[136]
+2 Cinder Elemental|MMQ|[183]
+2 Cinder Pyromancer|DPA|[41]
+1 Comet Storm|CMR|[411]
+2 Disintegrate|LEB|[141]
+2 Elixir of Immortality|C21|[243]
+2 Fire Servant|M11|[137]
+2 Hammer of Bogardan|MIR|[181]
+1 Harmonic Prodigy|SOC|[123]
+2 Incandescent Soulstoke|ECC|[94]
+3 Incinerate|MIR|[184]
+1 Increasing Vengeance|C19|[147]
+2 Kiln Fiend|J25|[139]
+2 Mimic Vat|LCC|[115]
+16 Mountain|INR|[294]
+3 Pyretic Ritual|M11|[153]
+2 Soul-Scar Mage|AKH|[148]
+1 Spinerock Knoll|FDC|[314]
+2 Valakut, the Molten Pinnacle|ZEN|[228]
+2 Wildfire Elemental|J25|[616]
+2 Young Pyromancer|TSR|[353]
 [Sideboard]

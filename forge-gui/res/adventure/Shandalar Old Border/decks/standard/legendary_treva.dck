@@ -3,13 +3,13 @@ Name=Tropical Islander of Treva
 [Main]
 2 Treva's Ruins|PLS
 2 Aysen Abbey|HML
-4 Tropical Island|LEA
+4 Tropical Island|LEB|[284]
 4 Yavimaya Coast|APC
-4 Island|INV
-4 Forest|INV
-4 Plains|INV
+4 Island|INR|[290]
+4 Forest|INR|[296]
+4 Plains|INR|[288]
 2 Urza's Filter|INV
-2 Arcades Sabboth|LEG
+2 Arcades Sabboth|DMR|[355]
 2 Ragnar|LEG
 2 Rubinia Soulsinger|LEG
 2 Angus Mackenzie|LEG

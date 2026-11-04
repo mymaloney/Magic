@@ -3,8 +3,8 @@ Name=Anafenza, the Foremost
 [Commander]
 1 Anafenza, the Foremost|KTK
 [Main]
-1 Abzan Ascendancy|KTK
-1 Abzan Battle Priest|KTK
+1 Abzan Ascendancy|2X2|[165]
+1 Abzan Battle Priest|MOC|[164]
 1 Abzan Devotee|TDM
 1 Abzan Monument|TDM
 1 Anafenza, Unyielding Lineage|TDM
@@ -16,7 +16,7 @@ Name=Anafenza, the Foremost
 1 Abzan Runemark|FRF
 1 Blossoming Sands|TDM
 1 Branchloft Pathway|ZNR
-1 Buried in the Garden|OTP
+1 Buried in the Garden|MKM|[191]
 1 Deceptive Landscape|TDC
 1 Descend upon the Sinful|OTC
 1 Descendant of Storms|TDM
@@ -25,9 +25,9 @@ Name=Anafenza, the Foremost
 1 Dragon Throne of Tarkir|KTK
 1 Duty Beyond Death|TDM
 1 Elspeth, Storm Slayer|TDM
-1 Felidar Retreat|ZNR
+1 Felidar Retreat|FDN|[574]
 1 Felothar, Dawn of the Abzan|TDM
-9 Forest|KTK|266
+9 Forest|INR|[296]
 1 Formation Breaker|TDM
 1 Furious Forebear|TDM
 1 Gift of the Viper|MH3
@@ -37,7 +37,7 @@ Name=Anafenza, the Foremost
 1 Grow from the Ashes|FDN
 1 Hollowmurk Siege|TDM
 1 Inspirited Vanguard|TDM
-1 Jugan, the Rising Star|CHK
+1 Jugan, the Rising Star|IMA|[172]
 1 Jungle Hollow|TDM
 1 Kin-Tree Nurturer|TDM
 1 Kin-Tree Severance|TDM
@@ -50,35 +50,35 @@ Name=Anafenza, the Foremost
 1 Okina, Temple to the Grandfathers|CHK
 1 Osseous Exhale|TDM
 1 Perennation|TDM
-7 Plains|KTK|251
+7 Plains|INR|[288]
 1 Call the Crash|YTDM
 1 Revealing Wind|DTK
 1 Revival of the Ancestors|TDM
 1 Sagu Wildling|TDM
-1 Sandsteppe Citadel|TDM
+1 Sandsteppe Citadel|ECC|[164]
 1 Scavenger Regent|TDM
 1 Scoured Barrens|TDM
 1 Scout for Survivors|EOE
 1 Abzan Banner|KTK
 1 Severance Priest|TDM
-1 Shamanic Revelation|BLC
+1 Shamanic Revelation|PIO|[194]
 1 Sinkhole Surveyor|TDM
 1 Skirmish Rhino|TDM
 1 Snakeskin Veil|TDM
-1 Sol Ring|TDC
+1 Sol Ring|LEB|[270]
 1 Stalwart Successor|TDM
 1 Strength of the Coalition|DMU
-7 Swamp|KTK|259
-1 Siege Rhino|KTK
+7 Swamp|INR|[292]
+1 Siege Rhino|CP3|[5]
 1 Trade Route Envoy|TDM
 1 Traveler's Amulet|INR
 1 Traveling Botanist|TDM
-1 Anafenza, Kin-Tree Spirit|DTK
+1 Anafenza, Kin-Tree Spirit|CMM|[11]
 1 United Battlefront|TDM
 1 Unrooted Ancestor|TDM
 1 Warden of the Grove|TDM
-1 Windswept Heath|KTK
-1 Woodland Cemetery|TDC
+1 Windswept Heath|MH3|[440]
+1 Woodland Cemetery|DMR|[401]
 1 Wretched Confluence|CMM
 1 Yathan Roadwatcher|TDM
 1 Yathan Tombguard|TDM

@@ -3,80 +3,80 @@ Name=Gisa, the Hellraiser
 [Commander]
 1 Gisa, the Hellraiser|OTJ
 [Main]
-1 Victim of Night|ISD
-1 Infernal Grasp|EOC
-1 Murder|DSK
+1 Victim of Night|DDQ|[67]
+1 Infernal Grasp|INR|[385]
+1 Murder|J25|[467]
 1 Hero's Downfall|FDN
-1 Go for the Throat|MOC
-1 Withering Torment|DSK
+1 Go for the Throat|FDC|[100]
+1 Withering Torment|FDC|[134]
 1 Accursed Duneyard|DRC
-1 Ayara, First of Locthwain|ELD
-1 Ghoulcaller Gisa|CMM
-1 Gisa, Glorious Resurrector|MID
-1 Death Baron|FDN
+1 Ayara, First of Locthwain|FDC|[86]
+1 Ghoulcaller Gisa|FDC|[6]
+1 Gisa, Glorious Resurrector|DBL|[103]
+1 Death Baron|FDC|[95]
 1 Gisa's Bidding|INR
 1 Black Market|MMQ
-1 Blighted Fen|F16
+1 Blighted Fen|J22|[810]
 1 Blinkmoth Well|MRD
-1 Blood Artist|J22
-1 Bojuka Bog|C19
-1 Carrion Feeder|EMA
-1 Castle Locthwain|ELD
-1 Cemetery Reaper|M10
-1 Codex Shredder|RTR
-1 Dark Ritual|TMP
+1 Blood Artist|INR|[372]
+1 Bojuka Bog|TSR|[406]
+1 Carrion Feeder|SCG|[59]
+1 Castle Locthwain|FDC|[299]
+1 Cemetery Reaper|DRC|[87]
+1 Codex Shredder|CMR|[304]
+1 Dark Ritual|MMQ|[129]
 1 Desert|ARN
-1 Doom Blade|M10
+1 Doom Blade|GN3|[47]
 1 Dread Charge|POR
-1 Encroaching Wastes|M14
-1 Falkenrath Noble|MM3
-1 Feed the Swarm|ZNR
-1 Field of Ruin|MID
+1 Encroaching Wastes|CMR|[481]
+1 Falkenrath Noble|J25|[441]
+1 Feed the Swarm|TDC|[180]
+1 Field of Ruin|TSR|[407]
 1 Gempalm Polluter|LGN
-1 Ghost Quarter|C14
+1 Ghost Quarter|CM2|[253]
 1 Ghost Vacuum|DSK
-1 Gilded Lotus|DOM
-1 Glasses of Urza|4ED
+1 Gilded Lotus|FDN|[725]
+1 Glasses of Urza|LEB|[246]
 1 Gravespawn Sovereign|ONS
-1 Gruesome Fate|RIX
-1 Heraldic Banner|ELD
+1 Gruesome Fate|GNT|[30]
+1 Heraldic Banner|FDN|[254]
 1 Hex Parasite|NPH
-1 Idol of Oblivion|ONC
+1 Idol of Oblivion|TDC|[319]
 1 Kaervek, the Punisher|OTJ
-1 Lightning Greaves|C17
-1 Liquimetal Torque|BRC
-1 Lord of the Accursed|AKH
-1 Mind Stone|WTH
-1 Mirage Mirror|HOU
-1 Oona's Blackguard|MOR
-1 Oubliette|2XM
-1 Pelakka Predation|ZNR
-1 Piranha Marsh|ZEN
-1 Plague Belcher|AKH
+1 Lightning Greaves|TRC|[496]
+1 Liquimetal Torque|MH2|[428]
+1 Lord of the Accursed|DRC|[95]
+1 Mind Stone|DMR|[385]
+1 Mirage Mirror|M3C|[300]
+1 Oona's Blackguard|ZNC|[51]
+1 Oubliette|ARN|[31]
+1 Pelakka Predation|PIO|[102]
+1 Piranha Marsh|J22|[818]
+1 Plague Belcher|DRC|[97]
 1 Plaguebearer|EXO
-1 Quicksand|CNS
+1 Quicksand|VIS|[166]
 1 Raven of Fell Omens|OTJ
 1 Ravenous Rotbelly|MIC
-1 Relic Barrier|5DN
-1 Relic of Progenitus|MD1
-1 Scrabbling Claws|C18
-1 Sol Ring|C14
-1 Stronghold Assassin|C13
+1 Relic Barrier|LEG|[292]
+1 Relic of Progenitus|BRC|[157]
+1 Scrabbling Claws|RNA|[238]
+1 Sol Ring|LEB|[270]
+1 Stronghold Assassin|STH|[71]
 1 Sunscorched Desert|AKH
-23 Swamp|OTJ
-1 Swiftfoot Boots|M12
-1 Tectonic Edge|C14
-1 Temple of the False God|C17
-1 Thran Dynamo|CMM
-1 Ultimate Price|F15
-1 Undead Augur|MH1
+23 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Tectonic Edge|M3C|[384]
+1 Temple of the False God|SCG|[143]
+1 Thran Dynamo|UDS|[139]
+1 Ultimate Price|RVR|[329]
+1 Undead Augur|DRC|[100]
 1 Vadmir, New Blood|OTJ
 1 Vengeful Dead|SCG
 1 Rend Flesh|CHK
-1 Victimize|USG
-1 Vizier of the Scorpion|WAR
-1 Volatile Fault|LCI
+1 Victimize|MH3|[413]
+1 Vizier of the Scorpion|SCD|[119]
+1 Volatile Fault|M3C|[407]
 1 Withered Wretch|LGN
-1 Zombie Master|4ED
+1 Zombie Master|LEB|[138]
 1 Zombie Trailblazer|TOR
-1 Zulaport Cutthroat|BFZ
+1 Zulaport Cutthroat|TSR|[337]

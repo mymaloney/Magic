@@ -2,20 +2,20 @@
 Name=adventurer
 [Main]
 1 Adarkar Wastes|ICE
-10 Forest|LEA
+10 Forest|INR|[296]
 2 Brushland|ICE
-2 Sylvan Library|4ED
+2 Sylvan Library|DMR|[350]
 2 Tolarian Winds|USG
-3 Benalish Hero|LEA
+3 Benalish Hero|LEB|[4]
 3 Elvish Pioneer|ONS
-3 Grizzly Bears|LEA
+3 Grizzly Bears|POR|[169]
 3 Keeneye Aven|LGN
-3 Plains|LEA
-4 Cartographer|EXO
-4 Exploration|USG
+3 Plains|INR|[288]
+4 Cartographer|ODY|[232]
+4 Exploration|DMR|[339]
 4 Land Grant|MMQ
-4 Llanowar Elves|LEA
+4 Llanowar Elves|LEB|[211]
 4 Merfolk Looter|EXO
 4 Questing Phelddagrif|PLS
 4 Yavimaya Coast|APC
-5 Island|LEA
+5 Island|INR|[290]

@@ -1,14 +1,14 @@
 [metadata]
 Name=Crag Hydra of Shandalar
 [Main]
-4 Granite Gargoyle|LEA
-4 Rock Hydra|LEA
-4 Wall of Fire|LEA
-4 Lightning Bolt|LEA
-4 Disintegrate|LEA
-4 Fireball|LEA
+4 Granite Gargoyle|LEB|[156]
+4 Rock Hydra|LEB|[172]
+4 Wall of Fire|LEB|[182]
+4 Lightning Bolt|LEB|[162]
+4 Disintegrate|LEB|[141]
+4 Fireball|LEB|[150]
 2 Aladdin's Ring|ARN
 4 Fellwar Stone|DRK
-4 Mana Flare|LEA
-4 Power Surge|LEA
-22 Mountain|LEA
+4 Mana Flare|LEB|[163]
+4 Power Surge|LEB|[168]
+22 Mountain|INR|[294]

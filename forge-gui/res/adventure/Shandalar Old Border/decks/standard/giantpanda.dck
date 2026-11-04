@@ -1,10 +1,10 @@
 [metadata]
 Name=giantpanda
 [Main]
-11 Forest|PTK
-11 Swamp|PTK|2
-2 Three Visits|PTK
-2 Spoils of Victory|PTK
+11 Forest|INR|[296]
+11 Swamp|INR|[292]
+2 Three Visits|SOC|[289]
+2 Spoils of Victory|C13|[172]
 2 Zodiac Rabbit|PTK
 2 Zodiac Horse|PTK
 2 Zodiac Tiger|PTK
@@ -23,4 +23,4 @@ Name=giantpanda
 2 Wei Night Raiders|PTK
 2 Wei Assassins|PTK
 2 Desperate Charge|PTK
-1 Cao Cao, Lord of Wei|PTK
+1 Cao Cao, Lord of Wei|V11|[1]

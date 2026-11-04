@@ -2,47 +2,47 @@
 Name=INN_Peasants
 [Main]
 1 Alchemist's Apprentice|AVR|1
-3 Ambitious Farmhand|MID|1
-1 Apothecary Geist|SOI|1
-3 Baithook Angler|MID|1
-3 Beloved Beggar|MID|1
-3 Bereaved Survivor|MID|1
-1 Bird Admirer|MID|1
-1 Borderland Ranger|AVR|1
-1 Byway Courier|SOI|1
-1 Contortionist Troupe|MID|1
-1 Covetous Castaway|MID|1
+3 Ambitious Farmhand|INR|[448]
+1 Apothecary Geist|INR|[10]
+3 Baithook Angler|DBL|[42]
+3 Beloved Beggar|DBL|[3]
+3 Bereaved Survivor|DBL|[4]
+1 Bird Admirer|DBL|[169]
+1 Borderland Ranger|E02|[31]
+1 Byway Courier|J25|[642]
+1 Contortionist Troupe|DBL|[178]
+1 Covetous Castaway|INR|[456]
 1 Creepy Doll|ISD|1
-1 Daybreak Combatants|VOW|1
-3 Desperate Farmer|VOW|1
-3 Devoted Grafkeeper|MID|1
-2 Doomed Traveler|ISD|1
-2 Doomed Dissenter|VOW|1
-3 Eccentric Farmer|MID|1
+1 Daybreak Combatants|J25|[535]
+3 Desperate Farmer|INR|[105]
+3 Devoted Grafkeeper|DBL|[218]
+2 Doomed Traveler|CLU|[59]
+2 Doomed Dissenter|J25|[425]
+3 Eccentric Farmer|INR|[194]
 1 Elder of Laurels|ISD|1
 1 Farbog Explorer|AVR|1
-1 Fearful Villager|VOW|1
+1 Fearful Villager|DBL|[424]
 2 Gatstaf Shepherd|ISD|1
-1 Groundskeeper|SOI|1
+1 Groundskeeper|MMQ|[250]
 1 Hermit of the Natterknolls|SOI|1
 1 Hinterland Hermit|DKA|1
-1 Hinterland Logger|SOI|1
+1 Hinterland Logger|INR|[203]
 1 Kessig Malcontents|AVR|1
-1 Mad Prophet|SOI|1
-1 Malevolent Hermit|MID|1
-1 Novice Occultist|MID|1
-3 Ragged Recluse|VOW|1
-3 Rural Recruit|VOW|1
-1 Scorned Villager|DKA|1
-1 Shady Traveler|MID|1
+1 Mad Prophet|UMA|[137]
+1 Malevolent Hermit|DBL|[61]
+1 Novice Occultist|DBL|[117]
+3 Ragged Recluse|DBL|[394]
+3 Rural Recruit|DBL|[483]
+1 Scorned Villager|INR|[468]
+1 Shady Traveler|DBL|[120]
 1 Stoic Builder|SOI|1
-1 Timberland Guide|MID|1
-1 Town Gossipmonger|SOI|1
-1 Unruly Mob|ISD|1
+1 Timberland Guide|DBL|[202]
+1 Town Gossipmonger|INR|[451]
+1 Unruly Mob|DBL|[40]
 1 Village Cannibals|ISD|1
-1 Village Bell-Ringer|ISD|1
+1 Village Bell-Ringer|MOC|[216]
 1 Village Ironsmith|ISD|1
-1 Villagers of Estwald|ISD|1
+1 Villagers of Estwald|INR|[224]
 1 Village Survivors|DKA|1
 1 Woodland Sleuth|ISD|1
 [Sideboard]

@@ -14,10 +14,10 @@ Name=BlackRush2
 4 Imperial Edict|PTK
 2 Lurking Nightstalker|PO2
 4 Mercenary Knight|POR
-4 Ravenous Rats|PO2
-5 Swamp|PO2|1
-7 Swamp|PO2|2
-9 Swamp|PO2|3
+4 Ravenous Rats|INV|[120]
+5 Swamp|INR|[292]
+7 Swamp|INR|[292]
+9 Swamp|INR|[292]
 2 Vampiric Spirit|PO2
 3 Wei Infantry|PTK
 3 Wei Strike Force|PTK

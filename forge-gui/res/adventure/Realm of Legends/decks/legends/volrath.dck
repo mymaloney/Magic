@@ -6,24 +6,24 @@ Name=Volrath
 1 Agent's Toolkit|ncc
 1 An Offer You Can't Refuse|fdn
 1 Augmenter Pugilist|stx
-1 Beast Whisperer|grn
-1 Black Sun's Zenith|mkc
-1 Blowfly Infestation|shm
-1 Arcane Signet|onc
+1 Beast Whisperer|TSR|[356]
+1 Black Sun's Zenith|ECC|[71]
+1 Blowfly Infestation|ECC|[46]
+1 Arcane Signet|TRC|[485]
 1 Cankerbloom|one
 1 Cold-Eyed Selkie|otc
-1 Collective Resistance|mh3
-1 Command Tower|drc
+1 Collective Resistance|FDC|[196]
+1 Command Tower|TRC|[521]
 1 Cradle Clearcutter|bro
 1 Dimir Aqueduct|dsc
-1 Dimir Doppelganger|cns
+1 Dimir Doppelganger|GK1|[12]
 1 Dismiss into Dream|m14
 1 Doppelgang|mkm
-1 Drowned Catacomb|drc
+1 Drowned Catacomb|TRC|[376]
 1 Evolution Witness|mh3
 1 Emergent Ultimatum|iko
-1 Faerie Mastermind|mom
-1 Vraska, Betrayal's Sting|one
+1 Faerie Mastermind|SOC|[114]
+1 Vraska, Betrayal's Sting|ECC|[88]
 1 Carnifex Demon|ecc
 1 Aberrant Return|ecc
 1 Wickersmith's Tools|ecc
@@ -31,41 +31,41 @@ Name=Volrath
 1 Soul Snuffers|ecc
 1 Dread Tiller|ecc
 1 Necroskitter|ecc
-1 Foreboding Landscape|mh3
-6 Forest|dft
-1 Forgotten Ancient|moc
+1 Foreboding Landscape|TDC|[365]
+6 Forest|INR|[296]
+1 Forgotten Ancient|DMR|[341]
 1 Generous Patron|bbd
 1 Giant Adephage|dsc
 1 Glasspool Mimic|znr
-1 Golgari Rot Farm|dsc
+1 Golgari Rot Farm|ECC|[151]
 1 Hadana's Climb|rix
-1 Hapatra, Vizier of Poisons|akh
+1 Hapatra, Vizier of Poisons|ECC|[123]
 1 Heronblade Elite|mic
 1 Homunculus Horde|fdn
-6 Island|dft
-1 Kami of Whispered Hopes|mom
-1 Karn's Bastion|lcc
+6 Island|INR|[290]
+1 Kami of Whispered Hopes|SOC|[273]
+1 Karn's Bastion|RVR|[464]
 1 Leyline Prowler|c21
-1 Lightning Greaves|tdc
+1 Lightning Greaves|TRC|[496]
 1 Likeness Looter|woe
-1 Llanowar Wastes|dsc
-1 Counterspell|ice
+1 Llanowar Wastes|APC|[141]
+1 Counterspell|DMR|[281]
 1 Looter il-Kor|cmm
-1 Massacre Girl, Known Killer|mkm
+1 Massacre Girl, Known Killer|ECC|[79]
 1 Master Biomancer|clu
-1 Tropical Island|vma
-1 Underground Sea|vma
-1 Bayou|vma
-1 Polluted Delta|ktk
-1 Misty Rainforest|zen
-1 Verdant Catacombs|zen
+1 Tropical Island|LEB|[284]
+1 Underground Sea|LEB|[286]
+1 Bayou|LEB|[279]
+1 Polluted Delta|MH3|[438]
+1 Misty Rainforest|MH2|[438]
+1 Verdant Catacombs|MH2|[440]
 1 Nacatl War-Pride|fut
-1 Mana Drain|2x2
+1 Mana Drain|LEG|[65]
 1 Nest of Scarabs|akh
-1 Opulent Palace|otc
-1 Oran-Rief, the Vastwood|blc
+1 Opulent Palace|ECC|[157]
+1 Oran-Rief, the Vastwood|SOC|[391]
 1 Persistent Constrictor|dsc
-1 In Garruk's Wake|m15
+1 In Garruk's Wake|CLB|[759]
 1 Planar Genesis|mh3
 1 Plaxcaster Frogling|c21
 1 Pollywog Prodigy|blc
@@ -73,20 +73,20 @@ Name=Volrath
 1 Qarsi Revenant|tdm
 1 Repulsive Mutation|mkm
 1 Revitalizing Repast|mh3
-1 Rishkar, Peema Renegade|j25
-1 Rishkar's Expertise|lcc
+1 Rishkar, Peema Renegade|FDC|[225]
+1 Rishkar's Expertise|FDC|[226]
 1 Shoreline Looter|blb
 1 Simic Growth Chamber|dsc
-1 Sunken Hollow|drc
-3 Swamp|dft
-1 Sylvan Caryatid|ths
+1 Sunken Hollow|TRC|[407]
+3 Swamp|INR|[292]
+1 Sylvan Caryatid|TDC|[272]
 1 Tetzimoc, Primal Death|rix
-1 Thrummingbird|cmm
+1 Thrummingbird|EOC|[80]
 1 Timeless Witness|tdc
-1 Sol Ring|onc
+1 Sol Ring|LEB|[270]
 1 Villainous Wealth|otc
 1 Vraska Joins Up|otj
 1 Warden of the Grove|tdm
 1 Willbreaker|ori
-1 Yavimaya Coast|drc
+1 Yavimaya Coast|APC|[143]
 1 Yawgmoth, Thran Physician|dmr

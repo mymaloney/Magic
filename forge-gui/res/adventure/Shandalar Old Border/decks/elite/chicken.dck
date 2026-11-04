@@ -1,9 +1,9 @@
 [metadata]
 Name=chicken
 [Main]
-10 Mountain|UGL
-5 Island|UGL
-5 Forest|UGL
+10 Mountain|INR|[294]
+5 Island|INR|[290]
+5 Forest|INR|[296]
 4 Jack-in-the-Mox|UGL
 4 Chicken Egg|UGL
 4 Roc Hatchling|WTH
@@ -19,9 +19,9 @@ Name=chicken
 1 Urza's Science Fair Project|UGL
 
 [StartInBattle_Reference]
-1 Island|UGL
-1 Forest|UGL
-1 Mountain|UGL
+1 Island|INR|[290]
+1 Forest|INR|[296]
+1 Mountain|INR|[294]
 1 Poultrygeist|UGL
 1 Chicken Egg|UGL
 1 Chicken à la King|UGL

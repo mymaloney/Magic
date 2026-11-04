@@ -1,20 +1,20 @@
 [metadata]
 Name=redwizard_hard_lavaaxe
 [Main]
-10 Island|2ED
+10 Island|INR|[290]
 2 Flash of Insight|JUD
 2 Prohibit|INV
-2 Pyroclasm|7ED
-3 Flooded Strand|ONS
-3 Lightning Bolt|2ED
+2 Pyroclasm|POR|[143]
+3 Flooded Strand|MH3|[436]
+3 Lightning Bolt|LEB|[162]
 3 Opt|INV
 3 Shivan Reef|APC
-3 Wooded Foothills|ONS
+3 Wooded Foothills|MH3|[441]
 4 Chance Encounter|ODY
-4 Counterspell|2ED
+4 Counterspell|DMR|[281]
 4 Fire // Ice|APC
-4 Impulse|BTD
-4 Mana Leak|BRB
-4 Portent|5ED
-4 Volcanic Island|2ED
-6 Mountain|2ED
+4 Impulse|DMR|[287]
+4 Mana Leak|STH|[36]
+4 Portent|ICE|[90]
+4 Volcanic Island|LEB|[287]
+6 Mountain|INR|[294]

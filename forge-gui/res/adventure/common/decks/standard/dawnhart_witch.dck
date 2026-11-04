@@ -1,34 +1,34 @@
 [metadata]
 Name=dawnhart_witch
 [Main]
-2 Ambitious Farmhand|MID|1
-1 Augur of Autumn|MID|2
-3 Candlegrove Witch|MID|1
-1 Candlelit Cavalry|MID|1
-1 Candletrap|MID|1
-1 Cathar's Call|MID|1
-2 Contortionist Troupe|MID|1
-1 Crossroads Candleguide|MID|1
-2 Dawnhart Mentor|MID|1
-1 Dawnhart Rejuvenator|MID|1
-2 Dawnhart Wardens|MID|1
-1 Defend the Celestus|MID|1
-1 Duelcraft Trainer|MID|1
-4 Evolving Wilds|MID|1
-10 Forest|MID|3
-4 Harvesttide Sentry|MID|1
-1 Hedgewitch's Mask|MID|1
-1 Jack-o'-Lantern|MID|1
-1 Join the Dance|MID|1
-1 Katilda, Dawnhart Prime|MID|1
-1 Might of the Old Ways|MID|1
-1 Overgrown Farmland|MID|1
-1 Path to the Festival|MID|1
-9 Plains|MID|3
-1 Rite of Harmony|MID|2
-1 Ritual Guardian|MID|1
-1 Ritual of Hope|MID|1
-1 Saryth, the Viper's Fang|MID|1
-1 Sigarda, Champion of Light|MID|1
-1 Sungold Barrage|MID|1
-1 Sunset Revelry|MID|1
+2 Ambitious Farmhand|INR|[448]
+1 Augur of Autumn|EOC|[92]
+3 Candlegrove Witch|DBL|[8]
+1 Candlelit Cavalry|DBL|[175]
+1 Candletrap|DBL|[9]
+1 Cathar's Call|INR|[16]
+2 Contortionist Troupe|DBL|[178]
+1 Crossroads Candleguide|DBL|[253]
+2 Dawnhart Mentor|DBL|[179]
+1 Dawnhart Rejuvenator|DBL|[180]
+2 Dawnhart Wardens|DBL|[216]
+1 Defend the Celestus|J25|[649]
+1 Duelcraft Trainer|DBL|[16]
+4 Evolving Wilds|TRC|[527]
+10 Forest|INR|[296]
+4 Harvesttide Sentry|DBL|[186]
+1 Hedgewitch's Mask|DBL|[23]
+1 Jack-o'-Lantern|DBL|[254]
+1 Join the Dance|INR|[432]
+1 Katilda, Dawnhart Prime|DBL|[230]
+1 Might of the Old Ways|DBL|[189]
+1 Overgrown Farmland|FRA|[185]
+1 Path to the Festival|DBL|[191]
+9 Plains|INR|[288]
+1 Rite of Harmony|DBL|[236]
+1 Ritual Guardian|DBL|[30]
+1 Ritual of Hope|DBL|[31]
+1 Saryth, the Viper's Fang|MKC|[185]
+1 Sigarda, Champion of Light|DBL|[240]
+1 Sungold Barrage|DBL|[36]
+1 Sunset Revelry|DBL|[38]

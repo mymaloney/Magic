@@ -2,20 +2,20 @@
 Name=cathar
 [Main]
 1 Karplusan Forest|ICE
-1 Mountain|5ED
-14 Plains|5ED
+1 Mountain|INR|[294]
+14 Plains|INR|[288]
 2 Battlefield Forge|APC
-2 Elvish Archers|3ED
-2 Forest|5ED
-2 Grapeshot Catapult|5ED
-2 Mesa Pegasus|5ED
+2 Elvish Archers|LEB|[192]
+2 Forest|INR|[296]
+2 Grapeshot Catapult|ATQ|[52]
+2 Mesa Pegasus|LEB|[29]
 2 Orcish Cannoneers|ICE
 2 Tivadar's Crusade|DRK
-4 Armored Pegasus|6ED
-4 Benalish Hero|5ED
+4 Armored Pegasus|TMP|[5]
+4 Benalish Hero|LEB|[4]
 4 Brushland|ICE
-4 Llanowar Elves|6ED
+4 Llanowar Elves|LEB|[211]
 4 Order of Leitbur|FEM
-4 Phyrexian War Beast|DKM
-4 Serra Angel|ATH
-4 Serra Paladin|5ED
+4 Phyrexian War Beast|ALL|[127a]
+4 Serra Angel|DMR|[271]
+4 Serra Paladin|HML|[17]

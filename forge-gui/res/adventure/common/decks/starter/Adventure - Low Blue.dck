@@ -5,20 +5,20 @@ Name=Adventure - Low Blue
 [Main]
 1 Acquisition Octopus|NEO|1
 2 Armguard Familiar|NEO|1
-2 Boomerang|DPA|1
-1 Broodstar|HOP|1
+2 Boomerang|MIR|[56]
+1 Broodstar|FDC|[60]
 1 Callaphe, Beloved of the Sea|THB|1
 2 Disruption Protocol|NEO|1
 1 Ensoul Artifact|M15|1
-2 Etherium Sculptor|NEC|1
+2 Etherium Sculptor|EOC|[72]
 2 Faerie Mechanist|2XM|1
-2 Into the Roil|ZNR|1
-13 Island|GK2|1
-1 Mysterious Tome|MID|1
+2 Into the Roil|FDN|[509]
+13 Island|INR|[290]
+1 Mysterious Tome|DBL|[63]
 1 Replication Specialist|NEO|1
-4 Seat of the Synod|C18|1
-2 Silver Myr|NEC|1
-2 Sky Diamond|KHC|1
+4 Seat of the Synod|EOC|[176]
+2 Silver Myr|FDC|[284]
+2 Sky Diamond|MIR|[319]
 1 Trickster's Talisman|AFR|1
 [Sideboard]
 

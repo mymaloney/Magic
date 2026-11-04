@@ -1,27 +1,27 @@
 [metadata]
 Name=owl
 [Main]
-4 Augury Owl|PCA|1
-4 Bad River|VMA|1
-4 Baleful Strix|SLD|1
-4 Contaminated Aquifer|DMU|1
+4 Augury Owl|J22|[273]
+4 Bad River|MIR|[324]
+4 Baleful Strix|BLC|[86]
+4 Contaminated Aquifer|TDC|[353]
 3 Dream Strix|STX|1
-4 Drowned Catacomb|XLN|1
-2 Fetid Pools|AKH|1
-1 Island|PCA|2
-2 Island|PCA|3
-1 Island|PCA|4
-2 Judge's Familiar|F13|1
+4 Drowned Catacomb|TRC|[376]
+2 Fetid Pools|TRC|[380]
+1 Island|INR|[290]
+2 Island|INR|[290]
+1 Island|INR|[290]
+2 Judge's Familiar|RVR|[192]
 4 Keep Safe|IKO|1
 4 Palace Familiar|DTK|1
 4 Parasitic Strix|2XM|1
-4 Sage Owl|M10|1
+4 Sage Owl|WTH|[52]
 3 Stormscape Familiar|PLS|1
-2 Sunken Hollow|MIC|1
-1 Swamp|PCA|1
-1 Swamp|PCA|3
-1 Swamp|PCA|4
-1 Swamp|PCA|5
+2 Sunken Hollow|TRC|[407]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
 4 Tidehollow Strix|C13|1
 [Sideboard]
 [Schemes]

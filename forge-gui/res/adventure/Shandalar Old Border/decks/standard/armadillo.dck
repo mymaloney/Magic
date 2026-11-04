@@ -2,16 +2,16 @@
 Name=Prince Valiant 3
 [Main]
 1 Llanowar Wastes|APC
-1 Swamp|5ED|2
+1 Swamp|INR|[292]
 2 Caves of Koilos|APC
-4 Armored Pegasus|ATH
+4 Armored Pegasus|TMP|[5]
 4 Brushland|ICE
-4 Forest|5ED|2
-4 Lifeforce|5ED
-4 Llanowar Elves|6ED
-4 Pearled Unicorn|5ED
+4 Forest|INR|[296]
+4 Lifeforce|LEB|[207]
+4 Llanowar Elves|LEB|[211]
+4 Pearled Unicorn|LEB|[31]
 4 Ramosian Lieutenant|MMQ
 4 Ramosian Sergeant|MMQ
 4 Rebel Informer|PCY
-4 Serra Angel|LEA
-9 Plains|5ED|2
+4 Serra Angel|DMR|[271]
+9 Plains|INR|[288]

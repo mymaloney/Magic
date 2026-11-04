@@ -1,14 +1,14 @@
 [metadata]
 Name=Thought Invoker of Shandalar
 [Main]
-4 Air Elemental|LEA
+4 Air Elemental|PO2|[31]
 4 Giant Tortoise|ARN
-4 Mahamoti Djinn|LEA
-4 Vesuvan Doppelganger|LEA
-4 Counterspell|LEA
-4 Power Sink|LEA
-4 Spell Blast|LEA
-3 Twiddle|LEA
-3 Icy Manipulator|LEA
-4 Psychic Venom|LEA
-22 Island|LEA
+4 Mahamoti Djinn|LEB|[65]
+4 Vesuvan Doppelganger|LEB|[88]
+4 Counterspell|DMR|[281]
+4 Power Sink|USG|[89]
+4 Spell Blast|TMP|[89]
+3 Twiddle|LEB|[86]
+3 Icy Manipulator|DMR|[380]
+4 Psychic Venom|LEB|[76]
+22 Island|INR|[290]

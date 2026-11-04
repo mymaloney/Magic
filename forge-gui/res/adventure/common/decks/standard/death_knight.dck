@@ -2,45 +2,45 @@
 Name=death_knight
 [Main]
 1 Abnormal Endurance|M19|1
-1 Alchemist's Gift|M21|1
+1 Alchemist's Gift|J25|[397]
 1 Bloodcrazed Paladin|XLN|1
-1 Cadaverous Knight|HOP|1
+1 Cadaverous Knight|MIR|[110]
 1 Cavalier of Night|M20|1
-1 Coat with Venom|PLST|1
-4 Corpse Churn|OGW|1
+1 Coat with Venom|J25|[412]
+4 Corpse Churn|CLU|[107]
 1 Deathless Ancient|XLN|1
-1 Dread Rider|KHM|1
-2 Foulmire Knight|ELD|1
-1 Go for the Throat|MIC|1
-1 Haakon, Stromgald Scourge|CSP|1
-1 Heirloom Blade|C17|1
-1 Hero's Downfall|VOW|1
-1 Ihsan's Shade|A25|1
-1 Josu Vess, Lich Knight|DOM|1
-1 Knight of Dusk|10E|1
+1 Dread Rider|J22|[404]
+2 Foulmire Knight|MOC|[249]
+1 Go for the Throat|FDC|[100]
+1 Haakon, Stromgald Scourge|MOC|[252]
+1 Heirloom Blade|LCC|[303]
+1 Hero's Downfall|FDN|[175]
+1 Ihsan's Shade|HML|[53]
+1 Josu Vess, Lich Knight|FDC|[107]
+1 Knight of Dusk|TMP|[140]
 1 Knight of the Ebon Legion|M20|1
 1 Marauding Knight|INV|1
 1 Markov Dreadknight|SOI|1
-1 Murder|CMR|1
-1 Murderous Rider|ELD|1
+1 Murder|J25|[467]
+1 Murderous Rider|DRC|[45]
 1 Oathsworn Knight|ELD|1
-2 Oathsworn Vampire|RIX|1
+2 Oathsworn Vampire|LCC|[204]
 1 Phyrexian Crusader|MBS|1
 1 Power Word Kill|AFR|1
-1 Sanguine Guard|DDE|1
+1 Sanguine Guard|USG|[155]
 2 Stromgald Crusader|CSP|1
-2 Swamp|C19|1
-3 Swamp|C19|2
-2 Swamp|C19|3
-3 Swamp|CST|1
-1 Swamp|CST|2
-2 Swamp|CST|3
-1 Swamp|ELD|1
-1 Swamp|ELD|2
-3 Swamp|ELD|3
-1 Swamp|ELD|4
-2 Swamp|XLN|1
-1 Swamp|XLN|2
-1 Swamp|XLN|3
-2 Swamp|XLN|4
+2 Swamp|INR|[292]
+3 Swamp|INR|[292]
+2 Swamp|INR|[292]
+3 Swamp|INR|[292]
+1 Swamp|INR|[292]
+2 Swamp|INR|[292]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
+3 Swamp|INR|[292]
+1 Swamp|INR|[292]
+2 Swamp|INR|[292]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
+2 Swamp|INR|[292]
 1 Tresserhorn Skyknight|CSP|1

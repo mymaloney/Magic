@@ -1,22 +1,22 @@
 [metadata]
 Name=goblin_chief_medium
 [Main]
-1 City of Brass|7ED
+1 City of Brass|ARN|[71]
 1 Goblin Sharpshooter|ONS
-1 Plains|LEA
+1 Plains|INR|[288]
 1 Skirk Prospector|ONS
-1 Windswept Heath|ONS
-13 Mountain|LEA
-2 Gempalm Incinerator|LGN
+1 Windswept Heath|MH3|[440]
+13 Mountain|INR|[294]
+2 Gempalm Incinerator|DMR|[322]
 2 Goblin Tinkerer|MIR
 3 Mogg Fanatic|TMP
-3 Siege-Gang Commander|SCG
-3 Swords to Plowshares|ICE
+3 Siege-Gang Commander|DMR|[330]
+3 Swords to Plowshares|DMR|[275]
 4 Battlefield Forge|APC
 4 Goblin Lackey|USG
-4 Goblin Matron|USG
+4 Goblin Matron|DMR|[323]
 4 Goblin Piledriver|ONS
 4 Goblin Ringleader|APC
 4 Goblin Warchief|SCG
 4 Rishadan Port|MMQ
-4 Wooded Foothills|ONS
+4 Wooded Foothills|MH3|[441]

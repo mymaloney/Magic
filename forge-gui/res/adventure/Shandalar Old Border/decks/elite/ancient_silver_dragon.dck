@@ -2,26 +2,26 @@
 Name=Ancient Silver Dragon
 [Main]
 2 Reflecting Pool|TMP
-4 City of Brass|5ED
+4 City of Brass|ARN|[71]
 3 Meteor Crater|PLS
-2 Underground Sea|3ED
-2 Taiga|3ED
-1 Plateau|3ED
-2 Savannah|3ED
-1 Scrubland|3ED
-2 Badlands|3ED
-1 Volcanic Island|3ED
-1 Tropical Island|3ED
-1 Bayou|3ED
-2 Tundra|3ED
+2 Underground Sea|LEB|[286]
+2 Taiga|LEB|[283]
+1 Plateau|LEB|[280]
+2 Savannah|LEB|[281]
+1 Scrubland|LEB|[282]
+2 Badlands|LEB|[278]
+1 Volcanic Island|LEB|[287]
+1 Tropical Island|LEB|[284]
+1 Bayou|LEB|[279]
+2 Tundra|LEB|[285]
 2 Crosis, the Purger|INV
 2 Treva, the Renewer|INV
 2 Dromar, the Banisher|INV
 2 Darigaaz, the Igniter|INV
-2 Rith, the Awakener|INV
+2 Rith, the Awakener|DMR|[366]
 1 Nicol Bolas|LEG
 1 Chromium|LEG
-1 Arcades Sabboth|LEG
+1 Arcades Sabboth|DMR|[355]
 1 Palladia-Mors|LEG
 1 Vaevictis Asmadi|LEG
 1 Karona, False God|SCG

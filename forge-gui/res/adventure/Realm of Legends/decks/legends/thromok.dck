@@ -5,71 +5,71 @@ Name=Thromok
 [Main]
 1 Ancient Imperiosaur|mom
 1 Anger|jud
-1 Artifact Mutation|ncc
+1 Artifact Mutation|INV|[231]
 1 Tender Wildguide|blb
-1 Blasphemous Act|ncc
-1 Brawn|uma
+1 Blasphemous Act|SOC|[238]
+1 Brawn|JUD|[107]
 1 Brightcap Badger|blc
-1 Chandra's Ignition|ori
-1 Chaos Warp|ncc
-1 Cinder Glade|ncc
+1 Chandra's Ignition|FDC|[145]
+1 Chaos Warp|MBC|[72]
+1 Cinder Glade|ECC|[146]
 1 Commercial District|mkm
-1 Deep Forest Hermit|mh1
+1 Deep Forest Hermit|BLC|[213]
 1 Enduring Courage|dsk
-1 Farhaven Elf|khc
-1 Farseek|ncc
+1 Farhaven Elf|SCD|[182]
+1 Farseek|RVR|[347]
 1 Fling|sth
 1 For the Common Good|blb
-18 Forest|m20
+18 Forest|INR|[296]
 1 Hellion Crucible|m13
 1 Fresh Meat|c19
-1 Fyndhorn Elves|cmr
+1 Fyndhorn Elves|ICE|[244]
 1 Glimpse the Impossible|mh3
 1 Goblin Anarchomancer|mh2
 1 Growth Spasm|mic
-1 Harmonize|ncc
+1 Harmonize|ECC|[111]
 1 Kazuul's Fury|znr
-1 Kessig Wolf Run|ncc
+1 Kessig Wolf Run|TDC|[375]
 1 Khalni Garden|c18
-1 Kher Keep|tsr
+1 Kher Keep|FRC|[75]
 1 Krosan Grip|c21
-1 Llanowar Elves|fdn
+1 Llanowar Elves|LEB|[211]
 1 Molten Gatekeeper|mh3
-1 Mosswort Bridge|ncc
-13 Mountain|snc
+1 Mosswort Bridge|TDC|[379]
+13 Mountain|INR|[294]
 1 Nature's Claim|tsr
-1 Nature's Lore|cmm
-1 Pest Infestation|c21
-1 Rampant Growth|ncc
+1 Nature's Lore|DMR|[346]
+1 Pest Infestation|SOC|[282]
+1 Rampant Growth|TMP|[245]
 1 Reclamation Sage|tsr
-1 Rishkar's Expertise|ncc
-1 Rogue's Passage|ncc
-1 Rootbound Crag|xln
+1 Rishkar's Expertise|FDC|[226]
+1 Rogue's Passage|TRC|[552]
+1 Rootbound Crag|ECC|[163]
 1 Hamletback Goliath|jmp
-1 Hellion Eruption|roe
-1 Ulasht, the Hate Seed|gpt
+1 Hellion Eruption|PCA|[45]
+1 Ulasht, the Hate Seed|2X2|[289]
 1 Tectonic Hellion|c19
-1 Inferno Hellion|m19
+1 Inferno Hellion|JMP|[337]
 1 Crater Hellion|usg
 1 Molten Monstrosity|dmu
 1 Blitz Hellion|arb
 1 Embermaw Hellion|ori
-1 Fires of Yavimaya|pca
-1 Domri, Anarch of Bolas|war
-1 Shamanic Revelation|blc
-1 Sheltered Thicket|akh
+1 Fires of Yavimaya|INV|[246]
+1 Domri, Anarch of Bolas|BLC|[98]
+1 Shamanic Revelation|PIO|[194]
+1 Sheltered Thicket|ECC|[167]
 1 Skarrg, the Rage Pits|pca
 1 Skullmulcher|2xm
 1 Song of Totentanz|woe
 1 Soul's Fire|cmr
 1 Spawn-Gang Commander|mh3
-1 Springbloom Druid|khc
+1 Springbloom Druid|SOC|[287]
 1 Stump Stomp|mh3
 1 Sundering Eruption|mh3
-1 Swiftfoot Boots|ncc
+1 Swiftfoot Boots|TRC|[501]
 1 Sylvan Offering|ncc
-1 Tempt with Vengeance|c13
-1 Tendershoot Dryad|rix
-1 Warstorm Surge|ncc
-1 Wood Elves|ncc
+1 Tempt with Vengeance|TDC|[239]
+1 Tendershoot Dryad|SOC|[125]
+1 Warstorm Surge|FDC|[186]
+1 Wood Elves|EXO|[130]
 1 Writhing Chrysalis|mh3

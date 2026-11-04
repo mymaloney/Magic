@@ -3,82 +3,82 @@ Name=Tamiyo, Upriser Crowned
 [Commander]
 1 Tamiyo, Upriser Crowned|frc
 [Main]
-1 Abrade|fdn
+1 Abrade|TRC|[449]
 1 Agitator Ant|mkc
 1 Alexios, Deimos of Kosmos|acr
-1 Arcane Signet|frc
-1 Archaeomancer's Map|c21
+1 Arcane Signet|TRC|[485]
+1 Archaeomancer's Map|SOC|[136]
 1 Archon of Coronation|ncc
 1 Aurelia, the Law Above|mkm
-1 Battlefield Forge|c21
-1 Blackblade Reforged|brr
-1 Boros Garrison|2x2
+1 Battlefield Forge|APC|[139]
+1 Blackblade Reforged|DMC|[178]
+1 Boros Garrison|CLU|[231]
 1 Chainsaw|dsk
-1 Chaos Warp|brc
-1 Clifftop Retreat|tdc
-1 Combat Calligrapher|c21
-1 Command Tower|frc
+1 Chaos Warp|MBC|[72]
+1 Clifftop Retreat|DMR|[393]
+1 Combat Calligrapher|SOC|[141]
+1 Command Tower|TRC|[521]
 1 Court of Ardenvale|woc
-1 Court of Grace|cmr
+1 Court of Grace|FDC|[21]
 1 Crawlspace|dmr
 1 Curse of Opulence|tdc
 1 Deflecting Palm|mkc
 1 Dragonfire Blade|tdm
-1 Duelist's Heritage|c21
+1 Duelist's Heritage|TRC|[218]
 1 Emberwilde Captain|cmr
-1 Exotic Orchard|cmm
-1 Fabled Passage|eld
-1 Furycalm Snarl|mkc
-1 Geode Rager|znc
-1 Ghostly Prison|cn2
-1 Gilded Lotus|m13
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
+1 Furycalm Snarl|TRC|[384]
+1 Geode Rager|SCD|[144]
+1 Ghostly Prison|SOC|[146]
+1 Gilded Lotus|FDN|[725]
 1 Ginger, Queen of Sweets|frc
-1 Grenzo, Havoc Raiser|cmm
+1 Grenzo, Havoc Raiser|TDC|[216]
 1 Havoc Eater|mkc
 1 Inspiring Vantage|otj
 1 Joined Researchers|sos
-1 Karn's Bastion|eoc
-1 Knight of the White Orchid|sld|[1045]
+1 Karn's Bastion|RVR|[464]
+1 Knight of the White Orchid|PIO|[21]
 1 Komainu Battle Armor|nec
-1 Lightning Helix|sta
-1 Loran of the Third Path|bro
-1 Mangara, the Diplomat|blc
-1 Mind Stone|blc
-12 Mountain|neo|[290]
+1 Lightning Helix|RVR|[372]
+1 Loran of the Third Path|TRC|[229]
+1 Mangara, the Diplomat|SOC|[155]
+1 Mind Stone|DMR|[385]
+12 Mountain|INR|[294]
 1 Nils, Discipline Enforcer|soc
 1 Ornithopter of Paradise|mh2
-1 Palace Jailer|cn2
-1 Path of Ancestry|frc
-1 Path to Exile|2x2
+1 Palace Jailer|TSR|[298]
+1 Path of Ancestry|TRC|[545]
+1 Path to Exile|TSR|[299]
 1 Perch Protection|blc
-10 Plains|neo|[284]
-1 Professional Face-Breaker|j22
-1 Promise of Loyalty|blc
-1 Radiant Summit|eoc
+10 Plains|INR|[288]
+1 Professional Face-Breaker|TRC|[291]
+1 Promise of Loyalty|TRC|[234]
+1 Radiant Summit|TRC|[395]
 1 Raiyuu, Storm's Edge|neo
 1 Restless Bivouac|woe
-1 Rogue's Passage|rtr
-1 Scavenger Grounds|c20
+1 Rogue's Passage|TRC|[552]
+1 Scavenger Grounds|FDC|[311]
 1 Court of Embereth|woc
 1 Chief Magistrate of Mercadia|mbc
 1 Court of Ire|cmr
 1 Crimson Fleet Commodore|cmm
 1 Protector of the Crown|cn2
 1 Throne Warden|cn2
-1 Slaughter the Strong|rix
-1 Sol Ring|mkc
+1 Slaughter the Strong|TDC|[131]
+1 Sol Ring|LEB|[270]
 1 Spectacular Showdown|mkc
 1 Starfall Invocation|blb
-1 Sundown Pass|vow
-1 Sword of the Animist|ori
-1 Talisman of Conviction|mh1
+1 Sundown Pass|SOS|[264]
+1 Sword of the Animist|CMM|[413]
+1 Talisman of Conviction|TRC|[503]
 1 Teferi's Reproach|frc
-1 Temple of Triumph|mkc
+1 Temple of Triumph|SOC|[417]
 1 Tempt with Bunnies|blc
 1 Palace Sentinels|cmm
-1 Thran Dynamo|c14
-1 Thrilling Discovery|stx
-1 Throne of the High City|cn2
+1 Thran Dynamo|UDS|[139]
+1 Thrilling Discovery|OTC|[245]
+1 Throne of the High City|MKC|[307]
 1 Vengeful Ancestor|tdc
-1 Wear|gtc
-1 Worn Powerstone|cmm
+1 Wear|PIO|[398]
+1 Worn Powerstone|USG|[318]

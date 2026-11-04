@@ -4,22 +4,22 @@ Name=Adventure - INN Low Spirits
 
 [Main]
 2 Tattered Haunter|EMN|1
-1 Brine Comber|VOW|1
-1 Dawnhart Geist|VOW|1
-2 Honored Heirloom|VOW|1
-2 Cradle of Safety|VOW|1
-2 Drogskol Infantry|VOW|1
-1 Nebelgast Herald|EMN|1
-1 Gallows Warden|ISD|1
-2 Kindly Ancestor|VOW|1
+1 Brine Comber|DBL|[500]
+1 Dawnhart Geist|DBL|[275]
+2 Honored Heirloom|DBL|[524]
+2 Cradle of Safety|DBL|[321]
+2 Drogskol Infantry|DBL|[277]
+1 Nebelgast Herald|INR|[364]
+1 Gallows Warden|J22|[187]
+2 Kindly Ancestor|DBL|[289]
 1 Niblis of the Breath|DKA|1
-1 Spectral Shepherd|SOI|1
+1 Spectral Shepherd|INR|[349]
 2 Feeling of Dread|ISD|1
-1 Guardian of Pilgrims|EMN|1
-7 Island|SOI|1
-4 Evolving Wilds|DKA|1
-7 Plains|ISD|1
-1 Dorothea, Vengeful Victim|VOW|1
+1 Guardian of Pilgrims|INR|[26]
+7 Island|INR|[290]
+4 Evolving Wilds|TRC|[527]
+7 Plains|INR|[288]
+1 Dorothea, Vengeful Victim|DBL|[502]
 2 Spectral Reserves|EMN|1
 [Sideboard]
 

@@ -1,20 +1,20 @@
 [metadata]
 Name=Scarecrow Captain
 [Main]
-4 Savannah|LEA
-4 Windswept Heath|ONS
+4 Savannah|LEB|[281]
+4 Windswept Heath|MH3|[440]
 4 Brushland|ICE
 2 Serra's Sanctum|USG
 1 Yavimaya Hollow|UDS
 1 Kor Haven|NMS
-8 Plains|LEA
-8 Forest|LEA
-4 Fertile Ground|USG
-2 Wild Growth|LEA
+8 Plains|INR|[288]
+8 Forest|INR|[296]
+4 Fertile Ground|INV|[188]
+2 Wild Growth|DMR|[352]
 2 Overgrowth|STH
 2 One with Nature|SCG
 2 Mirari's Wake|JUD
-3 Verduran Enchantress|LEA
+3 Verduran Enchantress|LEB|[223]
 3 Enchantress's Presence|ONS
 2 Karmic Justice|ODY
 2 Sterling Grove|INV
@@ -33,10 +33,10 @@ Name=Scarecrow Captain
 2 Aura of Silence|WTH
 2 Seal of Cleansing|NMS
 2 Arrest|MMQ
-2 Pacifism|MIR
+2 Pacifism|ONS|[47]
 
 [StartInBattle_Reference]
 1 Argothian Enchantress|USG
-1 Savannah|LEA
+1 Savannah|LEB|[281]
 1 Scarecrow|DRK
 1 Spellbook|EXO

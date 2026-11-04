@@ -1,28 +1,28 @@
 [metadata]
 Name=INN_immerwolf_easy
 [Main]
-2 Bounding Wolf|MID|1
+2 Bounding Wolf|J22|[633]
 2 Darkthicket Wolf|ISD|1
 2 Ember-Eye Wolf|SOI|1
 2 Feral Ridgewolf|ISD|1
-4 Immerwolf|SIS|1
+4 Immerwolf|DKA|[141]
 2 Kessig Wolf|ISD|1
-2 Lambholt Harrier|MID|1
-2 Pestilent Wolf|MID|1
-1 Primal Adversary|MID|1
-3 Forest|SOI|1
-3 Forest|MID|2
-3 Forest|ISD|2
+2 Lambholt Harrier|DBL|[145]
+2 Pestilent Wolf|J22|[705]
+1 Primal Adversary|DBL|[194]
+3 Forest|INR|[296]
+3 Forest|INR|[296]
+3 Forest|INR|[296]
 2 Quilled Wolf|SOI|1
-2 Snarling Wolf|MID|1
-2 Ulrich's Kindred|SOI|1
-2 Young Wolf|DKA|1
-1 Feed the Pack|DKA|1
-5 Mountain|SOI|1
-3 Mountain|MID|2
-2 Mountain|ISD|2
-4 Howl of the Hunt|MID|1
-2 Howlpack Resurgence|SOI|1
+2 Snarling Wolf|DBL|[199]
+2 Ulrich's Kindred|INR|[176]
+2 Young Wolf|INR|[425]
+1 Feed the Pack|J22|[657]
+5 Mountain|INR|[294]
+3 Mountain|INR|[294]
+2 Mountain|INR|[294]
+4 Howl of the Hunt|J22|[672]
+2 Howlpack Resurgence|INR|[204]
 [Sideboard]
 
 [Planes]

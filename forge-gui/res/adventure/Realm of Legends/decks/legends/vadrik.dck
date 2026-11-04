@@ -1,74 +1,74 @@
 [metadata]
 Name=Vadrik
 [Commander]
-1 Vadrik, Astral Archmage|mid
+1 Vadrik, Astral Archmage|DBL|[248]
 [Main]
 1 Adaptive Training Post|tdc
 1 Apex of Power|afc
-1 Arcane Denial|otc
-1 Arcane Signet|otc
-1 Archmage Emeritus|otc
-1 Balmor, Battlemage Captain|dmu
-1 Banefire|ddn
-1 Big Score|otc
-1 Blackblade Reforged|nec
-1 Brass's Bounty|c21
-1 Docent of Perfection|emn
-1 Loxodon Warhammer|mrd
-1 distortion strike|roe
+1 Arcane Denial|ALL|[22a]
+1 Arcane Signet|TRC|[485]
+1 Archmage Emeritus|SOC|[188]
+1 Balmor, Battlemage Captain|FDN|[237]
+1 Banefire|J22|[495]
+1 Big Score|SOC|[237]
+1 Blackblade Reforged|DMC|[178]
+1 Brass's Bounty|FDN|[190]
+1 Docent of Perfection|INR|[62]
+1 Loxodon Warhammer|ONC|[135]
+1 distortion strike|IMA|[52]
 1 Case of the Ransacked Lab|mkm
-1 Command Tower|otc
-1 Crackle with Power|otp
+1 Command Tower|TRC|[521]
+1 Crackle with Power|STX|[95]
 1 Culmination of Studies|stx
-1 Curse of the Swine|otc
+1 Curse of the Swine|SOC|[192]
 1 Devastating Onslaught|eoe
-1 Dig Through Time|otc
-1 Drown in Dreams|mic
+1 Dig Through Time|SOC|[195]
+1 Drown in Dreams|M3C|[181]
 1 Elemental Eruption|otc
-1 Epic Experiment|otc
-1 Exotic Orchard|otc
+1 Epic Experiment|TSR|[376]
+1 Exotic Orchard|TRC|[378]
 1 Finale of Promise|otc
-1 Finale of Revelation|otc
+1 Finale of Revelation|FDN|[589]
 1 Flux Channeler|war
-1 Guttersnipe|otc
+1 Guttersnipe|RVR|[332]
 1 Haze of Rage|tsr
 1 Hell to Pay|otj
 1 Inner Fire|sok
-1 Invigorated Rampage|aer
-16 Island|mid
-1 Izzet Boilerworks|otc
-1 Talisman of Creativity|tdc
-1 Lier, Disciple of the Drowned|mid
-1 Murmuring mystic|otc
-1 Lunar Frenzy|mid
-1 Metallurgic Summonings|kld
-16 Mountain|mid
-1 Mystic Retrieval|c19
-1 Negate|znr
-1 Niv-Mizzet, Parun|otc
+1 Invigorated Rampage|J25|[567]
+16 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
+1 Talisman of Creativity|TRC|[504]
+1 Lier, Disciple of the Drowned|TDC|[157]
+1 Murmuring mystic|PIO|[65]
+1 Lunar Frenzy|DBL|[147]
+1 Metallurgic Summonings|C21|[122]
+16 Mountain|INR|[294]
+1 Mystic Retrieval|INR|[363]
+1 Negate|TRC|[439]
+1 Niv-Mizzet, Parun|RVR|[376]
 1 Past in Flames|tsr
-1 Pull from Tomorrow|drc
+1 Pull from Tomorrow|SOC|[116]
 1 Reckless Charge|ody
-1 Recoup|ddk
-1 Reiterate|tsp
+1 Recoup|ODY|[216]
+1 Reiterate|TSR|[182]
 1 Return the Favor|otj
 1 Runaway Steam-Kin|grn
 1 Runechanter's Pike|isd
 1 Season of Weaving|blb
 1 Seething Anger|sth
-1 Seize the Spoils|khm
-1 Shark Typhoon|otc
-1 Sol Ring|otc
-1 Storm-Kiln Artist|otc
-1 Swiftfoot Boots|lcc
-1 Talrand, Sky Summoner|otc
-1 Tezzeret's Gambit|otc
-1 The Celestus|mid
-1 Thought Vessel|mkc
-1 Treasure Cruise|otc
-1 Unleash Fury|m21
+1 Seize the Spoils|SOS|[129]
+1 Shark Typhoon|FRC|[44]
+1 Sol Ring|LEB|[270]
+1 Storm-Kiln Artist|SOC|[255]
+1 Swiftfoot Boots|TRC|[501]
+1 Talrand, Sky Summoner|TSR|[318]
+1 Tezzeret's Gambit|EOC|[47]
+1 The Celestus|DBL|[252]
+1 Thought Vessel|TRC|[509]
+1 Treasure Cruise|TSR|[319]
+1 Unleash Fury|J25|[608]
 1 Unwind|dom
 1 Wild Ride|tdm
-1 Windfall|otc
+1 Windfall|USG|[111]
 1 Wizard Class|blc
-1 Young Pyromancer|otc
+1 Young Pyromancer|TSR|[353]

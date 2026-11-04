@@ -1,8 +1,8 @@
 [metadata]
 Name=white_dwarf
 [Main]
-11 Mountain|7ED
-2 Disenchant|2ED
+11 Mountain|INR|[294]
+2 Disenchant|MMQ|[18]
 2 Fault Line|USG
 2 Ghitu Slinger|ULG
 2 Jackal Pup|TMP
@@ -10,9 +10,9 @@ Name=white_dwarf
 2 Voice of Truth|NMS
 4 Battlefield Forge|APC
 4 Goblin Legionnaire|APC
-4 Incinerate|5ED
-4 Lightning Bolt|2ED
+4 Incinerate|MIR|[184]
+4 Lightning Bolt|LEB|[162]
 4 Reckless Charge|ODY
-4 Savannah Lions|2ED
+4 Savannah Lions|DMR|[270]
 4 Soltari Trooper|TMP
-8 Plains|7ED
+8 Plains|INR|[288]

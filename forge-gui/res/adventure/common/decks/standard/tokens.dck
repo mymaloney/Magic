@@ -2,21 +2,21 @@
 Name=tokens
 [Main]
 4 Benalish Marshal|GNT|1
-4 Castle Ardenvale|ONC|1
-1 Cathars' Crusade|CM2|1
+4 Castle Ardenvale|TDC|[346]
+1 Cathars' Crusade|INR|[337]
 1 Elspeth Tirel|ONC|1
-4 Esper Sentinel|J21|1
-2 Finale of Glory|WAR|1
-2 Glorious Anthem|M21|1
-2 Hero of Bladehold|MOC|1
-4 Honor of the Pure|M12|1
-3 Intangible Virtue|HA5|1
-2 Martial Coup|V14|1
+4 Esper Sentinel|H2R|[2]
+2 Finale of Glory|CLU|[61]
+2 Glorious Anthem|USG|[15]
+2 Hero of Bladehold|TDC|[119]
+4 Honor of the Pure|MD1|[6]
+3 Intangible Virtue|TSR|[295]
+2 Martial Coup|FRC|[28]
 3 Myrel, Shield of Argive|BRO|1
-7 Plains|WAR|1
-4 Plains|WAR|2
-9 Plains|WAR|3
+7 Plains|INR|[288]
+4 Plains|INR|[288]
+9 Plains|INR|[288]
 4 Precinct Captain|E01|1
-4 Secure the Wastes|DTK|1
+4 Secure the Wastes|FRC|[31]
 [Sideboard]
 [Schemes]

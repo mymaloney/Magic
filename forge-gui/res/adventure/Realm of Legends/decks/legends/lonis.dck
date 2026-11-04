@@ -1,88 +1,88 @@
 [metadata]
 Name=Lonis
 [Commander]
-1 Lonis, Cryptozoologist|mh2
+1 Lonis, Cryptozoologist|MKC|[215]
 [Main]
-1 Academy Manufactor|mh2
-1 Adrix and Nev, Twincasters|c21
-1 Alchemist's Refuge|lcc
+1 Academy Manufactor|BLC|[264]
+1 Adrix and Nev, Twincasters|MKC|[198]
+1 Alchemist's Refuge|SOC|[360]
 1 Altar of the Brood|ktk
-1 Arcane Denial|a25
-1 Bala Ged Recovery|znr
+1 Arcane Denial|ALL|[22a]
+1 Bala Ged Recovery|PIO|[165]
 1 Barkchannel Pathway|khm
-1 Beast Within|cn2
-1 Bootleggers' Stash|snc
-1 Collective Resistance|mh3
-1 Command Tower|c16
-1 Counterspell|cmm
-1 Cultivate|lcc
-1 Demolition Field|bro
-1 Reclamation Sage|scd
-1 Erdwal Illuminator|j22
-1 Eternal Witness|uma
-1 Ethereal Investigator|voc
-1 Fabled Passage|eld
-1 Faerie Artisans|c16
+1 Beast Within|TSR|[357]
+1 Bootleggers' Stash|DRC|[110]
+1 Collective Resistance|FDC|[196]
+1 Command Tower|TRC|[521]
+1 Counterspell|DMR|[281]
+1 Cultivate|SOC|[265]
+1 Demolition Field|FDN|[687]
+1 Reclamation Sage|TSR|[366]
+1 Erdwal Illuminator|MKC|[104]
+1 Eternal Witness|TSR|[361]
+1 Ethereal Investigator|MKC|[105]
+1 Fabled Passage|TRC|[379]
+1 Faerie Artisans|CMM|[92]
 1 Fangren Marauder|mbs
-1 Farseek|c16
+1 Farseek|RVR|[347]
 1 Fleeting Memories|soi
 1 Follow the Bodies|mkc
-10 Forest|gk2|[133]
+10 Forest|INR|[296]
 1 Gala Greeters|snc
-1 Ghostly Flicker|mm3
+1 Ghostly Flicker|CMM|[98]
 1 Glasspool Mimic|znr
-1 Guardian Project|rna
+1 Guardian Project|RVR|[349]
 1 Hedge Maze|mkm
-1 Hinterland Harbor|otc
+1 Hinterland Harbor|DMR|[396]
 1 Innocuous Researcher|mkc
-1 Inspiring Statuary|aer
-8 Island|gk2|[132]
-1 Curse of the Swine|lcc
+1 Inspiring Statuary|MKC|[230]
+8 Island|INR|[290]
+1 Curse of the Swine|SOC|[192]
 1 Forensic Gadgeteer|mkm
 1 Kellan, Inquisitive Prodigy|mkm
 1 Lonis, Genetics Expert|clu
-1 Graf Mole|soi
+1 Graf Mole|MKC|[170]
 1 Briarbridge Patrol|soi
 1 Root Out|moc
-1 Frilled Mystic|rna
-1 Junk Winder|mh2
+1 Frilled Mystic|RVR|[366]
+1 Junk Winder|BLC|[169]
 1 Kappa Cannoneer|mh3
-1 Kodama's Reach|uma
-1 Simic Guildgate|gtc
-1 Lightning Greaves|drc
-1 Nature's Lore|eoc
-1 Nettlecyst|mh2
-1 Ongoing Investigation|soi
-1 Path of Ancestry|c17
-1 Preordain|cmr
-1 Rain-Slicked Copse|ecc
+1 Kodama's Reach|ECC|[113]
+1 Simic Guildgate|RVR|[411]
+1 Lightning Greaves|TRC|[496]
+1 Nature's Lore|DMR|[346]
+1 Nettlecyst|FDC|[275]
+1 Ongoing Investigation|MKC|[114]
+1 Path of Ancestry|TRC|[545]
+1 Preordain|TDC|[161]
+1 Rain-Slicked Copse|SOC|[397]
 1 Rampage of the Clans|rna
-1 Reality Shift|drc
-1 Regrowth|mh1
-1 Reliquary Tower|c16
-1 Sakura-Tribe Elder|chk
+1 Reality Shift|SOC|[199]
+1 Regrowth|LEB|[215]
+1 Reliquary Tower|TRC|[551]
+1 Sakura-Tribe Elder|SOC|[285]
 1 Sarinth Steelseeker|bro
-1 Scavenger Grounds|hou
-1 Scavenging Ooze|c16
-1 Second Harvest|c19
-1 Shimmer Dragon|eld
-1 Simic Growth Chamber|gk2
-1 Skyshroud Claim|cmm
-1 Sodden Verdure|ecc
-1 Sol Ring|blc
-1 Spell Swindle|xln
+1 Scavenger Grounds|FDC|[311]
+1 Scavenging Ooze|FDC|[227]
+1 Second Harvest|INR|[417]
+1 Shimmer Dragon|FDC|[75]
+1 Simic Growth Chamber|DSC|[298]
+1 Skyshroud Claim|NMS|[117]
+1 Sodden Verdure|SOC|[406]
+1 Sol Ring|LEB|[270]
+1 Spell Swindle|MOC|[237]
 1 Stridehangar Automaton|drc
 1 Tangletrove Kelp|mkc
-1 Temple of Mystery|fdn
-1 Thespian's Stage|uma
-1 Thought Vessel|cma
+1 Temple of Mystery|SOC|[414]
+1 Thespian's Stage|RVR|[466]
+1 Thought Vessel|TRC|[509]
 1 Three Steps Ahead|otj
-1 Three Visits|cmr
-1 Tireless Provisioner|mh2
-1 Tireless Tracker|moc
+1 Three Visits|SOC|[289]
+1 Tireless Provisioner|J25|[728]
+1 Tireless Tracker|EOC|[110]
 1 Treasure Vault|drc
 1 Ulvenwald Mysteries|inr
-1 Wavesifter|mh2
-1 Whirler Rogue|ori
-1 Wood Elves|ddr
+1 Wavesifter|MKC|[220]
+1 Whirler Rogue|DRC|[85]
+1 Wood Elves|EXO|[130]
 1 Worldwalker Helm|big

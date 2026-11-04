@@ -1,20 +1,20 @@
 [metadata]
 Name=Rambo 2
 [Main]
-21 Mountain
-4 Vexing Devil
-4 Tattermunge Maniac
-4 Goblin Guide
-3 Jackal Pup
-4 Zurgo Bellstriker
-4 Keldon Marauders
-4 Ash Zealot
-1 Lightning Mauler
-1 Reckless Bushwhacker
-1 Goblin Freerunner
-1 Oxidda Golem
-2 Flame Slash
-2 Mizzium Mortars
-2 Shock
-2 Ghostfire
+21 Mountain|INR|[294]
+4 Vexing Devil|INR|[178]
+4 Tattermunge Maniac|SHM|[219]
+4 Goblin Guide|2XM|[127]
+3 Jackal Pup|TMP|[183]
+4 Zurgo Bellstriker|PIO|[161]
+4 Keldon Marauders|EMA|[136]
+4 Ash Zealot|PIO|[294]
+1 Lightning Mauler|INR|[399]
+1 Reckless Bushwhacker|PIO|[342]
+1 Goblin Freerunner|OGW|[111]
+1 Oxidda Golem|JVC|[46]
+2 Flame Slash|CN2|[157]
+2 Mizzium Mortars|PIO|[376]
+2 Shock|ONS|[227]
+2 Ghostfire|DDT|[40]
 [Sideboard]

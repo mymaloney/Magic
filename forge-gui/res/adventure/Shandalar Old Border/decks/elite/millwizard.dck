@@ -1,20 +1,20 @@
 [metadata]
 Name=millwizard
 [Main]
-13 Island|5ED
+13 Island|INR|[290]
 2 Chill|TMP
 2 Forbid|EXO
-2 Impulse|VIS
-2 Mountain|5ED
-2 Mystical Tutor|MIR
+2 Impulse|DMR|[287]
+2 Mountain|INR|[294]
+2 Mystical Tutor|DMR|[289]
 2 Phyrexian Furnace|WTH
 2 Powder Keg|UDS
 4 Avalanche Riders|ULG
 4 Brainstorm|MMQ
-4 Counterspell|TMP
+4 Counterspell|DMR|[281]
 4 Force Spike|LEG
-4 Hydroblast|5ED
-4 Millstone|5ED
+4 Hydroblast|ICE|[72]
+4 Millstone|ATQ|[56]
 4 Shivan Reef|APC
 4 Thawing Glaciers|ALL
 

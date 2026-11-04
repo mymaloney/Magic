@@ -1,72 +1,72 @@
 [metadata]
 Name=Thalia, Guardian of Thraben
 [Commander]
-1 Thalia, Guardian of Thraben|AVR
+1 Thalia, Guardian of Thraben|DBL|[305]
 [Main]
 1 Alms Collector|CMM
-1 Angel of Invention|KLD
+1 Angel of Invention|TDC|[109]
 1 Angel of Jubilation|AVR
-1 Arcane Signet|MKC
+1 Arcane Signet|TRC|[485]
 1 Archon of Emeria|ZNR
 1 Aura of Silence|WTH
-1 Austere Command|MKC
+1 Austere Command|FDC|[18]
 1 Aven Interrupter|OTJ
-1 Benalish Marshal|DOM
+1 Benalish Marshal|GNT|[8]
 1 Blind Obedience|RVR
-1 Selfless Spirit|EMN
-1 Castle Ardenvale|MKC
-1 Cathar Commando|MID
-1 Cathars' Crusade|JMP
-1 Intrepid Hero|8ED
+1 Selfless Spirit|SOC|[167]
+1 Castle Ardenvale|TDC|[346]
+1 Cathar Commando|INR|[336]
+1 Cathars' Crusade|INR|[337]
+1 Intrepid Hero|USG|[19]
 1 Dauntless Dismantler|LCI
 1 Deafening Silence|ELD
-1 Elesh Norn, Grand Cenobite|NPH
-1 Esper Sentinel|MH2
-1 Farewell|MKC
-1 Fiend Hunter|ISD
-1 Generous Gift|MH1
+1 Elesh Norn, Grand Cenobite|IMA|[18]
+1 Esper Sentinel|H2R|[2]
+1 Farewell|M3C|[170]
+1 Fiend Hunter|INR|[340]
+1 Generous Gift|BLC|[106]
 1 Glowrider|LGN
 1 Grand Abolisher|BIG
-1 Guardian of Faith|AFR
-1 Heraldic Banner|SCD
+1 Guardian of Faith|SOC|[148]
+1 Heraldic Banner|FDN|[254]
 1 Hidden Courtyard|LCI
-1 Imposing Sovereign|M14
+1 Imposing Sovereign|PIO|[18]
 1 Keeper of the Accord|MKC
-1 Knight of the White Orchid|MOC
-1 Land Tax|WOT
-1 Loran of the Third Path|MKC
+1 Knight of the White Orchid|PIO|[21]
+1 Land Tax|LEG|[26]
+1 Loran of the Third Path|TRC|[229]
 1 Loxodon Gatekeeper|RAV
-1 Mangara, the Diplomat|CMM
+1 Mangara, the Diplomat|SOC|[155]
 1 Mass Calcify|M15
-1 Mentor of the Meek|MOC
-1 Mind Stone|MKC
+1 Mentor of the Meek|INR|[345]
+1 Mind Stone|DMR|[385]
 1 Oketra's Monument|DMC
-1 Path to Exile|MKC
-1 Pearl Medallion|MH3
-34 Plains|AVR
-1 Adeline, Resplendent Cathar|MID
+1 Path to Exile|TSR|[299]
+1 Pearl Medallion|TMP|[300]
+34 Plains|INR|[288]
+1 Adeline, Resplendent Cathar|TDC|[108]
 1 Aerial Extortionist|MKC
 1 Inspiring Commander|OANA
-1 Mother of Runes|EMA
+1 Mother of Runes|ULG|[14]
 1 Inquisitor Captain|YMID
-1 Bygone Bishop|SOI
-1 Giver of Runes|MH1
+1 Bygone Bishop|CLB|[689]
+1 Giver of Runes|H1R|[3]
 1 Stalwart Pathlighter|MIC
 1 Captain Eberhart|YMID
-1 Sol Ring|MKC
+1 Sol Ring|LEB|[270]
 1 Spelltithe Enforcer|GPT
 1 Split Up|DSK
-1 Stroke of Midnight|WOE
-1 Swords to Plowshares|MKC
-1 Thalia, Heretic Cathar|SLC
-1 Thorn of Amethyst|BRR
-1 Thraben Watcher|MH2
-1 True Conviction|C14
-1 Vanquish the Horde|MID
+1 Stroke of Midnight|FRC|[35]
+1 Swords to Plowshares|DMR|[275]
+1 Thalia, Heretic Cathar|INR|[351]
+1 Thorn of Amethyst|LRW|[262]
+1 Thraben Watcher|FDC|[54]
+1 True Conviction|SCD|[38]
+1 Vanquish the Horde|TRC|[245]
 1 Vexing Bauble|MH3
 1 Voice of Victory|TDM
-1 Vryn Wingmare|ORI
-1 War Room|MKC
-1 Weathered Wayfarer|2X2
-1 Welcoming Vampire|MKC
+1 Vryn Wingmare|M21|[43]
+1 War Room|SOC|[422]
+1 Weathered Wayfarer|ONS|[59]
+1 Welcoming Vampire|TDC|[140]
 1 Witch Enchanter|MH3

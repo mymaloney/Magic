@@ -1,82 +1,82 @@
 [metadata]
 Name=The Scarab God
 [Commander]
-1 The Scarab God|HOU
+1 The Scarab God|DRC|[120]
 [Main]
 1 Hordewing Skaab|MIC
-1 Arcane Signet|SCD
-1 Army of the Damned|SCD
-1 Bojuka Bog|BRC
-1 Castle Locthwain|CLB
+1 Arcane Signet|TRC|[485]
+1 Army of the Damned|FDC|[85]
+1 Bojuka Bog|TSR|[406]
+1 Castle Locthwain|FDC|[299]
 1 Cavern of Souls|LCI
-1 Cemetery Reaper|SCD
-1 Champion of the Perished|SCD
+1 Cemetery Reaper|DRC|[87]
+1 Champion of the Perished|FDC|[91]
 1 Cleaver Skaab|MIC
-1 Command Tower|SCD
-1 Commander's Sphere|CMM
-1 Corpse Augur|CMM
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Corpse Augur|DRC|[40]
 1 Counterspell|DMR
-1 Cryptbreaker|EMN
-1 Death Baron|MIC
-1 Dimir Aqueduct|BRC
-1 Dimir Signet|SCD
+1 Cryptbreaker|DRC|[41]
+1 Death Baron|FDC|[95]
+1 Dimir Aqueduct|DSC|[270]
+1 Dimir Signet|FRC|[56]
 1 Diregraf Captain|SCD
-1 Diregraf Colossus|MIC
-1 Dread Summons|NCC
+1 Diregraf Colossus|FDC|[96]
+1 Dread Summons|DRC|[90]
 1 Drown in the Loch|CLB
-1 Drowned Catacomb|XLN
+1 Drowned Catacomb|TRC|[376]
 1 Eligeth, Crossroads Augur|CMR
-1 Endless Ranks of the Dead|J22
-1 Exotic Orchard|EOC
-1 Fact or Fiction|WOC
-1 Feed the Swarm|CMM
-1 Fellwar Stone|BRC
+1 Endless Ranks of the Dead|FDC|[97]
+1 Exotic Orchard|TRC|[378]
+1 Fact or Fiction|DMR|[283]
+1 Feed the Swarm|TDC|[180]
+1 Fellwar Stone|DRK|[102]
 1 Field of the Dead|M20
-1 Fleshbag Marauder|SCD
-1 Ghoulcaller Gisa|CMM
-1 Gisa and Geralf|SCD
-1 Gleaming Overseer|SCD
-1 Go for the Throat|J25
-1 Grave Titan|C14
-1 Gravecrawler|J22
-1 Gray Merchant of Asphodel|SCD
-1 Headless Rider|VOW
-9 Island|HOU
+1 Fleshbag Marauder|DRC|[92]
+1 Ghoulcaller Gisa|FDC|[6]
+1 Gisa and Geralf|INR|[237]
+1 Gleaming Overseer|DRC|[116]
+1 Go for the Throat|FDC|[100]
+1 Grave Titan|ECC|[74]
+1 Gravecrawler|INR|[380]
+1 Gray Merchant of Asphodel|TSR|[323]
+1 Headless Rider|FDC|[106]
+9 Island|INR|[290]
 1 Lazotep Plating|SCD
 1 Life's Finale|NPH
-1 Lightning Greaves|SCD
-1 Liliana, Death's Majesty|J22
-1 Lim-Dûl's Vault|MB2
-1 Lord of the Accursed|J22
+1 Lightning Greaves|TRC|[496]
+1 Liliana, Death's Majesty|DRC|[94]
+1 Lim-Dûl's Vault|ALL|[107]
+1 Lord of the Accursed|DRC|[95]
 1 Lord of the Undead|PLS
-1 Midnight Reaper|SCD
+1 Midnight Reaper|DRC|[44]
 1 Mikaeus, the Unhallowed|CMM
-1 Murderous Rider|ELD
+1 Murderous Rider|DRC|[45]
 1 Necroduality|INR
 1 Noxious Ghoul|LGN
-1 Open the Graves|SCD
-1 Patchwork Banner|BLB
-1 Phyrexian Altar|2X2
-1 Phyrexian Arena|ONE
-1 Plague Belcher|AKH
+1 Open the Graves|FDC|[121]
+1 Patchwork Banner|SOC|[353]
+1 Phyrexian Altar|INV|[306]
+1 Phyrexian Arena|APC|[47]
+1 Plague Belcher|DRC|[97]
 1 Relentless Dead|SOI
-1 Rooftop Storm|MIC
-1 Shepherd of Rot|HOP
-1 Sidisi, Undead Vizier|DTK
+1 Rooftop Storm|INR|[83]
+1 Shepherd of Rot|ONS|[168]
+1 Sidisi, Undead Vizier|PIO|[108]
 1 Singularity Rupture|EOE
-1 Sol Ring|SCD
-1 Sphinx of the Second Sun|CMR
-1 Sunken Hollow|SCD
-15 Swamp|HOU
-1 Tainted Isle|CLB
-1 Talisman of Dominance|SCD
-1 Temple of Deceit|SCD
+1 Sol Ring|LEB|[270]
+1 Sphinx of the Second Sun|MKC|[118]
+1 Sunken Hollow|TRC|[407]
+15 Swamp|INR|[292]
+1 Tainted Isle|TOR|[141]
+1 Talisman of Dominance|TRC|[505]
+1 Temple of Deceit|DRC|[176]
 1 Terror Tide|LCI
-1 Toxic Deluge|CMM
+1 Toxic Deluge|MH3|[412]
 1 Training Grounds|MAT
-1 Undead Augur|SCD
+1 Undead Augur|DRC|[100]
 1 Undead Warchief|SCG
-1 Underground River|BRO
-1 Unholy Grotto|PLST
-1 Urborg, Tomb of Yawgmoth|TSR
-1 Zombie Master|6ED
+1 Underground River|ICE|[362]
+1 Unholy Grotto|ONS|[327]
+1 Urborg, Tomb of Yawgmoth|PIO|[118]
+1 Zombie Master|LEB|[138]

@@ -1,7 +1,7 @@
 [metadata]
 Name=Hidden Wall
 [Main]
-24 Plains|USG
+24 Plains|INR|[288]
 4 Shield Sphere|ALL
 4 Shifting Wall|STH
 4 Wall of Swords|POR
@@ -11,6 +11,6 @@ Name=Hidden Wall
 2 Fortified Area|LEG
 2 Wall of Nets|EXO
 4 Ageless Sentinels|SCG
-2 Living Wall|LEA
+2 Living Wall|LEB|[259]
 2 Retribution of the Meek|VIS
 2 Crackdown|MMQ

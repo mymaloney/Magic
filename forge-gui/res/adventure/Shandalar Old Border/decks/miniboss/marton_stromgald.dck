@@ -1,11 +1,11 @@
 [metadata]
 Name=Márton Stromgald
 [Main]
-20 Mountain|ICE
-4 Gauntlet of Might|LEA
+20 Mountain|INR|[294]
+4 Gauntlet of Might|LEB|[245]
 4 Firecat Blitz|JUD
 4 Goblin Offensive|USG
-4 Siege-Gang Commander|SCG
+4 Siege-Gang Commander|DMR|[330]
 2 Mogg Infestation|STH
 2 War Cadence|MMQ
 2 Mercadia's Downfall|MMQ
@@ -22,4 +22,4 @@ Name=Márton Stromgald
 1 Agent of Stromgald|ALL
 1 Stromgald Cabal|ICE
 1 Knight of Stromgald|ICE
-1 Ebony Horse|3ED
+1 Ebony Horse|ARN|[62]

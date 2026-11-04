@@ -1,7 +1,7 @@
 [metadata]
 Name=Lin Sivvi
 [Main]
-30 Plains|PALP
+30 Plains|INR|[288]
 4 Kor Haven|NMS
 1 Ramosian Sergeant|MMQ
 1 Defiant Falcon|NMS
@@ -31,11 +31,11 @@ Name=Lin Sivvi
 4 Glorious Anthem|USG
 4 Shared Triumph|ONS
 4 Harsh Mercy|ONS
-4 Disenchant|LEA
-4 Swords to Plowshares|LEA
+4 Disenchant|MMQ|[18]
+4 Swords to Plowshares|DMR|[275]
 2 Coat of Arms|EXO
 
 [StartInBattle_Reference]
-1 Plains|PALP
+1 Plains|INR|[288]
 1 Lin Sivvi, Defiant Hero|NMS
 1 Cho-Manno, Revolutionary|MMQ

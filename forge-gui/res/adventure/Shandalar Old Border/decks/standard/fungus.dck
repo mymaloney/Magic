@@ -1,8 +1,8 @@
 [metadata]
 Name=fungus
 [Main]
-20 Forest|MMQ|2
-4 Wild Growth|ICE
+20 Forest|INR|[296]
+4 Wild Growth|DMR|[352]
 1 Thallid|FEM|1
 1 Thallid|FEM|2
 1 Thallid|FEM|3
@@ -20,8 +20,8 @@ Name=fungus
 2 Mindbender Spores|MIR
 2 Fungal Bloom|FEM
 2 Sporogenesis|USG
-4 Creeping Mold|7ED
-1 Saproling Symbiosis|INV
+4 Creeping Mold|VIS|[103]
+1 Saproling Symbiosis|DMR|[348]
 1 Spontaneous Generation|MMQ
 1 Saproling Burst|NMS
 1 Nemata, Grove Guardian|PLS

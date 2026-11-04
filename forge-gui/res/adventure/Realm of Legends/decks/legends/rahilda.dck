@@ -3,65 +3,65 @@ Name=Rahilda
 [Commander]
 1 Rahilda, Wanted Cutthroat|ymid
 [Main]
-38 Mountain|mid
-1 Ballista Watcher|vow
+38 Mountain|INR|[294]
+1 Ballista Watcher|DBL|[410]
 1 Breakneck Rider|soi
 1 Afflicted Deserter|dka
 1 Conduit of Storms|inr
-1 Fangblade Brigand|mid
-1 Fearful Villager|vow
+1 Fangblade Brigand|DBL|[139]
+1 Fearful Villager|DBL|[424]
 1 Geier Reach Bandit|inr
-1 Ill-Tempered Loner|vow
+1 Ill-Tempered Loner|DBL|[429]
 1 Instigator Gang|isd
 1 Kessig Forgemaster|soi
 1 Kruin Outlaw|inr
-1 Lambholt Raconteur|vow
+1 Lambholt Raconteur|DBL|[434]
 1 Mondronen Shaman|dka
-1 Reckless Stormseeker|mid
-1 Swiftfoot Boots|scd
-1 Fervor|10e
+1 Reckless Stormseeker|DBL|[157]
+1 Swiftfoot Boots|TRC|[501]
+1 Fervor|WTH|[99]
 1 Reckless Waif|isd
 1 Smoldering Werewolf|inr
-1 Spellrune Painter|mid
-1 Village Watch|mid
-1 Volatile Arsonist|vow
-1 Arcane Signet|voc
-1 Sol Ring|voc
-1 Ruby Medallion|mh3
-1 Lightning Bolt|m10
+1 Spellrune Painter|DBL|[160]
+1 Village Watch|DBL|[165]
+1 Volatile Arsonist|DBL|[448]
+1 Arcane Signet|TRC|[485]
+1 Sol Ring|LEB|[270]
+1 Ruby Medallion|TMP|[305]
+1 Lightning Bolt|LEB|[162]
 1 Rush of Blood|avr
-1 Unleash Fury|m21
-1 Relentless Assault|10e
+1 Unleash Fury|J25|[608]
+1 Relentless Assault|PO2|[115]
 1 Taurean Mauler|tdc
 1 Assembled Alphas|emn
 1 Bloodrage Alpha|ymid
-1 Shared Animosity|lcc
+1 Shared Animosity|TRC|[295]
 1 Fearless Pup|khm
 1 Hungry Ridgewolf|inr
 1 Pyreheart Wolf|dka
 1 Runebound Wolf|inr
 1 Scourge Wolf|soi
 1 Wolf of Devil's Breach|soi
-1 Descendants' Fury|cmm
-1 Vanquisher's Banner|lcc
-1 Temur Battle Rage|ktk
+1 Descendants' Fury|ECC|[93]
+1 Vanquisher's Banner|TSR|[402]
+1 Temur Battle Rage|TSR|[351]
 1 Kindred Charge|c17
 1 Heraldic Banner|fdn
-1 Patchwork Banner|blb
-1 Endless Atlas|c18
-1 Goblin War Drums|a25
-1 Chaos Warp|cmd
-1 Blasphemous Act|c18
-1 Mizzium Mortars|rtr
-1 Abrade|tdc
+1 Patchwork Banner|SOC|[353]
+1 Endless Atlas|FDC|[256]
+1 Goblin War Drums|FEM|[58a]
+1 Chaos Warp|MBC|[72]
+1 Blasphemous Act|SOC|[238]
+1 Mizzium Mortars|PIO|[376]
+1 Abrade|TRC|[449]
 1 Untimely Malfunction|dsk
 1 Monstrous Rage|woe
 1 Guff Rewrites History|cmm
-1 Brute Strength|tsr
-1 Loxodon Warhammer|mrd
-1 Infuriate|thb
-1 Lunar Frenzy|mid
+1 Brute Strength|J25|[528]
+1 Loxodon Warhammer|ONC|[135]
+1 Infuriate|J25|[565]
+1 Lunar Frenzy|DBL|[147]
 1 Uncaged Fury|inr
-1 Smash to Smithereens|ori
+1 Smash to Smithereens|PIO|[343]
 1 Seismic Strike|m15
 1 Granite Grip|ulg

@@ -3,79 +3,79 @@ Name=Licia
 [Commander]
 1 Licia, Sanguine Tribune|c17
 [Main]
-1 Always Watching|soi
+1 Always Watching|FDC|[10]
 1 Anowon, the Ruin Sage|voc
-1 Arcane Signet|voc
+1 Arcane Signet|TRC|[485]
 1 Arterial Alchemy|voc
 1 Baron Bertram Graywater|otj
-1 Battlefield Forge|bro
+1 Battlefield Forge|APC|[139]
 1 Bishop of Rebirth|xln
-1 Blade of the Bloodchief|zen
-1 Bloodlord of Vaasgoth|c17
-1 Bloodthirsty Aerialist|m20
-1 Bloodvial Purveyor|vow
-1 Boros Charm|ncc
-1 Caves of Koilos|dmu
-1 Command Tower|scd
-1 Commander's Sphere|scd
-1 Concealed Courtyard|kld
-1 Vampire Nighthawk|c21
+1 Blade of the Bloodchief|LCC|[300]
+1 Bloodlord of Vaasgoth|VOC|[121]
+1 Bloodthirsty Aerialist|J25|[409]
+1 Bloodvial Purveyor|DBL|[365]
+1 Boros Charm|FDN|[721]
+1 Caves of Koilos|APC|[140]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Concealed Courtyard|OTJ|[268]
+1 Vampire Nighthawk|FDN|[186]
 1 Cosmos Elixir|khm
-1 Crib Swap|2xm
+1 Crib Swap|ECL|[11]
 1 Crippling Fear|scd
-1 Cryptolith Fragment|emn
-1 Dominating Vampire|vow
-1 Etchings of the Chosen|mh1
-1 Evolving Wilds|j22
-1 Falkenrath Gorger|voc
+1 Cryptolith Fragment|INR|[472]
+1 Dominating Vampire|DBL|[421]
+1 Etchings of the Chosen|LCC|[269]
+1 Evolving Wilds|TRC|[527]
+1 Falkenrath Gorger|INR|[152]
 1 Fate Forgotten|dtk
-1 Feast of Blood|zen
-1 Felisa, Fang of Silverquill|c21
-1 Field of Ruin|mid
-1 Talisman of Conviction|tdc
-1 Gifted Aetherborn|jmp
-1 Glass-Cast Heart|voc
-1 Secluded Courtyard|neo
-1 Greed|mh2
-1 Indulgent Aristocrat|voc
+1 Feast of Blood|J22|[118]
+1 Felisa, Fang of Silverquill|CLB|[845]
+1 Field of Ruin|TSR|[407]
+1 Talisman of Conviction|TRC|[503]
+1 Gifted Aetherborn|GN3|[52]
+1 Glass-Cast Heart|LCC|[199]
+1 Secluded Courtyard|ECC|[62]
+1 Greed|LEG|[101]
+1 Indulgent Aristocrat|INR|[384]
 1 Knight of the Ebon Legion|m20
-1 Legion Lieutenant|rix
-1 Malakir Bloodwitch|c17
+1 Legion Lieutenant|LCC|[275]
+1 Malakir Bloodwitch|VOC|[131]
 1 Markov Baron|mat
-1 Markov Enforcer|voc
-1 Markov Purifier|vow
-1 Mavren Fein, Dusk Apostle|xln
-1 Mortify|e02
-6 Mountain|c17
-1 Myriad Landscape|scd
-1 Nomad Outpost|dmc
-1 Olivia's Attendants|vow
-1 Olivia's Wrath|voc
-1 Path of Ancestry|scd
-6 Plains|c17
-1 Pointed Discussion|vow
+1 Markov Enforcer|J25|[575]
+1 Markov Purifier|DBL|[508]
+1 Mavren Fein, Dusk Apostle|LCC|[133]
+1 Mortify|TSR|[381]
+6 Mountain|INR|[294]
+1 Myriad Landscape|EOC|[169]
+1 Nomad Outpost|TRC|[544]
+1 Olivia's Attendants|DBL|[439]
+1 Olivia's Wrath|LCC|[205]
+1 Path of Ancestry|TRC|[545]
+6 Plains|INR|[288]
+1 Pointed Discussion|DBL|[393]
 1 Raise the Draugr|khm
-1 Talisman of Hierarchy|tdc
-1 Sanguine Bond|c17
-1 Sol Ring|moc
-1 Sorin the Mirthless|vow
-1 Stensia Masquerade|voc
+1 Talisman of Hierarchy|TRC|[506]
+1 Sanguine Bond|TSR|[330]
+1 Sol Ring|LEB|[270]
+1 Sorin the Mirthless|DBL|[398]
+1 Stensia Masquerade|INR|[172]
 1 Stinging Study|c21
 1 Strefan, Maurer Progenitor|voc
-14 Swamp|c17
-1 Tainted Field|c15
-1 Talisman of Indulgence|scd
+14 Swamp|INR|[292]
+1 Tainted Field|TOR|[140]
+1 Talisman of Indulgence|TRC|[507]
 1 Terminal Agony|mh2
-1 Terramorphic Expanse|brc
-1 Thriving Bluff|j22
-1 Timothar, Baron of Bats|voc
-1 Unclaimed Territory|xln
-1 Urge to Feed|e02
-1 Vampire Nighthawk|e02
-1 Vampire of the Dire Moon|m20
-1 Vampire Socialite|mid
-1 Vanquisher's Banner|xln
+1 Terramorphic Expanse|TRC|[571]
+1 Thriving Bluff|ECC|[170]
+1 Timothar, Baron of Bats|LCC|[210]
+1 Unclaimed Territory|ECC|[175]
+1 Urge to Feed|J25|[502]
+1 Vampire Nighthawk|FDN|[186]
+1 Vampire of the Dire Moon|J25|[504]
+1 Vampire Socialite|DBL|[249]
+1 Vanquisher's Banner|TSR|[402]
 1 Verrak, Warped Sengir|dmc
-1 Stromkirk Captain|dka
-1 Vona, Butcher of Magan|xln
+1 Stromkirk Captain|VOC|[157]
+1 Vona, Butcher of Magan|LCC|[293]
 1 Zagras, Thief of Heartbeats|znr

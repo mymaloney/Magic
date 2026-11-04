@@ -3,24 +3,24 @@ Name=Adventure - INN Low Werewolves
 [Avatar]
 
 [Main]
-2 Wandering Wolf|AVR|1
-1 Packsong Pup|VOW|1
-1 Ulrich's Kindred|SOI|1
-2 Honored Heirloom|VOW|1
+2 Wandering Wolf|BBD|[216]
+1 Packsong Pup|J22|[703]
+1 Ulrich's Kindred|INR|[176]
+2 Honored Heirloom|DBL|[524]
 2 Hinterland Hermit|DKA|1
-2 Hinterland Logger|SOI|1
+2 Hinterland Logger|INR|[203]
 1 Immerwolf|DKA|1
 1 Full Moon's Rise|ISD|1
-2 Sure Strike|VOW|1
-1 Ballista Watcher|VOW|1
-1 Child of the Pack|VOW|1
+2 Sure Strike|FDN|[209]
+1 Ballista Watcher|DBL|[410]
+1 Child of the Pack|DBL|[501]
 2 Caravan Vigil|ISD|1
 1 Convicted Killer|SOI|1
-8 Forest|SOI|1
-4 Evolving Wilds|MID|1
-6 Mountain|ISD|1
-1 Mayor of Avabruck|ISD|1
-2 Duel for Dominance|MID|1
+8 Forest|INR|[296]
+4 Evolving Wilds|TRC|[527]
+6 Mountain|INR|[294]
+1 Mayor of Avabruck|INR|[207]
+2 Duel for Dominance|INR|[192]
 [Sideboard]
 
 [Planes]

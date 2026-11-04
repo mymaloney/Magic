@@ -1,75 +1,75 @@
 [metadata]
 Name=Dina
 [Commander]
-1 Dina, Soul Steeper|stx
+1 Dina, Soul Steeper|SOC|[305]
 [Main]
 1 Barrier Breach|iko
-1 Bastion of Remembrance|iko
-1 Beledros Witherbloom|blc
-1 Blight Mound|c21
-1 Blood Artist|avr
-1 Blossoming Bogbeast|c21
+1 Bastion of Remembrance|TDC|[171]
+1 Beledros Witherbloom|SOC|[296]
+1 Blight Mound|SOC|[208]
+1 Blood Artist|INR|[372]
+1 Blossoming Bogbeast|SOC|[264]
 1 Rushed Rebirth|stx
-1 Witherbloom Command|stx
-1 Bontu's Monument|akh
-1 Cauldron of Souls|c16
+1 Witherbloom Command|SOC|[339]
+1 Bontu's Monument|DRC|[124]
+1 Cauldron of Souls|CM2|[180]
 1 Claws of Gix|usg
-1 Deathgreeter|ala
-1 Deathrite Shaman|rtr
-1 Demon's Horn|dst
-1 Dross Harvester|mrd
-1 Epicure of Blood|c21
-1 Essence Warden|plc
-1 Evolving Wilds|blc
-1 Falkenrath Noble|jmp
-1 Farhaven Elf|khc
-17 Forest|stx
-1 Golgari Germination|rav
+1 Deathgreeter|GVL|[33]
+1 Deathrite Shaman|RVR|[363]
+1 Demon's Horn|DVD|[57]
+1 Dross Harvester|CLB|[750]
+1 Epicure of Blood|J25|[435]
+1 Essence Warden|CMA|[106]
+1 Evolving Wilds|TRC|[527]
+1 Falkenrath Noble|J25|[441]
+1 Farhaven Elf|SCD|[182]
+17 Forest|INR|[296]
+1 Golgari Germination|MM3|[167]
 1 Gourmand's Talent|blc
-1 Gray Merchant of Asphodel|thb
-1 Greed|c21
-1 Grim Backwoods|c20
-1 High Market|c21
+1 Gray Merchant of Asphodel|TSR|[323]
+1 Greed|LEG|[101]
+1 Grim Backwoods|SOC|[377]
+1 High Market|MMQ|[320]
 1 Infuse with Vitality|stx
-1 Jungle Hollow|ktk
-1 Marauding Blight-Priest|znr
-1 Moldervine Reclamation|c21
-1 Mortality Spear|stx
+1 Jungle Hollow|TDM|[258]
+1 Marauding Blight-Priest|FDN|[178]
+1 Moldervine Reclamation|SOC|[320]
+1 Mortality Spear|SOC|[321]
 1 Night Soil|fem
 1 Paradise Plume|c21
-1 Pest Infestation|c21
-1 Poison-Tip Archer|khc
+1 Pest Infestation|SOC|[282]
+1 Poison-Tip Archer|BLC|[256]
 1 Powerleech|atq
 1 Pristine Talisman|c21
-1 Putrefy|sta
-1 Rampant Growth|10e
-1 Reclamation Sage|khc
+1 Putrefy|RVR|[378]
+1 Rampant Growth|TMP|[245]
+1 Reclamation Sage|TSR|[366]
 1 Revenge of Ravens|eld
-1 Sakura-Tribe Elder|c19
-1 Sangromancer|c21
-1 Sanguine Bond|c21
+1 Sakura-Tribe Elder|SOC|[285]
+1 Sangromancer|J25|[122]
+1 Sanguine Bond|TSR|[330]
 1 Sapseep Forest|c21
-1 Savra, Queen of the Golgari|rav
-1 Scavenging Ooze|pdp14
+1 Savra, Queen of the Golgari|RVR|[381]
+1 Scavenging Ooze|FDC|[227]
 1 Silversmote Ghoul|c21
-1 Skullclamp|c16
-1 Sol Ring|cmr
+1 Skullclamp|TRC|[354]
+1 Sol Ring|LEB|[270]
 1 Starscape Cleric|blb
 1 Sun Droplet|c21
-14 Swamp|stx
+14 Swamp|INR|[292]
 1 Tablet of the Guilds|rtr
-1 Terramorphic Expanse|blc
+1 Terramorphic Expanse|TRC|[571]
 1 Trespasser's Curse|akh
-1 Trudge Garden|c21
+1 Trudge Garden|SOC|[290]
 1 Valentin, Dean of the Vein|stx
-1 Vampiric Rites|bfz
-1 Veinwitch Coven|c21
-1 Vindictive Vampire|rna
-1 Well of Lost Dreams|dst
-1 Witch of the Moors|plst
-1 Woe Strider|blc
-1 Wood Elves|khc
-1 Wurm's Tooth|m11
+1 Vampiric Rites|FDN|[615]
+1 Veinwitch Coven|SOC|[228]
+1 Vindictive Vampire|RVR|[330]
+1 Well of Lost Dreams|C21|[275]
+1 Witch of the Moors|SOC|[230]
+1 Woe Strider|SOC|[231]
+1 Wood Elves|EXO|[130]
+1 Wurm's Tooth|M12|[223]
 1 Yavimaya Granger|ulg
-1 Zulaport Cutthroat|bfz
+1 Zulaport Cutthroat|TSR|[337]
 1 Zuran Orb|ice

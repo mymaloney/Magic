@@ -4,74 +4,74 @@ Name=Ygra, Eater of All
 1 Ygra, Eater of All|BLB
 [Main]
 1 Academy Manufactor|BLC
-1 Awakening Zone|CMD
-1 Bane of Progress|CC1
-1 Birds of Paradise|BLC
+1 Awakening Zone|SOC|[262]
+1 Bane of Progress|ECC|[99]
+1 Birds of Paradise|RVR|[344]
 1 Black Market Connections|LCC
 1 Camellia, the Seedmiser|BLB
-1 Cauldron Familiar|ELD
-1 Chatterfang, Squirrel General|BLC
+1 Cauldron Familiar|JMP|[216]
+1 Chatterfang, Squirrel General|MH2|[410]
 1 Creeping Corrosion|MBS
-1 Cultivate|CMM
+1 Cultivate|SOC|[265]
 1 Dark Ritual|MMQ
 1 Disciple of the Vault|2XM
-1 Exotic Orchard|BLC
+1 Exotic Orchard|TRC|[378]
 1 Experimental Confectioner|WOE
 1 Fade from History|BRO
 1 Fanatic of Rhonas|MH3
 1 Fangren Marauder|MBS
-1 Fatal Push|AER
+1 Fatal Push|2XM|[93]
 1 Fell|BLB
-20 Forest|BLB
-1 Gilded Goose|BLC
+20 Forest|INR|[296]
+1 Gilded Goose|SOC|[269]
 1 Greta, Sweettooth Scourge|WOE
-1 Hardened Scales|WOT
+1 Hardened Scales|SOC|[272]
 1 Heroic Intervention|CMM
 1 Honored Dreyleader|BLB
 1 Innkeeper's Talent|BLB
-1 Kill Switch|NEM
+1 Kill Switch|NMS|[133]
 1 Kona, Rescue Beastie|DSK
-1 Lightning Greaves|OTC
-1 Llanowar Elves|GN3
-1 Llanowar Wastes|DSC
+1 Lightning Greaves|TRC|[496]
+1 Llanowar Elves|LEB|[211]
+1 Llanowar Wastes|APC|[141]
 1 Manglehorn|AKH
 1 Night of the Sweets' Revenge|WOE
 1 Ouroboroid|EOE
-1 Overgrown Tomb|RTR
-1 Path of Ancestry|BLC
-1 Pattern of Rebirth|UMA
+1 Overgrown Tomb|RVR|[407]
+1 Path of Ancestry|TRC|[545]
+1 Pattern of Rebirth|UDS|[115]
 1 Pawpatch Formation|BLB
 1 Rancor|ULG
-1 Reclamation Sage|CMR
+1 Reclamation Sage|TSR|[366]
 1 Ring of Kalonia|M13
 1 Rottenmouth Viper|BLB
-1 Whispersilk Cloak|DST
-1 Sol Ring|M3C
-9 Swamp|BLB
-1 Command Tower|BLC
-1 Swiftfoot Boots|LCC
+1 Whispersilk Cloak|DSC|[257]
+1 Sol Ring|LEB|[270]
+9 Swamp|INR|[292]
+1 Command Tower|TRC|[521]
+1 Swiftfoot Boots|TRC|[501]
 1 Seeds of Innocence|MIR
 1 Liquimetal Torque|MH2
-1 Liquimetal Coating|C14
-1 Nature's Claim|IMA
+1 Liquimetal Coating|CM2|[197]
+1 Nature's Claim|TSR|[364]
 1 Maha, Its Feathers Night|BLB
 1 Wear Down|BLB
 1 Lumra, Bellow of the Woods|BLB
 1 Dauthi Embrace|TMP
 1 Shadowspear|THB
-1 Phyrexian Arena|FDN
-1 Assassin's Trophy|MKM
+1 Phyrexian Arena|APC|[47]
+1 Assassin's Trophy|SOC|[294]
 1 Fell the Profane|MH3
-1 Putrefy|MM3
+1 Putrefy|RVR|[378]
 1 Tarrian's Soulcleaver|LCI
 1 Thornvault Forager|BLB
-1 Thunderfoot Baloth|C14
-1 Tireless Provisioner|BLC
+1 Thunderfoot Baloth|DSC|[201]
+1 Tireless Provisioner|J25|[728]
 1 Trailblazer's Boots|OTC
 1 Traverse the Outlands|CLB
-1 Twilight Mire|BLC
+1 Twilight Mire|SOC|[418]
 1 Twitching Doll|DSK
-1 Uncharted Haven|BLB
+1 Uncharted Haven|FDN|[564]
 1 Verdant Catacombs|MH2
 1 Vraska, Golgari Queen|GRN
-1 Woodland Cemetery|ISD
+1 Woodland Cemetery|DMR|[401]

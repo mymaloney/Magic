@@ -3,86 +3,86 @@ Name=Voja
 [Commander]
 1 Voja, Jaws of the Conclave|mkm
 [Main]
-1 Abrade|cmr
+1 Abrade|TRC|[449]
 1 Anara, Wolvid Familiar|cmr
-1 Angelfire Ignition|mid
+1 Angelfire Ignition|INR|[229]
 1 Annie Joins Up|otj
-1 Arcane Signet|clb
-1 Arlinn, Voice of the Pack|war
+1 Arcane Signet|TRC|[485]
+1 Arlinn, Voice of the Pack|J22|[85]
 1 Armadillo Cloak|inv
-1 Ascendant Packleader|vow
-1 Ash Barrens|ncc
-1 Wren's Run Packmaster|lrw
-1 Bounding Wolf|mid
+1 Ascendant Packleader|DBL|[453]
+1 Ash Barrens|TDC|[339]
+1 Wren's Run Packmaster|CMA|[171]
+1 Bounding Wolf|J22|[633]
 1 Cabaretti Charm|snc
-1 Child of the Pack|vow
-1 Cinder Glade|ncc
-1 Command Tower|ncc
+1 Child of the Pack|DBL|[501]
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
 1 Crawling Barrens|fdn
-1 Cultivate|cmr
-1 Dire-Strain Rampage|mid
+1 Cultivate|SOC|[265]
+1 Dire-Strain Rampage|DBL|[219]
 1 Wolf-Skull Shaman|mor
-1 Elvish Mystic|cmm
-1 Emmara Tandris|dgm
-1 Exotic Orchard|ncc
-1 Ferocious Pup|m20
-13 Forest|mkm
-1 Gaea's Anthem|plc
-1 Gruul Turf|clb
-1 Guardian Project|rna
-1 Heroic Intervention|m21
+1 Elvish Mystic|TSR|[360]
+1 Emmara Tandris|C19|[191]
+1 Exotic Orchard|TRC|[378]
+1 Ferocious Pup|J22|[659]
+13 Forest|INR|[296]
+1 Gaea's Anthem|TSR|[204]
+1 Gruul Turf|ECC|[152]
+1 Guardian Project|RVR|[349]
+1 Heroic Intervention|CMM|[295]
 1 Hollowhenge Overlord|voc
 1 Huntmaster of the Fells|inr
-1 Intangible Virtue|ncc
+1 Intangible Virtue|TSR|[295]
 1 Chomping Changeling|ecl
 1 Grand Warlord Radha|dom
-1 Kodama's Reach|ncc
-1 Llanowar Elves|10e
-1 Lys Alana Huntmaster|ema
+1 Kodama's Reach|ECC|[113]
+1 Llanowar Elves|LEB|[211]
+1 Lys Alana Huntmaster|J22|[686]
 1 Masked Vandal|khm
-1 Maskwood Nexus|khm
-1 Master of the Wild Hunt|a25
+1 Maskwood Nexus|DRC|[132]
+1 Master of the Wild Hunt|J22|[688]
 1 Immerwolf|dka
-1 Mirror Entity|clb
+1 Mirror Entity|TSR|[297]
 1 Tolsimir, Friend to Wolves|war
-3 Mountain|mkm
-1 Myriad Landscape|ncc
-1 Nature's Lore|clb
-1 Mina and Denn, Wildborn|ogw
+3 Mountain|INR|[294]
+1 Myriad Landscape|EOC|[169]
+1 Nature's Lore|DMR|[346]
+1 Mina and Denn, Wildborn|ZNC|[94]
 1 Moonlight Hunt|inr
 1 Howlpack Resurgence|inr
-1 Beast Whisperer|clu
-1 Beast Within|blc
-1 Needle Spires|znc
-1 Nightpack Ambusher|pm20
+1 Beast Whisperer|TSR|[356]
+1 Beast Within|TSR|[357]
+1 Needle Spires|PIO|[270]
+1 Nightpack Ambusher|J22|[696]
 1 Obuun, Mul Daya Ancestor|znc
 1 Overgrown Zealot|dsk
-1 Chaos Warp|blc
-1 Packsong Pup|vow
-1 Path of Ancestry|afc
-3 Plains|mkm
+1 Chaos Warp|MBC|[72]
+1 Packsong Pup|J22|[703]
+1 Path of Ancestry|TRC|[545]
+3 Plains|INR|[288]
 1 Pyreheart Wolf|dka
 1 Radha, Heart of Keld|m21
-1 Radiant Grove|dmu
-1 Raging Ravine|clb
-1 Reclamation Sage|cmr
-1 Reliquary Tower|dmc
+1 Radiant Grove|TDC|[385]
+1 Raging Ravine|ECC|[160]
+1 Reclamation Sage|TSR|[366]
+1 Reliquary Tower|TRC|[551]
 1 Restless Bivouac|woe
-1 Riveteers Overlook|snc
+1 Riveteers Overlook|ECC|[162]
 1 Sarulf's Packmate|khm
-1 Scorned Villager|dka
+1 Scorned Villager|INR|[468]
 1 Silverfur Partisan|soi
-1 Sol Ring|moc
-1 Spinerock Knoll|ncc
-1 Swiftfoot Boots|voc
-1 Taurean Mauler|cm2
-1 Tolsimir Wolfblood|rav
+1 Sol Ring|LEB|[270]
+1 Spinerock Knoll|FDC|[314]
+1 Swiftfoot Boots|TRC|[501]
+1 Taurean Mauler|TDC|[238]
+1 Tolsimir Wolfblood|RVR|[387]
 1 Tolsimir, Midnight's Light|mkm
-1 Tovolar, Dire Overlord|mid
-1 Tovolar's Huntmaster|mid
-1 Tundra Wolves|4ed
-1 Vivien, Champion of the Wilds|war
+1 Tovolar, Dire Overlord|DBL|[246]
+1 Tovolar's Huntmaster|DBL|[204]
+1 Tundra Wolves|LEG|[40]
+1 Vivien, Champion of the Wilds|CLB|[838]
 1 Wild Hunger|inr
-1 Windbrisk Heights|ncc
-1 Wood Elves|ncc
-1 Yeva, Nature's Herald|m13
+1 Windbrisk Heights|TDC|[411]
+1 Wood Elves|EXO|[130]
+1 Yeva, Nature's Herald|FDC|[242]

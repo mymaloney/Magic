@@ -2,103 +2,103 @@
 Name=Thrasios and Vial Smasher
 [Commander]
 1 Thrasios, Triton Hero|c16
-1 Vial Smasher the Fierce|c16
+1 Vial Smasher the Fierce|DSC|[239]
 [Main]
-1 Aminatou's Augury|c18
-1 Arcane Signet|cmm
-1 Blood Crypt|rna
+1 Aminatou's Augury|DSC|[71]
+1 Arcane Signet|TRC|[485]
+1 Blood Crypt|RVR|[397]
 1 Bloodstained Mire|mh3
-1 Brash Taunter|m21
-1 Breeding Pool|rna
-1 City of Brass|2x2
-1 Combustible Gearhulk|c21
-1 Command Tower|cmm
+1 Brash Taunter|DSC|[161]
+1 Breeding Pool|RVR|[399]
+1 City of Brass|ARN|[71]
+1 Combustible Gearhulk|DRC|[102]
+1 Command Tower|TRC|[521]
 1 Commercial District|mkm
-1 Commit|akh
-1 Blasphemous Act|c18
+1 Commit|LCC|[147]
+1 Blasphemous Act|SOC|[238]
 1 Fury Storm|c18
 1 Genesis Storm|c18
 1 Doppelgang|mkm
-1 Mana Drain|2x2
-1 Force of Will|vma
+1 Mana Drain|LEG|[65]
+1 Force of Will|DMR|[284]
 1 Fierce Guardianship|cmm
-1 Beast Within|nph
-1 Chaos Warp|cmd
-1 Cyclonic Rift|cmm
-1 Deadly Rollick|c20
-1 Deathcap Glade|vow
-1 Decree of Pain|blc
-1 Dig Through Time|c21
-1 Double Vision|m21
-1 Dragonskull Summit|m13
-1 Dreamroot Cascade|vow
-1 Drowned Catacomb|xln
-1 Exotic Orchard|c19
-1 Farseek|c19
+1 Beast Within|TSR|[357]
+1 Chaos Warp|MBC|[72]
+1 Cyclonic Rift|RVR|[313]
+1 Deadly Rollick|CMM|[147]
+1 Deathcap Glade|SOS|[253]
+1 Decree of Pain|SCG|[64]
+1 Dig Through Time|SOC|[195]
+1 Double Vision|NCC|[267]
+1 Dragonskull Summit|TRC|[375]
+1 Dreamroot Cascade|SOS|[254]
+1 Drowned Catacomb|TRC|[376]
+1 Exotic Orchard|TRC|[378]
+1 Farseek|RVR|[347]
 1 Field of the Dead|m20
 1 Gilanra, Caller of Wirewood|cmr
 1 Glarb, Calamity's Augur|blb
-1 Haunted Ridge|mid
+1 Haunted Ridge|FRA|[180]
 1 Hedge Maze|mkm
-1 Hinterland Harbor|dom
-1 Hour of Promise|hou
+1 Hinterland Harbor|DMR|[396]
+1 Hour of Promise|M3C|[232]
 1 Ill-Timed Explosion|mkm
-1 Imoti, Celebrant of Bounty|mul
-1 In Garruk's Wake|c19
-1 Kaervek the Merciless|tsr
-1 Keen Duelist|c21
-1 Badlands|vma
-1 Magma Opus|stx
+1 Imoti, Celebrant of Bounty|CMR|[280]
+1 In Garruk's Wake|CLB|[759]
+1 Kaervek the Merciless|DSC|[222]
+1 Keen Duelist|SOC|[218]
+1 Badlands|LEB|[278]
+1 Magma Opus|SOC|[318]
 1 Make Your Own Luck|otj
 1 Misty Rainforest|mh2
-1 Underground Sea|VMA
+1 Underground Sea|LEB|[286]
 1 Murderous Cut|ktk
 1 Nature's Lore|dmr
-1 Obscuring Haze|c20
-1 Omniscience|m13
-1 Overgrown Tomb|rtr
-1 Ovika, Enigma Goliath|one
-1 Polluted Delta|zne
+1 Obscuring Haze|CMM|[308]
+1 Omniscience|FDN|[161]
+1 Overgrown Tomb|RVR|[407]
+1 Ovika, Enigma Goliath|FDN|[663]
+1 Polluted Delta|MH3|[438]
 1 Protection Racket|ncc
 1 Rakshasa's Bargain|tdm
 1 Raucous Theater|mkm
-1 Rejuvenating Springs|cmr
-1 Rockfall Vale|mid
+1 Rejuvenating Springs|CMM|[424]
+1 Rockfall Vale|FRA|[186]
 1 Scholar of the Lost Trove|jmp
-1 Seedborn Muse|c19
-1 Shipwreck Marsh|mid
+1 Seedborn Muse|LGN|[138]
+1 Shipwreck Marsh|FRA|[189]
 1 Skull Storm|c18
-1 Skyshroud Claim|nem
+1 Skyshroud Claim|NMS|[117]
 1 Smirking Spelljacker|otc
-1 Sol Ring|ncc
-1 Spell Swindle|xln
-1 Taiga|vma
-1 Steam Vents|rtr
-1 Stomping Ground|eoe
-1 Stormcarved Coast|vow
-1 Sublime Epiphany|m21
-1 Submerge|nem
-1 Sulfur Falls|dom
-1 Tasigur, the Golden Fang|frf
-1 Terastodon|wwk
+1 Sol Ring|LEB|[270]
+1 Spell Swindle|MOC|[237]
+1 Taiga|LEB|[283]
+1 Steam Vents|RVR|[412]
+1 Stomping Ground|RVR|[413]
+1 Stormcarved Coast|SOS|[263]
+1 Sublime Epiphany|TDC|[167]
+1 Submerge|NMS|[48]
+1 Sulfur Falls|DMR|[400]
+1 Tasigur, the Golden Fang|TSR|[333]
+1 Terastodon|M3C|[249]
 1 The Lord of Pain|dsc
-1 Three Visits|mkc
-1 Timeless Witness|mh2
+1 Three Visits|SOC|[289]
+1 Timeless Witness|TDC|[274]
 1 Titania's Command|bro
 1 Torrential Gearhulk|cmm
-1 Volcanic Island|VMA
-1 Troyan, Gutsy Explorer|woe
-1 Twilight Prophet|rix
+1 Volcanic Island|LEB|[287]
+1 Troyan, Gutsy Explorer|SOC|[334]
+1 Twilight Prophet|MKC|[143]
 1 Undercity Sewers|mkm
 1 Underground Mortuary|mkm
-1 Bayou|VMA
+1 Bayou|LEB|[279]
 1 Up the Beanstalk|woe
 1 Verdant Catacombs|mh2
 1 Volcanic Vision|c21
-1 Watery Grave|grn
-1 Wilderness Reclamation|c20
-1 Windgrace's Judgment|c18
-1 Woodland Cemetery|dom
+1 Watery Grave|RVR|[415]
+1 Wilderness Reclamation|RVR|[458]
+1 Windgrace's Judgment|EOC|[129]
+1 Woodland Cemetery|DMR|[401]
 1 Xander's Lounge|snc
 1 Zagoth Triome|iko
 1 Ziatora's Proving Ground|snc

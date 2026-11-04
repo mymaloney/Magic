@@ -6,16 +6,16 @@ Description=Mono R Gauntlet of Might deck with pumpable creatures
 Icon=Firestorm.jpg
 Deck Type=constructed
 [Main]
-2 Blood Moon
-4 Bloodmark Mentor
-4 Dragon Hatchling
-4 Flamekin Brawler
-4 Gauntlet of Might
-2 Molten Ravager
-4 Moonveil Dragon
-24 Mountain
-4 Pyre Charger
-4 Rage Reflection
-2 Volcanic Strength
-2 Whispersilk Cloak
+2 Blood Moon|DRK|[58]
+4 Bloodmark Mentor|DDG|[50]
+4 Dragon Hatchling|J25|[536]
+4 Flamekin Brawler|JVC|[35]
+4 Gauntlet of Might|LEB|[245]
+2 Molten Ravager|JMP|[351]
+4 Moonveil Dragon|DKA|[99]
+24 Mountain|INR|[294]
+4 Pyre Charger|JVC|[38]
+4 Rage Reflection|2XM|[139]
+2 Volcanic Strength|M13|[155]
+2 Whispersilk Cloak|DSC|[257]
 [Sideboard]

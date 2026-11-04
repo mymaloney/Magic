@@ -5,25 +5,25 @@ Name=whitewizard_hard_hatebears
 1 Dust Bowl|MMQ
 1 Intuition|TMP
 1 Sungrass Prairie|ODY
-2 Adarkar Wastes|5ED
-2 Brushland|5ED
-2 Counterspell|2ED
-2 Forest|ODY|2
+2 Adarkar Wastes|ICE|[351]
+2 Brushland|ICE|[352]
+2 Counterspell|DMR|[281]
+2 Forest|INR|[296]
 2 Gaea's Blessing|WTH
 2 Krosan Verge|JUD
 2 Moment's Peace|ODY
 2 Skycloud Expanse|ODY
-2 Wrath of God|2ED
+2 Wrath of God|DMR|[279]
 3 Cunning Wish|JUD
 3 Decree of Justice|SCG
-3 Fact or Fiction|INV
-3 Flooded Strand|ONS
-3 Mana Leak|BRB
+3 Fact or Fiction|DMR|[283]
+3 Flooded Strand|MH3|[436]
+3 Mana Leak|STH|[36]
 3 Mirari's Wake|JUD
 4 Accumulated Knowledge|NMS
-4 Savannah|LEA
-4 Swords to Plowshares|2ED
-4 Tropical Island|LEA
-4 Tundra|LEA
-6 Plains|ODY|2
-7 Island|ODY|2
+4 Savannah|LEB|[281]
+4 Swords to Plowshares|DMR|[275]
+4 Tropical Island|LEB|[284]
+4 Tundra|LEB|[285]
+6 Plains|INR|[288]
+7 Island|INR|[290]

@@ -2,10 +2,10 @@
 Name=eldraine_faerie
 [Main]
 1 Adarkar Wastes|ICE
-1 Plains|ONS|2
-11 Forest|ONS|2
+1 Plains|INR|[288]
+11 Forest|INR|[296]
 2 Brushland|ICE
-2 Fertile Ground|USG
+2 Fertile Ground|INV|[188]
 2 Glimmering Angel|INV
 2 Treetop Village|ULG
 2 Wild Might|PCY
@@ -13,9 +13,9 @@ Name=eldraine_faerie
 3 Dreamwinder|ODY
 3 Elvish Pioneer|ONS
 3 Faerie Squadron|INV
-3 Island|ONS|2
+3 Island|INR|[290]
 3 Llanowar Elves|LEB
-3 Priest of Titania|USG
+3 Priest of Titania|MH3|[428]
 4 Elvish Warrior|ONS
 4 Faerie Conclave|ULG
 4 Quirion Ranger|VIS

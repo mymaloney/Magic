@@ -5,97 +5,97 @@ Name=Tivit
 [Main]
 1 Abuelo, Ancestral Echo|lci
 1 Academy Manufactor|blc
-1 Adarkar Wastes|tdc
-1 Ancient Den|c21
-1 Anguished Unmaking|tdc
-1 Arcane Sanctum|dsc
-1 Arcane Signet|dsc
+1 Adarkar Wastes|ICE|[351]
+1 Ancient Den|TSR|[403]
+1 Anguished Unmaking|TRC|[310]
+1 Arcane Sanctum|TRC|[513]
+1 Arcane Signet|TRC|[485]
 1 Arcbound Condor|mh3
 1 Azor, the Lawbringer|rix
 1 Azorius Chancery|dsc
-1 Talisman of Progress|mrd
+1 Talisman of Progress|TRC|[508]
 1 Ballot Broker|cn2
 1 Blind Obedience|rvr
 1 Boggart Trawler|mh3
 1 Brago, King Eternal|khc
 1 Brago's Representative|cns
 1 Capital Punishment|cn2
-1 Caves of Koilos|tdc
-1 Choked Estuary|mkc
-1 Command Beacon|tdc
-1 Command Tower|dsc
-1 Commander's Sphere|lcc
-1 Counterspell|a25
-1 Cranial Plating|5dn
-1 Darksteel Citadel|dst
-1 Despark|moc
+1 Caves of Koilos|APC|[140]
+1 Choked Estuary|TRC|[370]
+1 Command Beacon|TRC|[373]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Counterspell|DMR|[281]
+1 Cranial Plating|TSR|[392]
+1 Darksteel Citadel|FDC|[300]
+1 Despark|FRC|[50]
 1 Dimir Aqueduct|dsc
-1 Talisman of Dominance|mrd
+1 Talisman of Dominance|TRC|[505]
 1 Disorder in the Court|mkc
-1 Drowned Catacomb|drc
+1 Drowned Catacomb|TRC|[376]
 1 Eerie Interlude|khc
-1 Ephemerate|mh1
+1 Ephemerate|H1R|[1]
 1 Ethersworn Sphinx|mh2
-1 Exotic Orchard|dsc
-1 Faithful Mending|mid
+1 Exotic Orchard|TRC|[378]
+1 Faithful Mending|TRC|[473]
 1 Forensic Gadgeteer|mkm
 1 Ghostway|rvr
-1 Glacial Fortress|tdc
+1 Glacial Fortress|TRC|[385]
 1 Glimmervoid|2xm
 1 Goldmire Bridge|moc
 1 Grudge Keeper|cns
 1 Illusion of Choice|cn2
 1 Inspiring Statuary|mkc
-4 Island|snc
-1 Isolated Chapel|tdc
-1 Isperia, Supreme Judge|c20
+4 Island|INR|[290]
+1 Isolated Chapel|DMR|[397]
+1 Isperia, Supreme Judge|SCD|[4]
 1 Junk Winder|blc
 1 Kambal, Profiteering Mayor|otj
-1 Magister of Worth|cns
+1 Magister of Worth|C21|[223]
 1 Yennett, Cryptic Sovereign|cmm
-1 Split Decision|cns
-1 Council's Judgment|cns
+1 Split Decision|GN3|[39]
+1 Council's Judgment|OTC|[79]
 1 Covetous Elegy|clu
 1 Haunt the Network|dft
 1 Obscura Charm|snc
 1 Marionette Apprentice|mh3
 1 Mask of Riddles|ncc
-1 Medomai the Ageless|ths
-1 Merchant of Truth|mkc
-1 Mistvault Bridge|mh2
-1 Momentary Blink|2x2
-1 Monologue Tax|dsc
+1 Medomai the Ageless|PIO|[233]
+1 Merchant of Truth|FDC|[39]
+1 Mistvault Bridge|BRC|[189]
+1 Momentary Blink|DMR|[268]
+1 Monologue Tax|SOC|[157]
 1 Mother of Runes|ulg
 1 Nadier's Nightblade|blc
-1 Nettlecyst|mkc
+1 Nettlecyst|FDC|[275]
 1 Obscura Storefront|dsc
 1 Officious Interrogation|mkm
 1 Orzhov Basilica|drc
-1 Panharmonicon|drc
-1 Path of Ancestry|tdc
+1 Panharmonicon|TSR|[399]
+1 Path of Ancestry|TRC|[545]
 1 Persuasive Interrogators|mkm
-1 Plea for Power|cns
-1 Port Town|cmm
-1 Prairie Stream|m3c
-1 Promise of Loyalty|blc
-1 Propaganda|c13
-1 Razortide Bridge|mh2
-1 Plains|snc
-1 Swamp|snc
+1 Plea for Power|GN3|[33]
+1 Port Town|TRC|[393]
+1 Prairie Stream|TRC|[394]
+1 Promise of Loyalty|TRC|[234]
+1 Propaganda|TMP|[80]
+1 Razortide Bridge|EOC|[171]
+1 Plains|INR|[288]
+1 Swamp|INR|[292]
 1 Rise and Shine|moc
-1 Rogue's Passage|otc
-1 Seat of the Synod|j25
-1 Shineshadow Snarl|lcc
-1 Sol Ring|dsc
-1 Solemn Simulacrum|tdc
-1 Soulherder|mh1
+1 Rogue's Passage|TRC|[552]
+1 Seat of the Synod|EOC|[176]
+1 Shineshadow Snarl|TRC|[400]
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
+1 Soulherder|H1R|[30]
 1 Sphinx of the Revelation|m3c
 1 Stoic Rebuttal|mm2
-1 Sunken Hollow|otc
+1 Sunken Hollow|TRC|[407]
 1 Tezzeret, Master of the Bridge|war
-1 Thassa, God of the Sea|lcc
+1 Thassa, God of the Sea|PIO|[288]
 1 Treasure Vault|drc
 1 Tyrant's Choice|cns
-1 Underground River|drc
+1 Underground River|ICE|[362]
 1 Vault of Whispers|j25
 1 Void Rend|snc

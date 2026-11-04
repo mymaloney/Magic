@@ -3,90 +3,90 @@ Name=Uril
 [Commander]
 1 Uril, the Miststalker|2x2
 [Main]
-1 Ancestral Mask|woc
-1 Angelic Destiny|fdn
-1 Arcane Signet|fdc
-1 Armadillo Cloak|ema
+1 Ancestral Mask|MMQ|[229]
+1 Angelic Destiny|SOC|[134]
+1 Arcane Signet|TRC|[485]
+1 Armadillo Cloak|INV|[229]
 1 Axgard Armory|khm
 1 Bear Umbra|woc
-1 Beast Within|eoc
+1 Beast Within|TSR|[357]
 1 Birds of Paradise|rvr
 1 Buried in the Garden|mkm
-1 Canopy Vista|blc
-1 Chandra's Ignition|lcc
+1 Canopy Vista|TDC|[343]
+1 Chandra's Ignition|FDC|[145]
 1 Chromatic Lantern|rvr
-1 Command Tower|fdc
+1 Command Tower|TRC|[521]
 1 Daybreak Coronet|woc
 1 Deflecting Swat|cmm
-1 Demolition Field|otc
-1 Druid of the Anima|ala
-1 Naya Charm|ala
+1 Demolition Field|FDN|[687]
+1 Druid of the Anima|J25|[652]
+1 Naya Charm|DMC|[162]
 1 Crawlspace|dmr
-1 Unflinching Courage|c18
+1 Unflinching Courage|PIO|[250]
 1 Etali's Favor|lci
 1 Reyav, Master Smith|cmr
-1 Ethereal Armor|rtr
-1 Exotic Orchard|dsc
-1 Fellwar Stone|tdc
-1 Fertile Ground|hop
+1 Ethereal Armor|TSR|[293]
+1 Exotic Orchard|TRC|[378]
+1 Fellwar Stone|DRK|[102]
+1 Fertile Ground|INV|[188]
 1 Godsire|ala
-6 Forest|ala|[247]
+6 Forest|INR|[296]
 1 Gaea's Embrace|usg
 1 Generous Gift|blc
-1 Ghostly Prison|tdc
-1 Gift of Immortality|ths
-1 Herald of the Pantheon|cmm
+1 Ghostly Prison|SOC|[146]
+1 Gift of Immortality|SOC|[147]
+1 Herald of the Pantheon|C18|[151]
 1 Holy Mantle|gtc
 1 Hushwood Verge|dsk
 1 Danitha, New Benalia's Light|mat
 1 Indomitable Might|woc
 1 Iona's Blessing|ogw
 1 Jetmir's Garden|snc
-1 Jungle Shrine|otc
+1 Jungle Shrine|ECC|[154]
 1 Lion Umbra|mh3
 1 Lush Portico|mkm
 1 Mayael's Aria|2x2
-1 Mesa Enchantress|dsc
-4 Mountain|ala|[245]
-1 Nature's Lore|eoc
+1 Mesa Enchantress|DMR|[267]
+4 Mountain|INR|[294]
+1 Nature's Lore|DMR|[346]
 1 On Serra's Wings|cmr
-1 Overgrown Farmland|dsc
+1 Overgrown Farmland|FRA|[185]
 1 Pain for All|eoe
-6 Plains|ala|[230]
-1 Reliquary Tower|dsc
+6 Plains|INR|[288]
+1 Reliquary Tower|TRC|[551]
 1 Retether|woc
-1 Rogue's Passage|fdn
+1 Rogue's Passage|TRC|[552]
 1 Runes of the Deus|shm
-1 Sacred Foundry|eoe
+1 Sacred Foundry|RVR|[409]
 1 Sanctum Weaver|woc
-1 Satyr Enchanter|cmm
+1 Satyr Enchanter|M19|[223]
 1 Season of Growth|m20
-1 Serra's Embrace|j25
+1 Serra's Embrace|USG|[47]
 1 Setessan Champion|woc
 1 Shield of the Oversoul|shm
-1 Sigil of the Empty Throne|dsc
+1 Sigil of the Empty Throne|TSR|[301]
 1 Smothering Tithe|cmm
-1 Sol Ring|blc
-1 Sphere of Safety|dsc
-1 Spirit Mantle|cmr
-1 Sterling Grove|mh2
-1 Stomping Ground|eoe
-1 Sundown Pass|inr
+1 Sol Ring|LEB|[270]
+1 Sphere of Safety|RVR|[447]
+1 Spirit Mantle|SOC|[175]
+1 Sterling Grove|INV|[278]
+1 Stomping Ground|RVR|[413]
+1 Sundown Pass|SOS|[264]
 1 Sunhome, Fortress of the Legion|otc
-1 Sunpetal Grove|blc
-1 Swords to Plowshares|dsc
-1 Sythis, Harvest's Hand|cmm
+1 Sunpetal Grove|TDC|[399]
+1 Swords to Plowshares|DMR|[275]
+1 Sythis, Harvest's Hand|MH2|[214]
 1 Temple Garden|rvr
-1 Thought Vessel|cmr
+1 Thought Vessel|TRC|[509]
 1 Slash the Ranks|Cmr
-1 Three Visits|otc
+1 Three Visits|SOC|[289]
 1 Timely Ward|dsc
 1 Trace of Abundance|arb
-1 Unquestioned Authority|j22
+1 Unquestioned Authority|JUD|[31]
 1 Utopia Sprawl|rvr
 1 Valgavoth's Lair|dsk
 1 Verdant Embrace|woc
-1 Verduran Enchantress|cmm
-1 Wild Growth|4ed
-1 Winds of Rath|mkc
+1 Verduran Enchantress|LEB|[223]
+1 Wild Growth|DMR|[352]
+1 Winds of Rath|TMP|[52]
 

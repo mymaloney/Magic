@@ -1,22 +1,22 @@
 [metadata]
 Name=WC95 Henry Stern - RG Channel Fireball
 [Main]
-4 Black Vise|LEA
-1 Channel|LEA
+4 Black Vise|LEB|[234]
+1 Channel|LEB|[189]
 1 Crumble|ATQ
 2 Dwarven Ruins|FEM
-4 Fireball|LEA
-7 Forest|LEB
-4 Howling Mine|LEA
-3 Incinerate|ICE
+4 Fireball|LEB|[150]
+7 Forest|INR|[296]
+4 Howling Mine|LEB|[248]
+3 Incinerate|MIR|[184]
 2 Jokulhaups|ICE
 4 Karplusan Forest|ICE
-4 Lightning Bolt|LEA
-2 Llanowar Elves|LEA
-7 Mountain|LEB
+4 Lightning Bolt|LEB|[162]
+2 Llanowar Elves|LEB|[211]
+7 Mountain|INR|[294]
 3 Orcish Lumberjack|ICE
 2 Orgg|FEM
-1 Shivan Dragon|LEA
+1 Shivan Dragon|DMR|[329]
 3 Stormbind|ICE
 4 Strip Mine|ATQ
 2 Whirling Dervish|LEG

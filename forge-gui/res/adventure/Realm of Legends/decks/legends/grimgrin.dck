@@ -4,45 +4,45 @@ Name=Grimgrin
 1 Grimgrin, Corpse-Born|INR
 [Main]
 1 Accursed Marauder|MH3
-1 Arcane Signet|EOC
+1 Arcane Signet|TRC|[485]
 1 Archghoul of Thraben|INR
-1 Archmage's Charm|MH1
+1 Archmage's Charm|H1R|[7]
 1 Bladestitched Skaab|INR
 1 Braids, Arisen Nightmare|EOC
-1 Command Tower|EOC
-1 Consuming Tide|VOW
+1 Command Tower|TRC|[521]
+1 Consuming Tide|DBL|[320]
 1 Consuming Vapors|AFC
 1 Curse of Disturbance|SCD
-1 Deadly Plot|J22
-1 Death Baron|MIC
+1 Deadly Plot|FDN|[520]
+1 Death Baron|FDC|[95]
 1 Dimir Aqueduct|DSC
 1 Diregraf Captain|SCD
-1 Disdainful Stroke|WOE
+1 Disdainful Stroke|TSR|[307]
 1 Dismal Backwater|TDM
 1 Don't Make a Sound|DSK
 1 Drown in the Loch|CLB
 1 Drunau Corpse Trawler|INR
-1 Endless Ranks of the Dead|J22
+1 Endless Ranks of the Dead|FDC|[97]
 1 Enter the God-Eternals|SCD
-1 Essence Scatter|DMU
+1 Essence Scatter|SOS|[47]
 1 Extinction Event|IKO
 1 Fallen Shinobi|OTC
 1 Fatestitcher|ALA
-1 Geralf, Visionary Stitcher|VOW
+1 Geralf, Visionary Stitcher|DBL|[328]
 1 Gisa and Geralf|INR
 1 Gisa, the Hellraiser|OTJ
 1 Gloomlake Verge|DSK
-1 Go for the Throat|J25
+1 Go for the Throat|FDC|[100]
 1 God-Eternal Bontu|EOC
 1 God-Eternal Kefnet|WAR
-1 Gravecrawler|TDC
-1 Gray Merchant of Asphodel|DSC
+1 Gravecrawler|INR|[380]
+1 Gray Merchant of Asphodel|TSR|[323]
 1 Grimoire of the Dead|SCD
 1 Hex|OTC
 1 Intimidation Campaign|OTJ
-13 Island|EOE
+13 Island|INR|[290]
 1 Liliana, Death's Majesty|DRC
-1 Liliana's Mastery|SCD
+1 Liliana's Mastery|FDC|[109]
 1 Lord of the Accursed|DRC
 1 Lord of the Forsaken|TDC
 1 Lost Monarch of Ifnir|DRC
@@ -51,28 +51,28 @@ Name=Grimgrin
 1 Necromantic Selection|TDC
 1 Obscura Storefront|DSC
 1 Overcharged Amalgam|INR
-1 Path of Ancestry|TDC
-1 Talisman of Dominance|MKC
-1 Refute|FDN
+1 Path of Ancestry|TRC|[545]
+1 Talisman of Dominance|TRC|[505]
+1 Refute|TRC|[579]
 1 Rooftop Storm|INR
 1 Ruthless Deathfang|MIC
 1 Siphon Insight|OTC
-1 Skinrender|2X2
-1 Sol Ring|EOC
+1 Skinrender|ECC|[86]
+1 Sol Ring|LEB|[270]
 1 Soured Springs|OTJ
 1 Spellgyre|BLB
 1 Stitcher's Supplier|TDC
-15 Swamp|EOE
+15 Swamp|INR|[292]
 1 Temple of Deceit|DRC
-1 Terramorphic Expanse|EOC
+1 Terramorphic Expanse|TRC|[571]
 1 The Scarab God|DRC
 1 The Tale of Tamiyo|DSK
 1 Thran Vigil|BRO
 1 Tyrant's Scorn|WAR
 1 Undead Augur|DRC
-1 Underground River|PBRO
+1 Underground River|ICE|[362]
 1 Unstoppable Slasher|DSK
-1 Victimize|TDC
+1 Victimize|MH3|[413]
 1 Waterlogged Teachings|MH3
 1 Winternight Stories|TDM
 1 Zul Ashur, Lich Lord|FDN

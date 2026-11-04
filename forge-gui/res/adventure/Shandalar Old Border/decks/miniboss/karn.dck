@@ -1,11 +1,11 @@
 [metadata]
 Name=Karn
 [Main]
-4 Tundra|LEA
-4 Flooded Strand|ONS
+4 Tundra|LEB|[285]
+4 Flooded Strand|MH3|[436]
 4 Adarkar Wastes|ICE
-3 Plains|ICE
-3 Island|ICE
+3 Plains|INR|[288]
+3 Island|INR|[290]
 2 Urza's Tower|ATQ
 2 Urza's Power Plant|ATQ
 2 Urza's Mine|ATQ
@@ -13,14 +13,14 @@ Name=Karn
 3 Humility|TMP
 2 Sift|STH
 2 Ivory Tower|ATQ
-4 Test of Endurance|JUD
+4 Test of Endurance|DMR|[276]
 2 Congregate|USG
 2 Righteous Fury|PO2
 2 Fade Away|EXO
 2 Gerrard's Wisdom|WTH
 2 Orim's Prayer|TMP
-4 Absorb|INV
-4 Pacifism|TMP
+4 Absorb|DMR|[354]
+4 Pacifism|ONS|[47]
 4 Ancestral Tribute|ODY
 
 [StartInBattle_Reference]

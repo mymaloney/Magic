@@ -1,10 +1,10 @@
 [metadata]
 Name=Legend of the Taiga
 [Main]
-4 Taiga|LEA
+4 Taiga|LEB|[283]
 4 Karplusan Forest|ICE
-8 Mountain|MIR
-8 Forest|MIR
+8 Mountain|INR|[294]
+8 Forest|INR|[296]
 2 Sword of the Chosen|STH
 2 Urza's Filter|INV
 2 Jerrard of the Closed Fist|LEG
@@ -14,7 +14,7 @@ Name=Legend of the Taiga
 2 Sunastian Falconer|LEG
 2 The Lady of the Mountain|LEG
 2 Tuknir Deathlock|LEG
-1 Decimate|ODY
+1 Decimate|DMR|[356]
 1 Hull Breach|PLS
 1 Overabundance|INV
 1 Fires of Yavimaya|INV
@@ -27,7 +27,7 @@ Name=Legend of the Taiga
 1 Giant Trap Door Spider|ICE
 1 Centaur Archer|ICE
 1 Jungle Troll|MIR
-1 Simoon|VIS
+1 Simoon|INV|[272]
 1 Viashivan Dragon|VIS
 1 Stormbind|ICE
 1 Aether Rift|INV

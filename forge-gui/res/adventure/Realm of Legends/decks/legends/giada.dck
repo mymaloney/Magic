@@ -1,72 +1,72 @@
 [metadata]
 Name=Giada, Font of Hope
 [Commander]
-1 Giada, Font of Hope|FDN|[298]
+1 Giada, Font of Hope|FDC|[4]
 [Main]
-1 Giver of Runes|MH1
+1 Giver of Runes|H1R|[3]
 1 Banner of Kinship|FDN
-1 Adarkar Valkyrie|CSP
-1 Admonition Angel|WWK
+1 Adarkar Valkyrie|C18|[60]
+1 Admonition Angel|ZNC|[10]
 1 Akroma, Vision of Ixidor|CMR
 1 Akroma's Will|M3C
-1 Angel of Invention|KLD
-1 Angel of Sanctions|AKH
-1 Angel of Serenity|RTR
-1 Angel of the Ruins|C21
+1 Angel of Invention|TDC|[109]
+1 Angel of Sanctions|DRC|[62]
+1 Angel of Serenity|C21|[83]
+1 Angel of the Ruins|EOC|[63]
 1 Angelic Sell-Sword|OTC
 1 Angelic Skirmisher|GTC
-1 Angelic Sleuth|NCC
-1 Archangel of Thune|M14
-1 Archangel of Tithes|ORI
-1 Austere Command|IMA
-1 Avacyn, Angel of Hope|AVR
-1 Baneslayer Angel|V15
-1 Brave the Elements|ZEN
-1 Bruna, the Fading Light|V17
-1 Caged Sun|NPH
+1 Angelic Sleuth|FDC|[16]
+1 Archangel of Thune|PIO|[4]
+1 Archangel of Tithes|FDC|[17]
+1 Austere Command|FDC|[18]
+1 Avacyn, Angel of Hope|INR|[477]
+1 Baneslayer Angel|M21|[6]
+1 Brave the Elements|C14|[66]
+1 Bruna, the Fading Light|INR|[14]
+1 Caged Sun|CM2|[178]
 1 Clever Concealment|ONC
-1 Emeria, the Sky Ruin|ZEN
+1 Emeria, the Sky Ruin|SOC|[368]
 1 Emeria's Call|ZNR
-1 Iona, Shield of Emeria|ZEN
-1 Enduring Angel|MID
+1 Iona, Shield of Emeria|MM2|[20]
+1 Enduring Angel|DBL|[17]
 1 Exemplar of Light|FDN
-1 Farewell|NEO
-1 Firemane Commando|MOC
-1 Gauntlet of Power|TSP
-1 Gisela, the Broken Blade|V17
+1 Farewell|M3C|[170]
+1 Firemane Commando|SOC|[145]
+1 Gauntlet of Power|DMR|[378]
+1 Gisela, the Broken Blade|INR|[24]
 1 Herald of Eternal Dawn|FDN
-1 Herald of War|AVR
-1 Herald's Horn|C17
-1 Lightning Greaves|2XM
+1 Herald of War|FDC|[34]
+1 Herald's Horn|TRC|[493]
+1 Lightning Greaves|TRC|[496]
 1 Lightstall Inquisitor|EOE
-1 Lyra Dawnbringer|DOM
-1 Mask of Memory|MRD
-1 Mother of Runes|CMD
-1 Norn's Choirmaster|ONC
+1 Lyra Dawnbringer|DMR|[266]
+1 Mask of Memory|ONC|[136]
+1 Mother of Runes|ULG|[14]
+1 Norn's Choirmaster|FDC|[41]
 1 Nykthos, Shrine to Nyx|THS
-1 Path to Exile|PF20
-1 Pearl Medallion|MH3
-33 Plains|SNC|3
+1 Path to Exile|TSR|[299]
+1 Pearl Medallion|TMP|[300]
+33 Plains|INR|[288]
 1 Radiant, Archangel|ULG
 1 Resplendent Angel|LCI
-1 Righteous Valkyrie|KHM
+1 Righteous Valkyrie|FDC|[43]
 1 Roaming Throne|LCI
 1 Sanctuary Warden|SNC
-1 Sephara, Sky's Blade|M20
-1 Seraph Sanctuary|AVR
-1 Serra Paragon|DMU
-1 Serra's Emissary|MH2
+1 Sephara, Sky's Blade|FDC|[47]
+1 Seraph Sanctuary|FDC|[313]
+1 Serra Paragon|SOC|[169]
+1 Serra's Emissary|FRC|[32]
 1 Sigarda's Vanguard|MIC
-1 Smothering Tithe|RNA
-1 Sol Ring|3ED
+1 Smothering Tithe|CMM|[57]
+1 Sol Ring|LEB|[270]
 1 Starfield Shepherd|EOE
 1 Starnheim Unleashed|KHM
-1 Sunblast Angel|C20
-1 Sword of the Animist|ORI
-1 Swords to Plowshares|CNS
+1 Sunblast Angel|FDC|[52]
+1 Sword of the Animist|CMM|[413]
+1 Swords to Plowshares|DMR|[275]
 1 Throne of Eldraine|WOC
-1 Tragic Arrogance|ORI
-1 True Conviction|SOM
-1 Urza's Incubator|UDS
-1 Vanquisher's Banner|XLN
+1 Tragic Arrogance|SOC|[182]
+1 True Conviction|SCD|[38]
+1 Urza's Incubator|DMR|[392]
+1 Vanquisher's Banner|TSR|[402]
 1 Moat|LEG

@@ -1,13 +1,13 @@
 [metadata]
 Name=bandit
 [Main]
-12 Mountain|ONS|3
+12 Mountain|INR|[294]
 2 Barbarian Ring|ODY
 2 Mogg Maniac|STH
 2 Reckless Charge|ODY
 2 Wasteland|TMP
-3 Swamp|ONS|3
-4 Fireblast|VIS
+3 Swamp|INR|[292]
+4 Fireblast|DMR|[319]
 4 Goblin Cadets|USG
 4 Goblin Piledriver|ONS
 4 Goblin Taskmaster|ONS

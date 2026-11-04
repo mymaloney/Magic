@@ -1,92 +1,92 @@
 [metadata]
 Name=Savra, Queen of the Golgari
 [Commander]
-1 Savra, Queen of the Golgari|RAV
+1 Savra, Queen of the Golgari|RVR|[381]
 [Main]
-1 Abrupt Decay|RTR
+1 Abrupt Decay|TSR|[370]
 1 Izoni, Center of the Web|MKM
-1 Arcane Signet|M3C
-1 Assassin's Trophy|GRN
-1 Ayara, First of Locthwain|MUL
-1 Bala Ged Recovery|ZNR
-1 Barren Moor|DSC
+1 Arcane Signet|TRC|[485]
+1 Assassin's Trophy|SOC|[294]
+1 Ayara, First of Locthwain|FDC|[86]
+1 Bala Ged Recovery|PIO|[165]
+1 Barren Moor|ONS|[312]
 1 Bastion of Remembrance|TDC
-1 Beast Within|EOC
-1 Beledros Witherbloom|BLC
-1 Blight Mound|C21
+1 Beast Within|TSR|[357]
+1 Beledros Witherbloom|SOC|[296]
+1 Blight Mound|SOC|[208]
 1 Bloodflow Connoisseur|2X2
-1 Bloodghast|DFT
+1 Bloodghast|SOC|[210]
 1 Blooming Marsh|OTJ
-1 Bojuka Bog|EOC
+1 Bojuka Bog|TSR|[406]
 1 Braids, Arisen Nightmare|EOC
 1 Butcher of Malakir|LCC
 1 Callous Bloodmage|STX
 1 Cankerbloom|ONE
-1 Carrion Feeder|EMA
-1 Chatterfang, Squirrel General|BLC
-1 Command Tower|EOC
+1 Carrion Feeder|SCG|[59]
+1 Chatterfang, Squirrel General|MH2|[410]
+1 Command Tower|TRC|[521]
 1 Darkbore Pathway|KHM
-1 Dawntreader Elk|DKA
+1 Dawntreader Elk|JMP|[387]
 1 Deadly Dispute|TDC
-1 Deathcap Glade|INR
+1 Deathcap Glade|SOS|[253]
 1 Deathreap Ritual|DSC
-1 Dina, Soul Steeper|STX
+1 Dina, Soul Steeper|SOC|[305]
 1 Doomed Dissenter|J25
 1 Elves of Deep Shadow|DRK
 1 Endrek Sahr, Master Breeder|CMM
-1 Eternal Witness|C15
-1 Farseek|EOC
-1 Festering Thicket|EOC
-5 Forest|GK1|[76]
+1 Eternal Witness|TSR|[361]
+1 Farseek|RVR|[347]
+1 Festering Thicket|SOC|[371]
+5 Forest|INR|[296]
 1 Gala Greeters|SNC
-1 Golgari Charm|RTR
-1 Golgari Rot Farm|TDC
+1 Golgari Charm|UMA|[201]
+1 Golgari Rot Farm|ECC|[151]
 1 Greedy Freebooter|LCI
-1 High Market|AFC
+1 High Market|MMQ|[320]
 1 Infestation Sage|FDN
 1 Insidious Fungus|DSK
-1 Izoni, Thousand-Eyed|GRN
-1 Jadar, Ghoulcaller of Nephalia|MID
+1 Izoni, Thousand-Eyed|M3C|[267]
+1 Jadar, Ghoulcaller of Nephalia|SOC|[217]
 1 Krosan Grip|C21
-1 Llanowar Wastes|EOC
+1 Llanowar Wastes|APC|[141]
 1 Maelstrom Pulse|INR
 1 Malakir Rebirth|ZNR
-1 Marauding Blight-Priest|J22
-1 Massacre Wurm|DSC
-1 Moldervine Reclamation|BLC
-1 Morbid Opportunist|TDC
-1 Mycoloth|ALA
+1 Marauding Blight-Priest|FDN|[178]
+1 Massacre Wurm|FDN|[714]
+1 Moldervine Reclamation|SOC|[320]
+1 Morbid Opportunist|INR|[388]
+1 Mycoloth|SOC|[276]
 1 Myriad Landscape|EOC
 1 Nadier's Nightblade|BLC
-1 Nature's Lore|EOC
-1 Necroblossom Snarl|DSC
-1 Night's Whisper|EOC
+1 Nature's Lore|DMR|[346]
+1 Necroblossom Snarl|SOC|[389]
+1 Night's Whisper|TRC|[446]
 1 Not Dead After All|WOE
-1 Ophiomancer|TDC
-1 Ornithopter of Paradise|DRC
-1 Pest Infestation|EOC
-1 Plumb the Forbidden|BLC
+1 Ophiomancer|SOC|[118]
+1 Ornithopter of Paradise|MH2|[430]
+1 Pest Infestation|SOC|[282]
+1 Plumb the Forbidden|SOC|[224]
 1 Poison-Tip Archer|BLC
-1 Priest of Forgotten Gods|J25
+1 Priest of Forgotten Gods|SOC|[225]
 1 Promising Vein|LCI
-1 Reanimate|DSC
+1 Reanimate|TMP|[151]
 1 Revitalizing Repast|MH3
-1 Riveteers Overlook|EOC
-1 Sakura-Tribe Elder|TDC
-1 Sol Ring|EOC
-10 Swamp|GK1|[75]
-1 Tainted Wood|DSC
-1 Temple of Malady|TDC
-1 Tranquil Thicket|DSC
-1 Overgrown Tomb|RAV
+1 Riveteers Overlook|ECC|[162]
+1 Sakura-Tribe Elder|SOC|[285]
+1 Sol Ring|LEB|[270]
+10 Swamp|INR|[292]
+1 Tainted Wood|TOR|[143]
+1 Temple of Malady|SOC|[413]
+1 Tranquil Thicket|ONS|[326]
+1 Overgrown Tomb|RVR|[407]
 1 Undying Evil|DKA
 1 Vat of Rebirth|ONE
-1 Vernal Fen|EOC
+1 Vernal Fen|SOC|[419]
 1 Village Rites|INR
 1 Viridian Emissary|CMA
-1 Viscera Seer|TDC
-1 Wight of the Reliquary|MH3
-1 Woodland Cemetery|TDC
+1 Viscera Seer|SOC|[229]
+1 Wight of the Reliquary|SOC|[338]
+1 Woodland Cemetery|DMR|[401]
 1 Woodland Chasm|KHM
-1 Yahenni, Undying Partisan|TDC
-1 Zulaport Cutthroat|BLC
+1 Yahenni, Undying Partisan|SOC|[232]
+1 Zulaport Cutthroat|TSR|[337]

@@ -5,91 +5,91 @@ Name=Perrie, the Pulverizer
 [Main]
 1 Agent's Toolkit|NCC
 1 Ajani Unyielding|NCC
-1 Angelic Sleuth|NCC
-1 Arcane Signet|NCC
-1 Ash Barrens|NCC
+1 Angelic Sleuth|FDC|[16]
+1 Arcane Signet|TRC|[485]
+1 Ash Barrens|TDC|[339]
 1 Aven Courier|NCC
 1 Aven Mimeomancer|NCC
 1 Avenging Huntbonder|NCC
-1 Bant Charm|NCC
+1 Bant Charm|2X2|[181]
 1 Bant Panorama|NCC
 1 Bribe Taker|NCC
 1 Brokers Charm|SNC
 1 Brokers Confluence|NCC
 1 Brokers Hideout|SNC
-1 Canopy Vista|NCC
-1 Command Tower|NCC
-1 Commander's Sphere|NCC
+1 Canopy Vista|TDC|[343]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
 1 Contractual Safeguard|NCC
 1 Crystalline Giant|NCC
 1 Damning Verdict|NCC
 1 Declaration in Stone|NCC
 1 Denry Klin, Editor in Chief|NCC
-1 Devoted Druid|NCC
-1 Everflowing Chalice|NCC
-1 Evolution Sage|NCC
-1 Exotic Orchard|NCC
+1 Devoted Druid|ECC|[104]
+1 Everflowing Chalice|TSR|[394]
+1 Evolution Sage|ECC|[105]
+1 Exotic Orchard|TRC|[378]
 1 Exotic Pets|SNC
 1 Family's Favor|NCC
 1 Fathom Mage|NCC
-1 Fellwar Stone|NCC
-1 Flooded Grove|NCC
-5 Forest|SNC
-1 Forgotten Ancient|NCC
-1 Fortified Village|NCC
-1 Gavel of the Righteous|NCC
-1 Gavony Township|NCC
-1 Generous Gift|NCC
-1 Grateful Apparition|NCC
-1 Hoofprints of the Stag|NCC
-1 Incubation Druid|NCC
-4 Island|SNC
+1 Fellwar Stone|DRK|[102]
+1 Flooded Grove|SOC|[373]
+5 Forest|INR|[296]
+1 Forgotten Ancient|DMR|[341]
+1 Fortified Village|TDC|[366]
+1 Gavel of the Righteous|EOC|[55]
+1 Gavony Township|MOC|[406]
+1 Generous Gift|BLC|[106]
+1 Grateful Apparition|ONC|[73]
+1 Hoofprints of the Stag|ECC|[64]
+1 Incubation Druid|MOC|[302]
+4 Island|INR|[290]
 1 Jenara, Asura of War|NCC
-1 Karn's Bastion|NCC
+1 Karn's Bastion|RVR|[464]
 1 Kros, Defense Contractor|NCC
 1 Littjara Mirrorlake|NCC
-1 Llanowar Reborn|NCC
+1 Llanowar Reborn|LCC|[341]
 1 Luminarch Aspirant|NCC
-1 Midnight Clock|NCC
-1 Myriad Landscape|NCC
-1 Nesting Grounds|NCC
-1 Oblivion Stone|NCC
+1 Midnight Clock|DRC|[79]
+1 Myriad Landscape|EOC|[169]
+1 Nesting Grounds|MH3|[437]
+1 Oblivion Stone|M3C|[303]
 1 Oracle's Vault|NCC
 1 Park Heights Maverick|NCC
-1 Path of Ancestry|NCC
-5 Plains|SNC
+1 Path of Ancestry|TRC|[545]
+5 Plains|INR|[288]
 1 Planar Outburst|NCC
-1 Port Town|NCC
+1 Port Town|TRC|[393]
 1 Power Conduit|NCC
-1 Prairie Stream|NCC
+1 Prairie Stream|TRC|[394]
 1 Primal Empathy|NCC
-1 Resourceful Defense|NCC
-1 Rishkar's Expertise|NCC
-1 Rishkar, Peema Renegade|NCC
+1 Resourceful Defense|EOC|[67]
+1 Rishkar's Expertise|FDC|[226]
+1 Rishkar, Peema Renegade|FDC|[225]
 1 Roalesk, Apex Hybrid|NCC
-1 Scavenging Ooze|NCC
-1 Seaside Citadel|NCC
-1 Shield Broker|NCC
+1 Scavenging Ooze|FDC|[227]
+1 Seaside Citadel|ECC|[166]
+1 Shield Broker|BLC|[174]
 1 Skyboon Evangelist|NCC
-1 Hallowed Fountain|RTR
+1 Hallowed Fountain|RVR|[404]
 1 Skyship Plunderer|NCC
 1 Slippery Bogbonder|NCC
-1 Sol Ring|NCC
-1 Steelbane Hydra|NCC
+1 Sol Ring|LEB|[270]
+1 Steelbane Hydra|SOC|[288]
 1 Storm of Forms|NCC
-1 Temple Garden|RTR
-1 Swiftfoot Boots|NCC
-1 Temple of Mystery|NCC
-1 Tezzeret's Gambit|NCC
-1 Thrummingbird|NCC
-1 Together Forever|NCC
-1 Urban Evolution|NCC
+1 Temple Garden|RVR|[414]
+1 Swiftfoot Boots|TRC|[501]
+1 Temple of Mystery|SOC|[414]
+1 Tezzeret's Gambit|EOC|[47]
+1 Thrummingbird|EOC|[80]
+1 Together Forever|MOC|[212]
+1 Urban Evolution|PIO|[251]
 1 Vivid Creek|NCC
 1 Vivid Grove|NCC
 1 Vivid Meadow|NCC
-1 Vorel of the Hull Clade|NCC
-1 Wall of Roots|NCC
-1 Wickerbough Elder|NCC
+1 Vorel of the Hull Clade|LCC|[294]
+1 Wall of Roots|MIR|[253]
+1 Wickerbough Elder|ECC|[118]
 1 Wingspan Mentor|NCC
 [Sideboard]
 

@@ -1,48 +1,48 @@
 [metadata]
 Name=Ayara
 [Commander]
-1 Ayara, First of Locthwain|eld
+1 Ayara, First of Locthwain|FDC|[86]
 [Main]
-1 Abhorrent Overlord|ths
-1 Animate Dead|cei
-1 Arcane Signet|eld
+1 Abhorrent Overlord|PIO|[289]
+1 Animate Dead|LEB|[93]
+1 Arcane Signet|TRC|[485]
 1 Archpriest of Shadows|mom
-1 Bitter Triumph|lci
+1 Bitter Triumph|TRC|[445]
 1 Bloodletter of Aclazotz|lci
-1 Bojuka Bog|lcc
+1 Bojuka Bog|TSR|[406]
 1 Bolas's Citadel|war
-1 Bontu's Monument|akh
+1 Bontu's Monument|DRC|[124]
 1 Breach the Multiverse|mom
 1 Callous Bloodmage|stx
-1 Castle Locthwain|eld
-1 Cauldron Familiar|eld
-1 Crypt Ghast|gtc
-1 Deadly Dispute|blc
-1 Doomed Necromancer|afc
-1 Exsanguinate|cmm
+1 Castle Locthwain|FDC|[299]
+1 Cauldron Familiar|JMP|[216]
+1 Crypt Ghast|RVR|[322]
+1 Deadly Dispute|TDC|[177]
+1 Doomed Necromancer|ONS|[140]
+1 Exsanguinate|FDN|[173]
 1 Fell the Profane|mh3
 1 Funeral Room|dsk
 1 Gauntlet of Power|dmr
-1 Gray Merchant of Asphodel|dsc
-1 Foulmire Knight|eld
-1 Lightning Greaves|scd
-1 Liliana, Dreadhorde General|war
-1 Living Death|a25
+1 Gray Merchant of Asphodel|TSR|[323]
+1 Foulmire Knight|MOC|[249]
+1 Lightning Greaves|TRC|[496]
+1 Liliana, Dreadhorde General|FDN|[176]
+1 Living Death|TMP|[142]
 1 Malakir Rebirth|znr
-1 Massacre Wurm|dsc
+1 Massacre Wurm|FDN|[714]
 1 Metamorphosis Fanatic|dsc
 1 Mikaeus, the Unhallowed|cmm
-1 Night's Whisper|j25
+1 Night's Whisper|TRC|[446]
 1 Nowhere to Run|dsk
 1 Nykthos, Shrine to Nyx|ths
-1 Ophiomancer|mh3
-1 Overseer of the Damned|scd
-1 Panharmonicon|kld
+1 Ophiomancer|SOC|[118]
+1 Overseer of the Damned|MKC|[132]
+1 Panharmonicon|TSR|[399]
 1 Plague of Vermin|shm
 1 Ravenous Chupacabra|mkc
-1 Piper of the Swarm|eld
+1 Piper of the Swarm|AFC|[106]
 1 Sanguimancy|bng
-1 Darksteel Plate|mbs
+1 Darksteel Plate|TRC|[341]
 1 Commander's Plate|cmr
 1 Underbridge Warlock|ywoe
 1 Bitterbloom Bearer|ecl
@@ -50,26 +50,26 @@ Name=Ayara
 1 Ashiok, Wicked Manipulator|woe
 1 Not Dead After All|woe
 1 Tangled Colony|woe
-1 Ghoulcaller Gisa|cmm
-1 Murderous Rider|eld
+1 Ghoulcaller Gisa|FDC|[6]
+1 Murderous Rider|DRC|[45]
 1 The Cauldron of Eternity|eld
 1 Shizo, Death's Storehouse|dmc
-1 Skullclamp|dst
-1 Sol Ring|woc
+1 Skullclamp|TRC|[354]
+1 Sol Ring|LEB|[270]
 1 Spymaster's Vault|mh3
-1 Stinkweed Imp|mma
-1 Stitcher's Supplier|dsc
-30 Swamp|eld
-1 Swiftfoot Boots|otc
-1 Syr Konrad, the Grim|mkc
-1 The Meathook Massacre|mid
-1 Thespian's Stage|c19
+1 Stinkweed Imp|TSR|[332]
+1 Stitcher's Supplier|TDC|[196]
+30 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Syr Konrad, the Grim|DSC|[158]
+1 The Meathook Massacre|INR|[387]
+1 Thespian's Stage|RVR|[466]
 1 Throne of Eldraine|woc
 1 Torment of Hailfire|hou
-1 Toxic Deluge|cmm
+1 Toxic Deluge|MH3|[412]
 1 Victimize|mh3
 1 Virtue of Persistence|woe
-1 Viscera Seer|cmr
-1 War Room|cmm
+1 Viscera Seer|SOC|[229]
+1 War Room|SOC|[422]
 1 Warren Soultrader|mh3
-1 Withering Torment|dsk
+1 Withering Torment|FDC|[134]

@@ -1,23 +1,23 @@
 [metadata]
 Name=shamanelite
 [Main]
-1 Abzan Beastmaster|F15|1
-2 Destructive Revelry|THS|1
-2 Dragonmaster Outcast|BFZ|1
-2 Eternal Witness|SLD|1
+1 Abzan Beastmaster|FRF|[119]
+2 Destructive Revelry|PIO|[214]
+2 Dragonmaster Outcast|TDC|[211]
+2 Eternal Witness|TSR|[361]
 2 Forceful Cultivator|YNEO|1
-12 Forest|DMU|3
-2 Giant Growth|GVL|1
+12 Forest|INR|[296]
+2 Giant Growth|ICE|[246]
 2 Giant Regrowth|YSNC|1
-2 Guttersnipe|M19|1
-4 Harmonic Prodigy|MH2|1
+2 Guttersnipe|RVR|[332]
+4 Harmonic Prodigy|SOC|[123]
 4 Ignoble Hierarch|MH2|1
-4 Lightning Bolt|PLIST|2
-1 Master of the Wild Hunt|SLD|1
-12 Mountain|DMU|3
+4 Lightning Bolt|LEB|[162]
+1 Master of the Wild Hunt|J22|[688]
+12 Mountain|INR|[294]
 2 Reclamation Sage|TSR|1
 2 Seasoned Pyromancer|2X2|1
 2 Silverback Elder|DMU|1
-2 Young Pyromancer|EMA|1
+2 Young Pyromancer|TSR|[353]
 [Sideboard]
 [Schemes]

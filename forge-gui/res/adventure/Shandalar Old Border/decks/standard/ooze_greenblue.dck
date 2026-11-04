@@ -1,22 +1,22 @@
 [metadata]
 Name=ooze_greenblue
 [Main]
-1 Island|MMQ|2
-1 Swamp|MMQ|2
+1 Island|INR|[290]
+1 Swamp|INR|[292]
 1 Underground River|ICE
-12 Forest|MMQ|2
+12 Forest|INR|[296]
 2 Faerie Conclave|ULG
 2 Gaea's Cradle|USG
-2 Man-o'-War|VIS
+2 Man-o'-War|POR|[59]
 2 Multani, Maro-Sorcerer|ULG
 2 Rofellos, Llanowar Emissary|UDS
-2 Vitalize|6ED
+2 Vitalize|WTH|[145]
 2 Yavimaya Coast|APC
 4 Deepwood Drummer|MMQ
 4 Deepwood Legate|MMQ
-4 Elvish Piper|7ED
-4 Giant Growth|3ED
-4 Instill Energy|4ED
-4 Llanowar Elves|2ED
+4 Elvish Piper|UDS|[104]
+4 Giant Growth|ICE|[246]
+4 Instill Energy|LEB|[203]
+4 Llanowar Elves|LEB|[211]
 4 Llanowar Wastes|APC
-4 Wild Growth|LEB
+4 Wild Growth|DMR|[352]

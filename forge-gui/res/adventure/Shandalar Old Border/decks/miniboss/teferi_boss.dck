@@ -1,27 +1,27 @@
 [metadata]
 Name=Teferi Control
 [Main]
-4 Tundra|LEA
+4 Tundra|LEB|[285]
 4 Adarkar Wastes|ICE
-8 Island|PGRU
-4 Plains|PGRU
+8 Island|INR|[290]
+4 Plains|INR|[288]
 4 Iridescent Angel|ODY
-4 Serra Angel|LEA
+4 Serra Angel|DMR|[271]
 4 Teferi's Honor Guard|VIS
 2 Teferi's Drake|MIR
 2 Teferi's Imp|MIR
 4 Tempest Drake|VIS
 4 Teferi's Moat|INV
-4 Absorb|INV
-2 Wrath of God|LEA
+4 Absorb|DMR|[354]
+2 Wrath of God|DMR|[279]
 2 Rout|INV
-2 Winter Orb|LEA
+2 Winter Orb|LEB|[276]
 2 Static Orb|TMP
-2 Stasis|LEA
+2 Stasis|LEB|[81]
 2 Kismet|LEG
 
 [StartInBattle_Reference]
 1 Teferi's Isle|MIR
-1 Plains|PGRU
+1 Plains|INR|[288]
 1 Teferi's Puzzle Box|VIS
 1 Teferi's Honor Guard|VIS

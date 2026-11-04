@@ -2,14 +2,14 @@
 Name=Pharaoh - Arabian Nights
 [Main]
 4 Desert|ARN
-4 Karplusan Forest|5ED
+4 Karplusan Forest|ICE|[356]
 4 Shivan Oasis|INV
-4 Mountain|ARN
+4 Mountain|INR|[294]
 4 City of Brass|ARN
 4 Brass Man|ARN
-4 Erhnam Djinn|ARN
-4 Desert Twister|ARN
-4 Sandstorm|ARN
+4 Erhnam Djinn|JUD|[113]
+4 Desert Twister|MMQ|[243]
+4 Sandstorm|MIR|[239]
 4 Ifh-Bíff Efreet|ARN
 4 Ali from Cairo|ARN
 2 Bottle of Suleiman|ARN

@@ -3,24 +3,24 @@ Name=Syr Carah
 [Commander]
 1 Syr Carah, the Bold|eld
 [Main]
-1 Abrade|tdc
+1 Abrade|TRC|[449]
 1 Arc Trail|pca
-1 Arcane Signet|eld
+1 Arcane Signet|TRC|[485]
 1 Ashling, Flame Dancer|mh3
 1 Birgi, God of Storytelling|khm
 1 Boltwave|fdn
-1 Lava Spike|chk
+1 Lava Spike|TSR|[347]
 1 Burning Prophet|rvr
 1 Chandra's Pyrohelix|j22
 1 Coruscation Mage|blb
 1 Crackling Spellslinger|otc
 1 Desperate Ritual|uma
 1 Dualcaster Mage|c21
-1 Earthquake|4ed
+1 Earthquake|PO2|[94]
 1 Electrostatic Field|otc
-1 End the Festivities|vow
-1 Blood Moon|wot
-1 Faithless Looting|tdc
+1 End the Festivities|DBL|[422]
+1 Blood Moon|DRK|[58]
+1 Faithless Looting|SOC|[244]
 1 Fiery Confluence|lcc
 1 Magus of the Moon|tsr
 1 Fire Diamond|mir
@@ -31,33 +31,33 @@ Name=Syr Carah
 1 Glittering Stockpile|otc
 1 Grab the Prize|dsk
 1 Grapeshot|dmr
-1 Guttersnipe|tdc
+1 Guttersnipe|RVR|[332]
 1 Helm of Awakening|dmr
 1 Jeska's Will|mkc
-1 Kessig Flamebreather|vow
+1 Kessig Flamebreather|DBL|[431]
 1 Chain Lightning|dmr
-1 Light Up the Stage|fca
-1 Lightning Bolt|4ed
+1 Light Up the Stage|RVR|[338]
+1 Lightning Bolt|LEB|[162]
 1 Lightning Strike|dft
 1 Magma Jet|jmp
-1 Mana Geyser|tdc
-1 Mind Stone|dsc
-35 Mountain|eld
+1 Mana Geyser|SOC|[247]
+1 Mind Stone|DMR|[385]
+35 Mountain|INR|[294]
 1 Neheb, the Eternal|mkc
 1 Ojer Axonil, Deepest Might|lci
 1 Commander's Plate|cmr
 1 Price of Progress|exo
 1 Pyretic Ritual|m11
 1 Rain of Embers|rav
-1 Ruby Medallion|mh3
+1 Ruby Medallion|TMP|[305]
 1 Runaway Steam-Kin|grn
 1 Searing Spear|j22
 1 Seething Song|c21
-1 Shock|j25
+1 Shock|ONS|[227]
 1 Throne of Eldraine|woc
 1 Slagstorm|fdn
-1 Sol Ring|eoc
-1 Storm-Kiln Artist|tdc
+1 Sol Ring|LEB|[270]
+1 Storm-Kiln Artist|SOC|[255]
 1 Tectonic Hazard|lci
 1 Torbran, Thane of Red Fell|eld
 1 Twin Bolt|tdm
@@ -67,4 +67,4 @@ Name=Syr Carah
 1 Virtue of Courage|woe
 1 Volcanic Fallout|cmr
 1 Volcanic Spray|ody
-1 Young Pyromancer|tdc
+1 Young Pyromancer|TSR|[353]

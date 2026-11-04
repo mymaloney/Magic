@@ -1,22 +1,22 @@
 [metadata]
 Name=Chucky 1
 [Main]
-15 Swamp|USG|3
+15 Swamp|INR|[292]
 2 Corrupt|USG
-2 Famine|PTK
+2 Famine|C13|[77]
 2 Pestilence|USG
 2 Phyrexian Plaguelord|ULG
-3 Drain Life|LEA
+3 Drain Life|MIR|[118]
 4 Bone Shredder|ULG
 4 Cabal Ritual|TOR
 4 Crypt Rats|VIS
-4 Dark Ritual|USG
-4 Duress|USG
-4 Mishra's Factory|ATQ
+4 Dark Ritual|MMQ|[129]
+4 Duress|DMR|[303]
+4 Mishra's Factory|DMR|[399]
 4 Peat Bog|MMQ
 4 Phyrexian Ghoul|USG
 4 Phyrexian Tower|USG
-4 Ravenous Rats|S99
+4 Ravenous Rats|INV|[120]
 
 [StartInBattle_Reference]
-1 Wall of Bone|LEA
+1 Wall of Bone|LEB|[133]

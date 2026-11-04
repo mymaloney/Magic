@@ -4,15 +4,15 @@ Name=Rikala
 1 Rikala, Homarid King|mbc
 [Main]
 1 Aesi, Tyrant of Gyre Strait|dsc
-1 Ancestral Memories|7ed
+1 Ancestral Memories|POR|[40]
 1 Arcane Denial|all
 1 Arixmethes, Slumbering Isle|dsc
 1 Auroral Procession|tdm
 1 Berta, Wise Extrapolator|sos
 1 Brawn|jud
-1 Breeding Pool|dis
+1 Breeding Pool|RVR|[399]
 1 Charix, the Raging Isle|znr
-1 Counterspell|dsc
+1 Counterspell|DMR|[281]
 1 Deep Spawn|fem
 1 Homarid|fem
 1 Homarid Warrior|fem
@@ -21,34 +21,34 @@ Name=Rikala
 1 Deepmuck Desperado|otj
 1 Deepchannel Mentor|shm
 1 Dig Through Time|soc
-1 Dreamroot Cascade|pvow
+1 Dreamroot Cascade|SOS|[254]
 1 Dreamtide Whale|mh3
 1 Drowned Secrets|grn
 1 Eluge, the Shoreless Sea|blb
-1 Engulf the Shore|soi
+1 Engulf the Shore|GN2|[21]
 1 Ethereal Forager|c20
 1 Fable of Wolf and Owl|eve
 1 Garruk's Uprising|ecc
-1 Hedron Crab|zen
-1 High Tide|fem
-1 Hinterland Harbor|isd
+1 Hedron Crab|TDC|[155]
+1 High Tide|DMR|[286]
+1 Hinterland Harbor|DMR|[396]
 1 Homarid Explorer|dom
 1 Hullbreaker Horror|inr
 1 Iceberg Cancrix|mh1
 1 Viscerid Deepwalker|tsp
 1 Keeper of Keys|cn2
-1 Kiora, the Rising Tide|pfdn
+1 Kiora, the Rising Tide|FDN|[45]
 1 Koma, Cosmos Serpent|mkc
 1 Koma, World-Eater|fdn
 1 Logic Knot|tsr
-1 Mystic Sanctuary|eld
-1 Nadir Kraken|thb
+1 Mystic Sanctuary|TSR|[408]
+1 Nadir Kraken|J25|[332]
 1 Nezahal, Primal Tide|cmr
 1 Planar Genesis|mh3
-1 Primal Rage|10e
-1 Thornwood Falls|frf
+1 Primal Rage|STH|[112]
+1 Thornwood Falls|TDM|[269]
 1 Rite of Undoing|frf
-1 River's Rebuke|xln
+1 River's Rebuke|FDN|[595]
 1 Riverchurn Monument|dft
 1 Ruin Crab|znr
 1 Scourge of Fleets|cmr
@@ -56,23 +56,23 @@ Name=Rikala
 1 Sink into Stupor|mh3
 1 Slinn Voda, the Rising Deep|cmr
 1 Snap|ulg
-6 Snow-Covered Forest|mb2
-21 Snow-Covered Island|mb2
-1 Sodden Verdure|ecc
-1 Sol Ring|otc
+6 Snow-Covered Forest|ICE|[383]
+21 Snow-Covered Island|ICE|[371]
+1 Sodden Verdure|SOC|[406]
+1 Sol Ring|LEB|[270]
 1 Sphinx of the Second Sun|mkc
 1 Starwinder|eoe
 1 Stormsurge Kraken|cmm
-1 Stormtide Leviathan|m11
-1 Tangled Islet|dmu
+1 Stormtide Leviathan|PIO|[75]
+1 Tangled Islet|SOC|[411]
 1 The Everflowing Well|lci
 1 Timeless Witness|tdc
-1 Treasure Cruise|ktk
+1 Treasure Cruise|TSR|[319]
 1 Tromokratis|cmm
 1 Turbulent Wilderness|soc
-1 Vorel of the Hull Clade|dgm
-1 Waker of Waves|m21
-1 Whelming Wave|bng
+1 Vorel of the Hull Clade|LCC|[294]
+1 Waker of Waves|J25|[383]
+1 Whelming Wave|CMR|[409]
 1 Willowrush Verge|dft
 1 Wonder|jud
 1 Xolatoyac, the Smiling Flood|lcc

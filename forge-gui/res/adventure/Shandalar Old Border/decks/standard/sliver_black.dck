@@ -2,16 +2,16 @@
 Name=Black Sliver
 [Main]
 1 Brushland|ICE
-1 Island|TMP|3
+1 Island|INR|[290]
 2 Battlefield Forge|APC
-2 Swamp|TMP|3
-3 Plains|TMP|3
+2 Swamp|INR|[292]
+3 Plains|INR|[288]
 4 Acidic Sliver|STH
 4 Armor Sliver|TMP
 4 Barbed Sliver|TMP
-4 Forest|TMP|3
+4 Forest|INR|[296]
 4 Karplusan Forest|ICE
-4 Mountain|TMP|3
+4 Mountain|INR|[294]
 4 Muscle Sliver|TMP
 4 Root Sliver|LGN
 4 Spined Sliver|STH

@@ -1,17 +1,17 @@
 [metadata]
 Name=Jellyfish
 [Main]
-24 Island|MIR
-4 Man-o'-War|VIS
+24 Island|INR|[290]
+4 Man-o'-War|POR|[59]
 4 Avizoa|WTH
 4 Glowing Anemone|MMQ
 2 Stinging Barrier|MMQ
 2 Cephalid Constable|JUD
-2 Boomerang|LEG
+2 Boomerang|MIR|[56]
 2 Snap|ULG
-2 Undo|VIS
+2 Undo|PO2|[59]
 2 Wash Out|INV
-2 Unsummon|LEA
+2 Unsummon|LEB|[87]
 2 Seal of Removal|NMS
 2 Rushing River|PLS
 2 Churning Eddy|TOR

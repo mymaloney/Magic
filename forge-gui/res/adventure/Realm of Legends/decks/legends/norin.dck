@@ -4,65 +4,65 @@ Name=Norin
 1 Norin the Wary|tsp
 [Main]
 1 Agate Instigator|blc
-1 Arcane Signet|woc
-1 Beetleback Chief|jmp
-1 Blasphemous Act|cmm
-1 Chain Reaction|onc
-1 Chaos Warp|moc
+1 Arcane Signet|TRC|[485]
+1 Beetleback Chief|TDC|[205]
+1 Blasphemous Act|SOC|[238]
+1 Chain Reaction|TRC|[280]
+1 Chaos Warp|MBC|[72]
 1 Confusion in the Ranks|mrd
-1 Conjurer's Closet|2xm
+1 Conjurer's Closet|INR|[441]
 1 Crawlspace|dmr
 1 Demand Answers|mkm
-1 Endless Atlas|c18
-1 Jade Statue|2ed
-1 Pyrophobia|mh1
+1 Endless Atlas|FDC|[256]
+1 Jade Statue|LEB|[254]
+1 Pyrophobia|J25|[587]
 1 Norin, Swift Survivalist|dsk
-1 Faithless Looting|cmm
-1 Fanatic of Mogis|ths
+1 Faithless Looting|SOC|[244]
+1 Fanatic of Mogis|PIO|[295]
 1 General Kreat, the Boltbringer|j25
 1 Genesis Chamber|bbd
 1 Glimpse the Impossible|mh3
 1 Guff Rewrites History|cmm
-1 Sabretooth Tiger|6ed
+1 Sabretooth Tiger|ICE|[215]
 1 Hell to Pay|otj
-1 Impact Tremors|moc
-1 Iron Myr|mrd
+1 Impact Tremors|FDN|[717]
+1 Iron Myr|SOM|[168]
 1 Irreverent Gremlin|dsk
-1 Kher Keep|moc
+1 Kher Keep|FRC|[75]
 1 Koth, Fire of Resistance|one
 1 Magus of the Wheel|cmm
 1 Mechanized Warfare|bro
-1 Mind Stone|woc
+1 Mind Stone|DMR|[385]
 1 Molten Gatekeeper|mh3
-37 Mountain|tsp
-1 Outpost Siege|frf
+37 Mountain|INR|[294]
+1 Outpost Siege|PIO|[150]
 1 Pandemonium|exo
-1 Panharmonicon|j22
-1 Pia and Kiran Nalaar|moc
-1 Plargg and Nassari|mat
+1 Panharmonicon|TSR|[399]
+1 Pia and Kiran Nalaar|DRC|[105]
+1 Plargg and Nassari|SOC|[250]
 1 Reckless Handling|mat
-1 Reforge the Soul|avr
+1 Reforge the Soul|INR|[167]
 1 Relic of Legends|dmu
 1 Return the Favor|otj
-1 Rose Room Treasurer|ncc
-1 Ruby Medallion|cmm
-1 Siege-Gang Commander|onc
-1 Skullclamp|moc
+1 Rose Room Treasurer|BLC|[201]
+1 Ruby Medallion|TMP|[305]
+1 Siege-Gang Commander|DMR|[330]
+1 Skullclamp|TRC|[354]
 1 Smuggler's Copter|nec
-1 Sol Ring|woc
-1 Solemn Simulacrum|cmm
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
 1 Spawn-Gang Commander|mh3
 1 Spiked Corridor|dsc
-1 Lightning Elemental|jmp
+1 Lightning Elemental|TMP|[186]
 1 Squee, the Immortal|ncc
 1 Sulfuric Vortex|dmr
-1 Terror of the Peaks|m21
+1 Terror of the Peaks|OTJ|[149]
 1 Tibalt's Trickery|khm
-1 Tome of Legends|eld
+1 Tome of Legends|FDC|[293]
 1 Torbran, Thane of Red Fell|eld
 1 Urabrask's Forge|one
-1 Vandalblast|cmm
+1 Vandalblast|TSR|[352]
 1 Vigilante Justice|c20
-1 Warstorm Surge|blc
+1 Warstorm Surge|FDC|[186]
 1 Weftstalker Ardent|eoe
 1 Witty Roastmaster|snc

@@ -2,16 +2,16 @@
 Name=infectrat
 [Main]
 4 Blightbelly Rat|ONE|1
-4 Bog Rats|6ED|1
+4 Bog Rats|DRK|[42]
 4 Disease Carriers|UDS|1
 4 Drainpipe Vermin|JMP|1
-4 Ichor Rats|SOM|1
+4 Ichor Rats|ONC|[93]
 4 Karumonix, the Rat King|ONE|1
-4 Muck Rats|POR|1
-4 Plague Rats|30A|1
+4 Muck Rats|PO2|[80]
+4 Plague Rats|LEB|[122]
 4 Septic Rats|MBS|1
-4 Spawning Pool|10E|1
-16 Swamp|GNT|1
-4 Swarmyard|TSR|1
+4 Spawning Pool|ULG|[142]
+16 Swamp|INR|[292]
+4 Swarmyard|BLC|[133]
 [Sideboard]
 [Schemes]

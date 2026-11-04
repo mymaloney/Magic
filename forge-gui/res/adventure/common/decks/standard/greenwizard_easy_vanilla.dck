@@ -6,22 +6,22 @@ Description=Mono G Muraganda Petroglyphs deck with vanilla creatures and a few t
 Icon=Radagast.jpg
 Deck Type=constructed
 [Main]
-23 Forest|M11
-4 Muraganda Petroglyphs
-2 Hornet Sting
-2 Hurricane
-1 Needle Storm
-1 Momentous Fall
-4 Elvish Warrior
-4 Leatherback Baloth
-3 Gnarled Mass
-3 Trained Armodon
-3 Call of the Herd
-1 Beacon of Creation
-3 Imperiosaur
-2 Bestial Menace
-1 Beast Attack
-1 Moss Monster
-1 Silverback Ape
-1 Craw Wurm
+23 Forest|INR|[296]
+4 Muraganda Petroglyphs|TSR|[220]
+2 Hornet Sting|M11|[181]
+2 Hurricane|PO2|[129]
+1 Needle Storm|TMP|[241]
+1 Momentous Fall|JMP|[411]
+4 Elvish Warrior|ONS|[260]
+4 Leatherback Baloth|WWK|[107]
+3 Gnarled Mass|BOK|[127]
+3 Trained Armodon|TMP|[260]
+3 Call of the Herd|ODY|[231]
+1 Beacon of Creation|5DN|[82]
+3 Imperiosaur|TSR|[211]
+2 Bestial Menace|MIC|[134]
+1 Beast Attack|ODY|[230]
+1 Moss Monster|LEG|[195]
+1 Silverback Ape|S99|[141]
+1 Craw Wurm|LEB|[191]
 [Sideboard]

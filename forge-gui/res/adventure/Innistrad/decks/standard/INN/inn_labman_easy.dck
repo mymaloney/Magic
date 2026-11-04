@@ -3,28 +3,28 @@ Name=INN_labman_easy
 [Avatar]
 
 [Main]
-2 Amass the Components|AVR|1
-2 Flip the Switch|MID|1
-1 Delver of Secrets|ISD|1
+2 Amass the Components|IMA|[41]
+2 Flip the Switch|DBL|[54]
+1 Delver of Secrets|INR|[457]
 2 Alchemist's Apprentice|AVR|1
-2 Baithook Angler|MID|1
-2 Aberrant Researcher|SOI|1
-2 Silent Departure|ISD|1
-2 Catalog|SOI|1
-2 Component Collector|SOI|1
-2 Thought Scour|DKA|1
-2 Startle|MID|1
-2 Bone to Ash|DKA|1
-12 Island|ISD|2
-12 Island|MID|1
-2 Cellar Door|ISD|1
+2 Baithook Angler|DBL|[42]
+2 Aberrant Researcher|INR|[454]
+2 Silent Departure|INR|[367]
+2 Catalog|USG|[64]
+2 Component Collector|DBL|[43]
+2 Thought Scour|2X2|[65]
+2 Startle|DBL|[78]
+2 Bone to Ash|M20|[48]
+12 Island|INR|[290]
+12 Island|INR|[290]
+2 Cellar Door|J22|[759]
 2 Chill of Foreboding|DKA|1
 1 Furtive Homunculus|SOI|1
-2 Deranged Assistant|ISD|1
-1 Havengul Runebinder|DKA|1
-2 Laboratory Maniac|ISD|1
-2 Overwhelmed Archivist|MID|1
-1 Reckless Scholar|SOI|1
+2 Deranged Assistant|INR|[61]
+1 Havengul Runebinder|MIC|[101]
+2 Laboratory Maniac|INR|[359]
+2 Overwhelmed Archivist|DBL|[68]
+1 Reckless Scholar|INR|[81]
 [Sideboard]
 
 [Planes]

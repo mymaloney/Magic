@@ -1,7 +1,7 @@
 [metadata]
 Name=Peasant
 [Main]
-20 Plains|PO2
+20 Plains|INR|[288]
 4 Icatian Town|FEM
 2 Icatian Moneychanger|FEM|3
 2 Town Sentry|PO2
@@ -13,9 +13,9 @@ Name=Peasant
 2 Millstone|ATQ
 2 Festival of Trokin|PO2
 2 Festival|DRK
-2 Holy Day|LEG
+2 Holy Day|INV|[20]
 1 Inheritance|ALL
-1 Farmstead|LEA
-4 Swords to Plowshares|LEA
-4 Path of Peace|PO2
-4 Pacifism|7ED
+1 Farmstead|LEB|[20]
+4 Swords to Plowshares|DMR|[275]
+4 Path of Peace|USG|[29]
+4 Pacifism|ONS|[47]

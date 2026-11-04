@@ -1,15 +1,15 @@
 [metadata]
 Name=redwizard_medium_circleofflame
 [Main]
-16 Mountain|4ED
-2 Island|4ED
+16 Mountain|INR|[294]
+2 Island|INR|[290]
 3 Pyrostatic Pillar|SCG
-4 Fireball|4ED
+4 Fireball|LEB|[150]
 4 Firebrand Ranger|INV
-4 Incinerate|5ED
+4 Incinerate|MIR|[184]
 4 Orcish Cannoneers|ICE
-4 Prodigal Sorcerer|4ED
-4 Red Elemental Blast|3ED
-4 Shivan Dragon|3ED
+4 Prodigal Sorcerer|LEB|[74]
+4 Red Elemental Blast|LEB|[170]
+4 Shivan Dragon|DMR|[329]
 4 Shivan Reef|APC
 4 Thunderbolt|WTH

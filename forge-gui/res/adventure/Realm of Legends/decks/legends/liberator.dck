@@ -4,94 +4,94 @@ Name=Liberator
 1 Liberator, Urza's Battlethopter|bro
 [Main]
 1 Aetherflux Reservoir|kld
-1 All Is Dust|cmm
+1 All Is Dust|FDC|[9]
 1 Arcbound Ravager|mma
 1 Arcbound Reclaimer|dst
 1 Blackblade Reforged|dmc
-1 Blast Zone|cmm
-1 Bonders' Enclave|cmm
-1 Buried Ruin|onc
+1 Blast Zone|M3C|[322]
+1 Bonders' Enclave|FDC|[297]
+1 Buried Ruin|EOC|[150]
 1 Calamity of the Titans|cmm
 1 Cityscape Leveler|bro
-1 Cloud Key|tsr
+1 Cloud Key|EOC|[54]
 1 Cogwork Assembler|j22
-1 Darksteel Colossus|dst
+1 Darksteel Colossus|FDN|[671]
 1 Sojourner's Companion|mh2
-1 Arcbound Crusher|dst
-1 Darksteel Juggernaut|c18
-1 Maelstrom Colossus|cmr
+1 Arcbound Crusher|HOP|[105]
+1 Darksteel Juggernaut|FDC|[252]
+1 Maelstrom Colossus|J25|[754]
 1 Sandstone Oracle|cmm
-1 Traxos, Scourge of Kroog|dom
+1 Traxos, Scourge of Kroog|BRC|[170]
 1 Scavenged Brawler|brc
 1 Mycosynth Golem|5dn
-1 Crystal Vein|cma
-1 Darksteel Citadel|brc
+1 Crystal Vein|MIR|[325]
+1 Darksteel Citadel|FDC|[300]
 1 Desecrate Reality|cmm
-1 Duplicant|cmm
+1 Duplicant|DRC|[54]
 1 Etched Champion|brc
 1 Field of the Dead|m20
-1 Forge of Heroes|cmm
-1 Forsaken Monument|cmm
-1 Foundry Inspector|nec
+1 Forge of Heroes|C18|[58]
+1 Forsaken Monument|TRC|[343]
+1 Foundry Inspector|FDC|[259]
 1 Golem Artisan|j22
-1 Guildless Commons|cmm
+1 Guildless Commons|CMR|[351]
 1 Inventors' Fair|kld
 1 Jhoira's Toolbox|ulg
-1 Kaldra Compleat|cmm
+1 Kaldra Compleat|MH2|[227]
 1 Karn, Legacy Reforged|mat
 1 Karn, Scion of Urza|dom
 1 Kuldotha Forgemaster|2xm
 1 Lodestone Golem|mm2
-1 Mage-Ring Network|cmm
-1 Metalwork Colossus|cmm
-1 Meteor Golem|cmm
+1 Mage-Ring Network|C21|[300]
+1 Metalwork Colossus|BRC|[147]
+1 Meteor Golem|FDN|[256]
 1 Mikokoro, Center of the Sea|dmc
-1 Mirrorpool|cmm
+1 Mirrorpool|OGW|[174]
 1 Myr Convert|one
-1 Mystic Forge|cmm
-1 Nettlecyst|moc
-1 Palladium Myr|m21
-1 Perilous Vault|cmm
-1 Phyrexian Revoker|mbs
-1 Platinum Angel|mrd
-1 Reliquary Tower|cmm
-1 Rogue's Passage|cmm
-1 Ruins of Oran-Rief|cmm
+1 Mystic Forge|M3C|[302]
+1 Nettlecyst|FDC|[275]
+1 Palladium Myr|FDC|[278]
+1 Perilous Vault|M15|[224]
+1 Phyrexian Revoker|CLB|[868]
+1 Platinum Angel|CN2|[214]
+1 Reliquary Tower|TRC|[551]
+1 Rogue's Passage|TRC|[552]
+1 Ruins of Oran-Rief|M3C|[370]
 1 Sanctum of Ugin|bfz
 1 Scarecrone|jmp
-1 Scavenger Grounds|cmm
+1 Scavenger Grounds|FDC|[311]
 1 Scrap Trawler|moc
 1 Scrapyard Recombiner|mh1
 1 Semblance Anvil|som
-1 Shrine of the Forsaken Gods|cmm
-1 Sol Ring|cmm
-1 Solemn Simulacrum|cmm
-1 Soul of New Phyrexia|cmm
-1 Spatial Contortion|cmm
-1 Steel Hellkite|cmm
-1 Steel Overseer|j22
-1 Stonecoil Serpent|eld
-1 Temple of the False God|cmm
+1 Shrine of the Forsaken Gods|M3C|[376]
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
+1 Soul of New Phyrexia|MOC|[382]
+1 Spatial Contortion|OGW|[8]
+1 Steel Hellkite|TDC|[327]
+1 Steel Overseer|EOC|[144]
+1 Stonecoil Serpent|SOC|[356]
+1 Temple of the False God|SCG|[143]
 1 The Grey Havens|ltr
-1 The Mycosynth Gardens|one
-1 Thespian's Stage|2xm
+1 The Mycosynth Gardens|EOC|[168]
+1 Thespian's Stage|RVR|[466]
 1 Thran Spider|bro
-1 Titan's Presence|cmm
-1 Tomb of the Spirit Dragon|cmm
-1 Transmogrifying Wand|cmm
+1 Titan's Presence|J22|[749]
+1 Tomb of the Spirit Dragon|M3C|[397]
+1 Transmogrifying Wand|M19|[247]
 1 Treasure Vault|drc
-1 Ugin, the Ineffable|cmm
+1 Ugin, the Ineffable|M3C|[160]
 1 Urza's Factory|j22
-1 Urza's Mine|cmm
-1 Urza's Power Plant|cmm
+1 Urza's Mine|ATQ|[83a]
+1 Urza's Power Plant|ATQ|[84a]
 1 Urza's Saga|mh2
-1 Urza's Tower|cmm
+1 Urza's Tower|ATQ|[85a]
 1 Urza's Workshop|brc
 1 Walking Atlas|wwk
 1 Walking Ballista|j22
-1 War Room|cmm
-8 Wastes|cmm
-1 Witch's Clinic|c21
+1 War Room|SOC|[422]
+8 Wastes|TSR|[410]
+1 Witch's Clinic|FDC|[318]
 1 Wurmcoil Engine|2xm
 1 Zenith Chronicler|one
 1 Zhalfirin Void|afc

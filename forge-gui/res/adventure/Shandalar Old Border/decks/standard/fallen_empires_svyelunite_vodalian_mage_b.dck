@@ -1,7 +1,7 @@
 [metadata]
 Name=Vodalian Mage
 [Main]
-16 Island|3ED
+16 Island|INR|[290]
 3 Coral Atoll|VIS
 1 Svyelunite Temple|FEM
 1 Vodalian Mage|FEM|[30a]
@@ -15,9 +15,9 @@ Name=Vodalian Mage
 1 Force Spike|LEG
 1 Glowing Anemone|MMQ
 4 Gush|MMQ
-2 Mind Stone|WTH
+2 Mind Stone|DMR|[385]
 1 Mana Drain|LEG
-1 Power Leak|3ED
+1 Power Leak|LEB|[72]
 4 Rising Waters|NMS
 2 Sapphire Medallion|TMP
 1 Slow Motion|ULG

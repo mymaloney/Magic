@@ -2,21 +2,21 @@
 Name=whitewizard_hard_enchantments
 [Main]
 1 Coastal Tower|INV
-1 Fact or Fiction|INV
-2 Hydroblast|5ED
+1 Fact or Fiction|DMR|[283]
+2 Hydroblast|ICE|[72]
 2 Meddling Mage|PLS
 2 Mother of Runes|ULG
 2 Shifting Sky|PLS
-3 Impulse|BTD
+3 Impulse|DMR|[287]
 3 Silver Knight|SCG
-4 Adarkar Wastes|5ED
-4 Blue Elemental Blast|2ED
+4 Adarkar Wastes|ICE|[351]
+4 Blue Elemental Blast|LEB|[50]
 4 Distorting Lens|MMQ
-4 Flooded Strand|ONS
-4 Mana Leak|BRB
-4 Southern Paladin|7ED
-4 Swords to Plowshares|2ED
-4 Tundra|LEA
+4 Flooded Strand|MH3|[436]
+4 Mana Leak|STH|[36]
+4 Southern Paladin|WTH|[27]
+4 Swords to Plowshares|DMR|[275]
+4 Tundra|LEB|[285]
 4 Wasteland|TMP
-6 Island|2ED
-8 Plains|2ED
+6 Island|INR|[290]
+8 Plains|INR|[288]

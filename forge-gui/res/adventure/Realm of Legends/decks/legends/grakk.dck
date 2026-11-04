@@ -7,8 +7,8 @@ Name=Grakk
 1 Archon of Absolution|eld
 1 Baird, Steward of Argive|blc
 1 Blazing Archon|rvr
-1 Brainwash|5ed
-1 Candletrap|mid
+1 Brainwash|DRK|[3]
+1 Candletrap|DBL|[9]
 1 Captured by the Consulate|kld
 1 Celestial Convergence|pcy
 1 Divine Intervention|leg
@@ -17,7 +17,7 @@ Name=Grakk
 1 Congregate|usg
 1 Darksteel Mutation|soc
 1 Cooped Up|woe
-1 Festival of Trokin|p02
+1 Festival of Trokin|PO2|[16]
 1 Rhox Faithmender|tdc
 1 Landbind Ritual|zen
 1 Divine Congregation|tsp
@@ -26,44 +26,44 @@ Name=Grakk
 1 Petrify|lci
 1 Realmbreaker's Grasp|mom
 1 Reprobation|mh1
-1 Sphere of Safety|rtr
+1 Sphere of Safety|RVR|[447]
 1 Spirit Loop|tsp
-1 Temporal Isolation|tsp
+1 Temporal Isolation|TSR|[48]
 1 Trapped in the Tower|eld
-1 Compulsory Rest|akh
+1 Compulsory Rest|PIO|[10]
 1 Cowed by Wisdom|sok
 1 Crystal Barricade|fdn
-1 Pacifism|mir
-1 Dawnhart Geist|vow
+1 Pacifism|ONS|[47]
+1 Dawnhart Geist|DBL|[275]
 1 Demotion|grn
 1 Dog Umbra|mh3
-1 Faith's Fetters|j25
-1 Faithbound Judge|vow
+1 Faith's Fetters|RVR|[307]
+1 Faithbound Judge|DBL|[279]
 1 Felidar Sovereign|j25
 1 Guard Duty|ima
 1 Hinterland Sanctifier|j25
 1 Hobble|pls
-1 Mesa Enchantress|dsc
+1 Mesa Enchantress|DMR|[267]
 1 Oppressive Rays|m15
-1 Sol Ring|c13
+1 Sol Ring|LEB|[270]
 1 Pious Interdiction|xln
-36 Plains|mir
+36 Plains|INR|[288]
 1 Prayer of Binding|fdn
-1 Prison Term|lrw
-1 Pristine Talisman|ltc
-1 Promise of Loyalty|msc
+1 Prison Term|CMD|[27]
+1 Pristine Talisman|C21|[258]
+1 Promise of Loyalty|TRC|[234]
 1 Psemilla, Meletian Poet|j25
-1 Radiant Fountain|c21
+1 Radiant Fountain|FDC|[308]
 1 Recumbent Bliss|j25
 1 Riot Control|blc
 1 Sage's Reverie|soc
 1 Sheltered by Ghosts|soc
-1 Sigarda's Splendor|mid
-1 Spirit Link|leg
-1 Sram, Senior Edificer|soc
-1 Arcane Signet|eld
+1 Sigarda's Splendor|DBL|[33]
+1 Spirit Link|DMR|[274]
+1 Sram, Senior Edificer|TSR|[303]
+1 Arcane Signet|TRC|[485]
 1 Starfield Mystic|soc
-1 Test of Endurance|jud
+1 Test of Endurance|DMR|[276]
 1 Transcendent Envoy|soc
-1 Windborn Muse|mkc
-1 Winds of Rath|soc
+1 Windborn Muse|DMR|[278]
+1 Winds of Rath|TMP|[52]

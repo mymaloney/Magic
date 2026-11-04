@@ -4,95 +4,95 @@ Name=Nashi
 1 Nashi, Moon's Legacy|mat
 [Main]
 1 Animist's Might|mat
-1 Bojuka Bog|lcc
-1 Burglar Rat|j22
-1 Choked Estuary|lcc
-1 Coiling Oracle|dmc
-1 Command Tower|lcc
-1 Cultivate|lcc
-1 Dimir Aqueduct|woc
-1 Dismal Backwater|mom
-1 Distant Melody|lcc
+1 Bojuka Bog|TSR|[406]
+1 Burglar Rat|FDN|[170]
+1 Choked Estuary|TRC|[370]
+1 Coiling Oracle|RVR|[361]
+1 Command Tower|TRC|[521]
+1 Cultivate|SOC|[265]
+1 Dimir Aqueduct|DSC|[270]
+1 Dismal Backwater|TDM|[254]
+1 Distant Melody|ECC|[45]
 1 Drainpipe Vermin|jmp
 1 Druid's Deliverance|c19
 1 Earsplitting Rats|jud
 1 The Tale of Tamiyo|dsk
-1 Evolving Wilds|lcc
-1 Exotic Orchard|lcc
-1 Farseek|lcc
-3 Forest|neo
-1 Geier Reach Sanitarium|lcc
+1 Evolving Wilds|TRC|[527]
+1 Exotic Orchard|TRC|[378]
+1 Farseek|RVR|[347]
+3 Forest|INR|[296]
+1 Geier Reach Sanitarium|FDC|[303]
 1 Gnat Miser|sok
 1 Gnawing Vermin|bro
-1 Golgari Rot Farm|cmm
-1 Graf Rats|emn
+1 Golgari Rot Farm|ECC|[151]
+1 Graf Rats|INR|[113]
 1 Nashi, illusion gadgeteer|yotj
-1 Nashi, Moon Sage's Scion|neo
+1 Nashi, Moon Sage's Scion|OTC|[143]
 1 Nashi, Searcher in the dark|dsk
 1 Gyruda, Doom of Depths|iko
-1 Hinterland Harbor|lcc
-1 Hissing Quagmire|ogw
+1 Hinterland Harbor|DMR|[396]
+1 Hissing Quagmire|PIO|[266]
 1 Inga and Esika|mom
-3 Island|neo
+3 Island|INR|[290]
 1 Journey to Eternity|rix
-1 Jungle Hollow|mom
-1 Kodama's Reach|lcc
+1 Jungle Hollow|TDM|[258]
+1 Kodama's Reach|ECC|[113]
 1 Kolvori, God of Kinship|khm
-1 Lab Rats|tpr
-1 Lazav, the Multifarious|grn
+1 Lab Rats|STH|[61]
+1 Lazav, the Multifarious|RVR|[371]
 1 Locust Miser|sok
-1 Midnight Scavengers|emn
-1 Necroblossom Snarl|cmm
+1 Midnight Scavengers|INR|[123]
+1 Necroblossom Snarl|SOC|[389]
 1 Nezumi Bone-Reader|j22
 1 Nezumi Graverobber|cm2
 1 Nezumi Informant|mom
 1 Nezumi Prowler|neo
 1 Nezumi Shortfang|chk
-1 Okiba-Gang Shinobi|bok
-1 Opal Palace|cmm
-1 Opulent Palace|cmm
+1 Okiba-Gang Shinobi|PCA|[35]
+1 Opal Palace|SOC|[390]
+1 Opulent Palace|ECC|[157]
 1 Oskar, Rubbish Reclaimer|ncc
 1 Ossuary Rats|j22
-1 Pack Rat|rtr
-1 Path of Ancestry|lcc
+1 Pack Rat|RVR|[455]
+1 Path of Ancestry|TRC|[545]
 1 Piper of the Swarm|afc
-1 Pull from Tomorrow|moc
-1 Rampant Growth|lcc
-1 Rankle, Master of Pranks|woc
-1 Ravenous Rats|gvl
-1 Reliquary Tower|lcc
-1 Rogue's Passage|lcc
-1 Rootcoil Creeper|mid
+1 Pull from Tomorrow|SOC|[116]
+1 Rampant Growth|TMP|[245]
+1 Rankle, Master of Pranks|OTC|[148]
+1 Ravenous Rats|INV|[120]
+1 Reliquary Tower|TRC|[551]
+1 Rogue's Passage|TRC|[552]
+1 Rootcoil Creeper|DBL|[238]
 1 Ruin Rat|hou
-1 Sakura-Tribe Elder|scd
+1 Sakura-Tribe Elder|SOC|[285]
 1 Scrib Nibblers|wwk
-1 Tamiyo's Safekeeping|neo
+1 Tamiyo's Safekeeping|FDC|[233]
 1 Simic Charm|cmr
-1 Simic Growth Chamber|lcc
+1 Simic Growth Chamber|DSC|[298]
 1 Sinuous Vermin|j22
-1 Sol Ring|lcc
+1 Sol Ring|LEB|[270]
 1 Stronghold Rats|tsr
 1 Sultai Ascendancy|cp2
-1 Sunken Hollow|lcc
-3 Swamp|neo
-1 Swarm of Rats|8ed
-1 Swarmyard|tsr
-1 Swiftfoot Boots|lcc
+1 Sunken Hollow|TRC|[407]
+3 Swamp|INR|[292]
+1 Swarm of Rats|PO2|[89]
+1 Swarmyard|BLC|[133]
+1 Swiftfoot Boots|TRC|[501]
 1 Sygg, River Cutthroat|znc
-1 Syphon Mind|scd
-1 Tatyova, Benthic Druid|lcc
-1 Temple of Deceit|woc
-1 Temple of Malady|cmm
-1 Temple of Mystery|lcc
-1 Terramorphic Expanse|lcc
-1 Tetsuko Umezawa, Fugitive|cmm
-1 The Mimeoplasm|2x2
+1 Syphon Mind|ONS|[175]
+1 Tatyova, Benthic Druid|DMR|[371]
+1 Temple of Deceit|DRC|[176]
+1 Temple of Malady|SOC|[413]
+1 Temple of Mystery|SOC|[414]
+1 Terramorphic Expanse|TRC|[571]
+1 Tetsuko Umezawa, Fugitive|FRA|[221]
+1 The Mimeoplasm|OTC|[234]
 1 The Raven Man|dmu
-1 Thornwood Falls|mom
+1 Thornwood Falls|TDM|[269]
 1 Tormod, the Desecrator|cmr
 1 Twisted Sewer-Witch|woe
-1 Villainous Wealth|2x2
-1 Vineglimmer Snarl|lcc
+1 Villainous Wealth|OTC|[249]
+1 Vineglimmer Snarl|SOC|[420]
 1 Voracious Vermin|woe
 1 Wave of Rats|ncc
 1 Zimone and Dina|mom

@@ -1,98 +1,98 @@
 [metadata]
 Name=Shattergang Brothers
 [Commander]
-1 Shattergang Brothers|C13
+1 Shattergang Brothers|2X2|[275]
 [Main]
-1 Prossh, Skyraider of Kher|C13
-1 Akoum Refuge|C13
-1 Armillary Sphere|C13
+1 Prossh, Skyraider of Kher|A25|[214]
+1 Akoum Refuge|SCD|[289]
+1 Armillary Sphere|CMR|[298]
 1 Blood Rites|C13
 1 Brooding Saurian|C13
 1 Capricious Efreet|C13
 1 Carnage Altar|C13
-1 Charnelhoard Wurm|C13
-1 Command Tower|C13
+1 Charnelhoard Wurm|C18|[171]
+1 Command Tower|TRC|[521]
 1 Curse of Chaos|C13
-1 Curse of Predation|C13
+1 Curse of Predation|IMA|[159]
 1 Curse of Shallow Graves|C13
 1 Deathbringer Thoctar|C13
 1 Deepfire Elemental|C13
-1 Dirge of Dread|C13
-1 Elvish Skysweeper|C13
-1 Endless Cockroaches|C13
-1 Endrek Sahr, Master Breeder|C13
-1 Evolving Wilds|C13
-1 Fecundity|C13
+1 Dirge of Dread|ONS|[138]
+1 Elvish Skysweeper|GN3|[95]
+1 Endless Cockroaches|POR|[92]
+1 Endrek Sahr, Master Breeder|CMM|[155]
+1 Evolving Wilds|TRC|[527]
+1 Fecundity|USG|[251]
 1 Fell Shepherd|C13
-2 Forest|C13|1
-2 Forest|C13|2
-2 Forest|C13|3
-1 Forest|C13|4
-1 Foster|C13
-1 Furnace Celebration|C13
-1 Goblin Bombardment|C13
-1 Goblin Sharpshooter|C13
-1 Golgari Guildgate|C13
-1 Golgari Guildmage|C13
-1 Golgari Rot Farm|C13
-1 Grim Backwoods|C13
-1 Gruul Guildgate|C13
+2 Forest|INR|[296]
+2 Forest|INR|[296]
+2 Forest|INR|[296]
+1 Forest|INR|[296]
+1 Foster|MMQ|[247]
+1 Furnace Celebration|CMR|[181]
+1 Goblin Bombardment|TMP|[179]
+1 Goblin Sharpshooter|ONS|[207]
+1 Golgari Guildgate|RVR|[402]
+1 Golgari Guildmage|CLU|[194]
+1 Golgari Rot Farm|ECC|[151]
+1 Grim Backwoods|SOC|[377]
+1 Gruul Guildgate|RVR|[403]
 1 Hooded Horror|C13
 1 Hua Tuo, Honored Physician|C13
 1 Hunted Troll|C13
-1 Inferno Titan|C13
-1 Jade Mage|C13
+1 Inferno Titan|BLC|[198]
+1 Jade Mage|CMM|[298]
 1 Jar of Eyeballs|C13
 1 Jund Charm|C13
-1 Jund Panorama|C13
-1 Kazandu Refuge|C13
-1 Khalni Garden|C13
-1 Kher Keep|C13
-1 Llanowar Reborn|C13
-1 Mass Mutiny|C13
-2 Mountain|C13|1
-2 Mountain|C13|2
-2 Mountain|C13|3
-1 Mountain|C13|4
-1 Night Soil|C13
+1 Jund Panorama|NCC|[408]
+1 Kazandu Refuge|SCD|[307]
+1 Khalni Garden|C18|[262]
+1 Kher Keep|FRC|[75]
+1 Llanowar Reborn|LCC|[341]
+1 Mass Mutiny|OTC|[174]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+2 Mountain|INR|[294]
+1 Mountain|INR|[294]
+1 Night Soil|FEM|[71a]
 1 Obelisk of Jund|C13
-1 Opal Palace|C13
-1 Ophiomancer|C13
+1 Opal Palace|SOC|[390]
+1 Ophiomancer|SOC|[118]
 1 Plague Boiler|C13
 1 Primal Vigor|C13
-1 Quagmire Druid|C13
-1 Rakdos Guildgate|C13
-1 Reincarnation|C13
-1 Restore|C13
-1 Rough|C13
-1 Rupture Spire|C13
-1 Sakura-Tribe Elder|C13
-1 Savage Lands|C13
+1 Quagmire Druid|APC|[51]
+1 Rakdos Guildgate|RVR|[408]
+1 Reincarnation|LEG|[201]
+1 Restore|CMA|[141]
+1 Rough|TSR|[186]
+1 Rupture Spire|CMR|[355]
+1 Sakura-Tribe Elder|SOC|[285]
+1 Savage Lands|ECC|[165]
 1 Scarland Thrinax|C13
-1 Sek'Kuar, Deathkeeper|C13
-1 Silklash Spider|C13
-1 Sol Ring|C13
-1 Spine of Ish Sah|C13
+1 Sek'Kuar, Deathkeeper|CMM|[354]
+1 Silklash Spider|ONS|[281]
+1 Sol Ring|LEB|[270]
+1 Spine of Ish Sah|BLC|[285]
 1 Spoils of Victory|C13
-1 Sprouting Thrinax|C13
-1 Stalking Vengeance|C13
-1 Stronghold Assassin|C13
-1 Sudden Demise|C13
-2 Swamp|C13|1
-2 Swamp|C13|2
-1 Swamp|C13|3
-1 Swamp|C13|4
-1 Swiftfoot Boots|C13
-1 Temple of the False God|C13
-1 Tempt with Vengeance|C13
+1 Sprouting Thrinax|2X2|[278]
+1 Stalking Vengeance|RVR|[126]
+1 Stronghold Assassin|STH|[71]
+1 Sudden Demise|E01|[59]
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Temple of the False God|SCG|[143]
+1 Tempt with Vengeance|TDC|[239]
 1 Terra Ravager|C13
-1 Terramorphic Expanse|C13
-1 Tooth and Claw|C13
-1 Vile Requiem|C13
-1 Viscera Seer|C13
-1 Vivid Grove|C13
-1 Walker of the Grove|C13
+1 Terramorphic Expanse|TRC|[571]
+1 Tooth and Claw|TMP|[210]
+1 Vile Requiem|USG|[167]
+1 Viscera Seer|SOC|[229]
+1 Vivid Grove|NCC|[445]
+1 Walker of the Grove|UMA|[191]
 1 Widespread Panic|C13
-1 Wight of Precinct Six|C13
+1 Wight of Precinct Six|FDC|[133]
 [Sideboard]
 

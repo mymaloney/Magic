@@ -1,36 +1,36 @@
 [metadata]
 Name=Taborax, Hope's Demise
 [Commander]
-1 Taborax, Hope's Demise|ZNR
+1 Taborax, Hope's Demise|J25|[69]
 [Main]
 1 Black Market|MMQ
-1 Bojuka Bog|DSC
+1 Bojuka Bog|TSR|[406]
 1 Funeral Room|DSK
 1 Bone Shards|MH2
-1 Castle Locthwain|CLB
-1 Crypt Ghast|GTC
+1 Castle Locthwain|FDC|[299]
+1 Crypt Ghast|RVR|[322]
 1 Damnation|2X2
 1 Dark Prophecy|M14
 1 Dark Ritual|MMQ
 1 Demon of Death's Gate|M11
-1 Jerren, Corrupted Bishop|MID
-1 Dictate of Erebos|JOU
+1 Jerren, Corrupted Bishop|DBL|[109]
+1 Dictate of Erebos|PIO|[91]
 1 Echoing Return|MH2
-1 Feed the Swarm|DSC
-1 Go for the Throat|J25
-1 Harvester of Souls|JMP
+1 Feed the Swarm|TDC|[180]
+1 Go for the Throat|FDC|[100]
+1 Harvester of Souls|TSR|[325]
 1 Infernal Grasp|INR
-1 Jet Medallion|MH3
-1 Dreadfeast Demon|VOW
+1 Jet Medallion|TMP|[292]
+1 Dreadfeast Demon|DBL|[375]
 1 Master of Dark Rites|LCC
 1 Nightmare Shepherd|DSC
 1 Nykthos, Shrine to Nyx|THS
 1 Ob Nixilis, Unshackled|2X2
-1 Patriarch's Bidding|MH2
-1 Phyrexian Arena|ONE
-1 Priest of Forgotten Gods|J25
+1 Patriarch's Bidding|ONS|[161]
+1 Phyrexian Arena|APC|[47]
+1 Priest of Forgotten Gods|SOC|[225]
 1 Razaketh, the Foulblooded|CMM
-1 Reliquary Tower|DSC
+1 Reliquary Tower|TRC|[551]
 1 Rotlung Reanimator|ONS
 1 Bloodletter of Aclazotz|LCI
 1 Secret Salvage|AER
@@ -39,13 +39,13 @@ Name=Taborax, Hope's Demise
 1 Relic Vial|ZNR
 1 Shirei, Shizo's Caretaker|CMM
 1 Skirsdag High Priest|INR
-1 Skullclamp|DST
-1 Sol Ring|DRC
-1 Songs of the Damned|UMA
-27 Swamp|ZNR
+1 Skullclamp|TRC|[354]
+1 Sol Ring|LEB|[270]
+1 Songs of the Damned|ICE|[160]
+27 Swamp|INR|[292]
 1 The Speed Demon|DFT
 1 Thrumming Stone|2X2
-1 Torgaar, Famine Incarnate|DOM
+1 Torgaar, Famine Incarnate|GN2|[35]
 1 Valgavoth, Terror Eater|DSK
 1 Ravenous Demon|DKA
 1 Westvale Abbey|INR

@@ -1,25 +1,25 @@
 [metadata]
 Name=Master Black Wizard - Mono Black Control
 [Main]
-20 Swamp|LEA
+20 Swamp|INR|[292]
 2 Jet Medallion|TMP
 2 Phyrexian Arena|APC
-4 Dark Ritual|LEA
-2 Terror|LEA
+4 Dark Ritual|MMQ|[129]
+2 Terror|DMR|[312]
 2 Snuff Out|MMQ
 4 Hymn to Tourach|FEM
 2 Reanimate|TMP
-2 Animate Dead|LEA
-4 Hypnotic Specter|LEA
+2 Animate Dead|LEB|[93]
+4 Hypnotic Specter|LEB|[113]
 2 Oubliette|ARN
-2 Royal Assassin|LEA
+2 Royal Assassin|DMR|[310]
 4 Juzám Djinn|ARN
-2 Sinkhole|LEA
+2 Sinkhole|LEB|[130]
 2 Mutilate|TOR
 2 Avatar of Woe|PCY
 1 Visara the Dreadful|ONS
 1 Phage the Untouchable|LGN
 
 [StartInBattle_Reference]
-1 Mox Jet|LEA
-1 Wall of Bone|LEA
+1 Mox Jet|LEB|[263]
+1 Wall of Bone|LEB|[133]

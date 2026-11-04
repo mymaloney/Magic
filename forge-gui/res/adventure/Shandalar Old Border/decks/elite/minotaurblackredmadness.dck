@@ -1,9 +1,9 @@
 [metadata]
 Name=minotaurblackredmadness
 [Main]
-1 Forest|ICE
+1 Forest|INR|[296]
 1 Llanowar Wastes|APC
-13 Mountain|ICE
+13 Mountain|INR|[294]
 2 Karplusan Forest|ICE
 4 Fiery Temper|TOR
 4 Frenzied Tilling|INV
@@ -14,10 +14,10 @@ Name=minotaurblackredmadness
 4 Shock|ONS
 4 Strength of Lunacy|TOR
 4 Sulfurous Springs|ICE
-4 Swamp|ICE
+4 Swamp|INR|[292]
 4 Swat|ONS
 
 [StartInBattle_Reference]
-2 Mountain|ICE
+2 Mountain|INR|[294]
 1 Didgeridoo|HML
 1 Anaba Spirit Crafter|HML

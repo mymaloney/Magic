@@ -2,34 +2,34 @@
 Name=beastmaster
 [Main]
 2 Abzan Beastmaster|FRF|1
-2 Ancient Brontodon|PLST|1
-2 Assault Formation|JMP|1
-1 Aura Mutation|NCC|1
+2 Ancient Brontodon|XLN|[175]
+2 Assault Formation|TDC|[246]
+1 Aura Mutation|INV|[232]
 2 Captured by Lagacs|MH2|1
 2 Damping Matrix|MM3|1
-1 Felidar Retreat|ZNR|1
-2 Forest|XLN|1
-3 Forest|XLN|2
-1 Forest|XLN|3
-2 Forest|XLN|4
-1 Gavony Township|C20|1
-2 Grasslands|AFC|1
+1 Felidar Retreat|FDN|[574]
+2 Forest|INR|[296]
+3 Forest|INR|[296]
+1 Forest|INR|[296]
+2 Forest|INR|[296]
+1 Gavony Township|MOC|[406]
+2 Grasslands|MIR|[327]
 3 Grizzled Leotau|ARB|1
 1 Huatli, the Sun's Heart|WAR|1
 2 Idyllic Grange|ELD|1
-2 Indomitable Ancients|MOR|1
+2 Indomitable Ancients|TDC|[121]
 3 Jasmine Boreal of the Seven|DMC|1
-1 Krosan Verge|ZNC|1
+1 Krosan Verge|JUD|[141]
 1 Leinore, Autumn Sovereign|MIC|1
 3 Looming Altisaur|XLN|1
 2 Muraganda Petroglyphs|TSR|1
-3 Plains|XLN|1
-2 Plains|XLN|2
-3 Plains|XLN|4
-2 Radiant Grove|DMU|1
-1 Runic Armasaur|M19|1
+3 Plains|INR|[288]
+2 Plains|INR|[288]
+3 Plains|INR|[288]
+2 Radiant Grove|TDC|[385]
+1 Runic Armasaur|LCC|[256]
 2 Ruxa, Patient Professor|C21|1
 1 Stoneskin|CLB|1
-1 The Immortal Sun|RIX|1
+1 The Immortal Sun|TRC|[347]
 2 Tuinvale Treefolk|ELD|1
 2 Vorstclaw|M20|1

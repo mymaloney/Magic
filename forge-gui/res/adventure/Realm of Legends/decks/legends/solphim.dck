@@ -3,70 +3,70 @@ Name=Solphim
 [Commander]
 1 Solphim, Mayhem Dominus|ONE
 [Main]
-1 Abrade|CMM
+1 Abrade|TRC|[449]
 1 Acidic Soil|USG
-1 Arcane Signet|CMM
-1 Banefire|M19
-1 Blasphemous Act|CMM
-1 Magmaquake|C14
+1 Arcane Signet|TRC|[485]
+1 Banefire|J22|[495]
+1 Blasphemous Act|SOC|[238]
+1 Magmaquake|FDC|[164]
 1 Phyrexian Harvester|YONE
-1 Brash Taunter|M21
-1 Browbeat|A25
-1 Cathartic Reunion|2XM
-1 Chandra, Awakened Inferno|CMM
-1 Chandra, Torch of Defiance|CMM
+1 Brash Taunter|DSC|[161]
+1 Browbeat|JUD|[82]
+1 Cathartic Reunion|ECC|[91]
+1 Chandra, Awakened Inferno|M20|[127]
+1 Chandra, Torch of Defiance|FRA|[244]
 1 Chandra's Incinerator|M21
-1 Chaos Warp|MOC
+1 Chaos Warp|MBC|[72]
 1 City on Fire|MOM
 1 Comet Storm|CMR
-1 Commander's Sphere|CMM
-1 Drakuseth, Maw of Flames|CMM
-1 Electrodominance|RNA
-1 Electrostatic Field|GRN
-1 Fellwar Stone|CMM
-1 Fiery Confluence|CMM
-1 Fiery Temper|C19
+1 Commander's Sphere|TRC|[487]
+1 Drakuseth, Maw of Flames|FDC|[155]
+1 Electrodominance|TDC|[212]
+1 Electrostatic Field|OTC|[164]
+1 Fellwar Stone|DRK|[102]
+1 Fiery Confluence|LCC|[226]
+1 Fiery Temper|TOR|[97]
 1 Fire Diamond|MIR
-1 Fireball|DST
-1 Firebrand Archer|HOU
-1 Flame Rift|MH2
-1 Glittering Stockpile|SNC
-1 Guttersnipe|CMM
-1 Harsh Mentor|AKH
-1 Hazoret's Monument|DMC
+1 Fireball|LEB|[150]
+1 Firebrand Archer|FDN|[196]
+1 Flame Rift|NMS|[80]
+1 Glittering Stockpile|OTC|[167]
+1 Guttersnipe|RVR|[332]
+1 Harsh Mentor|DSC|[165]
+1 Hazoret's Monument|FDC|[261]
 1 Heartless Hidetsugu|CMM
 1 Jaya, Venerated Firemage|WAR
 1 Jaya's Immolating Inferno|CMR
-1 Kessig Flamebreather|VOW
+1 Kessig Flamebreather|DBL|[431]
 1 Koth, Fire of Resistance|ONE
-1 Leyline Tyrant|ZNR
-1 Lightning Bolt|2X2
-1 Lightning Strike|DMU
-1 Mind Stone|CMM
-33 Mountain|ONE
+1 Leyline Tyrant|TDC|[221]
+1 Lightning Bolt|LEB|[162]
+1 Lightning Strike|DFT|[136]
+1 Mind Stone|DMR|[385]
+33 Mountain|INR|[294]
 1 Valakut, the Molten Pinnacle|ZEN
-1 Play with Fire|MID
+1 Play with Fire|J25|[586]
 1 Pyromancer's Gauntlet|M14
-1 Rampaging Ferocidon|XLN
-1 Chain Reaction|SCD
+1 Rampaging Ferocidon|DSC|[167]
+1 Chain Reaction|TRC|[280]
 1 Reverberate|M13
 1 Risk Factor|GRN
 1 Sawblade Scamp|ONE
-1 Shivan Gorge|DMC
-1 Shock|STH
+1 Shivan Gorge|USG|[326]
+1 Shock|ONS|[227]
 1 Boltwave|FDN
-1 Slagstorm|MBS
-1 Smash to Smithereens|ORI
-1 Sol Ring|CMM
-1 Spitfire Lagac|ZNR
-1 Stuffy Doll|M13
-1 Sulfuric Vortex|EMA
-1 Swiftfoot Boots|SCD
+1 Slagstorm|FDN|[207]
+1 Smash to Smithereens|PIO|[343]
+1 Sol Ring|LEB|[270]
+1 Spitfire Lagac|FDN|[208]
+1 Stuffy Doll|CLB|[875]
+1 Sulfuric Vortex|DMR|[332]
+1 Swiftfoot Boots|TRC|[501]
 1 Syr Carah, the Bold|ELD
-1 Tectonic Giant|CLB
+1 Tectonic Giant|DSC|[168]
 1 The Autonomous Furnace|ONE
-1 Thermo-Alchemist|MID
-1 Thrill of Possibility|ONE
+1 Thermo-Alchemist|INR|[403]
+1 Thrill of Possibility|TRC|[455]
 1 Torbran, Thane of Red Fell|ELD
 1 Volcanic Fallout|CMR
 1 Zo-Zu the Punisher|DDS

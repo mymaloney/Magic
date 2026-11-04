@@ -10,7 +10,7 @@ Name=Ureni of the Unwritten
 1 Thundermane Dragon|TDC|1
 1 Broodcaller Scourge|TDC|1
 1 Keiga, the Tide Star|TDC|1
-1 Atsushi, the Blazing Sky|TDC|1
+1 Atsushi, the Blazing Sky|SOC|[236]
 1 Dragonmaster Outcast|TDC|1
 1 Gadrak, the Crown-Scourge|TDC|1
 1 Glorybringer|TDC|1
@@ -40,58 +40,58 @@ Name=Ureni of the Unwritten
 1 Will of the Temur|TDC|1
 1 Zenith Festival|TDC|1
 1 Become the Avalanche|TDC|1
-1 Blasphemous Act|TDC|1
+1 Blasphemous Act|SOC|[238]
 1 Storm's Wrath|TDC|1
 1 Selvala's Stampede|TDC|1
-1 Farseek|TDC|1
-1 Kodama's Reach|TDC|1
+1 Farseek|RVR|[347]
+1 Kodama's Reach|ECC|[113]
 1 Migration Path|TDC|1
 1 Reflections of Littjara|TDC|1
 1 Frontier Siege|TDC|1
-1 Temur Ascendancy|TDC|1
+1 Temur Ascendancy|TSR|[387]
 1 Dragon Tempest|TDC|1
 1 Breaching Dragonstorm|TDM|1
 1 Encroaching Dragonstorm|TDM|1
 1 Elemental Bond|TDC|1
-1 Chaos Warp|TDC|1
+1 Chaos Warp|MBC|[72]
 1 Spit Flame|TDC|1
 1 Draconic Lore|TDC|1
-1 Rapid Hybridization|TDC|1
-1 Reality Shift|TDC|1
-1 Beast Within|TDC|1
+1 Rapid Hybridization|SOC|[198]
+1 Reality Shift|SOC|[199]
+1 Beast Within|TSR|[357]
 1 Dragon's Hoard|TDC|1
-1 Arcane Signet|TDC|1
-1 Sol Ring|TDC|1
-1 Fellwar Stone|TDC|1
-1 Talisman of Creativity|TDC|1
+1 Arcane Signet|TRC|[485]
+1 Sol Ring|LEB|[270]
+1 Fellwar Stone|DRK|[102]
+1 Talisman of Creativity|TRC|[504]
 1 Talisman of Impulse|TDC|1
-1 Cinder Glade|TDC|1
-1 Exotic Orchard|TDC|1
-1 Flooded Grove|TDC|1
+1 Cinder Glade|ECC|[146]
+1 Exotic Orchard|TRC|[378]
+1 Flooded Grove|SOC|[373]
 1 Haven of the Spirit Dragon|TDC|1
-1 Hinterland Harbor|TDC|1
-1 Karplusan Forest|TDC|1
+1 Hinterland Harbor|DMR|[396]
+1 Karplusan Forest|ICE|[356]
 1 Kessig Wolf Run|TDC|1
-1 Stomping Ground|GTC
+1 Stomping Ground|RVR|[413]
 1 Mosswort Bridge|TDC|1
-1 Rockfall Vale|TDC|1
-1 Rootbound Crag|TDC|1
-1 Sheltered Thicket|TDC|1
-1 Shivan Reef|TDC|1
-1 Sulfur Falls|TDC|1
+1 Rockfall Vale|FRA|[186]
+1 Rootbound Crag|ECC|[163]
+1 Sheltered Thicket|ECC|[167]
+1 Shivan Reef|APC|[142]
+1 Sulfur Falls|DMR|[400]
 1 Temple of Abandon|TDC|1
-1 Temple of Mystery|TDC|1
-1 Yavimaya Coast|TDC|1
+1 Temple of Mystery|SOC|[414]
+1 Yavimaya Coast|APC|[143]
 1 Temple of the Dragon Queen|TDC|1
-1 Command Tower|TDC|1
-1 Evolving Wilds|TDM|1
-1 Frontier Bivouac|TDM|1
+1 Command Tower|TRC|[521]
+1 Evolving Wilds|TRC|[527]
+1 Frontier Bivouac|ECC|[150]
 1 Bountiful Landscape|TDC|1
-1 Path of Ancestry|TDC|1
-2 Island|TDM|2
-1 Island|TDM|3
-3 Mountain|TDM|2
-3 Mountain|TDM|3
-3 Forest|TDM|2
-2 Forest|TDM|3
+1 Path of Ancestry|TRC|[545]
+2 Island|INR|[290]
+1 Island|INR|[290]
+3 Mountain|INR|[294]
+3 Mountain|INR|[294]
+3 Forest|INR|[296]
+2 Forest|INR|[296]
 [Sideboard]

@@ -3,88 +3,88 @@ Name=Echo Vraska
 [Commander]
 1 Vraska, Soul of Stone|fra
 [Main]
-1 Abrade|fdn
+1 Abrade|TRC|[449]
 1 Academy Manufactor|blc
-1 Adarkar Wastes|m3c
+1 Adarkar Wastes|ICE|[351]
 1 Alibou, Ancient Witness|eoc
-1 Arcane Signet|frc
-1 Battlefield Forge|eoc
+1 Arcane Signet|TRC|[485]
+1 Battlefield Forge|APC|[139]
 1 Blasphemous Act|soc
 1 Boros Charm|fdn
-1 Brudiclad, Telchor Engineer|m3c
-1 Command Tower|eoc
-1 Consider|mid
-1 Counterspell|7ed
+1 Brudiclad, Telchor Engineer|SOC|[299]
+1 Command Tower|TRC|[521]
+1 Consider|TDC|[148]
+1 Counterspell|DMR|[281]
 1 Craterclaw Colossus|fra
-1 Deserted Beach|mid
-1 Dispatch|nph
-1 Dovin's Veto|war
+1 Deserted Beach|FRA|[176]
+1 Dispatch|TRC|[421]
+1 Dovin's Veto|TSR|[375]
 1 Expressive Iteration|soc
-1 Fabled Passage|soc
-1 Faerie Mastermind|mom
-1 Faithless Looting|otc
-1 Fellwar Stone|soc
+1 Fabled Passage|TRC|[379]
+1 Faerie Mastermind|SOC|[114]
+1 Faithless Looting|SOC|[244]
+1 Fellwar Stone|DRK|[102]
 1 Flawless Maneuver|frc
 1 Floodfarm Verge|dsk
 1 Frantic Search|dmr
 1 Frostcliff Siege|tdm
 1 Geist of Saint Thalia|fra
 1 Gitaxian Probe|nph
-1 Guttersnipe|fdn
-1 Hallowed Fountain|ecl
-1 Harmonic Prodigy|mh2
+1 Guttersnipe|RVR|[332]
+1 Hallowed Fountain|RVR|[404]
+1 Harmonic Prodigy|SOC|[123]
 1 Impact Tremors|fdn
 1 Improvisation Capstone|sos
-7 Island|fra|[387]
+7 Island|INR|[290]
 1 Jeskai Ascendancy|2x2
-5 Mountain|fra|[393]
+5 Mountain|INR|[294]
 1 Narset, Enlightened Exile|mat
-1 Negate|fdn
-1 Opt|fdn
+1 Negate|TRC|[439]
+1 Opt|INV|[64]
 1 Organic Extinction|eoc
 1 Otawara, Soaring City|neo
-1 Path to Exile|mma
-1 Perilous Landscape|mh3
+1 Path to Exile|TSR|[299]
+1 Perilous Landscape|TRC|[546]
 1 Pinnacle Monk|mh3
-5 Plains|fra|[384]
-1 Preordain|c15
-1 Professional Face-Breaker|snc
+5 Plains|INR|[288]
+1 Preordain|TDC|[161]
+1 Professional Face-Breaker|TRC|[291]
 1 Reckless Fireweaver|drc
 1 Riverpyre Verge|dft
-1 Sacred Foundry|eoe
+1 Sacred Foundry|RVR|[409]
 1 Samut, Hazoret's Champion|fra
-1 Sevinne's Reclamation|mh3
-1 Shivan Reef|m3c
+1 Sevinne's Reclamation|DMR|[273]
+1 Shivan Reef|APC|[142]
 1 Sink into Stupor|mh3
-1 Sol Ring|frc
-1 Steam Vents|ecl
+1 Sol Ring|LEB|[270]
+1 Steam Vents|RVR|[412]
 1 Storm-Kiln Artist|soc
 1 Stormcarved Coast|sos
-1 Strike It Rich|mh2
+1 Strike It Rich|H2R|[12]
 1 Sunbillow Verge|dft
 1 Sundering Eruption|mh3
 1 Sundown Pass|sos
 1 Swan Song|eoc
-1 Swords to Plowshares|eoc
-1 Talisman of Conviction|mh1
-1 Talisman of Creativity|mh1
-1 Talisman of Progress|tdc
+1 Swords to Plowshares|DMR|[275]
+1 Talisman of Conviction|TRC|[503]
+1 Talisman of Creativity|TRC|[504]
+1 Talisman of Progress|TRC|[508]
 1 The Theorist, Jace Beleren|fra
 1 Third Path Iconoclast|tdc
 1 Thought Monitor|eoc
-1 Thoughtcast|j25
+1 Thoughtcast|TRC|[444]
 1 Turbulent Shore|frc
 1 Turbulent Springs|soc
 1 Turbulent Steppe|soc
-1 Urza, Lord High Artificer|mh1
+1 Urza, Lord High Artificer|DMR|[296]
 1 Veyran, Voice of Duality|soc
 1 Voyage Home|dft
-1 Warleader's Call|mkm
-1 Whirlwind of Thought|iko
+1 Warleader's Call|TRC|[335]
+1 Whirlwind of Thought|FRC|[51]
 1 Witch Enchanter|mh3
 1 Fatehold Charm|fra
 1 Gideon's Memorial|fra
 1 Saheeli, Jewel of Avishkar|fra
-1 Kykar, Wind's Fury|cmm
+1 Kykar, Wind's Fury|BLC|[91]
 1 Kykar, Zephyr Awakener|fdn
-1 Ponder|c21
+1 Ponder|TSR|[315]

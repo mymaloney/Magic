@@ -1,21 +1,21 @@
 [metadata]
 Name=WC96 Olle Rade - RG Aggro
 [Main]
-4 Deadly Insect|ALL
-7 Forest|ICE
+4 Deadly Insect|MMQ|[238]
+7 Forest|INR|[296]
 4 Fyndhorn Elves|ICE
-2 Giant Growth|LEA
+2 Giant Growth|ICE|[246]
 4 Giant Trap Door Spider|ICE
 1 Gorilla Shaman|ALL
-4 Incinerate|ICE
+4 Incinerate|MIR|[184]
 1 Jokulhaups|ICE
 4 Karplusan Forest|ICE
 2 Lava Burst|ICE
 2 Lodestone Bauble|ALL
-7 Mountain|ICE
+7 Mountain|INR|[294]
 2 Orcish Cannoneers|ICE
 3 Pillage|ALL
-1 Pyroclasm|ICE
+1 Pyroclasm|POR|[143]
 2 Storm Shaman|ALL
 2 Stormbind|ICE
 4 Urza's Bauble|ICE

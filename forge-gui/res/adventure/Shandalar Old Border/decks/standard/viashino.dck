@@ -1,17 +1,17 @@
 [metadata]
 Name=viashino
 [Main]
-18 Mountain|MIR|3
-2 False Orders|2ED
+18 Mountain|INR|[294]
+2 False Orders|LEB|[148]
 2 Lure|MMQ
-3 Forest|MIR|3
-4 Earthquake|LEB
-4 Giant Growth|DKM
+3 Forest|INR|[296]
+4 Earthquake|PO2|[94]
+4 Giant Growth|ICE|[246]
 4 Goblin Cadets|USG
-4 Incinerate|ICE
+4 Incinerate|MIR|[184]
 4 Karplusan Forest|ICE
-4 Lightning Bolt|BTD
-4 Orcish Artillery|4ED
-4 Orcish Cannoneers|DKM
-4 Shivan Dragon|LEA
-4 Stone Rain|7ED
+4 Lightning Bolt|LEB|[162]
+4 Orcish Artillery|LEB|[166]
+4 Orcish Cannoneers|ICE|[205]
+4 Shivan Dragon|DMR|[329]
+4 Stone Rain|MMQ|[215]

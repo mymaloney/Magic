@@ -6,71 +6,71 @@ Name=Nemata
 1 Akawalli, the Seething Tower|lci
 1 Brightcap Badger|blc
 1 Cankerbloom|one
-1 Command Tower|drc
-1 Arcane Signet|dmc
-1 Death's Presence|rtr
+1 Command Tower|TRC|[521]
+1 Arcane Signet|TRC|[485]
+1 Death's Presence|MIC|[137]
 1 Deathspore Thallid|tsr
-1 Deathsprout|war
-1 Dina, Soul Steeper|stx
+1 Deathsprout|C20|[208]
+1 Dina, Soul Steeper|SOC|[305]
 1 Doubling Season|fdn
 1 Druidic Satchel|c21
 1 Elven Bow|j22
 1 Elvish Farmer|fem
-1 Essence Warden|plc
-1 Evolution Sage|lcc
-1 Evolving Wilds|drc
+1 Essence Warden|CMA|[106]
+1 Evolution Sage|ECC|[105]
+1 Evolving Wilds|TRC|[527]
 1 Fists of Ironwood|rvr
-19 Forest|dmu
+19 Forest|INR|[296]
 1 Fungal Plots|j25
 1 Fungal Rebirth|clu
-1 Gleeful Sabotage|shm
-1 Golgari Germination|rav
-1 Golgari Guildgate|clu
-1 Grim Backwoods|dsc
+1 Gleeful Sabotage|ARC|[58]
+1 Golgari Germination|MM3|[167]
+1 Golgari Guildgate|RVR|[402]
+1 Grim Backwoods|SOC|[377]
 1 Harvest Season|scd
 1 Hazel's Nocturne|blb
 1 Karametra's Acolyte|ths
-1 Karn's Bastion|lcc
-1 Llanowar Elves|j25
+1 Karn's Bastion|RVR|[464]
+1 Llanowar Elves|LEB|[211]
 1 Llanowar Reborn|lcc
-1 Sol Ring|dmc
-1 Mold Shambler|c13
-1 Moldervine Reclamation|blc
-1 Nemata, Grove Guardian|cmm
-1 Night Soil|c13
-1 Overrun|scd
-1 Plaguemaw Beast|mbs
+1 Sol Ring|LEB|[270]
+1 Mold Shambler|DDM|[60]
+1 Moldervine Reclamation|SOC|[320]
+1 Nemata, Grove Guardian|PLS|[85]
+1 Night Soil|FEM|[71a]
+1 Overrun|ODY|[260]
+1 Plaguemaw Beast|TD2|[62]
 1 Primal Vigor|c13
 1 Psychotrope Thallid|plc
 1 Saproling Migration|j25
 1 Saproling Symbiosis|dmr
 1 Saurian Symbiote|j25
 1 Savage Thallid|tsp
-1 Slimefoot, the Stowaway|cmm
+1 Slimefoot, the Stowaway|TSR|[386]
 1 Sporecrown Thallid|j25
 1 Sporemound|j25
 1 Sporesower Thallid|tsr
 1 Sporoloth Ancient|tsr
-1 Sprout Swarm|tsp
+1 Sprout Swarm|FUT|[138]
 1 Starscape Cleric|blb
-11 Swamp|dmu
+11 Swamp|INR|[292]
 1 Swarm Shambler|j22
-1 Terramorphic Expanse|drc
-1 Thallid|mma
+1 Terramorphic Expanse|TRC|[571]
+1 Thallid|FEM|[74a]
 1 Thallid Devourer|fem
 1 Thallid Germinator|tsr
 1 Thallid Shell-Dweller|tsr
-1 Thallid Soothsayer|dom
+1 Thallid Soothsayer|GNT|[35]
 1 Thelon of Havenwood|tsr
 1 Thelonite Hermit|mkc
 1 Thirsting Roots|one
-1 Llanowar Wastes|dmu
-1 Path of Ancestry|lcc
+1 Llanowar Wastes|APC|[141]
+1 Path of Ancestry|TRC|[545]
 1 Tukatongue Thallid|j25
 1 Undercellar Myconid|j25
 1 Utopia Mycon|tsr
 1 Verdant Embrace|woc
-1 Verdant Force|scd
-1 Verdeloth the Ancient|j25
+1 Verdant Force|TMP|[263]
+1 Verdeloth the Ancient|INV|[220]
 1 Vitaspore Thallid|plc
 1 Winding Constrictor|aer

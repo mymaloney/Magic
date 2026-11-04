@@ -1,20 +1,20 @@
 [metadata]
 Name=Santa
 [Commander]
-1 Feldon of the Third Path|c14
+1 Feldon of the Third Path|TSR|[344]
 [Main]
-34 Snow-Covered Mountain|SLD|[1476]
+34 Snow-Covered Mountain|ICE|[379]
 1 Inventors' Fair|KLD
 1 Frostwalk Bastion|MH1
 1 Mouth of Ronom|CSP
 1 Faceless Haven|KHM
 1 Scrying Sheets|CSP
-1 Sol Ring|CMM|[703]
-1 Arcane Signet|ECC|[55]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
 1 Ruby Medallion|TMP
 1 Glacial Crevasses|ICE
 1 Frost Bite|KHM
-1 Replicating Ring|KHM
+1 Replicating Ring|MOC|[372]
 1 Karplusan Giant|ICE
 1 Skred|CSP
 1 Sunstone|ICE
@@ -36,36 +36,36 @@ Name=Santa
 1 Starforged Sword|BLB
 1 Valley Rally|BLB
 1 Wildfire Howl|BLB
-1 Skysovereign, Consul Flagship|SPG|[93]
-1 Fiery Emancipation|WOT|[42]
+1 Skysovereign, Consul Flagship|FDC|[285]
+1 Fiery Emancipation|M21|[143]
 1 Merchant of the Vale|ELD|[293]
 1 Collector's Vault|WOE
 1 Fires of Invention|ELD
-1 Determined Iteration|NCC
+1 Determined Iteration|SOC|[122]
 1 Hoarding Dragon|FDN
 1 Blast-Furnace Hellkite|BRC|[59]
-1 Steel Hellkite|FDN
+1 Steel Hellkite|TDC|[327]
 1 Incinerator of the Guilty|MKM
-1 Demanding Dragon|M19
+1 Demanding Dragon|SCD|[130]
 1 Artificer's Dragon|BRO
-1 Dragon Mage|J22
-1 Thrill of Possibility|J22
-1 Lathliss, Dragon Queen|SLD|[1145]
-1 Sneak Attack|WOT|[50]
-1 Thousand-Year Elixir|SPG|[148]
-1 Combustible Gearhulk|KLD
+1 Dragon Mage|SCG|[87]
+1 Thrill of Possibility|TRC|[455]
+1 Lathliss, Dragon Queen|TDC|[219]
+1 Sneak Attack|DMR|[331]
+1 Thousand-Year Elixir|C21|[271]
+1 Combustible Gearhulk|DRC|[102]
 1 Myr Battlesphere|TDC
-1 Wurmcoil Engine|SLD|[2196]
-1 Smuggler's Copter|SLD|[1968]
-1 Reckoner Bankbuster|SLD|[1967]
-1 Wheel of Misfortune|SLD|[1959]
-1 Big Score|SLD|[1955]
-1 Academy Manufactor|SLD|[2195]
-1 Lightning Greaves|DSC
-1 Cathartic Reunion|KLD
-1 Duplicant|MPS
+1 Wurmcoil Engine|2XM|[308]
+1 Smuggler's Copter|NEC|[160]
+1 Reckoner Bankbuster|NEO|[255]
+1 Wheel of Misfortune|CMR|[211]
+1 Big Score|SOC|[237]
+1 Academy Manufactor|BLC|[264]
+1 Lightning Greaves|TRC|[496]
+1 Cathartic Reunion|ECC|[91]
+1 Duplicant|DRC|[54]
 1 Fear of Missing Out|DSK
-1 Inferno Titan|C15
+1 Inferno Titan|BLC|[198]
 1 Meteor Golem|FDN
 1 Ruin Grinder|C21
-1 Solemn Simulacrum|SLD|[1725]
+1 Solemn Simulacrum|TSR|[400]

@@ -5,20 +5,20 @@ Name=Colossus of Sardia
 4 Urza's Tower|ATQ
 4 Urza's Power Plant|ATQ
 4 Mishra's Workshop|ATQ
-4 Mishra's Factory|ATQ
+4 Mishra's Factory|DMR|[399]
 4 Thran Dynamo|UDS
 4 Teeka's Dragon|MIR
 2 Colossus of Sardia|ATQ
 2 Diabolic Machine|DRK
-2 Aladdin's Ring|3ED
+2 Aladdin's Ring|ARN|[57]
 4 Phyrexian Colossus|USG
 2 Lotus Guardian|INV
-4 Triskelion|ATQ
+4 Triskelion|DMR|[389]
 4 Tetravus|ATQ
-4 Clockwork Beast|LEA
-4 Juggernaut|LEA
+4 Clockwork Beast|LEB|[237]
+4 Juggernaut|DMR|[382]
 2 Sword of the Ages|LEG
-2 Armageddon Clock|4ED
+2 Armageddon Clock|ATQ|[37]
 
 [StartInBattle_Reference]
 1 Colossus of Sardia|ATQ

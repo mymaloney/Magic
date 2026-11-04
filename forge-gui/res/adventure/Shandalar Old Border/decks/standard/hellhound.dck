@@ -1,16 +1,16 @@
 [metadata]
 Name=Hellhound - BR Hounds
 [Main]
-10 Swamp|MMQ
-10 Mountain|MMQ
-4 Sulfurous Springs|6ED
+10 Swamp|INR|[292]
+10 Mountain|INR|[294]
+4 Sulfurous Springs|ICE|[360]
 4 Lava Hounds|WTH
 2 Mad Dog|ODY
 2 Blood Hound|MMQ
 2 Monstrous Hound|EXO
 2 Lightning Hounds|MMQ
 2 Filthy Cur|ODY
-2 Hollow Dogs|7ED
+2 Hollow Dogs|USG|[137]
 4 Dark Ritual|MMQ
 2 Vampire Hounds|EXO
 2 Plague Dogs|UDS

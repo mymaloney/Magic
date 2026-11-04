@@ -1,91 +1,91 @@
 [metadata]
 Name=Varina
 [Commander]
-1 Varina, Lich Queen|c18
+1 Varina, Lich Queen|2X2|[291]
 [Main]
 1 Accursed Duneyard|drc
-1 Adarkar Wastes|drc
-1 Arcane Sanctum|drc
-1 Arcane Signet|fdc
-1 Archfiend of Ifnir|drc
+1 Adarkar Wastes|ICE|[351]
+1 Arcane Sanctum|TRC|[513]
+1 Arcane Signet|TRC|[485]
+1 Archfiend of Ifnir|ECC|[70]
 1 Ash Barrens|tdc
 1 Binding Mummy|drc
-1 Caves of Koilos|drc
-1 Charcoal Diamond|cmr
-1 Cleansing Nova|cmm
-1 Command Tower|drc
+1 Caves of Koilos|APC|[140]
+1 Charcoal Diamond|MIR|[296]
+1 Cleansing Nova|FDC|[20]
+1 Command Tower|TRC|[521]
 1 Corpse Knight|drc
-1 Cryptbreaker|emn
+1 Cryptbreaker|DRC|[41]
 1 Cryptcaller Chariot|dft
-1 Despark|drc
+1 Despark|FRC|[50]
 1 Diresight|blb
-1 Dread Summons|fdn
-1 Dreadhorde Invasion|drc
-1 Drowned Catacomb|drc
-1 Drownyard Temple|dsc
+1 Dread Summons|DRC|[90]
+1 Dreadhorde Invasion|FRC|[48]
+1 Drowned Catacomb|TRC|[376]
+1 Drownyard Temple|TDC|[359]
 1 Enter the God-Eternals|scd
 1 Ephara's Dispersal|mkc
 1 Eternal Skylord|drc
-1 Exotic Orchard|drc
-1 Fetid Pools|drc
+1 Exotic Orchard|TRC|[378]
+1 Fetid Pools|TRC|[380]
 1 Fleshbag Marauder|drc
-1 Gempalm Polluter|drc
-1 Glacial Fortress|drc
+1 Gempalm Polluter|LGN|[70]
+1 Glacial Fortress|TRC|[385]
 1 Gleaming Overseer|drc
 1 Hashaton, Scarab's Fist|drc
 1 Hordewing Skaab|mic
-1 Irrigated Farmland|drc
-5 Island|c18
-1 Isolated Chapel|drc
+1 Irrigated Farmland|TRC|[388]
+5 Island|INR|[290]
+1 Isolated Chapel|DMR|[397]
 1 Lazotep Chancellor|drc
 1 Lost Monarch of Ifnir|drc
-1 Marble Diamond|cmr
-1 Millikin|dmr
+1 Marble Diamond|MIR|[310]
+1 Millikin|ODY|[302]
 1 Mindless Conscription|mh3
 1 Mindshrieker|isd
-1 Negate|mom
+1 Negate|TRC|[439]
 1 Notion Rain|mkc
 1 On Wings of Gold|drc
 1 Orzhov Basilica|drc
-1 Sol Ring|drc
-1 Necroduality|vow
-1 Razorlash Transmogrant|bro
-1 Lord of the Accursed|j22|[69]
-1 Master of Death|mh2
-1 Unburial Rites|isd
-1 Zombie Apocalypse|dka
-1 Path of Ancestry|drc
-1 Phyrexian Arena|mkc
+1 Sol Ring|LEB|[270]
+1 Necroduality|INR|[365]
+1 Razorlash Transmogrant|FDC|[124]
+1 Lord of the Accursed|DRC|[95]
+1 Master of Death|MKC|[216]
+1 Unburial Rites|2X2|[95]
+1 Zombie Apocalypse|SCD|[121]
+1 Path of Ancestry|TRC|[545]
+1 Phyrexian Arena|APC|[47]
 1 Phyrexian Rebirth|moc
 1 Pile On|mkc
-5 Plains|c18
+5 Plains|INR|[288]
 1 Pore Over the Pages|soi
-1 Prairie Stream|drc
+1 Prairie Stream|TRC|[394]
 1 Prophet of the Scarab|drc
-1 Pull from Tomorrow|eoc
+1 Pull from Tomorrow|SOC|[116]
 1 Renewed Solidarity|drc
 1 Rotting Regisaur|m20
-1 Shattered Sanctum|tdc
-1 Sign in Blood|dsc
+1 Shattered Sanctum|SOS|[260]
+1 Sign in Blood|FDC|[125]
 1 Singularity Rupture|eoe
-1 Sky Diamond|cmr
-1 Death Baron|ala
+1 Sky Diamond|MIR|[319]
+1 Death Baron|FDC|[95]
 1 Spellgyre|blb
-1 Stitcher's Supplier|dsc
-1 Sunken Hollow|drc
-6 Swamp|c18
-1 Swords to Plowshares|drc
-1 Synthetic Destiny|khc
-1 Talisman of Dominance|drc
-1 Talisman of Hierarchy|drc
-1 Talisman of Progress|tdc
+1 Stitcher's Supplier|TDC|[196]
+1 Sunken Hollow|TRC|[407]
+6 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
+1 Synthetic Destiny|FRC|[45]
+1 Talisman of Dominance|TRC|[505]
+1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Progress|TRC|[508]
 1 Temmet, Naktamun's Will|drc
 1 Temple of Deceit|drc
-1 Temple of Silence|drc
+1 Temple of Silence|SOC|[415]
 1 The Scarab God|drc
-1 Underground River|drc
-1 Unholy Grotto|drc
+1 Underground River|ICE|[362]
+1 Unholy Grotto|ONS|[327]
 1 Void Rend|snc
 1 Wayward Servant|drc
-1 Windfall|otc
+1 Windfall|USG|[111]
 1 Wizened Mentor|drc

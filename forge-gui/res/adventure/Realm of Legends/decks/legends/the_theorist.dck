@@ -5,11 +5,11 @@ Name=The Theorist
 [Main]
 1 Ajani Unrelenting|fra
 1 An Offer You Can't Refuse|fdn
-1 Arcane Signet|frc
+1 Arcane Signet|TRC|[485]
 1 Archfiend of Despair|frc
 1 Archon of Cruelty|frc
 1 Serra's Emissary|frc
-1 Battlefield Forge|frc
+1 Battlefield Forge|APC|[139]
 1 Bitterblossom|2x2
 1 Black Market Connections|lcc
 1 Valgavoth, Terror Eater|dsk
@@ -22,81 +22,81 @@ Name=The Theorist
 1 Fierce Guardianship|cmm
 1 Deadly Rollick|cmm
 1 Face Yourself|fra
-1 Caves of Koilos|frc
-1 Clifftop Retreat|frc
-1 Command Tower|frc
-1 Contaminated Landscape|frc
-1 Court of Grace|onc
+1 Caves of Koilos|APC|[140]
+1 Clifftop Retreat|DMR|[393]
+1 Command Tower|TRC|[521]
+1 Contaminated Landscape|TRC|[522]
+1 Court of Grace|FDC|[21]
 1 Cursed Mirror|frc
 1 Darksteel Angel|frc
 1 Dimir Signet|frc
 1 Divergent Transformations|cmm
 1 Blazing Archon|rvr
-1 Drowned Catacomb|frc
+1 Drowned Catacomb|TRC|[376]
 1 Elspeth, Sun's Champion|frc
-1 Exotic Orchard|frc
-1 Fabled Passage|frc
-1 Fact or Fiction|frc
-1 Fellwar Stone|frc
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
+1 Fact or Fiction|DMR|[283]
+1 Fellwar Stone|DRK|[102]
 1 Flooded Strand|mh3
-1 Generous Gift|woc
-1 Glacial Fortress|frc
-1 Godless Shrine|gtc
+1 Generous Gift|BLC|[106]
+1 Glacial Fortress|TRC|[385]
+1 Godless Shrine|RVR|[401]
 1 Hard Evidence|h2r
 1 Hullbreaker Horror|inr
 1 Identity Echo|fra
-1 Island|fra
-1 Isolated Chapel|frc
+1 Island|INR|[290]
+1 Isolated Chapel|DMR|[397]
 1 Kher Keep|frc
 1 Memnarch, the Warden|frc
 1 Moonshaker Cavalry|soc
-1 Mountain|fra
+1 Mountain|INR|[294]
 1 Nissa, Leyline Tamer|frc
-1 Oath of Teferi|cmm
+1 Oath of Teferi|DOM|[200]
 1 Occult Epiphany|frc
 1 Overlord of the Mistmoors|frc
-1 Path to Exile|frc
-1 Perilous Landscape|frc
-3 Plains|fra
-1 Polymorph|m10
-1 Prairie Stream|frc
+1 Path to Exile|TSR|[299]
+1 Perilous Landscape|TRC|[546]
+3 Plains|INR|[288]
+1 Polymorph|MIR|[82]
+1 Prairie Stream|TRC|[394]
 1 Proteus Staff|frc
-1 Radiant Summit|frc
+1 Radiant Summit|TRC|[395]
 1 Raffine's Tower|snc
 1 Razaketh, the Foulblooded|cmm
 1 Reality Scramble|c18
-1 Reflecting Pool|frc
+1 Reflecting Pool|TMP|[322]
 1 Return to the Light Realms|fra
 1 Shark Typhoon|frc
-1 Shivan Reef|frc
+1 Shivan Reef|APC|[142]
 1 Skrelv's Hive|frc
 1 Staff of the Storyteller|frc
-1 Steam Vents|trk
+1 Steam Vents|RVR|[412]
 1 Stroke of Midnight|frc
-1 Sulfur Falls|frc
-1 Sulfurous Springs|frc
-2 Swamp|fra
-1 Swords to Plowshares|frc
+1 Sulfur Falls|DMR|[400]
+1 Sulfurous Springs|ICE|[360]
+2 Swamp|INR|[292]
+1 Swords to Plowshares|DMR|[275]
 1 Synthetic Destiny|frc
-1 Talisman of Creativity|frc
-1 Talisman of Dominance|frc
-1 Talisman of Indulgence|frc
-1 Talisman of Progress|frc
+1 Talisman of Creativity|TRC|[504]
+1 Talisman of Dominance|TRC|[505]
+1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Progress|TRC|[508]
 1 The Eternal Wanderer|one
 1 The Ur-Sphinx|frc
-1 Toxic Deluge|msc
-1 Volcanic Island|vma
-1 Underground Sea|vma
-1 Tundra|vma
-1 Scrubland|vma
-1 Plateau|vma
-1 Badlands|vma
+1 Toxic Deluge|MH3|[412]
+1 Volcanic Island|LEB|[287]
+1 Underground Sea|LEB|[286]
+1 Tundra|LEB|[285]
+1 Scrubland|LEB|[282]
+1 Plateau|LEB|[280]
+1 Badlands|LEB|[278]
 1 Mana Confluence|jou
 1 Field of the Dead|m20
-1 Toxrill, the Corrosive|vow
+1 Toxrill, the Corrosive|DBL|[399]
 1 Transmogrify|m21
 1 Ugin, the Spirit Dragon|m21
-1 Underground River|frc
+1 Underground River|ICE|[362]
 1 Whirlwind of Thought|frc
-1 Karn Liberated|2xm
+1 Karn Liberated|J22|[97]
 1 Windcrag Siege|frc

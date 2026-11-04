@@ -2,24 +2,24 @@
 Name=bird_gu
 [Main]
 1 Cataclysm|EXO
-1 Cloudchaser Eagle|7ED
-1 Island|3ED
-10 Plains|3ED
+1 Cloudchaser Eagle|TMP|[15]
+1 Island|INR|[290]
+10 Plains|INR|[288]
 2 Cloudreach Cavalry|LGN
 2 Commander Eesha|JUD
-2 Forest|3ED
+2 Forest|INR|[296]
 2 Mox Diamond|STH
 2 Seaside Haven|ONS
 3 Battle Screech|JUD
 3 City of Traitors|EXO
 3 Soulcatchers' Aerie|JUD
 3 Soulcatcher|ODY
-3 Windswept Heath|ONS
+3 Windswept Heath|MH3|[440]
 3 Yavimaya Coast|APC
 4 Brushland|ICE
-4 Gemstone Mine|WTH
+4 Gemstone Mine|DMR|[395]
 4 Hunting Moa|UDS
 4 Keeper of the Nine Gales|LGN
 4 Suntail Hawk|JUD
-4 Swords to Plowshares|2ED
+4 Swords to Plowshares|DMR|[275]
 4 Treva's Ruins|PLS

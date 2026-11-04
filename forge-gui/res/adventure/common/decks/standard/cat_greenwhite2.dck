@@ -1,17 +1,17 @@
 [metadata]
 Name=cat_greenwhite2
 [Main]
-4 Adorned Pouncer|PLST|1
-1 Colossification|IKO|1
-3 Enlarge|2XM|1
+4 Adorned Pouncer|HOU|[2]
+1 Colossification|BLB|[392]
+3 Enlarge|J22|[656]
 4 Feral Invocation|JMP|1
-12 Forest|ZNR|1
-4 Lynx|S99|1
-4 Mesa Lynx|ZNR|1
-4 Monstrous Growth|8ED|1
-12 Plains|ZNR|2
-4 Pouncing Lynx|WAR|1
-4 Sanctuary Cat|ANB|1
-4 Trained Caracal|RTR|1
+12 Forest|INR|[296]
+4 Lynx|PO2|[132]
+4 Mesa Lynx|J22|[214]
+4 Monstrous Growth|PO2|[133]
+12 Plains|INR|[288]
+4 Pouncing Lynx|J22|[228]
+4 Sanctuary Cat|DKA|[19]
+4 Trained Caracal|J22|[256]
 [Sideboard]
 [Schemes]

@@ -1,12 +1,12 @@
 [metadata]
 Name=whiteking
 [Main]
-20 Plains|ONS
+20 Plains|INR|[288]
 4 Shield Sphere|ALL
 4 Shifting Wall|STH
-4 Wall of Swords|2ED
+4 Wall of Swords|POR|[37]
 4 Sunweb|MIR
-4 Rolling Stones|7ED
+4 Rolling Stones|STH|[11]
 4 Shimmering Barrier|USG
 4 Wall of Nets|EXO
 4 Ageless Sentinels|SCG
@@ -14,7 +14,7 @@ Name=whiteking
 4 Crackdown|MMQ
 
 [StartInBattle_Reference]
-1 Plains|ONS
+1 Plains|INR|[288]
 1 Rolling Stones|STH
 1 Fortified Area|LEG
 1 Angelic Chorus|USG

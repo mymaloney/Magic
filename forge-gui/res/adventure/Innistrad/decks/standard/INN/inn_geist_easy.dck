@@ -4,19 +4,19 @@ Name=INN_geist_easy
 
 [Main]
 2 Geist Snatch|AVR|1
-2 Remorseful Cleric|VOC|1
-1 Battleground Geist|ISD|1
+2 Remorseful Cleric|SOC|[164]
+1 Battleground Geist|INR|[53]
 2 Vessel of Ephemera|SOI|1
-2 Geist of the Moors|M15|1
-2 Blessed Defiance|MID|1
-2 Silent Departure|ISD|1
-2 Curiosity|ISD|1
-2 Spectral Shepherd|SOI|1
+2 Geist of the Moors|A25|[15]
+2 Blessed Defiance|J22|[156]
+2 Silent Departure|INR|[367]
+2 Curiosity|EXO|[29]
+2 Spectral Shepherd|INR|[349]
 2 Saving Grasp|DKA|1
-2 Voiceless Spirit|MID|1
-2 Apothecary Geist|SOI|1
-8 Island|ISD|2
-9 Plains|ISD|2
+2 Voiceless Spirit|ISD|[42]
+2 Apothecary Geist|INR|[10]
+8 Island|INR|[290]
+9 Plains|INR|[288]
 [Sideboard]
 
 [Planes]

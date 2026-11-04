@@ -2,14 +2,14 @@
 Name=WC00 Nicolas Labarre - Chimera
 [Main]
 4 Academy Rector|UDS
-4 Birds of Paradise|LEB
+4 Birds of Paradise|RVR|[344]
 4 Llanowar Elves|LEB
-4 Priest of Titania|USG
-1 Serra Avatar|USG
+4 Priest of Titania|MH3|[428]
+1 Serra Avatar|DMR|[272]
 4 Ashnod's Altar|ATQ
 1 Snake Basket|VIS
 1 Whetstone|USG
-4 Enlightened Tutor|MIR
+4 Enlightened Tutor|DMR|[263]
 1 Confiscate|USG
 4 Fecundity|USG
 1 Pattern of Rebirth|UDS
@@ -18,17 +18,17 @@ Name=WC00 Nicolas Labarre - Chimera
 1 Yawgmoth's Will|USG
 4 Brushland|ICE
 3 City of Brass|ARN
-8 Forest|MMQ
+8 Forest|INR|[296]
 2 High Market|MMQ
 2 Phyrexian Tower|USG
 2 Thran Quarry|USG
 [Sideboard]
 1 Absolute Law|USG
-3 Armageddon|LEB
+3 Armageddon|PO2|[12]
 1 Aura Fracture|PCY
-1 Blaze|POR
+1 Blaze|PO2|[91]
 1 Defense Grid|ULG
-1 Energy Flux|ATQ
+1 Energy Flux|MMQ|[78]
 1 Heart of Ramos|MMQ
 1 Light of Day|TMP
 1 Meekstone|LEB

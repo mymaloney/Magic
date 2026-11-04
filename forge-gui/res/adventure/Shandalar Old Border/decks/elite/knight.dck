@@ -1,18 +1,18 @@
 [metadata]
 Name=Knight
 [Main]
-20 Plains|2ED
-4 White Knight|LEA
+20 Plains|INR|[288]
+4 White Knight|LGN|[27]
 4 Paladin en-Vec|EXO
 4 Crusading Knight|INV
-4 Northern Paladin|3ED
+4 Northern Paladin|LEB|[30]
 4 Order of the White Shield|ICE
 4 Soltari Lancer|TMP
-4 Divine Sacrament|ODY
-4 Disenchant|LEA
+4 Divine Sacrament|DMR|[262]
+4 Disenchant|MMQ|[18]
 4 Shared Triumph|ONS
-4 Swords to Plowshares|ICE
+4 Swords to Plowshares|DMR|[275]
 
 [StartInBattle_Reference]
-1 Plains|2ED
+1 Plains|INR|[288]
 1 Darkest Hour|USG

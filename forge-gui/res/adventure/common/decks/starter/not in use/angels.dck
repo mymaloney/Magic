@@ -7,16 +7,16 @@ Description=White angel deck
 Deck Type=constructed
 Name=Angels
 [Main]
-4 Alabaster Dragon|POR
+4 Alabaster Dragon|WTH|[2]
 4 Angel of Fury|PO2
-4 Angel of Light|S99
-4 Angel of Mercy|PO2
-4 Angelic Wall|PO2
-4 Archangel|POR
+4 Angel of Light|PLST|[ME2-3]
+4 Angel of Mercy|INV|[2]
+4 Angelic Wall|ODY|[3]
+4 Archangel|PO2|[11]
 4 Gift of Estates|POR
-8 Plains|POR|1
-5 Plains|POR|2
-6 Plains|POR|3
-7 Plains|POR|4
+8 Plains|INR|[288]
+5 Plains|INR|[288]
+6 Plains|INR|[288]
+7 Plains|INR|[288]
 4 Starlit Angel|POR
 2 Wild Griffin|PO2

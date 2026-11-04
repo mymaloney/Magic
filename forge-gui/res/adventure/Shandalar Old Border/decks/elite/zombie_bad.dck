@@ -1,9 +1,9 @@
 [metadata]
 Name=zombie_bad
 [Main]
-22 Swamp|ONS|3
+22 Swamp|INR|[292]
 2 Bubbling Muck|UDS
-4 Dark Ritual|USG
+4 Dark Ritual|MMQ|[129]
 4 Twisted Abomination|SCG
 2 Sutured Ghoul|JUD
 2 Zombie Brute|LGN
@@ -16,9 +16,9 @@ Name=zombie_bad
 1 Western Paladin|USG
 1 Eastern Paladin|USG
 2 Zombie Trailblazer|TOR
-2 Zombie Master|5ED
+2 Zombie Master|LEB|[138]
 3 Feast or Famine|ALL|2
-3 Pestilence|5ED
+3 Pestilence|USG|[147]
 
 [StartInBattle_Reference]
 1 Gravespawn Sovereign|ONS

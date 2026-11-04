@@ -1,42 +1,42 @@
 [metadata]
 Name=Portal Master
 [Main]
-12 Mountain|POR
-12 Plains|POR
-12 Island|POR
-2 Archangel|POR
-2 Alabaster Dragon|POR
-4 Breath of Life|POR
+12 Mountain|INR|[294]
+12 Plains|INR|[288]
+12 Island|INR|[290]
+2 Archangel|PO2|[11]
+2 Alabaster Dragon|WTH|[2]
+4 Breath of Life|PO2|[15]
 2 Starlit Angel|POR
-2 Vengeance|POR
-2 Stone Rain|POR
-2 Wrath of God|POR
+2 Vengeance|PO2|[27]
+2 Stone Rain|MMQ|[215]
+2 Wrath of God|DMR|[279]
 4 Cloud Dragon|POR
 2 Djinn of the Lamp|POR
 4 Snapping Drake|POR
-2 Exhaustion|POR
-2 Mystic Denial|POR
-2 Time Ebb|POR
+2 Exhaustion|USG|[74]
+2 Mystic Denial|PO2|[41]
+2 Time Ebb|PO2|[57]
 2 Symbol of Unsummoning|POR
 2 Ancestral Memories|POR
-2 Blaze|POR
-2 Seasoned Marshal|POR
+2 Blaze|PO2|[91]
+2 Seasoned Marshal|USG|[44]
 2 Fire Dragon|POR
-2 Earthquake|POR
-2 Thundermare|POR
-2 Lava Axe|POR
+2 Earthquake|PO2|[94]
+2 Thundermare|WTH|[116]
+2 Lava Axe|ULG|[84]
 2 Forked Lightning|POR
 2 Lava Flow|POR
 2 Fire Snake|POR
-4 Path of Peace|POR
+4 Path of Peace|USG|[29]
 2 Volcanic Dragon|POR
 2 Fire Tempest|POR
 2 Thing from the Deep|POR
 
 [StartInBattle_Reference]
 1 Wall of Granite|POR
-1 Island|POR|3
-1 Mountain|POR|3
-1 Plains|POR|3
+1 Island|INR|[290]
+1 Mountain|INR|[294]
+1 Plains|INR|[288]
 1 Storm Crow|POR
 1 Wall of Swords|POR

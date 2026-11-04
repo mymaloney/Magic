@@ -4,28 +4,28 @@ Name=WC02 Carlos Romao - Psychatog
 4 Nightscape Familiar|PLS
 4 Psychatog|ODY
 3 Circular Logic|TOR
-4 Counterspell|7ED
+4 Counterspell|DMR|[281]
 3 Cunning Wish|JUD
-3 Fact or Fiction|INV
-3 Memory Lapse|HML
+3 Fact or Fiction|DMR|[283]
+3 Memory Lapse|MIR|[74]
 4 Repulse|INV
-3 Chainer's Edict|TOR
+3 Chainer's Edict|DMR|[300]
 3 Deep Analysis|TOR
 2 Upheaval|ODY
-10 Island|ODY
+10 Island|INR|[290]
 2 Cephalid Coliseum|ODY
 1 Darkwater Catacombs|ODY
 4 Salt Marsh|INV
-3 Swamp|ODY
+3 Swamp|INR|[292]
 4 Underground River|ICE
 [Sideboard]
 1 Coffin Purge|ODY
-4 Duress|USG
-1 Fact or Fiction|INV
+4 Duress|DMR|[303]
+1 Fact or Fiction|DMR|[283]
 1 Gainsay|PLS
 3 Ghastly Demise|ODY
 1 Hibernation|USG
 1 Mana Short|LEB
-1 Recoil|INV
+1 Recoil|DMR|[365]
 1 Slay|PLS
 1 Teferi's Response|INV

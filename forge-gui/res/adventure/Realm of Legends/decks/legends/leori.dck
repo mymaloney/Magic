@@ -4,88 +4,88 @@ Name=Leori, Sparktouched Hunter
 1 Leori, Sparktouched Hunter|CMM|1
 [Main]
 1 Commodore Guff|CMM|1
-1 Ajani Steadfast|CMM|1
-1 Arcane Signet|CMM|1
-1 Adarkar Wastes|DOM
-1 Blasphemous Act|CMM|1
-1 Battlefield Forge|DMU
+1 Ajani Steadfast|PIO|[319]
+1 Arcane Signet|TRC|[485]
+1 Adarkar Wastes|ICE|[351]
+1 Blasphemous Act|SOC|[238]
+1 Battlefield Forge|APC|[139]
 1 Cartographer's Hawk|CMM|1
-1 Cascade Bluffs|CMM|1
-1 Chandra, Awakened Inferno|CMM|1
+1 Cascade Bluffs|SOC|[364]
+1 Chandra, Awakened Inferno|M20|[127]
 1 Chandra, Legacy of Fire|CMM|1
-1 Chandra, Torch of Defiance|CMM|1
-1 Command Tower|CMM|1
-1 Deepglow Skate|CMM|1
-1 Deploy the Gatewatch|CMM|1
-1 Elspeth, Sun's Champion|CMM|1
-1 Exotic Orchard|CMM|1
-1 Fellwar Stone|CMM|1
-1 Flux Channeler|CMM|1
-1 Fog Bank|CMM|1
-1 Forge of Heroes|CMM|1
-1 Frostboil Snarl|CMM|1
-1 Furycalm Snarl|CMM|1
+1 Chandra, Torch of Defiance|FRA|[244]
+1 Command Tower|TRC|[521]
+1 Deepglow Skate|EOC|[70]
+1 Deploy the Gatewatch|EMN|[20]
+1 Elspeth, Sun's Champion|FRC|[24]
+1 Exotic Orchard|TRC|[378]
+1 Fellwar Stone|DRK|[102]
+1 Flux Channeler|WAR|[52]
+1 Fog Bank|USG|[75]
+1 Forge of Heroes|C18|[58]
+1 Frostboil Snarl|TRC|[383]
+1 Furycalm Snarl|TRC|[384]
 1 Gatewatch Beacon|CMM|1
-1 Gideon Jura|CMM|1
-1 Grateful Apparition|CMM|1
+1 Gideon Jura|SCD|[24]
+1 Grateful Apparition|ONC|[73]
 1 Guff Rewrites History|CMM|1
-1 Honor-Worn Shaku|CMM|1
-1 Interplanar Beacon|CMM|1
-7 Island|CMM|5
-1 Shivan Reef|DMU
-1 Jace Beleren|CMM|1
-1 Jace, Architect of Thought|CMM|1
-1 Jace, Mirror Mage|CMM|1
+1 Honor-Worn Shaku|DMC|[187]
+1 Interplanar Beacon|WAR|[247]
+7 Island|INR|[290]
+1 Shivan Reef|APC|[142]
+1 Jace Beleren|JVC|[1]
+1 Jace, Architect of Thought|PIO|[329]
+1 Jace, Mirror Mage|ZNR|[63]
 1 Jaya's Phoenix|CMM|1
-1 Karn's Bastion|CMM|1
-1 Kazuul, Tyrant of the Cliffs|CMM|1
-1 Mangara, the Diplomat|CMM|1
-1 Mobilized District|CMM|1
-4 Mountain|CMM|4
-1 Myriad Landscape|CMM|1
-1 Hallowed Fountain|RTR
-1 Mystic Monastery|CMM|1
-1 Nahiri, the Harbinger|CMM|1
-1 Narset of the Ancient Way|CMM|1
-1 Narset, Enlightened Master|CMM|1
-1 Narset, Parter of Veils|CMM|1
-1 Nevinyrral's Disk|CMM|1
-1 Norn's Annex|CMM|1
-1 Oath of Gideon|CMM|1
-1 Oath of Jace|CMM|1
-1 Oath of Teferi|CMM|1
+1 Karn's Bastion|RVR|[464]
+1 Kazuul, Tyrant of the Cliffs|MKC|[157]
+1 Mangara, the Diplomat|SOC|[155]
+1 Mobilized District|DMC|[218]
+4 Mountain|INR|[294]
+1 Myriad Landscape|EOC|[169]
+1 Hallowed Fountain|RVR|[404]
+1 Mystic Monastery|TRC|[543]
+1 Nahiri, the Harbinger|C20|[223]
+1 Narset of the Ancient Way|IKO|[195]
+1 Narset, Enlightened Master|KTK|[190]
+1 Narset, Parter of Veils|BLC|[76]
+1 Nevinyrral's Disk|LEB|[267]
+1 Norn's Annex|ONC|[83]
+1 Oath of Gideon|PIO|[323]
+1 Oath of Jace|PIO|[331]
+1 Oath of Teferi|DOM|[200]
 1 Onakke Oathkeeper|CMM|1
-1 Oreskos Explorer|CMM|1
-1 Path to Exile|CMM|1
-7 Plains|CMM|4
-1 Port Town|CMM|1
-1 Prairie Stream|CMM|1
-1 Promise of Loyalty|CMM|1
-1 Reliquary Tower|CMM|1
-1 Repeated Reverberation|CMM|1
-1 Sacred Foundry|GTC
-1 Saheeli, Sublime Artificer|CMM|1
-1 Sarkhan the Masterless|CMM|1
-1 Semester's End|CMM|1
-1 Silent Arbiter|CMM|1
-1 Steam Vents|RTR
-1 Sol Ring|CMM|1
-1 Spark Double|CMM|1
+1 Oreskos Explorer|C21|[98]
+1 Path to Exile|TSR|[299]
+7 Plains|INR|[288]
+1 Port Town|TRC|[393]
+1 Prairie Stream|TRC|[394]
+1 Promise of Loyalty|TRC|[234]
+1 Reliquary Tower|TRC|[551]
+1 Repeated Reverberation|M20|[156]
+1 Sacred Foundry|RVR|[409]
+1 Saheeli, Sublime Artificer|DRC|[119]
+1 Sarkhan the Masterless|WAR|[143]
+1 Semester's End|MOC|[204]
+1 Silent Arbiter|C20|[250]
+1 Steam Vents|RVR|[412]
+1 Sol Ring|LEB|[270]
+1 Spark Double|RVR|[319]
 1 Sparkshaper Visionary|CMM|1
-1 Swords to Plowshares|CMM|1
-1 Talisman of Conviction|CMM|1
-1 Talisman of Creativity|CMM|1
-1 Talisman of Progress|CMM|1
-1 Temple of Enlightenment|CMM|1
-1 Temple of Epiphany|CMM|1
-1 Temple of Triumph|CMM|1
+1 Swords to Plowshares|DMR|[275]
+1 Talisman of Conviction|TRC|[503]
+1 Talisman of Creativity|TRC|[504]
+1 Talisman of Progress|TRC|[508]
+1 Temple of Enlightenment|EOC|[186]
+1 Temple of Epiphany|SOC|[412]
+1 Temple of Triumph|SOC|[417]
 1 Teyo, Geometric Tactician|CMM|1
-1 The Chain Veil|CMM|1
-1 The Wanderer|CMM|1
-1 Thrummingbird|CMM|1
-1 Urza's Ruinous Blast|CMM|1
+1 The Chain Veil|PIO|[358]
+1 The Wanderer|WAR|[37]
+1 Thrummingbird|EOC|[80]
+1 Urza's Ruinous Blast|BRC|[79]
 1 Vronos, Masked Inquisitor|CMM|1
-1 Wall of Denial|CMM|1
-1 Wayfarer's Bauble|CMM|1
+1 Wall of Denial|MM3|[201]
+1 Wayfarer's Bauble|TRC|[511]
 [Sideboard]
 

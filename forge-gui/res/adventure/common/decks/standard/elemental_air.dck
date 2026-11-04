@@ -1,21 +1,21 @@
 [metadata]
 Name=elemental_air
 [Main]
-2 Air Elemental|W17|1
-2 Air Servant|MM2|1
+2 Air Elemental|PO2|[31]
+2 Air Servant|W16|[4]
 1 Air-Cult Elemental|AFR|1
-1 Brine Elemental|JVC|1
-2 Cavalier of Gales|M20|1
-2 Cloud Elemental|10E|1
-3 Cloudkin Seer|M20|1
-3 Clutch of Currents|PLST|1
-2 Frost Walker|F15|1
-24 Island|M20|1
-3 Mu Yanling, Sky Dancer|M20|1
+1 Brine Elemental|TSR|[55]
+2 Cavalier of Gales|J25|[296]
+2 Cloud Elemental|VIS|[29]
+3 Cloudkin Seer|J25|[300]
+3 Clutch of Currents|PIO|[326]
+2 Frost Walker|FRF|[35]
+24 Island|INR|[290]
+3 Mu Yanling, Sky Dancer|J25|[329]
 1 Roil Elemental|ZEN|1
-3 Scatter to the Winds|BFZ|1
-2 Subtlety|MH2|1
-4 Unsummon|30A|1
+3 Scatter to the Winds|PIO|[71]
+2 Subtlety|H2R|[6]
+4 Unsummon|LEB|[87]
 2 Void Stalker|M13|1
 3 Wind Zendikon|WWK|1
 [Sideboard]

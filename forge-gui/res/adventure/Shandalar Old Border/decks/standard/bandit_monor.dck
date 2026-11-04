@@ -1,15 +1,15 @@
 [metadata]
 Name=Carnage 2
 [Main]
-1 Swamp|TMP|2
-11 Mountain|TMP|2
+1 Swamp|INR|[292]
+11 Mountain|INR|[294]
 2 Ashen Ghoul|ICE
 2 Mogg Raider|TMP
 4 Goblin Brigand|SCG
 4 Goblin Burrows|ONS
 4 Goblin Cadets|USG
-4 Goblin King|3ED
-4 Goblin Matron|USG
+4 Goblin King|LEB|[155]
+4 Goblin Matron|DMR|[323]
 4 Mogg Fanatic|TMP
 4 Mogg Flunkies|STH
 4 Mogg Hollows|TMP

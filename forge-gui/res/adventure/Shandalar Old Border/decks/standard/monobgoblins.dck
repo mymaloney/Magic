@@ -3,23 +3,23 @@ Name=monobgoblins
 [Main]
 4 Sulfurous Springs|ICE
 4 Urborg Volcano|INV
-6 Mountain|ONS
-6 Swamp|ONS
+6 Mountain|INR|[294]
+6 Swamp|INR|[292]
 4 Festering Goblin|ONS
 3 Cabal Slaver|ONS
-3 Dralnu's Crusade|PLS
+3 Dralnu's Crusade|DMR|[357]
 4 Mogg Flunkies|STH
 3 Mogg Fanatic|TMP
 2 Goblin Turncoat|LGN
 2 Earthblighter|LGN
 4 Goblin Piledriver|ONS
-3 Goblin King|5ED
+3 Goblin King|LEB|[155]
 3 Goblin Warchief|SCG
 4 Goblin Grenade|FEM
 2 Goblin Glider|PO2
-3 Bad Moon|5ED
+3 Bad Moon|LEB|[94]
 
 [StartInBattle_Reference]
-1 Dralnu's Crusade|PLS
+1 Dralnu's Crusade|DMR|[357]
 1 Goblin Burrows|ONS
 1 Marsh Goblins|DRK

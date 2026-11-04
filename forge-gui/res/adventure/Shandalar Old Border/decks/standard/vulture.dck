@@ -2,8 +2,8 @@
 Name=vulture
 [Main]
 4 Salt Flats|TMP
-10 Swamp|ODY
-10 Plains|ODY
+10 Swamp|INR|[292]
+10 Plains|INR|[288]
 4 Wake of Vultures|VIS
 4 Screeching Buzzard|ONS
 2 Circling Vultures|WTH
@@ -12,6 +12,6 @@ Name=vulture
 4 Osai Vultures|LEG
 4 Soulcatcher|ODY
 4 Soulcatchers' Aerie|JUD
-3 Disenchant|MIR
-3 Dark Banishing|MIR
+3 Disenchant|MMQ|[18]
+3 Dark Banishing|TMP|[117]
 2 Harsh Mercy|ONS

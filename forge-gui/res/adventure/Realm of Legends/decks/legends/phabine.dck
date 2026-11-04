@@ -3,90 +3,90 @@ Name=Phabine, Boss's Confidant
 [Commander]
 1 Phabine, Boss's Confidant|NCC
 [Main]
-1 Arasta of the Endless Web|NCC
-1 Arcane Signet|NCC
-1 Artifact Mutation|NCC
-1 Ash Barrens|NCC
-1 Assemble the Legion|NCC
-1 Aura Mutation|NCC
-1 Beast Within|NCC
-1 Beastmaster Ascension|NCC
-1 Benevolent Offering|C14
-1 Birds of Paradise|8ED
-1 Boros Charm|NCC
+1 Arasta of the Endless Web|TDC|[244]
+1 Arcane Signet|TRC|[485]
+1 Artifact Mutation|INV|[231]
+1 Ash Barrens|TDC|[339]
+1 Assemble the Legion|PIO|[204]
+1 Aura Mutation|INV|[232]
+1 Beast Within|TSR|[357]
+1 Beastmaster Ascension|BLC|[118]
+1 Benevolent Offering|VOC|[78]
+1 Birds of Paradise|RVR|[344]
+1 Boros Charm|FDN|[721]
 1 Bow of Nylea|THS
 1 Cabaretti Charm|SNC
 1 Cabaretti Confluence|NCC
-1 Cabaretti Courtyard|SNC
-1 Call the Coppercoats|NCC
-1 Canopy Vista|NCC
-1 Castle Ardenvale|NCC
-1 Castle Embereth|NCC
-1 Champion of Lambholt|NCC
-1 Cinder Glade|NCC
-1 Command Tower|NCC
-1 Commander's Sphere|NCC
-1 Cultivate|NCC
-1 Dauntless Escort|C16
-1 Dictate of Heliod|JOU
-1 Divine Visitation|GRN
-1 Exotic Orchard|NCC
-1 Felidar Retreat|ZNR
-1 Fellwar Stone|NCC
-7 Forest|SNC
-1 Fortified Village|NCC
+1 Cabaretti Courtyard|EOC|[151]
+1 Call the Coppercoats|ONC|[60]
+1 Canopy Vista|TDC|[343]
+1 Castle Ardenvale|TDC|[346]
+1 Castle Embereth|TDC|[347]
+1 Champion of Lambholt|MOC|[293]
+1 Cinder Glade|ECC|[146]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Cultivate|SOC|[265]
+1 Dauntless Escort|SCD|[223]
+1 Dictate of Heliod|PIO|[11]
+1 Divine Visitation|RVR|[306]
+1 Exotic Orchard|TRC|[378]
+1 Felidar Retreat|FDN|[574]
+1 Fellwar Stone|DRK|[102]
+7 Forest|INR|[296]
+1 Fortified Village|TDC|[366]
 1 Gahiji, Honored One|NCC
-1 Game Trail|NCC
-1 Grand Crescendo|NCC
-1 Harmonize|NCC
-1 Idol of Oblivion|NCC
+1 Game Trail|BLC|[306]
+1 Grand Crescendo|TRC|[222]
+1 Harmonize|ECC|[111]
+1 Idol of Oblivion|TDC|[319]
 1 Indulge|NCC
-1 Intangible Virtue|NCC
-1 Iroas, God of Victory|C16
+1 Intangible Virtue|TSR|[295]
+1 Iroas, God of Victory|PIO|[309]
 1 Jetmir's Garden|SNC
 1 Jinnie Fay, Jetmir's Second|SNC
-1 Jungle Shrine|NCC
-1 Kazuul, Tyrant of the Cliffs|NCC
+1 Jungle Shrine|ECC|[154]
+1 Kazuul, Tyrant of the Cliffs|MKC|[157]
 1 King Darien XLVIII|DMU
-1 Kodama's Reach|MMA
+1 Kodama's Reach|ECC|[113]
 1 Back-Alley Gardener|YSNC
-1 Mad Ratter|ELD
-1 Maja, Bretagard Protector|KHM
-1 March of the Multitudes|NCC
+1 Mad Ratter|J22|[570]
+1 Maja, Bretagard Protector|SCD|[235]
+1 March of the Multitudes|SCD|[236]
 1 Jetmir, Nexus of Revels|SNC
 1 Marsh Flats|MH2
-1 Martial Coup|V14
+1 Martial Coup|FRC|[28]
 1 Cabaretti Revels|YSNC
-4 Mountain|SNC
-1 Naya Charm|C16
+4 Mountain|INR|[294]
+1 Naya Charm|DMC|[162]
 1 Naya Panorama|NCC
-1 Nobilis of War|EVE
-1 Outpost Siege|NCC
-1 Overgrown Farmland|MID
+1 Nobilis of War|MM2|[195]
+1 Outpost Siege|PIO|[150]
+1 Overgrown Farmland|FRA|[185]
 1 Parallel Lives|ISD
-1 Path of Ancestry|NCC
-1 Path to Exile|NCC
-4 Plains|SNC
+1 Path of Ancestry|TRC|[545]
+1 Path to Exile|TSR|[299]
+4 Plains|INR|[288]
 1 Prosperous Partnership|NCC
 1 Rabble Rousing|SNC
-1 Rootborn Defenses|RTR
-1 Rugged Prairie|NCC
-1 Rumor Gatherer|SNC
-1 Sakura-Tribe Elder|NCC
-1 Avacyn's Pilgrim|ISD
-1 Second Harvest|C19
-1 Secure the Wastes|DTK
+1 Rootborn Defenses|CLU|[71]
+1 Rugged Prairie|SOC|[401]
+1 Rumor Gatherer|CLB|[705]
+1 Sakura-Tribe Elder|SOC|[285]
+1 Avacyn's Pilgrim|SCD|[171]
+1 Second Harvest|INR|[417]
+1 Secure the Wastes|FRC|[31]
 1 Arming Gala|YSNC
-1 Shamanic Revelation|NCC
+1 Shamanic Revelation|PIO|[194]
 1 Rope Line Attendant|YSNC
-1 Sol Ring|NCC
-1 Stomping Ground|GTC
+1 Sol Ring|LEB|[270]
+1 Stomping Ground|RVR|[413]
 1 Sylvan Offering|NCC
-1 Temple Garden|RTR
-1 Temple of Triumph|NCC
-1 Thriving Grove|NCC
-1 Thriving Heath|NCC
-1 Thunderfoot Baloth|NCC
-1 Windbrisk Heights|NCC
-1 Wood Elves|NCC
+1 Temple Garden|RVR|[414]
+1 Temple of Triumph|SOC|[417]
+1 Thriving Grove|ECC|[171]
+1 Thriving Heath|ECC|[172]
+1 Thunderfoot Baloth|DSC|[201]
+1 Windbrisk Heights|TDC|[411]
+1 Wood Elves|EXO|[130]
 1 Zurzoth, Chaos Rider|NCC

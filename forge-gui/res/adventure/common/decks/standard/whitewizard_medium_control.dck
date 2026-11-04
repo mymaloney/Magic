@@ -1,35 +1,35 @@
 [metadata]
 Name=Colossus 2
 [Main]
-21 Plains|ISD
-1 Kjeldoran Outpost
-1 Flagstones of Trokair
-1 Karakas
-2 Abeyance
-2 Due Respect
-2 Silence
-1 Disenchant
-1 Revoke Existence
-2 Mana Tithe
-1 Rebuff the Wicked
-1 Ghostly Prison
-2 Condemn
-2 Exile
-2 Rebuke
-2 Swords to Plowshares
-2 Grand Abolisher
-1 Blind Obedience
-1 Serra Avenger
-1 True Believer
-1 Kataki, War's Wage
-1 Leonin Relic-Warder
-1 Kitchen Finks
-1 Fiend Hunter
-1 Commander Eesha
-1 Dawn Elemental
-1 Guardian Seraph
-1 Linvala, Keeper of Silence
-1 Windborn Muse
-1 Oversoul of Dusk
-1 Serra Angel
+21 Plains|INR|[288]
+1 Kjeldoran Outpost|ALL|[139]
+1 Flagstones of Trokair|TSR|[278]
+1 Karakas|LEG|[303]
+2 Abeyance|WTH|[1]
+2 Due Respect|NPH|[8]
+2 Silence|TSR|[302]
+1 Disenchant|MMQ|[18]
+1 Revoke Existence|2XM|[28]
+2 Mana Tithe|TSR|[26]
+1 Rebuff the Wicked|TSR|[35]
+1 Ghostly Prison|SOC|[146]
+2 Condemn|RVR|[304]
+2 Exile|ALL|[3]
+2 Rebuke|BBD|[103]
+2 Swords to Plowshares|DMR|[275]
+2 Grand Abolisher|BIG|[2]
+1 Blind Obedience|RVR|[303]
+1 Serra Avenger|FDC|[49]
+1 True Believer|ONS|[57]
+1 Kataki, War's Wage|MD1|[24]
+1 Leonin Relic-Warder|C17|[65]
+1 Kitchen Finks|UMA|[216]
+1 Fiend Hunter|INR|[340]
+1 Commander Eesha|JUD|[9]
+1 Dawn Elemental|SCG|[7]
+1 Guardian Seraph|M10|[13]
+1 Linvala, Keeper of Silence|JMP|[119]
+1 Windborn Muse|DMR|[278]
+1 Oversoul of Dusk|SHM|[234]
+1 Serra Angel|DMR|[271]
 [Sideboard]

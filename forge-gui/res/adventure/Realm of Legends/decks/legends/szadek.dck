@@ -1,76 +1,76 @@
 [metadata]
 Name=Szadek, Lord of Secrets
 [Commander]
-1 Szadek, Lord of Secrets|RAV
+1 Szadek, Lord of Secrets|GK1|[20]
 [Main]
-1 Nemesis of Reason|ARB
+1 Nemesis of Reason|CLB|[850]
 1 Cut Your Losses|SNC
 1 Ashiok, Dream Render|WAR
-1 Lazav, Dimir Mastermind|GTC
-1 Hedron Crab|ZEN
-1 Arcane Signet|ELD
+1 Lazav, Dimir Mastermind|ZNC|[92]
+1 Hedron Crab|TDC|[155]
+1 Arcane Signet|TRC|[485]
 1 Beacon of Unrest|2XM
 1 Bloodchief's Thirst|ZNR
-1 Bonehoard|MBS
+1 Bonehoard|NEC|[147]
 1 Charcoal Diamond|MIR
 1 Command the Dreadhorde|WAR
-1 Consuming Aberration|GK1
-1 Crypt Incursion|DGM
-1 Curse of the Swine|THS
-1 Dimir Aqueduct|GK1
-1 Dimir Guildgate|GRN
-1 Dimir House Guard|RAV
+1 Consuming Aberration|TSR|[374]
+1 Crypt Incursion|PIO|[88]
+1 Curse of the Swine|SOC|[192]
+1 Dimir Aqueduct|DSC|[270]
+1 Dimir Guildgate|RVR|[400]
+1 Dimir House Guard|RVR|[324]
 1 Dimir Infiltrator|PCA
-1 Dimir Signet|GK1
-1 Dismal Backwater|C18
-1 Dreadhound|MID
-1 Drown in the Loch|ELD
+1 Dimir Signet|FRC|[56]
+1 Dismal Backwater|TDM|[254]
+1 Dreadhound|PIO|[92]
+1 Drown in the Loch|CLB|[842]
 1 Duskmantle Guildmage|GTC
-1 Engulf the Shore|DDT
-1 Evolving Wilds|PTKDF
+1 Engulf the Shore|GN2|[21]
+1 Evolving Wilds|TRC|[527]
 1 Fascination|FRF
-1 Feed the Swarm|ZNR
+1 Feed the Swarm|TDC|[180]
 1 Fleet Swallower|XLN
-1 Fractured Sanity|MH2
+1 Fractured Sanity|CLB|[722]
 1 Fraying Sanity|HOU
-1 Glimmer of Genius|KLD
-1 Infernal Grasp|MID
-12 Island|GK1|[24]
-1 Jwar Isle Refuge|ZNC
+1 Glimmer of Genius|DRC|[78]
+1 Infernal Grasp|INR|[385]
+12 Island|INR|[290]
+1 Jwar Isle Refuge|SCD|[306]
 1 Maddening Cacophony|ZNR
 1 Manic Scribe|SOI
-1 Memory Erosion|ALA
-1 Memory Lapse|5ED
-1 Mind Funeral|ARB
+1 Memory Erosion|CM2|[45]
+1 Memory Lapse|MIR|[74]
+1 Mind Funeral|MMA|[181]
 1 Mind Grind|GTC
-1 Mind Stone|AFC
-1 Mindcrank|IMA
+1 Mind Stone|DMR|[385]
+1 Mindcrank|CLB|[866]
 1 Mirko Vosk, Mind Drinker|GK1
-1 Muddle the Mixture|RAV
-1 Myriad Landscape|C21
-1 Mystic Sanctuary|ELD
-1 Nighthowler|ZNC
-1 Nightscape Familiar|E01
+1 Muddle the Mixture|RVR|[315]
+1 Myriad Landscape|EOC|[169]
+1 Mystic Sanctuary|TSR|[408]
+1 Nighthowler|PIO|[98]
+1 Nightscape Familiar|PLS|[48]
 1 Perplex|RAV
-1 Precognitive Perception|RNA
-1 Price of Fame|GRN
+1 Precognitive Perception|GN3|[34]
+1 Price of Fame|MKC|[135]
 1 Primal Amulet|XLN
 1 Psychic Corrosion|M19
-1 Ravenform|KHM
-1 Resculpt|STX
+1 Ravenform|LCC|[167]
+1 Resculpt|SOC|[201]
 1 Ruin Crab|ZNR
 1 Scheming Symmetry|M20
 1 Sky Diamond|MIR
-1 Sol Ring|C19
-1 Sphinx's Tutelage|ORI
-1 Thran Dynamo|C14
-1 Submerged Boneyard|C18
-12 Swamp|GK1|[25]
-1 Swiftfoot Boots|C18
-1 Syr Konrad, the Grim|ZNC
+1 Sol Ring|LEB|[270]
+1 Sphinx's Tutelage|PIO|[287]
+1 Thran Dynamo|UDS|[139]
+1 Submerged Boneyard|SCD|[321]
+12 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Syr Konrad, the Grim|DSC|[158]
 1 Teferi's Tutelage|M21
-1 Temple of Deceit|THB
-1 Traumatize|M14
+1 Temple of Deceit|DRC|[176]
+1 Traumatize|ODY|[110]
 1 Trepanation Blade|IMA
 1 Vantress Gargoyle|ELD
 1 Visions of Beyond|UMA
@@ -78,5 +78,5 @@ Name=Szadek, Lord of Secrets
 1 Vraska's Contempt|XLN
 1 Waste Management|NCC
 1 Waterfront District|SNC
-1 Whelming Wave|DDO
-1 Whispersilk Cloak|PCA
+1 Whelming Wave|CMR|[409]
+1 Whispersilk Cloak|DSC|[257]

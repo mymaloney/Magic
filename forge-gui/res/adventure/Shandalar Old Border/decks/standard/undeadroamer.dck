@@ -1,13 +1,13 @@
 [metadata]
 Name=The Zombie 2
 [Main]
-23 Swamp|USG
-4 Dark Ritual|USG
-4 Duress|USG
+23 Swamp|INR|[292]
+4 Dark Ritual|MMQ|[129]
+4 Duress|DMR|[303]
 4 Hymn to Tourach|FEM
-4 Icy Manipulator|ICE
+4 Icy Manipulator|DMR|[380]
 4 Lord of the Undead|PLS
 4 Phyrexian Arena|APC
 4 Phyrexian Negator|UDS
 4 Plague Beetle|ULG
-4 Zombie Master|2ED
+4 Zombie Master|LEB|[138]

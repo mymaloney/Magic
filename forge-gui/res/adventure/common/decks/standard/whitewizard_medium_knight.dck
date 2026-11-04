@@ -1,23 +1,23 @@
 [metadata]
 Name=White Knight 2
 [Main]
-3 Veteran Cavalier
-3 Kabira Vindicator
-4 Lionheart Maverick
-2 Knight of Cliffhaven
-2 Knight Errant
-2 Benalish Cavalry
-2 Accorder Paladin
-1 Hero of Bladehold
-1 Knight Exemplar
-2 Leonin Skyhunter
-1 Mirran Crusader
-2 Student of Warfare
-2 White Knight
-2 Caravan Escort
-2 Oust
-2 Saltblast
-2 Path of Peace
-1 War Falcon
-24 Plains|MBS
+3 Veteran Cavalier|S99|[30]
+3 Kabira Vindicator|DDP|[4]
+4 Lionheart Maverick|DDG|[3]
+2 Knight of Cliffhaven|DDP|[5]
+2 Knight Errant|POR|[20]
+2 Benalish Cavalry|TSR|[7]
+2 Accorder Paladin|MBS|[1]
+1 Hero of Bladehold|TDC|[119]
+1 Knight Exemplar|MOC|[192]
+2 Leonin Skyhunter|FDN|[498]
+1 Mirran Crusader|MM2|[25]
+2 Student of Warfare|ROE|[47]
+2 White Knight|LGN|[27]
+2 Caravan Escort|DDP|[3]
+2 Oust|CLU|[67]
+2 Saltblast|TSR|[39]
+2 Path of Peace|USG|[29]
+1 War Falcon|M13|[38]
+24 Plains|INR|[288]
 [Sideboard]

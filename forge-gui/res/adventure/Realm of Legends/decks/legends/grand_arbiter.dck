@@ -1,91 +1,91 @@
 [metadata]
 Name=Grand Arbiter Augustin IV
 [Commander]
-1 Grand Arbiter Augustin IV|DIS
+1 Grand Arbiter Augustin IV|2X2|[221]
 [Main]
-1 Absorb|RNA
+1 Absorb|DMR|[354]
 1 Abuelo, Ancestral Echo|LCI
-1 Adarkar Wastes|DRC
-1 Arcane Signet|DRC
+1 Adarkar Wastes|ICE|[351]
+1 Arcane Signet|TRC|[485]
 1 Azorius Cluestone|DGM
 1 Azorius Guildmage|RVR
-1 Azorius Keyrune|CMA
+1 Azorius Keyrune|GK2|[23]
 1 Azorius Locket|VOC
 1 Azorius Ploy|DIS
-1 Azorius Signet|DSC
-1 Brago, King Eternal|CNS
+1 Azorius Signet|FRC|[53]
+1 Brago, King Eternal|KHC|[82]
 1 Minister of Impediments|DIS
 1 Azor's Elocutors|RTR
-1 Archon of the Triumvirate|RTR
-1 Isperia, Supreme Judge|RTR
-1 Jelenn Sphinx|DGM
-1 Celestial Colonnade|WWK
+1 Archon of the Triumvirate|GK2|[7]
+1 Isperia, Supreme Judge|SCD|[4]
+1 Jelenn Sphinx|BBD|[224]
+1 Celestial Colonnade|UMA|[238]
 1 Celestial Regulator|SNC
-1 Cloudblazer|KLD
-1 Command Tower|DRC
-1 Crawlspace|ULG
-1 Dennick, Pious Apprentice|MID
+1 Cloudblazer|FDN|[653]
+1 Command Tower|TRC|[521]
+1 Crawlspace|DMR|[375]
+1 Dennick, Pious Apprentice|DBL|[217]
 1 Denry Klin, Editor in Chief|NCC
 1 Deputy of Detention|RNA
-1 Deserted Beach|INR
-1 Detention Sphere|RTR
+1 Deserted Beach|FRA|[176]
+1 Detention Sphere|GK2|[10]
 1 Dovin, Hand of Control|WAR
 1 Dovin's Acuity|RNA
-1 Dovin's Veto|WAR
+1 Dovin's Veto|TSR|[375]
 1 Elite Guardmage|WAR
 1 Energy Arc|ALL
-1 Ephara, God of the Polis|BNG
-1 Faithful Mending|MID
+1 Ephara, God of the Polis|PIO|[305]
+1 Faithful Mending|TRC|[473]
 1 Flooded Strand|MH3
 1 Floodfarm Verge|DSK
 1 Fortified Beachhead|BRO
-1 Geist of Saint Traft|ISD
-1 Glacial Fortress|DRC
-1 Gwafa Hazid, Profiteer|CON
+1 Geist of Saint Traft|VOC|[155]
+1 Glacial Fortress|TRC|[385]
+1 Gwafa Hazid, Profiteer|BBD|[223]
 1 Hallowed Fountain|RVR
 1 Hengegate Pathway|KHM
 1 Hindering Light|ALA
-1 Irrigated Farmland|DRC
-8 Island|GK2|[27]
+1 Irrigated Farmland|TRC|[388]
+8 Island|INR|[290]
 1 Kykar, Zephyr Awakener|FDN
-1 Lavinia of the Tenth|DGM
+1 Lavinia of the Tenth|CLU|[199]
 1 Lavinia, Azorius Renegade|RVR
-1 Meddling Mage|ARB
+1 Meddling Mage|PLS|[116]
 1 Meticulous Archive|MKM
-1 Mystic Gate|CMM
-1 Narset Transcendent|DTK
+1 Mystic Gate|FRC|[76]
+1 Narset Transcendent|PIO|[355]
 1 Niambi, Esteemed Speaker|M21
-1 Nimbus Maze|IMA
-1 Oath of Teferi|CMM
-1 Overrule|DIS
-1 Hero of Precinct One|RNA
-7 Plains|GK2|[26]
-1 Port Town|NCC
-1 Prairie Stream|DRC
-1 Raff Capashen, Ship's Mage|DOM
+1 Nimbus Maze|AFC|[252]
+1 Oath of Teferi|DOM|[200]
+1 Overrule|DDI|[32]
+1 Hero of Precinct One|DMC|[101]
+7 Plains|INR|[288]
+1 Port Town|TRC|[393]
+1 Prairie Stream|TRC|[394]
+1 Raff Capashen, Ship's Mage|CMM|[351]
 1 Reflector Mage|OGW
-1 Render Silent|DGM
-1 Restless Anchorage|LCI
+1 Render Silent|PIO|[394]
+1 Restless Anchorage|FRC|[81]
 1 Restore the Peace|DGM
 1 Scheming Fence|SNC
-1 Azorius Guildgate|RTR
+1 Azorius Guildgate|RVR|[396]
 1 Senate Guildmage|RNA
-1 Sol Ring|DRC
+1 Sol Ring|LEB|[270]
 1 Somnomancer|SHM
-1 Soulherder|MH1
-1 Spell Queller|EMN
-1 Sphinx's Revelation|RTR
-1 Supreme Verdict|RTR
+1 Soulherder|H1R|[30]
+1 Spell Queller|INR|[435]
+1 Sphinx's Revelation|RVR|[383]
+1 Supreme Verdict|RVR|[461]
 1 Swift Silence|DIS
 1 Taigam, Ojutai Master|C17
-1 Talisman of Progress|MRD
-1 Teferi, Hero of Dominaria|MB2
-1 Teferi, Time Raveler|MB2
-1 Teferi, Who Slows the Sunset|MID
-1 Temple of Enlightenment|DSC
-1 Time Wipe|WAR
+1 Talisman of Progress|TRC|[508]
+1 Teferi, Hero of Dominaria|DOM|[207]
+1 Teferi, Time Raveler|BLC|[92]
+1 Teferi, Who Slows the Sunset|DBL|[245]
+1 Temple of Enlightenment|EOC|[186]
+1 Time Wipe|TDC|[308]
 1 Tome of the Guildpact|RNA
-1 Turn to Mist|SHM
+1 Turn to Mist|CLU|[214]
 1 Unsettled Mariner|MH1
 1 Venser, the Sojourner|DDI
 1 Yorion, Sky Nomad|IKO

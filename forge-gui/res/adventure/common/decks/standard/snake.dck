@@ -1,46 +1,46 @@
 [metadata]
 Name=snake
 [Main]
-1 Ambush Viper|ISD|1
-2 Become Immense|KTK|1
+1 Ambush Viper|INR|[186]
+2 Become Immense|TSR|[358]
 1 Cobra Trap|C15|1
-4 Death-Hood Cobra|NPH|1
-1 Deathcap Glade|VOW|1
-1 Desert|AFC|1
-3 Desert of the Glorified|AKR|1
-3 Desert of the Indomitable|AKR|1
+4 Death-Hood Cobra|2XM|[163]
+1 Deathcap Glade|SOS|[253]
+1 Desert|ARN|[72]
+3 Desert of the Glorified|DRC|[149]
+3 Desert of the Indomitable|M3C|[336]
 3 Feiyi Snake|GS1|1
-1 Forest|CHK|2
-1 Forest|CHK|4
-2 Forest|THB|2
-3 Forest|THB|3
-1 Foul Orchard|AKH|1
-1 Foul Orchard|RIX|1
-1 Foul Orchard|SOI|1
-1 Hooded Blightfang|M21|1
+1 Forest|INR|[296]
+1 Forest|INR|[296]
+2 Forest|INR|[296]
+3 Forest|INR|[296]
+1 Foul Orchard|KHC|[110]
+1 Foul Orchard|KHC|[110]
+1 Foul Orchard|KHC|[110]
+1 Hooded Blightfang|J25|[455]
 1 Jewel-Eyed Cobra|MH2|1
-1 Jungle Hollow|FRF|1
-1 Jungle Hollow|IKO|1
-1 Jungle Hollow|PLST|1
+1 Jungle Hollow|TDM|[258]
+1 Jungle Hollow|TDM|[258]
+1 Jungle Hollow|TDM|[258]
 1 Moss Viper|THB|1
-1 Necrobite|AVR|1
-1 Nemesis of Mortals|THS|1
-2 Nessian Asp|THS|1
-1 Orochi Hatchery|CHK|1
-1 Pharika's Chosen|JOU|1
-1 Pharika, God of Affliction|JOU|1
-1 Prowling Serpopard|AKR|1
-1 Python|S00|1
+1 Necrobite|M15|[105]
+1 Nemesis of Mortals|PIO|[185]
+2 Nessian Asp|PIO|[186]
+1 Orochi Hatchery|C15|[260]
+1 Pharika's Chosen|J25|[474]
+1 Pharika, God of Affliction|PIO|[315]
+1 Prowling Serpopard|J22|[713]
+1 Python|POR|[105]
 1 Ramunap Hydra|HOU|1
-1 Return to Nature|MID|1
+1 Return to Nature|MOC|[309]
 1 Rhonas's Last Stand|HOU|1
 1 Seed the Land|SOK|1
 1 Seshiro the Anointed|CHK|1
-4 Snakeskin Veil|KHM|1
-1 Stonecoil Serpent|ELD|1
-1 Sunscorched Desert|AKR|1
-1 Swamp|CHK|4
-1 Swamp|THB|3
+4 Snakeskin Veil|TDM|[159]
+1 Stonecoil Serpent|SOC|[356]
+1 Sunscorched Desert|AKH|[249]
+1 Swamp|INR|[292]
+1 Swamp|INR|[292]
 1 Voracious Typhon|THB|1
-1 Wasteland Viper|GTC|1
-1 Zodiac Snake|PRM|1
+1 Wasteland Viper|RVR|[160]
+1 Zodiac Snake|PTK|[99]

@@ -3,89 +3,89 @@ Name=Yidris
 [Commander]
 1 Yidris, Maelstrom Wielder|c16
 [Main]
-1 Ancestral Vision|tsp
+1 Ancestral Vision|TDC|[144]
 1 Ancient Cellarspawn|dsc
-1 Arcane Signet|sld|[1492]
-1 Averna, the Chaos Bloom|cmr
-1 Beast Within|c16
-1 Berserkers' Onslaught|dtk
-1 Blood Mist|emn
+1 Arcane Signet|TRC|[485]
+1 Averna, the Chaos Bloom|J25|[80]
+1 Beast Within|TSR|[357]
+1 Berserkers' Onslaught|BLC|[192]
+1 Blood Mist|INR|[395]
 1 Clever Impersonator|c19
-1 Command Tower|sld|[1496]
-1 Conqueror's Flail|c16
+1 Command Tower|TRC|[521]
+1 Conqueror's Flail|2X2|[302]
 1 Xander's Lounge|snc
-1 Cultivate|sta
+1 Cultivate|SOC|[265]
 1 Dragonfire Blade|tdm
 1 Etali, Primal Conqueror|mom
-1 Etali, Primal Storm|prix
-1 Extract from Darkness|cns
-1 Fabled Passage|m21
-1 Fellwar Stone|cmm|[657]
-1 Flamekin Village|cm2
+1 Etali, Primal Storm|TSR|[342]
+1 Extract from Darkness|2X2|[210]
+1 Fabled Passage|TRC|[379]
+1 Fellwar Stone|DRK|[102]
+1 Flamekin Village|ECC|[149]
 1 Flotsam|mkm
-5 Forest|c16
+5 Forest|INR|[296]
 1 Ketria Triome|iko
-1 Harmonic Prodigy|mh2
+1 Harmonic Prodigy|SOC|[123]
 1 Heritage Reclamation|tdm
 1 Imoti, Celebrant of Bounty|cmr
 1 Inevitable Betrayal|mh2
-5 Island|c16
+5 Island|INR|[290]
 1 Karn's Temporal Sundering|dom
-1 Lightning Greaves|sld|[1493]
-1 Maelstrom Wanderer|cmm|[684]
-1 Mana Confluence|cmr
-1 Managorger Hydra|c16
-3 Mountain|c16
+1 Lightning Greaves|TRC|[496]
+1 Maelstrom Wanderer|ECC|[127]
+1 Mana Confluence|JOU|[163]
+1 Managorger Hydra|FDC|[216]
+3 Mountain|INR|[294]
 1 Zagoth Triome|iko
-1 Path of Ancestry|cmm
-1 Pernicious Deed|a25
-1 Phantasmal Image|mm3
-1 Propaganda|c20
-1 Sword of Feast and Famine|mbs
-1 Sword of Fire and Ice|dst
+1 Path of Ancestry|TRC|[545]
+1 Pernicious Deed|APC|[114]
+1 Phantasmal Image|AFC|[89]
+1 Propaganda|TMP|[80]
+1 Sword of Feast and Famine|2XM|[296]
+1 Sword of Fire and Ice|2XM|[297]
 1 Sword of Forge and Frontier|one
-1 Sword of Sinew and Steel|mh1
-1 Chaos Warp|eoc
-1 Aurora Phoenix|cmr
-1 Koma, cosmos Serpent|khm
-1 Primeval Bounty|jmp
-1 Cyclonic Rift|rtr
+1 Sword of Sinew and Steel|H1R|[31]
+1 Chaos Warp|MBC|[72]
+1 Aurora Phoenix|CLB|[778]
+1 Koma, cosmos Serpent|MKC|[213]
+1 Primeval Bounty|J25|[701]
+1 Cyclonic Rift|RVR|[313]
 1 Hammerhead Tyrant|tdc
-1 Tidespout Tyrant|bbd
+1 Tidespout Tyrant|RVR|[320]
 1 Hullbreaker Horror|inr
-1 Wooded Foothills|ktk
-1 Rakdos Charm|c16
-1 Rampant Growth|hop
-1 Relentless Assault|vis
-1 Rishkar's Expertise|aer
-1 Rogue's Passage|cmr
+1 Wooded Foothills|MH3|[441]
+1 Rakdos Charm|TSR|[384]
+1 Rampant Growth|TMP|[245]
+1 Relentless Assault|PO2|[115]
+1 Rishkar's Expertise|FDC|[226]
+1 Rogue's Passage|TRC|[552]
 1 Ziatora's proving ground|snc
-1 Savage Ventmaw|dtk
+1 Savage Ventmaw|FDN|[665]
 1 Seize the Day|ody
 1 Shinka, the Bloodsoaked Keep|chk
-1 Scalding Tarn|zen
-1 Simic Signet|moc
+1 Scalding Tarn|MH2|[439]
+1 Simic Signet|DSC|[252]
 1 Snuff Out|mmq
-1 Sol Ring|sld|[1494]
-1 Taiga|vma
-1 Tropical Island|vma
-1 Volcanic Island|vma
-1 Underground Sea|vma
-1 Bayou|vma
-1 Badlands|vma
-1 Bloodstained Mire|ktk
-1 Misty Rainforest|zen
-1 Spark Double|war
-1 Sunbird's Invocation|xln
-4 Swamp|c16
-1 Swiftfoot Boots|c16
+1 Sol Ring|LEB|[270]
+1 Taiga|LEB|[283]
+1 Tropical Island|LEB|[284]
+1 Volcanic Island|LEB|[287]
+1 Underground Sea|LEB|[286]
+1 Bayou|LEB|[279]
+1 Badlands|LEB|[278]
+1 Bloodstained Mire|MH3|[435]
+1 Misty Rainforest|MH2|[438]
+1 Spark Double|RVR|[319]
+1 Sunbird's Invocation|BLC|[116]
+4 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
 1 Sword of Wealth and Power|big
-1 Talisman of Creativity|who
-1 Tasigur, the Golden Fang|frf
-1 Treasure Cruise|ktk
+1 Talisman of Creativity|TRC|[504]
+1 Tasigur, the Golden Fang|TSR|[333]
+1 Treasure Cruise|TSR|[319]
 1 Trumpeting Carnosaur|lci
-1 Turnabout|usg
-1 Volcanic Torrent|cmr
-1 Wheel of Fate|c16
-1 Whispersilk Cloak|c16
-1 Zendikar Resurgent|ogw
+1 Turnabout|RVR|[452]
+1 Volcanic Torrent|SOC|[260]
+1 Wheel of Fate|TSR|[198]
+1 Whispersilk Cloak|DSC|[257]
+1 Zendikar Resurgent|C17|[160]

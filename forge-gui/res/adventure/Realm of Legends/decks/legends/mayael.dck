@@ -1,79 +1,79 @@
 [metadata]
 Name=Mayael
 [Commander]
-1 Mayael the Anima|ala
+1 Mayael the Anima|C13|[199]
 [Main]
-1 Ancient Ziggurat|con
-1 Apocalypse Hydra|con
-1 Sol Ring|cmd
-1 Arcane Signet|eld
-1 Talisman of Impulse|mrd
-1 Talisman of Unity|mrd
-1 Ajani Vengeant|ala
-1 Beacon Behemoth|con
+1 Ancient Ziggurat|ECC|[144]
+1 Apocalypse Hydra|BBD|[217]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Talisman of Impulse|TDC|[332]
+1 Talisman of Unity|MKC|[244]
+1 Ajani Vengeant|DDH|[1]
+1 Beacon Behemoth|CFX|[78]
 1 Bloodthorn Taunter|ala
-1 Branching Bolt|ala
-1 Bull Cerodon|ala
-1 Cliffrunner Behemoth|con
-1 Druid of the Anima|ala
-1 Drumhunter|ala
-1 Exotic Orchard|con
-1 Exploding Borders|con
+1 Branching Bolt|ARC|[82]
+1 Bull Cerodon|HOP|[84]
+1 Cliffrunner Behemoth|CFX|[79]
+1 Druid of the Anima|J25|[652]
+1 Drumhunter|SCD|[179]
+1 Exotic Orchard|TRC|[378]
+1 Exploding Borders|CFX|[106]
 1 Exuberant Firestoker|ala
 1 Fight to the Death|arb
-1 Filigree Fracture|con
-10 Forest|ala|[247]
+1 Filigree Fracture|CFX|[82]
+10 Forest|INR|[296]
 1 Godsire|ala
 1 Jetmir's Garden|snc
 1 Gustrider Exuberant|ala
 1 Intimidation Bolt|arb
-1 Jungle Shrine|ala
+1 Jungle Shrine|ECC|[154]
 1 Jungle Weaver|ala
 1 Keeper of Progenitus|ala
-1 Knight of the White Orchid|ala
-1 Lapse of Certainty|con
-1 Mage Slayer|arb
-1 Mark of Asylum|con
-1 Martial Coup|con
-1 Mayael's Aria|arb
-1 Meglonoth|con
+1 Knight of the White Orchid|PIO|[21]
+1 Lapse of Certainty|CFX|[9]
+1 Mage Slayer|NEC|[140]
+1 Mark of Asylum|CFX|[10]
+1 Martial Coup|FRC|[28]
+1 Mayael's Aria|2X2|[253]
+1 Meglonoth|CFX|[118]
 1 Mighty Emergence|ala
 1 Mosstodon|ala
-9 Mountain|ala|[245]
+9 Mountain|INR|[294]
 1 Mycoid Shepherd|arb
-1 Nacatl Hunt-Pride|con
-1 Naturalize|ala
-1 Naya Charm|ala
-1 Naya Panorama|ala
+1 Nacatl Hunt-Pride|DDH|[20]
+1 Naturalize|ONS|[275]
+1 Naya Charm|DMC|[162]
+1 Naya Panorama|NCC|[417]
 1 Naya Sojourners|arb
 1 Obelisk of Naya|ala
-1 Oblivion Ring|ala
-1 Paleoloth|con
-1 Path to Exile|con
-9 Plains|ala|[230]
-1 Rakeclaw Gargantuan|ala
+1 Oblivion Ring|MM2|[29]
+1 Paleoloth|CFX|[88]
+1 Path to Exile|TSR|[299]
+9 Plains|INR|[288]
+1 Rakeclaw Gargantuan|C13|[205]
 1 Reborn Hope|arb
-1 Reliquary Tower|con
+1 Reliquary Tower|TRC|[551]
 1 Retaliator Griffin|arb
-1 Command Tower|cmd
+1 Command Tower|TRC|[521]
 1 Sacellum Godspeaker|ala
-1 Soul's Fire|ala
+1 Soul's Fire|CMR|[200]
 1 Marisi, Breaker of the Coil|c19
 1 Ghalta and Mavren|mom
 1 Archetype of Endurance|bng
 1 Ojer Kaslem, Deepest Growth|lci
 1 Kogla and Yidaro|mom
-1 Soul's Majesty|con
-1 Soul's Might|ala
-1 Spearbreaker Behemoth|ala
-1 Spellbreaker Behemoth|arb
-1 Steward of Valeron|ala
+1 Soul's Majesty|NEC|[131]
+1 Soul's Might|J22|[731]
+1 Spearbreaker Behemoth|NEC|[132]
+1 Spellbreaker Behemoth|C13|[216]
+1 Steward of Valeron|DDG|[11]
 1 Sunseed Nurturer|ala
-1 Titanic Ultimatum|ala
+1 Titanic Ultimatum|DDH|[31]
 1 Trace of Abundance|arb
-1 Unstable Frontier|con
-1 Uril, the Miststalker|arb
-1 Vagrant Plowbeasts|con
-1 Valley Rannet|arb
-1 Where Ancients Tread|ala
-1 Woolly Thoctar|ala
+1 Unstable Frontier|CFX|[145]
+1 Uril, the Miststalker|2X2|[290]
+1 Vagrant Plowbeasts|CFX|[129]
+1 Valley Rannet|C13|[224]
+1 Where Ancients Tread|C13|[130]
+1 Woolly Thoctar|MM3|[203]

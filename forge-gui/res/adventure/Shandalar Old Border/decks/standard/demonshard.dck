@@ -1,15 +1,15 @@
 [metadata]
 Name=Demons
 [Main]
-2 Dark Ritual|DKM
+2 Dark Ritual|MMQ|[129]
 2 Drain Life|MIR
 2 Urborg Volcano|INV
-21 Swamp|5ED
-4 Abyssal Specter|6ED
-4 Animate Dead|5ED
-4 Bad Moon|2ED
-4 Black Knight|2ED
+21 Swamp|INR|[292]
+4 Abyssal Specter|ICE|[113]
+4 Animate Dead|LEB|[93]
+4 Bad Moon|LEB|[94]
+4 Black Knight|LEB|[95]
 4 Demonic Tutor|LEB
-4 Lord of the Pit|5ED
-4 Terror|ATH
-4 Unholy Strength|7ED
+4 Lord of the Pit|LEB|[115]
+4 Terror|DMR|[312]
+4 Unholy Strength|LEB|[132]

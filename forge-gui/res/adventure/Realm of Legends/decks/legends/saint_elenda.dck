@@ -3,60 +3,60 @@ Name=Saint Elenda
 [Commander]
 1 Saint Elenda|YOTJ
 [Main]
-37 Plains|LCI
-1 Sejiri Shelter|ZNR
-1 Radiant Fountain|IMA
-1 Kabira Crossroads|C17
-1 Seraph Sanctuary|AVR
-1 Heliod, Sun-Crowned|THB
-1 True Conviction|C14
+37 Plains|INR|[288]
+1 Sejiri Shelter|PIO|[31]
+1 Radiant Fountain|FDC|[308]
+1 Kabira Crossroads|J25|[768]
+1 Seraph Sanctuary|FDC|[313]
+1 Heliod, Sun-Crowned|CMM|[29]
+1 True Conviction|SCD|[38]
 1 Qala, Ajani's Pridemate|J25
-1 Pearl Medallion|MH3
-1 Sol Ring|LCC
-1 Arcane Signet|LCC
-1 Wayfarer's Bauble|LCC
-1 Lightning Greaves|SCD
-1 Mind Stone|MKC
-1 Thran Dynamo|C14
-1 Pristine Talisman|NPH
-1 Swords to Plowshares|SCD
-1 Path to Exile|CMM
+1 Pearl Medallion|TMP|[300]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Wayfarer's Bauble|TRC|[511]
+1 Lightning Greaves|TRC|[496]
+1 Mind Stone|DMR|[385]
+1 Thran Dynamo|UDS|[139]
+1 Pristine Talisman|C21|[258]
+1 Swords to Plowshares|DMR|[275]
+1 Path to Exile|TSR|[299]
 1 Get Lost|LCI
-1 Nykthos Paragon|MH2
+1 Nykthos Paragon|J25|[230]
 1 Legion's Landing|XLN
 1 Suture Priest|MOC
-1 Welcoming Vampire|VOW
+1 Welcoming Vampire|TDC|[140]
 1 Sanguine Evangelist|LCI
 1 Bishop of Rebirth|XLN
 1 Bishop of Binding|RIX
 1 Vanguard of the Rose|LCI
 1 Exemplar of Light|FDN
-1 Righteous Valkyrie|KHM
+1 Righteous Valkyrie|FDC|[43]
 1 Resplendent Angel|LCI
-1 Solitude|MH2
-1 Generous Gift|CMM
+1 Solitude|H2R|[3]
+1 Generous Gift|BLC|[106]
 1 Haliya, Guided by Light|EOE
-1 Angel of Vitality|M20
-1 Ajani's Pridemate|FDN
+1 Angel of Vitality|FDC|[13]
+1 Ajani's Pridemate|TSR|[290]
 1 Cat Collector|FDN
 1 Attended Healer|J22
-1 Alseid of Life's Bounty|THB
+1 Alseid of Life's Bounty|J22|[143]
 1 Leyline of Hope|DSK
-1 Faith's Fetters|M21
+1 Faith's Fetters|RVR|[307]
 1 March of the Canonized|LCC
-1 Authority of the Consuls|KLD
-1 Archangel of Thune|M14
+1 Authority of the Consuls|FDN|[137]
+1 Archangel of Thune|PIO|[4]
 1 Elenda's Hierophant|LCC
 1 Crested Sunmare|HOU
-1 Voice of the Blessed|VOW
+1 Voice of the Blessed|INR|[50]
 1 Soul's Attendant|ROE
 1 Soul Warden|EXO
 1 Mother of Runes|ULG
-1 Giver of Runes|MH1
+1 Giver of Runes|H1R|[3]
 1 Knight of Dawn's Light|DMU
-1 Ajani, Strength of the Pride|M20
-1 Fumigate|KLD
-1 Tragic Arrogance|ORI
+1 Ajani, Strength of the Pride|J22|[141]
+1 Fumigate|EOC|[65]
+1 Tragic Arrogance|SOC|[182]
 1 Settle the Wreckage|XLN
 1 Adanto Vanguard|XLN
 1 Cerise, Slayer of Fear|YWOE
@@ -65,4 +65,4 @@ Name=Saint Elenda
 1 Mavren Fein, Dusk Apostle|LCC
 1 Charismatic Conqueror|LCC
 1 Redemption Choir|LCC
-1 Inspiring Cleric|XLN
+1 Inspiring Cleric|J22|[199]

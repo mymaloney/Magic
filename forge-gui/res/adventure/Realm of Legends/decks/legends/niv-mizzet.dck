@@ -3,80 +3,80 @@ Name=Niv-Mizzet
 [Commander]
 1 Niv-Mizzet, Visionary|FDN
 [Main]
-1 Aetherize|FDN
-1 Arcane Denial|DSC
+1 Aetherize|RVR|[448]
+1 Arcane Denial|ALL|[22a]
 1 Arcane Epiphany|FDN
-1 Arcane Signet|DSC
-1 Basilisk Collar|FDN
-1 Brainstorm|DSC
-1 Command Tower|FDC
-1 Commander's Sphere|DSC
+1 Arcane Signet|TRC|[485]
+1 Basilisk Collar|FDC|[246]
+1 Brainstorm|MMQ|[61]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
 1 Compulsive Research|RVR
-1 Cyclonic Rift|RTR
-1 Gelectrode|GPT
-1 Vandalblast|RTR
-1 Electrostatic Field|GRN
-1 Electrodominance|RNA
+1 Cyclonic Rift|RVR|[313]
+1 Gelectrode|GK1|[38]
+1 Vandalblast|TSR|[352]
+1 Electrostatic Field|OTC|[164]
+1 Electrodominance|TDC|[212]
 1 Boltwave|FDN
-1 Lava Spike|CHK
-1 Mizzium Mortars|RTR
-1 Finale of Promise|WAR
-1 Electrolyze|GPT
+1 Lava Spike|TSR|[347]
+1 Mizzium Mortars|PIO|[376]
+1 Finale of Promise|OTC|[166]
+1 Electrolyze|GK1|[37]
 1 Risk Factor|GRN
-1 Counterspell|DSC
-1 Curiosity|WOT
-1 Invoke the Firemind|GPT
-1 Deep Analysis|J25
-1 Expansion|RVR
-1 Expressive Iteration|STX
-1 Faerie Mastermind|MOM
+1 Counterspell|DMR|[281]
+1 Curiosity|EXO|[29]
+1 Invoke the Firemind|GK1|[40]
+1 Deep Analysis|TOR|[36]
+1 Expansion|TDC|[287]
+1 Expressive Iteration|SOC|[309]
+1 Faerie Mastermind|SOC|[114]
 1 Fiery Emancipation|M21
 1 Fire Diamond|MIR
 1 Firemind's Research|GRN
-1 Frantic Search|WOC
+1 Frantic Search|DMR|[285]
 1 Glasspool Mimic|ZNR
-1 Gratuitous Violence|BLC
-1 Guttersnipe|RTR
-1 Hedron Archive|BLC
+1 Gratuitous Violence|ONS|[212]
+1 Guttersnipe|RVR|[332]
+1 Hedron Archive|TSR|[395]
 1 Hypersonic Dragon|CLU
-1 Inspiration|RTR
+1 Inspiration|VIS|[35]
 1 Invert Polarity|MH3
-11 Island|GK1|[48]
-1 Izzet Guildgate|FDN
-1 Talisman of Creativity|TDC
-1 Keranos, God of Storms|JOU
+11 Island|INR|[290]
+1 Izzet Guildgate|RVR|[405]
+1 Talisman of Creativity|TRC|[504]
+1 Keranos, God of Storms|PIO|[311]
 1 Laboratory Maniac|INR
-1 Lightning Bolt|CLU
-1 Char|RAV
-1 Mercurial Chemister|RTR
+1 Lightning Bolt|LEB|[162]
+1 Char|GK1|[28]
+1 Mercurial Chemister|C20|[221]
 1 Mirrormade|DSC
-13 Mountain|GK1|[49]
-1 Negate|MOM
-1 Niv-Mizzet, Dracogenius|RTR
+13 Mountain|INR|[294]
+1 Negate|TRC|[439]
+1 Niv-Mizzet, Dracogenius|C17|[184]
 1 Niv-Mizzet, Parun|RVR
-1 Niv-Mizzet, the Firemind|GPT
-1 Nivix, Aerie of the Firemind|GPT
+1 Niv-Mizzet, the Firemind|RVR|[467]
+1 Nivix, Aerie of the Firemind|DDJ|[36]
 1 Ojer Pakpatiq, Deepest Epoch|LCI
-1 Opt|J25
-1 Propaganda|C13
+1 Opt|INV|[64]
+1 Propaganda|TMP|[80]
 1 Quench|RVR
-1 Refute|FDN
-1 Reliquary Tower|DSC
+1 Refute|TRC|[579]
+1 Reliquary Tower|TRC|[551]
 1 Rush of Inspiration|MH3
 1 Sky Diamond|MIR
-1 Sol Ring|FDC
+1 Sol Ring|LEB|[270]
 1 Song-Mad Treachery|ZNR
 1 Spell Pierce|DFT
 1 Steam Vents|RVR
-1 Swiftwater Cliffs|FDN
-1 Talrand, Sky Summoner|OTC
-1 Temple of Epiphany|BLC
-1 Think Twice|FDN
-1 Thought Collapse|RNA
+1 Swiftwater Cliffs|TDM|[268]
+1 Talrand, Sky Summoner|TSR|[318]
+1 Temple of Epiphany|SOC|[412]
+1 Think Twice|INR|[369]
+1 Thought Collapse|JMP|[184]
 1 Thousand-Year Storm|FDN
-1 Thriving Bluff|J25
-1 Thriving Isle|J25
+1 Thriving Bluff|ECC|[170]
+1 Thriving Isle|ECC|[173]
 1 Thundering Falls|MKM
-1 Izzet Boilerworks|GPT
+1 Izzet Boilerworks|M3C|[350]
 1 Ugin's Binding|MH3
 1 Unauthorized Exit|MKM

@@ -4,22 +4,22 @@ Name=Adventure - Low Golgari
 
 [Main]
 1 Aspect of Lamprey|THB|1
-2 Elvish Vanguard|EMA|1
-1 Fell Specter|M19|1
-7 Forest|GK1|1
-4 Foul Orchard|M19|1
-1 Ghost-Lit Stalker|DDD|1
+2 Elvish Vanguard|ONS|[259]
+1 Fell Specter|JMP|[233]
+7 Forest|INR|[296]
+4 Foul Orchard|KHC|[110]
+1 Ghost-Lit Stalker|GVL|[34]
 2 Golgari Locket|GRN|1
 2 Headless Specter|MH1|1
-2 Hideous End|PLST|1
-2 Ivy Lane Denizen|GTC|1
+2 Hideous End|DDR|[52]
+2 Ivy Lane Denizen|J25|[674]
 1 Liliana's Caress|M11|1
 2 Mind Drain|ZNR|1
 1 Nath of the Gilt-Leaf|C16|1
-1 Nullmage Shepherd|KHC|1
-1 Poison-Tip Archer|M19|1
+1 Nullmage Shepherd|SCD|[200]
+1 Poison-Tip Archer|BLC|[256]
 1 Raiders' Wake|XLN|1
-7 Swamp|GK1|2
+7 Swamp|INR|[292]
 2 Winnower Patrol|MOR|1
 [Sideboard]
 

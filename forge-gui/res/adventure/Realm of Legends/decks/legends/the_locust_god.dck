@@ -1,86 +1,86 @@
 [metadata]
 Name=The Locust God
 [Commander]
-1 The Locust God|HOU
+1 The Locust God|MOC|[335]
 [Main]
 1 Path of the Pyromancer|MOC
 1 Weftstalker Ardent|EOE
 1 Agate Instigator|BLC
-1 Arcane Signet|OTC
-1 Ashnod's Altar|CMM
+1 Arcane Signet|TRC|[485]
+1 Ashnod's Altar|ATQ|[38]
 1 Balmor, Battlemage Captain|FDN
 1 Battle Hymn|AVR
-1 Bident of Thassa|BLC
-1 Big Score|TDC
-1 Blasphemous Act|EOC
+1 Bident of Thassa|PIO|[47]
+1 Big Score|SOC|[237]
+1 Blasphemous Act|SOC|[238]
 1 Boseiju, Who Shelters All|CHK
-1 Chaos Warp|DRC
-1 Command Beacon|OTC
-1 Command Tower|BRC
-1 Commander's Sphere|DRC
-1 Counterspell|ICE
-1 Curiosity Crafter|BLC
-1 Curse of the Swine|TDC
+1 Chaos Warp|MBC|[72]
+1 Command Beacon|TRC|[373]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Counterspell|DMR|[281]
+1 Curiosity Crafter|SOC|[191]
+1 Curse of the Swine|SOC|[192]
 1 Cyclonic Rift|RVR
-1 Desolate Lighthouse|LCC
-1 Dig Through Time|DSC
+1 Desolate Lighthouse|TRC|[374]
+1 Dig Through Time|SOC|[195]
 1 Diplomatic Immunity|MMQ
-1 Distant Melody|LCC
+1 Distant Melody|ECC|[45]
 1 Enduring Curiosity|DSK
-1 Fellwar Stone|TDC
+1 Fellwar Stone|DRK|[102]
 1 Flood of Tears|VOC
 1 Force of Negation|2X2
-1 Frostboil Snarl|DRC
+1 Frostboil Snarl|TRC|[383]
 1 Full Throttle|DFT
-1 Goblin Electromancer|TDC
-1 Impact Tremors|MOC
+1 Goblin Electromancer|RVR|[367]
+1 Impact Tremors|FDN|[717]
 1 Imprisoned in the Moon|INR
-12 Island|HOU
-1 Izzet Boilerworks|OTC
-1 Izzet Signet|TDC
-1 Lier, Disciple of the Drowned|MID
-1 Lightning Greaves|TDC
-1 Mana Drain|2X2
-1 Mana Geyser|TDC
-1 Mind Spring|BLC
-8 Mountain|HOU
-1 Mystic Sanctuary|ELD
-1 Negate|MOM
-1 Niv-Mizzet, Parun|OTC
+12 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
+1 Izzet Signet|FRC|[58]
+1 Lier, Disciple of the Drowned|TDC|[157]
+1 Lightning Greaves|TRC|[496]
+1 Mana Drain|LEG|[65]
+1 Mana Geyser|SOC|[247]
+1 Mind Spring|BLB|[389]
+8 Mountain|INR|[294]
+1 Mystic Sanctuary|TSR|[408]
+1 Negate|TRC|[439]
+1 Niv-Mizzet, Parun|RVR|[376]
 1 Niv-Mizzet, Visionary|FDN
 1 Pinnacle Monk|MH3
-1 Professional Face-Breaker|J22
-1 Psychosis Crawler|BLC
-1 Pull from Tomorrow|DRC
-1 Purphoros, God of the Forge|CMM
-1 Rapid Hybridization|TDC
-1 Reliquary Tower|OTC
-1 Resculpt|CMM
+1 Professional Face-Breaker|TRC|[291]
+1 Psychosis Crawler|FDC|[280]
+1 Pull from Tomorrow|SOC|[116]
+1 Purphoros, God of the Forge|PIO|[296]
+1 Rapid Hybridization|SOC|[198]
+1 Reliquary Tower|TRC|[551]
+1 Resculpt|SOC|[201]
 1 Riverpyre Verge|DFT
 1 Emeritus of Ideation|SOS
 1 Scalding Tarn|MH2
 1 Season of Weaving|BLB
 1 Seething Song|C21
-1 Shivan Reef|BLC
+1 Shivan Reef|APC|[142]
 1 Sink into Stupor|MH3
-1 Skullclamp|BLC
+1 Skullclamp|TRC|[354]
 1 Snap|ULG
-1 Sol Ring|BRC
-1 Solemn Simulacrum|TDC
-1 Spellseeker|BBD
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
+1 Spellseeker|CMM|[120]
 1 Steam Vents|RVR
-1 Storm-Kiln Artist|STX
-1 Stormcarved Coast|INR
-1 Sulfur Falls|BLC
-1 Abrade|HOU
-1 Talisman of Creativity|CMM
+1 Storm-Kiln Artist|SOC|[255]
+1 Stormcarved Coast|SOS|[263]
+1 Sulfur Falls|DMR|[400]
+1 Abrade|TRC|[449]
+1 Talisman of Creativity|TRC|[504]
 1 Teferi's Ageless Insight|J25
-1 Temple of Epiphany|EOC
-1 Thought Vessel|DSC
-1 Tolarian Winds|7ED
-1 Valakut Awakening|ZNR
-1 Vandalblast|OTC
-1 Wheel of Fortune|3ED
+1 Temple of Epiphany|SOC|[412]
+1 Thought Vessel|TRC|[509]
+1 Tolarian Winds|USG|[104]
+1 Valakut Awakening|PIO|[158]
+1 Vandalblast|TSR|[352]
+1 Wheel of Fortune|LEB|[184]
 1 Whirlpool Warrior|APC
-1 Windfall|OTC
+1 Windfall|USG|[111]
 1 Winds of Change|POR

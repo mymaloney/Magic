@@ -1,7 +1,7 @@
 [metadata]
 Name=Human Archer
 [Main]
-24 Plains|POR|3
+24 Plains|INR|[288]
 4 Crossbow Infantry|MMQ
 4 D'Avenant Archer|LEG
 4 Elite Archers|USG
@@ -11,4 +11,4 @@ Name=Human Archer
 2 Rashka the Slayer|HML
 4 Serrated Arrows|HML
 2 Serra's Blessing|WTH
-4 Disenchant|ICE
+4 Disenchant|MMQ|[18]

@@ -3,58 +3,58 @@ Name=Crosis
 [Commander]
 1 Crosis, the Purger|inv
 [Main]
-1 Abyssal Specter|7ed
+1 Abyssal Specter|ICE|[113]
 1 Aclazotz, Deepest Betrayal|lci
 1 Marang River Regent|tdm
 1 Backdraft Hellkite|2x2
-1 Crux of Fate|frf
+1 Crux of Fate|C17|[107]
 1 Patriarch's Bidding|ons
 1 Bladewing, Deathless Tyrant|dmc
 1 Bladewing the Risen|scg
-1 Dragonlord Kolaghan|dtk
-1 Dragonlord Silumgar|dtk
-1 Crumbling Necropolis|ala
-1 Steam Vents|rtr
-1 Blood Crypt|rtr
-1 Watery Grave|gtc
+1 Dragonlord Kolaghan|PIO|[218]
+1 Dragonlord Silumgar|PIO|[220]
+1 Crumbling Necropolis|LCC|[326]
+1 Steam Vents|RVR|[412]
+1 Blood Crypt|RVR|[397]
+1 Watery Grave|RVR|[415]
 1 Arcane Denial|all
-1 Arcane Signet|brc
+1 Arcane Signet|TRC|[485]
 1 Balefire Dragon|inr
 1 Bitterblossom|2x2
-1 Silumgar, the Drifting Death|frf
+1 Silumgar, the Drifting Death|C17|[194]
 1 Braids, Arisen Nightmare|eoc
-1 Brash Taunter|mkc
-1 Gilded Lotus|mrd
-1 Goldspan Dragon|khm
+1 Brash Taunter|DSC|[161]
+1 Gilded Lotus|FDN|[725]
+1 Goldspan Dragon|SOC|[245]
 1 Chromatic Lantern|rvr
 1 Coastal Piracy|mmq
-1 Command Tower|brc
+1 Command Tower|TRC|[521]
 1 Conqueror's Flail|2x2
-1 Counterspell|btd
-1 Path of Ancestry|lcc
+1 Counterspell|DMR|[281]
+1 Path of Ancestry|TRC|[545]
 1 Crosis's Charm|pls
 1 Dark Ritual|mmq
 1 Delirium|mir
 1 Stupor|mir
-1 Dragonskull Summit|m13
-1 Drowned Catacomb|otc
-1 Exotic Orchard|brc
+1 Dragonskull Summit|TRC|[375]
+1 Drowned Catacomb|TRC|[376]
+1 Exotic Orchard|TRC|[378]
 1 Fellwar Stone|drk
-1 Fog Bank|m13
+1 Fog Bank|USG|[75]
 1 Geth's Grimoire|dst
 1 Goro-Goro and Satoru|moc
 1 Grave Pact|sth
-1 Guard Gomazoa|roe
-1 Thoughtseize|ths
-1 Hypnotic Specter|4ed
-3 Island|j25
+1 Guard Gomazoa|PCA|[17]
+1 Thoughtseize|TSR|[334]
+1 Hypnotic Specter|LEB|[113]
+3 Island|INR|[290]
 1 Jet Medallion|tmp
-1 Lightning Bolt|4ed
+1 Lightning Bolt|LEB|[162]
 1 Liliana's Caress|m11
 1 Lizard Blades|neo
 1 Megrim|sth
-5 Mountain|j25
-1 Negate|znr
+5 Mountain|INR|[294]
+1 Negate|TRC|[439]
 1 Nicol Bolas, the Ravager|m19
 1 Nightscape Familiar|pls
 1 Niv-Mizzet, Parun|rvr
@@ -63,26 +63,26 @@ Name=Crosis
 1 Phyrexian Arena|apc
 1 Powerbalance|mh3
 1 Propaganda|tmp
-1 Reliquary Tower|m3c
-1 Rogue's Passage|rtr
-1 Sangromancer|scd
+1 Reliquary Tower|TRC|[551]
+1 Rogue's Passage|TRC|[552]
+1 Sangromancer|J25|[122]
 1 Silent Hallcreeper|dsk
-1 Smoldering Marsh|brc
-1 Sol Ring|brc
-1 Stormcarved Coast|who
+1 Smoldering Marsh|TRC|[403]
+1 Sol Ring|LEB|[270]
+1 Stormcarved Coast|SOS|[263]
 1 Sulfurous Springs|ice
 1 Underground River|ice
-1 Sunken Hollow|brc
-11 Swamp|j25
-1 Swiftfoot Boots|brr
+1 Sunken Hollow|TRC|[407]
+11 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
 1 Hymn to Tourach|fem
 1 Tainted Isle|tor
 1 Tainted Peak|tor
 1 Terminate|pls
-1 Terror of the Peaks|m21
-1 The Reaver Cleaver|dmc
+1 Terror of the Peaks|OTJ|[149]
+1 The Reaver Cleaver|M3C|[217]
 1 Twinflame Tyrant|fdn
 1 Wall of Souls|sth
-1 Waste Not|m15
-1 Whip of Erebos|ths
-1 Whispersilk Cloak|dst
+1 Waste Not|C16|[117]
+1 Whip of Erebos|PIO|[119]
+1 Whispersilk Cloak|DSC|[257]

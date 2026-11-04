@@ -3,82 +3,82 @@ Name=Sidisi, Brood Tyrant
 [Commander]
 1 Sidisi, Brood Tyrant|CMM
 [Main]
-1 Aftermath Analyst|MKM
-1 Sidisi, Undead Vizier
-1 Arcane Signet|TDC
+1 Aftermath Analyst|EOC|[91]
+1 Sidisi, Undead Vizier|PIO|[108]
+1 Arcane Signet|TRC|[485]
 1 Armored Scrapgorger|ONE
 1 Artful Dodge|DKA
 1 Boggart Trawler|MH3
-1 Bojuka Bog|EOC
+1 Bojuka Bog|TSR|[406]
 1 Boneyard Wurm|UMA
-1 Coiling Oracle|DMC
-1 Command Tower|WOC
-1 Consuming Aberration|GTC
+1 Coiling Oracle|RVR|[361]
+1 Command Tower|TRC|[521]
+1 Consuming Aberration|TSR|[374]
 1 Cruel Somnophage|WOE
-1 Cryptbreaker|EMN
-1 Deathrite Shaman|EMA
-1 Deranged Assistant|CMM
-1 Dimir Aqueduct|WOC
+1 Cryptbreaker|DRC|[41]
+1 Deathrite Shaman|RVR|[363]
+1 Deranged Assistant|INR|[61]
+1 Dimir Aqueduct|DSC|[270]
 1 Diplomatic Immunity|MMQ
-1 Dread Return|CMM
+1 Dread Return|DMR|[302]
 1 Elves of Deep Shadow|DRK
-1 Eternal Witness|CMM
-1 Farseek|CMM
-1 Foreboding Landscape|MH3
-10 Forest|TDM
-1 Gisa and Geralf|MIC
+1 Eternal Witness|TSR|[361]
+1 Farseek|RVR|[347]
+1 Foreboding Landscape|TDC|[365]
+10 Forest|INR|[296]
+1 Gisa and Geralf|INR|[237]
 1 Gnaw to the Bone|ISD
 1 Sidisi, Regent of the Mire|TDM
-1 Golgari Grave-Troll|UMA
-1 Golgari Rot Farm|CMM
-1 Grisly Salvage|DSC
-1 Harrow|ZNC
+1 Golgari Grave-Troll|RVR|[348]
+1 Golgari Rot Farm|ECC|[151]
+1 Grisly Salvage|TDC|[290]
+1 Harrow|INV|[189]
 1 Havengul Lich|SCD
 1 Hedge Shredder|DSK
-1 Hinterland Harbor|DRC
+1 Hinterland Harbor|DMR|[396]
 1 Honest Rutstein|OTJ
 1 Hydroelectric Specimen|MH3
-7 Island|TDM
-1 Krosan Tusker|CMM
-1 Llanowar Elves|J25
-1 Llanowar Wastes|BRO
+7 Island|INR|[290]
+1 Krosan Tusker|ONS|[272]
+1 Llanowar Elves|LEB|[211]
+1 Llanowar Wastes|APC|[141]
 1 Mesmeric Orb|2XM
 1 Mikaeus, the Unhallowed|CMM
-1 Millikin|EMA
+1 Millikin|ODY|[302]
 1 Molt Tender|DFT
-1 Mulch|DSC
-1 Muldrotha, the Gravetide|FDN
-1 Mulldrifter|2X2
+1 Mulch|STH|[110]
+1 Muldrotha, the Gravetide|ECC|[128]
+1 Mulldrifter|TSR|[311]
 1 Taigam, Sidisi's Hand|CMM
-1 Nyx Weaver|CMM
-1 Opulent Palace|CMM
-1 Path of Discovery|RIX
-1 Phenax, God of Deception|BNG
+1 Nyx Weaver|TDC|[298]
+1 Opulent Palace|ECC|[157]
+1 Path of Discovery|BLC|[231]
+1 Phenax, God of Deception|PIO|[316]
 1 Qarsi Revenant|TDM
 1 Naga Fleshcrafter|TDM
-1 Rampant Growth|CMM
-1 Sakura-Tribe Elder|CHK
-1 Satyr Wayfinder|ZNC
-1 Sewer Nemesis|CMD
-1 Simic Growth Chamber|MOC
-1 Sol Ring|WOC
-1 Skull Prophet|IKO
+1 Rampant Growth|TMP|[245]
+1 Sakura-Tribe Elder|SOC|[285]
+1 Satyr Wayfinder|EOC|[106]
+1 Sewer Nemesis|CLB|[771]
+1 Simic Growth Chamber|DSC|[298]
+1 Sol Ring|LEB|[270]
+1 Skull Prophet|TDC|[304]
 1 Snarling Gorehound|MKM
-1 Spider Spawning|2X2
-1 Splinterfright|2X2
-1 Springbloom Druid|MH1
-1 Sultai Ascendancy|KTK
+1 Spider Spawning|INR|[419]
+1 Splinterfright|INR|[420]
+1 Springbloom Druid|SOC|[287]
+1 Sultai Ascendancy|CP2|[3]
 1 Svogthos, the Restless Tomb|CM2
-7 Swamp|TDM
+7 Swamp|INR|[292]
 1 Sylvan Ranger|WOC
-1 Talisman of Curiosity|DRC
-1 Talisman of Dominance|DRC
-1 Talisman of Resilience|DSC
-1 Temple of the False God|WOC
+1 Talisman of Curiosity|SOC|[430]
+1 Talisman of Dominance|TRC|[505]
+1 Talisman of Resilience|SOC|[432]
+1 Temple of the False God|SCG|[143]
 1 Tracker's Instincts|DKA
 1 Undead Alchemist|MIC
 1 Undercity Informer|GTC
 1 Urborg Lhurgoyf|DMU
 1 Victimize|MH3
-1 Wonder|MH2
-1 Woodland Cemetery|DSC
+1 Wonder|JUD|[54]
+1 Woodland Cemetery|DMR|[401]

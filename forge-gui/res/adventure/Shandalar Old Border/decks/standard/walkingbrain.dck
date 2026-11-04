@@ -2,11 +2,11 @@
 Name=walkingbrain
 [Main]
 2 Morphling|USG
-24 Island|MMQ|3
-4 Boomerang|7ED
+24 Island|INR|[290]
+4 Boomerang|MIR|[56]
 4 Brainstorm|MMQ
-4 Control Magic|BRB
-4 Counterspell|MMQ
+4 Control Magic|LEB|[53]
+4 Counterspell|DMR|[281]
 4 Gush|MMQ
 4 Mana Leak|STH
 4 Thieving Magpie|UDS

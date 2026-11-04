@@ -1,35 +1,35 @@
 [metadata]
 Name=Muldrotha, the Gravetide
 [Commander]
-1 Muldrotha, the Gravetide|DOM
+1 Muldrotha, the Gravetide|ECC|[128]
 [Main]
-1 Arcane Signet|ELD
-1 Ash Barrens|BRC
-1 Baleful Strix|OTC
-1 Braids, Arisen Nightmare|DMU
+1 Arcane Signet|TRC|[485]
+1 Ash Barrens|TDC|[339]
+1 Baleful Strix|BLC|[86]
+1 Braids, Arisen Nightmare|EOC|[82]
 1 Cankerbloom|ONE
-1 Cemetery Tampering|SNC
+1 Cemetery Tampering|DSC|[135]
 1 Cityscape Leveler|BRO
-1 Cloud Key|BRR
-1 Seal of Doom|NEM
-1 Command Tower|BRC
-1 Commander's Sphere|CMM
-1 Consuming Aberration|FDN
-1 Creeping Tar Pit|UMA
+1 Cloud Key|EOC|[54]
+1 Seal of Doom|NMS|[70]
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
+1 Consuming Aberration|TSR|[374]
+1 Creeping Tar Pit|CLB|[888]
 1 Cruel Somnophage|WOE
-1 Defense Grid|BRR
-1 Defense of the Heart|WOT
+1 Defense Grid|ULG|[125]
+1 Defense of the Heart|ULG|[100]
 1 Doc Aurlock, Grizzled Genius|OTJ
-1 Drowned Catacomb|OTC
-1 Elemental Bond|SCD
-1 Elvish Mystic|CMM
-1 Exotic Orchard|BRC
-1 Fabled Passage|M21
-1 Fellwar Stone|BRC
+1 Drowned Catacomb|TRC|[376]
+1 Elemental Bond|TDC|[254]
+1 Elvish Mystic|TSR|[360]
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
+1 Fellwar Stone|DRK|[102]
 1 Fiend Artisan|IKO
-1 Foreboding Landscape|MH3
-6 Forest|DOM
-1 Garruk's Uprising|FDN
+1 Foreboding Landscape|TDC|[365]
+6 Forest|INR|[296]
+1 Garruk's Uprising|ECC|[109]
 1 Ghalta, Stampede Tyrant|LCI
 1 Glen Elendra Archmage|WOC
 1 Growing Rites of Itlimoc|LCI
@@ -37,53 +37,53 @@ Name=Muldrotha, the Gravetide
 1 High Fae Trickster|FDN
 1 Hullbreaker Horror|INR
 1 Insidious Roots|MKM
-6 Island|DOM
+6 Island|INR|[290]
 1 Koma, World-Eater|FDN
-1 Lightning Greaves|CMM
-1 Llanowar Elves|FDN
+1 Lightning Greaves|TRC|[496]
+1 Llanowar Elves|LEB|[211]
 1 Loot, Exuberant Explorer|FDN
 1 Lotleth Giant|CMM
 1 Lumra, Bellow of the Woods|BLB
 1 Maraleaf Pixie|ELD
-1 Mishra's Bauble|BRR
-1 Nadier's Nightblade|MH3
+1 Mishra's Bauble|2XM|[274]
+1 Nadier's Nightblade|BLC|[184]
 1 Nyxborn Behemoth|CMM
 1 Omenpath Journey|BIG
-1 Omniscience|WOT
-1 Opulent Palace|TDM
-1 Pattern of Rebirth|UMA
-1 Phyrexian Arena|FDN
+1 Omniscience|FDN|[161]
+1 Opulent Palace|ECC|[157]
+1 Pattern of Rebirth|UDS|[115]
+1 Phyrexian Arena|APC|[47]
 1 Phyrexian Infiltrator|INV
 1 Pollywog Prodigy|BLC
-1 Prismatic Omen|WOT
+1 Prismatic Omen|SHM|[126]
 1 Restless Cottage|WOE
 1 Restless Reef|LCI
-1 Seedborn Muse|TDC
+1 Seedborn Muse|LGN|[138]
 1 Sidisi, Brood Tyrant|CMM
-1 Sol Ring|BRC
-1 Solemn Simulacrum|DSC
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
 1 Spelunking|LCI
 1 Stillness in Motion|TDM
 1 Stonehoof Chieftain|CMM
-6 Swamp|DOM
-1 Swiftfoot Boots|BRR
+6 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
 1 Taigam, Sidisi's Hand|CMM
 1 Takenuma, Abandoned Mire|NEO
-1 Temple of Deceit|OTC
-1 Temple of Malady|M3C
-1 Temple of Mystery|OTC
-1 Terastodon|P30A
+1 Temple of Deceit|DRC|[176]
+1 Temple of Malady|SOC|[413]
+1 Temple of Mystery|SOC|[414]
+1 Terastodon|M3C|[249]
 1 The Eternity Elevator|EOE
-1 The Gitrog Monster|EOC
+1 The Gitrog Monster|INR|[431]
 1 The Mycotyrant|LCI
-1 Thran Dynamo|CMM
-1 Tocasia's Dig Site|BRO
-1 Toxrill, the Corrosive|VOW
+1 Thran Dynamo|UDS|[139]
+1 Tocasia's Dig Site|MKC|[308]
+1 Toxrill, the Corrosive|DBL|[399]
 1 Undercity Sewers|MKM
 1 Underground Mortuary|MKM
 1 Vaultborn Tyrant|BIG
 1 Verdant Catacombs|MH2
 1 Vindictive Lich|CMM
-1 Wight of the Reliquary|MH3
+1 Wight of the Reliquary|SOC|[338]
 1 Zagoth Triome|IKO
 1 Zopandrel, Hunger Dominus|ONE

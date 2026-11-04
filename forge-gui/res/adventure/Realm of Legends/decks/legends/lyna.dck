@@ -3,29 +3,29 @@ Name=Lyna
 [Commander]
 1 Lyna, Veil of Vengeance|mbc
 [Main]
-1 Arcane Signet|fdc
-1 Windborn Muse|lgn
-1 Pollen Lullaby|lrw
+1 Arcane Signet|TRC|[485]
+1 Windborn Muse|DMR|[278]
+1 Pollen Lullaby|CMD|[26]
 1 Angelsong|dvd
-1 Batwing Brume|eve
+1 Batwing Brume|ARC|[80]
 1 Zealot il-Vec|tsp
 1 Spirit en-dal|fut
-1 Infiltrator il-Kor|tsp
+1 Infiltrator il-Kor|TSR|[71]
 1 Soltari Monk|tmp
 1 Soltari Priest|tmp
-1 Holy Day|10e
+1 Holy Day|INV|[20]
 1 Kami of False Hope|bok
 1 Ethereal Haze|chk
 1 Quietus Spike|ncc
-1 Ghostly Prison|chk
+1 Ghostly Prison|SOC|[146]
 1 Propaganda|tmp
 1 Boss Uramon, Shadow's Reach|mbc
 1 The Weaver King|mbc
-1 Bident of Thassa|blc
+1 Bident of Thassa|PIO|[47]
 1 Blood Money|lcc
 1 Call a Surprise Witness|mkm
-1 Cephalid Constable|10e
-1 Command Tower|msc
+1 Cephalid Constable|JUD|[35]
+1 Command Tower|TRC|[521]
 1 Dauthi Cutthroat|exo
 1 Dauthi Ghoul|tmp
 1 Dauthi Horror|tmp
@@ -34,19 +34,19 @@ Name=Lyna
 1 Dauthi Warlord|exo
 1 Dawn's Truce|blb
 1 Elbrus, the Binding Blade|dka
-1 Feed the Swarm|fdn
-1 Grim Haruspex|ktk
+1 Feed the Swarm|TDC|[180]
+1 Grim Haruspex|CLB|[754]
 1 Helping Hand|lci
-11 Island|tmp
-1 Lightning Greaves|dsc
+11 Island|INR|[290]
+1 Lightning Greaves|TRC|[496]
 1 Looter il-Kor|cmm
-1 Nether Traitor|tsr
-1 Path to Exile|blc
-11 Plains|tmp
-1 Reliquary Tower|soc
+1 Nether Traitor|SOC|[220]
+1 Path to Exile|TSR|[299]
+11 Plains|INR|[288]
+1 Reliquary Tower|TRC|[551]
 1 Rev, Tithe Extractor|j25
-1 Rogue's Passage|fdn
-1 Sol Ring|4ed
+1 Rogue's Passage|TRC|[552]
+1 Sol Ring|LEB|[270]
 1 Soltari Champion|sth
 1 Soltari Foot Soldier|tmp
 1 Soltari Lancer|tmp
@@ -54,21 +54,21 @@ Name=Lyna
 1 Soul Shatter|scd
 1 Stolen Identity|ncc
 1 Stronghold Overseer|tsp
-11 Swamp|tmp
-1 Swiftfoot Boots|fdn
-1 Swords to Plowshares|ice
-1 Talisman of Dominance|m3c
-1 Talisman of Hierarchy|soc
-1 Talisman of Progress|tdc
+11 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Swords to Plowshares|DMR|[275]
+1 Talisman of Dominance|TRC|[505]
+1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Progress|TRC|[508]
 1 Teferi's Ageless Insight|j25
 1 Thalakos Deceiver|sth
 1 Thalakos Dreamsower|tmp
 1 Thalakos Mistfolk|tmp
 1 Thalakos Scout|exo
 1 Thalakos Seer|tmp
-1 Thought Vessel|mkc
+1 Thought Vessel|TRC|[509]
 1 Trespasser il-Vec|tsr
-1 Unearth|2x2
+1 Unearth|ULG|[72]
 1 Void Rend|snc
-1 Withering Torment|dsk
+1 Withering Torment|FDC|[134]
 1 Writ of Return|ncc

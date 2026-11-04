@@ -1,8 +1,8 @@
 [metadata]
 Name=Imp
 [Main]
-22 Swamp|ODY
-2 Dark Ritual|TMP
+22 Swamp|INR|[292]
+2 Dark Ritual|MMQ|[129]
 2 Pit Imp|TMP
 2 Putrid Imp|TOR
 4 Foul Imp|STH
@@ -16,4 +16,4 @@ Name=Imp
 3 Cruel Edict|PO2
 3 Diabolic Edict|TMP
 3 Nocturnal Raid|MIR
-3 Bad Moon|LEA
+3 Bad Moon|LEB|[94]

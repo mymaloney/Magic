@@ -5,19 +5,19 @@ Name=Ni'Colas, Saint of Elves
 10 Snow-Covered Forest|ICE
 4 Karplusan Forest|ICE
 4 Fyndhorn Elves|ICE
-4 Llanowar Elves|7ED
+4 Llanowar Elves|LEB|[211]
 3 Fyndhorn Elder|ICE
-4 Priest of Titania|USG
+4 Priest of Titania|MH3|[428]
 4 Wirewood Channeler|LGN
 4 Wellwisher|ONS
 3 Timberwatch Elf|LGN
-2 Hurricane|ICE
-2 Fog|LEA
+2 Hurricane|PO2|[129]
+2 Fog|MIR|[216]
 1 Kaysa|ALL
 1 Rofellos, Llanowar Emissary|UDS
-2 Fireball|LEA
+2 Fireball|LEB|[150]
 2 Lava Burst|ICE
-2 Blaze|7ED
+2 Blaze|PO2|[91]
 2 Kaervek's Torch|MIR
 
 [StartInBattle_Reference]

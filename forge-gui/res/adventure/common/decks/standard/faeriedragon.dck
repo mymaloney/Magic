@@ -4,26 +4,26 @@ Name=faerieleader
 1 Alela, Cunning Conqueror|WOC|1
 3 Archmage of Echoes|WOC|1
 4 Bitterblossom|2X2|1
-2 Brazen Borrower|WOC|1
-4 Choked Estuary|SOI|1
-4 Cloud of Faeries|WOC|1
-4 Drowned Catacomb|WHO|1
+2 Brazen Borrower|SOC|[190]
+4 Choked Estuary|TRC|[370]
+4 Cloud of Faeries|ULG|[29]
+4 Drowned Catacomb|TRC|[376]
 2 Faerie Bladecrafter|WOC|1
-2 Faerie Conclave|10E|1
+2 Faerie Conclave|ULG|[139]
 2 Faerie Formation|WOC|1
-2 Faerie Mastermind|MOM|1
-2 Faerie Seer|WOC|1
-2 Feed the Swarm|SCD|1
+2 Faerie Mastermind|SOC|[114]
+2 Faerie Seer|J25|[106]
+2 Feed the Swarm|TDC|[180]
 2 Glen Elendra Liege|WOC|1
-2 Island|LRW|1
-4 Island|LRW|2
-5 Island|LRW|4
+2 Island|INR|[290]
+4 Island|INR|[290]
+5 Island|INR|[290]
 2 Malleable Impostor|WOC|1
 2 Obyra, Dreaming Duelist|WOE|1
 1 Oona, Queen of the Fae|WOC|1
-2 Puppeteer Clique|WOC|1
-1 Rankle, Master of Pranks|WOC|1
-1 Reconnaissance Mission|VOC|1
+2 Puppeteer Clique|ECC|[84]
+1 Rankle, Master of Pranks|OTC|[148]
+1 Reconnaissance Mission|WOC|[105]
 2 Scion of Oona|WOC|1
 3 Secluded Glen|WOC|1
 1 Shadow Puppeteers|WOC|1
@@ -31,17 +31,17 @@ Name=faerieleader
 2 Sower of Temptation|WOC|1
 4 Spell Stutter|WOE|1
 1 Spellscorn Coven|WOE|1
-3 Stolen by the Fae|J22|1
-2 Sunken Hollow|WOC|1
-2 Swamp|LRW|1
-2 Swamp|LRW|2
-6 Swamp|LRW|3
-1 Swamp|LRW|4
+3 Stolen by the Fae|J25|[369]
+2 Sunken Hollow|TRC|[407]
+2 Swamp|INR|[292]
+2 Swamp|INR|[292]
+6 Swamp|INR|[292]
+1 Swamp|INR|[292]
 2 Talion's Messenger|WOE|1
 2 Talion's Throneguard|YWOE|1
 2 Tegwyll's Scouring|WOC|1
 2 Tegwyll, Duke of Splendor|WOC|1
-2 Underground Sea|OLGC|1
+2 Underground Sea|LEB|[286]
 1 Vendilion Clique|J22|1
 4 Void Snare|M15|1
 2 Watery Grave|RVR|1

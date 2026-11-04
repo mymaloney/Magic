@@ -1,18 +1,18 @@
 [metadata]
 Name=Averna
 [Commander]
-1 Averna, the Chaos Bloom|cmr
+1 Averna, the Chaos Bloom|J25|[80]
 [Main]
-1 Ancestral Vision|tsr
+1 Ancestral Vision|TDC|[144]
 1 Annoyed Altisaur|mh3
 1 Make Your Own Luck|otj
-1 Creative Technique|c21
+1 Creative Technique|SOC|[241]
 1 Risen Reef|ecc
 1 Tannuk, Memorial Ensign|eoe
 1 Rattleclaw Mystic|ktk
-1 Lightning Bolt|4ed
-1 Rapid Hybridization|gtc
-1 Pongify|tdc
+1 Lightning Bolt|LEB|[162]
+1 Rapid Hybridization|SOC|[198]
+1 Pongify|TRC|[441]
 1 Flamekin Herald|cmr
 1 Enraged Flamecaster|ecl
 1 Twinflame Travelers|ecl
@@ -22,64 +22,64 @@ Name=Averna
 1 Forceful Denial|cmr
 1 Bloodbraid Marauder|mh2
 1 Unstable Amulet|mh3
-1 Aurora Phoenix|cmr
+1 Aurora Phoenix|CLB|[778]
 1 Bloodbraid Challenger|m3c
-1 Bloodbraid Elf|2x2
+1 Bloodbraid Elf|TSR|[372]
 1 Boarding Party|cmr
 1 Boldwyr Heavyweights|mor
 1 Braids, Conjurer Adept|cmm
-1 Thornwood Falls|ktk
-1 Chaos Warp|dsc
-1 Command Tower|dsc
+1 Thornwood Falls|TDM|[269]
+1 Chaos Warp|MBC|[72]
+1 Command Tower|TRC|[521]
 1 Commercial District|mkm
-1 Cultivate|dsc
+1 Cultivate|SOC|[265]
 1 Daring Discovery|lci
-1 Disrupt Decorum|mkc
+1 Disrupt Decorum|TRC|[282]
 1 Etherium-Horn Sorcerer|c17
-7 Forest|fdn
+7 Forest|INR|[296]
 1 Geological Appraiser|lci
-1 Gruul Turf|blc
+1 Gruul Turf|ECC|[152]
 1 Heartbeat of Spring|2xm
 1 Heartwood Storyteller|tsr
 1 Hedge Maze|mkm
-1 Hidden Cataract|lci
-1 Hidden Nursery|lci
+1 Hidden Cataract|M3C|[348]
+1 Hidden Nursery|M3C|[349]
 1 Hidden Volcano|lci
-1 Hit the Mother Lode|lci
+1 Hit the Mother Lode|FDC|[161]
 1 Imoti, Celebrant of Bounty|cmr
 1 Inevitable Betrayal|mh2
 1 Ingenuity Engine|cmr
-7 Island|fdn
-1 Izzet Boilerworks|otc
-1 Frontier Bivouac|ktk
-1 Kodama's Reach|otc
-1 Maelstrom Colossus|cmr
-1 Maelstrom Wanderer|cmm
-1 Mana Flare|4ed
+7 Island|INR|[290]
+1 Izzet Boilerworks|M3C|[350]
+1 Frontier Bivouac|ECC|[150]
+1 Kodama's Reach|ECC|[113]
+1 Maelstrom Colossus|J25|[754]
+1 Maelstrom Wanderer|ECC|[127]
+1 Mana Flare|LEB|[163]
 1 Meteoric Mace|mh3
-1 Mind's Desire|c21
-7 Mountain|fdn
-1 Natural Reclamation|cmr
-1 Managorger Hydra|moc
-1 Reliquary Tower|dsc
+1 Mind's Desire|SCG|[41]
+7 Mountain|INR|[294]
+1 Natural Reclamation|CLB|[829]
+1 Managorger Hydra|FDC|[216]
+1 Reliquary Tower|TRC|[551]
 1 Rites of Flourishing|blc
 1 Sakashima's Protege|cmr
 1 Search for Tomorrow|dmc
 1 Shardless Agent|mh2
 1 Simic Growth Chamber|dsc
-1 Skyshroud Claim|cmm
-1 Swiftwater Cliffs|ktk
-1 Rugged Highlands|ktk
-1 Sweet-Gum Recluse|cmr
-1 Temple of Abandon|fdn
-1 Temple of Epiphany|fdn
-1 Temple of Mystery|fdn
-1 Throes of Chaos|mh1
+1 Skyshroud Claim|NMS|[117]
+1 Swiftwater Cliffs|TDM|[268]
+1 Rugged Highlands|TDM|[265]
+1 Sweet-Gum Recluse|CLB|[835]
+1 Temple of Abandon|TDC|[400]
+1 Temple of Epiphany|SOC|[412]
+1 Temple of Mystery|SOC|[414]
+1 Throes of Chaos|SOC|[257]
 1 Thundering Falls|mkm
 1 Trumpeting Carnosaur|lci
-1 Violent Outburst|arb
-1 Volcanic Torrent|otc
+1 Violent Outburst|J25|[746]
+1 Volcanic Torrent|SOC|[260]
 1 Walk with the Ancestors|lci
 1 Wheel of Fate|tsr
-1 Windfall|otc
+1 Windfall|USG|[111]
 1 Xyris, the Writhing Storm|dmc

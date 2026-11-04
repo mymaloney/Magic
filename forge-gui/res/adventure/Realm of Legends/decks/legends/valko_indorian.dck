@@ -4,20 +4,20 @@ Name=Valko Indorian
 1 Valko Indorian|mbc
 [Main]
 1 Annex Sentry|one
-1 Arcane Signet|onc
-1 Evolving Wilds|fdn
-1 Astral Cornucopia|soc
+1 Arcane Signet|TRC|[485]
+1 Evolving Wilds|TRC|[527]
+1 Astral Cornucopia|TRC|[338]
 1 Atraxa, Praetors' Voice|2xm
-1 Fabled Passage|eld
-1 Bone Shredder|moc
+1 Fabled Passage|TRC|[379]
+1 Bone Shredder|ULG|[49]
 1 Breach the Multiverse|mom
 1 Brimaz, Blight of Oreskos|moc
 1 Cankerbloom|one
-1 Chromatic Lantern|mbc
-1 Chromatic Orrery|m21
-1 City of Brass|mb2
+1 Chromatic Lantern|RVR|[390]
+1 Chromatic Orrery|LCC|[107]
+1 City of Brass|ARN|[71]
 1 Coalition Relic|m3c
-1 Dark Ritual|usg
+1 Dark Ritual|MMQ|[129]
 1 Ekthi, Contaminator Priest|mbc
 1 Surgical Metamorph|yone
 1 Quicksilver Lapidary|yone
@@ -30,59 +30,59 @@ Name=Valko Indorian
 1 Cephalopod Sentry|one
 1 The Seedcore|one
 1 Essence of Orthodoxy|mom
-1 Everflowing Chalice|eoc
+1 Everflowing Chalice|TSR|[394]
 1 Ezuri, Stalker of Spheres|one
-1 Fellwar Stone|cmm
+1 Fellwar Stone|DRK|[102]
 1 Filigree Vector|moc
 1 Unclaimed Territory|ecc
-4 Forest|eoe
+4 Forest|INR|[296]
 1 Gix, Yawgmoth Praetor|tdc
 1 Glissa Sunslayer|ecc
 1 Glissa, Herald of Predation|mom
-1 Herald's Horn|lcc
+1 Herald's Horn|TRC|[493]
 1 Infectious Inquiry|one
 1 Insatiable Avarice|otj
-4 Island|eoe
+4 Island|INR|[290]
 1 Ixhel, Scion of Atraxa|onc
 1 Kethek, Crucible Goliath|one
 1 Mana Confluence|jou
-1 Secluded Courtyard|neo
+1 Secluded Courtyard|ECC|[62]
 1 Metastatic Evangel|mh3
 1 Migloz, Maze Crusher|one
-1 Mind Stone|soc
-3 Mountain|eoe
+1 Mind Stone|DMR|[385]
+3 Mountain|INR|[294]
 1 Myriad Landscape|eoc
-1 Night's Whisper|eoc
+1 Night's Whisper|TRC|[446]
 1 Omnath, Locus of All|mom
 1 Phyrexian Censor|mom
-1 Phyrexian Arena|fdn
-1 Phyrexian Reclamation|tdc
-4 Plains|eoe
+1 Phyrexian Arena|APC|[47]
+1 Phyrexian Reclamation|ULG|[63]
+4 Plains|INR|[288]
 1 Prismatic Geoscope|c16
-1 Prismatic Vista|mh1
+1 Prismatic Vista|H1R|[40]
 1 Realmbreaker, the Invasion Tree|mom
 1 Sheoldred's Edict|one
-1 Sign in Blood|dsc
+1 Sign in Blood|FDC|[125]
 1 Wurmcoil Larva|mh3
-1 Skullclamp|dst
-1 Sol Ring|onc
-1 Soul of New Phyrexia|cmm
+1 Skullclamp|TRC|[354]
+1 Sol Ring|LEB|[270]
+1 Soul of New Phyrexia|MOC|[382]
 1 Spellskite|clb
-5 Swamp|eoe
-1 Terramorphic Expanse|ecc
-1 Thought Vessel|dsc
+5 Swamp|INR|[292]
+1 Terramorphic Expanse|TRC|[571]
+1 Thought Vessel|TRC|[509]
 1 Thrummingbird|eoc
 1 Toxic Deluge|mh3
-1 Urborg, Tomb of Yawgmoth|tsr
-1 Patchwork Banner|blb
-1 Vanquisher's Banner|lcc
+1 Urborg, Tomb of Yawgmoth|PIO|[118]
+1 Patchwork Banner|SOC|[353]
+1 Vanquisher's Banner|TSR|[402]
 1 Vat of Rebirth|one
 1 Brokers Hideout|snc
-1 Cabaretti Courtyard|snc
-1 Maestros Theater|snc
-1 Obscura Storefront|snc
-1 Riveteers Overlook|snc
-1 Victimize|tdc
+1 Cabaretti Courtyard|EOC|[151]
+1 Maestros Theater|EOC|[167]
+1 Obscura Storefront|DSC|[291]
+1 Riveteers Overlook|ECC|[162]
+1 Victimize|MH3|[413]
 1 Voidwing Hybrid|one
 1 Vraska's Fall|one
 1 Vulpine Harvester|moc

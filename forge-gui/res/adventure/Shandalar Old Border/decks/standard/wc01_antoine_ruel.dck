@@ -4,27 +4,27 @@ Name=WC01 Antoine Ruel - UBR Nether-Go
 2 Tsabo's Web|INV
 3 Nether Spirit|MMQ
 4 Accumulated Knowledge|NMS
-4 Counterspell|LEB
+4 Counterspell|DMR|[281]
 2 Crosis's Charm|PLS
-3 Fact or Fiction|INV
+3 Fact or Fiction|DMR|[283]
 4 Fire // Ice|APC
 3 Opt|INV
 2 Spite // Malice|INV
 2 Tsabo's Decree|INV
 4 Undermine|INV
 2 Urza's Rage|INV
-2 Duress|USG
-8 Island|INV
+2 Duress|DMR|[303]
+8 Island|INR|[290]
 4 Salt Marsh|INV
 3 Shivan Reef|APC
 1 Sulfurous Springs|ICE
 4 Underground River|ICE
 3 Urborg Volcano|INV
 [Sideboard]
-2 Duress|USG
+2 Duress|DMR|[303]
 2 Engineered Plague|ULG
-2 Lobotomy|TMP
+2 Lobotomy|INV|[255]
 3 Meekstone|LEB
-2 Pyroclasm|7ED
+2 Pyroclasm|POR|[143]
 1 Teferi's Response|INV
 3 Tsabo's Assassin|INV

@@ -1,12 +1,12 @@
 [metadata]
 Name=goblin_mid
 [Main]
-22 Mountain|ONS|3
-1 Goblin Balloon Brigade|4ED
+22 Mountain|INR|[294]
+1 Goblin Balloon Brigade|LEB|[154]
 1 Goblin Sledder|ONS
 1 Goblin Firestarter|PO2
-1 Mons's Goblin Raiders|4ED
-1 Raging Goblin|POR
+1 Mons's Goblin Raiders|LEB|[165]
+1 Raging Goblin|PO2|[114]
 1 Goblin Lackey|USG
 1 Goblin Soothsayer|MIR
 1 Mogg Raider|TMP
@@ -16,20 +16,20 @@ Name=goblin_mid
 1 Goblin War Buggy|USG
 1 Hulking Goblin|POR
 1 Goblin Piker|PO2
-1 Goblin Raider|PO2
+1 Goblin Raider|USG|[194]
 1 Goblin Masons|UDS
 1 Goblin Glider|PO2
 1 Spitfire Handler|ONS
 1 Arms Dealer|MMQ
-1 Goblin Chariot|S99
+1 Goblin Chariot|7ED|[185]
 1 Goblin Medics|ULG
 2 Goblin General|PO2
 2 Goblin Warchief|SCG
-1 Goblin King|7ED
+1 Goblin King|LEB|[155]
 1 Goblin Spelunkers|USG
-2 Goblin Matron|USG
+2 Goblin Matron|DMR|[323]
 1 Goblin Ringleader|APC
-1 Goblin Settler|S99
+1 Goblin Settler|MB2|[131]
 1 Reckless One|ONS
-1 Siege-Gang Commander|SCG
+1 Siege-Gang Commander|DMR|[330]
 1 Skirk Fire Marshal|ONS

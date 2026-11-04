@@ -3,81 +3,81 @@ Name=Wyleth, Soul of Steel
 [Commander]
 1 Wyleth, Soul of Steel|CMR
 [Main]
-1 Abrade|CMR
-1 Blackblade Reforged|CMR
+1 Abrade|TRC|[449]
+1 Blackblade Reforged|DMC|[178]
 1 Blazing Sunsteel|CMR
 1 Bonesplitter|CMR
-1 Boros Charm|CMR
-1 Boros Garrison|CMR
-1 Boros Guildgate|CMR
-1 Talisman of Conviction|TDC
+1 Boros Charm|FDN|[721]
+1 Boros Garrison|CLU|[231]
+1 Boros Guildgate|RVR|[398]
+1 Talisman of Conviction|TRC|[503]
 1 Brass Squire|CMR
 1 Comet Storm|CMR
-1 Command Tower|CMR
-1 Condemn|CMR
-1 Danitha Capashen, Paragon|CMR
+1 Command Tower|TRC|[521]
+1 Condemn|RVR|[304]
+1 Danitha Capashen, Paragon|J25|[59]
 1 Dawn Charm|CMR
-1 Deflecting Palm|CMR
-1 Disenchant|CMR
-1 Dualcaster Mage|CMR
+1 Deflecting Palm|MKC|[205]
+1 Disenchant|MMQ|[18]
+1 Dualcaster Mage|C21|[165]
 1 Encroaching Wastes|CMR
-1 Evolving Wilds|CMR
-1 Expedite|CMR
-1 Explorer's Scope|CMR
-1 Faith Unbroken|CMR
-1 Fireshrieker|CMR
-1 Fists of Flame|CMR
-1 Flickerwisp|CMR
-1 Forgotten Cave|CMR
-1 Generous Gift|CMR
-1 Haunted Cloak|CMR
-1 Hero's Blade|CMR
+1 Evolving Wilds|TRC|[527]
+1 Expedite|PIO|[374]
+1 Explorer's Scope|CMM|[380]
+1 Faith Unbroken|INR|[21]
+1 Fireshrieker|J25|[750]
+1 Fists of Flame|J25|[550]
+1 Flickerwisp|TSR|[294]
+1 Forgotten Cave|ONS|[317]
+1 Generous Gift|BLC|[106]
+1 Haunted Cloak|CMM|[389]
+1 Hero's Blade|CMM|[391]
 1 Ironclad Slayer|CMR
 1 Jaya's Immolating Inferno|CMR
-1 Kor Cartographer|CMR
-1 Loxodon Warhammer|CMR
-1 Martial Coup|CMR
+1 Kor Cartographer|KHC|[28]
+1 Loxodon Warhammer|ONC|[135]
+1 Martial Coup|FRC|[28]
 1 Mask of Avacyn|CMR
 1 Master Warcraft|CMR
 1 Memorial to War|CMR
-9 Mountain|CMR
-1 Myriad Landscape|CMR
-1 Odric, Lunarch Marshal|CMR
+9 Mountain|INR|[294]
+1 Myriad Landscape|EOC|[169]
+1 Odric, Lunarch Marshal|INR|[36]
 1 On Serra's Wings|CMR
-1 Oreskos Explorer|CMR
-14 Plains|CMR
-1 Relentless Assault|CMR
+1 Oreskos Explorer|C21|[98]
+14 Plains|INR|[288]
+1 Relentless Assault|PO2|[115]
 1 Relic Seeker|CMR
-1 Response|CMR
-1 Return to Dust|CMR
-1 Ring of Thune|CMR
+1 Response|RVR|[247]
+1 Return to Dust|TRC|[427]
+1 Ring of Thune|GN3|[119]
 1 Ring of Valkas|CMR
-1 Rogue's Passage|CMR
+1 Rogue's Passage|TRC|[552]
 1 Rupture Spire|CMR
-1 Secluded Steppe|CMR
+1 Secluded Steppe|ONS|[324]
 1 Sigarda's Aid|CMR
-1 Slayers' Stronghold|CMR
-1 Sol Ring|CMR
-1 Spirit Mantle|CMR
-1 Sram, Senior Edificer|CMR
+1 Slayers' Stronghold|MKC|[295]
+1 Sol Ring|LEB|[270]
+1 Spirit Mantle|SOC|[175]
+1 Sram, Senior Edificer|TSR|[303]
 1 Stone Quarry|CMR
 1 Sunforger|CMR
-1 Sunhome, Fortress of the Legion|CMR
-1 Swiftfoot Boots|CMR
-1 Sword of Vengeance|CMR
-1 Swords to Plowshares|CMR
-1 Temur Battle Rage|CMR
-1 Terramorphic Expanse|CMR
-1 Tiana, Ship's Caretaker|CMR
-1 Timely Ward|CMR
+1 Sunhome, Fortress of the Legion|OTC|[324]
+1 Swiftfoot Boots|TRC|[501]
+1 Sword of Vengeance|BLB|[395]
+1 Swords to Plowshares|DMR|[275]
+1 Temur Battle Rage|TSR|[351]
+1 Terramorphic Expanse|TRC|[571]
+1 Tiana, Ship's Caretaker|DMR|[372]
+1 Timely Ward|DSC|[107]
 1 Transguild Promenade|CMR
-1 Unbreakable Formation|CMR
-1 Unquestioned Authority|CMR
-1 Valorous Stance|CMR
+1 Unbreakable Formation|RVR|[32]
+1 Unquestioned Authority|JUD|[31]
+1 Valorous Stance|INR|[352]
 1 Volcanic Fallout|CMR
-1 Wear|CMR
-1 White Sun's Zenith|CMR
-1 Wild Ricochet|CMR
-1 Wind-Scarred Crag|CMR
-1 Winds of Rath|CMR
+1 Wear|PIO|[398]
+1 White Sun's Zenith|ONC|[90]
+1 Wild Ricochet|SCD|[169]
+1 Wind-Scarred Crag|TDM|[271]
+1 Winds of Rath|TMP|[52]
 1 Word of Seizing|CMR

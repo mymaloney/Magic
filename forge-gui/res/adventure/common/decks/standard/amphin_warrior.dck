@@ -1,26 +1,26 @@
 [metadata]
 Name=salamander
 [Main]
-1 Aetherspouts|C21|1
+1 Aetherspouts|MIC|[97]
 4 Amphin Cutthroat|M12|1
-4 Amphin Mutineer|CMR|1
-4 Amphin Pathmage|PLST|1
-1 Angler Turtle|GN3|1
+4 Amphin Mutineer|TDC|[143]
+4 Amphin Pathmage|M15|[45]
+1 Angler Turtle|SCD|[43]
 1 Asinine Antics|WOE|1
-2 Coiling Oracle|CMR|2
+2 Coiling Oracle|RVR|[361]
 1 Court of Garenbrig|WOC|1
 2 Filter Out|MAT|1
-7 Forest|M12|1
+7 Forest|INR|[296]
 1 Garruk, Primal Hunter|C21|1
 3 Gor Muldrak, Amphinologist|CMR|1
-3 Hinterland Harbor|DOM|1
+3 Hinterland Harbor|DMR|[396]
 1 Irenicus's Vile Duplication|CLB|1
-7 Island|M12|1
-2 Negate|ZNR|1
-2 Pteramander|PLIST|1
-1 Sandwurm Convergence|NCC|1
-4 Tangled Islet|DMU|1
+7 Island|INR|[290]
+2 Negate|TRC|[439]
+2 Pteramander|RVR|[317]
+1 Sandwurm Convergence|DSC|[195]
+4 Tangled Islet|SOC|[411]
 4 The Sea Devils|WHO|2
-3 Vineglimmer Snarl|LTC|1
+3 Vineglimmer Snarl|SOC|[420]
 1 Vronos, Masked Inquisitor|CMM|1
 1 Wormfang Newt|JUD|1

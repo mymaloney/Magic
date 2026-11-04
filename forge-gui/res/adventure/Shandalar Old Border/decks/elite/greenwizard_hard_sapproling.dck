@@ -1,20 +1,20 @@
 [metadata]
 Name=Tendershoot Dryad 3
 [Main]
-1 Might of Oaks|7ED
-1 Nut Collector|ODY
+1 Might of Oaks|ULG|[106]
+1 Nut Collector|DMR|[347]
 1 Squirrel Wrangler|PCY
 2 Gaea's Blessing|WTH
-21 Forest|ODY|3
+21 Forest|INR|[296]
 3 Crop Rotation|ULG
 3 Gaea's Cradle|USG
-3 Squirrel Nest|ODY
+3 Squirrel Nest|DMR|[349]
 4 Acorn Harvest|TOR
 4 Chatter of the Squirrel|ODY
 4 Deranged Hermit|ULG
-4 Fyndhorn Elves|DKM
+4 Fyndhorn Elves|ICE|[244]
 4 Natural Order|POR
-4 Overrun|ATH
+4 Overrun|ODY|[260]
 4 Squirrel Mob|ODY
 
 [StartInBattle_Reference]

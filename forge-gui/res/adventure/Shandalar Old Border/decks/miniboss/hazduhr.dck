@@ -1,7 +1,7 @@
 [metadata]
 Name=Hazduhr the Abbot
 [Main]
-20 Plains|ICE
+20 Plains|INR|[288]
 4 Mother of Runes|ULG
 2 Master Apothecary|ODY
 2 Celestial Gatekeeper|LGN
@@ -10,16 +10,16 @@ Name=Hazduhr the Abbot
 2 Fountain Watch|MMQ
 4 Doubtless One|ONS
 2 Academy Rector|UDS
-2 Serra Avatar|USG
+2 Serra Avatar|DMR|[272]
 2 Opal Archangel|USG
 2 Karmic Justice|ODY
-2 Divine Sacrament|ODY
+2 Divine Sacrament|DMR|[262]
 1 Crackdown|MMQ
 1 Story Circle|MMQ
 2 Replenish|UDS
 2 Serra Bestiary|HML
 2 Aura of Silence|WTH
-2 Test of Endurance|JUD
+2 Test of Endurance|DMR|[276]
 2 Worship|USG
 
 [StartInBattle_Reference]

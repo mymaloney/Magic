@@ -1,87 +1,87 @@
 [metadata]
 Name=Izoni, Thousand-Eyed
 [Commander]
-1 Izoni, Thousand-Eyed|GRN
+1 Izoni, Thousand-Eyed|M3C|[267]
 [Main]
 1 Acolyte of Affliction|THB
 1 Arbor Elf|A25
-1 Ash Barrens|2XM
-1 Bane of Progress|CC1
-1 Barren Moor|C19
-1 Beanstalk Giant|ELD
-1 Beast Whisperer|C20
+1 Ash Barrens|TDC|[339]
+1 Bane of Progress|ECC|[99]
+1 Barren Moor|ONS|[312]
+1 Beanstalk Giant|DSC|[172]
+1 Beast Whisperer|TSR|[356]
 1 Blight Titan|MOC
-1 Bojuka Bog|C20
+1 Bojuka Bog|TSR|[406]
 1 Bramble Familiar|WOE
 1 Bringer of the Last Gift|LCI
-1 Caustic Caterpillar|ORI
-1 Cavalier of Thorns|M20
-1 Command Tower|KHC
-1 Custodi Lich|CN2
-1 Deathbringer Regent|C17
-1 Deathrite Shaman|MB2
-1 Decimator of the Provinces|EMN
+1 Caustic Caterpillar|J22|[86]
+1 Cavalier of Thorns|ECC|[100]
+1 Command Tower|TRC|[521]
+1 Custodi Lich|NCC|[244]
+1 Deathbringer Regent|J22|[396]
+1 Deathrite Shaman|RVR|[363]
+1 Decimator of the Provinces|INR|[2]
 1 Izoni, Center of the Web|MKM
-1 Elvish Mystic|CMM
-1 End-Raze Forerunners|KHC
-1 Eternal Witness|CMR
-1 Evolving Wilds|CMR
-1 Fertilid|CMR
-1 Ghost Quarter|C14
-1 Golgari Grave-Troll|UMA
-1 Golgari Guildgate|KHC
-1 Golgari Rot Farm|KHC
-1 Grim Backwoods|C20
-1 Grist, the Hunger Tide|MH2
+1 Elvish Mystic|TSR|[360]
+1 End-Raze Forerunners|BLC|[214]
+1 Eternal Witness|TSR|[361]
+1 Evolving Wilds|TRC|[527]
+1 Fertilid|MOC|[296]
+1 Ghost Quarter|CM2|[253]
+1 Golgari Grave-Troll|RVR|[348]
+1 Golgari Guildgate|RVR|[402]
+1 Golgari Rot Farm|ECC|[151]
+1 Grim Backwoods|SOC|[377]
+1 Grist, the Hunger Tide|DSC|[220]
 1 Honest Rutstein|OTJ
-1 Jarad, Golgari Lich Lord|GK1
-1 Jungle Hollow|KHC
-1 Kessig Cagebreakers|CMA
-1 Kraul Foragers|GRN
-1 Llanowar Elves|J25
-1 Lotleth Giant|GRN
-1 Massacre Girl|WAR
-1 Memorial to Folly|C20
-1 Meren of Clan Nel Toth|C15
+1 Jarad, Golgari Lich Lord|TDC|[293]
+1 Jungle Hollow|TDM|[258]
+1 Kessig Cagebreakers|J22|[681]
+1 Kraul Foragers|J22|[682]
+1 Llanowar Elves|LEB|[211]
+1 Lotleth Giant|CMM|[171]
+1 Massacre Girl|RVR|[328]
+1 Memorial to Folly|TDC|[377]
+1 Meren of Clan Nel Toth|TDC|[297]
 1 Millikin|ODY
 1 Mindwrack Harpy|THB
-1 Mire Triton|JMP
-1 Mosswort Bridge|C20
-1 Murderous Rider|ELD
-1 Nissa, Vastwood Seer|ORI
-1 Nullmage Shepherd|RAV
-1 Nullpriest of Oblivion|ZNR
+1 Mire Triton|FDC|[115]
+1 Mosswort Bridge|TDC|[379]
+1 Murderous Rider|DRC|[45]
+1 Nissa, Vastwood Seer|PIO|[187]
+1 Nullmage Shepherd|SCD|[200]
+1 Nullpriest of Oblivion|J25|[472]
 1 Nylea, Keen-Eyed|THB
-1 Old Stickfingers|MID
-1 Oran-Rief, the Vastwood|C20
-1 Poison-Tip Archer|KHC
+1 Old Stickfingers|DSC|[227]
+1 Oran-Rief, the Vastwood|SOC|[391]
+1 Poison-Tip Archer|BLC|[256]
 1 Polukranos, Unchained|THB
 1 Primordial Sage|JMP
-1 Ravenous Chupacabra|JMP
+1 Ravenous Chupacabra|MKC|[136]
 1 Regal Force|DDU
-1 Sakura-Tribe Elder|C20
-1 Satyr Wayfinder|ZNC
-1 Scavenging Ooze|M21
-1 Shigeki, Jukai Visionary|NEO
-1 Shriekmaw|C20
+1 Sakura-Tribe Elder|SOC|[285]
+1 Satyr Wayfinder|EOC|[106]
+1 Scavenging Ooze|FDC|[227]
+1 Shigeki, Jukai Visionary|TDC|[270]
+1 Shriekmaw|TSR|[331]
 1 Six|MH3
-1 Skull Prophet|IKO
-1 Solemn Simulacrum|C20
-1 Somberwald Sage|AVR
+1 Skull Prophet|TDC|[304]
+1 Solemn Simulacrum|TSR|[400]
+1 Somberwald Sage|INR|[418]
 1 Soul of the Harvest|JMP
-1 Splinterfright|C20
-1 Stinkweed Imp|MMA
-1 Stitcher's Supplier|M19
-11 Forest|GK1|[76]
-9 Swamp|GK1|[75]
-1 Temple of Malady|M21
-1 Tendershoot Dryad|RIX
-1 Terramorphic Expanse|TSR
-1 Thunderfoot Baloth|CMA
-1 Timeless Witness|MH2
-1 Underrealm Lich|GRN
-1 Vizier of the Menagerie|AKH
+1 Splinterfright|INR|[420]
+1 Stinkweed Imp|TSR|[332]
+1 Stitcher's Supplier|TDC|[196]
+11 Forest|INR|[296]
+9 Swamp|INR|[292]
+1 Temple of Malady|SOC|[413]
+1 Tendershoot Dryad|SOC|[125]
+1 Terramorphic Expanse|TRC|[571]
+1 Thunderfoot Baloth|DSC|[201]
+1 Timeless Witness|TDC|[274]
+1 Underrealm Lich|CLU|[215]
+1 Vizier of the Menagerie|FDN|[649]
 1 Winding Canyons|WTH
-1 Woodland Cemetery|DOM
+1 Woodland Cemetery|DMR|[401]
 [Sideboard]
 1 Umori, the Collector|IKO

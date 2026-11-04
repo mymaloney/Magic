@@ -1,21 +1,21 @@
 [metadata]
 Name=gravetitan
 [Main]
-4 Animate Dead|PLIST|1
+4 Animate Dead|LEB|[93]
 4 Blight Titan|MOC|1
-4 Charcoal Diamond|C14|1
+4 Charcoal Diamond|MIR|[296]
 2 Crystalline Giant|NCC|1
-2 Dakmor Salvage|UMA|1
-4 Grave Titan|C14|1
+2 Dakmor Salvage|EOC|[156]
+4 Grave Titan|ECC|[74]
 1 Helldozer|HOP|1
-2 Lotleth Giant|SCD|1
-2 Millikin|MH2|1
-2 Mire Triton|J21|1
+2 Lotleth Giant|CMM|[171]
+2 Millikin|ODY|[302]
+2 Mire Triton|FDC|[115]
 1 Necrosavant|DMR|1
 4 Quest for the Gravelord|BBD|1
-21 Swamp|BBD|1
+21 Swamp|INR|[292]
 1 Takenuma, Abandoned Mire|NEO|1
-2 Thran Dynamo|C14|1
+2 Thran Dynamo|UDS|[139]
 2 Vogar, Necropolis Tyrant|GN3|1
 2 Writhing Necromass|DMU|1
 [Sideboard]

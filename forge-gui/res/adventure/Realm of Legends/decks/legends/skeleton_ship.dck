@@ -3,7 +3,7 @@ Name=Skeleton Ship
 [Commander]
 1 Skeleton Ship|ice
 [Main]
-40 Island|jmp|[52]
+40 Island|INR|[290]
 1 Armored Galleon|PO2
 1 Dandân|ARN
 1 Deep-Sea Serpent|POR
@@ -18,12 +18,12 @@ Name=Skeleton Ship
 1 Marjhan|HML
 1 Merchant Ship|ARN
 1 Pirate Ship|LEB
-1 Sealock Monster|THS
+1 Sealock Monster|DDO|[42]
 1 Sea Monster|TMP
 1 Sea Serpent|LEB
 1 Serpent of the Endless Sea|M10
 1 Slipstream Eel|ONS
-1 Slipstream Serpent|TSP
+1 Slipstream Serpent|TSR|[86]
 1 Steam Frigate|PO2
 1 Veiled Serpent|USG
 1 Vodalian Knights|FEM
@@ -31,33 +31,33 @@ Name=Skeleton Ship
 1 Seasinger|FEM
 1 Tidewalker|PLC
 1 Benthic Behemoth|TMP
-1 Chasm Skulker|M15
+1 Chasm Skulker|PIO|[49]
 1 Colossal Whale|M14
 1 Coral Barrier|M15
 1 Devouring Deep|LEG
 1 Fishliver Oil|ARN
 1 Harbor Serpent|M13
-1 Inkwell Leviathan|EMA
+1 Inkwell Leviathan|2XM|[55]
 1 Merfolk Assassin|DRK
 1 Merfolk Raiders|MIR
 1 Merfolk Seastalkers|ZEN
-1 Enclave Elite|WWK
-1 Inkfathom Divers|LRW
+1 Enclave Elite|CNS|[96]
+1 Inkfathom Divers|DDT|[8]
 1 Part Water|LEG
-1 Piracy Charm|PLC
+1 Piracy Charm|TSR|[78]
 1 Rishadan Dockhand|MH2
-1 Rootwater Commando|NEM
+1 Rootwater Commando|NMS|[39]
 1 Sand Squid|MMQ
 1 Segovian Leviathan|LEG
-1 Stormtide Leviathan|M11
+1 Stormtide Leviathan|PIO|[75]
 1 Thada Adel, Acquisitor|WWK
-1 Stonybrook Banneret|MOR
+1 Stonybrook Banneret|LCC|[173]
 1 Grayscaled Gharial|RAV
 1 Charix, the Raging Isle|ZNR|[386]
 1 High Tide|DMR
-1 Whelming Wave|BNG
+1 Whelming Wave|CMR|[409]
 1 Thing from the Deep|POR
-1 Denizen of the Deep|PO2
+1 Denizen of the Deep|DMR|[282]
 1 Tireless Angler|YMID
 1 Skeleton Crew|LCC
 1 Ribskiff|ONE

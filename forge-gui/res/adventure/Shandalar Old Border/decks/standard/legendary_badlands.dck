@@ -1,10 +1,10 @@
 [metadata]
 Name=Legend of the Badlands
 [Main]
-4 Badlands|LEA
+4 Badlands|LEB|[278]
 4 Sulfurous Springs|ICE
-8 Swamp|MIR
-8 Mountain|MIR
+8 Swamp|INR|[292]
+8 Mountain|INR|[294]
 2 Sword of the Chosen|STH
 2 Urza's Filter|INV
 2 Bladewing the Risen|SCG
@@ -23,7 +23,7 @@ Name=Legend of the Badlands
 1 Blazing Specter|INV
 1 Cinder Shade|INV
 1 Void|INV
-1 Pyre Zombie|INV
+1 Pyre Zombie|DMR|[362]
 1 Vicious Kavu|INV
 1 Keldon Twilight|PLS
 1 Terminate|PLS

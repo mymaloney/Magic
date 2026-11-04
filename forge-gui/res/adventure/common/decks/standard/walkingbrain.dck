@@ -3,17 +3,17 @@ Name=walkingbrain
 [Main]
 4 Annex|ONS|1
 1 Beguiler of Wills|DKA|1
-4 Confiscate|CMR|1
+4 Confiscate|USG|[66]
 2 Empress Galina|INV|1
 2 Invoke the Winds|NEO|1
-14 Island|NEO|1
-10 Island|NEO|2
-1 Keiga, the Tide Star|CLB|1
+14 Island|INR|[290]
+10 Island|INR|[290]
+1 Keiga, the Tide Star|TDC|[156]
 1 Kiora Bests the Sea God|THB|1
-4 Mind Flayer|AFR|1
-4 Mind Stone|AFC|1
-1 Roil Elemental|SLD|1
-4 Shield Broker|NCC|1
-2 Steal Artifact|30A|1
+4 Mind Flayer|CLB|[728]
+4 Mind Stone|DMR|[385]
+1 Roil Elemental|ZEN|[62]
+4 Shield Broker|BLC|[174]
+2 Steal Artifact|LEB|[82]
 2 Steal Enchantment|TMP|1
-4 Thran Dynamo|C19|1
+4 Thran Dynamo|UDS|[139]

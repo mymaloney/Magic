@@ -9,7 +9,7 @@ Name=Sivitri
 1 Voracious Bibliophile|tdc
 1 Transcendent Dragon|tdc
 1 Hammerhead Tyrant|tdc
-1 Arcane Signet|voc
+1 Arcane Signet|TRC|[485]
 1 Scavenger Regent|tdm
 1 Marang River Regent|tdm
 1 Ashiok, Dream Render|war
@@ -17,38 +17,38 @@ Name=Sivitri
 1 Ashiok, Sculptor of Fears|thb
 1 Bone Dragon|m19
 1 Boneyard Scourge|c17
-1 Brainstealer Dragon|clb
-1 Choked Estuary|soi
+1 Brainstealer Dragon|OTC|[127]
+1 Choked Estuary|TRC|[370]
 1 Clever Impersonator|c19
-1 Command Tower|c16
-1 Contaminated Aquifer|dmu
-1 Counterspell|ice
+1 Command Tower|TRC|[521]
+1 Contaminated Aquifer|TDC|[353]
+1 Counterspell|DMR|[281]
 1 Crucible of the Spirit Dragon|afc
 1 Crux of Fate|c17
 1 Deathbringer Regent|j22
-1 Deepglow Skate|2xm
-1 Talisman of Dominance|mkc
-1 Dragon's Hoard|j22
-1 Dragonlord Silumgar|2x2
-1 Drowned Catacomb|xln
-1 Experimental Augury|one
+1 Deepglow Skate|EOC|[70]
+1 Talisman of Dominance|TRC|[505]
+1 Dragon's Hoard|TDC|[317]
+1 Dragonlord Silumgar|PIO|[220]
+1 Drowned Catacomb|TRC|[376]
+1 Experimental Augury|EOC|[73]
 1 Flux Channeler|war
 1 Foul-Tongue Invocation|ima
 1 Glasspool Mimic|znr
 1 Ichormoon Gauntlet|one
-1 Imprisoned in the Moon|voc
-13 Island|scd
-1 Jace, the Mind Sculptor|2xm
-1 Junji, the Midnight Sky|neo
+1 Imprisoned in the Moon|INR|[358]
+13 Island|INR|[290]
+1 Jace, the Mind Sculptor|BLC|[75]
+1 Junji, the Midnight Sky|TDC|[183]
 1 Kaito, Dancing Shadow|one
-1 Karn's Bastion|war
+1 Karn's Bastion|RVR|[464]
 1 Kaya's Ghostform|war
-1 Keiga, the Tide Star|chk
+1 Keiga, the Tide Star|TDC|[156]
 1 Kokusho, the Evening Star|ima
-1 Liliana of the Veil|dmu
+1 Liliana of the Veil|INR|[475]
 1 Luxior, Giada's Gift|snc
 1 Malakir Rebirth|znr
-1 Metallic Mimic|aer
+1 Metallic Mimic|INR|[445]
 1 Mu Yanling|gs1
 1 Dragonstorm Globe|tdm
 1 Mana Drain|leg
@@ -56,27 +56,27 @@ Name=Sivitri
 1 Draconic Fealty|ytdm
 1 Cunning Azurescale|ytdm
 1 Dragonweave Tapestry|ytdm
-1 Kindred Dominance|c17
-1 Phyrexian Metamorph|2xm
-1 Pongify|tsr
-1 Reliquary Tower|m13
-1 Shipwreck Marsh|mid
+1 Kindred Dominance|WOC|[113]
+1 Phyrexian Metamorph|EOC|[75]
+1 Pongify|TRC|[441]
+1 Reliquary Tower|TRC|[551]
+1 Shipwreck Marsh|FRA|[189]
 1 Silumgar, the Drifting Death|c17
 1 Silumgar's Command|znc
 1 Silumgar's Scorn|dtk
-1 Sol Ring|c13
+1 Sol Ring|LEB|[270]
 1 Soul Manipulation|znc
-1 Spark Double|war
-1 Sunken Hollow|bfz
-11 Swamp|scd
+1 Spark Double|RVR|[319]
+1 Sunken Hollow|TRC|[407]
+11 Swamp|INR|[292]
 1 Teferi, Master of Time|m21
-1 Teferi, Temporal Archmage|c14
-1 Aetherize|fdn
-1 Temple of Deceit|thb
-1 The Chain Veil|m15
-1 Thrummingbird|som
+1 Teferi, Temporal Archmage|CMM|[125]
+1 Aetherize|RVR|[448]
+1 Temple of Deceit|DRC|[176]
+1 The Chain Veil|PIO|[358]
+1 Thrummingbird|EOC|[80]
 1 Tyrant's Scorn|war
 1 Ugin, the Spirit Dragon|m21
-1 Underground River|bro
-1 Vraska, Betrayal's Sting|one
-1 Watery Grave|grn
+1 Underground River|ICE|[362]
+1 Vraska, Betrayal's Sting|ECC|[88]
+1 Watery Grave|RVR|[415]

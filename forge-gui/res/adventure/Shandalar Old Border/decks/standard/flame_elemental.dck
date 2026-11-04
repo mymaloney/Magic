@@ -3,14 +3,14 @@ Name=flame_elemental
 [Main]
 2 Blistering Firecat|ONS
 2 Orcish Artillery|LEB
-2 Orcish Cannoneers|DKM
-2 Shivan Dragon|5ED
-25 Mountain|4ED
-4 Fireblast|VIS
+2 Orcish Cannoneers|ICE|[205]
+2 Shivan Dragon|DMR|[329]
+25 Mountain|INR|[294]
+4 Fireblast|DMR|[319]
 4 Flame Elemental|MIR
 4 Goblin Cadets|USG
-4 Incinerate|ICE
-4 Lightning Bolt|LEA
+4 Incinerate|MIR|[184]
+4 Lightning Bolt|LEB|[162]
 4 Magma Burst|PLS
-4 Mountain Goat|6ED
+4 Mountain Goat|POR|[141]
 4 Pyrostatic Pillar|SCG

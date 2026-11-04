@@ -2,86 +2,86 @@
 Name=INN_Peasants
 [Main]
 1 Afflicted Deserter|DKA|1
-1 Arrogant Outlaw|MID|1
-3 Baneblade Scoundrel|MID|1
-1 Black Cat|DKA|1
+1 Arrogant Outlaw|J25|[400]
+3 Baneblade Scoundrel|DBL|[85]
+1 Black Cat|J22|[377]
 1 Bitterheart Witch|ISD|1
-1 Brimstone Vandal|MID|1
+1 Brimstone Vandal|DBL|[130]
 1 Chosen of Markov|DKA|1
 2 Civilized Scholar|ISD|1
 3 Convicted Killer|SOI|1
-3 Corpse Traders|AVR|1
-3 Covert Cutpurse|MID|1
-3 Creepy Puppeteer|VOW|1
+3 Corpse Traders|JMP|[220]
+3 Covert Cutpurse|DBL|[92]
+3 Creepy Puppeteer|DBL|[418]
 1 Cult of the Waxing Moon|SOI|1
 3 Daring Sleuth|SOI|1
-1 Dark Impostor|AVR|1
-1 Dawnhart Geist|VOW|1
-1 Deathcap Cultivator|SOI|1
+1 Dark Impostor|VOC|[127]
+1 Dawnhart Geist|DBL|[275]
+1 Deathcap Cultivator|DSC|[175]
 3 Deranged Outcast|DKA|1
-1 Driver of the Dead|AVR|1
-1 Eccentric Farmer|MID|1
-2 Ecstatic Awakener|MID|1
+1 Driver of the Dead|FDN|[605]
+1 Eccentric Farmer|INR|[194]
+2 Ecstatic Awakener|INR|[462]
 1 Erdwal Ripper|DKA|1
-1 Evernight Shade|AVR|1
-1 Evil Twin|ISD|1
-1 Falkenrath Gorger|SOI|1
-1 Famished Foragers|MID|1
-2 Fangblade Brigand|MID|1
-2 Fearful Villager|VOW|1
-1 Festival Crasher|MID|1
+1 Evernight Shade|C14|[144]
+1 Evil Twin|BBD|[222]
+1 Falkenrath Gorger|INR|[152]
+1 Famished Foragers|DBL|[138]
+2 Fangblade Brigand|DBL|[139]
+2 Fearful Villager|DBL|[424]
+1 Festival Crasher|INR|[153]
 3 Gatstaf Arsonists|SOI|1
-2 Geier Reach Bandit|SOI|1
-3 Ghoulcaller's Accomplice|SOI|1
+2 Geier Reach Bandit|INR|[464]
+3 Ghoulcaller's Accomplice|JMP|[237]
 2 Grizzled Outcasts|ISD|1
 2 Hinterland Hermit|DKA|1
-3 Hookhand Mariner|VOW|1
-1 Innocent Traveler|VOW|1
-1 Insolent Neonate|SOI|1
-3 Invisible Stalker|ISD|1
-1 Kessig Cagebreakers|ISD|1
+3 Hookhand Mariner|DBL|[470]
+1 Innocent Traveler|DBL|[388]
+1 Insolent Neonate|J25|[566]
+3 Invisible Stalker|ZNC|[27]
+1 Kessig Cagebreakers|J22|[681]
 1 Kindly Stranger|SOI|1
-1 Kruin Outlaw|ISD|1
-1 Lantern Bearer|VOW|1
+1 Kruin Outlaw|INR|[161]
+1 Lantern Bearer|INR|[72]
 1 Lantern Spirit|ISD|1
-1 Mad Prophet|SOI|1
-1 Malevolent Hermit|MID|1
-2 Morbid Opportunist|MID|1
+1 Mad Prophet|UMA|[137]
+1 Malevolent Hermit|DBL|[61]
+2 Morbid Opportunist|INR|[388]
 3 Nearheath Stalker|DKA|1
-1 Nebelgast Beguiler|VOW|1
+1 Nebelgast Beguiler|DBL|[292]
 1 Nightshade Peddler|AVR|1
-1 Novice Occultist|MID|1
-1 Obsessive Astronomer|MID|1
-1 Obsessive Skinner|SOI|1
-2 Panicked Bystander|VOW|1
+1 Novice Occultist|DBL|[117]
+1 Obsessive Astronomer|DBL|[152]
+1 Obsessive Skinner|DSC|[191]
+2 Panicked Bystander|DBL|[295]
 1 Primal Druid|EMN|1
-1 Ragged Recluse|VOW|1
+1 Ragged Recluse|DBL|[394]
 1 Rancid Rats|SOI|1
 1 Reckless Waif|ISD|1
-1 Reclusive Taxidermist|VOW|1
+1 Reclusive Taxidermist|DBL|[481]
 1 Riot Ringleader|AVR|1
 1 Sanguinary Mage|SOI|1
-1 Scorned Villager|DKA|1
-1 Selhoff Occultist|ISD|1
-2 Shady Traveler|MID|1
+1 Scorned Villager|INR|[468]
+1 Selhoff Occultist|JMP|[174]
+2 Shady Traveler|DBL|[120]
 1 Silent Observer|SOI|1
-1 Skirsdag Cultist|ISD|1
-1 Skulking Killer|VOW|1
+1 Skirsdag Cultist|MM3|[112]
+1 Skulking Killer|DBL|[397]
 2 Solitary Hunter|SOI|1
-1 Somberwald Vigilante|AVR|1
-2 Tavern Ruffian|MID|1
+1 Somberwald Vigilante|DDL|[2]
+2 Tavern Ruffian|DBL|[163]
 3 Tooth Collector|SOI|1
 1 Topplegeist|SOI|1
 1 Tormented Pariah|ISD|1
-1 Unruly Mob|MID|1
-2 Vengeful Strangler|MID|1
+1 Unruly Mob|DBL|[40]
+2 Vengeful Strangler|DBL|[126]
 2 Village Cannibals|ISD|1
-1 Villagers of Estwald|ISD|1
-1 Village Watch|MID|1
-1 Voldaren Stinger|MID|1
-1 Wakedancer|DKA|1
-3 Weary Prisoner|VOW|1
-1 Wolfkin Outcast|VOW|1
+1 Villagers of Estwald|INR|[224]
+1 Village Watch|DBL|[165]
+1 Voldaren Stinger|DBL|[167]
+1 Wakedancer|J25|[512]
+3 Weary Prisoner|DBL|[451]
+1 Wolfkin Outcast|DBL|[496]
 [Sideboard]
 [Schemes]
 

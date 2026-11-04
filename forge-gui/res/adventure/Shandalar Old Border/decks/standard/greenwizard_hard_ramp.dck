@@ -1,24 +1,24 @@
 [metadata]
 Name=Master Green Wizard - Mono Green Ramp
 [Main]
-20 Forest|LEA
-4 Llanowar Elves|LEA
-4 Birds of Paradise|LEA
-2 Wild Growth|LEA
+20 Forest|INR|[296]
+4 Llanowar Elves|LEB|[211]
+4 Birds of Paradise|RVR|[344]
+2 Wild Growth|DMR|[352]
 2 Overgrowth|STH
 2 Rancor|ULG
-2 Berserk|LEA
+2 Berserk|LEB|[186]
 2 Defense of the Heart|ULG
-2 Natural Order|VIS
+2 Natural Order|POR|[175]
 4 Verdant Force|TMP
 2 Constant Mists|STH
 2 Moment's Peace|ODY
 4 Blastoderm|NMS
 2 Ancient Silverback|UDS
 1 Silvos, Rogue Elemental|ONS
-1 Kamahl, Fist of Krosa|ONS
+1 Kamahl, Fist of Krosa|DMR|[344]
 4 Naturalize|ONS
 
 [StartInBattle_Reference]
-1 Wall of Brambles|LEA
-1 Mox Emerald|LEA
+1 Wall of Brambles|LEB|[224]
+1 Mox Emerald|LEB|[262]

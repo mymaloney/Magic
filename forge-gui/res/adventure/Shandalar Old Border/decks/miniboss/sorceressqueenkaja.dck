@@ -1,23 +1,23 @@
 [metadata]
 Name=Sorceress Queen Kaja
 [Main]
-1 Mishra's Factory|ATQ|1
-1 Mishra's Factory|ATQ|2
-1 Mishra's Factory|ATQ|3
-1 Mishra's Factory|ATQ|4
-4 Mountain|UGL
-6 Plains|UGL
-6 Island|UGL
+1 Mishra's Factory|DMR|[399]
+1 Mishra's Factory|DMR|[399]
+1 Mishra's Factory|DMR|[399]
+1 Mishra's Factory|DMR|[399]
+4 Mountain|INR|[294]
+6 Plains|INR|[288]
+6 Island|INR|[290]
 1 Gift of Estates|POR
 1 Inheritance|ALL
 1 Kismet|LEG
 1 Shahrazad|ARN
 2 Icatian Phalanx|FEM
-4 Swords to Plowshares|ICE
-1 Spirit Link|LEG
+4 Swords to Plowshares|DMR|[275]
+1 Spirit Link|DMR|[274]
 1 Orim, Samite Healer|TMP
 2 Daring Apprentice|MIR
-2 Exhaustion|PO2
+2 Exhaustion|USG|[74]
 2 Giant Tortoise|ARN
 2 Manta Riders|TMP
 2 Magus of the Unseen|ICE
@@ -26,7 +26,7 @@ Name=Sorceress Queen Kaja
 2 Talas Researcher|PO2
 2 Touch of Brilliance|PO2
 2 Bird Maiden|ARN
-2 Stone Rain|ICE
+2 Stone Rain|MMQ|[215]
 1 Pyroblast|ICE
 1 Al-abara's Carpet|LEG
 2 Primal Clay|ATQ
@@ -35,7 +35,7 @@ Name=Sorceress Queen Kaja
 1 Teferi's Puzzle Box|VIS
 
 [StartInBattle_Reference]
-1 Mishra's Factory|ATQ|3
+1 Mishra's Factory|DMR|[399]
 1 Cuombajj Witches|ARN
 1 Sorceress Queen|ARN
 1 Millstone|ATQ

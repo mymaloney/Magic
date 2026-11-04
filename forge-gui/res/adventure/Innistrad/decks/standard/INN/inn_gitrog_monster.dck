@@ -3,25 +3,25 @@ Name=INN_Gitrog_Monster
 [Avatar]
 
 [Main]
-13 Swamp|MID|2
-13 Forest|MID|2
-4 Woodland Cemetery|ISD|1
-4 The Gitrog Monster|SOI|1
-2 Ulvenwald Hydra|SOI|1
-4 Augur of Autumn|MID|1
-2 Traverse the Ulvenwald|SOI|1
-2 Crawling Sensation|SOI|1
-2 Groundskeeper|SOI|1
+13 Swamp|INR|[292]
+13 Forest|INR|[296]
+4 Woodland Cemetery|DMR|[401]
+4 The Gitrog Monster|INR|[431]
+2 Ulvenwald Hydra|M3C|[250]
+4 Augur of Autumn|EOC|[92]
+2 Traverse the Ulvenwald|INR|[422]
+2 Crawling Sensation|TDC|[252]
+2 Groundskeeper|MMQ|[250]
 2 Caravan Vigil|ISD|1
-2 Splendid Reclamation|EMN|1
-2 Dawntreader Elk|DKA|1
-2 Bloodbriar|EMN|1
+2 Splendid Reclamation|EOC|[108]
+2 Dawntreader Elk|JMP|[387]
+2 Bloodbriar|2XM|[154]
 2 Curse of Death's Hold|ISD|1
-2 Ghoulcaller's Harvest|MID|1
-2 Deadly Allure|DKA|1
-2 Grizzly Ghoul|MID|1
-2 Obsessive Skinner|SOI|1
-2 Terrarion|EMN|1
+2 Ghoulcaller's Harvest|DBL|[225]
+2 Deadly Allure|INR|[103]
+2 Grizzly Ghoul|INR|[240]
+2 Obsessive Skinner|DSC|[191]
+2 Terrarion|JMP|[488]
 [Sideboard]
 
 [Planes]

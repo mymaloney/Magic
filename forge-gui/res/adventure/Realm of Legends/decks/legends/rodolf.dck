@@ -1,78 +1,78 @@
 [metadata]
 Name=Rodolf Duskbringer
 [Commander]
-1 Rodolf Duskbringer|J22
+1 Rodolf Duskbringer|J25|[482]
 [Main]
 1 Aetherflux Reservoir|KLD
-1 Ajani's Pridemate|J22
-1 Alhammarret's Archive|C21
+1 Ajani's Pridemate|TSR|[290]
+1 Alhammarret's Archive|TRC|[337]
 1 Angel of Destiny|ZNR
-1 Angel of Vitality|M20
+1 Angel of Vitality|FDC|[13]
 1 Angelic Accord|IMA
-1 Anguished Unmaking|2X2
-1 Arcane Signet|NCC
-1 Authority of the Consuls|KLD
+1 Anguished Unmaking|TRC|[310]
+1 Arcane Signet|TRC|[485]
+1 Authority of the Consuls|FDN|[137]
 1 Black Market Connections|LCC
-1 Blood Artist|J22
-1 Bojuka Bog|EOC
-1 Seraph Sanctuary|AVR
-1 Caves of Koilos|DMU
+1 Blood Artist|INR|[372]
+1 Bojuka Bog|TSR|[406]
+1 Seraph Sanctuary|FDC|[313]
+1 Caves of Koilos|APC|[140]
 1 Cliffhaven Vampire|OGW
-1 Command Tower|DMC
+1 Command Tower|TRC|[521]
 1 Cosmos Elixir|KHM
-1 Creeping Bloodsucker|J22
+1 Creeping Bloodsucker|J25|[415]
 1 Crested Sunmare|HOU
-1 Cruel Celebrant|WAR
+1 Cruel Celebrant|LCC|[267]
 1 Damn|MH2
-1 Dark Ritual|DVD
-1 Debt to the Deathless|DGM
-1 Despark|AFC
+1 Dark Ritual|MMQ|[129]
+1 Debt to the Deathless|RVR|[364]
+1 Despark|FRC|[50]
 1 Drana and Linvala|MOM
 1 Drana's Emissary|BFZ
 1 Elas il-Kor, Sadistic Pilgrim|DMU
-1 Exquisite Blood|AVR
-1 Fracture|STX
-1 Generous Gift|NCC
-1 Gray Merchant of Asphodel|THS
-1 Heliod's Intervention|THB
-1 Indulging Patrician|M21
+1 Exquisite Blood|LCC|[195]
+1 Fracture|SOC|[310]
+1 Generous Gift|BLC|[106]
+1 Gray Merchant of Asphodel|TSR|[323]
+1 Heliod's Intervention|OTC|[81]
+1 Indulging Patrician|TDC|[292]
 1 Isolated Chapel|DMR
 1 Kambal, Consul of Allocation|2X2
 1 Kaya's Wrath|DMC
-1 Liesa, Forgotten Archangel|MID
-1 Lightning Greaves|SCD
-1 Marauding Blight-Priest|ZNR
-1 Markov Purifier|VOW
-1 Orzhov Basilica|BRC
-1 Orzhov Signet|MOC
-1 Path to Exile|2X2
-1 Phyrexian Arena|ONE
-15 Plains|VOW
+1 Liesa, Forgotten Archangel|INR|[433]
+1 Lightning Greaves|TRC|[496]
+1 Marauding Blight-Priest|FDN|[178]
+1 Markov Purifier|DBL|[508]
+1 Orzhov Basilica|DRC|[164]
+1 Orzhov Signet|TDC|[323]
+1 Path to Exile|TSR|[299]
+1 Phyrexian Arena|APC|[47]
+15 Plains|INR|[288]
 1 Pristine Talisman|C21
-1 Rhox Faithmender|JMP
-1 Righteous Valkyrie|KHM
-1 Sanguine Bond|C21
-1 Scoured Barrens|KTK
-1 Serra Paragon|DMU
-1 Shattered Sanctum|VOW
-1 Sign in Blood|M13
-1 Smothering Tithe|2X2
-1 Sol Ring|SCD
-1 Solemn Simulacrum|ONC
+1 Rhox Faithmender|TDC|[128]
+1 Righteous Valkyrie|FDC|[43]
+1 Sanguine Bond|TSR|[330]
+1 Scoured Barrens|TDM|[267]
+1 Serra Paragon|SOC|[169]
+1 Shattered Sanctum|SOS|[260]
+1 Sign in Blood|FDC|[125]
+1 Smothering Tithe|CMM|[57]
+1 Sol Ring|LEB|[270]
+1 Solemn Simulacrum|TSR|[400]
 1 Soul Warden|EXO
 1 Soul's Attendant|ROE
-1 Speaker of the Heavens|M21
-1 Sun Titan|NCC
-1 Suture Priest|NPH
-13 Swamp|VOW
+1 Speaker of the Heavens|FDC|[50]
+1 Sun Titan|SOC|[178]
+1 Suture Priest|MOC|[210]
+13 Swamp|INR|[292]
 1 Swords to Plowshares|DMR
-1 Tainted Field|E02
-1 Talisman of Hierarchy|CLB
-1 Temple of Silence|C21
-1 Vault of Champions|CMR
-1 Vault of the Archangel|DKA
-1 Victimize|AFC
-1 Vito, Thorn of the Dusk Rose|J22
-1 Voice of the Blessed|VOW
+1 Tainted Field|TOR|[140]
+1 Talisman of Hierarchy|TRC|[506]
+1 Temple of Silence|SOC|[415]
+1 Vault of Champions|TRC|[416]
+1 Vault of the Archangel|TDC|[410]
+1 Victimize|MH3|[413]
+1 Vito, Thorn of the Dusk Rose|J25|[71]
+1 Voice of the Blessed|INR|[50]
 1 Vraan, Executioner Thane|ONE
 1 Well of Lost Dreams|C21

@@ -1,16 +1,16 @@
 [metadata]
 Name=Horse
 [Main]
-10 Forest|PTK
-10 Plains|PTK
-3 Three Visits|PTK
-3 Spoils of Victory|PTK
+10 Forest|INR|[296]
+10 Plains|INR|[288]
+3 Three Visits|SOC|[289]
+3 Spoils of Victory|C13|[172]
 3 Tarpan|ICE
 3 Hipparion|ICE
 3 Zodiac Horse|PTK
 1 Workhorse|EXO
 1 Bronze Horse|LEG
-2 Clockwork Steed|5ED
+2 Clockwork Steed|HML|[103]
 1 Lady Zhurong, Warrior Queen|PTK
 1 Zhang Fei, Fierce Warrior|PTK
 1 Zhao Zilong, Tiger General|PTK

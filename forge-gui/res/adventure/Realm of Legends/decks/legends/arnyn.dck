@@ -11,23 +11,23 @@ Name=Arnyn
 1 Sedgemoor Witch|stx
 1 Endrek Sahr, Master Breeder|cmm
 1 Pawn of Ulamog|soc
-1 Abhorrent Overlord|ths
-1 Feed the Swarm|dsc
-1 Blood Artist|avr
+1 Abhorrent Overlord|PIO|[289]
+1 Feed the Swarm|TDC|[180]
+1 Blood Artist|INR|[372]
 1 Creeping Bloodsucker|j25
-1 Foulmire Knight|eld
-1 Ophiomancer|mh3
+1 Foulmire Knight|MOC|[249]
+1 Ophiomancer|SOC|[118]
 1 Vampire of the Dire Moon|j25
-1 Withering Torment|dsk
-1 Zulaport Cutthroat|blc
-1 Bastion of Remembrance|iko
+1 Withering Torment|FDC|[134]
+1 Zulaport Cutthroat|TSR|[337]
+1 Bastion of Remembrance|TDC|[171]
 1 Black Sun's Zenith|ecc
 1 Blight Rot|ecl
 1 Blowfly Infestation|ecc
 1 Boggart Mischief|ecl
 1 Bogslither's Embrace|ecl
 1 Bile-vial Boggart|ecl
-1 Crux of Fate|frf
+1 Crux of Fate|C17|[107]
 1 Dark Ritual|mmq
 1 Dawnhand Dissident|ecl
 1 Dream Seizer|ecl
@@ -41,9 +41,9 @@ Name=Arnyn
 1 Grim Poppet|ecc
 1 Hangarback Walker|soc
 1 Incremental Blight|ecc
-1 Last Gasp|sos
+1 Last Gasp|TRC|[580]
 1 Lethal Exploit|neo
-1 Lightning Greaves|c15
+1 Lightning Greaves|TRC|[496]
 1 Massacre Girl, Known Killer|ecc
 1 Melancholic Poet|sos
 1 Intermediate Chirography|soc
@@ -51,19 +51,19 @@ Name=Arnyn
 1 Wriggling Grub|j25
 1 Nine-lives familiar|fdn
 1 Callous Bloodmage|stx
-1 Murderous Rider|eld
+1 Murderous Rider|DRC|[45]
 1 Necroskitter|ecc
 1 Nightmare Sower|ecl
 1 Oft-Nabbed Goat|ecc
 1 Scheming Silvertongue|sos
-1 Reliquary Tower|soc
+1 Reliquary Tower|TRC|[551]
 1 Send in the Pest|sos
 1 Sinister Gnarlbark|ecc
 1 Sneering Shadewriter|sos
-1 Sol Ring|tdc
-36 Swamp|sos
-1 Swiftfoot Boots|fdn
-1 Thought Vessel|c15
+1 Sol Ring|LEB|[270]
+36 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Thought Vessel|TRC|[509]
 1 Tree of Perdition|ecc
 1 Decorum Dissertation|sos
 1 Moseo, Vein's New Dean|sos

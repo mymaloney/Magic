@@ -1,15 +1,15 @@
 [metadata]
 Name=scarecrow
 [Main]
-3 Ancient Tomb|UMA|1
+3 Ancient Tomb|TMP|[315]
 3 Colossal Plow|NEC|1
 1 Farmstead Gleaner|MH1|1
 4 Field Creeper|M19|1
 4 Jousting Dummy|JMP|1
-4 Meekstone|30A|1
+4 Meekstone|LEB|[261]
 4 Scarecrone|JMP|1
 4 Scuttlemutt|JMP|1
-4 Signpost Scarecrow|ELD|1
-21 Wastes|J22|1
+4 Signpost Scarecrow|JMP|[485]
+21 Wastes|TSR|[410]
 4 Wicker Witch|SOI|1
 4 Wickerwing Effigy|YMID|1

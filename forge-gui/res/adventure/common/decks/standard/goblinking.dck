@@ -1,20 +1,20 @@
 [metadata]
 Name=goblinking
 [Main]
-3 Blood Moon|A25|1
+3 Blood Moon|DRK|[58]
 3 Conspicuous Snoop|M21|1
 4 Den of the Bugbear|AFR|1
-4 Goblin Burrows|EVG|1
+4 Goblin Burrows|ONS|[318]
 4 Goblin Bushwhacker|ZEN|1
-4 Goblin Grenade|DDT|1
-4 Goblin Guide|TD1|1
-4 Goblin King|30A|1
-4 Krenko's Command|DDT|1
-4 Krenko, Tin Street Kingpin|MOC|1
-4 Mogg War Marshal|EMA|1
-5 Mountain|DMU|1
-3 Mountain|DMU|2
-6 Mountain|DMU|4
+4 Goblin Grenade|FEM|[56a]
+4 Goblin Guide|2XM|[127]
+4 Goblin King|LEB|[155]
+4 Krenko's Command|RVR|[336]
+4 Krenko, Tin Street Kingpin|J25|[572]
+4 Mogg War Marshal|DMR|[326]
+5 Mountain|INR|[294]
+3 Mountain|INR|[294]
+6 Mountain|INR|[294]
 1 Muxus, Goblin Grandee|J22|1
 3 Squee, Dubious Monarch|DMU|1
 [Sideboard]

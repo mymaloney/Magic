@@ -1,17 +1,17 @@
 [metadata]
 Name=Skeleton
 [Main]
-20 Swamp|PO2|2
-4 Charcoal Diamond|7ED
-4 Drudge Skeletons|LEA
+20 Swamp|INR|[292]
+4 Charcoal Diamond|MIR|[296]
+4 Drudge Skeletons|LEB|[107]
 2 Restless Dead|MIR
 2 Unworthy Dead|USG
 2 Lim-Dûl's High Guard|ALL
 2 Kjeldoran Dead|ICE
 2 Carrionette|TMP
 2 Skeletal Crocodile|POR
-4 Animate Dead|LEA
-4 Bad Moon|5ED
+4 Animate Dead|LEB|[93]
+4 Bad Moon|LEB|[94]
 2 Drudge Spell|HML
 2 Dance of the Dead|ICE
 2 Stream of Acid|S99

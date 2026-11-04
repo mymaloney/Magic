@@ -1,97 +1,97 @@
 [metadata]
 Name=Queen Marchesa
 [Commander]
-1 Queen Marchesa|CMM
+1 Queen Marchesa|OTC|[239]
 [Main]
-1 Thorn of the Black Rose|CN2
+1 Thorn of the Black Rose|CMM|[190]
 1 Olivia, Opulent Outlaw|OTC
 1 Vein Ripper|MKM
-1 Massacre Girl, Known Killer|MKM
+1 Massacre Girl, Known Killer|ECC|[79]
 1 Invasion of Fiora|MOM
 1 King's Assassin|POR
-1 Anguished Unmaking|2X2
-1 Arcane Signet|CMM
+1 Anguished Unmaking|TRC|[310]
+1 Arcane Signet|TRC|[485]
 1 Arid Mesa|MH2
-1 Avatar of Woe|CM2
-1 Battlefield Forge|BRO
+1 Avatar of Woe|PCY|[56]
+1 Battlefield Forge|APC|[139]
 1 Big Game Hunter|TSR
 1 Bitterblossom|2X2
-1 Black Market|CLB
+1 Black Market|MMQ|[116]
 1 Black Market Connections|LCC
-1 Blasphemous Act|CMM
+1 Blasphemous Act|SOC|[238]
 1 Blightstep Pathway|KHM
-1 Blood Crypt|RTR
+1 Blood Crypt|RVR|[397]
 1 Brightclimb Pathway|ZNR
 1 Cast Down|CLB
-1 Caves of Koilos|DMU
-1 Archon of Coronation|CN2
-1 Knights of the Black Rose|CN2
-1 Custodi Lich|CN2
+1 Caves of Koilos|APC|[140]
+1 Archon of Coronation|NCC|[192]
+1 Knights of the Black Rose|MOC|[332]
+1 Custodi Lich|NCC|[244]
 1 Clifftop Retreat|DMR
-1 Command Tower|CMM
-1 Commander's Sphere|CMM
+1 Command Tower|TRC|[521]
+1 Commander's Sphere|TRC|[487]
 1 Court of Embereth|WOC
 1 Court of Locthwain|WOC
 1 Court of Ardenvale|WOC
 1 Court of Ambition|CMR
-1 Court of Grace|ONC
+1 Court of Grace|FDC|[21]
 1 Court of Ire|CMR
 1 Crackling Doom|2X2
 1 Scarblade Elite|MOR
 1 Unstoppable Slasher|DSK
 1 Dawn Charm|CMR
-1 Despark|MOC
-1 Dragonskull Summit|DMC
+1 Despark|FRC|[50]
+1 Dragonskull Summit|TRC|[375]
 1 Elas il-Kor, Sadistic Pilgrim|DMU
 1 Emberwilde Captain|CMR
-1 Exotic Orchard|CMM
+1 Exotic Orchard|TRC|[378]
 1 General's Enforcer|IKO
-1 Generous Gift|CMM
-1 Ghostly Prison|ONC
-1 Go for the Throat|MOC
-1 Godless Shrine|RNA
+1 Generous Gift|BLC|[106]
+1 Ghostly Prison|SOC|[146]
+1 Go for the Throat|FDC|[100]
+1 Godless Shrine|RVR|[401]
 1 Guul Draz Assassin|ROE
-1 Haunted Ridge|MID
-1 Heliod's Intervention|THB
-1 Hero's Downfall|DMC
+1 Haunted Ridge|FRA|[180]
+1 Heliod's Intervention|OTC|[81]
+1 Hero's Downfall|FDN|[175]
 1 Isolated Chapel|DMR
 1 Jirina, Dauntless General|MAT
 1 Kelsien, the Plague|C20
-1 Loran of the Third Path|BRO
-1 Marchesa's Decree|CN2
+1 Loran of the Third Path|TRC|[229]
+1 Marchesa's Decree|FDC|[113]
 1 Marsh Flats|MH2
-1 Massacre Girl|WAR
+1 Massacre Girl|RVR|[328]
 1 Mathas, Fiend Seeker|2X2
-1 Mind Stone|CMM
-3 Mountain|CMM
-1 Murder|SCD
-1 Murderous Redcap|SHM
+1 Mind Stone|DMR|[385]
+3 Mountain|INR|[294]
+1 Murder|J25|[467]
+1 Murderous Redcap|UMA|[217]
 1 Needleverge Pathway|ZNR
-1 Nekrataal|EMA
-1 Nomad Outpost|CMM
-1 Orzhov Signet|MOC
-1 Path to Exile|CMM
-3 Plains|CMM
+1 Nekrataal|VIS|[66]
+1 Nomad Outpost|TRC|[544]
+1 Orzhov Signet|TDC|[323]
+1 Path to Exile|TSR|[299]
+3 Plains|INR|[288]
 1 Poison the Cup|KHM
-1 Rakdos Signet|SCD
+1 Rakdos Signet|FRC|[60]
 1 Royal Assassin|DMR
-1 Sacred Foundry|GRN
+1 Sacred Foundry|RVR|[409]
 1 Savai Triome|IKO
-1 Shattered Sanctum|VOW
-1 Skrelv's Hive|ONE
-1 Skyline Despot|CMM
-1 Smoldering Marsh|CMM
-1 Sol Ring|CMM
-1 Sulfurous Springs|DMU
-1 Sundown Pass|VOW
-4 Swamp|CMM
-1 Swiftfoot Boots|SCD
-1 Swords to Plowshares|CMM
-1 Tainted Field|CMM
-1 Temple of Silence|CMM
-1 Temple of Triumph|CMM
+1 Shattered Sanctum|SOS|[260]
+1 Skrelv's Hive|FRC|[33]
+1 Skyline Despot|FDC|[176]
+1 Smoldering Marsh|TRC|[403]
+1 Sol Ring|LEB|[270]
+1 Sulfurous Springs|ICE|[360]
+1 Sundown Pass|SOS|[264]
+4 Swamp|INR|[292]
+1 Swiftfoot Boots|TRC|[501]
+1 Swords to Plowshares|DMR|[275]
+1 Tainted Field|TOR|[140]
+1 Temple of Silence|SOC|[415]
+1 Temple of Triumph|SOC|[417]
 1 Termination Facilitator|J22
-1 Utter End|C18
-1 Vindicate|BRC
+1 Utter End|DSC|[91]
+1 Vindicate|APC|[126]
 1 Virtus the Veiled|BBD
-1 Windborn Muse|ONC
+1 Windborn Muse|DMR|[278]

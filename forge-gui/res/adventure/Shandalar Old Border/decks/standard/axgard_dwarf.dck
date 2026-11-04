@@ -1,17 +1,17 @@
 [metadata]
 Name=axgard_dwarf
 [Main]
-13 Mountain|4ED
-3 Armageddon|4ED
-3 Benalish Hero|4ED
-3 Fireball|4ED
-3 Lightning Bolt|4ED
-3 Orcish Artillery|5ED
-3 Shivan Dragon|BTD
-3 Stone Rain|7ED
-3 White Knight|4ED
+13 Mountain|INR|[294]
+3 Armageddon|PO2|[12]
+3 Benalish Hero|LEB|[4]
+3 Fireball|LEB|[150]
+3 Lightning Bolt|LEB|[162]
+3 Orcish Artillery|LEB|[166]
+3 Shivan Dragon|DMR|[329]
+3 Stone Rain|MMQ|[215]
+3 White Knight|LGN|[27]
 4 Battlefield Forge|APC
 4 Dwarven Soldier|FEM
-4 Dwarven Warriors|4ED
-4 Juggernaut|3ED
-6 Plains|4ED
+4 Dwarven Warriors|LEB|[144]
+4 Juggernaut|DMR|[382]
+6 Plains|INR|[288]

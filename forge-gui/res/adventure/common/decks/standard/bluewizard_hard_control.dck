@@ -1,28 +1,28 @@
 [metadata]
 Name=Kojak 3
 [Main]
-21 Island|M10
-1 Mox Sapphire
-1 Sapphire Medallion
-1 Ancestral Recall
-1 Time Walk
-2 Boomerang
-2 Eye of Nowhere
-4 Counterspell
-1 Tidings
-2 Concentrate
-1 Kami of the Crescent Moon
-1 Thalakos Seer
-4 Briarberry Cohort
-2 Deepchannel Mentor
-3 Faerie Swarm
-3 Inundate
-1 Merrow Levitator
-1 Sunken City
-2 Flow of Ideas
-1 Arcanis the Omnipotent
-2 Sphinx of Magosi
-1 Spire Golem
-1 Dungeon Geists
-1 Master of Waves
+21 Island|INR|[290]
+1 Mox Sapphire|LEB|[266]
+1 Sapphire Medallion|TMP|[306]
+1 Ancestral Recall|LEB|[48]
+1 Time Walk|LEB|[84]
+2 Boomerang|MIR|[56]
+2 Eye of Nowhere|CHK|[59]
+4 Counterspell|DMR|[281]
+1 Tidings|C18|[108]
+2 Concentrate|ODY|[78]
+1 Kami of the Crescent Moon|VOC|[107]
+1 Thalakos Seer|TMP|[94]
+4 Briarberry Cohort|SHM|[30]
+2 Deepchannel Mentor|SHM|[35]
+3 Faerie Swarm|SHM|[37]
+3 Inundate|EVE|[25]
+1 Merrow Levitator|EVE|[26]
+1 Sunken City|DRK|[36]
+2 Flow of Ideas|SHM|[38]
+1 Arcanis the Omnipotent|DMR|[280]
+2 Sphinx of Magosi|PIO|[286]
+1 Spire Golem|FDC|[288]
+1 Dungeon Geists|M20|[57]
+1 Master of Waves|PIO|[63]
 [Sideboard]

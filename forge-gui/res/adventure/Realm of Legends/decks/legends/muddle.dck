@@ -3,56 +3,56 @@ Name=muddle
 [Commander]
 1 Muddle, the Ever-Changing|SOC
 [Main]
-1 Abrade|SOC
+1 Abrade|TRC|[449]
 1 Resculpt|SOC
 1 Big Score|SOC
-1 Chaos Warp|SOC
+1 Chaos Warp|MBC|[72]
 1 Magma Opus|SOC
-1 Arcane Denial|SOC
+1 Arcane Denial|ALL|[22a]
 1 Reality Shift|SOC
 1 Prismari Charm|SOS
 1 Dig Through Time|SOC
 1 Prismari Command|SOC
-9 Island|SOS|2
-8 Mountain|SOS|3
+9 Island|INR|[290]
+8 Mountain|INR|[294]
 1 Study Hall|SOC
-1 Shivan Reef|SOC
-1 Coastal Peak|SOC
+1 Shivan Reef|APC|[142]
+1 Coastal Peak|TRC|[372]
 1 Rootha, Mastering the Moment|SOC
-1 Sulfur Falls|SOC
-1 Command Tower|SOC
-1 Exotic Orchard|SOC
-1 Fabled Passage|SOC
-1 Restless Spire|SOC
-1 Frostboil Snarl|SOC
+1 Sulfur Falls|DMR|[400]
+1 Command Tower|TRC|[521]
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
+1 Restless Spire|FRC|[82]
+1 Frostboil Snarl|TRC|[383]
 1 Hall of Oracles|SOC
 1 Prismari Campus|SOC
-1 Reliquary Tower|SOC
-1 Scorched Geyser|SOC
+1 Reliquary Tower|TRC|[551]
+1 Scorched Geyser|TRC|[398]
 1 Molten Tributary|SOC
-1 Mystic Sanctuary|SOC
-1 Path of Ancestry|SOC
+1 Mystic Sanctuary|TSR|[408]
+1 Path of Ancestry|TRC|[545]
 1 Spectacle Summit|SOS
 1 Turbulent Springs|SOC
 1 Temple of Epiphany|SOC
-1 Terramorphic Expanse|SOS
-1 Temple of the False God|SOC
-1 Sol Ring|SOC
-1 Arcane Signet|SOC
-1 Cursed Mirror|SOC
-1 Fellwar Stone|SOC
-1 Lightning Greaves|SOC
-1 Talisman of Creativity|SOC
+1 Terramorphic Expanse|TRC|[571]
+1 Temple of the False God|SCG|[143]
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
+1 Cursed Mirror|FRC|[49]
+1 Fellwar Stone|DRK|[102]
+1 Lightning Greaves|TRC|[496]
+1 Talisman of Creativity|TRC|[504]
 1 Twinflame|SOC
 1 Aether Gale|SOC
 1 Mana Geyser|SOC
-1 Deep Analysis|SOC
-1 Chain Reaction|SOC
+1 Deep Analysis|TOR|[36]
+1 Chain Reaction|TRC|[280]
 1 Volcanic Salvo|SOC
 1 Blasphemous Act|SOC
 1 Rousing Refrain|SOC
 1 Throes of Chaos|SOC
-1 Treasure Cruise|SOC
+1 Treasure Cruise|TSR|[319]
 1 Surge to Victory|SOC
 1 Volcanic Torrent|SOC
 1 Furygale Flocking|SOC
@@ -74,7 +74,7 @@ Name=muddle
 1 Galazeth Prismari|SOC
 1 Manaform Hellkite|SOC
 1 Mirrorwing Dragon|SOC
-1 Solemn Simulacrum|SOC
+1 Solemn Simulacrum|TSR|[400]
 1 Storm-Kiln Artist|SOC
 1 Stormcatch Mentor|SOC
 1 Thunderclap Drake|SOC

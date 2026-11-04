@@ -2,17 +2,17 @@
 Name=sliver_white
 [Main]
 1 Battlefield Forge|APC
-10 Island|4ED|3
-2 Mountain|4ED|3
+10 Island|INR|[290]
+2 Mountain|INR|[294]
 2 Shivan Reef|APC
 4 Adarkar Wastes|ICE
-4 Counterspell|4ED
+4 Counterspell|DMR|[281]
 4 Crystalline Sliver|STH
-4 Force Spike|5ED
+4 Force Spike|LEG|[58]
 4 Hunter Sliver|LGN
-4 Impulse|VIS
-4 Mana Leak|BRB
-4 Plains|4ED|3
-4 Swords to Plowshares|4ED
+4 Impulse|DMR|[287]
+4 Mana Leak|STH|[36]
+4 Plains|INR|[288]
+4 Swords to Plowshares|DMR|[275]
 4 Ward Sliver|LGN
 4 Winged Sliver|TMP

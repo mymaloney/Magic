@@ -3,38 +3,38 @@ Name=gorma
 [Commander]
 1 Gorma, the Gullet|SOC
 [Main]
-9 Swamp|SOS
-9 Forest|SOS
-1 Bojuka Bog|SOC
+9 Swamp|INR|[292]
+9 Forest|INR|[296]
+1 Bojuka Bog|TSR|[406]
 1 Study Hall|SOC
 1 Vernal Fen|SOC
-1 High Market|SOC
+1 High Market|MMQ|[320]
 1 Haunted Mire|SOC
-1 Command Tower|SOC
+1 Command Tower|TRC|[521]
 1 Titan's Grave|SOS
 1 Turbulent Fen|SOC
-1 Exotic Orchard|SOC
-1 Fabled Passage|SOC
+1 Exotic Orchard|TRC|[378]
+1 Fabled Passage|TRC|[379]
 1 Grim Backwoods|SOC
-1 Llanowar Wastes|SOC
-1 Path of Ancestry|SOC
+1 Llanowar Wastes|APC|[141]
+1 Path of Ancestry|TRC|[545]
 1 Temple of Malady|SOC
 1 Festering Thicket|SOC
-1 Woodland Cemetery|SOC
+1 Woodland Cemetery|DMR|[401]
 1 Necroblossom Snarl|SOC
 1 Witherbloom Campus|SOC
-1 Terramorphic Expanse|SOS
+1 Terramorphic Expanse|TRC|[571]
 1 Mycoloth|SOC
 1 Bloodghast|SOC
 1 Ophiomancer|SOC
 1 Woe Strider|SOC
-1 Blood Artist|SOC
+1 Blood Artist|INR|[372]
 1 Gilded Goose|SOC
 1 Haywire Mite|SOC
 1 Pest Rescuer|SOC
 1 Dina, Essence Brewer|SOC
 1 Viscera Seer|SOC
-1 Elvish Mystic|SOC
+1 Elvish Mystic|TSR|[360]
 1 Nether Traitor|SOC
 1 Pawn of Ulamog|SOC
 1 Teacher's Pest|SOS
@@ -48,10 +48,10 @@ Name=gorma
 1 Defiling Daemogoth|SOC
 1 Dina, Soul Steeper|SOC
 1 Gyome, Master Chef|SOC
-1 Morbid Opportunist|SOC
+1 Morbid Opportunist|INR|[388]
 1 Sakura-Tribe Elder|SOC
 1 Witch of the Moors|SOC
-1 Zulaport Cutthroat|SOC
+1 Zulaport Cutthroat|TSR|[337]
 1 Blossoming Bogbeast|SOC
 1 Stensian Sanguinist|SOC
 1 Beledros Witherbloom|SOC
@@ -63,15 +63,15 @@ Name=gorma
 1 Yahenni, Undying Partisan|SOC
 1 Mazirek, Kraul Death Priest|SOC
 1 Jadar, Ghoulcaller of Nephalia|SOC
-1 Sol Ring|SOC
-1 Arcane Signet|SOC
+1 Sol Ring|LEB|[270]
+1 Arcane Signet|TRC|[485]
 1 Cultivate|SOC
 1 Final Act|SOC
 1 Deadly Brew|SOC
-1 Toxic Deluge|SOC
+1 Toxic Deluge|MH3|[412]
 1 Culling Ritual|SOC
 1 Immoral Bargain|SOC
-1 Night's Whisper|SOC
+1 Night's Whisper|TRC|[446]
 1 Ominous Harvest|SOC
 1 Pest Infestation|SOC
 1 Casualties of War|SOC
@@ -81,7 +81,7 @@ Name=gorma
 1 Awakening Zone|SOC
 1 Feral Appetite|SOC
 1 Moldervine Reclamation|SOC
-1 Infernal Grasp|SOC
+1 Infernal Grasp|INR|[385]
 1 Mortality Spear|SOC
 1 Assassin's Trophy|SOC
 1 Witherbloom Charm|SOS

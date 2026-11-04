@@ -1,24 +1,24 @@
 [metadata]
 Name=INN_hermit_easy
 [Main]
-1 Curse of Leeches|MID|1
-1 Disciple of Griselbrand|ISD|1
+1 Curse of Leeches|DBL|[94]
+1 Disciple of Griselbrand|C13|[74]
 2 Deranged Outcast|DKA|1
-2 Eccentric Farmer|MID|1
-2 Eaten Alive|MID|1
-1 Vengeful Strangler|MID|1
-2 Butcher Ghoul|AVR|1
-2 Driver of the Dead|VOW|1
-3 Forest|SOI|1
-3 Forest|SOI|2
-4 Forest|ISD|2
-1 Butcher's Cleaver|ISD|1
+2 Eccentric Farmer|INR|[194]
+2 Eaten Alive|INR|[106]
+1 Vengeful Strangler|DBL|[126]
+2 Butcher Ghoul|INR|[373]
+2 Driver of the Dead|FDN|[605]
+3 Forest|INR|[296]
+3 Forest|INR|[296]
+4 Forest|INR|[296]
+1 Butcher's Cleaver|INR|[440]
 2 Village Cannibals|ISD|1
 2 Gnaw to the Bone|ISD|1
 2 Mental Agony|AVR|1
-5 Swamp|SOI|1
-3 Swamp|SOI|2
-2 Swamp|ISD|2
+5 Swamp|INR|[292]
+3 Swamp|INR|[292]
+2 Swamp|INR|[292]
 [Sideboard]
 
 [Planes]

@@ -1,28 +1,28 @@
 [metadata]
 Name=Satyr
 [Main]
-1 Anax, Hardened in the Forge|THB|1
-1 Blood Aspirant|THB|1
-1 Boon Satyr|C18|1
+1 Anax, Hardened in the Forge|CMM|[204]
+1 Blood Aspirant|CMM|[208]
+1 Boon Satyr|PIO|[167]
 2 Careless Celebrant|THB|1
-2 Destructive Revelry|THS|1
-4 Forest|THB|2
-1 Forest|THS|1
-1 Forest|THS|2
-3 Forest|THS|3
+2 Destructive Revelry|PIO|[214]
+4 Forest|INR|[296]
+1 Forest|INR|[296]
+1 Forest|INR|[296]
+3 Forest|INR|[296]
 1 Gallia of the Endless Dance|THB|1
-2 Gift of Strength|THB|1
+2 Gift of Strength|CLU|[165]
 2 Heroes of the Revel|THB|1
-1 Irreverent Revelers|THB|1
-2 Lightning Strike|THS|1
+1 Irreverent Revelers|J22|[560]
+2 Lightning Strike|DFT|[136]
 1 Lumbering Satyr|MMQ|1
 2 Mischief and Mayhem|BNG|1
-3 Mountain|THB|2
-3 Mountain|THB|3
-1 Mountain|THS|1
-3 Mountain|THS|2
-1 Mountain|THS|3
-2 Mountain|THS|4
+3 Mountain|INR|[294]
+3 Mountain|INR|[294]
+1 Mountain|INR|[294]
+3 Mountain|INR|[294]
+1 Mountain|INR|[294]
+2 Mountain|INR|[294]
 1 Nessian Wanderer|THB|1
 1 Nexus Wardens|THB|1
 1 Pinnacle of Rage|BNG|1
@@ -33,11 +33,11 @@ Name=Satyr
 1 Satyr Hedonist|THS|1
 1 Satyr Nyx-Smith|BNG|1
 1 Satyr Rambler|THS|1
-1 Satyr Wayfinder|ZNC|1
+1 Satyr Wayfinder|EOC|[106]
 2 Satyr's Cunning|THB|1
 1 Stampede Rider|THB|1
-1 Temple of Abandon|THB|1
+1 Temple of Abandon|TDC|[400]
 1 Unknown Shores|THB|1
-1 Voyaging Satyr|CN2|1
+1 Voyaging Satyr|PIO|[199]
 2 Wild Celebrants|CMR|1
-1 Xenagos, God of Revels|BNG|1
+1 Xenagos, God of Revels|PIO|[318]

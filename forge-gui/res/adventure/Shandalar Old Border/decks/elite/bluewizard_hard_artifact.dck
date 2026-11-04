@@ -2,23 +2,23 @@
 Name=Nox 3
 [Main]
 2 Diabolic Edict|TMP
-2 Duress|USG
+2 Duress|DMR|[303]
 2 Hymn to Tourach|FEM
-2 Island|USG
+2 Island|INR|[290]
 2 Phyrexian Furnace|WTH
 4 Crystalline Sliver|STH
-4 Dark Ritual|2ED
+4 Dark Ritual|MMQ|[129]
 4 Gilded Light|SCG
 4 Karn, Silver Golem|USG
 4 Metallic Sliver|TMP
 4 Phyrexian Colossus|USG
 4 Phyrexian Processor|USG
-4 Plains|USG
-4 Scrubland|LEA
+4 Plains|INR|[288]
+4 Scrubland|LEB|[282]
 4 Thran Dynamo|UDS
-4 Tundra|LEA
-4 Underground Sea|LEA
-7 Swamp|USG
+4 Tundra|LEB|[285]
+4 Underground Sea|LEB|[286]
+7 Swamp|INR|[292]
 
 [StartInBattle_Reference]
 1 Hesitation|STH

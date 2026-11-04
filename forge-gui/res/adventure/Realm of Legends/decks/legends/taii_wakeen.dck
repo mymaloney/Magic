@@ -3,76 +3,76 @@ Name=Taii Wakeen
 [Commander]
 1 Taii Wakeen, Perfect Shot|otj
 [Main]
-1 Arcane Signet|drc
-1 Battlefield Forge|c20
-1 Big Score|tdc
-1 Blasphemous Act|dsc
-1 Blazing Volley|akh
-1 Blisterspit Gremlin|iko
+1 Arcane Signet|TRC|[485]
+1 Battlefield Forge|APC|[139]
+1 Big Score|SOC|[237]
+1 Blasphemous Act|SOC|[238]
+1 Blazing Volley|IKO|[107]
+1 Blisterspit Gremlin|J22|[500]
 1 Boiling Earth|bfz
-1 Bolt Bend|war
+1 Bolt Bend|FDN|[619]
 1 Boltwave|fdn
-1 Boros Charm|onc
+1 Boros Charm|FDN|[721]
 1 Boros Fury-Shield|rav
-1 Boros Garrison|mkc
-1 Boros Reckoner|mkc
-1 Mind Stone|dsc
+1 Boros Garrison|CLU|[231]
+1 Boros Reckoner|PIO|[208]
+1 Mind Stone|DMR|[385]
 1 Brash Taunter|dsc
 1 Chandra, Bold Pyromancer|dom
-1 Chandra, Torch of Defiance|cmm
-1 Command Tower|dsc
+1 Chandra, Torch of Defiance|FRA|[244]
+1 Command Tower|TRC|[521]
 1 Coruscation Mage|blb
-1 Darksteel Mutation|cmm
+1 Darksteel Mutation|SOC|[142]
 1 Deflecting Palm|mkc
-1 Dictate of the Twin Gods|jou
-1 Eidolon of the Great Revel|jou
-1 Evolving Wilds|dsc
-1 Faithless Looting|tdc
-1 Feather, the Redeemed|war
-1 Fellwar Stone|otc
+1 Dictate of the Twin Gods|SCD|[131]
+1 Eidolon of the Great Revel|A25|[128]
+1 Evolving Wilds|TRC|[527]
+1 Faithless Looting|SOC|[244]
+1 Feather, the Redeemed|TSR|[377]
+1 Fellwar Stone|DRK|[102]
 1 Firebrand Archer|fdn
-1 Flame Rift|mh2
-1 Ghostly Prison|tdc
+1 Flame Rift|NMS|[80]
+1 Ghostly Prison|SOC|[146]
 1 Gideon's Sacrifice|mkc
 1 Gisela, Blade of Goldnight|mkc
-1 Guttersnipe|otc
+1 Guttersnipe|RVR|[332]
 1 Hearthborn Battler|blb
 1 Hissing Iguanar|2x2
-1 Iron Myr|mrd
+1 Iron Myr|SOM|[168]
 1 Keeper of the Accord|mkc
-1 Kessig Flamebreather|vow
-1 Lava Dart|plst
+1 Kessig Flamebreather|DBL|[431]
+1 Lava Dart|JUD|[94]
 1 Magda, the Hoardmaster|otj
-1 Mana Geyser|tdc
-21 Mountain|dsk
+1 Mana Geyser|SOC|[247]
+21 Mountain|INR|[294]
 1 Naya Panorama|ncc
 1 Mechanized Warfare|bro
 1 Electrostatic Field|otc
 1 Heartflame Duelist|woe
 1 Radiant Scrollwielder|stx
-1 Lightning Bolt|m10
+1 Lightning Bolt|LEB|[162]
 1 Pain for All|eoe
-1 Palladium Myr|m21
-1 Pariah|otp
+1 Palladium Myr|FDC|[278]
+1 Pariah|USG|[28]
 1 Phyrexian Vindicator|one
-7 Plains|fdn
-1 Rip Apart|stx
+7 Plains|INR|[288]
+1 Rip Apart|SOC|[328]
 1 Serene Master|c13
-1 Sevinne's Reclamation|otc
-1 Sol Ring|dsc
+1 Sevinne's Reclamation|DMR|[273]
+1 Sol Ring|LEB|[270]
 1 Soulbright Flamekin|a25
-1 Stuffy Doll|tsp
+1 Stuffy Doll|CLB|[875]
 1 Stun Sniper|ddl
 1 Sulfuric Vortex|dmr
 1 Sunforger|cmr
 1 Sunscorched Desert|akh
 1 Syr Carah, the Bold|eld
 1 Take the Bait|mkc
-1 Talisman of Conviction|mkc
-1 Temple of Triumph|blc
+1 Talisman of Conviction|TRC|[503]
+1 Temple of Triumph|SOC|[417]
 1 Torbran, Thane of Red Fell|eld
 1 Unbreakable Formation|rvr
 1 Untimely Malfunction|dsk
-1 Urza's Rage|c15
+1 Urza's Rage|INV|[178]
 1 Valor Made Real|cns
 1 Zirda, the Dawnwaker|iko

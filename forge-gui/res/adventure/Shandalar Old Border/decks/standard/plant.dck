@@ -1,7 +1,7 @@
 [metadata]
 Name=Hidden Bush
 [Main]
-20 Forest|POR
+20 Forest|INR|[296]
 4 Plant Elemental|POR
 4 Vine Trellis|MMQ
 4 Wall of Blossoms|STH
@@ -13,5 +13,5 @@ Name=Hidden Bush
 4 Verdant Force|TMP
 3 Primal Order|HML
 2 Living Terrain|PCY
-3 Needle Storm|POR
+3 Needle Storm|TMP|[241]
 2 Biorhythm|ONS

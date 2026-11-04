@@ -1,10 +1,10 @@
 [metadata]
 Name=Legend of the Underground Sea
 [Main]
-4 Underground Sea|LEA
+4 Underground Sea|LEB|[286]
 4 Underground River|ICE
-8 Island|MIR
-8 Swamp|MIR
+8 Island|INR|[290]
+8 Swamp|INR|[292]
 2 Sword of the Chosen|STH
 2 Urza's Filter|INV
 2 Nebuchadnezzar|LEG
@@ -19,9 +19,9 @@ Name=Legend of the Underground Sea
 1 Diabolic Vision|ICE
 1 Sealed Fate|MIR
 1 Mundungu|VIS
-1 Lobotomy|TMP
+1 Lobotomy|INV|[255]
 1 Barrin's Spite|INV
-1 Recoil|INV
+1 Recoil|DMR|[365]
 1 Sleeper's Robe|INV
 1 Seer's Vision|INV
 1 Undermine|INV

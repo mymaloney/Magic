@@ -1,18 +1,18 @@
 [metadata]
 Name=Manticore
 [Main]
-8 Mountain|4ED
-8 Forest|4ED
-4 Karplusan Forest|5ED
+8 Mountain|INR|[294]
+8 Forest|INR|[296]
+4 Karplusan Forest|ICE|[356]
 4 Masticore|UDS
 4 Flailing Manticore|MMQ
 4 Crimson Manticore|LEG
 4 Sawback Manticore|MIR
-2 Tranquility|4ED
-2 Shatter|4ED
-4 Wild Growth|4ED
-4 Lightning Bolt|4ED
-4 Fireball|4ED
-4 Birds of Paradise|4ED
-2 Nevinyrral's Disk|4ED
-2 Earthquake|4ED
+2 Tranquility|INV|[217]
+2 Shatter|TMP|[203]
+4 Wild Growth|DMR|[352]
+4 Lightning Bolt|LEB|[162]
+4 Fireball|LEB|[150]
+4 Birds of Paradise|RVR|[344]
+2 Nevinyrral's Disk|LEB|[267]
+2 Earthquake|PO2|[94]
