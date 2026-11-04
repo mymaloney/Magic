@@ -93,9 +93,11 @@ updating. Your own decks are not touched by updates.
 2. If you chose a **language**, and some of those were printed in it, it keeps only those.
 3. If you prefer the **old frame** (sets from before Eighth Edition, 2003, and "retro frame" reprints in newer
    sets), and some are old-frame, it keeps only those. Turn this off with `--no-prefer-old-frame`.
-4. Collector and catch-all sets (The List, Mystery Booster, 30th Anniversary Edition, From the Vault...) are
-   kept only if nothing else is left.
-5. Then, by default, it **spreads** your decks across all of those printings: each deck gets one of them, so a
+4. With old frame preferred and **up-to-date text** on (the default; `--no-modern-text` turns it off), if a
+   card has old-frame reprints from 2004 on (retro frames, 30th Anniversary Edition, Retro Artifacts, Commander
+   sets...), it keeps only those: the old look with current card wording.
+5. Catch-all sets (The List, Mystery Booster) and Un-sets are kept only if nothing else is left.
+6. Then, by default, it **spreads** your decks across all of those printings: each deck gets one of them, so a
    card varies from deck to deck, and the same deck gets the same one every time (see "Picking several
    printings" below for how decks are shared out). With **Use one** in the picker, or `--no-spread`, every deck
    gets the same single printing instead: the **latest**, or the first with `--order oldest`.
@@ -211,7 +213,7 @@ keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`,
 `skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks: one printing or a list, e.g.
 `{"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}`), `image_cache`, `online_images` and
 `extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`), `scryfall_cache`, `language`,
-`card_prefs` and `spread`.
+`card_prefs`, `spread` and `modern_text`.
 
 ## Other options
 

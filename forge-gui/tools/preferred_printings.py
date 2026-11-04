@@ -62,7 +62,7 @@ SECRET_LAIR_SETS = {'SLD', 'SLU', 'SLC', 'SLP', 'PSSC'}
 MASTERPIECE_SETS = {'MP2', 'MPS_KLD', 'EXP', 'ZNE', 'STA', 'SOA'}
 # Sets dated before many of the cards they contain; ranked last so their date doesn't decide the order.
 CATCH_ALL_SETS = {'PLST', 'MB1', 'MB2', 'PLIST', 'ULST'}
-LOW_PRIORITY_TYPES = {'Collector_Edition', 'Funny'}
+LOW_PRIORITY_TYPES = {'Funny'}  # Un-sets. Collector sets (30A, Retro Artifacts...) compete normally.
 OLD_FRAME_CUTOFF = '2003-07-28'  # Eighth Edition introduced the modern frame
 
 # Sections Forge loads as card printings: keep in sync with CardEdition.EditionSectionWithCollectorNumbers.
@@ -140,7 +140,7 @@ DEFAULTS = {'forge': None, 'decks': [], 'user_decks': False, 'skip_dir': [], 'sk
             'order': 'latest', 'prefer_old_frame': True, 'exclude': sorted(CATEGORIES),
             'backup': True, 'backup_dir': 'preferred-printings-backups', 'card_choices': {},
             'image_cache': None, 'online_images': True, 'extra_ub_sets': [], 'scryfall_cache': None,
-            'language': None, 'card_prefs': False, 'spread': True}
+            'language': None, 'card_prefs': False, 'spread': True, 'modern_text': True}
 SAVED_OPTIONS = tuple(DEFAULTS)
 
 Printing = collections.namedtuple('Printing', 'set cn section date type border card art arts')
@@ -314,6 +314,12 @@ def category_of(p):
     return None
 
 
+def is_modern_text_old_frame(p):
+    """An old-frame reprint from 2004 on (retro frames, 30th Anniversary, Retro Artifacts...), whose text follows
+    current wording, unlike the original old-frame printings."""
+    return p.date >= OLD_FRAME_CUTOFF and is_old_frame(p)
+
+
 def is_old_frame(p):
     return (p.section == 'retro frame' or p.date < OLD_FRAME_CUTOFF
             or f'{p.set}|{p.cn}'.upper() in OLD_FRAME_PRINTINGS)
@@ -380,6 +386,7 @@ class Chooser:
         self.language = getattr(opts, 'language', None) or 'en'
         self.card_choices = {k.lower(): v for k, v in normalize_choices(opts.card_choices).items()}
         self.spread = getattr(opts, 'spread', True)
+        self.modern_text = getattr(opts, 'modern_text', True)
         self.cache = {}
         self.pools = {}
         self.fallbacks = {}
@@ -387,6 +394,7 @@ class Chooser:
     def rank(self, p):
         return (0 if in_language(p, self.language) else 1,
                 0 if (self.prefer_old_frame and is_old_frame(p)) else 1,
+                0 if (self.prefer_old_frame and self.modern_text and is_modern_text_old_frame(p)) else 1,
                 1 if (p.set in CATCH_ALL_SETS or p.type in LOW_PRIORITY_TYPES) else 0,
                 date_key(p.date, self.order_latest),
                 0 if p.section == 'cards' else 1,
@@ -414,6 +422,8 @@ class Chooser:
         tiers = [lambda p: in_language(p, self.language)]
         if self.prefer_old_frame:
             tiers.append(is_old_frame)
+            if self.modern_text:  # old frame with current wording: retro-frame reprints
+                tiers.append(is_modern_text_old_frame)
         tiers.append(lambda p: not (p.set in CATCH_ALL_SETS or p.type in LOW_PRIORITY_TYPES))
         for keep in tiers:
             narrowed = [p for p in ok if keep(p)]
@@ -930,7 +940,8 @@ def build_report(opts, apply, res, roots, stats, per_folder, chooser, kept, unkn
              f'- Forge files: {res}',
              f"- deck folders: {', '.join(roots)}",
              f"- {'spread across every allowed printing' if opts.spread else 'single best printing'}; "
-             f'order: {opts.order}; prefer old frame: {opts.prefer_old_frame}',
+             f'order: {opts.order}; prefer old frame: {opts.prefer_old_frame}'
+             f"{' (up-to-date text first)' if opts.prefer_old_frame and opts.modern_text else ''}",
              f"- excluded: {', '.join(sorted(opts.exclude)) or 'nothing'}",
              f"- extra UB sets: {', '.join(sorted(opts.extra_ub_sets)) or 'none'}",
              f'- language first: {opts.language}' if opts.language != 'en' else '- language first: no preference',
@@ -1154,7 +1165,7 @@ class GuiState:
             [os.path.normpath(os.path.abspath(os.path.expanduser(x))) for x in o.decks],
             'userDecks': bool(o.user_decks), 'userDecksDir': user_decks_dir(self.tool.profile),
             'extraDecks': extra, 'skipSetNamed': o.skip_set_named_decks, 'order': o.order,
-            'oldFrame': o.prefer_old_frame, 'exclude': list(o.exclude), 'backup': o.backup, 'spread': o.spread,
+            'oldFrame': o.prefer_old_frame, 'modernText': o.modern_text, 'exclude': list(o.exclude), 'backup': o.backup, 'spread': o.spread,
             'cardPrefs': o.card_prefs, 'cardPrefsPath': card_prefs_path(self.tool.profile),
             'onlineImages': o.online_images, 'picsDir': self.pics_dir(),
             'picsDirFound': os.path.isdir(self.pics_dir()), 'settingsPath': os.path.abspath(self.settings_path),
@@ -1186,6 +1197,8 @@ class GuiState:
             o.spread = bool(d['spread'])
         if d.get('order') in ('latest', 'oldest'):
             o.order = d['order']
+        if 'modernText' in d:
+            o.modern_text = bool(d['modernText'])
         if 'oldFrame' in d:
             o.prefer_old_frame = bool(d['oldFrame'])
         if 'exclude' in d:
@@ -1528,6 +1541,7 @@ dialog pre { white-space: pre-wrap; font: 12px ui-monospace, monospace; backgrou
 
     <h2>Prefer</h2>
     <label class="opt"><input type="checkbox" id="optOld"> <span>Old frame<br><span class="small">Pre-2003 sets and “retro frame” reprints</span></span></label>
+    <label class="opt" id="modernBox" style="margin-left:22px"><input type="checkbox" id="optModern"> <span>With up-to-date text<br><span class="small">Retro-frame reprints from 2004 on (30th Anniversary, Retro Artifacts, Commander sets…) when a card has them</span></span></label>
     <div class="small" style="margin:8px 0 4px">Printings in my language:</div>
     <select id="optLang" style="width:100%;font:inherit;padding:5px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)"></select>
     <div class="small" id="langInfo" style="margin-top:4px"></div>
@@ -1609,6 +1623,8 @@ function renderSettings() {
   if (!$('optForge').value) $('optForge').value = s.forgeFolder;
   $('userDir').textContent = s.userDecksDir; $('optExtra').value = s.extraDecks.join('\n');
   $('optSkipSet').checked = s.skipSetNamed; $('optOld').checked = s.oldFrame;
+  $('optModern').checked = s.modernText; $('optModern').disabled = !s.oldFrame;
+  $('modernBox').style.opacity = s.oldFrame ? '' : '.5';
   $('optLang').innerHTML = Object.entries(s.languages).map(([name, code]) =>
     `<option value="${code}" ${code === s.language ? 'selected' : ''}>${code === 'en' ? 'English (no preference)' : esc(name)}${code === s.forgeLanguage ? ' – Forge’s setting' : ''}</option>`).join('');
   const n = s.languageKnown, lname = langName(s.language), pr = `${n.toLocaleString()} printing${n === 1 ? '' : 's'}`;
@@ -1640,7 +1656,7 @@ function renderSettings() {
 async function saveRules(extra) {
   const body = Object.assign({
     exclude: [...$('cats').querySelectorAll('input:checked')].map(e => e.dataset.cat),
-    oldFrame: $('optOld').checked, onlineImages: $('optOnline').checked, backup: $('optBackup').checked,
+    oldFrame: $('optOld').checked, modernText: $('optModern').checked, onlineImages: $('optOnline').checked, backup: $('optBackup').checked,
     cardPrefs: $('optCardPrefs').checked,
     skipSetNamed: $('optSkipSet').checked,
   }, extra || {});
@@ -1776,7 +1792,7 @@ $('btnSave').onclick = () => busy($('btnSave'), async () => {
   try { const r = await api('/api/save', {}); toast('Saved to ' + r.path); } catch (e) { toast(e.message); }
 });
 
-for (const id of ['optOld', 'optOnline', 'optBackup', 'optSkipSet', 'optCardPrefs']) $(id).onchange = () => saveRules();
+for (const id of ['optOld', 'optModern', 'optOnline', 'optBackup', 'optSkipSet', 'optCardPrefs']) $(id).onchange = () => saveRules();
 for (const id of ['optAdventure', 'optUser']) $(id).onchange = () => saveDecks();
 $('optExtra').onchange = () => saveDecks();
  $('optLang').onchange = () => saveRules({ language: $('optLang').value });
@@ -1825,6 +1841,9 @@ def build_parser():
                             'deck to deck; --no-spread gives every deck the single best one (default: spread)')
     rules.add_argument('--order', choices=('latest', 'oldest'),
                        help='with --no-spread, which printing wins among equally preferred ones (default: latest)')
+    rules.add_argument('--modern-text', action=argparse.BooleanOptionalAction, default=None,
+                       help='with old frame preferred: use old-frame reprints from 2004 on (current wording) when a '
+                            'card has them, instead of also the originals (default: on)')
     rules.add_argument('--prefer-old-frame', action=argparse.BooleanOptionalAction, default=None,
                        help='prefer pre-Eighth Edition frames and retro-frame reprints (default: on)')
     rules.add_argument('--exclude', nargs='*', choices=sorted(CATEGORIES), metavar='CATEGORY',
