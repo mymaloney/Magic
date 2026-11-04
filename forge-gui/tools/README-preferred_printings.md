@@ -110,6 +110,11 @@ doesn't matter.
 | `full-art` | Full art printings | no |
 | `showcase` | Showcase and etched printings | no |
 | `white-border` | White-bordered sets (Revised to Ninth Edition, Portal Three Kingdoms...) | no |
+| `gold-border` | Gold-bordered printings (World Championship decks, ...)* | no |
+| `inverted` | Inverted-frame printings* | no |
+| `thick` | Thick-stock printings, such as display commanders* | no |
+
+\* Needs the card details from Scryfall (below).
 
 Allow a category again with `--include`, e.g. `--include white-border promo`. Or list exactly what to exclude
 with `--exclude`, e.g. `--exclude secret-lair ub`. Use `--exclude` on its own to exclude nothing.
@@ -121,6 +126,20 @@ code yourself: in the visual picker's "Also count these set codes as Universes B
 
 Hard exclusions are never broken: a card that only exists in those (like a Universes Beyond-only card) is left
 as it is. Soft ones are relaxed for a card only when it has no other printing; the report lists those cards.
+
+### Card details from Scryfall
+
+Forge's own files only mark some treatments: many full-art lands, borderless and showcase cards are listed as
+ordinary printings, and inverted frames, thick stock and gold borders aren't recorded at all. Download the
+missing details from Scryfall once (it takes about a minute) and the tool tags them all:
+
+- in the visual picker, **Card details → Download from Scryfall** (and **Update** after new sets come out);
+- on the command line, add `--update-scryfall`.
+
+They are saved to `preferred-printings-scryfall.json` next to your settings file (or in the current folder;
+`--scryfall-cache FILE` puts them elsewhere) and used automatically from then on. A printing can carry several
+tags, e.g. Secret Lair, borderless and inverted; it's excluded if any of them is. The details also catch
+Universes Beyond printings by their security stamp, on top of the tool's list of UB sets.
 
 ## Saving your choices
 
@@ -140,7 +159,7 @@ Options given on the command line override the file. The file is plain JSON and 
 keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`, `skip_dir`,
 `skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks: one printing or a list, e.g.
 `{"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}`), `image_cache`, `online_images` and
-`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`).
+`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`) and `scryfall_cache`.
 
 ## Other options
 
@@ -153,10 +172,10 @@ keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`,
 
 ## Limits
 
-- Forge's edition files don't record the inverted frame or thick stock, and Forge has no gold-bordered sets,
-  so those can't be filtered.
-- Some sets list treated printings in their regular section, or regular printings under a treatment; the tool
-  can only go by where a printing is listed.
+- Without the Scryfall card details, the tool only knows the treatments Forge's files mark, so many full-art,
+  borderless and showcase printings go untagged, and inverted, thick and gold-border can't be filtered.
+- Some sets list regular printings under a treatment section in Forge's files (e.g. Commander Masters'
+  precon cards under borderless); the Scryfall details add tags but can't remove Forge's.
 - Only deck files change. Cards created during play (Adventure rewards, shops, boosters) are not affected.
 - Adventure planes that limit cards to certain sets in their `config.json` (`legalCards.editions`) only get
   printings from those sets.

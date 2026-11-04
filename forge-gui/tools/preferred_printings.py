@@ -25,8 +25,11 @@ import secrets
 import shutil
 import sys
 import threading
+import time
 import unicodedata
+import urllib.error
 import urllib.parse
+import urllib.request
 import webbrowser
 
 # Universes Beyond sets (and their promo/companion sets) as named in Forge's edition files. Forge doesn't mark
@@ -98,13 +101,34 @@ CATEGORIES = {
     'showcase': ('showcase and etched printings', False, 'Showcase'),
     'white-border': ('white-bordered sets (Revised to Ninth Edition, Portal Three Kingdoms...)', False,
                      'White border'),
+    'gold-border': ('gold-bordered printings (needs Scryfall card details)', False, 'Gold border'),
+    'inverted': ('inverted-frame printings (needs Scryfall card details)', False, 'Inverted'),
+    'thick': ('thick-stock printings, e.g. display commanders (needs Scryfall card details)', False, 'Thick'),
 }
+
+# Card details from Scryfall fill the gaps in Forge's edition files (which only mark some treatments).
+# category: (search keywords to try in turn, test on each returned card). The test guards against a keyword
+# matching more than intended; if it rejects every result, the keyword's results are used as they are.
+SCRYFALL_API = 'https://api.scryfall.com'
+SCRYFALL_TAGS = {
+    'full-art': (('is:full', 'is:fullart'), lambda c: bool(c.get('full_art'))),
+    'borderless': (('border:borderless',), lambda c: c.get('border_color') == 'borderless'),
+    'white-border': (('border:white',), lambda c: c.get('border_color') == 'white'),
+    'gold-border': (('border:gold',), lambda c: c.get('border_color') == 'gold'),
+    'extended-art': (('frame:extendedart', 'is:extendedart'), lambda c: 'extendedart' in (c.get('frame_effects') or [])),
+    'showcase': (('frame:showcase', 'is:showcase'), lambda c: 'showcase' in (c.get('frame_effects') or [])),
+    'inverted': (('frame:inverted', 'is:inverted'), lambda c: 'inverted' in (c.get('frame_effects') or [])),
+    'thick': (('is:thick',), lambda c: 'thick' in (c.get('promo_types') or [])),
+    'ub': (('stamp:triangle',), lambda c: c.get('security_stamp') == 'triangle'),
+}
+SCRYFALL_CACHE_NAME = 'preferred-printings-scryfall.json'
+PRINTING_TAGS = {}  # "SET|CN" -> set of categories, from the Scryfall card details file
 
 # Options that a settings file (--config / --save-config) can hold, with their defaults.
 DEFAULTS = {'forge': None, 'decks': [], 'user_decks': False, 'skip_dir': [], 'skip_set_named_decks': True,
             'order': 'latest', 'prefer_old_frame': True, 'exclude': sorted(CATEGORIES),
             'backup': True, 'backup_dir': 'preferred-printings-backups', 'card_choices': {},
-            'image_cache': None, 'online_images': True, 'extra_ub_sets': []}
+            'image_cache': None, 'online_images': True, 'extra_ub_sets': [], 'scryfall_cache': None}
 SAVED_OPTIONS = tuple(DEFAULTS)
 
 Printing = collections.namedtuple('Printing', 'set cn section date type border card art arts')
@@ -243,8 +267,21 @@ class Editions:
         return self.by_name.get(name.lower(), [])
 
 
+def categories_of(p):
+    """Every filter category a printing falls into (empty for a regular printing)."""
+    cats = set(PRINTING_TAGS.get(f'{p.set}|{p.cn}'.upper(), ()))
+    own = category_of(p)
+    if own:
+        cats.add(own)
+    return cats
+
+
+def is_excluded(p, excluded):
+    return bool(categories_of(p) & excluded)
+
+
 def category_of(p):
-    """The filter category a printing falls into, or None for a regular printing."""
+    """The category Forge's own edition files put a printing in, or None."""
     if p.set in UB_SETS:
         return 'ub'
     if p.set in SECRET_LAIR_SETS:
@@ -329,11 +366,11 @@ class Chooser:
         prints = self.editions.get(name)
         if allowed_sets is not None:
             prints = [p for p in prints if p.set.upper() in allowed_sets]
-        ok = [p for p in prints if category_of(p) not in self.excluded]
+        ok = [p for p in prints if not is_excluded(p, self.excluded)]
         if ok:
             return min(ok, key=self.rank), False
         hard = {c for c in self.excluded if CATEGORIES[c][1]}
-        ok = [p for p in prints if category_of(p) not in hard]
+        ok = [p for p in prints if not is_excluded(p, hard)]
         return (min(ok, key=self.rank), True) if ok else (None, False)
 
     def picks(self, name, allowed_sets=None):
@@ -357,7 +394,8 @@ class Chooser:
         if result is None:
             result, fallback = self.automatic(name, allowed_sets)
             if fallback:
-                self.fallbacks[name] = f'{result.set} [{result.cn}] ({category_of(result)})'
+                cats = ', '.join(sorted(categories_of(result) & self.excluded))
+                self.fallbacks[name] = f'{result.set} [{result.cn}] ({cats})'
         self.cache[key] = result
         return result
 
@@ -468,6 +506,99 @@ def rewrite(text, chooser, editions, allowed_sets, stats, kept, unknown, samples
     return ''.join(out), changed
 
 
+def scryfall_cache_path(opts):
+    if opts.scryfall_cache:
+        return os.path.abspath(os.path.expanduser(opts.scryfall_cache))
+    base = os.path.dirname(os.path.abspath(opts.config)) if getattr(opts, 'config', None) else os.getcwd()
+    return os.path.join(base, SCRYFALL_CACHE_NAME)
+
+
+def load_scryfall_tags(path):
+    """Load card details saved by fetch_scryfall_tags; returns the file's info, or None if there is none."""
+    PRINTING_TAGS.clear()
+    if not os.path.isfile(path):
+        return None
+    try:
+        with open(path, encoding='utf-8') as f:
+            data = json.load(f)
+        for cat, keys in data.get('tags', {}).items():
+            if cat in CATEGORIES:
+                for key in keys:
+                    PRINTING_TAGS.setdefault(key.upper(), set()).add(cat)
+    except (OSError, ValueError, AttributeError) as e:
+        raise ToolError(f'Could not read Scryfall card details from {path}: {e}')
+    return {'fetched': data.get('fetched'), 'printings': len(PRINTING_TAGS), 'notes': data.get('notes', [])}
+
+
+def _scryfall_get(url):
+    req = urllib.request.Request(url, headers={'User-Agent': 'ForgePreferredPrintings/1.0',
+                                               'Accept': 'application/json'})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return 200, json.load(r)
+    except urllib.error.HTTPError as e:
+        try:
+            return e.code, json.load(e)
+        except ValueError:
+            return e.code, {}
+
+
+def fetch_scryfall_tags(editions, path, api=SCRYFALL_API, progress=None):
+    """Ask Scryfall which printings are full art, borderless, showcase... and save them to path.
+
+    Uses Scryfall's search with one query per treatment (a few dozen requests in all, paced as Scryfall asks).
+    """
+    forge_codes = collections.defaultdict(set)  # Scryfall set code -> Forge set codes
+    for code, info in editions.sets.items():
+        forge_codes[info.scryfall.lower()].add(info.code)
+    tags, notes = {}, []
+    for cat, (queries, test) in SCRYFALL_TAGS.items():
+        found = None
+        for query in queries:
+            url = f'{api}/cards/search?' + urllib.parse.urlencode(
+                {'q': query, 'unique': 'prints', 'include_variations': 'true'})
+            cards, ok = [], True
+            while url:
+                if progress:
+                    progress(f'{CATEGORIES[cat][2]}: {len(cards)} printings so far')
+                time.sleep(0.12)  # Scryfall asks for 50-100 ms between requests
+                try:
+                    status, page = _scryfall_get(url)
+                except (urllib.error.URLError, OSError) as e:
+                    raise ToolError(f'Could not reach Scryfall ({getattr(e, "reason", e)}). '
+                                    'Check your internet connection and try again.')
+                if status == 404 and page.get('object') == 'error':  # no cards match
+                    break
+                if status != 200:
+                    ok = False
+                    notes.append(f'{cat}: Scryfall did not accept "{query}" '
+                                 f'({page.get("details", f"HTTP {status}")})')
+                    break
+                cards.extend(page.get('data', []))
+                url = page.get('next_page') if page.get('has_more') else None
+            if not ok:
+                continue
+            kept = [c for c in cards if test(c)]
+            if cards and not kept:
+                notes.append(f'{cat}: none of the {len(cards)} results for "{query}" passed the check; used them all')
+                kept = cards
+            found = kept
+            break
+        if found is None:
+            notes.append(f'{cat}: no Scryfall search worked; this category is left to Forge\'s own data')
+            continue
+        keys = set()
+        for c in found:
+            cn = str(c.get('collector_number', ''))
+            for code in forge_codes.get(str(c.get('set', '')).lower(), ()):
+                keys.add(f'{code}|{cn}'.upper())
+        tags[cat] = sorted(keys)
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump({'fetched': datetime.datetime.now().isoformat(timespec='seconds'), 'source': api,
+                   'notes': notes, 'tags': tags}, f, indent=0)
+    return load_scryfall_tags(path)
+
+
 class Tool:
     """Forge's data plus the user's options; shared by the command line and the GUI."""
 
@@ -483,6 +614,13 @@ class Tool:
         if unknown:
             raise ToolError(f"Unknown set code(s) in extra UB sets: {', '.join(unknown)}")
         set_extra_ub_sets(opts.extra_ub_sets)
+        self.scryfall_api = SCRYFALL_API
+        self.scryfall_path = scryfall_cache_path(opts)
+        self.scryfall_info = load_scryfall_tags(self.scryfall_path)
+
+    def update_scryfall(self, api=SCRYFALL_API, progress=None):
+        self.scryfall_info = fetch_scryfall_tags(self.editions, self.scryfall_path, api, progress)
+        return self.scryfall_info
 
     def roots(self):
         return deck_roots(self.opts, self.res, self.profile)
@@ -565,6 +703,8 @@ def build_report(opts, apply, res, roots, stats, per_folder, chooser, kept, unkn
              f'- order: {opts.order}; prefer old frame: {opts.prefer_old_frame}',
              f"- excluded: {', '.join(sorted(opts.exclude)) or 'nothing'}",
              f"- extra UB sets: {', '.join(sorted(opts.extra_ub_sets)) or 'none'}",
+             f"- Scryfall card details: {len(PRINTING_TAGS)} printings tagged" if PRINTING_TAGS else
+             '- Scryfall card details: not downloaded (only Forge\'s own treatment data is used)',
              f'- cards with your own picks: {len(normalize_choices(opts.card_choices))}',
              f"- skipped folders: {', '.join(opts.skip_dir) or 'none'}; "
              f'skip set-named decks: {opts.skip_set_named_decks}', '', '## Totals']
@@ -599,7 +739,7 @@ def load_settings(path):
     if unknown:
         raise ToolError(f"Unknown setting(s) in {path}: {', '.join(sorted(unknown))}")
     base = os.path.dirname(os.path.abspath(path))
-    for key in ('forge', 'backup_dir', 'image_cache'):  # relative paths are relative to the settings file
+    for key in ('forge', 'backup_dir', 'image_cache', 'scryfall_cache'):  # relative to the settings file
         if saved.get(key):
             saved[key] = os.path.join(base, os.path.expanduser(saved[key]))
     if saved.get('decks'):
@@ -609,7 +749,7 @@ def load_settings(path):
 
 def save_settings(opts, path):
     data = {k: getattr(opts, k) for k in SAVED_OPTIONS}
-    for key in ('forge', 'image_cache'):
+    for key in ('forge', 'image_cache', 'scryfall_cache'):
         if data[key]:
             data[key] = os.path.abspath(os.path.expanduser(data[key]))
     data['decks'] = [os.path.abspath(os.path.expanduser(d)) for d in data['decks']]
@@ -692,8 +832,9 @@ class GuiState:
                         if s.startswith('['):
                             section = s.lower()
                         parsed = parse_card_line(s) if section != '[metadata]' else None
-                        if parsed and self.tool.editions.get(parsed[2]):
-                            names.add(parsed[2])
+                        prints = self.tool.editions.get(parsed[2]) if parsed else None
+                        if prints:  # Forge's spelling, so "snow-covered Forest" and "Snow-Covered Forest" match
+                            names.add(prints[0].card if ' // ' not in prints[0].card else parsed[2])
                 counts.update(names)
             self.deck_cards, self.deck_cards_key = counts, key
         return self.deck_cards
@@ -712,6 +853,7 @@ class GuiState:
             'oldFrame': o.prefer_old_frame, 'exclude': list(o.exclude), 'backup': o.backup,
             'onlineImages': o.online_images, 'picsDir': self.pics_dir(),
             'picsDirFound': os.path.isdir(self.pics_dir()), 'settingsPath': os.path.abspath(self.settings_path),
+            'scryfall': self.tool.scryfall_info, 'scryfallPath': self.tool.scryfall_path,
             'picks': len(normalize_choices(o.card_choices)),
             'extraUb': list(o.extra_ub_sets), 'builtInUb': sorted(BUILT_IN_UB_SETS),
             'categories': [{'id': k, 'label': v[2], 'about': v[0], 'hard': v[1]} for k, v in CATEGORIES.items()],
@@ -774,13 +916,14 @@ class GuiState:
         mine = {choice_key(p).upper() for p in chooser.picks(name)}
         out = []
         # Usable printings first, in the order the rules rank them; excluded ones after.
-        for p in sorted(chooser.ranked(name), key=lambda p: category_of(p) in chooser.excluded):
+        for p in sorted(chooser.ranked(name), key=lambda p: is_excluded(p, chooser.excluded)):
             info = editions.sets.get(p.set.upper())
-            cat = category_of(p)
+            cats = sorted(categories_of(p), key=list(CATEGORIES).index)
             out.append({
                 'set': p.set, 'cn': p.cn, 'setName': info.name if info else p.set, 'year': p.date[:4],
-                'section': p.section, 'category': cat, 'categoryLabel': CATEGORIES[cat][2] if cat else None,
-                'excluded': cat in chooser.excluded, 'oldFrame': is_old_frame(p),
+                'section': p.section,
+                'cats': [{'label': CATEGORIES[c][2], 'excluded': c in chooser.excluded} for c in cats],
+                'excluded': is_excluded(p, chooser.excluded), 'oldFrame': is_old_frame(p),
                 'auto': auto is not None and choice_key(p) == choice_key(auto),
                 'mine': choice_key(p).upper() in mine,
                 'chosen': choice_key(p).upper() in mine if mine else (
@@ -903,6 +1046,9 @@ class GuiHandler(http.server.BaseHTTPRequestHandler):
                 if path == '/api/save':
                     save_settings(st.opts, st.settings_path)
                     return self._json({'path': os.path.abspath(st.settings_path)})
+                if path == '/api/scryfall':
+                    st.tool.update_scryfall(st.tool.scryfall_api)
+                    return self._json(st.describe())
                 if path == '/api/report':
                     result = st.tool.run(apply=False)
                     return self._json({'report': result['report']})
@@ -1047,6 +1193,11 @@ dialog pre { white-space: pre-wrap; font: 12px ui-monospace, monospace; backgrou
     <div class="small" style="margin:6px 0 4px">Then take the</div>
     <div class="seg" id="segOrder"><button data-v="latest">Latest</button><button data-v="oldest">Oldest</button></div>
 
+    <h2>Card details</h2>
+    <div class="small" id="scryInfo"></div>
+    <button id="btnScry" style="margin-top:6px">Download from Scryfall</button>
+    <div class="small" id="scryNotes" style="margin-top:4px"></div>
+
     <h2>Images</h2>
     <label class="opt"><input type="checkbox" id="optOnline"> <span>Fetch missing images from Scryfall<br><span class="small" id="picsDir"></span></span></label>
 
@@ -1110,6 +1261,11 @@ function renderSettings() {
   $('optSkipSet').checked = s.skipSetNamed; $('optOld').checked = s.oldFrame;
   $('optOnline').checked = s.onlineImages; $('optBackup').checked = s.backup;
   $('optExtraUb').value = s.extraUb.join(', '); $('builtInUb').textContent = s.builtInUb.join(', ');
+  $('scryInfo').textContent = s.scryfall
+    ? `${s.scryfall.printings.toLocaleString()} printings tagged (full art, borderless, inverted…), downloaded ${s.scryfall.fetched.replace('T', ' ')}.`
+    : 'Forge’s files miss many full-art, borderless and other treatments. Download the details from Scryfall to tag them (takes about a minute).';
+  $('btnScry').textContent = s.scryfall ? 'Update from Scryfall' : 'Download from Scryfall';
+  $('scryNotes').textContent = s.scryfall && s.scryfall.notes.length ? 'Notes: ' + s.scryfall.notes.join('; ') : '';
   $('picsDir').textContent = (s.picsDirFound ? 'Forge image cache: ' : 'No Forge image cache found at ') + s.picsDir;
   $('settingsPath').textContent = 'Settings file: ' + s.settingsPath;
   for (const b of $('segOrder').children) b.classList.toggle('on', b.dataset.v === s.order);
@@ -1185,7 +1341,7 @@ function renderCard(data) {
             ${p.mine ? '<span class="tag mine">Your pick</span>' : ''}
             ${p.auto ? '<span class="tag auto">Rules pick</span>' : ''}
             ${p.oldFrame ? '<span class="tag old">Old frame</span>' : ''}
-            ${p.category ? `<span class="tag ${p.excluded ? 'ex' : ''}">${esc(p.categoryLabel)}${p.excluded ? ' · excluded' : ''}</span>` : ''}
+            ${p.cats.map(c => `<span class="tag ${c.excluded ? 'ex' : ''}">${esc(c.label)}${c.excluded ? ' · excluded' : ''}</span>`).join('')}
           </div></div></div>`).join('')}</div>`;
   for (const t of d.querySelectorAll('.tile')) t.onclick = () => pick(data, data.printings[+t.dataset.i]);
   const auto = $('btnAuto'); if (auto) auto.onclick = () => pick(data, null);
@@ -1207,7 +1363,10 @@ async function pick(data, p) {
   } catch (e) { toast(e.message); }
 }
 
-async function busy(btn, fn) { const old = btn.textContent; btn.disabled = true; btn.textContent = 'Working…'; try { await fn(); } finally { btn.disabled = false; btn.textContent = old; } }
+async function busy(btn, fn) {
+  const old = btn.textContent; btn.disabled = true; btn.textContent = 'Working…';
+  try { await fn(); } finally { btn.disabled = false; if (btn.textContent === 'Working…') btn.textContent = old; }
+}
 
 $('btnPreview').onclick = () => busy($('btnPreview'), async () => {
   try {
@@ -1230,6 +1389,12 @@ $('btnApply').onclick = () => busy($('btnApply'), async () => {
       (r.backup ? `<p class="small">Originals backed up to<br><code>${esc(r.backup)}</code></p><p class="small">To undo, run:<br><code>python3 preferred_printings.py --restore "${esc(r.backup)}"</code></p>` : ''),
       [['Close', null, true]]);
     loadCards(); if (current) openCard(current);
+  } catch (e) { toast(e.message); }
+});
+$('btnScry').onclick = () => busy($('btnScry'), async () => {
+  try {
+    state = await api('/api/scryfall', {}); renderSettings(); await loadCards(); if (current) await openCard(current);
+    toast(`Tagged ${state.scryfall.printings.toLocaleString()} printings from Scryfall`);
   } catch (e) { toast(e.message); }
 });
 $('btnSave').onclick = () => busy($('btnSave'), async () => {
@@ -1300,6 +1465,13 @@ def build_parser():
                      help="Forge's card image folder, for the GUI (default: found automatically)")
     run.add_argument('--online-images', action=argparse.BooleanOptionalAction, default=None,
                      help='let the GUI fetch images Forge has not downloaded from Scryfall (default: on)')
+    run.add_argument('--update-scryfall', action='store_true',
+                     help='download card details (full art, borderless, showcase, inverted, thick, gold border, '
+                          'UB stamp...) from Scryfall before running; they are saved and reused afterwards')
+    run.add_argument('--scryfall-cache', metavar='FILE', default=None,
+                     help=f'where those card details are saved (default: {SCRYFALL_CACHE_NAME} next to the '
+                          'settings file, or in the current folder)')
+    run.add_argument('--scryfall-api', default=SCRYFALL_API, help=argparse.SUPPRESS)
     run.add_argument('--apply', action='store_true', help='rewrite the deck files (default: dry run)')
     run.add_argument('--backup', action=argparse.BooleanOptionalAction, default=None,
                      help='copy each deck before changing it (default: on)')
@@ -1350,6 +1522,17 @@ def main():
             print(f'Settings saved to {args.save_config}. Run again with: --config "{args.save_config}" --apply')
             return
         tool = Tool(args)
+        tool.scryfall_api = args.scryfall_api
+        if args.update_scryfall:
+            info = tool.update_scryfall(args.scryfall_api,
+                                        progress=lambda m: print(f'\r{m:<60}', end='', file=sys.stderr))
+            print(f"\rScryfall card details saved to {tool.scryfall_path}: {info['printings']} printings tagged.",
+                  file=sys.stderr)
+            for note in info['notes']:
+                print(f'  note: {note}', file=sys.stderr)
+        elif not tool.scryfall_info:
+            print('Tip: add --update-scryfall once to tag full art, inverted, thick and other printings that '
+                  "Forge's files don't mark.", file=sys.stderr)
         if args.gui:
             run_gui(tool, args.config, args.port, not args.no_browser)
             return
