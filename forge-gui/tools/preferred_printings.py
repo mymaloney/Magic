@@ -107,13 +107,13 @@ CATEGORIES = {
 }
 
 # Card details from Scryfall fill the gaps in Forge's edition files (which only mark some treatments).
+# White borders aren't asked for: Forge's edition files already mark the white-bordered sets.
 # category: (search keywords to try in turn, test on each returned card). The test guards against a keyword
 # matching more than intended; if it rejects every result, the keyword's results are used as they are.
 SCRYFALL_API = 'https://api.scryfall.com'
 SCRYFALL_TAGS = {
     'full-art': (('is:full', 'is:fullart'), lambda c: bool(c.get('full_art'))),
     'borderless': (('border:borderless',), lambda c: c.get('border_color') == 'borderless'),
-    'white-border': (('border:white',), lambda c: c.get('border_color') == 'white'),
     'gold-border': (('border:gold',), lambda c: c.get('border_color') == 'gold'),
     'extended-art': (('frame:extendedart', 'is:extendedart'), lambda c: 'extendedart' in (c.get('frame_effects') or [])),
     'showcase': (('frame:showcase', 'is:showcase'), lambda c: 'showcase' in (c.get('frame_effects') or [])),
@@ -796,13 +796,60 @@ def find_cached_image(pics_dir, editions, p):
     return None
 
 
-def scryfall_image_url(editions, p):
+def scryfall_image_url(editions, p, api=SCRYFALL_API):
     info = editions.sets.get(p.set.upper())
     code = info.scryfall if info else p.set.lower()
     cn = p.cn[1:] if re.match(r'^F\d+[a-z]?$', p.cn) else p.cn
     face = '&face=front' if ' // ' in p.card else ''
-    return (f'https://api.scryfall.com/cards/{urllib.parse.quote(code)}/{urllib.parse.quote(cn)}'
+    return (f'{api}/cards/{urllib.parse.quote(code)}/{urllib.parse.quote(cn)}'
             f'?format=image&version=normal{face}')
+
+
+class ImageDownloader:
+    """Fetches card pictures from Scryfall one at a time, paced as Scryfall asks, and keeps them on disk.
+
+    A card can have hundreds of printings; asking Scryfall for all of their pictures at once gets most of the
+    requests throttled, so the picker goes through here instead of linking to Scryfall directly."""
+
+    def __init__(self, folder):
+        self.folder = folder
+        self.lock = threading.Lock()
+        self.last = 0.0
+
+    def path_for(self, p):
+        safe = lambda t: re.sub(r'[^0-9A-Za-z._-]', '_', t)
+        return os.path.join(self.folder, safe(p.set.upper()), safe(p.cn) + '.jpg')
+
+    def get(self, url, dest):
+        if os.path.isfile(dest):
+            return dest
+        with self.lock:
+            if os.path.isfile(dest):  # another request fetched it while this one waited
+                return dest
+            for attempt in range(4):
+                wait = 0.11 - (time.monotonic() - self.last)
+                if wait > 0:
+                    time.sleep(wait)
+                self.last = time.monotonic()
+                req = urllib.request.Request(url, headers={'User-Agent': 'ForgePreferredPrintings/1.0',
+                                                           'Accept': 'image/*'})
+                try:
+                    with urllib.request.urlopen(req, timeout=30) as r:
+                        data = r.read()
+                except urllib.error.HTTPError as e:
+                    if e.code == 429:  # throttled: back off and try again
+                        time.sleep(float(e.headers.get('Retry-After') or 1) * (attempt + 1))
+                        continue
+                    return None
+                except (urllib.error.URLError, OSError):
+                    return None
+                os.makedirs(os.path.dirname(dest), exist_ok=True)
+                tmp = dest + '.part'
+                with open(tmp, 'wb') as f:
+                    f.write(data)
+                os.replace(tmp, dest)
+                return dest
+        return None
 
 
 class GuiState:
@@ -811,6 +858,8 @@ class GuiState:
         self.settings_path = settings_path
         self.lock = threading.Lock()
         self.deck_cards = None  # name -> number of decks it appears in
+        self.downloader = ImageDownloader(os.path.join(os.path.dirname(tool.scryfall_path),
+                                                       'preferred-printings-images'))
         self.deck_cards_key = None
 
     @property
@@ -954,8 +1003,13 @@ class GuiState:
                 path = find_cached_image(self.pics_dir(), self.tool.editions, p)
                 if path:
                     return 'file', path
+                path = self.downloader.path_for(p)
+                if os.path.isfile(path):
+                    return 'file', path
                 if self.opts.online_images:
-                    return 'url', scryfall_image_url(self.tool.editions, p)
+                    path = self.downloader.get(scryfall_image_url(self.tool.editions, p, self.tool.scryfall_api), path)
+                    if path:
+                        return 'file', path
                 return None, None
         return None, None
 
@@ -1000,11 +1054,6 @@ class GuiHandler(http.server.BaseHTTPRequestHandler):
                     data = f.read()
                 return self._send(200, data, mimetypes.guess_type(where)[0] or 'image/jpeg',
                                   {'Cache-Control': 'max-age=3600'})
-            if kind == 'url':
-                self.send_response(302)
-                self.send_header('Location', where)
-                self.end_headers()
-                return None
             return self._send(404, 'no image', 'text/plain')
         if self.headers.get('X-Token') != self.token:
             return self._send(403, 'forbidden', 'text/plain')
@@ -1138,7 +1187,8 @@ textarea { width: 100%; font: 12px ui-monospace, monospace; border: 1px solid va
 .tile.chosen { border-color: var(--accent); }
 .tile.excluded .art { opacity: .38; filter: grayscale(.6); }
 .art { width: 100%; aspect-ratio: 488 / 680; border-radius: 4.75% / 3.5%; background: var(--chip); display: flex; align-items: center; justify-content: center; overflow: hidden; color: var(--muted); font-size: 12px; text-align: center; }
-.art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.art { position: relative; }
+.art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 .meta { margin-top: 6px; font-size: 12px; }
 .meta .set { font-weight: 600; }
 .tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
@@ -1334,7 +1384,7 @@ function renderCard(data) {
     ${note}
     <div class="grid">${shown.map(([p, i]) => `
       <div class="tile ${p.chosen ? 'chosen' : ''} ${p.excluded ? 'excluded' : ''}" data-i="${i}" title="${esc(p.setName)} (${esc(p.set)}) #${esc(p.cn)}">
-        <div class="art"><img loading="lazy" alt="" src="${p.img}" onerror="this.parentNode.textContent='No image'"></div>
+        <div class="art"><span>Loading…</span><img loading="lazy" alt="" src="${p.img}" onerror="this.parentNode.textContent='No image'"></div>
         <div class="meta"><div class="set">${esc(p.setName)}</div>
           <div class="small">${esc(p.set)} · #${esc(p.cn)} · ${esc(p.year)}</div>
           <div class="tags">

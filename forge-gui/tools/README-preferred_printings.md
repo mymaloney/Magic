@@ -36,7 +36,9 @@ window open while you use it, and press Ctrl+C there to quit.
   next time. You can also use that file from the command line: `--config preferred-printings.json --apply`.
 
 Pictures come from Forge's own image cache when Forge has already downloaded them. Others are fetched from
-Scryfall, the same place Forge gets them; untick "Fetch missing images from Scryfall" to stay offline.
+Scryfall, the same place Forge gets them, a few per second as Scryfall asks, so a card with hundreds of
+printings fills in as you scroll. They are kept in a `preferred-printings-images` folder next to your settings
+file, so each picture is only downloaded once. Untick "Fetch missing images from Scryfall" to stay offline.
 
 ## Quick start (command line)
 
@@ -131,7 +133,8 @@ as it is. Soft ones are relaxed for a card only when it has no other printing; t
 
 Forge's own files only mark some treatments: many full-art lands, borderless and showcase cards are listed as
 ordinary printings, and inverted frames, thick stock and gold borders aren't recorded at all. Download the
-missing details from Scryfall once (it takes about a minute) and the tool tags them all:
+missing details from Scryfall once (it takes a minute or two: Scryfall sends tens of thousands of printings,
+a page at a time) and the tool tags them all:
 
 - in the visual picker, **Card details → Download from Scryfall** (and **Update** after new sets come out);
 - on the command line, add `--update-scryfall`.
