@@ -197,6 +197,50 @@ def read_profile(forge_path, res):
     return props
 
 
+def find_forge_installs(limit=8):
+    """Forge folders in the usual places (a quick look, two folders deep), for the picker to suggest."""
+    home = os.path.expanduser('~')
+    places = [home] + [os.path.join(home, d) for d in ('Desktop', 'Downloads', 'Documents', 'Games', 'Applications',
+                                                       os.path.join('OneDrive', 'Desktop'),
+                                                       os.path.join('OneDrive', 'Documents'))]
+    if sys.platform.startswith('win'):
+        for var in ('ProgramFiles', 'ProgramFiles(x86)', 'LOCALAPPDATA'):
+            if os.environ.get(var):
+                places.append(os.environ[var])
+        places += ['C:\\', 'D:\\']
+    elif sys.platform == 'darwin':
+        places.append('/Applications')
+    else:
+        places += ['/opt', '/usr/share', '/usr/local/share']
+    found, seen, deadline = [], set(), time.monotonic() + 3
+
+    def look(folder, depth):
+        if len(found) >= limit or time.monotonic() > deadline or folder in seen:
+            return
+        seen.add(folder)
+        if find_res(folder):
+            found.append(os.path.abspath(folder))
+            return
+        if depth == 0:
+            return
+        try:
+            names = os.listdir(folder)
+        except OSError:
+            return
+        for n in names:
+            # Forge folders are usually named for Forge; elsewhere only go one level down.
+            if n.startswith('.') or (depth == 1 and 'forge' not in n.lower()):
+                continue
+            full = os.path.join(folder, n)
+            if os.path.isdir(full):
+                look(full, depth - 1)
+
+    for place in places:
+        if os.path.isdir(place):
+            look(place, 2)
+    return list(dict.fromkeys(found))
+
+
 def default_dirs():
     """Forge's default user and cache folders, matching ForgeProfileProperties."""
     home = os.path.expanduser('~')
@@ -765,7 +809,8 @@ class Tool:
         self.res = find_res(opts.forge)
         if not self.res:
             raise ToolError('Could not find Forge\'s files. Point --forge at your Forge folder '
-                            '(the one containing "res"), or at Forge.app on a Mac.')
+                            '(the one containing "res"), or at Forge.app on a Mac; or start this with no '
+                            'options to choose it in the picker.')
         self.profile = read_profile(opts.forge, self.res)
         self.editions = Editions(os.path.join(self.res, 'editions'))
         unknown = sorted(c.upper() for c in opts.extra_ub_sets if c.strip().upper() not in self.editions.sets)
@@ -991,6 +1036,8 @@ def load_settings(path):
 
 def save_settings(opts, path):
     data = {k: getattr(opts, k) for k in SAVED_OPTIONS}
+    if not getattr(opts, 'forge_chosen', True):  # don't save a Forge folder that was only guessed
+        data['forge'] = None
     for key in ('forge', 'image_cache', 'scryfall_cache'):
         if data[key]:
             data[key] = os.path.abspath(os.path.expanduser(data[key]))
@@ -1105,31 +1152,68 @@ class GuiState:
             raise ToolError(f'No Forge files found in {folder}. Choose the folder that contains "res" '
                             '(or Forge.app on a Mac).')
         o = self.opts
-        old_adventure = os.path.normpath(os.path.join(self.tool.res, 'adventure'))
-        o.decks = [os.path.join(new_res, 'adventure') if os.path.normpath(os.path.abspath(d)) == old_adventure else d
-                   for d in o.decks]
-        old_forge, o.forge = o.forge, folder
+        if self.tool:
+            old_adventure = os.path.normpath(os.path.join(self.tool.res, 'adventure'))
+            o.decks = [os.path.join(new_res, 'adventure') if os.path.normpath(os.path.abspath(d)) == old_adventure
+                       else d for d in o.decks]
+        else:  # first choice: forget deck folders saved for another Forge that no longer exists
+            o.decks = [d for d in o.decks if os.path.isdir(os.path.expanduser(d))]
+        old_forge, o.forge = o.forge, os.path.abspath(folder)
         try:
             tool = Tool(o)
         except ToolError:
             o.forge = old_forge
             raise
-        tool.scryfall_api = self.tool.scryfall_api
+        o.forge_chosen = True
+        tool.scryfall_api = self.scryfall_api
         self.tool = tool
         self.deck_cards_key = None
+        save_settings(o, self.settings_path)  # remember the Forge folder for next time
 
-    def __init__(self, tool, settings_path):
-        self.tool = tool
+    def __init__(self, tool, settings_path, opts, scryfall_api=SCRYFALL_API):
+        self.tool = tool  # None until the player has chosen their Forge folder
+        self._opts = opts
         self.settings_path = settings_path
+        self.scryfall_api = scryfall_api
         self.lock = threading.Lock()
         self.deck_cards = None  # name -> number of decks it appears in
-        self.downloader = ImageDownloader(os.path.join(os.path.dirname(tool.scryfall_path),
+        self.downloader = ImageDownloader(os.path.join(os.path.dirname(os.path.abspath(settings_path)),
                                                        'preferred-printings-images'))
         self.deck_cards_key = None
 
     @property
     def opts(self):
-        return self.tool.opts
+        return self._opts
+
+    def setup_state(self):
+        """What the page needs to ask where Forge is installed."""
+        return {'needsForge': True, 'suggestions': find_forge_installs(),
+                'settingsPath': os.path.abspath(self.settings_path), 'home': os.path.expanduser('~')}
+
+    @staticmethod
+    def browse(path):
+        """A folder's subfolders, for the in-page folder browser (the browser can't reveal real paths)."""
+        path = os.path.abspath(os.path.expanduser(path or '~'))
+        if not os.path.isdir(path):
+            raise ToolError(f'Folder not found: {path}')
+        try:
+            names = sorted((n for n in os.listdir(path) if not n.startswith('.')), key=str.lower)
+        except OSError as e:
+            raise ToolError(f'Cannot open {path}: {e.strerror or e}')
+        dirs = []
+        for n in names:
+            full = os.path.join(path, n)
+            if os.path.isdir(full):
+                dirs.append({'name': n, 'path': full, 'forge': bool(find_res(full))})
+            if len(dirs) >= 500:
+                break
+        parent = os.path.dirname(path)
+        roots = []
+        if sys.platform.startswith('win'):
+            import string
+            roots = [f'{d}:\\' for d in string.ascii_uppercase if os.path.isdir(f'{d}:\\')]
+        return {'path': path, 'parent': parent if parent != path else None, 'dirs': dirs,
+                'forge': bool(find_res(path)), 'roots': roots, 'home': os.path.expanduser('~')}
 
     def pics_dir(self):
         return self.opts.image_cache or card_pics_dir(self.tool.profile)
@@ -1159,6 +1243,7 @@ class GuiState:
         extra = [d for d in (os.path.normpath(os.path.abspath(os.path.expanduser(x))) for x in o.decks)
                  if d != adventure]
         return {
+            'needsForge': False,
             'forge': self.tool.res, 'forgeFolder': os.path.abspath(os.path.expanduser(o.forge)),
             'sourceCheckout': os.path.basename(os.path.dirname(self.tool.res)) == 'forge-gui',
             'adventure': not o.decks and not o.user_decks or adventure in
@@ -1349,6 +1434,10 @@ class GuiHandler(http.server.BaseHTTPRequestHandler):
             return self._send(403, 'forbidden', 'text/plain')
         try:
             with self.state.lock:
+                if url.path == '/api/browse':
+                    return self._json(self.state.browse(q.get('path', '')))
+                if self.state.tool is None:  # nothing else works until the player has chosen their Forge
+                    return self._json(self.state.setup_state())
                 if url.path == '/api/state':
                     return self._json(self.state.describe())
                 if url.path == '/api/cards':
@@ -1371,11 +1460,13 @@ class GuiHandler(http.server.BaseHTTPRequestHandler):
         st = self.state
         try:
             with st.lock:
-                if path == '/api/settings':
-                    st.update(body)
-                    return self._json(st.describe())
                 if path == '/api/forge':
                     st.set_forge(body.get('path', ''))
+                    return self._json(st.describe())
+                if st.tool is None:
+                    return self._json({'error': 'Choose your Forge folder first.'}, 400)
+                if path == '/api/settings':
+                    st.update(body)
                     return self._json(st.describe())
                 if path == '/api/pick':
                     st.set_pick(body.get('name', ''), body.get('key'), body.get('on', True))
@@ -1402,13 +1493,14 @@ class GuiHandler(http.server.BaseHTTPRequestHandler):
         return self._send(404, 'not found', 'text/plain')
 
 
-def run_gui(tool, settings_path, port=0, open_browser=True):
-    GuiHandler.state = GuiState(tool, settings_path)
+def run_gui(tool, settings_path, opts, port=0, open_browser=True, scryfall_api=SCRYFALL_API):
+    GuiHandler.state = GuiState(tool, settings_path, opts, scryfall_api)
     GuiHandler.token = secrets.token_urlsafe(24)
     server = http.server.ThreadingHTTPServer(('127.0.0.1', port), GuiHandler)
     GuiHandler.port = server.server_address[1]
     url = f'http://127.0.0.1:{GuiHandler.port}/'
-    print(f'Preferred printings is open at {url}\nKeep this window open while you use it; press Ctrl+C to quit.')
+    print(f'Preferred printings is open at {url}\nKeep this window open while you use it; press Ctrl+C to quit.',
+          flush=True)
     if open_browser:
         threading.Timer(0.3, lambda: webbrowser.open(url)).start()
     try:
@@ -1494,6 +1586,17 @@ textarea { width: 100%; font: 12px ui-monospace, monospace; border: 1px solid va
 .empty { color: var(--muted); padding: 40px 16px; text-align: center; }
 .note { border: 1px solid var(--line); background: var(--panel); border-radius: 10px; padding: 10px 12px; margin-top: 10px; font-size: 13px; }
 .status { font-size: 12px; color: var(--muted); }
+#setup { position: fixed; inset: 0; background: var(--bg); z-index: 30; overflow: auto; display: none; }
+#setup .box { max-width: 720px; margin: 0 auto; padding: 32px 16px; }
+#setup h2 { font-size: 22px; margin: 0 0 6px; }
+#setup .row2 { display: flex; gap: 8px; margin: 10px 0; }
+#setup input { flex: 1; min-width: 0; font: 13px ui-monospace, monospace; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); }
+.found { display: flex; flex-direction: column; gap: 6px; margin: 8px 0 16px; }
+.found button { text-align: left; font: 13px ui-monospace, monospace; overflow-wrap: anywhere; }
+.browser { border: 1px solid var(--line); border-radius: 10px; background: var(--panel); max-height: 50vh; overflow: auto; }
+.browser .item { display: flex; gap: 8px; align-items: center; padding: 7px 12px; border-bottom: 1px solid var(--line); cursor: pointer; overflow-wrap: anywhere; }
+.browser .item:hover { background: var(--chip); }
+.browser .item .tag { margin-left: auto; }
 dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--ink); max-width: min(720px, 92vw); padding: 18px; }
 dialog::backdrop { background: rgba(0,0,0,.4); }
 dialog pre { white-space: pre-wrap; font: 12px ui-monospace, monospace; background: var(--bg); padding: 10px; border-radius: 8px; max-height: 50vh; overflow: auto; }
@@ -1508,6 +1611,16 @@ dialog pre { white-space: pre-wrap; font: 12px ui-monospace, monospace; backgrou
 </style>
 </head>
 <body>
+<div id="setup"><div class="box">
+  <h2>Where is Forge installed?</h2>
+  <p class="small">Choose the Forge folder: the one that contains the <code>res</code> folder (on a Mac, <code>Forge.app</code>). This is remembered for next time.</p>
+  <div id="foundBox"></div>
+  <div class="row2"><input id="setupPath" type="text" placeholder="Paste or type the folder's path" autocomplete="off"><button class="primary" id="setupUse">Use this folder</button></div>
+  <div class="small" style="margin:12px 0 6px">Or browse to it:</div>
+  <div class="small" id="browsePath" style="margin-bottom:6px;color:var(--ink);overflow-wrap:anywhere"></div>
+  <div class="row2" id="browseNav" style="flex-wrap:wrap;margin-top:0"></div>
+  <div class="browser" id="browser"></div>
+</div></div>
 <header>
   <h1>Preferred Printings</h1>
   <span class="status" id="status"></span>
@@ -1803,9 +1916,47 @@ $('q').oninput = () => { clearTimeout(searchTimer); searchTimer = setTimeout(loa
 $('tabAll').onclick = () => { onlyPicks = false; $('tabAll').classList.add('on'); $('tabPicks').classList.remove('on'); loadCards(); };
 $('tabPicks').onclick = () => { onlyPicks = true; $('tabPicks').classList.add('on'); $('tabAll').classList.remove('on'); loadCards(); };
 
+async function browseTo(path) {
+  try {
+    const r = await api('/api/browse?' + new URLSearchParams({ path }));
+    $('browsePath').textContent = r.path; $('setupPath').value = r.path;
+    const nav = [];
+    if (r.parent) nav.push(`<button data-p="${esc(r.parent)}">↑ Up</button>`);
+    nav.push(`<button data-p="${esc(r.home)}">Home</button>`);
+    for (const d of r.roots) nav.push(`<button data-p="${esc(d)}">${esc(d)}</button>`);
+    if (r.forge) nav.push('<button class="primary" id="browseUse">Use this Forge folder</button>');
+    $('browseNav').innerHTML = nav.join('');
+    for (const b of $('browseNav').querySelectorAll('button[data-p]')) b.onclick = () => browseTo(b.dataset.p);
+    if (r.forge) $('browseUse').onclick = () => chooseForge(r.path);
+    $('browser').innerHTML = r.dirs.length ? r.dirs.map(d =>
+      `<div class="item" data-p="${esc(d.path)}">📁 ${esc(d.name)}${d.forge ? '<span class="tag old">Forge</span>' : ''}</div>`).join('')
+      : '<div class="item small">No folders here.</div>';
+    for (const it of $('browser').querySelectorAll('.item[data-p]')) it.onclick = () => browseTo(it.dataset.p);
+  } catch (e) { toast(e.message); }
+}
+async function chooseForge(path) {
+  try {
+    state = await api('/api/forge', { path });
+    $('setup').style.display = 'none';
+    renderSettings(); await loadCards(); toast('Using ' + state.forge);
+  } catch (e) { toast(e.message); }
+}
+function showSetup(s) {
+  $('setup').style.display = 'block';
+  $('foundBox').innerHTML = s.suggestions.length
+    ? '<div class="small">Found on this computer:</div><div class="found">' + s.suggestions.map(f => `<button data-p="${esc(f)}">${esc(f)}</button>`).join('') + '</div>'
+    : '<p class="small">No Forge folder found in the usual places.</p>';
+  for (const b of $('foundBox').querySelectorAll('button')) b.onclick = () => chooseForge(b.dataset.p);
+  $('setupUse').onclick = () => chooseForge($('setupPath').value);
+  browseTo(s.suggestions[0] ? s.suggestions[0] : s.home);
+}
+
 (async () => {
-  try { state = await api('/api/state'); renderSettings(); await loadCards(); }
-  catch (e) { $('count').textContent = e.message; }
+  try {
+    state = await api('/api/state');
+    if (state.needsForge) { showSetup(state); return; }
+    renderSettings(); await loadCards();
+  } catch (e) { $('count').textContent = e.message; }
 })();
 </script>
 </body>
@@ -1896,8 +2047,8 @@ def build_parser():
 
 def resolve_options(args):
     """Command line beats settings file beats built-in defaults."""
-    if args.gui and not args.config:
-        args.config = 'preferred-printings.json'
+    if args.gui and not args.config:  # kept next to this script, wherever it was started from
+        args.config = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'preferred-printings.json')
     saved = load_settings(args.config) if args.config and os.path.isfile(args.config) else {}
     if args.config and not saved and not args.gui:
         raise ToolError(f'Settings file not found: {args.config}')
@@ -1911,6 +2062,7 @@ def resolve_options(args):
     bad = set(args.exclude) - set(CATEGORIES)
     if bad:
         raise ToolError(f"Unknown exclusion categories: {', '.join(sorted(bad))}")
+    args.forge_chosen = bool(args.forge)  # given on the command line or saved, rather than guessed
     if not args.forge:
         args.forge = default_forge_path()
     return args
@@ -1918,7 +2070,13 @@ def resolve_options(args):
 
 def main():
     try:
-        args = resolve_options(build_parser().parse_args())
+        argv = sys.argv[1:] or ['--gui']  # started with no options (e.g. double-clicked): open the picker
+        args = resolve_options(build_parser().parse_args(argv))
+        if args.gui and not args.restore and not args.save_config:
+            # The picker asks where Forge is unless it was given or saved (and still exists).
+            tool = Tool(args) if args.forge_chosen and find_res(args.forge) else None
+            run_gui(tool, args.config, args, args.port, not args.no_browser, args.scryfall_api)
+            return
         if args.restore:
             count = restore(os.path.abspath(os.path.expanduser(args.restore)))
             print(f'Restored {count} file{"" if count == 1 else "s"} from {args.restore}')
@@ -1927,8 +2085,7 @@ def main():
             save_settings(args, args.save_config)
             print(f'Settings saved to {args.save_config}. Run again with: --config "{args.save_config}" --apply')
             return
-        found_automatically = args.forge == default_forge_path() and not any(
-            a == '--forge' or a.startswith('--forge=') for a in sys.argv)
+        found_automatically = not args.forge_chosen
         tool = Tool(args)
         tool.scryfall_api = args.scryfall_api
         if found_automatically and not args.restore:
@@ -1944,9 +2101,6 @@ def main():
         elif not tool.scryfall_info:
             print('Tip: add --update-scryfall once to tag full art, inverted, thick and other printings that '
                   "Forge's files don't mark.", file=sys.stderr)
-        if args.gui:
-            run_gui(tool, args.config, args.port, not args.no_browser)
-            return
         result = tool.run(apply=args.apply, report_path=args.report)
         if args.report:
             print(f'Report written to {args.report}')

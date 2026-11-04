@@ -17,19 +17,20 @@ the internet, to show pictures Forge hasn't downloaded yet.
 
 ## The easy way: the visual picker
 
-```bash
-python3 preferred_printings.py --gui --forge "/path/to/Forge"
-```
+Save `preferred_printings.py` anywhere and **double-click it** (or run `python3 preferred_printings.py` with no
+options). It opens a page in your web browser. The first time, the page asks **where Forge is installed**: pick
+one of the Forge folders it found, paste the path, or browse to the folder that contains Forge's `res` folder
+(on a Mac, `Forge.app`). It remembers your choice; the sidebar shows which Forge it is changing and lets you
+switch.
 
-Point `--forge` at the Forge you actually play, the folder that contains its `res` folder. If you leave it
-out, the tool uses the Forge it's sitting in; run from a source checkout's `forge-gui/tools`, that's the
-checkout, not an installed copy. The page shows which Forge it's changing at the top, and lets you switch.
+Your settings, the Scryfall card details and downloaded pictures are kept next to the script. On Windows,
+double-clicking works when Python was installed from python.org (it sets up `.py` files to open with Python).
 
 Changes to Adventure decks show up in **new** games: an existing save keeps the starting deck it began with,
 and shops that were already stocked keep their cards.
 
-This opens a page in your web browser. It runs only on your computer; nothing is uploaded. Keep the terminal
-window open while you use it, and press Ctrl+C there to quit.
+The page runs only on your computer; nothing is uploaded. Keep the window that opens with it (the terminal)
+open while you use it, and close it, or press Ctrl+C there, to quit.
 
 - **Left:** which decks to change (Forge's Adventure decks, your own decks, or other folders), what to exclude,
   and what to prefer. Changes take effect straight away.
