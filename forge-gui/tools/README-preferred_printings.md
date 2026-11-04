@@ -28,8 +28,9 @@ window open while you use it, and press Ctrl+C there to quit.
   and what to prefer. Changes take effect straight away.
 - **Middle:** every card in those decks. Search, or switch to **My picks** to see the cards you've chosen yourself.
 - **Right:** every printing of the selected card, with its picture. The highlighted one is what your decks will
-  use. **Click any printing to always use it for that card**, whatever the rules say; "Use the rules instead"
-  undoes that. "Hide excluded" tidies cards with many printings.
+  use. **Click printings to pick them for that card**, whatever the rules say; click again to unpick, or
+  "Use the rules instead" to clear them all. Pick several and they are spread across your decks (see below).
+  "Hide excluded" tidies cards with many printings.
 - **Preview** shows how many cards would change. **Apply to decks** makes the changes (backing the decks up
   first), and **Save settings** stores your rules and picks in `preferred-printings.json`, which the GUI loads
   next time. You can also use that file from the command line: `--config preferred-printings.json --apply`.
@@ -83,9 +84,17 @@ updating. Your own decks are not touched by updates.
    sets. Turn this off with `--no-prefer-old-frame`.
 3. Of what's left, it takes the **latest** printing, or the first one with `--order oldest`.
 
-A printing you picked yourself for a card (in the visual picker, or `card_choices` in a settings file) beats
-all of these rules. Otherwise, a card already in the chosen set keeps its line, so art variants already in a
+Printings you picked yourself for a card (in the visual picker, or `card_choices` in a settings file) beat all
+of these rules. Without picks, a card already in the chosen set keeps its line, so art variants already in a
 deck survive.
+
+### Picking several printings of a card
+
+Pick more than one printing and **each deck gets one of them**, so the same card shows different art from deck
+to deck (handy for the many Adventure enemy decks). Which deck gets which is worked out from the deck's file
+name, not at random, so running the tool again gives the same result. Adding a printing later only moves the
+decks that switch to it, removing one only moves the decks that had it, and the order you picked them in
+doesn't matter.
 
 ### Exclusion categories
 
@@ -124,8 +133,8 @@ python3 preferred_printings.py --config my-printings.json --apply
 
 Options given on the command line override the file. The file is plain JSON and can be edited by hand; its
 keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`, `skip_dir`,
-`skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks, e.g.
-`{"Sol Ring": "LEB|270"}`), `image_cache` and `online_images`.
+`skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks: one printing or a list, e.g.
+`{"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}`), `image_cache` and `online_images`.
 
 ## Other options
 

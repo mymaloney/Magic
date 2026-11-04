@@ -15,6 +15,7 @@ import argparse
 import collections
 import datetime
 import glob
+import hashlib
 import http.server
 import json
 import mimetypes
@@ -258,13 +259,35 @@ def choice_key(p):
     return f'{p.set}|{p.cn}'
 
 
+def normalize_choices(choices):
+    """card_choices maps a card to one printing ("SET|CN") or a list of them; return name -> list."""
+    out = {}
+    for name, value in (choices or {}).items():
+        values = [value] if isinstance(value, str) else list(value or [])
+        values = list(dict.fromkeys(v.strip().upper() for v in values if isinstance(v, str) and v.strip()))
+        if values:
+            out[name] = values
+    return out
+
+
+def spread_pick(name, deck, picks):
+    """Which of a card's allowed printings a deck gets: stable for the same deck, varied across decks.
+
+    Rendezvous hashing: each printing gets a score per deck and the highest wins, so adding or removing a
+    printing only moves the decks that must move, and the order of the picks doesn't matter."""
+    def score(p):
+        text = f'{name.lower()}\n{deck}\n{choice_key(p).upper()}'
+        return hashlib.sha1(text.encode('utf-8')).digest()
+    return max(picks, key=score)
+
+
 class Chooser:
     def __init__(self, editions, opts):
         self.editions = editions
         self.excluded = set(opts.exclude)
         self.order_latest = opts.order == 'latest'
         self.prefer_old_frame = opts.prefer_old_frame
-        self.card_choices = {k.lower(): v.upper() for k, v in (opts.card_choices or {}).items()}
+        self.card_choices = {k.lower(): v for k, v in normalize_choices(opts.card_choices).items()}
         self.cache = {}
         self.fallbacks = {}
 
@@ -290,17 +313,24 @@ class Chooser:
         ok = [p for p in prints if category_of(p) not in hard]
         return (min(ok, key=self.rank), True) if ok else (None, False)
 
-    def best(self, name, allowed_sets=None):
+    def picks(self, name, allowed_sets=None):
+        """The printings the user allowed for this card, in the order they were picked."""
+        wanted = self.card_choices.get(name.lower())
+        if not wanted:
+            return []
+        by_key = {choice_key(p).upper(): p for p in self.editions.get(name)
+                  if allowed_sets is None or p.set.upper() in allowed_sets}
+        return [by_key[k] for k in wanted if k in by_key]
+
+    def best(self, name, allowed_sets=None, deck=None):
+        """The printing to use. With several allowed by the user, each deck gets one of them."""
+        picks = self.picks(name, allowed_sets)
+        if len(picks) > 1:  # the user's own picks win over every rule
+            return spread_pick(name, deck, picks) if deck is not None else picks[0]
         key = (name.lower(), allowed_sets)
         if key in self.cache:
             return self.cache[key]
-        result = None
-        wanted = self.card_choices.get(name.lower())
-        if wanted:  # the user's own pick wins over every rule
-            for p in self.editions.get(name):
-                if choice_key(p).upper() == wanted and (allowed_sets is None or p.set.upper() in allowed_sets):
-                    result = p
-                    break
+        result = picks[0] if picks else None
         if result is None:
             result, fallback = self.automatic(name, allowed_sets)
             if fallback:
@@ -375,6 +405,7 @@ def parse_card_line(s):
     return count, rest, name.rstrip('+').strip(), foil, (parts[1].strip().upper() if len(parts) > 1 else '')
 
 
+
 def rewrite(text, chooser, editions, allowed_sets, stats, kept, unknown, samples, label):
     out, changed, section = [], 0, None
     for raw_with_end in text.splitlines(keepends=True):
@@ -393,17 +424,16 @@ def rewrite(text, chooser, editions, allowed_sets, stats, kept, unknown, samples
             unknown[name] += 1
             out.append(raw_with_end)
             continue
-        choice = chooser.best(name, allowed_sets)
+        choice = chooser.best(name, allowed_sets, deck=label)
         if choice is None:
             kept[name] += 1
             stats['kept: no allowed printing'] += 1
             out.append(raw_with_end)
             continue
         new = f'{count} {name}{foil}|{choice.set}|[{choice.cn}]'
-        own_pick = name.lower() in chooser.card_choices
-        # Already in the preferred set: keep the line, so a hand-picked art variant survives
-        # (unless the user picked an exact printing for this card).
-        if s == new or (old_set == choice.set.upper() and not own_pick):
+        # Without picks of the user's own, a line already in the preferred set is kept, so an art variant
+        # already in the deck survives. With picks, every deck gets exactly the printing chosen for it.
+        if s == new or (not chooser.picks(name, allowed_sets) and old_set == choice.set.upper()):
             stats['already preferred'] += 1
             out.append(raw_with_end)
             continue
@@ -507,7 +537,7 @@ def build_report(opts, apply, res, roots, stats, per_folder, chooser, kept, unkn
              f"- deck folders: {', '.join(roots)}",
              f'- order: {opts.order}; prefer old frame: {opts.prefer_old_frame}',
              f"- excluded: {', '.join(sorted(opts.exclude)) or 'nothing'}",
-             f'- your own picks: {len(opts.card_choices or {})}',
+             f'- cards with your own picks: {len(normalize_choices(opts.card_choices))}',
              f"- skipped folders: {', '.join(opts.skip_dir) or 'none'}; "
              f'skip set-named decks: {opts.skip_set_named_decks}', '', '## Totals']
     lines += [f'- {k}: {v}' for k, v in stats.most_common()]
@@ -555,7 +585,8 @@ def save_settings(opts, path):
         if data[key]:
             data[key] = os.path.abspath(os.path.expanduser(data[key]))
     data['decks'] = [os.path.abspath(os.path.expanduser(d)) for d in data['decks']]
-    data['card_choices'] = dict(sorted((data['card_choices'] or {}).items()))
+    data['card_choices'] = {k: (v[0] if len(v) == 1 else v)
+                            for k, v in sorted(normalize_choices(data['card_choices']).items())}
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
         f.write('\n')
@@ -653,7 +684,7 @@ class GuiState:
             'oldFrame': o.prefer_old_frame, 'exclude': list(o.exclude), 'backup': o.backup,
             'onlineImages': o.online_images, 'picsDir': self.pics_dir(),
             'picsDirFound': os.path.isdir(self.pics_dir()), 'settingsPath': os.path.abspath(self.settings_path),
-            'picks': len(o.card_choices or {}),
+            'picks': len(normalize_choices(o.card_choices)),
             'categories': [{'id': k, 'label': v[2], 'about': v[0], 'hard': v[1]} for k, v in CATEGORIES.items()],
         }
 
@@ -686,7 +717,7 @@ class GuiState:
     def card_list(self, query, only_picks, limit=400):
         cards = self.cards_in_decks()
         chooser = Chooser(self.tool.editions, self.opts)
-        picks = {k.lower() for k in (self.opts.card_choices or {})}
+        picks = {k.lower(): len(v) for k, v in normalize_choices(self.opts.card_choices).items()}
         q = query.lower().strip()
         names = sorted(cards, key=lambda n: (-cards[n], n.lower())) if not q else sorted(
             (n for n in cards if q in n.lower()), key=lambda n: (not n.lower().startswith(q), n.lower()))
@@ -696,7 +727,7 @@ class GuiState:
         for n in names[:limit]:
             p = chooser.best(n)
             out.append({'name': n, 'decks': cards[n], 'set': p.set if p else None, 'cn': p.cn if p else None,
-                        'picked': n.lower() in picks})
+                        'picked': picks.get(n.lower(), 0)})
         return {'total': len(names), 'cards': out, 'deckCards': len(cards)}
 
     def printings(self, name):
@@ -704,7 +735,7 @@ class GuiState:
         chooser = Chooser(editions, self.opts)
         auto, fallback = chooser.automatic(name)
         best = chooser.best(name)
-        picked = name.lower() in {k.lower() for k in (self.opts.card_choices or {})}
+        mine = {choice_key(p).upper() for p in chooser.picks(name)}
         out = []
         # Usable printings first, in the order the rules rank them; excluded ones after.
         for p in sorted(chooser.ranked(name), key=lambda p: category_of(p) in chooser.excluded):
@@ -715,19 +746,27 @@ class GuiState:
                 'section': p.section, 'category': cat, 'categoryLabel': CATEGORIES[cat][2] if cat else None,
                 'excluded': cat in chooser.excluded, 'oldFrame': is_old_frame(p),
                 'auto': auto is not None and choice_key(p) == choice_key(auto),
-                'chosen': best is not None and choice_key(p) == choice_key(best),
+                'mine': choice_key(p).upper() in mine,
+                'chosen': choice_key(p).upper() in mine if mine else (
+                    best is not None and choice_key(p) == choice_key(best)),
                 'img': '/img?' + urllib.parse.urlencode({'name': name, 'set': p.set, 'cn': p.cn}),
             })
-        return {'name': name, 'picked': picked, 'fallback': fallback, 'printings': out}
+        return {'name': name, 'picked': len(mine), 'fallback': fallback, 'printings': out,
+                'decks': self.cards_in_decks().get(name, 0)}
 
-    def set_pick(self, name, key):
-        choices = dict(self.opts.card_choices or {})
+    def set_pick(self, name, key, on=True):
+        """Allow (on) or stop allowing one printing of a card; key None clears all of the card's picks."""
+        choices = normalize_choices(self.opts.card_choices)
+        current = []
         for k in [k for k in choices if k.lower() == name.lower()]:
-            del choices[k]
+            current = choices.pop(k)
         if key:
-            if not any(choice_key(p).upper() == key.upper() for p in self.tool.editions.get(name)):
+            key = key.upper()
+            if not any(choice_key(p).upper() == key for p in self.tool.editions.get(name)):
                 raise ToolError(f'{name} has no printing {key}')
-            choices[name] = key
+            current = [k for k in current if k != key] + ([key] if on else [])
+            if current:
+                choices[name] = current
         self.opts.card_choices = choices
 
     def image(self, name, code, cn):
@@ -818,7 +857,7 @@ class GuiHandler(http.server.BaseHTTPRequestHandler):
                     st.update(body)
                     return self._json(st.describe())
                 if path == '/api/pick':
-                    st.set_pick(body.get('name', ''), body.get('key'))
+                    st.set_pick(body.get('name', ''), body.get('key'), body.get('on', True))
                     return self._json(st.printings(body.get('name', '')))
                 if path == '/api/run':
                     result = st.tool.run(apply=bool(body.get('apply')))
@@ -1064,7 +1103,8 @@ async function loadCards() {
     $('cards').innerHTML = data.cards.length ? data.cards.map(c =>
       `<div class="card-row ${c.name === current ? 'sel' : ''}" data-name="${esc(c.name)}">
         <span class="nm">${esc(c.name)}</span>
-        ${c.set ? `<span class="badge ${c.picked ? 'pick' : ''}">${esc(c.set)}</span>` : '<span class="badge">—</span>'}
+        ${c.picked > 1 ? `<span class="badge pick" title="${c.picked} printings spread across decks">${c.picked} picks</span>`
+          : c.set ? `<span class="badge ${c.picked ? 'pick' : ''}">${esc(c.set)}</span>` : '<span class="badge">—</span>'}
         <span class="small" title="decks">${c.decks}</span></div>`).join('')
       : `<div class="empty">${onlyPicks ? 'You haven’t picked any printings yet.' : 'No cards found.'}</div>`;
     for (const row of $('cards').querySelectorAll('.card-row')) row.onclick = () => openCard(row.dataset.name);
@@ -1085,13 +1125,15 @@ function renderCard(data) {
   const shown = data.printings.map((p, i) => [p, i]).filter(([p]) => !hideExcluded || !p.excluded || p.chosen);
   const hidden = data.printings.length - shown.length;
   const chosen = data.printings.find(p => p.chosen);
+  const mine = data.printings.filter(p => p.mine);
   let note = '';
-  if (data.picked && chosen) note = `<div class="note">You picked <b>${esc(chosen.setName)} #${esc(chosen.cn)}</b> for this card. <button id="btnAuto">Use the rules instead</button></div>`;
+  if (mine.length === 1) note = `<div class="note">Your decks use <b>${esc(mine[0].setName)} #${esc(mine[0].cn)}</b>. Pick more printings to spread them across your decks. <button id="btnAuto">Use the rules instead</button></div>`;
+  else if (mine.length > 1) note = `<div class="note">Your <b>${mine.length}</b> picks are spread across the ${data.decks.toLocaleString()} deck${data.decks === 1 ? '' : 's'} using this card: each deck gets one of them, and the same one every time. <button id="btnAuto">Use the rules instead</button></div>`;
   else if (!chosen) note = '<div class="note">Every printing of this card is excluded by an “always” rule, so its decks keep the printing they already use. You can still pick one here.</div>';
   else if (data.fallback) note = '<div class="note">Only excluded treatments exist for this card, so the rules fall back to the best of them.</div>';
   d.innerHTML = `<div class="detail-head"><h2>${esc(data.name)}</h2>
     <label><input type="checkbox" id="optHide" ${hideExcluded ? 'checked' : ''}> Hide excluded</label></div>
-    <div class="small">${data.printings.length} printing${data.printings.length === 1 ? '' : 's'} in Forge${hidden ? ` (${hidden} excluded hidden)` : ''}. Highlighted: the one your decks will use. Click any printing to always use it.</div>
+    <div class="small">${data.printings.length} printing${data.printings.length === 1 ? '' : 's'} in Forge${hidden ? ` (${hidden} excluded hidden)` : ''}. ${mine.length ? 'Highlighted: your picks.' : 'Highlighted: the one the rules choose.'} Click printings to pick them; click again to unpick.</div>
     ${note}
     <div class="grid">${shown.map(([p, i]) => `
       <div class="tile ${p.chosen ? 'chosen' : ''} ${p.excluded ? 'excluded' : ''}" data-i="${i}" title="${esc(p.setName)} (${esc(p.set)}) #${esc(p.cn)}">
@@ -1099,7 +1141,7 @@ function renderCard(data) {
         <div class="meta"><div class="set">${esc(p.setName)}</div>
           <div class="small">${esc(p.set)} · #${esc(p.cn)} · ${esc(p.year)}</div>
           <div class="tags">
-            ${p.chosen && data.picked ? '<span class="tag mine">Your pick</span>' : ''}
+            ${p.mine ? '<span class="tag mine">Your pick</span>' : ''}
             ${p.auto ? '<span class="tag auto">Rules pick</span>' : ''}
             ${p.oldFrame ? '<span class="tag old">Old frame</span>' : ''}
             ${p.category ? `<span class="tag ${p.excluded ? 'ex' : ''}">${esc(p.categoryLabel)}${p.excluded ? ' · excluded' : ''}</span>` : ''}
@@ -1115,10 +1157,12 @@ function renderCard(data) {
 
 async function pick(data, p) {
   try {
-    const res = await api('/api/pick', { name: data.name, key: p ? `${p.set}|${p.cn}` : null });
+    const on = p ? !p.mine : false;
+    const res = await api('/api/pick', { name: data.name, key: p ? `${p.set}|${p.cn}` : null, on });
     renderCard(res);
     state = await api('/api/state'); renderSettings(); loadCards();
-    toast(p ? `${data.name}: using ${p.setName} #${p.cn}` : `${data.name}: following the rules`);
+    toast(!p ? `${data.name}: following the rules` : on ? `Picked ${p.setName} #${p.cn}` :
+          res.picked ? `Unpicked ${p.setName} #${p.cn}` : `${data.name}: following the rules`);
   } catch (e) { toast(e.message); }
 }
 
