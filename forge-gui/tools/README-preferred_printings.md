@@ -81,15 +81,20 @@ updating. Your own decks are not touched by updates.
 
 ## How it picks a printing
 
-1. It drops the kinds of printing you excluded (by default, all of the categories below).
-2. It prefers the **old frame**: sets from before Eighth Edition (2003), and "retro frame" reprints in newer
-   sets. Turn this off with `--no-prefer-old-frame`.
-3. Of what's left, it takes the **latest** printing, or the first one with `--order oldest`.
-
-Ahead of all of these, if you choose a **language**, printings that were printed in that language come first.
+1. It drops the kinds of printing you excluded (by default, all of the categories below). **Everything left is
+   allowed.**
+2. If you chose a **language**, and some of those were printed in it, it keeps only those.
+3. If you prefer the **old frame** (sets from before Eighth Edition, 2003, and "retro frame" reprints in newer
+   sets), and some are old-frame, it keeps only those. Turn this off with `--no-prefer-old-frame`.
+4. Collector and catch-all sets (The List, Mystery Booster, 30th Anniversary Edition, From the Vault...) are
+   kept only if nothing else is left.
+5. Then, by default, it **spreads** your decks across all of those printings: each deck gets one of them, so a
+   card varies from deck to deck, and the same deck gets the same one every time (see "Picking several
+   printings" below for how decks are shared out). With **Use one** in the picker, or `--no-spread`, every deck
+   gets the same single printing instead: the **latest**, or the first with `--order oldest`.
 
 Printings you picked yourself for a card (in the visual picker, or `card_choices` in a settings file) beat all
-of these rules. Without picks, a card already in the chosen set keeps its line, so art variants already in a
+of these rules. A card already in the set chosen for its deck keeps its line, so art variants already in a
 deck survive.
 
 ### Picking several printings of a card
@@ -173,7 +178,8 @@ backed up with your decks, and `--restore` puts it back (or removes it if there 
 - **Close Forge first:** Forge saves this file itself and could overwrite the change when it exits.
 - In Adventure's settings, keep **Use Card Variants from All Sets** off (the default); with it on, Forge picks
   a random printing for every reward instead.
-- With several picks for a card, rewards use the first one you picked.
+- Rewards use one printing per card: with several picks, the first one you picked; when spreading, the one
+  "Use one" would choose.
 - **Booster packs** aren't affected: a pack always holds its own set's printings, as a real one would.
 - It applies to the rest of Forge as well, wherever Forge picks a printing by name.
 
@@ -195,8 +201,8 @@ Options given on the command line override the file. The file is plain JSON and 
 keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`, `skip_dir`,
 `skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks: one printing or a list, e.g.
 `{"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}`), `image_cache`, `online_images` and
-`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`), `scryfall_cache`, `language`
-and `card_prefs`.
+`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`), `scryfall_cache`, `language`,
+`card_prefs` and `spread`.
 
 ## Other options
 

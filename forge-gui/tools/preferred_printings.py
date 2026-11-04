@@ -135,7 +135,7 @@ DEFAULTS = {'forge': None, 'decks': [], 'user_decks': False, 'skip_dir': [], 'sk
             'order': 'latest', 'prefer_old_frame': True, 'exclude': sorted(CATEGORIES),
             'backup': True, 'backup_dir': 'preferred-printings-backups', 'card_choices': {},
             'image_cache': None, 'online_images': True, 'extra_ub_sets': [], 'scryfall_cache': None,
-            'language': None, 'card_prefs': False}
+            'language': None, 'card_prefs': False, 'spread': True}
 SAVED_OPTIONS = tuple(DEFAULTS)
 
 Printing = collections.namedtuple('Printing', 'set cn section date type border card art arts')
@@ -373,7 +373,9 @@ class Chooser:
         self.prefer_old_frame = opts.prefer_old_frame
         self.language = getattr(opts, 'language', None) or 'en'
         self.card_choices = {k.lower(): v for k, v in normalize_choices(opts.card_choices).items()}
+        self.spread = getattr(opts, 'spread', True)
         self.cache = {}
+        self.pools = {}
         self.fallbacks = {}
 
     def rank(self, p):
@@ -387,17 +389,37 @@ class Chooser:
     def ranked(self, name):
         return sorted(self.editions.get(name), key=self.rank)
 
-    def automatic(self, name, allowed_sets=None):
-        """The printing the rules pick, ignoring the user's own picks."""
+    def pool(self, name, allowed_sets=None):
+        """The printings the rules allow for a card, narrowed by the preferences: only those in the chosen
+        language if there are any, then only old-frame ones if preferred and there are any, then leaving out
+        catch-all and collector sets if anything else is left. Returns (printings, fell back on a soft rule)."""
+        key = (name.lower(), allowed_sets)
+        if key in self.pools:
+            return self.pools[key]
         prints = self.editions.get(name)
         if allowed_sets is not None:
             prints = [p for p in prints if p.set.upper() in allowed_sets]
         ok = [p for p in prints if not is_excluded(p, self.excluded)]
-        if ok:
-            return min(ok, key=self.rank), False
-        hard = {c for c in self.excluded if CATEGORIES[c][1]}
-        ok = [p for p in prints if not is_excluded(p, hard)]
-        return (min(ok, key=self.rank), True) if ok else (None, False)
+        fallback = False
+        if not ok:
+            hard = {c for c in self.excluded if CATEGORIES[c][1]}
+            ok = [p for p in prints if not is_excluded(p, hard)]
+            fallback = bool(ok)
+        tiers = [lambda p: in_language(p, self.language)]
+        if self.prefer_old_frame:
+            tiers.append(is_old_frame)
+        tiers.append(lambda p: not (p.set in CATCH_ALL_SETS or p.type in LOW_PRIORITY_TYPES))
+        for keep in tiers:
+            narrowed = [p for p in ok if keep(p)]
+            if narrowed:
+                ok = narrowed
+        self.pools[key] = (sorted(ok, key=self.rank), fallback)
+        return self.pools[key]
+
+    def automatic(self, name, allowed_sets=None):
+        """The single best printing by the rules (ignoring the user's own picks), and whether it fell back."""
+        pool, fallback = self.pool(name, allowed_sets)
+        return (pool[0], fallback) if pool else (None, False)
 
     def picks(self, name, allowed_sets=None):
         """The printings the user allowed for this card, in the order they were picked."""
@@ -409,10 +431,16 @@ class Chooser:
         return [by_key[k] for k in wanted if k in by_key]
 
     def best(self, name, allowed_sets=None, deck=None):
-        """The printing to use. With several allowed by the user, each deck gets one of them."""
+        """The printing to use. Given a deck, with several printings allowed (the user's own picks, or the
+        rules' pool in spread mode), each deck gets one of them; otherwise the single best one."""
         picks = self.picks(name, allowed_sets)
         if len(picks) > 1:  # the user's own picks win over every rule
             return spread_pick(name, deck, picks) if deck is not None else picks[0]
+        if not picks and self.spread and deck is not None:
+            pool, _ = self.pool(name, allowed_sets)
+            if len(pool) > 1:
+                self.best(name, allowed_sets)  # records fallbacks for the report
+                return spread_pick(name, deck, pool)
         key = (name.lower(), allowed_sets)
         if key in self.cache:
             return self.cache[key]
@@ -883,7 +911,8 @@ def build_report(opts, apply, res, roots, stats, per_folder, chooser, kept, unkn
              f"- mode: {'applied' if apply else 'dry run'}",
              f'- Forge files: {res}',
              f"- deck folders: {', '.join(roots)}",
-             f'- order: {opts.order}; prefer old frame: {opts.prefer_old_frame}',
+             f"- {'spread across every allowed printing' if opts.spread else 'single best printing'}; "
+             f'order: {opts.order}; prefer old frame: {opts.prefer_old_frame}',
              f"- excluded: {', '.join(sorted(opts.exclude)) or 'nothing'}",
              f"- extra UB sets: {', '.join(sorted(opts.extra_ub_sets)) or 'none'}",
              f'- language first: {opts.language}' if opts.language != 'en' else '- language first: no preference',
@@ -1085,7 +1114,7 @@ class GuiState:
             [os.path.normpath(os.path.abspath(os.path.expanduser(x))) for x in o.decks],
             'userDecks': bool(o.user_decks), 'userDecksDir': user_decks_dir(self.tool.profile),
             'extraDecks': extra, 'skipSetNamed': o.skip_set_named_decks, 'order': o.order,
-            'oldFrame': o.prefer_old_frame, 'exclude': list(o.exclude), 'backup': o.backup,
+            'oldFrame': o.prefer_old_frame, 'exclude': list(o.exclude), 'backup': o.backup, 'spread': o.spread,
             'cardPrefs': o.card_prefs, 'cardPrefsPath': card_prefs_path(self.tool.profile),
             'onlineImages': o.online_images, 'picsDir': self.pics_dir(),
             'picsDirFound': os.path.isdir(self.pics_dir()), 'settingsPath': os.path.abspath(self.settings_path),
@@ -1113,6 +1142,8 @@ class GuiState:
             o.decks = decks
         if 'skipSetNamed' in d:
             o.skip_set_named_decks = bool(d['skipSetNamed'])
+        if 'spread' in d:
+            o.spread = bool(d['spread'])
         if d.get('order') in ('latest', 'oldest'):
             o.order = d['order']
         if 'oldFrame' in d:
@@ -1147,8 +1178,9 @@ class GuiState:
         out = []
         for n in names[:limit]:
             p = chooser.best(n)
+            spread = len(chooser.pool(n)[0]) if chooser.spread and not picks.get(n.lower()) else 0
             out.append({'name': n, 'decks': cards[n], 'set': p.set if p else None, 'cn': p.cn if p else None,
-                        'picked': picks.get(n.lower(), 0)})
+                        'picked': picks.get(n.lower(), 0), 'spread': spread if spread > 1 else 0})
         return {'total': len(names), 'cards': out, 'deckCards': len(cards)}
 
     def printings(self, name):
@@ -1157,6 +1189,7 @@ class GuiState:
         auto, fallback = chooser.automatic(name)
         best = chooser.best(name)
         mine = {choice_key(p).upper() for p in chooser.picks(name)}
+        pool = {choice_key(p).upper() for p in chooser.pool(name)[0]} if chooser.spread else set()
         out = []
         # Usable printings first, in the order the rules rank them; excluded ones after.
         for p in sorted(chooser.ranked(name), key=lambda p: is_excluded(p, chooser.excluded)):
@@ -1168,14 +1201,17 @@ class GuiState:
                 'cats': [{'label': CATEGORIES[c][2], 'excluded': c in chooser.excluded} for c in cats],
                 'inLanguage': in_language(p, chooser.language),
                 'excluded': is_excluded(p, chooser.excluded), 'oldFrame': is_old_frame(p),
-                'auto': auto is not None and choice_key(p) == choice_key(auto),
+                'auto': auto is not None and choice_key(p) == choice_key(auto) and not chooser.spread,
+                'inSpread': choice_key(p).upper() in pool and len(pool) > 1,
                 'mine': choice_key(p).upper() in mine,
                 'chosen': choice_key(p).upper() in mine if mine else (
+                    choice_key(p).upper() in pool if pool else
                     best is not None and choice_key(p) == choice_key(best)),
                 'img': '/img?' + urllib.parse.urlencode({'name': name, 'set': p.set, 'cn': p.cn,
                                                          'lang': chooser.language}),
             })
         return {'name': name, 'picked': len(mine), 'fallback': fallback, 'printings': out,
+                'spread': len(pool) if len(pool) > 1 else 0,
                 'decks': self.cards_in_decks().get(name, 0)}
 
     def set_pick(self, name, key, on=True):
@@ -1442,11 +1478,13 @@ dialog pre { white-space: pre-wrap; font: 12px ui-monospace, monospace; backgrou
 
     <h2>Prefer</h2>
     <label class="opt"><input type="checkbox" id="optOld"> <span>Old frame<br><span class="small">Pre-2003 sets and “retro frame” reprints</span></span></label>
-    <div class="small" style="margin:6px 0 4px">Then take the</div>
-    <div class="seg" id="segOrder"><button data-v="latest">Latest</button><button data-v="oldest">Oldest</button></div>
-    <div class="small" style="margin:12px 0 4px">Printings in my language first:</div>
+    <div class="small" style="margin:8px 0 4px">Printings in my language:</div>
     <select id="optLang" style="width:100%;font:inherit;padding:5px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)"></select>
     <div class="small" id="langInfo" style="margin-top:4px"></div>
+    <div class="small" style="margin:10px 0 4px">From the printings that are left:</div>
+    <div class="seg" id="segSpread"><button data-v="1" title="Each deck gets one of them, so a card varies from deck to deck">Spread across decks</button><button data-v="0" title="Every deck gets the same one">Use one</button></div>
+    <div id="orderBox"><div class="small" style="margin:6px 0 4px">Use the</div>
+    <div class="seg" id="segOrder"><button data-v="latest">Latest</button><button data-v="oldest">Oldest</button></div></div>
 
     <h2>Card details</h2>
     <div class="small" id="scryInfo"></div>
@@ -1536,6 +1574,8 @@ function renderSettings() {
   $('picsDir').textContent = (s.picsDirFound ? 'Forge image cache: ' : 'No Forge image cache found at ') + s.picsDir;
   $('settingsPath').textContent = 'Settings file: ' + s.settingsPath;
   for (const b of $('segOrder').children) b.classList.toggle('on', b.dataset.v === s.order);
+  for (const b of $('segSpread').children) b.classList.toggle('on', (b.dataset.v === '1') === s.spread);
+  $('orderBox').style.display = s.spread ? 'none' : '';
   $('cats').innerHTML = s.categories.map(c =>
     `<label class="opt" title="${esc(c.about)}"><input type="checkbox" data-cat="${c.id}" ${s.exclude.includes(c.id) ? 'checked' : ''}>
      <span>${esc(c.label)}${c.hard ? '<span class="hard">always</span>' : ''}</span></label>`).join('');
@@ -1569,6 +1609,7 @@ async function loadCards() {
       `<div class="card-row ${c.name === current ? 'sel' : ''}" data-name="${esc(c.name)}">
         <span class="nm">${esc(c.name)}</span>
         ${c.picked > 1 ? `<span class="badge pick" title="${c.picked} printings spread across decks">${c.picked} picks</span>`
+          : c.spread ? `<span class="badge" title="The rules spread ${c.spread} printings across decks">${c.spread} prints</span>`
           : c.set ? `<span class="badge ${c.picked ? 'pick' : ''}">${esc(c.set)}</span>` : '<span class="badge">—</span>'}
         <span class="small" title="decks">${c.decks}</span></div>`).join('')
       : `<div class="empty">${onlyPicks ? 'You haven’t picked any printings yet.' : 'No cards found.'}</div>`;
@@ -1594,11 +1635,12 @@ function renderCard(data) {
   let note = '';
   if (mine.length === 1) note = `<div class="note">Your decks use <b>${esc(mine[0].setName)} #${esc(mine[0].cn)}</b>. Pick more printings to spread them across your decks. <button id="btnAuto">Use the rules instead</button></div>`;
   else if (mine.length > 1) note = `<div class="note">Your <b>${mine.length}</b> picks are spread across the ${data.decks.toLocaleString()} deck${data.decks === 1 ? '' : 's'} using this card: each deck gets one of them, and the same one every time. <button id="btnAuto">Use the rules instead</button></div>`;
+  else if (data.spread) note = `<div class="note">The rules allow <b>${data.spread}</b> printings, highlighted, and spread them across the ${data.decks.toLocaleString()} deck${data.decks === 1 ? '' : 's'} using this card: each deck gets one of them, and the same one every time.${data.fallback ? ' (Only excluded treatments exist for this card, so these are the best of them.)' : ''}</div>`;
   else if (!chosen) note = '<div class="note">Every printing of this card is excluded by an “always” rule, so its decks keep the printing they already use. You can still pick one here.</div>';
   else if (data.fallback) note = '<div class="note">Only excluded treatments exist for this card, so the rules fall back to the best of them.</div>';
   d.innerHTML = `<div class="detail-head"><h2>${esc(data.name)}</h2>
     <label><input type="checkbox" id="optHide" ${hideExcluded ? 'checked' : ''}> Hide excluded</label></div>
-    <div class="small">${data.printings.length} printing${data.printings.length === 1 ? '' : 's'} in Forge${hidden ? ` (${hidden} excluded hidden)` : ''}. ${mine.length ? 'Highlighted: your picks.' : 'Highlighted: the one the rules choose.'} Click printings to pick them; click again to unpick.</div>
+    <div class="small">${data.printings.length} printing${data.printings.length === 1 ? '' : 's'} in Forge${hidden ? ` (${hidden} excluded hidden)` : ''}. ${mine.length ? 'Highlighted: your picks.' : data.spread ? 'Highlighted: the printings the rules spread across decks.' : 'Highlighted: the one the rules choose.'} Click printings to pick them; click again to unpick.</div>
     ${note}
     <div class="grid">${shown.map(([p, i]) => `
       <div class="tile ${p.chosen ? 'chosen' : ''} ${p.excluded ? 'excluded' : ''}" data-i="${i}" title="${esc(p.setName)} (${esc(p.set)}) #${esc(p.cn)}">
@@ -1608,6 +1650,7 @@ function renderCard(data) {
           <div class="tags">
             ${p.mine ? '<span class="tag mine">Your pick</span>' : ''}
             ${p.auto ? '<span class="tag auto">Rules pick</span>' : ''}
+            ${p.inSpread && !mine.length ? '<span class="tag auto">In the spread</span>' : ''}
             ${p.inLanguage ? `<span class="tag old">${esc(langName(state.language))}</span>` : ''}
             ${p.oldFrame ? '<span class="tag old">Old frame</span>' : ''}
             ${p.cats.map(c => `<span class="tag ${c.excluded ? 'ex' : ''}">${esc(c.label)}${c.excluded ? ' · excluded' : ''}</span>`).join('')}
@@ -1678,6 +1721,7 @@ $('optExtra').onchange = () => saveDecks();
  $('optLang').onchange = () => saveRules({ language: $('optLang').value });
 $('optExtraUb').onchange = () => saveRules({ extraUb: $('optExtraUb').value.split(/[\s,]+/).filter(Boolean) });
 for (const b of $('segOrder').children) b.onclick = () => saveRules({ order: b.dataset.v });
+for (const b of $('segSpread').children) b.onclick = () => saveRules({ spread: b.dataset.v === '1' });
 $('q').oninput = () => { clearTimeout(searchTimer); searchTimer = setTimeout(loadCards, 200); };
 $('tabAll').onclick = () => { onlyPicks = false; $('tabAll').classList.add('on'); $('tabPicks').classList.remove('on'); loadCards(); };
 $('tabPicks').onclick = () => { onlyPicks = true; $('tabPicks').classList.add('on'); $('tabAll').classList.remove('on'); loadCards(); };
@@ -1715,8 +1759,11 @@ def build_parser():
                        help='leave decks named after a product, like "4ED - Black Starter.dck" (default: on)')
 
     rules = p.add_argument_group('which printing to pick')
+    rules.add_argument('--spread', action=argparse.BooleanOptionalAction, default=None,
+                       help='spread decks across all the printings the rules allow, so the same card varies from '
+                            'deck to deck; --no-spread gives every deck the single best one (default: spread)')
     rules.add_argument('--order', choices=('latest', 'oldest'),
-                       help='which printing wins among equally preferred ones (default: latest)')
+                       help='with --no-spread, which printing wins among equally preferred ones (default: latest)')
     rules.add_argument('--prefer-old-frame', action=argparse.BooleanOptionalAction, default=None,
                        help='prefer pre-Eighth Edition frames and retro-frame reprints (default: on)')
     rules.add_argument('--exclude', nargs='*', choices=sorted(CATEGORIES), metavar='CATEGORY',
