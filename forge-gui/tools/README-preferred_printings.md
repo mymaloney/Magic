@@ -158,6 +158,25 @@ They are saved to `preferred-printings-scryfall.json` next to your settings file
 tags, e.g. Secret Lair, borderless and inverted; it's excluded if any of them is. The details also catch
 Universes Beyond printings by their security stamp, on top of the tool's list of UB sets.
 
+## Rewards and shops
+
+Adventure rewards and shop cards are made while you play, not read from deck files. When Forge hands out a
+card by name (random card rewards, single-card shop items, and anything else that picks "a" printing of a
+card), it uses its own per-card art preference, the same one Forge's deck editor sets with
+"Change preferred art".
+
+Tick **Also use these printings for Adventure rewards and shop cards** in the visual picker (or add
+`--card-prefs`) and **Apply** also writes that preference for every card, following your rules and picks,
+into Forge's `card.preferences` file in your Forge preferences folder. Your star ratings there are kept. It is
+backed up with your decks, and `--restore` puts it back (or removes it if there was none).
+
+- **Close Forge first:** Forge saves this file itself and could overwrite the change when it exits.
+- In Adventure's settings, keep **Use Card Variants from All Sets** off (the default); with it on, Forge picks
+  a random printing for every reward instead.
+- With several picks for a card, rewards use the first one you picked.
+- **Booster packs** aren't affected: a pack always holds its own set's printings, as a real one would.
+- It applies to the rest of Forge as well, wherever Forge picks a printing by name.
+
 ## Saving your choices
 
 Save your options once:
@@ -176,7 +195,8 @@ Options given on the command line override the file. The file is plain JSON and 
 keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`, `skip_dir`,
 `skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks: one printing or a list, e.g.
 `{"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}`), `image_cache`, `online_images` and
-`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`), `scryfall_cache` and `language`.
+`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`), `scryfall_cache`, `language`
+and `card_prefs`.
 
 ## Other options
 
@@ -193,6 +213,7 @@ keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`,
   borderless and showcase printings go untagged, and inverted, thick and gold-border can't be filtered.
 - Some sets list regular printings under a treatment section in Forge's files (e.g. Commander Masters'
   precon cards under borderless); the Scryfall details add tags but can't remove Forge's.
-- Only deck files change. Cards created during play (Adventure rewards, shops, boosters) are not affected.
+- Cards created during play only follow your choices with the rewards-and-shops option above, and booster
+  packs never do.
 - Adventure planes that limit cards to certain sets in their `config.json` (`legalCards.editions`) only get
   printings from those sets.

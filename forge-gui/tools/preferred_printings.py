@@ -135,13 +135,14 @@ DEFAULTS = {'forge': None, 'decks': [], 'user_decks': False, 'skip_dir': [], 'sk
             'order': 'latest', 'prefer_old_frame': True, 'exclude': sorted(CATEGORIES),
             'backup': True, 'backup_dir': 'preferred-printings-backups', 'card_choices': {},
             'image_cache': None, 'online_images': True, 'extra_ub_sets': [], 'scryfall_cache': None,
-            'language': None}
+            'language': None, 'card_prefs': False}
 SAVED_OPTIONS = tuple(DEFAULTS)
 
 Printing = collections.namedtuple('Printing', 'set cn section date type border card art arts')
 SetInfo = collections.namedtuple('SetInfo', 'code name date type border code2 scryfall')
 DECK_LINE = re.compile(r'^(\d+)\s+(.+?)\s*$')
-EDITION_LINE = re.compile(r'^(\S+)\s+\S+\s+(.+?)(\s+@.*)?$')
+# CardEdition.Reader.CARD_PATTERN: [collector number] [rarity] name [@artist] [${extra params}]
+EDITION_LINE = re.compile(r'^(?:(.?[0-9A-Z-]+\S*[A-Z]*)\s)?(?:([SCURML])\s)?([^@$]+)(?: @([^$]*))?(?: \$\{(.+)\})?$')
 SET_NAMED_DECK = re.compile(r'^([A-Za-z0-9_]+) - ')
 MANIFEST = 'preferred-printings-backup.json'
 
@@ -224,14 +225,14 @@ class Editions:
         self.sets = {}
         for path in glob.glob(os.path.join(editions_dir, '*.txt')):
             self._read(path)
-        # Forge numbers the arts of one card within a set in collector number order.
+        # Forge numbers the arts of one card within a set in its own collector number order.
         groups = collections.defaultdict(list)
         for name, prints in self.by_name.items():
             for i, p in enumerate(prints):
                 groups[(p.set, name)].append(i)
         for (code, name), idxs in groups.items():
             prints = self.by_name[name]
-            ordered = sorted(idxs, key=lambda i: collector_key(prints[i].cn))
+            ordered = sorted(idxs, key=lambda i: forge_sortable_cn(prints[i].cn))
             for art, i in enumerate(ordered, 1):
                 prints[i] = prints[i]._replace(art=art, arts=len(ordered))
         # Decks may name split cards and rooms by a single face.
@@ -257,8 +258,8 @@ class Editions:
                     meta[key.strip()] = value.strip()
                 elif section:
                     m = EDITION_LINE.match(line)
-                    if m and re.match(r'^[0-9A-Za-z★†\-]+$', m.group(1)):
-                        entries.append((m.group(1), m.group(2).strip(), section))
+                    if m and m.group(3).strip():
+                        entries.append((m.group(1) or '', m.group(3).strip(), section))
         code = meta.get('Code')
         if not code:
             return
@@ -310,6 +311,20 @@ def category_of(p):
 
 def is_old_frame(p):
     return p.section == 'retro frame' or p.date < OLD_FRAME_CUTOFF
+
+
+def forge_sortable_cn(cn):
+    """CardEdition.getSortableCollectorNumber: Forge orders a set's printings by this string."""
+    if not cn:
+        cn = '50000'
+    if cn.isdigit():
+        return f'{int(cn):05d}'
+    non_num = re.sub(r'[0-9]', '', cn)
+    only_num = re.sub(r'[^0-9]', '', cn)
+    num = int(only_num) if only_num else 0
+    if num > 0 and cn.startswith(only_num):  # e.g. 12a, 37+
+        return f'{num:05d}{non_num}'
+    return f'{non_num}{num:05d}'  # e.g. WS6, S1
 
 
 def collector_key(cn):
@@ -764,7 +779,25 @@ class Tool:
                 with open(path, 'w', encoding='utf-8', newline='') as f:
                     f.write(new_text)
 
-        if backup_root and manifest['files']:
+        prefs_path = card_prefs_path(self.profile)
+        if opts.card_prefs:
+            choices = card_preference_choices(chooser, editions)
+            stats['card preferences for rewards and shops'] = len(choices)
+            if apply:
+                if backup_root:
+                    if os.path.isfile(prefs_path):
+                        tag = 'card-preferences'
+                        manifest['roots'][tag] = os.path.dirname(prefs_path)
+                        dest = os.path.join(backup_root, tag, os.path.basename(prefs_path))
+                        os.makedirs(os.path.dirname(dest), exist_ok=True)
+                        shutil.copy2(prefs_path, dest)
+                        manifest['files'].append([tag, os.path.basename(prefs_path)])
+                    else:
+                        manifest.setdefault('created', []).append(prefs_path)
+                write_card_preferences(prefs_path, choices)
+
+        if backup_root and (manifest['files'] or manifest.get('created')):
+            os.makedirs(backup_root, exist_ok=True)
             with open(os.path.join(backup_root, MANIFEST), 'w', encoding='utf-8') as f:
                 json.dump(manifest, f, indent=1)
         else:
@@ -776,9 +809,54 @@ class Tool:
             with open(report_path, 'w', encoding='utf-8') as f:
                 f.write(report)
         return {'lines': stats['repinned'] + stats['pinned (had no set)'],
+                'cardPrefs': stats['card preferences for rewards and shops'], 'cardPrefsPath': prefs_path,
                 'decks': sum(c['decks changed'] for c in per_folder.values()),
                 'stats': dict(stats), 'backup': backup_root, 'report': report,
                 'summary': report.split('\n## By folder')[0]}
+
+
+def card_prefs_path(profile):
+    """Forge's per-card preferences (preferred art and star ratings), in the user's preferences folder."""
+    user_dir = profile.get('userDir') or default_dirs()[0]
+    return os.path.join(user_dir, 'preferences', 'card.preferences')
+
+
+def card_preference_choices(chooser, editions):
+    """Card name -> the printing Forge should use when it picks a card by name (rewards, shops...)."""
+    names = {p.card for prints in editions.by_name.values() for p in prints}
+    out = {}
+    for name in sorted(names):
+        p = chooser.best(name)  # with several picks of the player's own, the first one
+        # Un-set cards (with their lettered variants) don't resolve by art index in Forge; leave them alone.
+        if p is not None and p.type != 'Funny':
+            out[name] = p
+    return out
+
+
+def write_card_preferences(path, choices):
+    """Write Forge's card.preferences with an art preference per card, keeping the player's star ratings."""
+    import xml.etree.ElementTree as ET
+    stars = {}
+    if os.path.isfile(path):
+        try:
+            for el in ET.parse(path).getroot().iter('card'):
+                if el.get('stars'):
+                    stars[el.get('name')] = el.get('stars')
+        except ET.ParseError:
+            pass
+    root = ET.Element('preferences', {'type': 'cards'})
+    for name in sorted(set(stars) | set(choices)):
+        attrs = {'name': name}
+        if name in stars:
+            attrs['stars'] = stars[name]
+        if name in choices:
+            p = choices[name]
+            attrs['art'] = f'{name}|{p.set}|{p.art}'
+        ET.SubElement(root, 'card', attrs)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    tmp = path + '.part'
+    ET.ElementTree(root).write(tmp, encoding='utf-8', xml_declaration=True)
+    os.replace(tmp, path)
 
 
 def restore(backup_root):
@@ -793,6 +871,10 @@ def restore(backup_root):
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         shutil.copy2(os.path.join(backup_root, tag, rel), dest)
         count += 1
+    for path in manifest.get('created', []):  # files the tool made that didn't exist before
+        if os.path.isfile(path):
+            os.remove(path)
+            count += 1
     return count
 
 
@@ -1004,6 +1086,7 @@ class GuiState:
             'userDecks': bool(o.user_decks), 'userDecksDir': user_decks_dir(self.tool.profile),
             'extraDecks': extra, 'skipSetNamed': o.skip_set_named_decks, 'order': o.order,
             'oldFrame': o.prefer_old_frame, 'exclude': list(o.exclude), 'backup': o.backup,
+            'cardPrefs': o.card_prefs, 'cardPrefsPath': card_prefs_path(self.tool.profile),
             'onlineImages': o.online_images, 'picsDir': self.pics_dir(),
             'picsDirFound': os.path.isdir(self.pics_dir()), 'settingsPath': os.path.abspath(self.settings_path),
             'scryfall': self.tool.scryfall_info, 'scryfallPath': self.tool.scryfall_path,
@@ -1038,6 +1121,8 @@ class GuiState:
             o.exclude = sorted(c for c in d['exclude'] if c in CATEGORIES)
         if 'backup' in d:
             o.backup = bool(d['backup'])
+        if 'cardPrefs' in d:
+            o.card_prefs = bool(d['cardPrefs'])
         if 'onlineImages' in d:
             o.online_images = bool(d['onlineImages'])
         if d.get('language') in LANGUAGES.values() and d['language'] != o.language:
@@ -1207,7 +1292,8 @@ class GuiHandler(http.server.BaseHTTPRequestHandler):
                     result = st.tool.run(apply=bool(body.get('apply')))
                     if result['decks']:
                         st.deck_cards_key = None  # deck contents changed
-                    return self._json({k: result[k] for k in ('lines', 'decks', 'backup', 'summary')})
+                    return self._json({k: result[k] for k in ('lines', 'decks', 'backup', 'summary', 'cardPrefs',
+                                                              'cardPrefsPath')})
                 if path == '/api/save':
                     save_settings(st.opts, st.settings_path)
                     return self._json({'path': os.path.abspath(st.settings_path)})
@@ -1370,8 +1456,12 @@ dialog pre { white-space: pre-wrap; font: 12px ui-monospace, monospace; backgrou
     <h2>Images</h2>
     <label class="opt"><input type="checkbox" id="optOnline"> <span>Fetch missing images from Scryfall<br><span class="small" id="picsDir"></span></span></label>
 
+    <h2>Rewards and shops</h2>
+    <label class="opt"><input type="checkbox" id="optCardPrefs"> <span>Also use these printings for Adventure rewards and shop cards<br>
+      <span class="small">Writes Forge’s card preferences (Forge uses them whenever it picks a card by name). Close Forge first, and keep Adventure’s “Use Card Variants from All Sets” off. Booster packs always contain their own set’s printings.</span></span></label>
+
     <h2>Safety</h2>
-    <label class="opt"><input type="checkbox" id="optBackup"> <span>Back up decks before changing them</span></label>
+    <label class="opt"><input type="checkbox" id="optBackup"> <span>Back up decks and card preferences before changing them</span></label>
     <div class="small" id="settingsPath" style="margin-top:10px"></div>
   </aside>
 
@@ -1436,7 +1526,7 @@ function renderSettings() {
     (s.languageFetched ? `${pr} known in ${lname}.`
       : `Forge knows ${pr} in ${lname} so far. Click “${s.scryfall ? 'Update' : 'Download'} from Scryfall” below to learn about all of them.`) +
     (s.forgeLanguage === s.language ? '' : ` Also set Forge’s “Card download language” to ${lname}, so Forge shows the cards in it.`);
-  $('optOnline').checked = s.onlineImages; $('optBackup').checked = s.backup;
+  $('optOnline').checked = s.onlineImages; $('optBackup').checked = s.backup; $('optCardPrefs').checked = s.cardPrefs;
   $('optExtraUb').value = s.extraUb.join(', '); $('builtInUb').textContent = s.builtInUb.join(', ');
   $('scryInfo').textContent = s.scryfall
     ? `${s.scryfall.printings.toLocaleString()} printings tagged (full art, borderless, inverted…), downloaded ${s.scryfall.fetched.replace('T', ' ')}.`
@@ -1457,6 +1547,7 @@ async function saveRules(extra) {
   const body = Object.assign({
     exclude: [...$('cats').querySelectorAll('input:checked')].map(e => e.dataset.cat),
     oldFrame: $('optOld').checked, onlineImages: $('optOnline').checked, backup: $('optBackup').checked,
+    cardPrefs: $('optCardPrefs').checked,
     skipSetNamed: $('optSkipSet').checked,
   }, extra || {});
   try { state = await api('/api/settings', body); renderSettings(); await loadCards(); if (current) await openCard(current); }
@@ -1557,13 +1648,15 @@ $('btnPreview').onclick = () => busy($('btnPreview'), async () => {
 $('btnApply').onclick = () => busy($('btnApply'), async () => {
   try {
     const p = await api('/api/run', { apply: false });
-    if (!p.lines) { toast('Nothing to change: your decks already match.'); return; }
+    if (!p.lines && !p.cardPrefs) { toast('Nothing to change: your decks already match.'); return; }
     const ok = await dialog('Apply to decks?', `<p>This changes <b>${p.lines.toLocaleString()}</b> card lines in <b>${p.decks.toLocaleString()}</b> deck files.</p>` +
-      (state.backup ? '<p>The original decks are backed up first, so you can undo it.</p>' : '<p><b>Backups are off</b>, so this can’t be undone.</p>'),
+      (p.cardPrefs ? `<p>It also sets the printing of <b>${p.cardPrefs.toLocaleString()}</b> cards for Adventure rewards and shops, in<br><code>${esc(p.cardPrefsPath)}</code>.<br><b>Close Forge before you continue</b>, or it may overwrite this when it exits.</p>` : '') +
+      (state.backup ? '<p>The originals are backed up first, so you can undo it.</p>' : '<p><b>Backups are off</b>, so this can’t be undone.</p>'),
       [['Cancel', false], ['Apply', true, true]]);
     if (!ok) return;
     const r = await api('/api/run', { apply: true });
     await dialog('Done', `<p>Changed ${r.lines.toLocaleString()} card lines in ${r.decks.toLocaleString()} decks.</p>` +
+      (r.cardPrefs ? `<p>Set the printing of ${r.cardPrefs.toLocaleString()} cards for rewards and shops.</p>` : '') +
       (r.backup ? `<p class="small">Originals backed up to<br><code>${esc(r.backup)}</code></p><p class="small">To undo, run:<br><code>python3 preferred_printings.py --restore "${esc(r.backup)}"</code></p>` : ''),
       [['Close', null, true]]);
     loadCards(); if (current) openCard(current);
@@ -1579,7 +1672,7 @@ $('btnSave').onclick = () => busy($('btnSave'), async () => {
   try { const r = await api('/api/save', {}); toast('Saved to ' + r.path); } catch (e) { toast(e.message); }
 });
 
-for (const id of ['optOld', 'optOnline', 'optBackup', 'optSkipSet']) $(id).onchange = () => saveRules();
+for (const id of ['optOld', 'optOnline', 'optBackup', 'optSkipSet', 'optCardPrefs']) $(id).onchange = () => saveRules();
 for (const id of ['optAdventure', 'optUser']) $(id).onchange = () => saveDecks();
 $('optExtra').onchange = () => saveDecks();
  $('optLang').onchange = () => saveRules({ language: $('optLang').value });
@@ -1656,6 +1749,9 @@ def build_parser():
                           'settings file, or in the current folder)')
     run.add_argument('--scryfall-api', default=SCRYFALL_API, help=argparse.SUPPRESS)
     run.add_argument('--apply', action='store_true', help='rewrite the deck files (default: dry run)')
+    run.add_argument('--card-prefs', action=argparse.BooleanOptionalAction, default=None,
+                     help="also write Forge's card preferences, so Adventure rewards and shops (and anything else "
+                          'that picks a card by name) use the same printings. Close Forge first (default: off)')
     run.add_argument('--backup', action=argparse.BooleanOptionalAction, default=None,
                      help='copy each deck before changing it (default: on)')
     run.add_argument('--backup-dir', metavar='PATH',
@@ -1698,7 +1794,7 @@ def main():
         args = resolve_options(build_parser().parse_args())
         if args.restore:
             count = restore(os.path.abspath(os.path.expanduser(args.restore)))
-            print(f'Restored {count} decks from {args.restore}')
+            print(f'Restored {count} file{"" if count == 1 else "s"} from {args.restore}')
             return
         if args.save_config:
             save_settings(args, args.save_config)
@@ -1726,6 +1822,10 @@ def main():
             print(result['summary'] + '\n\n(Add --report FILE for the full details.)')
         if args.apply:
             print(f"Applied: {result['lines']} card lines in {result['decks']} decks.", file=sys.stderr)
+            if result['cardPrefs']:
+                print(f"Wrote printings for {result['cardPrefs']} cards to {result['cardPrefsPath']}, for "
+                      'rewards and shops (Adventure setting "Use Card Variants from All Sets" must be off).',
+                      file=sys.stderr)
             if result['backup']:
                 print(f"Originals backed up to {result['backup']}\n"
                       f'Undo with: --restore "{result["backup"]}"', file=sys.stderr)
