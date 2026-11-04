@@ -1086,6 +1086,27 @@ class ImageDownloader:
 
 
 class GuiState:
+    def set_forge(self, folder):
+        """Switch to another Forge install (or checkout): reload its editions and point the decks at it."""
+        folder = os.path.expanduser(folder.strip().strip('"'))
+        new_res = find_res(folder)
+        if not new_res:
+            raise ToolError(f'No Forge files found in {folder}. Choose the folder that contains "res" '
+                            '(or Forge.app on a Mac).')
+        o = self.opts
+        old_adventure = os.path.normpath(os.path.join(self.tool.res, 'adventure'))
+        o.decks = [os.path.join(new_res, 'adventure') if os.path.normpath(os.path.abspath(d)) == old_adventure else d
+                   for d in o.decks]
+        old_forge, o.forge = o.forge, folder
+        try:
+            tool = Tool(o)
+        except ToolError:
+            o.forge = old_forge
+            raise
+        tool.scryfall_api = self.tool.scryfall_api
+        self.tool = tool
+        self.deck_cards_key = None
+
     def __init__(self, tool, settings_path):
         self.tool = tool
         self.settings_path = settings_path
@@ -1127,7 +1148,8 @@ class GuiState:
         extra = [d for d in (os.path.normpath(os.path.abspath(os.path.expanduser(x))) for x in o.decks)
                  if d != adventure]
         return {
-            'forge': self.tool.res,
+            'forge': self.tool.res, 'forgeFolder': os.path.abspath(os.path.expanduser(o.forge)),
+            'sourceCheckout': os.path.basename(os.path.dirname(self.tool.res)) == 'forge-gui',
             'adventure': not o.decks and not o.user_decks or adventure in
             [os.path.normpath(os.path.abspath(os.path.expanduser(x))) for x in o.decks],
             'userDecks': bool(o.user_decks), 'userDecksDir': user_decks_dir(self.tool.profile),
@@ -1339,6 +1361,9 @@ class GuiHandler(http.server.BaseHTTPRequestHandler):
                 if path == '/api/settings':
                     st.update(body)
                     return self._json(st.describe())
+                if path == '/api/forge':
+                    st.set_forge(body.get('path', ''))
+                    return self._json(st.describe())
                 if path == '/api/pick':
                     st.set_pick(body.get('name', ''), body.get('key'), body.get('on', True))
                     return self._json(st.printings(body.get('name', '')))
@@ -1479,6 +1504,13 @@ dialog pre { white-space: pre-wrap; font: 12px ui-monospace, monospace; backgrou
 </header>
 <div class="layout">
   <aside>
+    <h2>Forge</h2>
+    <div class="small">Changing decks in:</div>
+    <div class="small" id="forgeRes" style="color:var(--ink)"></div>
+    <div class="note small" id="forgeWarn" style="display:none;margin-top:6px">This is a <b>source checkout</b> of Forge. If you play an installed copy of Forge, choose that folder instead, or the game won’t see the changes.</div>
+    <div style="display:flex;gap:6px;margin-top:6px"><input id="optForge" type="text" placeholder="Path to your Forge folder" autocomplete="off"
+      style="flex:1;min-width:0;font:12px ui-monospace,monospace;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);padding:6px"><button id="btnForge">Use</button></div>
+
     <h2>Decks</h2>
     <label class="opt"><input type="checkbox" id="optAdventure"> <span>Adventure decks that come with Forge</span></label>
     <label class="opt"><input type="checkbox" id="optUser"> <span>My own decks<br><span class="small" id="userDir"></span></span></label>
@@ -1573,6 +1605,8 @@ function dialog(title, html, buttons) {
 function renderSettings() {
   const s = state;
   $('optAdventure').checked = s.adventure; $('optUser').checked = s.userDecks;
+  $('forgeRes').textContent = s.forge; $('forgeWarn').style.display = s.sourceCheckout ? '' : 'none';
+  if (!$('optForge').value) $('optForge').value = s.forgeFolder;
   $('userDir').textContent = s.userDecksDir; $('optExtra').value = s.extraDecks.join('\n');
   $('optSkipSet').checked = s.skipSetNamed; $('optOld').checked = s.oldFrame;
   $('optLang').innerHTML = Object.entries(s.languages).map(([name, code]) =>
@@ -1725,6 +1759,13 @@ $('btnApply').onclick = () => busy($('btnApply'), async () => {
     loadCards(); if (current) openCard(current);
   } catch (e) { toast(e.message); }
 });
+ $('btnForge').onclick = () => busy($('btnForge'), async () => {
+  try {
+    state = await api('/api/forge', { path: $('optForge').value }); renderSettings(); current = null;
+    $('detail').innerHTML = '<div class="empty">Pick a card on the left.</div>'; await loadCards();
+    toast('Now using ' + state.forge);
+  } catch (e) { toast(e.message); }
+});
 $('btnScry').onclick = () => busy($('btnScry'), async () => {
   try {
     state = await api('/api/scryfall', {}); renderSettings(); await loadCards(); if (current) await openCard(current);
@@ -1867,8 +1908,13 @@ def main():
             save_settings(args, args.save_config)
             print(f'Settings saved to {args.save_config}. Run again with: --config "{args.save_config}" --apply')
             return
+        found_automatically = args.forge == default_forge_path() and not any(
+            a == '--forge' or a.startswith('--forge=') for a in sys.argv)
         tool = Tool(args)
         tool.scryfall_api = args.scryfall_api
+        if found_automatically and not args.restore:
+            print(f'Using the Forge files in {tool.res} (found automatically; choose another Forge with --forge)',
+                  file=sys.stderr)
         if args.update_scryfall:
             info = tool.update_scryfall(args.scryfall_api,
                                         progress=lambda m: print(f'\r{m:<60}', end='', file=sys.stderr))

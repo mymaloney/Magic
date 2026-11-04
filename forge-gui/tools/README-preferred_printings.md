@@ -21,6 +21,13 @@ the internet, to show pictures Forge hasn't downloaded yet.
 python3 preferred_printings.py --gui --forge "/path/to/Forge"
 ```
 
+Point `--forge` at the Forge you actually play, the folder that contains its `res` folder. If you leave it
+out, the tool uses the Forge it's sitting in; run from a source checkout's `forge-gui/tools`, that's the
+checkout, not an installed copy. The page shows which Forge it's changing at the top, and lets you switch.
+
+Changes to Adventure decks show up in **new** games: an existing save keeps the starting deck it began with,
+and shops that were already stocked keep their cards.
+
 This opens a page in your web browser. It runs only on your computer; nothing is uploaded. Keep the terminal
 window open while you use it, and press Ctrl+C there to quit.
 
