@@ -19,11 +19,11 @@ Name=Brenard
 1 Bristlebud Farmer|big
 1 Bronze Guardian|BRC|[70]
 1 Cliffside Rescuer|c19
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Darksteel Splicer|moc
 1 Displace|emn
 1 Elemental Bond|TDC|[254]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Fanatical Devotion|NMS|[8]
 1 Farhaven Elf|SCD|[182]
 11 Snow-Covered Forest|ICE|[383]
@@ -48,10 +48,10 @@ Name=Brenard
 1 Mirror Entity|TSR|[297]
 1 Mirror Image|J22|[62]
 1 Mulldrifter|TSR|[311]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Night of the Sweets' Revenge|woe
 1 Panharmonicon|TSR|[399]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Peregrin Took|ltr
 9 Snow-Covered Plains|ICE|[367]
 1 Into the North|CSP
@@ -65,8 +65,8 @@ Name=Brenard
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Syr Ginger, the Meal Ender|woe
-1 Tempered Steel|TRC|[241]
-1 Terramorphic Expanse|TRC|[571]
+1 Tempered Steel|BRC|[76]
+1 Terramorphic Expanse|SOS|[265]
 1 The Eternal Wanderer|one
 1 Tough Cookie|J25|[731]
 1 Tragic Arrogance|SOC|[182]

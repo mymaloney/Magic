@@ -6,9 +6,9 @@ Name=Raffine
 1 Herald of Vengeance|ysnc
 1 Alandra, Sky Dreamer|mkc
 1 An Offer You Can't Refuse|FDN|[160]
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Animate Dead|LEB|[93]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archfiend of Ifnir|ECC|[70]
 1 Archon of Emeria|znr
 1 Archpriest of Shadows|mom
@@ -16,8 +16,8 @@ Name=Raffine
 1 Bind to Secrecy|ysnc
 1 Bojuka Bog|TSR|[406]
 1 Chasm Skulker|PIO|[49]
-1 Choked Estuary|TRC|[370]
-1 Command Tower|TRC|[521]
+1 Choked Estuary|MKC|[254]
+1 Command Tower|FRC|[22]
 1 Connive|MKC|[203]
 1 Agent of Raffine|ysnc
 1 Counterspell|DMR|[281]
@@ -29,10 +29,10 @@ Name=Raffine
 1 Duelist of the Mind|otj
 1 Dusk|DRC|[65]
 1 Elenda and Azor|moc
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fellwar Stone|DRK|[102]
 1 Generous Gift|BLC|[106]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Godless Shrine|RVR|[401]
 1 Gold-Forged Thopteryx|mat
 1 Grozoth|rav
@@ -51,8 +51,8 @@ Name=Raffine
 1 Orzhov Basilica|DRC|[164]
 1 Persist|mh2
 6 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Priest of Fell Rites|mh2
 1 Psychic Frog|mh3
 1 Raffine's Tower|snc
@@ -72,12 +72,12 @@ Name=Raffine
 1 Stitch Together|jud
 1 Stroke of Midnight|FRC|[35]
 1 Sun Titan|SOC|[178]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 6 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Dominance|TRC|[505]
-1 Talisman of Hierarchy|TRC|[506]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Dominance|FRC|[62]
+1 Talisman of Hierarchy|SOC|[358]
+1 Talisman of Progress|FRC|[64]
 1 Teferi's Ageless Insight|J25|[371]
 1 Time Wipe|TDC|[308]
 1 Unburial Rites|2X2|[95]

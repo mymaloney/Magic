@@ -7,8 +7,8 @@ Name=Tawnos, Solemn Survivor
 1 Alela, Artful Provocateur|BRC|1
 1 Ancient Den|TSR|[403]
 1 Angel of the Ruins|EOC|[63]
-1 Arcane Sanctum|TRC|[513]
-1 Arcane Signet|TRC|[485]
+1 Arcane Sanctum|DRC|[146]
+1 Arcane Signet|FRC|[20]
 1 Armix, Filigree Thrasher|BRC|1
 1 Ash Barrens|TDC|[339]
 1 Austere Command|FDC|[18]
@@ -20,7 +20,7 @@ Name=Tawnos, Solemn Survivor
 1 Bronze Guardian|BRC|1
 1 Chief of the Foundry|FDC|[249]
 1 Chrome Courier|BRC|1
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cranial Plating|TSR|[392]
 1 Darksteel Citadel|FDC|[300]
 1 Darksteel Juggernaut|FDC|[252]
@@ -31,8 +31,8 @@ Name=Tawnos, Solemn Survivor
 1 Etched Champion|BRC|1
 1 Etherium Sculptor|EOC|[72]
 1 Ethersworn Adjudicator|MOC|[222]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Filigree Attendant|J25|[312]
 1 Goldmire Bridge|MOC|[407]
 1 Hexavus|BRC|1
@@ -50,11 +50,11 @@ Name=Tawnos, Solemn Survivor
 1 One with the Machine|DRC|[80]
 1 Orzhov Basilica|DRC|[164]
 1 Orzhov Signet|TDC|[323]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Phyrexian Rebirth|MOC|[199]
 2 Plains|INR|[288]
 2 Plains|INR|[288]
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Preordain|TDC|[161]
 1 Razortide Bridge|EOC|[171]
 1 Relic of Progenitus|BRC|1
@@ -66,19 +66,19 @@ Name=Tawnos, Solemn Survivor
 1 Sharding Sphinx|MOC|[235]
 1 Sharuum the Hegemon|BRC|1
 1 Shimmer Dragon|FDC|[75]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Skycloud Expanse|ODY|[327]
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Sphinx's Revelation|RVR|[383]
-1 Spire of Industry|TRC|[405]
+1 Spire of Industry|EOC|[183]
 1 Steel Hellkite|TDC|[327]
 1 Steel Overseer|EOC|[144]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 3 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
-1 Tempered Steel|TRC|[241]
+1 Tempered Steel|BRC|[76]
 1 Temple of Deceit|DRC|[176]
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of Silence|SOC|[415]
@@ -86,7 +86,7 @@ Name=Tawnos, Solemn Survivor
 1 Thopter Shop|BRC|1
 1 Thopter Spy Network|DRC|[83]
 1 Thought Monitor|EOC|[79]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Unbreakable Formation|RVR|[32]
 1 Urza's Ruinous Blast|BRC|1
 1 Vault of Whispers|J25|[780]

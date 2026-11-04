@@ -4,7 +4,7 @@ Name=Karrthus
 1 Karrthus, Tyrant of Jund|2XM|[205]
 [Main]
 1 Ambition's Cost|FDC|[84]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Atarka, World Render|TDC|[281]
 1 Birds of Paradise|RVR|[344]
 1 Blood Crypt|RVR|[397]
@@ -12,7 +12,7 @@ Name=Karrthus
 1 Breaching Dragonstorm|tdm
 1 Broodmate Dragon|C17|[165]
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Corpse Dance|tmp
 1 Court of Ambition|cmr
 1 Court of Bounty|cmr
@@ -27,7 +27,7 @@ Name=Karrthus
 1 Dragon's Hoard|TDC|[317]
 1 Ziatora, the Incinerator|M3C|[279]
 1 Dragonmaster Outcast|TDC|[211]
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Dragonspeaker Shaman|scg
 1 Dragonstorm Globe|tdm
 1 Elvish Piper|UDS|[104]
@@ -48,14 +48,14 @@ Name=Karrthus
 1 Kodama's Reach|ECC|[113]
 1 Lathliss, Dragon Queen|TDC|[219]
 9 Mountain|INR|[294]
-1 Painful Truths|TRC|[274]
+1 Painful Truths|ECC|[82]
 1 Paradise Druid|FDC|[219]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Patriarch's Bidding|ons
 1 Phyrexian Arena|apc
 1 Putrefy|RVR|[378]
 1 Rakdos Charm|TSR|[384]
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 Return of the Wildspeaker|ECC|[115]
 1 Rivaz of the Claw|dmu
 1 Rootbound Crag|ECC|[163]
@@ -72,7 +72,7 @@ Name=Karrthus
 1 Broodcaller Scourge|tdc
 1 Canopy Gargantuan|tdc
 1 Skyline Despot|FDC|[176]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Steel Hellkite|TDC|[327]
 7 Swamp|INR|[292]

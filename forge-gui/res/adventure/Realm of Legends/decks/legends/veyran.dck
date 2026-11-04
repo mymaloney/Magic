@@ -3,10 +3,10 @@ Name=Veyran
 [Commander]
 1 Veyran, Voice of Duality|SOC|[337]
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Adeliz, the Cinder Wind|dom
 1 Aetherize|RVR|[448]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage Emeritus|SOC|[188]
 1 Archmage of Runes|fdn
 1 Balmor, Battlemage Captain|FDN|[237]
@@ -14,8 +14,8 @@ Name=Veyran
 1 Beamsplitter Mage|grn
 1 Blitz of the Thunder-Raptor|iko
 1 Brute Force|TSR|[157]
-1 Frostboil Snarl|TRC|[383]
-1 Command Tower|TRC|[521]
+1 Frostboil Snarl|SOC|[374]
+1 Command Tower|FRC|[22]
 1 Coruscation Mage|blb
 1 Counterspell|DMR|[281]
 1 Curious Homunculus|emn
@@ -23,7 +23,7 @@ Name=Veyran
 1 Dualcaster Mage|C21|[165]
 1 Electroduplicate|fdn
 1 Electrostatic Infantry|dmu
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Experimental Overload|m21
 1 Exquisite Firecraft|TSR|[343]
 1 Fall of the Hammer|PIO|[134]
@@ -38,23 +38,23 @@ Name=Veyran
 1 Izzet Boilerworks|M3C|[350]
 1 Izzet Charm|RVR|[368]
 1 Izzet Chemister|CLB|[798]
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Kaza, Roil Chaser|otc
 1 Lightning Bolt|LEB|[162]
 1 Living Lore|C21|[121]
 15 Mountain|INR|[294]
 1 Narset's Reversal|tdc
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Niv-Mizzet, Parun|rvr
 1 Niv-Mizzet, the Firemind|RVR|[467]
 1 Obliterating Bolt|fdn
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pyroceratops|iko
 1 Ral, Storm Conduit|war
 1 Ravaging Blaze|CMM|[250]
 1 Rootha, Mercurial Artist|SOC|[329]
 1 Rowan, Scholar of Sparks|stx
-1 Run Amok|TRC|[582]
+1 Run Amok|KHM|[147]
 1 Smoldering Egg|DBL|[159]
 1 Sol Ring|LEB|[270]
 1 Banefire|J22|[495]
@@ -64,7 +64,7 @@ Name=Veyran
 1 Stormcatch Mentor|SOC|[331]
 1 Summary Dismissal|inr
 1 Swarm Intelligence|C21|[130]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Taigam, Master Opportunist|tdm
 1 Tandem Lookout|mm3
 1 Teach by Example|fdn

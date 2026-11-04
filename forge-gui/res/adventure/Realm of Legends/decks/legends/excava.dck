@@ -44,24 +44,24 @@ Name=excava
 1 Study Hall|SOC
 1 Lotus Field|SOC
 1 Sacred Peaks|SOC
-1 Command Tower|TRC|[521]
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
-1 Furycalm Snarl|TRC|[384]
-1 Radiant Summit|TRC|[395]
+1 Command Tower|FRC|[22]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
+1 Furycalm Snarl|SOC|[375]
+1 Radiant Summit|FRC|[80]
 1 Lorehold Campus|SOC
 1 Mistveil Plains|SOC
 1 Clifftop Retreat|DMR|[393]
 1 Fields of Strife|SOS
 1 Turbulent Steppe|SOC
 1 Battlefield Forge|APC|[139]
-1 Glittering Massif|TRC|[386]
+1 Glittering Massif|SOC|[376]
 1 Temple of Triumph|SOC
 1 Emeria, the Sky Ruin|SOC
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Sol Ring|LEB|[270]
 1 Mind Stone|DMR|[385]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Fellwar Stone|DRK|[102]
 1 Patchwork Banner|SOC
 1 Currency Converter|FRC|[55]

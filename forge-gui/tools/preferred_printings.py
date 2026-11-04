@@ -29,9 +29,32 @@ import unicodedata
 import urllib.parse
 import webbrowser
 
-# Universes Beyond sets (and their promo/companion sets) as named in Forge's edition files.
-UB_SETS = {'40K', 'ACR', 'BOT', 'FCA', 'FIC', 'FIN', 'HOB', 'HOC', 'LMAR', 'LTC', 'LTR', 'MAR', 'MDC', 'MDD',
-           'MSC', 'MSH', 'PIP', 'PLTC', 'PZA', 'REX', 'RFIN', 'SPE', 'SPM', 'TLA', 'TLE', 'TMC', 'TMT', 'WHO'}
+# Universes Beyond sets (and their promo/companion sets) as named in Forge's edition files. Forge doesn't mark
+# UB sets, so this list is kept by hand: add new UB releases here, or list them in a settings file
+# (extra_ub_sets) / with --ub-set. Universes Within (SLX) is deliberately absent: it holds the non-UB versions.
+BUILT_IN_UB_SETS = frozenset({
+    '40K',                                  # Warhammer 40,000
+    'ACR',                                  # Assassin's Creed
+    'BOT',                                  # Transformers
+    'FIN', 'FIC', 'FCA', 'RFIN', 'PSS5',    # Final Fantasy
+    'HOB', 'HOC',                           # The Hobbit
+    'LTR', 'LTC', 'PLTC',                   # The Lord of the Rings
+    'MSH', 'MSC', 'MDD', 'MDC', 'MAR', 'LMAR', 'SPM', 'SPE',  # Marvel
+    'PCBB',                                 # Cowboy Bebop
+    'PIP',                                  # Fallout
+    'REX',                                  # Jurassic World
+    'TLA', 'TLE',                           # Avatar: The Last Airbender
+    'TMT', 'TMC', 'PZA',                    # Teenage Mutant Ninja Turtles
+    'TRK', 'TRC',                           # Star Trek
+    'WHO',                                  # Doctor Who
+})
+UB_SETS = set(BUILT_IN_UB_SETS)  # plus the user's extra_ub_sets; see set_extra_ub_sets()
+
+
+def set_extra_ub_sets(codes):
+    UB_SETS.clear()
+    UB_SETS.update(BUILT_IN_UB_SETS)
+    UB_SETS.update(c.strip().upper() for c in codes or [] if c and c.strip())
 SECRET_LAIR_SETS = {'SLD', 'SLU', 'SLC', 'SLP', 'PSSC'}
 MASTERPIECE_SETS = {'MP2', 'MPS_KLD', 'EXP', 'ZNE', 'STA', 'SOA'}
 # Sets dated before many of the cards they contain; ranked last so their date doesn't decide the order.
@@ -81,7 +104,7 @@ CATEGORIES = {
 DEFAULTS = {'forge': None, 'decks': [], 'user_decks': False, 'skip_dir': [], 'skip_set_named_decks': True,
             'order': 'latest', 'prefer_old_frame': True, 'exclude': sorted(CATEGORIES),
             'backup': True, 'backup_dir': 'preferred-printings-backups', 'card_choices': {},
-            'image_cache': None, 'online_images': True}
+            'image_cache': None, 'online_images': True, 'extra_ub_sets': []}
 SAVED_OPTIONS = tuple(DEFAULTS)
 
 Printing = collections.namedtuple('Printing', 'set cn section date type border card art arts')
@@ -456,6 +479,10 @@ class Tool:
                             '(the one containing "res"), or at Forge.app on a Mac.')
         self.profile = read_profile(opts.forge, self.res)
         self.editions = Editions(os.path.join(self.res, 'editions'))
+        unknown = sorted(c.upper() for c in opts.extra_ub_sets if c.strip().upper() not in self.editions.sets)
+        if unknown:
+            raise ToolError(f"Unknown set code(s) in extra UB sets: {', '.join(unknown)}")
+        set_extra_ub_sets(opts.extra_ub_sets)
 
     def roots(self):
         return deck_roots(self.opts, self.res, self.profile)
@@ -537,6 +564,7 @@ def build_report(opts, apply, res, roots, stats, per_folder, chooser, kept, unkn
              f"- deck folders: {', '.join(roots)}",
              f'- order: {opts.order}; prefer old frame: {opts.prefer_old_frame}',
              f"- excluded: {', '.join(sorted(opts.exclude)) or 'nothing'}",
+             f"- extra UB sets: {', '.join(sorted(opts.extra_ub_sets)) or 'none'}",
              f'- cards with your own picks: {len(normalize_choices(opts.card_choices))}',
              f"- skipped folders: {', '.join(opts.skip_dir) or 'none'}; "
              f'skip set-named decks: {opts.skip_set_named_decks}', '', '## Totals']
@@ -685,6 +713,7 @@ class GuiState:
             'onlineImages': o.online_images, 'picsDir': self.pics_dir(),
             'picsDirFound': os.path.isdir(self.pics_dir()), 'settingsPath': os.path.abspath(self.settings_path),
             'picks': len(normalize_choices(o.card_choices)),
+            'extraUb': list(o.extra_ub_sets), 'builtInUb': sorted(BUILT_IN_UB_SETS),
             'categories': [{'id': k, 'label': v[2], 'about': v[0], 'hard': v[1]} for k, v in CATEGORIES.items()],
         }
 
@@ -713,6 +742,13 @@ class GuiState:
             o.backup = bool(d['backup'])
         if 'onlineImages' in d:
             o.online_images = bool(d['onlineImages'])
+        if 'extraUb' in d:
+            codes = list(dict.fromkeys(c.strip().upper() for c in d['extraUb'] if c.strip()))
+            unknown = [c for c in codes if c not in self.tool.editions.sets]
+            if unknown:
+                raise ToolError(f"Forge has no set with code {', '.join(unknown)}")
+            o.extra_ub_sets = codes
+            set_extra_ub_sets(codes)
 
     def card_list(self, query, only_picks, limit=400):
         cards = self.cards_in_decks()
@@ -1001,6 +1037,10 @@ dialog pre { white-space: pre-wrap; font: 12px ui-monospace, monospace; backgrou
     <h2>Exclude</h2>
     <div id="cats"></div>
     <div class="small">Marked <span class="hard">always</span>: never used, even if a card has nothing else.</div>
+    <div class="small" style="margin:10px 0 4px">Also count these set codes as Universes Beyond (for newer UB sets):</div>
+    <input id="optExtraUb" type="text" placeholder="e.g. ABC, XYZ" autocomplete="off"
+      style="width:100%;font:12px ui-monospace,monospace;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);padding:6px">
+    <details class="small" style="margin-top:4px"><summary>Sets already counted as UB</summary><span id="builtInUb"></span></details>
 
     <h2>Prefer</h2>
     <label class="opt"><input type="checkbox" id="optOld"> <span>Old frame<br><span class="small">Pre-2003 sets and “retro frame” reprints</span></span></label>
@@ -1069,6 +1109,7 @@ function renderSettings() {
   $('userDir').textContent = s.userDecksDir; $('optExtra').value = s.extraDecks.join('\n');
   $('optSkipSet').checked = s.skipSetNamed; $('optOld').checked = s.oldFrame;
   $('optOnline').checked = s.onlineImages; $('optBackup').checked = s.backup;
+  $('optExtraUb').value = s.extraUb.join(', '); $('builtInUb').textContent = s.builtInUb.join(', ');
   $('picsDir').textContent = (s.picsDirFound ? 'Forge image cache: ' : 'No Forge image cache found at ') + s.picsDir;
   $('settingsPath').textContent = 'Settings file: ' + s.settingsPath;
   for (const b of $('segOrder').children) b.classList.toggle('on', b.dataset.v === s.order);
@@ -1198,6 +1239,7 @@ $('btnSave').onclick = () => busy($('btnSave'), async () => {
 for (const id of ['optOld', 'optOnline', 'optBackup', 'optSkipSet']) $(id).onchange = () => saveRules();
 for (const id of ['optAdventure', 'optUser']) $(id).onchange = () => saveDecks();
 $('optExtra').onchange = () => saveDecks();
+$('optExtraUb').onchange = () => saveRules({ extraUb: $('optExtraUb').value.split(/[\s,]+/).filter(Boolean) });
 for (const b of $('segOrder').children) b.onclick = () => saveRules({ order: b.dataset.v });
 $('q').oninput = () => { clearTimeout(searchTimer); searchTimer = setTimeout(loadCards, 200); };
 $('tabAll').onclick = () => { onlyPicks = false; $('tabAll').classList.add('on'); $('tabPicks').classList.remove('on'); loadCards(); };
@@ -1244,6 +1286,9 @@ def build_parser():
                        help='categories to exclude (default: all of them)')
     rules.add_argument('--include', nargs='*', choices=sorted(CATEGORIES), default=[], metavar='CATEGORY',
                        help='categories to allow again, removed from the excluded ones')
+    rules.add_argument('--ub-set', dest='extra_ub_sets', action='append', metavar='CODE',
+                       help='also treat this set code as Universes Beyond (for UB sets newer than this tool); '
+                            'repeatable')
 
     run = p.add_argument_group('running')
     run.add_argument('--gui', action='store_true',

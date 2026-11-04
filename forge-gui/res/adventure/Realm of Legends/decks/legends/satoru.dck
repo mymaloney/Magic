@@ -5,7 +5,7 @@ Name=Satoru
 [Main]
 1 Agadeem's Awakening|znr
 1 An Offer You Can't Refuse|FDN|[160]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Azure Beastbinder|blb
 1 Bitterblossom|2X2|[69]
 1 Assassin's Ink|neo
@@ -19,7 +19,7 @@ Name=Satoru
 1 Black Market Connections|lcc
 1 Changeling Outcast|otc
 1 Coat of Arms|exo
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Cover of Darkness|ons
 1 Creeping Tar Pit|CLB|[888]
@@ -27,10 +27,10 @@ Name=Satoru
 1 Dimir Aqueduct|DSC|[270]
 1 Dimir Signet|FRC|[56]
 1 Dour Port-Mage|blb
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Fallen Shinobi|OTC|[226]
 1 Fell the Profane|mh3
-1 Fetid Pools|TRC|[380]
+1 Fetid Pools|TDC|[363]
 1 Glasspool Mimic|znr
 1 Hagra Mauling|znr
 1 Higure, the Still Wind|PCA|[18]
@@ -51,11 +51,11 @@ Name=Satoru
 1 Orochi Soul-Reaver|otc
 1 Patchwork Banner|SOC|[353]
 1 Phyrexian Walker|vis
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Prosperous Thief|J25|[346]
 1 Raise the Palisade|ltc
 1 Reality Shift|SOC|[199]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sakashima's Student|pca
 1 Shipwreck Marsh|FRA|[189]
 1 Silent-Blade Oni|OTC|[241]
@@ -67,7 +67,7 @@ Name=Satoru
 1 Archetype of Imagination|dsc
 10 Swamp|INR|[292]
 1 Taeko, the Patient Avalanche|j25
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Thousand-Faced Shadow|neo
 1 Tormented Soul|J22|[477]
 1 Toxic Deluge|MH3|[412]

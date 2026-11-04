@@ -19,11 +19,11 @@ Name=Mogis, God of Slaughter
 1 Charging Cinderhorn|C16
 1 Crimson Honor Guard|VOC
 1 Clackbridge Troll|ELD
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 Fanatic of Mogis|PIO|[295]
 1 Mogis's Marauder|THS
 1 Adaptive Automaton|FDN|[723]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archfiend of Depravity|SCD|[67]
 1 Boneyard Parley|C19
 1 Whip of Erebos|PIO|[119]
@@ -31,7 +31,7 @@ Name=Mogis, God of Slaughter
 1 Capital Punishment|CN2
 1 Captive Audience|RNA
 1 Choice of Damnations|SOK
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Custodi Lich|NCC|[244]
 1 Deliver Unto Evil|WAR
 1 Desecration Demon|FDN|[603]
@@ -51,7 +51,7 @@ Name=Mogis, God of Slaughter
 1 Pain Distributor|MOC
 1 Pain's Reward|SOK
 1 Painful Quandary|FDN|[179]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Plargg and Nassari|SOC|[250]
 1 Prismatic Lens|OTC|[264]
 1 Prisoner's Dilemma|MKC
@@ -66,8 +66,8 @@ Name=Mogis, God of Slaughter
 16 Swamp|INR|[292]
 1 Restless Vents|LCI
 1 Raucous Theater|MKM
-1 Dragonskull Summit|TRC|[375]
-1 Temple of Malice|TRC|[410]
+1 Dragonskull Summit|ECC|[147]
+1 Temple of Malice|FDN|[701]
 1 Temporal Extortion|PLC
 1 Torment of Hailfire|HOU
 1 Visions of Dread|MIC

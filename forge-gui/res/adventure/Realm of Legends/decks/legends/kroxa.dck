@@ -15,7 +15,7 @@ Name=Kroxa
 1 Azra Oddsmaker|bbd
 1 Barrowgoyf|m3c
 1 Bedevil|DSC|[84]
-1 Bitter Triumph|TRC|[445]
+1 Bitter Triumph|TDC|[173]
 1 Blackcleave Cliffs|DSC|[263]
 1 Blasphemous Act|SOC|[238]
 1 Blasphemous Edict|fdn
@@ -27,20 +27,20 @@ Name=Kroxa
 1 Bojuka Bog|TSR|[406]
 1 Brass's Tunnel-Grinder|lci
 1 Call to the Netherworld|c19
-1 Canyon Slough|TRC|[369]
+1 Canyon Slough|ECC|[145]
 1 Castle Locthwain|FDC|[299]
 1 Hymn to Tourach|FEM|[38a]
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Chainer, Nightmare Adept|mh2
 1 Claim|hou
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Dakmor Salvage|eoc
 1 Damnation|2X2|[73]
 1 Delirium Skeins|MM3|[65]
 1 Detective's Phoenix|mh3
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Emperor of Bones|mh3
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Fell the Profane|mh3
 1 Fireglass Mentor|blb
 1 Flare of Malice|mh3
@@ -57,7 +57,7 @@ Name=Kroxa
 1 Malakir Rebirth|znr
 1 Stupor|mir
 5 Mountain|INR|[294]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Oppression|USG|[143]
 1 Pain Magnification|dis
 1 Painful Quandary|fdn
@@ -74,7 +74,7 @@ Name=Kroxa
 1 Sangromancer|J25|[122]
 1 Seasoned Pyromancer|2X2|[123]
 1 Smallpox|tsr
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Spymaster's Vault|mh3
 1 Sulfurous Mire|khm
 1 Sulfurous Springs|ICE|[360]
@@ -90,5 +90,5 @@ Name=Kroxa
 1 Urborg Scavengers|mat
 1 Vault of Whispers|J25|[780]
 1 Sol Ring|LEB|[270]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Withering Torment|FDC|[134]

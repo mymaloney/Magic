@@ -6,11 +6,11 @@ Name=Niv-Mizzet
 1 Aetherize|RVR|[448]
 1 Arcane Denial|ALL|[22a]
 1 Arcane Epiphany|FDN
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Basilisk Collar|FDC|[246]
 1 Brainstorm|MMQ|[61]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Compulsive Research|RVR
 1 Cyclonic Rift|RVR|[313]
 1 Gelectrode|GK1|[38]
@@ -43,7 +43,7 @@ Name=Niv-Mizzet
 1 Invert Polarity|MH3
 11 Island|INR|[290]
 1 Izzet Guildgate|RVR|[405]
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Keranos, God of Storms|PIO|[311]
 1 Laboratory Maniac|INR
 1 Lightning Bolt|LEB|[162]
@@ -51,7 +51,7 @@ Name=Niv-Mizzet
 1 Mercurial Chemister|C20|[221]
 1 Mirrormade|DSC
 13 Mountain|INR|[294]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Niv-Mizzet, Dracogenius|C17|[184]
 1 Niv-Mizzet, Parun|RVR
 1 Niv-Mizzet, the Firemind|RVR|[467]
@@ -60,8 +60,8 @@ Name=Niv-Mizzet
 1 Opt|INV|[64]
 1 Propaganda|TMP|[80]
 1 Quench|RVR
-1 Refute|TRC|[579]
-1 Reliquary Tower|TRC|[551]
+1 Refute|FDN|[48]
+1 Reliquary Tower|SOC|[398]
 1 Rush of Inspiration|MH3
 1 Sky Diamond|MIR
 1 Sol Ring|LEB|[270]

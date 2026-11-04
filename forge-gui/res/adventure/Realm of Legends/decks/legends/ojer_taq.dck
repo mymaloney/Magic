@@ -10,7 +10,7 @@ Name=Ojer Taq
 1 Sanguine Evangelist|lci
 1 Allied Reinforcements|ogw
 1 Angel of Invention|TDC|[109]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Basri Ket|m21
 1 Basri's Lieutenant|J25|[171]
 1 Benevolent Offering|voc
@@ -20,7 +20,7 @@ Name=Ojer Taq
 1 Call the Coppercoats|onc
 1 Castle Ardenvale|TDC|[346]
 1 Cathar's Call|INR|[16]
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Court of Grace|FDC|[21]
 1 Worn Powerstone|usg
 1 Defiler of Faith|dmu
@@ -45,14 +45,14 @@ Name=Ojer Taq
 1 Mind Stone|DMR|[385]
 1 Mite Overseer|one
 1 Oketra's Monument|dmc
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 35 Plains|INR|[288]
 1 Platoon Dispenser|bro
 1 Prava of the Steel Legion|onc
 1 Rabble Rousing|snc
 1 Raise the Alarm|J25|[101]
 1 Regal Bunnicorn|woe
-1 Return to Dust|TRC|[427]
+1 Return to Dust|DSC|[102]
 1 Reverent Hoplite|thb
 1 Rootborn Defenses|CLU|[71]
 1 Secret Rendezvous|SOC|[166]
@@ -64,7 +64,7 @@ Name=Ojer Taq
 1 Stroke of Midnight|FRC|[35]
 1 Sun Titan|SOC|[178]
 1 Visions of Glory|mic
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Welcoming Vampire|TDC|[140]
 1 White Sun's Twilight|FRC|[38]
 1 White Sun's Zenith|onc

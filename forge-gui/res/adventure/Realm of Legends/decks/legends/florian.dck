@@ -4,7 +4,7 @@ Name=Florian, Voldaren Scion
 1 Florian, Voldaren Scion|DSC|[217]
 [Main]
 1 Anje, Maid of Dishonor|DBL|[498]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arena of Glory|MH3
 1 Blasphemous Act|SOC|[238]
 1 Blazemire Verge|DSK
@@ -15,21 +15,21 @@ Name=Florian, Voldaren Scion
 1 Bloodsoaked Insight|MH3
 1 Bloodtracker|LCC|[186]
 1 Bojuka Bog|TSR|[406]
-1 Canyon Slough|TRC|[369]
+1 Canyon Slough|ECC|[145]
 1 Captivating Vampire|INR|[374]
 1 Champion of Dusk|LCC
 1 Chaos Warp|MBC|[72]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cordial Vampire|LCC
 1 Crossway Troublemakers|J25|[417]
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Drana, Liberator of Malakir|LCC|[193]
 1 Drana, the Last Bloodchief|ZNR
 1 Dusk Legion Sergeant|LCC
 1 Dusk Legion Zealot|LCC
 1 Feed the Swarm|TDC|[180]
 1 Fell the Profane|MH3
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 1 Hagra Mauling|ZNR
 1 Henrika Domnathi|DBL|[386]
 1 High-Society Hunter|FDN
@@ -47,7 +47,7 @@ Name=Florian, Voldaren Scion
 1 Oubliette|ARN|[31]
 1 Pact of the Serpent|LCC
 1 Patchwork Banner|SOC|[353]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Patron of the Vein|LCC
 1 Preacher of the Schism|LCI
 1 Queen's Bay Paladin|LCI
@@ -58,7 +58,7 @@ Name=Florian, Voldaren Scion
 1 Roaming Throne|LCI
 1 Sanctum Seeker|J25|[485]
 1 Sign in Blood|FDC|[125]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Sorin, Imperious Bloodlord|INR|[476]
 1 Soul Shatter|SCD
@@ -70,9 +70,9 @@ Name=Florian, Voldaren Scion
 12 Swamp|INR|[292]
 1 Tainted Peak|TOR|[142]
 1 Takenuma, Abandoned Mire|NEO
-1 Talisman of Indulgence|TRC|[507]
-1 Temple of Malice|TRC|[410]
-1 Thought Vessel|TRC|[509]
+1 Talisman of Indulgence|FRC|[63]
+1 Temple of Malice|FDN|[701]
+1 Thought Vessel|MBC|[78]
 1 Tibalt's Trickery|KHM
 1 Toxic Deluge|MH3
 1 Twilight Prophet|MKC
@@ -84,5 +84,5 @@ Name=Florian, Voldaren Scion
 1 Voldaren Epicure|INR|[405]
 1 Voldaren Estate|LCC
 1 Vraan, Executioner Thane|ONE
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Westgate Regent|AFR

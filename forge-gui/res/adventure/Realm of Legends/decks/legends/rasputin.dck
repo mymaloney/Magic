@@ -4,7 +4,7 @@ Name=Rasputin
 1 Rasputin Dreamweaver|leg
 [Main]
 1 Angelic Chorus|usg
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Austere Command|FDC|[18]
 1 Azorius Chancery|DSC|[261]
 1 Blind Obedience|rvr
@@ -12,7 +12,7 @@ Name=Rasputin
 1 Buried Ruin|EOC|[150]
 1 Cloud of Faeries|ulg
 1 Coastal Tower|inv
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Coral Atoll|vis
 1 Cyclonic Rift|rvr
 1 Deadeye Navigator|inr|[492]
@@ -47,17 +47,17 @@ Name=Rasputin
 1 Adarkar Wastes|ice
 1 Mystical Tutor|DMR|[289]
 1 Panharmonicon|tsr
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|tsr
 1 Reins of Power|sth
 1 Peregrine Drake|DMR|[292]
 7 Plains|INR|[288]
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Propaganda|tmp
 1 Psychosis Crawler|FDC|[280]
 1 Razortide Bridge|EOC|[171]
 1 Recall|LEG|[70]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Restoration Angel|tsr
 1 Rhystic Study|pcy
 1 Riptide Laboratory|ons
@@ -80,11 +80,11 @@ Name=Rasputin
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of the False God|scg
 1 Thought Monitor|EOC|[79]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Time Spiral|usg
 1 Tithe|vis
 1 Treachery|uds
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Weathered Wayfarer|ons
 1 Whitemane Lion|dmr|[277]
 1 Windborn Muse|DMR|[278]

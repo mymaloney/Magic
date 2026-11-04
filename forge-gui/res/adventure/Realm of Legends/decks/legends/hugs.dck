@@ -4,7 +4,7 @@ Name=Hugs
 1 Hugs, Grisly Guardian|blb
 [Main]
 1 Aggressive Instinct|j25
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artifact Mutation|INV|[231]
 1 Berserkers' Onslaught|blc
 1 raccoon rallier|blb
@@ -32,7 +32,7 @@ Name=Hugs
 1 Chaos Warp|MBC|[72]
 1 Charging Badger|bng
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cultivate|SOC|[265]
 1 Cultivator Colossus|inr
 1 Elemental Bond|tdc
@@ -55,10 +55,10 @@ Name=Hugs
 1 Nissa, Ascended Animist|one
 1 prosperous bandit|blc
 1 brightcap badger|blc
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 trailtracker scout|blc
 1 Raging Ravine|ECC|[160]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Retreat to Kazandu|j25
 1 Rishkar's Expertise|FDC|[226]
 1 thickest in the thicket|FDC|[236]

@@ -4,7 +4,7 @@ Name=Gev
 1 Gev, Scaled Scorch|blb
 [Main]
 1 Agate-Blade Assassin|blb
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artist's Talent|blb
 1 Bandit's Haul|otj
 1 Bedevil|dsc
@@ -17,12 +17,12 @@ Name=Gev
 1 Chaos Warp|MBC|[72]
 1 Cindering Cutthroat|blb
 1 City on Fire|mom
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crushing Disappointment|stx
 1 Cryptolith Fragment|inr
 1 Dagger Caster|CLU|[130]
 1 Deathgazer|mmq
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 End the Festivities|DBL|[422]
 1 Fiery Confluence|LCC|[226]
 1 scales of shale|blb
@@ -53,7 +53,7 @@ Name=Gev
 1 Mudflat Village|blb
 1 Party Thrasher|mh3
 1 Patchwork Banner|SOC|[353]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Phyrexian Arena|APC|[47]
 1 Piranha Marsh|j22
 1 Play with Fire|J25|[586]
@@ -70,7 +70,7 @@ Name=Gev
 1 Shivan Gorge|USG|[326]
 1 Sigiled Skink|jou
 1 Sinister Monolith|blb
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Spitfire Lagac|FDN|[208]
 1 Staff of Nin|cm2
@@ -82,7 +82,7 @@ Name=Gev
 2 Swamp|INR|[292]
 1 Tainted Peak|TOR|[142]
 1 Tectonic Hazard|lci
-1 Temple of Malice|TRC|[410]
+1 Temple of Malice|FDN|[701]
 1 Terminate|PLS|[128]
 1 Theater of Horrors|DSC|[236]
 1 Thought-Stalker Warlock|blb

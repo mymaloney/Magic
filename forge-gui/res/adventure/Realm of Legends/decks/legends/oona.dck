@@ -15,13 +15,13 @@ Name=Oona, Queen of the Fae
 1 Thran Dynamo|UDS|[139]
 1 Adaptive Automaton|FDN
 1 Aetherize|RVR|[448]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Bitterblossom|2X2|[69]
 1 Blackbloom Rogue|PIO|[85]
 1 Cloud of Faeries|ULG|[29]
 1 Coastal Piracy|MMQ
 1 Coat of Arms|EXO
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Creeping Tar Pit|CLB|[888]
 1 Dark Ritual|MMQ
@@ -37,7 +37,7 @@ Name=Oona, Queen of the Fae
 1 Faerie Dreamthief|WOE
 1 Faerie Fencing|WOE
 1 Favorable Winds|SCD
-1 Fetid Pools|TRC|[380]
+1 Fetid Pools|TDC|[363]
 1 Frogify|2XM|[52]
 1 Glen Elendra Liege|WOC
 1 Halo Forager|WOC
@@ -55,7 +55,7 @@ Name=Oona, Queen of the Fae
 1 Mocking Sprite|FDN
 1 Myriad Landscape|EOC
 1 Nectar Faerie|LRW
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Obyra, Dreaming Duelist|WOE
 1 Oona's Blackguard|ZNC
 1 Oona's Gatewarden|SHM
@@ -71,7 +71,7 @@ Name=Oona, Queen of the Fae
 1 Spellscorn Coven|WOE
 1 Spellstutter Sprite|J22|[65]
 1 Stingblade Assassin|WOE
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 10 Swamp|INR|[292]
 1 Tainted Isle|TOR|[141]
 1 Talion's Messenger|WOE

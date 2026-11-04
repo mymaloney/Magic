@@ -6,19 +6,19 @@ Name=Kamiz, Obscura Oculus
 1 Aerial Extortionist|MKC|[54]
 1 Alela, Artful Provocateur|BRC|[119]
 1 An Offer You Can't Refuse|FDN|[160]
-1 Arcane Sanctum|TRC|[513]
-1 Arcane Signet|TRC|[485]
+1 Arcane Sanctum|DRC|[146]
+1 Arcane Signet|FRC|[20]
 1 Archon of Coronation|NCC|1
 1 Ash Barrens|TDC|[339]
 1 Austere Command|FDC|[18]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Cephalid Facetaker|NCC|1
 1 Champion of Wits|DRC|[72]
 1 Change of Plans|NCC|1
 1 Chasm Skulker|PIO|[49]
-1 Choked Estuary|TRC|[370]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Choked Estuary|MKC|[254]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Commit|LCC|[147]
 1 Creeping Tar Pit|CLB|[888]
 1 Currency Converter|FRC|[55]
@@ -26,12 +26,12 @@ Name=Kamiz, Obscura Oculus
 1 Daring Saboteur|LCC|[151]
 1 Watery Grave|RVR|[415]
 1 Daxos of Meletis|NCC|1
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Dragonlord Ojutai|PIO|[219]
 1 Drana, Liberator of Malakir|LCC|[193]
 1 Dusk|DRC|[65]
 1 Esper Panorama|NCC|1
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fallen Shinobi|OTC|[226]
 1 Fellwar Stone|DRK|[102]
 1 Fetid Heath|FRC|[72]
@@ -54,15 +54,15 @@ Name=Kamiz, Obscura Oculus
 1 Obscura Charm|SNC|1
 1 Obscura Confluence|NCC|1
 1 Obscura Storefront|DSC|[291]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Oskar, Rubbish Reclaimer|NCC|1
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 5 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Profane Command|SCD|[99]
 1 Quietus Spike|NCC|1
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Shadowmage Infiltrator|ODY|[294]
 1 Silent-Blade Oni|OTC|[241]
 1 Hallowed Fountain|RVR|[404]
@@ -72,9 +72,9 @@ Name=Kamiz, Obscura Oculus
 1 Stolen Identity|NCC|1
 1 Strionic Resonator|LCC|[116]
 1 Sun Titan|SOC|[178]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 6 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Temple of Silence|SOC|[415]
 1 Thief of Sanity|OTC|[243]
@@ -84,7 +84,7 @@ Name=Kamiz, Obscura Oculus
 1 Tivit, Seller of Secrets|NCC|1
 1 Treasure Cruise|TSR|[319]
 1 Utter End|DSC|[91]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Whirler Rogue|DRC|[85]
 1 Wrexial, the Risen Deep|NCC|1
 1 Writ of Return|NCC|1

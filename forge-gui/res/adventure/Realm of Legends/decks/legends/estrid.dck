@@ -14,7 +14,7 @@ Name=Estrid
 1 Breeding Pool|RVR|[399]
 1 Brushland|ice
 1 City of Brass|ARN|[71]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Copy Enchantment|RVR|[312]
 1 Cyclonic Rift|RVR|[313]
 1 Darksteel Mutation|SOC|[142]
@@ -39,7 +39,7 @@ Name=Estrid
 1 Fertile Ground|INV|[188]
 4 Forest|INR|[296]
 1 Ghostly Prison|SOC|[146]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Nyxborn Behemoth|cmm
 1 Ondu Spiritdancer|DSC|[101]
 1 Greater Auramancy|shm
@@ -65,7 +65,7 @@ Name=Estrid
 1 Tropical Island|LEB|[284]
 1 Tundra|LEB|[285]
 1 Savannah|LEB|[281]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Replenish|uds
 1 Rhystic Study|pcy
 1 Sanctum Weaver|WOC|[131]

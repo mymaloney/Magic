@@ -5,7 +5,7 @@ Name=Progenitus
 [Main]
 1 All Will Be One|one
 1 Animar, Soul of Elements|2x2
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arid Mesa|mh2
 1 Badlands|LEB|[278]
 1 Blasphemous Act|SOC|[238]
@@ -28,7 +28,7 @@ Name=Progenitus
 1 Breeding Pool|rvr
 1 Chromatic Lantern|RVR|[390]
 1 City of Brass|ARN|[71]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Defiler of Vigor|dmu
 1 Warstorm Surge|FDC|[186]
 1 Doubling Season|FDN|[216]
@@ -79,7 +79,7 @@ Name=Progenitus
 1 Steam Vents|RVR|[412]
 1 Steelbane Hydra|SOC|[288]
 1 Stomping Ground|RVR|[413]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Taiga|LEB|[283]
 1 Teferi's Protection|2x2|[343]
 1 Temple Garden|RVR|[414]

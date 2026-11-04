@@ -6,7 +6,7 @@ Name=Perrie, the Pulverizer
 1 Agent's Toolkit|NCC
 1 Ajani Unyielding|NCC
 1 Angelic Sleuth|FDC|[16]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ash Barrens|TDC|[339]
 1 Aven Courier|NCC
 1 Aven Mimeomancer|NCC
@@ -18,8 +18,8 @@ Name=Perrie, the Pulverizer
 1 Brokers Confluence|NCC
 1 Brokers Hideout|SNC
 1 Canopy Vista|TDC|[343]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Contractual Safeguard|NCC
 1 Crystalline Giant|NCC
 1 Damning Verdict|NCC
@@ -28,7 +28,7 @@ Name=Perrie, the Pulverizer
 1 Devoted Druid|ECC|[104]
 1 Everflowing Chalice|TSR|[394]
 1 Evolution Sage|ECC|[105]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Exotic Pets|SNC
 1 Family's Favor|NCC
 1 Fathom Mage|NCC
@@ -56,12 +56,12 @@ Name=Perrie, the Pulverizer
 1 Oblivion Stone|M3C|[303]
 1 Oracle's Vault|NCC
 1 Park Heights Maverick|NCC
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 5 Plains|INR|[288]
 1 Planar Outburst|NCC
-1 Port Town|TRC|[393]
+1 Port Town|M3C|[364]
 1 Power Conduit|NCC
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Primal Empathy|NCC
 1 Resourceful Defense|EOC|[67]
 1 Rishkar's Expertise|FDC|[226]
@@ -78,7 +78,7 @@ Name=Perrie, the Pulverizer
 1 Steelbane Hydra|SOC|[288]
 1 Storm of Forms|NCC
 1 Temple Garden|RVR|[414]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Temple of Mystery|SOC|[414]
 1 Tezzeret's Gambit|EOC|[47]
 1 Thrummingbird|EOC|[80]

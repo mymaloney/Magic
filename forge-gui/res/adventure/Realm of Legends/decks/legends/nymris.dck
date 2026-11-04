@@ -7,9 +7,9 @@ Name=Nymris
 1 Alela, Cunning Conqueror|woc
 1 An Offer You Can't Refuse|fdn
 1 Anticipate|iko
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Baleful Mastery|otc
-1 Choked Estuary|TRC|[370]
+1 Choked Estuary|MKC|[254]
 1 Coldsteel Heart|J22|[94]
 1 Confounding Riddle|lci
 1 Consult the Star Charts|eoe
@@ -17,11 +17,11 @@ Name=Nymris
 1 Cunning Nightbonder|iko
 1 Dig Through Time|SOC|[195]
 1 Drown in the Loch|CLB|[842]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Ertai Resurrected|dmu
 1 Evacuation|STH|[30]
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Fading Hope|J25|[310]
 1 Fear of Impostors|dsk
 1 Fellwar Stone|DRK|[102]
@@ -54,11 +54,11 @@ Name=Nymris
 1 Narset's Reversal|TDC|[92]
 1 Nimble Obstructionist|C20|[121]
 1 Planar Atlas|j22
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Prismatic Lens|OTC|[264]
 1 Reality Shift|SOC|[199]
 1 Redirect|m13
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Restless Reef|lci
 1 River of Tears|mkc
 1 See Double|mom
@@ -69,11 +69,11 @@ Name=Nymris
 1 Sol Ring|LEB|[270]
 1 Sphinx of Forgotten Lore|fdn
 1 Star Compass|PLS|[134]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 1 Supreme Will|J25|[370]
 9 Swamp|INR|[292]
-1 Talisman of Dominance|TRC|[505]
-1 Thought Vessel|TRC|[509]
+1 Talisman of Dominance|FRC|[62]
+1 Thought Vessel|MBC|[78]
 1 Torrential Gearhulk|CMM|[128]
 1 Transcendent Dragon|tdc
 1 Venser, Shaper Savant|J25|[66]

@@ -3,9 +3,9 @@ Name=Judith
 [Commander]
 1 Judith, Carnage Connoisseur|mkm
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Anger of the Gods|TSR|[339]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Back for Seconds|woe
 1 Big Score|SOC|[237]
 1 Blackcleave Cliffs|dsc
@@ -24,10 +24,10 @@ Name=Judith
 1 Judith, the Scourge Diva|CMM|[341]
 1 Chaos Warp|MBC|[72]
 1 Command the Dreadhorde|war
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Demand Answers|mkm
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Dual Shot|XLN|[141]
 1 Dual Strike|khm
 1 Early Winter|blb
@@ -50,11 +50,11 @@ Name=Judith
 1 Maestros Theater|EOC|[167]
 1 Mask of Avacyn|cmr
 15 Mountain|INR|[294]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Not Dead After All|woe
 1 Presumed Dead|mkm
 1 Rakdos Carnarium|ECC|[161]
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 Rakdos's Return|PIO|[393]
 1 Restless Vents|lci
 1 Rite of the Dragoncaller|fdn
@@ -62,7 +62,7 @@ Name=Judith
 1 Sedgemoor Witch|stx
 1 Slagstorm|fdn
 1 Smash to Dust|dmu
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Song-Mad Treachery|znr
 1 Spikefield Hazard|znr
@@ -70,10 +70,10 @@ Name=Judith
 1 Storm-Kiln Artist|SOC|[255]
 1 Sulfurous Springs|ICE|[360]
 10 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tainted Peak|TOR|[142]
 1 Tectonic Hazard|lci
-1 Temple of Malice|TRC|[410]
+1 Temple of Malice|FDN|[701]
 1 Terminal Agony|MH2|[424]
 1 The Fall of Kroog|bro
 1 Thermo-Alchemist|inr

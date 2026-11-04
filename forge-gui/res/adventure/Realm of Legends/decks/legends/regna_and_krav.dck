@@ -5,7 +5,7 @@ Name=Regna and Krav
 1 Krav, the Unredeemed|BBD
 [Main]
 1 Angelic Accord|IMA
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Attended Healer|J22|[152]
 1 Austere Command|FDC|[18]
 1 By Invitation Only|DBL|[272]
@@ -14,10 +14,10 @@ Name=Regna and Krav
 1 Caves of Koilos|APC|[140]
 1 Celestial Armor|FDN
 1 Regna's Sanction|BBD
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Soul's Attendant|ROE
 1 Soul Warden|EXO
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Daxos, Blessed by the Sun|THB
 1 Demolition Field|FDN|[687]
 1 Despark|FRC|[50]
@@ -39,23 +39,23 @@ Name=Regna and Krav
 1 Lunarch Veteran|INR|[450]
 1 Malakir Rebirth|ZNR
 1 Myriad Landscape|EOC|[169]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Orzhov Basilica|DRC|[164]
 1 Gilded Lotus|FDN|[725]
 1 Paradise Plume|C21
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 12 Plains|INR|[288]
 1 Pristine Talisman|C21|[258]
 1 Read the Bones|TSR|[328]
 1 Regal Bloodlord|M19
 1 Requiem Angel|C14
 1 Revenge of Ravens|ELD
-1 Rite of Oblivion|TRC|[478]
+1 Rite of Oblivion|DBL|[237]
 1 Scavenger Grounds|FDC|[311]
 1 Scoured Barrens|TDM|[267]
 1 Selfless Glyphweaver|STX
 1 Shattered Sanctum|SOS|[260]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Sign in Blood|FDC|[125]
 1 Snowfield Sinkhole|CLB|[915]
 1 Sol Ring|LEB|[270]
@@ -67,12 +67,12 @@ Name=Regna and Krav
 1 Sunlit Marsh|SOC|[409]
 1 Sunscorch Regent|BLC
 11 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of Vengeance|BLB|[395]
 1 Swords to Plowshares|DMR|[275]
 1 Szat's Will|CMR
 1 Tainted Field|TOR|[140]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Temple of Silence|SOC|[415]
 1 Temple of the False God|SCG|[143]
 1 Trading Post|BRC|[169]

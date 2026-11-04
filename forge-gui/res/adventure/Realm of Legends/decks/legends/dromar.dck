@@ -4,8 +4,8 @@ Name=Dromar
 1 Dromar, the Banisher|inv
 [Main]
 1 Adarkar Wastes|ICE|[351]
-1 Arcane Sanctum|TRC|[513]
-1 Arcane Signet|TRC|[485]
+1 Arcane Sanctum|DRC|[146]
+1 Arcane Signet|FRC|[20]
 1 Animate Dead|LEB|[93]
 1 Despark|FRC|[50]
 1 Ojutai's Command|dtk
@@ -22,8 +22,8 @@ Name=Dromar
 1 Boneyard Scourge|c17
 1 Brainstealer Dragon|otc
 1 Caves of Koilos|APC|[140]
-1 Command Tower|TRC|[521]
-1 Contaminated Landscape|TRC|[522]
+1 Command Tower|FRC|[22]
+1 Contaminated Landscape|FRC|[68]
 1 Counterspell|DMR|[281]
 1 Crucible of the Spirit Dragon|AFC|[231]
 1 Crux of Fate|C17|[107]
@@ -34,34 +34,34 @@ Name=Dromar
 1 Draconic Lore|tdc
 1 Dragonlord Ojutai|PIO|[219]
 1 Dragonlord Silumgar|PIO|[220]
-1 Drowned Catacomb|TRC|[376]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Drowned Catacomb|FRC|[69]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fellwar Stone|DRK|[102]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Godless Shrine|RVR|[401]
 1 Guardian Scalelord|SOC|[149]
 1 Hallowed Fountain|RVR|[404]
 1 Hammerhead Tyrant|tdc
 1 Haven of the Spirit Dragon|tdc
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Hidetsugu and Kairi|mom
 1 Hoarding Broodlord|mom
 1 Icefall Regent|E01|[24]
 6 Island|INR|[290]
 1 Kindred Boon|lcc
 1 Kindred Discovery|lcc
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Marang River Regent|tdm
 1 Ojutai, Soul of Winter|c17
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 4 Plains|INR|[288]
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Protector of the Wastes|tdc
 1 Supreme Verdict|RVR|[461]
 1 Raffine's Tower|snc
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Scalelord Reckoner|C17|[6]
 1 Scavenger Regent|tdm
 1 Shadrix Silverquill|SOC|[330]
@@ -72,16 +72,16 @@ Name=Dromar
 1 Sol Ring|LEB|[270]
 1 Steel Hellkite|tdc
 1 Stormscape Familiar|pls
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 5 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Sylvia Brightspear|bbd
 1 Taigam, Ojutai Master|c17
-1 Talisman of Dominance|TRC|[505]
-1 Talisman of Hierarchy|TRC|[506]
-1 Talisman of Progress|TRC|[508]
-1 Thought Vessel|TRC|[509]
+1 Talisman of Dominance|FRC|[62]
+1 Talisman of Hierarchy|SOC|[358]
+1 Talisman of Progress|FRC|[64]
+1 Thought Vessel|MBC|[78]
 1 Timeless Dragon|MH2|[388]
 1 Tithe|vis
 1 Transcendent Dragon|tdc

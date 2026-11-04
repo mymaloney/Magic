@@ -9,25 +9,25 @@ Name=scriv
 1 Bojuka Bog|TSR|[406]
 1 Study Hall|SOC
 1 Sunlit Marsh|SOC
-1 Command Tower|TRC|[521]
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Command Tower|FRC|[22]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Forum of Amity|SOS
 1 Turbulent Moor|SOC
-1 Umbral Expanse|TRC|[414]
+1 Umbral Expanse|SOC|[60]
 1 Caves of Koilos|APC|[140]
-1 Eclipsed Steppe|TRC|[377]
+1 Eclipsed Steppe|SOC|[53]
 1 Isolated Chapel|DMR|[397]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Arcane Lighthouse|SOC
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Temple of Silence|SOC
 1 Silverquill Campus|SOC
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Fracture|SOC
 1 Inkshield|SOC
 1 Vanishing Verse|SOC
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Land Tax|LEG|[26]
 1 Animate Dead|LEB|[93]
 1 Fallen Ideal|SOC
@@ -55,9 +55,9 @@ Name=scriv
 1 Eldrazi Conscription|SOC
 1 Intermediate Chirography|SOC
 1 Sol Ring|LEB|[270]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Fellwar Stone|DRK|[102]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Keen Duelist|SOC
 1 Ajani's Chosen|SOC
 1 Doomwake Giant|SOC
@@ -85,4 +85,4 @@ Name=scriv
 1 Eriette of the Charmed Apple|SOC
 1 Winds of Rath|TMP|[52]
 1 Secret Rendezvous|SOC
-1 Promise of Loyalty|TRC|[234]
+1 Promise of Loyalty|SOC|[161]

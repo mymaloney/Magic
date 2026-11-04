@@ -9,7 +9,7 @@ Name=Azlask
 1 Ancient Tomb|TMP|[315]
 1 Angelic Aberration|m3c
 1 Anticausal Vestige|eoe|[35]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artisan of Kozilek|M3C|[153]
 1 Barrage Tyrant|bfz
 1 Basking Broodscale|mh3
@@ -23,7 +23,7 @@ Name=Azlask
 1 Caves of Koilos|APC|[140]
 1 Chromatic Lantern|rvr
 1 Chromatic Orrery|lcc
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Conduit of Ruin|bfz
 1 Decimator of the Provinces|INR|[2]
 1 Deepfathom Skulker|m3c
@@ -38,7 +38,7 @@ Name=Azlask
 1 Emrakul, the World Anew|mh3
 1 Eye of Ugin|MM2|[242]
 2 Forest|INR|[296]
-1 Forsaken Monument|TRC|[343]
+1 Forsaken Monument|FDC|[258]
 1 From Beyond|bfz
 1 Gisela, the Broken Blade|INR|[24]
 1 Glaring Fleshraker|mh3
@@ -56,7 +56,7 @@ Name=Azlask
 1 Kozilek, the Great Distortion|CMM|[2]
 1 Kozilek's Command|mh3
 1 Kozilek's Unsealing|mh3
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Llanowar Wastes|APC|[141]
 1 Mind Stone|DMR|[385]
 1 It That Heralds the End|mh3
@@ -70,14 +70,14 @@ Name=Azlask
 1 Path of Annihilation|mh3
 2 Plains|INR|[288]
 1 Reflections of Littjara|TDC|[164]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rise of the Eldrazi|cmm
 1 Sanctum of Ugin|bfz
 1 Shivan Reef|APC|[142]
 1 Shrine of the Forsaken Gods|M3C|[376]
 1 Sire of Stagnation|M3C|[272]
 1 Skittering Invasion|m3c
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Sol Ring|LEB|[270]
 1 Sowing Mycospawn|mh3|[340]
 1 Spawnbed Protector|m3c

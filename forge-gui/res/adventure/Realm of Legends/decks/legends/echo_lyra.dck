@@ -7,7 +7,7 @@ Name=Lyra, Tolarian Archangel
 1 Alandra, Sky Dreamer|mkc
 1 An Offer You Can't Refuse|fdn
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arcanis the Omnipotent|DMR|[280]
 1 Archmage's Charm|h1r
 1 Brainsurge|MH3|[399]
@@ -17,11 +17,11 @@ Name=Lyra, Tolarian Archangel
 1 Burnished Hart|fdn
 1 Chasm Skulker|PIO|[49]
 1 Clinquant Skymage|fdn
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Counterspell|DMR|[281]
 1 Oracle of the Alpha|MBC|[64]
 1 Gustha Ebbasdotter|mbc
-1 Thirst for Knowledge|TRC|[443]
+1 Thirst for Knowledge|EOC|[48]
 1 Coveted Jewel|BLC|[268]
 1 Winternight Stories|tdm
 1 Sphinx of Enlightenment|j25
@@ -44,14 +44,14 @@ Name=Lyra, Tolarian Archangel
 12 Island|INR|[290]
 1 Jace, Arcane Strategist|j22
 1 Mind Stone|DMR|[385]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Oneirophage|j25
 1 Ponder|TSR|[315]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Preordain|tdc
 1 Propaganda|TMP|[80]
 1 Psychosis Crawler|FDC|[280]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rings of Brighthearth|cmr
 1 Variable Chaser|fra
 1 Seasoned Cryomancer|fra
@@ -63,9 +63,9 @@ Name=Lyra, Tolarian Archangel
 1 Spark Double|RVR|[319]
 1 Strionic Resonator|LCC|[116]
 1 Swan Song|eoc
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Teferi's Ageless Insight|j25
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thran Dynamo|UDS|[139]
 1 Training Grounds|mat
 1 Wizard Class|blc

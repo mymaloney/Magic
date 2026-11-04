@@ -6,10 +6,10 @@ Name=Calamity
 1 Ancient Tomb|tmp
 1 Anticausal Vestige|eoe
 1 Anzrag's Rampage|mkm
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Endless Atlas|FDC|[256]
 1 Bolt Bend|FDN|[619]
-1 Darksteel Plate|TRC|[341]
+1 Darksteel Plate|2X2|[304]
 1 Echoing Assault|blc
 1 Goblin Chainwhirler|dom
 1 Magmatic Hellkite|tdm
@@ -47,11 +47,11 @@ Name=Calamity
 1 Port Razer|LCC|[230]
 1 Pyrogoyf|m3c
 1 Rapacious Dragon|TDC|[229]
-1 Reckless Impulse|TRK|[168]
+1 Reckless Impulse|J25|[589]
 1 Relentless Assault|PO2|[115]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rionya, Fire Dancer|SOC|[252]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Ruby Medallion|TMP|[305]
 1 Scampering Surveyor|lci
 1 Sol Ring|LEB|[270]
@@ -64,8 +64,8 @@ Name=Calamity
 1 Spinerock Knoll|FDC|[314]
 1 Strionic Resonator|LCC|[116]
 1 Terror of the Peaks|OTJ|[149]
-1 Thought Vessel|TRC|[509]
-1 Thrill of Possibility|TRC|[455]
+1 Thought Vessel|MBC|[78]
+1 Thrill of Possibility|FDC|[180]
 1 Throne of Eldraine|woc
 1 Trumpeting Carnosaur|lci
 1 Twinflame Tyrant|fdn

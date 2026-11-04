@@ -15,7 +15,7 @@ Name=The Necrobloom
 1 Roaring Earth|neo
 1 Uktabi Orangutan|vis
 1 Urborg Repossession|dmu
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Corrupted Conviction|otj
 1 Cultivate|SOC|[265]
 1 Dazzling Angel|fdn
@@ -27,8 +27,8 @@ Name=The Necrobloom
 1 Eaten Alive|INR|[106]
 1 Emeria Angel|TDC|[114]
 1 Eternal Witness|TSR|[361]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fake Your Own Death|fdn
 1 Felidar Retreat|FDN|[574]
 1 Fell the Mighty|mkc
@@ -51,7 +51,7 @@ Name=The Necrobloom
 1 Mythos of Nethroi|iko
 1 Nature's Lore|DMR|[346]
 1 Orzhov Basilica|DRC|[164]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 1 Phyrexian Arena|APC|[47]
 2 Plains|INR|[288]
@@ -79,9 +79,9 @@ Name=The Necrobloom
 1 Snow-Covered Swamp|ICE|[372]
 1 Sun Titan|SOC|[178]
 4 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Territory Culler|mh3
 1 Tireless Provisioner|j25
 1 Tireless Tracker|EOC|[110]

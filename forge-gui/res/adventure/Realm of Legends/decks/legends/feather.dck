@@ -20,8 +20,8 @@ Name=Feather, the Redeemed
 1 Cabaretti Courtyard|EOC
 1 Chandra's Ignition|FDC|[145]
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Coruscation Mage|BLB
 1 Crimson Wisps|J25|[533]
 1 Deafening Clarion|GRN
@@ -33,7 +33,7 @@ Name=Feather, the Redeemed
 1 Dual-Sun Technique|EOE
 1 Electrostatic Field|OTC|[164]
 1 Emerge Unscathed|IMA|[19]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Fall of the Hammer|PIO|[134]
 1 Feather, Radiant Arbiter|MKC
 1 Fell the Mighty|MKC|[65]
@@ -64,9 +64,9 @@ Name=Feather, the Redeemed
 1 Psychotic Fury|DIS
 1 Rabid Gnaw|BLB
 1 Radiant Scrollwielder|STX
-1 Radiant Summit|TRC|[395]
+1 Radiant Summit|FRC|[80]
 1 Reckless Rage|RIX
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rip Apart|SOC|[328]
 1 Samut's Sprint|WAR
 1 Seize the Day|ODY
@@ -74,8 +74,8 @@ Name=Feather, the Redeemed
 1 Storm-Kiln Artist|SOC|[255]
 1 Sunforger|CMR
 1 Sunhome, Fortress of the Legion|OTC|[324]
-1 Swiftfoot Boots|TRC|[501]
-1 Talisman of Conviction|TRC|[503]
+1 Swiftfoot Boots|MBC|[77]
+1 Talisman of Conviction|SOC|[428]
 1 Temple of Triumph|SOC|[417]
 1 Temur Battle Rage|TSR|[351]
 1 Tenth District Legionnaire|PIO|[247]

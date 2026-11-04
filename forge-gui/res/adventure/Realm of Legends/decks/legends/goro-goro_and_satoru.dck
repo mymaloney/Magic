@@ -5,21 +5,21 @@ Name=Goro-Goro and Satoru
 [Main]
 1 Anzrag's Rampage|mkm
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Bident of Thassa|PIO|[47]
 1 Chaos Dragon|CLB|[784]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Crucible of Fire|FDC|[148]
 1 Crumbling Necropolis|LCC|[326]
 1 Death-Greeter's Champion|moc
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Distortion Strike|IMA|[52]
 1 Dragon Tempest|TDC|[94]
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Escape Tunnel|EOC|[157]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fallen Shinobi|OTC|[226]
 1 Fellwar Stone|DRK|[102]
 1 Frantic Scapegoat|mkm
@@ -46,15 +46,15 @@ Name=Goro-Goro and Satoru
 1 Mogis's Marauder|ths
 9 Mountain|INR|[294]
 1 Nashi, Moon Sage's Scion|OTC|[143]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Orochi Soul-Reaver|otc
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Phoenix Chick|dmu
 1 Prosperous Thief|J25|[346]
 1 Talisman of Impulse|TDC|[332]
 1 Reconnaissance Mission|woc
 1 Rionya, Fire Dancer|SOC|[252]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Saheeli, the Sun's Brilliance|lci
 1 Sakashima's Student|PCA|[24]
 1 Sarkhan the Mad|roe
@@ -67,14 +67,14 @@ Name=Goro-Goro and Satoru
 1 Sol Ring|LEB|[270]
 1 Sulfur Falls|DMR|[400]
 9 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
-1 Talisman of Dominance|TRC|[505]
-1 Terramorphic Expanse|TRC|[571]
+1 Swiftfoot Boots|MBC|[77]
+1 Talisman of Dominance|FRC|[62]
+1 Terramorphic Expanse|SOS|[265]
 1 Territorial Hellkite|TDC|[240]
 1 Thousand-Faced Shadow|neo
 1 Throat Slitter|PCA|[37]
 1 Warstorm Surge|FDC|[186]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Where Ancients Tread|C13|[130]
 1 Whirler Rogue|DRC|[85]
 1 Chaos Warp|MBC|[72]

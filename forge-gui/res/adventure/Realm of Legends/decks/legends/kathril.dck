@@ -10,7 +10,7 @@ Name=Kathril, Aspect Warper
 1 Ajani Unyielding|NCC|[324]
 1 Akroma, Angel of Wrath|LGN|[1]
 1 Angel of Finality|FDC|[11]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archon of Valor's Reach|C20
 1 Avenging Huntbonder|NCC|[194]
 1 Blighted Woodland|TSR|[405]
@@ -22,8 +22,8 @@ Name=Kathril, Aspect Warper
 1 Cartographer's Hawk|CMM|[18]
 1 Cataclysmic Gearhulk|MOC|[176]
 1 Caves of Koilos|APC|[140]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Cultivate|SOC|[265]
 1 Daring Fiendbonder|C20
 1 Deadbridge Chant|DSC|[215]
@@ -31,8 +31,8 @@ Name=Kathril, Aspect Warper
 1 Despark|FRC|[50]
 1 Duneblast|DMC|[148]
 1 Ever After|C20
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 4 Forest|INR|[296]
 1 Gavony Township|MOC|[406]
 1 Golgari Rot Farm|ECC|[151]
@@ -76,7 +76,7 @@ Name=Kathril, Aspect Warper
 1 Sunblast Angel|FDC|[52]
 1 Temple Garden|RVR|[414]
 7 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tayam, Luminous Enigma|C20
 1 Titanoth Rex|IKO
 1 Together Forever|MOC|[212]

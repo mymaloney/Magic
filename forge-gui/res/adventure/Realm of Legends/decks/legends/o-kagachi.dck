@@ -4,7 +4,7 @@ Name=O-Kagachi, Vengeful Kami
 1 O-Kagachi, Vengeful Kami|DMC
 [Main]
 1 Ao, the Dawn Sky|SOC|[135]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Atsushi, the Blazing Sky|SOC|[236]
 1 Baku Altar|BOK
 1 Behold the Unspeakable|NEO
@@ -13,14 +13,14 @@ Name=O-Kagachi, Vengeful Kami
 1 Choice of Damnations|SOK
 1 Chromatic Lantern|RVR|[390]
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Death Denied|UMA|[92]
 1 Desperate Ritual|UMA|[127]
 1 Drogskol Captain|VOC|[154]
 1 Eerie Procession|CHK
 1 Ethereal Haze|CHK
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Farseek|RVR|[347]
 1 Footsteps of the Goryo|SOK
 1 Mana Confluence|JOU
@@ -59,20 +59,20 @@ Name=O-Kagachi, Vengeful Kami
 1 Nature's Lore|DMR|[346]
 1 Nikko-Onna|SOK
 1 Oyobi, Who Split the Heavens|VOC
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Peer Through Depths|DDS
 1 Petalmane Baku|BOK
 2 Plains|INR|[288]
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Raffine's Tower|SNC
 1 Raugrin Triome|IKO
 1 Reach Through Mists|DDS
 1 Release to Memory|NEC
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rend Flesh|CHK
 1 Ribbons of the Reikai|BOK
 1 Ryusei, the Falling Star|CLB|[806]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Savai Triome|IKO
 1 Secluded Courtyard|ECC|[62]
 1 Sift Through Sands|DDS
@@ -80,10 +80,10 @@ Name=O-Kagachi, Vengeful Kami
 1 Skyfire Kirin|SOK
 1 Skyshroud Claim|NMS|[117]
 1 Smoke Spirits' Aid|NEC
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Spara's Headquarters|SNC
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 2 Swamp|INR|[292]
 1 The Kami War|NEO
 1 The Unspeakable|DDS|[13]

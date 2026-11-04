@@ -19,9 +19,9 @@ Name=Tiana
 1 Boros Charm|FDN|[721]
 16 Mountain|INR|[294]
 16 Plains|INR|[288]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Clifftop Retreat|DMR|[393]
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Sacred Foundry|RVR|[409]
 1 Brilliant Restoration|neo
 1 Careening Mine Cart|lci
@@ -32,7 +32,7 @@ Name=Tiana
 1 Cultivator's Caravan|DRC|[127]
 1 Demand Answers|mkm
 1 Depala, Pilot Exemplar|kld
-1 Dispatch|TRC|[421]
+1 Dispatch|EOC|[64]
 1 Djeru and Hazoret|mom
 1 Fellwar Stone|DRK|[102]
 1 Foundry Inspector|FDC|[259]
@@ -45,7 +45,7 @@ Name=Tiana
 1 Jhoira's Familiar|2xm
 1 Kari Zev, Skyship Raider|lcc
 1 Keleth, Sunmane Familiar|cmm
-1 Loran of the Third Path|TRC|[229]
+1 Loran of the Third Path|BLC|[143]
 1 Luxurious Locomotive|otj
 1 Mechtitan Core|neo
 1 Mind Stone|DMR|[385]
@@ -62,11 +62,11 @@ Name=Tiana
 1 Sol Ring|LEB|[270]
 1 Sram, Senior Edificer|TSR|[303]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Teshar, Ancestor's Apostle|SOC|[180]
 1 Thalia, Guardian of Thraben|DBL|[305]
 1 Thalia, Heretic Cathar|INR|[351]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Unbreakable Formation|rvr
 1 Untethered Express|aer
 1 Weatherlight|nec

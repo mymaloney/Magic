@@ -6,15 +6,15 @@ Name=Tasigur
 1 Teval, the Balanced Scale|TDC
 1 Teval's Judgment|TDC
 1 Aftermath Analyst|EOC|[91]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assassin's Trophy|SOC|[294]
 1 Balustrade Wurm|DSK
 1 Breeding Pool|RVR
 1 Broodspinner|DSK
 1 Casualties of War|SOC|[300]
-1 Choked Estuary|TRC|[370]
+1 Choked Estuary|MKC|[254]
 1 Colossal Grave-Reaver|TDC
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Commune with the Gods|PIO|[169]
 1 Contaminated Aquifer|TDC
 1 Demolisher Spawn|DSC
@@ -22,14 +22,14 @@ Name=Tasigur
 1 Drag to the Roots|DSK
 1 Dredger's Insight|DFT
 1 Drown in the Loch|CLB|[842]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Emergent Ultimatum|IKO
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Farseek|RVR|[347]
 1 Fellwar Stone|DRK|[102]
-1 Fetid Pools|TRC|[380]
+1 Fetid Pools|TDC|[363]
 3 Forest|INR|[296]
 1 Golgari Grave-Troll|RVR
 1 Golgari Thug|RVR
@@ -59,7 +59,7 @@ Name=Tasigur
 1 Opulent Palace|ECC|[157]
 1 Overgrown Tomb|RVR
 1 Patchwork Beastie|DSK
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Polukranos, Unchained|THB
 1 Putrefy|RVR|[378]
 1 Rimewood Falls|KHM
@@ -74,13 +74,13 @@ Name=Tasigur
 1 Stinkweed Imp|TSR|[332]
 1 Stitcher's Supplier|TDC
 1 Strategic Planning|KHM
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 2 Swamp|INR|[292]
 1 Tainted Isle|TOR|[141]
 1 Tainted Wood|TOR|[143]
 1 Tangled Islet|SOC|[411]
 1 Tear Asunder|EOC|[109]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Teval, Arbiter of Virtue|TDM
 1 Three Visits|SOC|[289]
 1 Timeless Witness|TDC
@@ -91,7 +91,7 @@ Name=Tasigur
 1 Vineglimmer Snarl|SOC|[420]
 1 Wail of the Forgotten|LCI
 1 Watery Grave|RVR
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Wickerfolk Thresher|DSK
 1 Winter, Cynical Opportunist|DSC
 1 Winternight Stories|TDM

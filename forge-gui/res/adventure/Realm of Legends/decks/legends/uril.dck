@@ -5,7 +5,7 @@ Name=Uril
 [Main]
 1 Ancestral Mask|MMQ|[229]
 1 Angelic Destiny|SOC|[134]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Armadillo Cloak|INV|[229]
 1 Axgard Armory|khm
 1 Bear Umbra|woc
@@ -15,7 +15,7 @@ Name=Uril
 1 Canopy Vista|TDC|[343]
 1 Chandra's Ignition|FDC|[145]
 1 Chromatic Lantern|rvr
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Daybreak Coronet|woc
 1 Deflecting Swat|cmm
 1 Demolition Field|FDN|[687]
@@ -26,7 +26,7 @@ Name=Uril
 1 Etali's Favor|lci
 1 Reyav, Master Smith|cmr
 1 Ethereal Armor|TSR|[293]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fellwar Stone|DRK|[102]
 1 Fertile Ground|INV|[188]
 1 Godsire|ala
@@ -53,9 +53,9 @@ Name=Uril
 1 Overgrown Farmland|FRA|[185]
 1 Pain for All|eoe
 6 Plains|INR|[288]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Retether|woc
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Runes of the Deus|shm
 1 Sacred Foundry|RVR|[409]
 1 Sanctum Weaver|woc
@@ -77,7 +77,7 @@ Name=Uril
 1 Swords to Plowshares|DMR|[275]
 1 Sythis, Harvest's Hand|MH2|[214]
 1 Temple Garden|rvr
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Slash the Ranks|Cmr
 1 Three Visits|SOC|[289]
 1 Timely Ward|dsc

@@ -3,24 +3,24 @@ Name=Echo Vraska
 [Commander]
 1 Vraska, Soul of Stone|fra
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Academy Manufactor|blc
 1 Adarkar Wastes|ICE|[351]
 1 Alibou, Ancient Witness|eoc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Battlefield Forge|APC|[139]
 1 Blasphemous Act|soc
 1 Boros Charm|fdn
 1 Brudiclad, Telchor Engineer|SOC|[299]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consider|TDC|[148]
 1 Counterspell|DMR|[281]
 1 Craterclaw Colossus|fra
 1 Deserted Beach|FRA|[176]
-1 Dispatch|TRC|[421]
+1 Dispatch|EOC|[64]
 1 Dovin's Veto|TSR|[375]
 1 Expressive Iteration|soc
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Faerie Mastermind|SOC|[114]
 1 Faithless Looting|SOC|[244]
 1 Fellwar Stone|DRK|[102]
@@ -39,16 +39,16 @@ Name=Echo Vraska
 1 Jeskai Ascendancy|2x2
 5 Mountain|INR|[294]
 1 Narset, Enlightened Exile|mat
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Opt|INV|[64]
 1 Organic Extinction|eoc
 1 Otawara, Soaring City|neo
 1 Path to Exile|TSR|[299]
-1 Perilous Landscape|TRC|[546]
+1 Perilous Landscape|FRC|[78]
 1 Pinnacle Monk|mh3
 5 Plains|INR|[288]
 1 Preordain|TDC|[161]
-1 Professional Face-Breaker|TRC|[291]
+1 Professional Face-Breaker|M3C|[216]
 1 Reckless Fireweaver|drc
 1 Riverpyre Verge|dft
 1 Sacred Foundry|RVR|[409]
@@ -66,20 +66,20 @@ Name=Echo Vraska
 1 Sundown Pass|sos
 1 Swan Song|eoc
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
-1 Talisman of Creativity|TRC|[504]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Conviction|SOC|[428]
+1 Talisman of Creativity|FRC|[61]
+1 Talisman of Progress|FRC|[64]
 1 The Theorist, Jace Beleren|fra
 1 Third Path Iconoclast|tdc
 1 Thought Monitor|eoc
-1 Thoughtcast|TRC|[444]
+1 Thoughtcast|FDC|[81]
 1 Turbulent Shore|frc
 1 Turbulent Springs|soc
 1 Turbulent Steppe|soc
 1 Urza, Lord High Artificer|DMR|[296]
 1 Veyran, Voice of Duality|soc
 1 Voyage Home|dft
-1 Warleader's Call|TRC|[335]
+1 Warleader's Call|MKM|[242]
 1 Whirlwind of Thought|FRC|[51]
 1 Witch Enchanter|mh3
 1 Fatehold Charm|fra

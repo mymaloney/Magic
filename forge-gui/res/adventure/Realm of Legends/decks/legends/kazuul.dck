@@ -29,7 +29,7 @@ Name=Kazuul
 1 Chaos Warp|MBC|[72]
 1 Charging Cinderhorn|c16
 1 Kindred Charge|c17
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Dictate of the Twin Gods|SCD|[131]
 1 Skullknocker Ogre|eld
 1 Everflowing Chalice|TSR|[394]
@@ -45,13 +45,13 @@ Name=Kazuul
 1 Grand Melee|ons
 1 Impact Resonance|CM2|[107]
 1 Kazuul's Fury|znr
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Memorial to War|CMR|[486]
 1 Mind Stone|DMR|[385]
 30 Mountain|INR|[294]
 1 Outpost Siege|PIO|[150]
 1 Rage Nimbus|roe
-1 Reckless Impulse|TRK|[168]
+1 Reckless Impulse|J25|[589]
 1 Turret Ogre|CLU|[152]
 1 Ruby Medallion|TMP|[305]
 1 Skyline Despot|FDC|[176]
@@ -71,5 +71,5 @@ Name=Kazuul
 1 War Room|SOC|[422]
 1 Wagon Wrecker|yotj
 1 Warstorm Surge|FDC|[186]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Ogre-Head Helm|neo

@@ -14,7 +14,7 @@ Name=Mr. Foxglove
 1 Jolrael, Mwonvuli Recluse|DMR|[343]
 1 Kalonian Hydra|BLC|1
 1 Kwain, Itinerant Meddler|BLC|1
-1 Loran of the Third Path|TRC|[229]
+1 Loran of the Third Path|BLC|[143]
 1 Managorger Hydra|FDC|[216]
 1 Mangara, the Diplomat|SOC|[155]
 1 Ms. Bumbleflower|BLC|1
@@ -43,19 +43,19 @@ Name=Mr. Foxglove
 1 Swords to Plowshares|DMR|[275]
 1 Cultivate|SOC|[265]
 1 Farseek|RVR|[347]
-1 Promise of Loyalty|TRC|[234]
+1 Promise of Loyalty|SOC|[161]
 1 Secret Rendezvous|SOC|[166]
 1 Tempt with Bunnies|BLC|1
 1 Tempt with Discovery|BLC|1
 1 Wear Down|BLB|1
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Coveted Jewel|BLC|1
 1 Fellwar Stone|DRK|[102]
 1 Ghirapur Orrery|BLC|1
 1 Mind Stone|DMR|[385]
 1 Sol Ring|LEB|[270]
-1 Swiftfoot Boots|TRC|[501]
-1 Thought Vessel|TRC|[509]
+1 Swiftfoot Boots|MBC|[77]
+1 Thought Vessel|MBC|[78]
 1 Communal Brewing|BLC|1
 1 Fisher's Talent|BLC|1
 1 Hoofprints of the Stag|ECC|[64]
@@ -67,16 +67,16 @@ Name=Mr. Foxglove
 1 Adarkar Wastes|ICE|[351]
 1 Brushland|ICE|[352]
 1 Canopy Vista|TDC|[343]
-1 Command Tower|TRC|[521]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Command Tower|FRC|[22]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Flooded Grove|SOC|[373]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Hinterland Harbor|DMR|[396]
 1 Breeding Pool|RVR|[399]
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Razorverge Thicket|BLC|1
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Seachrome Coast|BLC|1
 1 Seaside Citadel|ECC|[166]
 1 Hallowed Fountain|RVR|[404]
@@ -85,7 +85,7 @@ Name=Mr. Foxglove
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of Mystery|SOC|[414]
 1 Temple of Plenty|TDC|[405]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thriving Grove|ECC|[171]
 1 Thriving Heath|ECC|[172]
 1 Thriving Isle|ECC|[173]

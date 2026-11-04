@@ -19,7 +19,7 @@ Name=Neerdiv
 1 Traumatize|ODY|[110]
 1 Cut Your Losses|snc
 1 Fraying Sanity|hou
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Sol Ring|LEB|[270]
 1 Hedron Crab|TDC|[155]
 1 Keening Stone|C16|[259]
@@ -42,7 +42,7 @@ Name=Neerdiv
 1 Malevolent Hermit|DBL|[61]
 1 Mass Diminish|c19
 1 Otherworldly Gaze|dsc
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Proft's Eidetic Memory|mkm
 1 Propaganda|TMP|[80]
 1 Psychic Corrosion|m19
@@ -52,10 +52,10 @@ Name=Neerdiv
 1 Reality Shift|SOC|[199]
 1 Reins of Power|STH|[41]
 1 Relic of Legends|dmu
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 River Kelpie|tdc
 1 Riverchurn Monument|dft
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Ruin Crab|znr
 1 Sapphire Medallion|TMP|[306]
 1 Increasing Confusion|dka
@@ -72,4 +72,4 @@ Name=Neerdiv
 1 Thing in the Ice|inr
 1 Think Twice|INR|[369]
 1 Fractured Sanity|CLB|[722]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]

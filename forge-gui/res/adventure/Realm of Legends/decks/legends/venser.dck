@@ -5,7 +5,7 @@ Name=Venser
 [Main]
 1 Akroma's Vengeance|ONS|[2]
 1 Archaeomancer|PIO|[284]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Sol Ring|LEB|[270]
 1 Stonehorn Dignitary|TSR|[304]
 1 Settle the Wreckage|xln
@@ -14,7 +14,7 @@ Name=Venser
 1 Counterspell|DMR|[281]
 1 Deepglow Skate|eoc
 1 Deploy the Gatewatch|EMN|[20]
-1 Dispatch|TRC|[421]
+1 Dispatch|EOC|[64]
 1 Djeru, With Eyes Open|hou
 1 Enlightened Tutor|dmr
 1 Ephemerate|H1R|[1]
@@ -37,9 +37,9 @@ Name=Venser
 1 Jace, the Mind Sculptor|BLC|[75]
 1 The Eternal Wanderer|one
 1 Vronos, Masked Inquisitor|cmm
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 17 Island|INR|[290]
-1 Loran of the Third Path|TRC|[229]
+1 Loran of the Third Path|BLC|[143]
 1 Meticulous Archive|mkm
 1 Mulldrifter|TSR|[311]
 1 Nimbus Maze|AFC|[252]
@@ -50,7 +50,7 @@ Name=Venser
 1 Path to Exile|TSR|[299]
 16 Plains|INR|[288]
 1 Reflector Mage|ogw
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Remand|TSR|[316]
 1 Memory Lapse|MIR|[74]
 1 Restoration Angel|TSR|[300]

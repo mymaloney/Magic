@@ -4,8 +4,8 @@ Name=Yennett
 1 Yennett, Cryptic Sovereign|CMM|[363]
 [Main]
 1 Aminatou, the Fateshifter|2X2
-1 Anguished Unmaking|TRC|[310]
-1 Arcane Signet|TRC|[485]
+1 Anguished Unmaking|SOC|[293]
+1 Arcane Signet|FRC|[20]
 1 Atemsis, All-Seeing|M20
 1 Dakkon, Shadow Slayer|MH2
 1 Body of Knowledge|DSC|[112]
@@ -13,9 +13,9 @@ Name=Yennett
 1 Brilliant Ultimatum|ALA
 1 Cavalier of Gales|J25|[296]
 1 Chromatic Lantern|RVR|[390]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
-1 Arcane Sanctum|TRC|[513]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
+1 Arcane Sanctum|DRC|[146]
 1 Generous Gift|BLC|[106]
 1 Counterspell|DMR
 1 Stroke of Midnight|FRC|[35]
@@ -32,7 +32,7 @@ Name=Yennett
 1 Entreat the Dead|C18
 1 Esper Charm|C18
 1 Ethersworn Sphinx|MH2
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Extinction Event|IKO
 1 Future Sight|ONS|[84]
 1 Glacial Floodplain|KHM
@@ -54,13 +54,13 @@ Name=Yennett
 1 Glasspool Mimic|ZNR
 1 Necromancy|VIS
 5 Plains|INR|[288]
-1 Path of Ancestry|TRC|[545]
-1 Prairie Stream|TRC|[394]
+1 Path of Ancestry|MBC|[80]
+1 Prairie Stream|FRC|[79]
 1 Prognostic Sphinx|DSC|[124]
 1 Psychosis Crawler|FDC|[280]
 1 Raffine, Scheming Seer|SNC
 1 Raffine's Tower|SNC
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rhystic Study|PCY|[45]
 1 Scholar of the Lost Trove|JMP
 1 Skyclave Relic|MOC|[380]
@@ -76,16 +76,16 @@ Name=Yennett
 1 Sphinx of the Steel Wind|EMA
 1 Sphinx of Uthuun|CMR
 1 Sphinx's Tutelage|PIO|[287]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 1 Sunlit Marsh|SOC|[409]
 4 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Dominance|TRC|[505]
-1 Talisman of Hierarchy|TRC|[506]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Dominance|FRC|[62]
+1 Talisman of Hierarchy|SOC|[358]
+1 Talisman of Progress|FRC|[64]
 1 Dismember|TSR|[322]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Void Rend|SNC
 1 Watery Grave|RVR|[415]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Windreader Sphinx|J25|[391]

@@ -3,7 +3,7 @@ Name=Slimefoot
 [Commander]
 1 Slimefoot, the Stowaway|TSR|[386]
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assassin's Trophy|SOC|[294]
 1 Saproling Migration|J25|[709]
 1 Shroofus Sproutsire|j25
@@ -16,7 +16,7 @@ Name=Slimefoot
 1 Brightcap Badger|blc
 1 Cankerbloom|one
 1 Carnivorous Canopy|one
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Contagion Engine|som
 1 Sporeweb Weaver|m21
 1 Cultivate|SOC|[265]
@@ -25,7 +25,7 @@ Name=Slimefoot
 1 Eaten Alive|INR|[106]
 1 Elvish Farmer|fem
 1 Evolution Sage|ECC|[105]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 20 Forest|INR|[296]
 1 Forgotten Ancient|DMR|[341]
 1 Fungal Plots|J25|[658]
@@ -51,7 +51,7 @@ Name=Slimefoot
 1 Savage Thallid|tsp
 1 Scatter the Seeds|scd
 1 Second Harvest|inr
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Sol Ring|LEB|[270]
 1 Spore Swarm|j25
 1 Sporemound|j25

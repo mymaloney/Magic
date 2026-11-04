@@ -5,7 +5,7 @@ Name=Kasla, the Broken Halo
 [Main]
 1 Angel of Finality|FDC|[11]
 1 Angel of Salvation|MOC|1
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artistic Refusal|MOM|1
 1 Austere Command|FDC|[18]
 1 Banisher Priest|J25|[169]
@@ -13,8 +13,8 @@ Name=Kasla, the Broken Halo
 1 Chant of Vitu-Ghazi|MOC|1
 1 Chasm Skulker|PIO|[49]
 1 Cloud of Faeries|ULG|[29]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Conclave Tribunal|J25|[182]
 1 Cultivator's Caravan|DRC|[127]
 1 Cut Short|MOM|1
@@ -26,14 +26,14 @@ Name=Kasla, the Broken Halo
 1 Elspeth, Sun's Champion|FRC|[24]
 1 Emeria Angel|TDC|[114]
 1 Ephemeral Shields|MOC|1
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fallowsage|MOC|1
 1 Flight of Equenauts|MOC|1
 1 Flockchaser Phantom|MOC|1
 1 Fractured Powerstone|MOC|1
-1 Frostboil Snarl|TRC|[383]
-1 Furycalm Snarl|TRC|[384]
+1 Frostboil Snarl|SOC|[374]
+1 Furycalm Snarl|SOC|[375]
 1 Goblin Instigator|MOC|1
 1 Goblin Medics|ULG|[79]
 1 Hour of Reckoning|TDC|[120]
@@ -49,17 +49,17 @@ Name=Kasla, the Broken Halo
 1 Migratory Route|MOC|1
 1 Mistmeadow Vanisher|MOC|1
 8 Mountain|INR|[294]
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Nadir Kraken|J25|[332]
 1 Nesting Dovehawk|MOC|1
 8 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
-1 Rogue's Passage|TRC|[552]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
+1 Rogue's Passage|SOC|[400]
 1 Secure the Wastes|FRC|[31]
 1 Seraph of the Masses|MOC|1
 1 Shatter the Source|MOM|1
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Hallowed Fountain|RVR|[404]
 1 Sol Ring|LEB|[270]
 1 Spirited Companion|J25|[256]
@@ -69,7 +69,7 @@ Name=Kasla, the Broken Halo
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of Epiphany|SOC|[412]
 1 Temple of Triumph|SOC|[417]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Tetsuko Umezawa, Fugitive|FRA|[221]
 1 The Locust God|MOC|1
 1 Venerated Loxodon|J25|[278]

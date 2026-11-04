@@ -5,7 +5,7 @@ Name=Kiora
 [Main]
 1 Aesi, Tyrant of Gyre Strait|DSC|[210]
 1 Apex Devastator|M3C|[220]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archetype of Imagination|DSC|[111]
 1 Arixmethes, Slumbering Isle|DSC|[211]
 1 Auroral Procession|tdm
@@ -14,7 +14,7 @@ Name=Kiora
 1 Breaching Leviathan|c14
 1 Breeding Pool|rvr
 1 Brinelin, the Moon Kraken|CMM|[78]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Kiora of Salt and Sand|fra
 1 Counterspell|DMR|[281]
 1 Cultivate|SOC|[265]
@@ -45,7 +45,7 @@ Name=Kiora
 1 Kiora, the Rising Tide|fdn|[309]
 1 Koma, Cosmos Serpent|MKC|[213]
 1 Koma, World-Eater|fdn
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lorthos, the Tidemaker|cmm
 1 Mana Drain|LEG|[65]
 1 Mistrise Village|tdm
@@ -59,16 +59,16 @@ Name=Kiora
 1 Glacier Godmaw|eoe
 1 Omniscience|FDN|[161]
 1 Planar Genesis|mh3
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rimewood Falls|khm
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Scourge of Fleets|cmr
 1 Selvala's Stampede|tdc
 1 Serpent of Yawning Depths|thb
 1 Slinn Voda, the Rising Deep|cmr
 9 Snow-Covered Forest|ICE|[383]
 12 Snow-Covered Island|ICE|[371]
-1 Fabled passage|TRC|[379]
+1 Fabled passage|FRC|[71]
 1 Prismatic Vista|H1R|[40]
 1 Sol Ring|LEB|[270]
 1 Spawning Kraken|c21

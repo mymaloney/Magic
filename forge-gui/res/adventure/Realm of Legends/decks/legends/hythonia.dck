@@ -4,7 +4,7 @@ Name=Hythonia
 1 Hythonia the Cruel|ths
 [Main]
 1 Ancient Craving|PO2|[62]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archetype of Finality|bng
 1 Rise of the Dark Realms|fdn
 1 Beacon of Unrest|2xm
@@ -44,14 +44,14 @@ Name=Hythonia
 1 Myojin of Grim Betrayal|nec
 1 Myriad Landscape|EOC|[169]
 1 Nevinyrral's Disk|LEB|[267]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Nirkana Revenant|voc
 1 Pharika's Chosen|J25|[474]
 1 Pharika's Spawn|thb
 1 Read the Bones|TSR|[328]
 1 Revel in Riches|xln
 1 Revenge of Ravens|eld
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sign in Blood|FDC|[125]
 1 Solemn Simulacrum|TSR|[400]
 33 Swamp|INR|[292]
@@ -66,7 +66,7 @@ Name=Hythonia
 1 Vraska's Contempt|xln
 1 Vraska's Finisher|J25|[510]
 1 War Room|SOC|[422]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Whip of Erebos|PIO|[119]
 1 Worn Powerstone|USG|[318]
 1 Xathrid Gorgon|m13

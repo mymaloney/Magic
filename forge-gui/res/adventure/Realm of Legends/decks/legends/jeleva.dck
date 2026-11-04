@@ -18,16 +18,16 @@ Name=Jeleva
 1 Soulfire Eruption|cmr
 1 Temporal Trespass|PIO|[77]
 1 Gilded Lotus|FDN|[725]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage Emeritus|SOC|[188]
 1 Baral and Kari Zev|tdc
 1 Beacon of Tomorrows|dds
 1 Brass's Bounty|fdn
 1 Dark Ritual|MMQ|[129]
 1 Chaos Warp|MBC|[72]
-1 Choked Estuary|TRC|[370]
+1 Choked Estuary|MKC|[254]
 1 Clout of the Dominus|eve
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consider|tdc
 1 Cormela, Glamour Thief|snc
 1 Cruel Ultimatum|e01
@@ -39,12 +39,12 @@ Name=Jeleva
 1 Volcanic Island|LEB|[287]
 1 Underground Sea|LEB|[286]
 1 Badlands|LEB|[278]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Faithless Looting|SOC|[244]
 1 Flare of Duplication|mh3
 1 Bloodstained Mire|MH3|[435]
 1 Frantic Search|DMR|[285]
-1 Frostboil Snarl|TRC|[383]
+1 Frostboil Snarl|SOC|[374]
 1 Galvanoth|ddj
 1 Harmonic Prodigy|SOC|[123]
 1 Heat Shimmer|2xm
@@ -52,7 +52,7 @@ Name=Jeleva
 1 Increasing Vengeance|c19
 8 Island|INR|[290]
 1 Kess, Dissident Mage|ncc
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Maestros Theater|EOC|[167]
 1 Mindsplice Apparatus|one
 1 Mnemonic Deluge|cmr
@@ -62,7 +62,7 @@ Name=Jeleva
 1 Nexus of Fate|SPG|[122]
 1 Nightscape Familiar|PLS|[48]
 1 Opt|INV|[64]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Reverberate|m13
 1 Riptide Laboratory|ONS|[322]
 1 Seething Landscape|mh3
@@ -74,13 +74,13 @@ Name=Jeleva
 1 Stormcatch Mentor|SOC|[331]
 1 Strionic Resonator|LCC|[116]
 1 Sulfur Falls|DMR|[400]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 3 Swamp|INR|[292]
 1 Swarm Intelligence|c21
-1 Swiftfoot Boots|TRC|[501]
-1 Talisman of Creativity|TRC|[504]
-1 Talisman of Dominance|TRC|[505]
-1 Talisman of Indulgence|TRC|[507]
+1 Swiftfoot Boots|MBC|[77]
+1 Talisman of Creativity|FRC|[61]
+1 Talisman of Dominance|FRC|[62]
+1 Talisman of Indulgence|FRC|[63]
 1 Talrand, Sky Summoner|TSR|[318]
 1 Polluted Delta|MH3|[438]
 1 Thousand-Year Storm|fdn

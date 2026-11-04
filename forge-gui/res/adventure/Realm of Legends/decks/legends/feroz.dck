@@ -5,7 +5,7 @@ Name=Feroz
 [Main]
 1 Adagia, Windswept Bastion|eoe
 1 Anointed Procession|akh
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Argent Dais|mh3
 1 Deification|mat
 1 Azorius Chancery|DSC|[261]
@@ -14,7 +14,7 @@ Name=Feroz
 1 Breeding Pool|RVR|[399]
 1 Brokers Ascendancy|snc
 1 Caretaker's Talent|blb
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Copy Enchantment|rvr
 1 Cultivate|soc
 1 Day of Judgment|FDC|[23]
@@ -51,7 +51,7 @@ Name=Feroz
 1 Nature's Lore|dmr
 1 Worzel, the Protector|mbc
 1 Oath of Teferi|DOM|[200]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 8 Plains|INR|[288]
 1 Restless Anchorage|FRC|[81]
 1 Lumbering Falls|PIO|[268]

@@ -8,7 +8,7 @@ Name=Tomik
 1 Orzhov Enforcer|RVR
 1 Archon of Absolution|ELD
 1 Tomik, Distinguished Advokist|RVR|[417]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Bastion of Remembrance|TDC|[171]
 1 Beckon Apparition|UMA|[211]
 1 Benevolent Offering|VOC
@@ -17,14 +17,14 @@ Name=Tomik
 1 Castle Ardenvale|TDC|[346]
 1 Castle Locthwain|FDC|[299]
 1 Caves of Koilos|APC|[140]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Court of Grace|FDC|[21]
 1 Deification|MAT
 1 Djeru, With Eyes Open|HOU
 1 Drown in Ichor|ONE
 1 Elspeth, Sun's Champion|FRC|[24]
 1 Ethereal Absolution|RNA
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Gatewatch Beacon|CMM
 1 Godless Shrine|RVR|[401]
 1 Grateful Apparition|ONC|[73]
@@ -57,9 +57,9 @@ Name=Tomik
 1 Path to Exile|TSR|[299]
 1 Search for Glory|KHM
 1 Shattered Sanctum|SOS|[260]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Silverquill Campus|SOC|[405]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 10 Snow-Covered Plains|ICE|[367]
 10 Snow-Covered Swamp|ICE|[372]
 1 Snowfield Sinkhole|CLB|[915]
@@ -70,7 +70,7 @@ Name=Tomik
 1 Sorin, Lord of Innistrad|LCC
 1 Sorin, Vengeful Bloodlord|WAR
 1 Tainted Field|TOR|[140]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Temple of Silence|SOC|[415]
 1 Teyo, Geometric Tactician|CMM
 1 Teyo, the Shieldmage|WAR

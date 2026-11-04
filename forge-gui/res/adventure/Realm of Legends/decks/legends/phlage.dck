@@ -4,11 +4,11 @@ Name=Phlage
 1 Phlage, Titan of Fire's Fury|mh3
 [Main]
 1 Abandoned Air Temple|tla
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Alpine Meadow|khm
 1 Anger|JUD|[77]
 1 Angrath's Marauders|OTC|[153]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Fiery Emancipation|m21
 1 Balefire Liege|SOC|[295]
 1 Rip Apart|SOC|[328]
@@ -33,18 +33,18 @@ Name=Phlage
 1 Cathar Commando|INR|[336]
 1 Chivalric Alliance|moc
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cosmogrand Zenith|eoe
 1 Doorkeeper Thrull|mkm
 1 Fellwar Stone|DRK|[102]
 1 Eiganjo, Seat of the Empire|neo
 1 Escape Tunnel|EOC|[157]
 1 Esper Sentinel|H2R|[2]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Faithless Looting|SOC|[244]
 1 Generous Gift|BLC|[106]
 1 Gisela, Blade of Goldnight|MKC|[211]
-1 Glittering Massif|TRC|[386]
+1 Glittering Massif|SOC|[376]
 1 Goldspan Dragon|SOC|[245]
 1 Grand Abolisher|BIG|[2]
 1 Hero of Bladehold|TDC|[119]
@@ -64,7 +64,7 @@ Name=Phlage
 1 Otharri, Suns' Glory|onc
 1 Path to Exile|TSR|[299]
 10 Plains|INR|[288]
-1 Radiant Summit|TRC|[395]
+1 Radiant Summit|FRC|[80]
 1 Rionya, Fire Dancer|SOC|[252]
 1 Sacred Foundry|RVR|[409]
 1 Selfless Savior|m21
@@ -77,13 +77,13 @@ Name=Phlage
 1 Sundown Pass|SOS|[264]
 1 Sweltering Suns|SCD|[160]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Teferi's Protection|2x2
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thalia, Heretic Cathar|INR|[351]
-1 Thrill of Possibility|TRC|[455]
+1 Thrill of Possibility|FDC|[180]
 1 Tocatli Honor Guard|xln
 1 Voice of Victory|tdm
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Winds of Abandon|mh1
 1 Witch's Mark|PIO|[160]

@@ -3,17 +3,17 @@ Name=Wyleth, Soul of Steel
 [Commander]
 1 Wyleth, Soul of Steel|CMR
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Blackblade Reforged|DMC|[178]
 1 Blazing Sunsteel|CMR
 1 Bonesplitter|CMR
 1 Boros Charm|FDN|[721]
 1 Boros Garrison|CLU|[231]
 1 Boros Guildgate|RVR|[398]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Brass Squire|CMR
 1 Comet Storm|CMR
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Condemn|RVR|[304]
 1 Danitha Capashen, Paragon|J25|[59]
 1 Dawn Charm|CMR
@@ -21,7 +21,7 @@ Name=Wyleth, Soul of Steel
 1 Disenchant|MMQ|[18]
 1 Dualcaster Mage|C21|[165]
 1 Encroaching Wastes|CMR
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Expedite|PIO|[374]
 1 Explorer's Scope|CMM|[380]
 1 Faith Unbroken|INR|[21]
@@ -49,10 +49,10 @@ Name=Wyleth, Soul of Steel
 1 Relentless Assault|PO2|[115]
 1 Relic Seeker|CMR
 1 Response|RVR|[247]
-1 Return to Dust|TRC|[427]
+1 Return to Dust|DSC|[102]
 1 Ring of Thune|GN3|[119]
 1 Ring of Valkas|CMR
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rupture Spire|CMR
 1 Secluded Steppe|ONS|[324]
 1 Sigarda's Aid|CMR
@@ -63,11 +63,11 @@ Name=Wyleth, Soul of Steel
 1 Stone Quarry|CMR
 1 Sunforger|CMR
 1 Sunhome, Fortress of the Legion|OTC|[324]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of Vengeance|BLB|[395]
 1 Swords to Plowshares|DMR|[275]
 1 Temur Battle Rage|TSR|[351]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Tiana, Ship's Caretaker|DMR|[372]
 1 Timely Ward|DSC|[107]
 1 Transguild Promenade|CMR

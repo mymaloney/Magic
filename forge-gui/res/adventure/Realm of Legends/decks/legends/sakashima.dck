@@ -5,7 +5,7 @@ Name=Sakashima
 [Main]
 1 An Offer You Can't Refuse|fdn
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Blue Sun's Zenith|A25|[44]
 1 Body Double|cmm
 1 Gigantoplasm|RVR|[450]
@@ -22,7 +22,7 @@ Name=Sakashima
 1 Copycrook|mh3
 1 Counterspell|DMR|[281]
 1 Cryptoplasm|mbs
-1 Disallow|TRC|[253]
+1 Disallow|DRC|[74]
 1 Echo Mage|c13
 1 Esior, Wardwing Familiar|cmr
 1 Extravagant Replication|fdn
@@ -41,12 +41,12 @@ Name=Sakashima
 1 Mirrormade|dsc
 1 Mirrorpool|OGW|[174]
 1 Myojin of Cryptic Dreams|nec
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Phyrexian Metamorph|EOC|[75]
 1 Pull from Tomorrow|SOC|[116]
 1 Quasiduplicate|RVR|[55]
 1 Ravenform|LCC|[167]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rite of Replication|SOC|[202]
 1 Sakashima the Impostor|sok
 1 Sakashima's Protege|cmr
@@ -59,7 +59,7 @@ Name=Sakashima
 1 Stolen Identity|NCC|[233]
 1 Stunt Double|clu
 1 Theoretical Duplication|woc
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Twincast|m10
 1 Undercover Operative|snc
 1 Vesuvan Doppelganger|LEB|[88]

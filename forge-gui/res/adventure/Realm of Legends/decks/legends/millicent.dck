@@ -5,7 +5,7 @@ Name=Millicent, Restless Revenant
 [Main]
 1 Angel of Flight Alabaster|J22|[144]
 1 Arcane Denial|ALL|[22a]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Azorius Chancery|DSC|[261]
 1 Azorius Locket|VOC
 1 Azorius Signet|FRC|[53]
@@ -13,8 +13,8 @@ Name=Millicent, Restless Revenant
 1 Boreas Charger|VOC
 1 Breath of the Sleepless|VOC
 1 Bygone Bishop|CLB|[689]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Crush Contraband|SCD|[16]
 1 Custodi Soulbinders|VOC
 1 Custodi Squire|CMM|[19]
@@ -26,7 +26,7 @@ Name=Millicent, Restless Revenant
 1 Drogskol Captain|VOC
 1 Drogskol Reinforcements|VOC
 1 Ethereal Investigator|MKC|[105]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fell the Mighty|MKC|[65]
 1 Field of Souls|TMP|[18]
 1 Flood of Tears|VOC
@@ -52,10 +52,10 @@ Name=Millicent, Restless Revenant
 1 Nebelgast Herald|INR|[364]
 1 Occult Epiphany|FRC|[43]
 1 Oyobi, Who Split the Heavens|VOC
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 12 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Priest of the Blessed Graf|VOC
 1 Promise of Bunrei|VOC
 1 Rattlechains|VOC

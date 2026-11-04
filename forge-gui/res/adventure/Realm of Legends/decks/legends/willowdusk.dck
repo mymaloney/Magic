@@ -5,15 +5,15 @@ Name=Willowdusk, Essence Seer
 [Main]
 1 Gyome, Master Chef|SOC|[313]
 1 Ageless Entity|C21
-1 Alhammarret's Archive|TRC|[337]
+1 Alhammarret's Archive|C21|[233]
 1 Ancient Craving|PO2|[62]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Blight Mound|SOC|[208]
 1 Blighted Woodland|TSR|[405]
 1 Bloodthirsty Aerialist|J25|[409]
 1 Bloodtracker|LCC|[186]
 1 Blossoming Bogbeast|SOC|[264]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cultivate|SOC|[265]
 1 Damnable Pact|NCC|[245]
 1 Deadly Tempest|SCD|[75]
@@ -23,7 +23,7 @@ Name=Willowdusk, Essence Seer
 1 Elixir of Immortality|C21
 1 Epicure of Blood|J25|[435]
 1 Essence Pulse|C21
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Ezzaroot Channeler|C21
 1 Feed the Swarm|TDC|[180]
 11 Forest|INR|[296]
@@ -55,7 +55,7 @@ Name=Willowdusk, Essence Seer
 1 Rampant Growth|TMP|[245]
 1 Reckless Spite|INV|[121]
 1 Revival Experiment|C21
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sangromancer|J25|[122]
 1 Sanguine Bond|TSR|[330]
 1 Sapling of Colfenor|C21

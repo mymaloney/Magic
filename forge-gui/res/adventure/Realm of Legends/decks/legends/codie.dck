@@ -27,7 +27,7 @@ Name=Codie
 1 Swords to Plowshares|DMR|[275]
 1 Day of Judgment|FDC|[23]
 1 Browbeat|jud
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Commercial District|mkm
 1 Consider|TDC|[148]
 1 Consult the Necrosages|rav
@@ -64,13 +64,13 @@ Name=Codie
 1 Raffine's Tower|snc
 1 Rampant Growth|TMP|[245]
 1 Raucous Theater|mkm
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Ravnica at War|war
 1 Read the Bones|TSR|[328]
 1 Repulse|INV|[70]
 1 Rise of the Dark Realms|FDN|[183]
-1 Evolving Wilds|TRC|[527]
-1 Nomad Outpost|TRC|[544]
+1 Evolving Wilds|ECL|[264]
+1 Nomad Outpost|TDM|[263]
 1 Despark|FRC|[50]
 1 Shadowy Backstreet|mkm
 1 Silundi Vision|PIO|[74]
@@ -84,7 +84,7 @@ Name=Codie
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of Epiphany|SOC|[412]
 1 Temple of Malady|SOC|[413]
-1 Temple of Malice|TRC|[410]
+1 Temple of Malice|FDN|[701]
 1 Temple of Mystery|SOC|[414]
 1 Temple of Plenty|TDC|[405]
 1 Temple of Silence|SOC|[415]

@@ -6,7 +6,7 @@ Name=Wick
 1 An Offer You Can't Refuse|FDN|[160]
 1 Arcane Adaptation|xln
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Azure Beastbinder|blb
 1 Blasphemous Act|SOC|[238]
 1 Bloodline Pretender|moc
@@ -15,15 +15,15 @@ Name=Wick
 1 Chainsaw|dsk
 1 Changeling Outcast|otc
 1 Chittering Witch|TDC|[175]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crumbling Necropolis|LCC|[326]
 1 Curse of Opulence|tdc
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 Dismember|TSR|[322]
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Engine Rat|dft
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fell the Profane|mh3
 1 Fellwar Stone|DRK|[102]
 1 Gloomlake Verge|dsk
@@ -43,13 +43,13 @@ Name=Wick
 7 Mountain|INR|[294]
 1 Mudflat Village|blb
 1 Nashi, Searcher in the Dark|dsk
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Nezumi Prowler|neo
 1 Ogre Chitterlord|woe
 1 Ogre Slumlord|BLC|[186]
 1 Pack Rat|RVR|[455]
 1 Panharmonicon|TSR|[399]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Persistent Marshstalker|blb
 1 Phyrexian Arena|APC|[47]
 1 Piper of the Swarm|AFC|[106]
@@ -57,22 +57,22 @@ Name=Wick
 1 Revenge of the Rats|fdn
 1 Seething Landscape|mh3
 1 Shoreline Looter|blb
-1 Skullclamp|TRC|[354]
-1 Smoldering Marsh|TRC|[403]
+1 Skullclamp|TDC|[103]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Song of Totentanz|woe
 1 Sundering Eruption|mh3
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 9 Swamp|INR|[292]
 1 Swarmyard|blc
 1 Swarmyard Massacre|blc
 1 Sword of the Squeak|blc
 1 Tainted Strike|som
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Tangled Colony|woe
 1 Taurean Mauler|TDC|[238]
 1 Temple of Epiphany|SOC|[412]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Typhoid Rats|J25|[497]
 1 Unearth|ULG|[72]
 1 Valley Rotcaller|blb
@@ -81,4 +81,4 @@ Name=Wick
 1 Vren, the Relentless|blb
 1 Nezumi Informant|mom
 1 Wave of Rats|ncc
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]

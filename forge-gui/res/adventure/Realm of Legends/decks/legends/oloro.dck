@@ -3,13 +3,13 @@ Name=Oloro
 [Commander]
 1 Oloro, Ageless Ascetic|c13
 [Main]
-1 Academy Ruins|TRC|[366]
+1 Academy Ruins|DRC|[58]
 1 Adarkar Wastes|ICE|[351]
 1 An Offer You Can't Refuse|FDN|[160]
 1 Angel of Vitality|FDC|[13]
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archaeomancer's Map|SOC|[136]
 1 Auriok Champion|IMA|[9]
 1 Authority of the Consuls|FDN|[137]
@@ -25,21 +25,21 @@ Name=Oloro
 1 Felidar Sovereign|J25|[198]
 1 Charismatic Conqueror|lcc
 1 City of Brass|ARN|[71]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Revival|RVR|[241]
 1 Deserted Beach|FRA|[176]
 1 Dimir Aqueduct|DSC|[270]
 1 Dovin's Veto|TSR|[375]
 1 Elenda's Hierophant|lcc
 1 Everflowing Chalice|TSR|[394]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Exquisite Blood|LCC|[195]
 1 Farewell|M3C|[170]
 1 Fell the Profane|mh3
 1 Fellwar Stone|DRK|[102]
 1 Get Lost|lci
 1 Godless Shrine|RVR|[401]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Hallowed Fountain|RVR|[404]
 1 Heliod's Intervention|OTC|[81]
 1 Indulging Patrician|TDC|[292]
@@ -52,11 +52,11 @@ Name=Oloro
 1 Mangara, the Diplomat|SOC|[155]
 1 Meticulous Archive|mkm
 1 Underground Sea|LEB|[286]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Ondu Inversion|znr
 1 Orzhov Basilica|DRC|[164]
-1 Alhammarret's Archive|TRC|[337]
-1 Painful Truths|TRC|[274]
+1 Alhammarret's Archive|C21|[233]
+1 Painful Truths|ECC|[82]
 3 Plains|INR|[288]
 1 Raffine's Tower|snc
 1 Recurring Insight|roe
@@ -83,9 +83,9 @@ Name=Oloro
 1 Suture Priest|MOC|[210]
 1 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Dominance|TRC|[505]
-1 Talisman of Hierarchy|TRC|[506]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Dominance|FRC|[62]
+1 Talisman of Hierarchy|SOC|[358]
+1 Talisman of Progress|FRC|[64]
 1 Teferi's Protection|2x2
 1 Test of Endurance|dmr
 1 The Meathook Massacre|inr

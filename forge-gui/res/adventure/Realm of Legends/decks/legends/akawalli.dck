@@ -4,7 +4,7 @@ Name=Akawalli
 1 Akawalli, the Seething Tower|lci
 [Main]
 1 Accursed Marauder|mh3
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ash Barrens|TDC|[339]
 1 Barren Moor|ONS|[312]
 1 Blanchwood Prowler|bro
@@ -19,7 +19,7 @@ Name=Akawalli
 1 Fungal Fortitude|lci
 1 Defossilize|lci
 1 Coati Scavenger|lci
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conduit Pylons|otj
 1 Crawling Infestation|CMM|[281]
 1 Crawling Sensation|TDC|[252]
@@ -27,8 +27,8 @@ Name=Akawalli
 1 Demolisher Spawn|dsc
 1 Drag to the Roots|dsk
 1 Dredging Claw|bro
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Explore|J25|[146]
 1 Feed the Swarm|TDC|[180]
 9 Forest|INR|[296]
@@ -51,13 +51,13 @@ Name=Akawalli
 1 Old Stickfingers|dsc
 1 Overwhelming Remorse|bro
 1 Patchwork Beastie|dsk
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Patient Naturalist|otj
 1 Putrefy|rvr
 1 Ransack the Lab|mh1
 1 Rhizome Lurcher|grn
 1 Riveteers Overlook|ECC|[162]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Seed of Hope|mom
 1 Sinister Starfish|MKC|[140]
 1 Skull Prophet|tdc
@@ -71,11 +71,11 @@ Name=Akawalli
 1 Stinging Cave Crawler|lci
 1 Strange Augmentation|emn
 8 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Syr Konrad, the Grim|DSC|[158]
 1 Tainted Wood|TOR|[143]
 1 Talisman of Resilience|SOC|[432]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Terror Tide|lci
 1 The Dross Pits|one
 1 The Hunter Maze|one

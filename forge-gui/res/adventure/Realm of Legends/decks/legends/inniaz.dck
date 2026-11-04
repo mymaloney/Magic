@@ -6,7 +6,7 @@ Name=Inniaz, the Gale Force
 1 Aetherize|RVR|[448]
 1 Sword of Sinew and Steel|H1R|[31]
 1 Angelsong|DVD|[15]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archaeomancer's Map|SOC|[136]
 1 Aven Mindcensor|CLB
 1 Azorius Chancery|DSC|[261]
@@ -14,7 +14,7 @@ Name=Inniaz, the Gale Force
 1 Banishing Light|TSR|[291]
 1 Battlefield Raptor|KHM
 1 Celestial Colonnade|UMA
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Court of Grace|FDC|[21]
 1 Dawn Charm|CMR
 1 Donal, Herald of Wings|VOC
@@ -26,9 +26,9 @@ Name=Inniaz, the Gale Force
 1 Faerie Seer|J25|[106]
 1 Fall from Favor|FDC|[63]
 1 Flooded Strand|MH3|[436]
-1 Fractured Identity|TRC|[320]
+1 Fractured Identity|C17|[37]
 1 Ghostly Prison|SOC|[146]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Glen Elendra Archmage|WOC|[94]
 1 Gold-Forged Thopteryx|MAT
 1 Grasp of Fate|FDC|[32]
@@ -37,7 +37,7 @@ Name=Inniaz, the Gale Force
 1 Hanged Executioner|BLC|[139]
 1 Hengegate Pathway|KHM
 1 Imprisoned in the Moon|INR|[358]
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 11 Island|INR|[290]
 1 Jubilant Skybonder|SCD
 1 Judge's Familiar|RVR|[192]
@@ -57,7 +57,7 @@ Name=Inniaz, the Gale Force
 1 Ornithopter of Paradise|MH2
 1 Pendant of Prosperity|C21|[256]
 11 Plains|INR|[288]
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Pride of the Clouds|GK2
 1 Reins of Power|STH|[41]
 1 Remorseful Cleric|SOC|[164]
@@ -78,7 +78,7 @@ Name=Inniaz, the Gale Force
 1 Unbreakable Formation|RVR|[32]
 1 Warden of Evos Isle|J25|[385]
 1 Watcher of the Spheres|M21
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Windborn Muse|DMR|[278]
 1 Winds of Abandon|MH1
 1 Witness Protection|FDN|[168]

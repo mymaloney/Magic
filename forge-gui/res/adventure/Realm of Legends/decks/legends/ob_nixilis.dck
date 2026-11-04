@@ -4,7 +4,7 @@ Name=Ob Nixilis
 1 Ob Nixilis, Captive Kingpin|mat
 [Main]
 1 Aether Sting|uds
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ob Nixilis Reignited|PIO|[99]
 1 Ob Nixilis, the Adversary|snc
 1 Ob Nixilis of the Black Oath|CMM|[176]
@@ -14,12 +14,12 @@ Name=Ob Nixilis
 1 Blisterspit Gremlin|j22
 1 Blood Seeker|DSC|[77]
 1 Bolt Bend|FDN|[619]
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Chandra's Incinerator|m21
 1 Chaos Warp|MBC|[72]
 1 Charcoal Diamond|mir
 1 Cinder Pyromancer|DPA|[41]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cryptolith Fragment|INR|[472]
 1 Dark Ritual|MMQ|[129]
 1 Disciple of the Vault|2xm
@@ -27,7 +27,7 @@ Name=Ob Nixilis
 1 Fellwar Stone|DRK|[102]
 1 Fire Diamond|mir
 1 Firebrand Archer|FDN|[196]
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 1 Gibbering Fiend|soi
 1 Goblin Fireslinger|J25|[136]
 1 Grapeshot|dmr
@@ -50,12 +50,12 @@ Name=Ob Nixilis
 1 Ob Nixilis, Unshackled|2x2
 1 Rakdos Carnarium|ECC|[161]
 1 Rakdos Charm|TSR|[384]
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 Roiling Vortex|znr
 1 Rush of Vitality|kld
 1 Sardian Avenger|brc
 1 Sawblade Scamp|one
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Soot Imp|dvd
 1 Spear Spewer|j22
@@ -63,13 +63,13 @@ Name=Ob Nixilis
 1 Stormfist Crusader|DSC|[234]
 1 Sunscorched Desert|akh
 15 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Temur Battle Rage|TSR|[351]
 1 Terminate|PLS|[128]
 1 Theater of Horrors|DSC|[236]
 1 Underworld Dreams|LEG|[124]
 1 Ob Nixilis's Cruelty|PIO|[100]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Ob Nixilis, the Fallen|tdc
 1 Witty Roastmaster|snc
 1 Wrenn's Resolve|mom

@@ -3,12 +3,12 @@ Name=Urabrask
 [Commander]
 1 Urabrask|MOM
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Ancient Tomb|TMP
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Big Score|SOC|[237]
 1 Mechanized Warfare|BRO
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Spinerock Tyrant|ECL
 1 Throne of Eldraine|WOC
 1 Ojer Axonil, Deepest Might|LCI
@@ -33,7 +33,7 @@ Name=Urabrask
 1 Increasing Vengeance|C19
 1 Jeska's Will|MKC
 1 Lightning Bolt|LEB|[162]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lightning Strike|DFT|[136]
 1 Mana Geyser|SOC|[247]
 1 Mind Stone|DMR|[385]
@@ -48,7 +48,7 @@ Name=Urabrask
 1 Prismatic Lens|OTC
 1 Pyrohemia|CMA
 1 Razorkin Needlehead|DSK
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Return the Favor|OTJ
 1 Reverberate|M13
 1 Ruby Medallion|TMP|[305]
@@ -62,9 +62,9 @@ Name=Urabrask
 1 Solphim, Mayhem Dominus|ONE
 1 Spellshock|EXO
 1 Sundering Eruption|MH3
-1 Swiftfoot Boots|TRC|[501]
-1 Thought Vessel|TRC|[509]
-1 Thrill of Possibility|TRC|[455]
+1 Swiftfoot Boots|MBC|[77]
+1 Thought Vessel|MBC|[78]
+1 Thrill of Possibility|FDC|[180]
 1 Tibalt's Trickery|KHM
 1 Torbran, Thane of Red Fell|ELD
 1 Tormenting Voice|J22

@@ -6,18 +6,18 @@ Name=Kotis, the Fangkeeper
 1 Qarsi Revenant|TDM
 1 Fangkeeper's Familiar|TDM
 1 Awaken the Honored Dead|TDM
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Casualties of War|SOC|[300]
 1 Alpha Authority|PIO|[162]
 1 Aqueous Form|PIO|[45]
 1 Arcane Heist|OTC|[13]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archetype of Imagination|DSC|[111]
 1 Blossoming Defense|ECL|[167]
 1 Bridgeworks Battle|MH3
 1 Champion of Lambholt|MOC|[293]
 1 Clever Impersonator|C19|[82]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Cranial Plating|TSR|[392]
 1 Damnation|2X2|[73]
@@ -28,7 +28,7 @@ Name=Kotis, the Fangkeeper
 1 Dissipation Field|CLB|[718]
 1 Essence Harvest|AVR
 1 Evolutionary Escalation|C16
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Exponential Growth|STX
 1 Extinguish All Hope|CMM
 1 Extract from Darkness|2X2|[210]
@@ -47,12 +47,12 @@ Name=Kotis, the Fangkeeper
 1 Inquisitor's Flail|ISD
 9 Island|INR|[290]
 1 Opulent Palace|ECC|[157]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Loxodon Warhammer|ONC|[135]
 1 Masterwork of Ingenuity|AFC|[209]
 1 Nature's Claim|TSR|[364]
 1 Necromantic Selection|TDC|[189]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Nettlecyst|FDC|[275]
 1 Obscuring Haze|CMM
 1 Obsidian Battle-Axe|MOR
@@ -74,6 +74,6 @@ Name=Kotis, the Fangkeeper
 1 Tanglepool Bridge|DRC|[175]
 1 Tear Asunder|EOC|[109]
 1 Temple of Malady|SOC|[413]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Villainous Wealth|OTC|[249]
 1 Vow of Wildness|GN3|[111]

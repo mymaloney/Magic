@@ -6,7 +6,7 @@ Name=Slobad
 1 Arms Race|BRO
 1 Caged Sun|CM2|[178]
 1 Worn Powerstone|USG|[318]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Meteor Golem|FDN
 1 Thran Dynamo|UDS|[139]
 1 Wurmcoil Engine|2XM|[308]
@@ -15,7 +15,7 @@ Name=Slobad
 1 Cityscape Leveler|BRO
 1 Combustible Gearhulk|DRC|[102]
 1 Bolt Bend|FDN|[619]
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Cathodion|USG|[287]
 1 Chimil, the Inner Sun|ECC|[137]
 1 Cogwork Assembler|J22
@@ -34,7 +34,7 @@ Name=Slobad
 1 Jhoira's Familiar|2XM
 1 Kiki-Jiki, Mirror Breaker|TSR|[346]
 1 Ruin Grinder|C21
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lithoform Engine|BRC
 1 Mechanized Warfare|BRO
 1 Metalwork Colossus|BRC|[147]
@@ -57,7 +57,7 @@ Name=Slobad
 1 Solemn Simulacrum|TSR|[400]
 1 Su-Chi|ATQ|[66]
 1 Su-Chi Cave Guard|BRO
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Trash for Treasure|2XM
 1 Triplicate Titan|DRC|[143]
 1 Untimely Malfunction|DSK

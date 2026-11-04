@@ -3,7 +3,7 @@ Name=Darigaaz
 [Commander]
 1 Darigaaz, Shivan Champion|ydmu
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assassin's Trophy|SOC|[294]
 1 Atarka, World Render|TDC|[281]
 1 Binding the Old Gods|ECC|[120]
@@ -18,11 +18,11 @@ Name=Darigaaz
 1 Sarkhan Vol|MMA|[183]
 1 Bloomvine Regent|tdm
 1 Draconic Debut|ywoe
-1 Canyon Slough|TRC|[369]
+1 Canyon Slough|ECC|[145]
 1 Carnelian Orb of Dragonkind|J25|[131]
 1 Chaos Warp|MBC|[72]
 1 Cinder Glade|ECC|[146]
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Commercial District|mkm
 1 Crucible of the Spirit Dragon|AFC|[231]
 1 Cultivate|SOC|[265]
@@ -36,7 +36,7 @@ Name=Darigaaz
 1 Dragon Tempest|TDC|[94]
 1 Dragon's Hoard|TDC|[317]
 1 Dragonlord's Servant|TDC|[210]
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Dragonspeaker Shaman|SCG|[89]
 1 Emerald Medallion|TMP|[283]
 1 Harrow|inv
@@ -69,12 +69,12 @@ Name=Darigaaz
 1 Ruby, Daring Tracker|FDN|[245]
 1 Sarkhan, Fireblood|J25|[593]
 1 Sheltered Thicket|ECC|[167]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Smuggler's Surprise|otj
 1 Sol Ring|LEB|[270]
 6 Swamp|INR|[292]
 1 Talisman of Impulse|TDC|[332]
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 Talisman of Resilience|SOC|[432]
 1 Thunderbreak Regent|TDC|[241]
 1 Underground Mortuary|mkm

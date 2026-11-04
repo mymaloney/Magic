@@ -5,8 +5,8 @@ Name=Zoraline, Cosmos Caller
 [Main]
 1 Hazel's Nocturne|BLB
 1 Amalia Benavides Aguirre|LCI
-1 Anguished Unmaking|TRC|[310]
-1 Arcane Signet|TRC|[485]
+1 Anguished Unmaking|SOC|[293]
+1 Arcane Signet|FRC|[20]
 1 Banishing Light|TSR|[291]
 1 Basilica Screecher|PIO|[83]
 1 Darkstar Banisher|YBLB
@@ -18,7 +18,7 @@ Name=Zoraline, Cosmos Caller
 1 Case of the Uneaten Feast|MKM
 1 Cathar Commando|INR
 1 Caves of Koilos|APC|[140]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Courier Bat|DBL|[369]
 1 Damn|MH2
 1 Dark Confidant|RVR
@@ -31,9 +31,9 @@ Name=Zoraline, Cosmos Caller
 1 Elenda's Hierophant|LCC
 1 Enduring Innocence|DSK
 1 Essence Channeler|BLB
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Eyetwitch|STX
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Fracture|SOC|[310]
 1 Generous Gift|BLC|[106]
 1 Godless Shrine|RVR
@@ -52,7 +52,7 @@ Name=Zoraline, Cosmos Caller
 1 Mudflat Village|BLB
 1 Nesting Grounds|MH3
 1 Pact of the Serpent|LCC
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Phyrexian Arena|APC|[47]
 10 Plains|INR|[288]
 1 Raise the Past|FDN
@@ -78,7 +78,7 @@ Name=Zoraline, Cosmos Caller
 1 Tocasia's Welcome|SOC|[181]
 1 Unclaimed Territory|ECC|[175]
 1 Valley Rotcaller|BLB
-1 Vault of Champions|TRC|[416]
+1 Vault of Champions|CMM|[436]
 1 Vault of the Archangel|TDC|[410]
 1 Vito, Thorn of the Dusk Rose|J25
 1 Wax-Wane Witness|BLB

@@ -3,7 +3,7 @@ Name=Shiko
 [Commander]
 1 Shiko, Paragon of the Way|TDM
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Abraded Bluffs|OTJ
 1 Aetherize|RVR|[448]
 1 An Offer You Can't Refuse|FDN
@@ -12,16 +12,16 @@ Name=Shiko
 1 Balmor, Battlemage Captain|FDN
 1 Banishing Light|TSR|[291]
 1 Boltwave|FDN
-1 Talisman of Creativity|TRC|[504]
-1 Talisman of Progress|TRC|[508]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Creativity|FRC|[61]
+1 Talisman of Progress|FRC|[64]
+1 Talisman of Conviction|SOC|[428]
 1 Cephalid Coliseum|ODY|[317]
 1 Clarion Conqueror|TDM
 1 Collected Conjuring|MH1
 1 Conjurer's Closet|INR|[441]
 1 Cori-Steel Cutter|TDM
 1 Crackling Drake|RVR
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Dirgur Island Dragon|TDM
 1 Dragon Trainer|FDN
 1 Dragonback Lancer|TDM
@@ -30,7 +30,7 @@ Name=Shiko
 1 Effortless Master|TDM
 1 Electroduplicate|FDN
 1 Essence Scatter|SOS|[47]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Extravagant Replication|FDN
 1 Firespitter Whelp|J25
 1 Flamehold Grappler|TDM
@@ -58,7 +58,7 @@ Name=Shiko
 1 Momentary Blink|DMR
 1 Monastery Messenger|TDM
 6 Mountain|INR|[294]
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Narset, Jeskai Waymaster|TDM
 1 Overwhelming Surge|TDM
 1 Parapet Thrasher|TDC
@@ -66,7 +66,7 @@ Name=Shiko
 1 Poised Practitioner|TDM
 1 Rebellious Strike|TDM
 1 Rediscover the Way|TDM
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Roiling Dragonstorm|TDM
 1 Runescale Stormbrood|TDM
 1 Sage of the Inward Eye|KTK
@@ -84,7 +84,7 @@ Name=Shiko
 1 Thriving Heath|ECC|[172]
 1 Tranquil Cove|TDM
 1 Voice of Victory|TDM
-1 Warleader's Call|TRC|[335]
+1 Warleader's Call|MKM|[242]
 1 Wayspeaker Bodyguard|TDM
 1 Wind-Scarred Crag|TDM
 1 Wingblade Disciple|TDM

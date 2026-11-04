@@ -5,7 +5,7 @@ Name=Reyav, Master Smith
 [Main]
 1 Ajani's Presence|JOU
 1 Akiri, Fearless Voyager|CMM
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Timely Ward|DSC|[107]
 1 Slash the Ranks|CMR
 1 Fencing Ace|J25|[199]
@@ -23,15 +23,15 @@ Name=Reyav, Master Smith
 1 Chitinous Cloak|OGW
 1 Citizen's Crowbar|SNC
 1 Colossus Hammer|LCC|[110]
-1 Command Tower|TRC|[521]
-1 Darksteel Plate|TRC|[341]
+1 Command Tower|FRC|[22]
+1 Darksteel Plate|2X2|[304]
 1 Diamond Pick-Axe|LCI
 1 Disenchant|MMQ|[18]
 1 Esper Sentinel|H2R|[2]
-1 Evolving Wilds|TRC|[527]
-1 Fabled Passage|TRC|[379]
+1 Evolving Wilds|ECL|[264]
+1 Fabled Passage|FRC|[71]
 1 Flame Slash|CN2|[157]
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Galvanic Blast|2XM|[125]
 1 Gate Smasher|DTK
 1 Goblin Gaveleer|2XM
@@ -46,7 +46,7 @@ Name=Reyav, Master Smith
 1 Komainu Battle Armor|NEC
 1 Land Tax|LEG|[26]
 1 Lavaspur Boots|OTJ
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Mask of Memory|ONC
 1 Militant Inquisitor|J25|[226]
 10 Mountain|INR|[294]
@@ -72,12 +72,12 @@ Name=Reyav, Master Smith
 1 Stasis Snare|PIO|[37]
 1 Stone Haven Outfitter|J25
 1 Stone Quarry|CMR|[495]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of Hearth and Home|MH2
 1 Sword of the Animist|CMM
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Temple of Triumph|SOC|[417]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thran Power Suit|BRO
 1 Thriving Heath|ECC|[172]
 1 Unknown Shores|THB|[249]

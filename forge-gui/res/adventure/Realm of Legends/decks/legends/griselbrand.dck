@@ -3,7 +3,7 @@ Name=Griselbrand
 [Commander]
 1 Griselbrand|INR|[381]
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archfiend of Depravity|SCD|[67]
 1 Archfiend of Despair|FRC|[46]
 1 Baleful Mastery|OTC|[126]
@@ -31,7 +31,7 @@ Name=Griselbrand
 1 Heartless Summoning|INR
 1 Heirloom Mirror|DBL|[105]
 1 Herald of Torment|BNG
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Imp's Mischief|CMM
 1 Indulgent Tormentor|SCD
 1 Infernal Grasp|INR|[385]
@@ -45,7 +45,7 @@ Name=Griselbrand
 1 Master of the Feast|JOU
 1 Mind Stone|DMR|[385]
 1 Murderous Rider|DRC|[45]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Nykthos, Shrine to Nyx|THS
 1 Ob Nixilis, Unshackled|2X2|[84]
 1 Oubliette|ARN|[31]
@@ -61,7 +61,7 @@ Name=Griselbrand
 1 Stinging Study|C21
 31 Swamp|INR|[292]
 1 The Speed Demon|DFT
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Throne of Eldraine|WOC
 1 Torment of Hailfire|HOU
 1 Toxic Deluge|MH3|[412]
@@ -69,6 +69,6 @@ Name=Griselbrand
 1 Urza's Incubator|DMR
 1 Valgavoth, Terror Eater|DSK
 1 War Room|SOC|[422]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Withering Torment|FDC|[134]
 1 Worn Powerstone|USG|[318]

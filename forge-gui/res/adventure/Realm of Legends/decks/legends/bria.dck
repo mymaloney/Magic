@@ -6,7 +6,7 @@ Name=Bria
 1 Aetherize|RVR|[448]
 1 Alania, Divergent Storm|blb
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ashling, Flame Dancer|mh3
 1 Azure Beastbinder|blb
 1 Balmor, Battlemage Captain|FDN|[237]
@@ -14,13 +14,13 @@ Name=Bria
 1 Blasphemous Act|SOC|[238]
 1 Chaos Warp|MBC|[72]
 1 Charged Conjuration|yblb
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Coruscation Mage|blb
 1 Daring Waverider|blb
 1 Electrodominance|TDC|[212]
 1 Epic Experiment|TSR|[376]
 1 Frolicking Familiar|woe
-1 Frostboil Snarl|TRC|[383]
+1 Frostboil Snarl|SOC|[374]
 1 Indris, the Hydrostatic Surge|yblb
 14 Island|INR|[290]
 1 Harnesser of Storms|blb
@@ -36,14 +36,14 @@ Name=Bria
 1 Fireball|LEB|[150]
 1 Kitsa, Otterball Elite|blb
 1 Lightning Bolt|LEB|[162]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lightshell Duo|FDN|[157]
 1 Lilypad Village|blb
 1 Manaform Hellkite|SOC|[248]
 1 Mindwhisker|blb
 13 Mountain|INR|[294]
 1 Otterball Antics|blb
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pearl of Wisdom|blb
 1 Portent of Calamity|blb
 1 Primal Amulet|xln
@@ -52,7 +52,7 @@ Name=Bria
 1 Ral, Crackling Wit|blb
 1 Rapid Hybridization|SOC|[198]
 1 Relentless Assault|PO2|[115]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Restless Spire|FRC|[82]
 1 Sapphire Medallion|TMP|[306]
 1 Season of Weaving|blb
@@ -66,11 +66,11 @@ Name=Bria
 1 Stormsplitter|blb
 1 Sulfur Falls|DMR|[400]
 1 Swiftwater Cliffs|TDM|[268]
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Tempest Angler|blb
 1 Temple of Epiphany|SOC|[412]
 1 Thieving Otter|blb
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thundering Falls|mkm
 1 Thundertrap Trainer|blb
 1 Valley Floodcaller|blb

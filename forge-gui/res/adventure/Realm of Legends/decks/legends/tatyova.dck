@@ -26,9 +26,9 @@ Name=Tatyova
 1 Doppelgang|mkm
 1 Elvish Reclaimer|m20
 1 Evacuation|STH|[30]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Exploration|DMR|[339]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Field of the Dead|m20
 1 Territory Culler|mh3
 1 Finale of Revelation|FDN|[589]
@@ -50,18 +50,18 @@ Name=Tatyova
 1 Mirror Room|dsk
 1 Multani, Yavimaya's Avatar|EOC|[100]
 1 Nature's Lore|DMR|[346]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Nezahal, Primal Tide|cmr
 1 Nylea's Intervention|thb
 1 Nyxbloom Ancient|thb
 1 Propaganda|TMP|[80]
 1 Rampaging Baloths|EOC|[104]
 1 Regrowth|LEB|[215]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Reshape the Earth|cmr
 1 Rewind|USG|[93]
 1 Rishkar's Expertise|FDC|[226]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Roil Elemental|zen
 1 Scapeshift|M19|[201]
 1 Simic Growth Chamber|DSC|[298]
@@ -71,7 +71,7 @@ Name=Tatyova
 1 Sowing Mycospawn|mh3
 1 Splendid Reclamation|EOC|[108]
 1 Sylvan Safekeeper|JUD|[133]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Tireless Provisioner|J25|[728]
 1 Titania, Protector of Argoth|mh2
 1 Ulvenwald Hydra|M3C|[250]

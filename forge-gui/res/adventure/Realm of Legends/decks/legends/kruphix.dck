@@ -15,7 +15,7 @@ Name=Kruphix, God of Horizons
 1 Boseiju, Who Shelters All|CHK
 1 Breeding Pool|RVR|[399]
 1 Burgeoning|STH|[102]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Sol Ring|LEB|[270]
 1 Commander's Insight|SOC|[113]
 1 Counterspell|DMR|[281]
@@ -29,7 +29,7 @@ Name=Kruphix, God of Horizons
 1 Empyrial Plate|C16
 1 Eternal Witness|TSR|[361]
 1 Even the Score|SNC
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Exploration|DMR|[339]
 1 Finale of Revelation|FDN|[589]
 1 Fog Bank|USG|[75]
@@ -52,18 +52,18 @@ Name=Kruphix, God of Horizons
 1 Mind Spring|BLB|[389]
 1 Misty Rainforest|MH2
 1 Nature's Claim|TSR|[364]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Overbeing of Myth|EVE
 1 Overwhelming Stampede|FDC|[218]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Pull from Tomorrow|SOC|[116]
 1 Ranger's Path|M13
 1 Rapid Hybridization|SOC|[198]
 1 Ravenform|LCC
 1 Reclamation Sage|TSR|[366]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rimewood Falls|KHM
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Silver Scrutiny|DMU
 1 Sink into Stupor|MH3
 1 Skyshroud Claim|NMS|[117]

@@ -13,11 +13,11 @@ Name=Krenko, Mob Boss
 1 General Kreat, the Boltbringer|J25
 1 Coat of Arms|EXO|[131]
 1 Commander's Plate|CMR
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Banner of Kinship|FDN|2
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Ancient Tomb|TMP
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Basilisk Collar|FDC|[246]
 1 Battle Hymn|AVR
 1 Siege-Gang Lieutenant|M3C
@@ -27,7 +27,7 @@ Name=Krenko, Mob Boss
 1 Brightstone Ritual|ONS
 1 Cavern of Souls|LCI|[269]
 1 Chaos Warp|MBC|[72]
-1 Command Beacon|TRC|[373]
+1 Command Beacon|TDC|[352]
 1 Conspicuous Snoop|M21
 1 Crimson Wisps|J25|[533]
 1 Dark-Dweller Oracle|2X2
@@ -51,7 +51,7 @@ Name=Krenko, Mob Boss
 1 Imperial Recruiter|MH2
 1 Kiki-Jiki, Mirror Breaker|TSR|[346]
 1 Lightning Bolt|LEB|[162]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Liquimetal Torque|MH2
 1 Magewright's Stone|RVR|[462]
 1 Mana Echoes|ONS|[218]
@@ -62,14 +62,14 @@ Name=Krenko, Mob Boss
 1 Purphoros, God of the Forge|PIO|[296]
 1 Rings of Brighthearth|CMR
 1 Ruby Medallion|TMP|[305]
-1 Shared Animosity|TRC|[295]
+1 Shared Animosity|LCC|[231]
 1 Skirk Prospector|ONS|[230]
 1 Krenko, Baron of Tin Street|MKM
 1 Sol Ring|LEB|[270]
 1 Dockside Extortionist|2X2
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Warren Instigator|DDT
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thousand-Year Elixir|C21
 1 Chronicle of Victory|ECL
 1 Vandalblast|TSR|[352]

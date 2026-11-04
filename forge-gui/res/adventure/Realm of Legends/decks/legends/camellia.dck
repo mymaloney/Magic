@@ -4,7 +4,7 @@ Name=Camellia
 1 Camellia, the Seedmiser|blb
 [Main]
 1 Academy Manufactor|blc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assassin's Trophy|SOC|[294]
 1 Bake into a Pie|FDN|[169]
 1 Banner of Kinship|fdn
@@ -15,14 +15,14 @@ Name=Camellia
 1 Chatterfang, Squirrel General|MH2|[410]
 1 Chatterstorm|MH2|[411]
 1 Chitterspitter|blc
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consumed by Greed|FDC|[92]
 1 Corpseberry Cultivator|blb
 1 Curious Forager|blb
 1 Deadly Dispute|TDC|[177]
 1 Deathcap Glade|SOS|[253]
 1 Demolition Field|FDN|[687]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Familiar Ground|WTH|[127]
 1 Farseek|RVR|[347]
 1 Feed the Cycle|blb
@@ -48,7 +48,7 @@ Name=Camellia
 1 Oakhollow Village|blb
 1 Osteomancer Adept|blb
 1 Overgrown Tomb|RVR|[407]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pawpatch Formation|blb
 1 Pick Your Poison|mkm
 1 Putrefy|RVR|[378]
@@ -65,7 +65,7 @@ Name=Camellia
 1 Saw in Half|blc
 1 Scavenger's Talent|blb
 1 Shamanic Revelation|PIO|[194]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Sol Ring|LEB|[270]
 1 Spider Food|woe
 1 Squirrel Mob|ODY|[273]

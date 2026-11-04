@@ -5,7 +5,7 @@ Name=Brion Stoutarm
 [Main]
 1 Act of Treason|RVR|[99]
 1 Ancient Amphitheater|CM2
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Blasphemous Act|SOC|[238]
 1 Bolt Bend|FDN|[619]
 1 Borderland Behemoth|CM2
@@ -14,8 +14,8 @@ Name=Brion Stoutarm
 1 Calamity Bearer|KHM
 1 Chandra's Ignition|FDC|[145]
 1 Chaos Warp|MBC|[72]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Cosmic Intervention|KHC
 1 Crush Contraband|SCD|[16]
 1 Darksteel Mutation|SOC|[142]
@@ -24,7 +24,7 @@ Name=Brion Stoutarm
 1 Experimental Frenzy|GRN
 1 Fervor|WTH|[99]
 1 Fling|STH|[82]
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Gift of Immortality|SOC|[147]
 1 Gisela, Blade of Goldnight|MKC
 1 Goatnap|ECL|[142]
@@ -40,7 +40,7 @@ Name=Brion Stoutarm
 1 Kari Zev's Expertise|AER
 1 Kazuul's Fury|ZNR
 1 Legion Leadership|MH3
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lotus Field|SOC|[385]
 1 Luminous Broodmoth|BLC
 1 Mark of Mutiny|IMA
@@ -53,7 +53,7 @@ Name=Brion Stoutarm
 1 Realm-Cloaked Giant|BLC|[149]
 1 Rite of the Raging Storm|MKC|[159]
 1 Ruby Medallion|TMP|[305]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Secluded Steppe|ONS|[324]
 1 Serra Avatar|DMR|[272]
 1 Sol Ring|LEB|[270]
@@ -66,17 +66,17 @@ Name=Brion Stoutarm
 1 Sunrise Sovereign|CM2
 1 Surtland Flinger|KHM
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Temple of Triumph|SOC|[417]
 1 Terrain Generator|NMS|[143]
 1 Thousand-Year Elixir|C21
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Thran Dynamo|UDS|[139]
 1 Traitorous Blood|ISD
 1 Traitorous Greed|M21
 1 Valakut Exploration|ZNR
 1 Vengeful Possession|DSK
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Weathered Wayfarer|ONS
 1 Wrath of God|DMR|[279]
 1 Zealous Conscripts|TSR

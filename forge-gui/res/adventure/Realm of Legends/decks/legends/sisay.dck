@@ -8,12 +8,12 @@ Name=Sisay
 1 Battlefield Forge|apc
 1 Blind Seer|inv
 1 Canopy Vista|TDC|[343]
-1 Canyon Slough|TRC|[369]
+1 Canyon Slough|ECC|[145]
 1 Captain Sisay|inv
 1 Caves of Koilos|apc
 1 Charisma|mmq
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crovax the Cursed|sth
 1 Crovax, Ascendant Hero|TSR|[15]
 1 Crystal Quarry|ody
@@ -25,7 +25,7 @@ Name=Sisay
 1 Eladamri's Call|pls
 1 Ertai, Wizard Adept|exo
 1 Eye of Ramos|mmq
-1 Fetid Pools|TRC|[380]
+1 Fetid Pools|TDC|[363]
 4 Forest|INR|[296]
 1 Gallantry|ODY|[23]
 1 Gerrard Capashen|apc
@@ -37,7 +37,7 @@ Name=Sisay
 1 Heart of Ramos|mmq
 1 Horn of Ramos|mmq
 1 Hull Breach|pls
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 4 Island|INR|[290]
 1 Jhoira, Weatherlight Captain|EOC|[118]
 1 Karn Liberated|J22|[97]
@@ -57,7 +57,7 @@ Name=Sisay
 1 Pacifism|ONS|[47]
 7 Plains|INR|[288]
 1 Power Matrix|mmq
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Raff Capashen, Ship's Mage|CMM|[351]
 1 Ramos, Dragon Engine|FDN|[678]
 1 Rampant Growth|tmp
@@ -73,12 +73,12 @@ Name=Sisay
 1 Skyship Weatherlight|pls
 1 Skyshroud Claim|NMS|[117]
 1 Smite|sth
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Squee, Goblin Nabob|MMQ|[214]
 1 Squee, the Immortal|NCC|[275]
 1 Starke of Rath|tmp
 1 Stun|INV|[172]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 1 Swamp|INR|[292]
 1 Tahngarth, Talruum Hero|pls
 1 Teferi, Mage of Zhalfir|TSR|[91]

@@ -5,21 +5,21 @@ Name=Aziza
 [Main]
 1 Arabella, Abandoned Doll|dsk
 1 Battlefield Forge|APC|[139]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Brass's Bounty|FDN|[190]
 1 Charge of the Mites|one
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Dance with Calamity|soc
 1 Demand Answers|mkm
 1 Deploy to the Front|c14
 1 Dragon Fodder|fdn
 1 Electric Revelation|otc
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Fell the Mighty|mkc
 1 Flick a Coin|woe
 1 Frontline Rush|tdm
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Glimpse the Impossible|mh3
 1 Goldnight Commander|tdc
 1 Grab the Prize|dsk
@@ -44,14 +44,14 @@ Name=Aziza
 1 Magmablood Archaic|sos
 14 Mountain|INR|[294]
 1 Nomads' Assembly|c14
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pinnacle Monk|mh3
 1 Pirate's Pillage|2x2
 14 Plains|INR|[288]
 1 Prosperous Partnership|ncc
-1 Radiant Summit|TRC|[395]
+1 Radiant Summit|FRC|[80]
 1 Rousing Refrain|soc
-1 talisman of conviction|TRC|[503]
+1 talisman of conviction|SOC|[428]
 1 Season of the Bold|blb
 1 Secure the Wastes|FRC|[31]
 1 Seize the Spoils|sos
@@ -66,7 +66,7 @@ Name=Aziza
 1 Surge to Victory|soc
 1 Tempt with Bunnies|blc
 1 Tempt with Vengeance|tdc
-1 Thrill of Possibility|TRC|[455]
+1 Thrill of Possibility|FDC|[180]
 1 Toby, Beastie Befriender|dsk
 1 Tormenting Voice|J22|[615]
 1 Battle Screech|JUD|[3]

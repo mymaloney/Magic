@@ -5,7 +5,7 @@ Name=Amareth
 [Main]
 1 Alchemist's Refuge|SOC|[360]
 1 Arasta of the Endless Web|TDC|[244]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archetype of Imagination|DSC|[111]
 1 karmic justice|ODY|[26]
 1 nylea's colossus|c18
@@ -18,7 +18,7 @@ Name=Amareth
 1 Breeding Pool|RVR|[399]
 1 Calix, Destiny's Hand|thb
 1 Case of the Locked Hothouse|mkm
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Court of Grace|FDC|[21]
 1 Court of Vantress|woc
@@ -37,7 +37,7 @@ Name=Amareth
 1 Flooded Strand|MH3|[436]
 5 Forest|INR|[296]
 1 Generous Gift|BLC|[106]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Greater Auramancy|SHM|[7]
 1 Seal from Existence|mom
 1 Hallowed Fountain|RVR|[404]
@@ -65,7 +65,7 @@ Name=Amareth
 5 Plains|INR|[288]
 1 Privileged Position|2X2|[263]
 1 Propaganda|TMP|[80]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Render Silent|PIO|[394]
 1 Rhystic Study|PCY|[45]
 1 Sanctum Weaver|WOC|[131]
@@ -85,7 +85,7 @@ Name=Amareth
 1 Swan Song|EOC|[46]
 1 Sythis, Harvest's Hand|mh2
 1 Talisman of Curiosity|SOC|[430]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Temple Garden|RVR|[414]
 1 Thassa, God of the Sea|PIO|[288]
 1 Tuvasa the Sunlit|c18

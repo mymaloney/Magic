@@ -5,7 +5,7 @@ Name=Commodore Guff
 [Main]
 1 Ajani Steadfast|PIO|[319]
 1 All Will Be One|one
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archon of Absolution|eld
 1 Baird, Steward of Argive|BLC|[135]
 1 Battlefield Forge|APC|[139]
@@ -22,17 +22,17 @@ Name=Commodore Guff
 1 Chandra, Legacy of Fire|cmm
 1 Chandra, Torch of Defiance|FRA|[244]
 1 Charismatic Conqueror|lcc
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Deepglow Skate|EOC|[70]
 1 Deserted Beach|FRA|[176]
 1 Dovin Baan|kld
 1 Elspeth, Sun's Champion|FRC|[24]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fellwar Stone|DRK|[102]
 1 Fiery Islet|mh1
 1 Flux Channeler|WAR|[52]
-1 Frostboil Snarl|TRC|[383]
-1 Furycalm Snarl|TRC|[384]
+1 Frostboil Snarl|SOC|[374]
+1 Furycalm Snarl|SOC|[375]
 1 Gatewatch Beacon|cmm
 1 Grateful Apparition|ONC|[73]
 1 Guff Rewrites History|cmm
@@ -50,17 +50,17 @@ Name=Commodore Guff
 1 Mila, Crafty Companion|stx
 6 Mountain|INR|[294]
 1 Mystic Gate|FRC|[76]
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Narset of the Ancient Way|IKO|[195]
 1 Oath of Gideon|PIO|[323]
 1 Oath of Teferi|DOM|[200]
 1 Onakke Oathkeeper|cmm
 1 Path to Exile|TSR|[299]
 6 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Ral Zarek|rvr
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rings of Brighthearth|cmr
 1 Rowan Kenrith|CLB|[805]
 1 Rowan's Talent|moc
@@ -72,9 +72,9 @@ Name=Commodore Guff
 1 Sparkshaper Visionary|cmm
 1 Sulfur Falls|dmr
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
-1 Talisman of Creativity|TRC|[504]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Conviction|SOC|[428]
+1 Talisman of Creativity|FRC|[61]
+1 Talisman of Progress|FRC|[64]
 1 Teferi, Master of Time|m21
 1 Teferi, Temporal Archmage|cmm
 1 Teferi, Temporal Pilgrim|bro

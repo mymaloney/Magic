@@ -4,7 +4,7 @@ Name=Jace
 1 Jace, Vryn's Prodigy|PIO|[60]
 [Main]
 1 Aetherize|RVR|[448]
-1 Astral Cornucopia|TRC|[338]
+1 Astral Cornucopia|SOC|[342]
 1 Chasm Skulker|PIO|[49]
 1 Counterspell|DMR|[281]
 1 Deepglow Skate|eoc
@@ -22,7 +22,7 @@ Name=Jace
 1 Talent of the Telepath|ori
 1 An Offer You Can't Refuse|FDN|[160]
 1 Fact or Fiction|DMR|[283]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Control Magic|LEB|[53]
 1 Threads of Disloyalty|E02|[11]
 1 Hedron Archive|TSR|[395]
@@ -56,7 +56,7 @@ Name=Jace
 1 Oath of Jace|PIO|[331]
 1 Proft's Eidetic Memory|mkm
 1 Propaganda|TMP|[80]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Ripples of Potential|eoc
 1 Sapphire Medallion|TMP|[306]
 1 Serum Snare|one

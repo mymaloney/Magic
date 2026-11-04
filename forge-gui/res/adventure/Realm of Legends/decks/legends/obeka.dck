@@ -16,12 +16,12 @@ Name=Obeka, Splitter of Seconds
 1 Access Tunnel|TDC|[337]
 1 Aqueous Form|PIO|[45]
 1 Arcane Denial|ALL
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 As Foretold|2X2|[38]
 1 Bloodgift Demon|J25|[408]
 1 Champion's Helm|CMM
 1 Clearwater Pathway|ZNR
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Court of Ambition|CMR
 1 Court of Embereth|WOC
@@ -34,11 +34,11 @@ Name=Obeka, Splitter of Seconds
 1 Distortion Strike|IMA|[52]
 1 Dominus of Fealty|CMD|[194]
 1 Dragonmaster Outcast|TDC|[211]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Eater of Virtue|NEO
 1 Escape Tunnel|EOC|[157]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Extravagant Replication|FDN|[154]
 1 Fellwar Stone|DRK|[102]
 1 Followed Footsteps|CN2|[111]
@@ -46,14 +46,14 @@ Name=Obeka, Splitter of Seconds
 1 Hero's Blade|CMM|[391]
 9 Island|INR|[290]
 1 Izzet Boilerworks|M3C|[350]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Loot Dispute|CLB
 1 Maestros Theater|EOC|[167]
 1 Mechanized Production|MKC
 1 Mirrorhall Mimic|DBL|[335]
 1 Mirrormade|DSC|[120]
 7 Mountain|INR|[294]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Palace Siege|C17|[119]
 1 Paradox Haze|TSP
 1 Phyrexian Arena|APC
@@ -62,7 +62,7 @@ Name=Obeka, Splitter of Seconds
 1 Reckless Charge|ODY|[215]
 1 Replicating Ring|MOC|[372]
 1 Fervor|WTH|[99]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Saheeli, Sublime Artificer|DRC|[119]
 1 Savor the Moment|SHM|[50]
 1 Shadow Rift|TMP
@@ -72,13 +72,13 @@ Name=Obeka, Splitter of Seconds
 1 Sol Ring|LEB|[270]
 1 Sphinx of the Second Sun|MKC|[118]
 1 Sulfurous Springs|ICE
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 7 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Taigam, Sidisi's Hand|CMM|[357]
-1 Talisman of Dominance|TRC|[505]
-1 Terramorphic Expanse|TRC|[571]
+1 Talisman of Dominance|FRC|[62]
+1 Terramorphic Expanse|SOS|[265]
 1 Twilight Prophet|MKC|[143]
 1 Vorrac Battlehorns|MRD
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Whispersilk Cloak|DSC|[257]

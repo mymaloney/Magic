@@ -6,11 +6,11 @@ Name=Zara, Renegade Recruiter
 1 Goatnap|ECL|[142]
 1 Take for a Ride|OTJ
 1 Word of Seizing|CMR
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Act of Aggression|C15|[141]
 1 Act of Treason|RVR|[99]
 1 Agent of Treachery|M20
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Breeches, Eager Pillager|LCI
 1 Broadside Bombardiers|LCC
 1 Callous Oppressor|ONS
@@ -22,7 +22,7 @@ Name=Zara, Renegade Recruiter
 1 Coastal Piracy|MMQ|[68]
 1 Coastline Marauders|CMR
 1 Coercive Recruiter|LCC|[222]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conjurer's Closet|INR|[441]
 1 Control Magic|LEB|[53]
 1 Curiosity|EXO|[29]
@@ -32,11 +32,11 @@ Name=Zara, Renegade Recruiter
 1 Day's Undoing|PIO|[53]
 1 Dictate of Kruphix|FDN|[587]
 1 Dire Fleet Daredevil|OTC
-1 Exotic Orchard|TRC|[378]
-1 Fevered Visions|TRC|[319]
+1 Exotic Orchard|MBC|[79]
+1 Fevered Visions|SOI|[244]
 1 Flameshadow Conjuring|MOC
 1 Fling|STH|[82]
-1 Frostboil Snarl|TRC|[383]
+1 Frostboil Snarl|SOC|[374]
 1 Ghostly Flicker|CMM
 1 Goblin Bombardment|TMP|[179]
 1 High Market|MMQ|[320]
@@ -48,7 +48,7 @@ Name=Zara, Renegade Recruiter
 1 Kari Zev's Expertise|AER
 1 Kazuul's Fury|ZNR
 1 Lavaspur Boots|OTJ
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lightning-Rig Crew|CMR
 1 Makeshift Munitions|CMM
 1 Malcolm, Keen-Eyed Navigator|LCC
@@ -57,10 +57,10 @@ Name=Zara, Renegade Recruiter
 1 Merchant Raiders|LCC|[163]
 1 Mob Rule|VOC|[147]
 14 Mountain|INR|[294]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Protean Raider|RIX
 1 Reins of Power|STH|[41]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Return the Favor|OTJ
 1 Shivan Reef|APC|[142]
 1 Siren Stormtamer|LCC
@@ -68,7 +68,7 @@ Name=Zara, Renegade Recruiter
 1 Spectral Sailor|FDN|[164]
 1 Storm Fleet Negotiator|LCC
 1 Sulfur Falls|DMR
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 The Belligerent|LCI
 1 The Indomitable|LCC
 1 Thieving Skydiver|OTC|[118]

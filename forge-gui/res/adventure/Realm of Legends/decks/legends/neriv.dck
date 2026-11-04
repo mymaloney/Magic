@@ -35,12 +35,12 @@ Name=Neriv, Crackling Vanguard
 1 Aron, Benalia's Ruin|TDC
 1 Thalisse, Reverent Medium|TDC
 1 Will of the Mardu|TDC
-1 Grand Crescendo|TRC|[222]
+1 Grand Crescendo|FRC|[26]
 1 Stroke of Midnight|FRC|[35]
 1 Swords to Plowshares|DMR|[275]
-1 Bitter Triumph|TRC|[445]
+1 Bitter Triumph|TDC|[173]
 1 Deadly Dispute|TDC
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Within Range|TDC
 1 Commander's Insignia|TDC
 1 Divine Visitation|RVR|[306]
@@ -50,14 +50,14 @@ Name=Neriv, Crackling Vanguard
 1 Infantry Shield|TDC
 1 Neriv, Heart of the Storm|TDM
 1 Idol of Oblivion|TDC
-1 Lightning Greaves|TRC|[496]
-1 Skullclamp|TRC|[354]
-1 Arcane Signet|TRC|[485]
+1 Lightning Greaves|SOC|[350]
+1 Skullclamp|TDC|[103]
+1 Arcane Signet|FRC|[20]
 1 Sol Ring|LEB|[270]
 1 Fellwar Stone|DRK|[102]
-1 Talisman of Conviction|TRC|[503]
-1 Talisman of Hierarchy|TRC|[506]
-1 Wayfarer's Bauble|TRC|[511]
+1 Talisman of Conviction|SOC|[428]
+1 Talisman of Hierarchy|SOC|[358]
+1 Wayfarer's Bauble|TDC|[335]
 1 Hour of Reckoning|TDC
 1 Eliminate the Competition|TDC
 1 Tempt with Vengeance|TDC
@@ -66,27 +66,27 @@ Name=Neriv, Crackling Vanguard
 1 Release the Dogs|TDC
 1 Kaya, Geist Hunter|TDC
 1 Battlefield Forge|APC|[139]
-1 Canyon Slough|TRC|[369]
+1 Canyon Slough|ECC|[145]
 1 Castle Ardenvale|TDC
 1 Castle Embereth|TDC
 1 Caves of Koilos|APC|[140]
 1 Clifftop Retreat|DMR|[393]
-1 Dragonskull Summit|TRC|[375]
-1 Exotic Orchard|TRC|[378]
+1 Dragonskull Summit|ECC|[147]
+1 Exotic Orchard|MBC|[79]
 1 Godless Shrine|RVR|[401]
 1 Isolated Chapel|DMR|[397]
 1 Shattered Sanctum|SOS|[260]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Temple of Silence|SOC|[415]
 1 Temple of Triumph|SOC|[417]
 1 Vault of the Archangel|TDC
 1 Windbrisk Heights|TDC
-1 Command Tower|TRC|[521]
-1 Nomad Outpost|TRC|[544]
+1 Command Tower|FRC|[22]
+1 Nomad Outpost|TDM|[263]
 1 Bojuka Bog|TSR|[406]
-1 Path of Ancestry|TRC|[545]
-1 Shattered Landscape|TRC|[557]
-1 Terramorphic Expanse|TRC|[571]
+1 Path of Ancestry|MBC|[80]
+1 Shattered Landscape|TDC|[390]
+1 Terramorphic Expanse|SOS|[265]
 5 Plains|INR|[288]
 5 Swamp|INR|[292]
 5 Mountain|INR|[294]

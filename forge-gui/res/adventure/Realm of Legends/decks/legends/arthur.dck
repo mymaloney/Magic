@@ -11,7 +11,7 @@ Name=Arthur, Marigold Knight
 1 Boss's Chauffeur|BLC|1
 1 Circuit Mender|BLC|1
 1 Cloudblazer|FDN|[653]
-1 Combat Celebrant|TRC|[281]
+1 Combat Celebrant|J25|[531]
 1 Curiosity Crafter|SOC|[191]
 1 Devilish Valet|BLC|1
 1 Hanged Executioner|BLC|1
@@ -52,13 +52,13 @@ Name=Arthur, Marigold Knight
 1 Stolen by the Fae|J25|[369]
 1 Storm of Souls|BLC|1
 1 Time Wipe|TDC|[308]
-1 Arcane Signet|TRC|[485]
-1 Talisman of Progress|TRC|[508]
+1 Arcane Signet|FRC|[20]
+1 Talisman of Progress|FRC|[64]
 1 Bident of Thassa|PIO|[47]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Fellwar Stone|DRK|[102]
 1 Helm of the Host|BLC|1
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Mind Stone|DMR|[385]
 1 Sol Ring|LEB|[270]
 1 Echoing Assault|BLC|1
@@ -66,17 +66,17 @@ Name=Arthur, Marigold Knight
 1 Murmuration|BLC|1
 1 Adarkar Wastes|ICE|[351]
 1 Battlefield Forge|APC|[139]
-1 Frostboil Snarl|TRC|[383]
+1 Frostboil Snarl|SOC|[374]
 1 Castle Ardenvale|TDC|[346]
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Command Tower|FRC|[22]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Steam Vents|RVR|[412]
-1 Glacial Fortress|TRC|[385]
-1 Mystic Monastery|TRC|[543]
-1 Path of Ancestry|TRC|[545]
-1 Furycalm Snarl|TRC|[384]
+1 Glacial Fortress|FRC|[73]
+1 Mystic Monastery|EOC|[170]
+1 Path of Ancestry|MBC|[80]
+1 Furycalm Snarl|SOC|[375]
 1 Seachrome Coast|BLC|1
 1 Shivan Reef|APC|[142]
 1 Hallowed Fountain|RVR|[404]
@@ -85,7 +85,7 @@ Name=Arthur, Marigold Knight
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of Epiphany|SOC|[412]
 1 Temple of Triumph|SOC|[417]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thriving Bluff|ECC|[170]
 1 Thriving Heath|ECC|[172]
 1 Thriving Isle|ECC|[173]

@@ -5,15 +5,15 @@ Name=Varina
 [Main]
 1 Accursed Duneyard|drc
 1 Adarkar Wastes|ICE|[351]
-1 Arcane Sanctum|TRC|[513]
-1 Arcane Signet|TRC|[485]
+1 Arcane Sanctum|DRC|[146]
+1 Arcane Signet|FRC|[20]
 1 Archfiend of Ifnir|ECC|[70]
 1 Ash Barrens|tdc
 1 Binding Mummy|drc
 1 Caves of Koilos|APC|[140]
 1 Charcoal Diamond|MIR|[296]
 1 Cleansing Nova|FDC|[20]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Corpse Knight|drc
 1 Cryptbreaker|DRC|[41]
 1 Cryptcaller Chariot|dft
@@ -21,20 +21,20 @@ Name=Varina
 1 Diresight|blb
 1 Dread Summons|DRC|[90]
 1 Dreadhorde Invasion|FRC|[48]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Drownyard Temple|TDC|[359]
 1 Enter the God-Eternals|scd
 1 Ephara's Dispersal|mkc
 1 Eternal Skylord|drc
-1 Exotic Orchard|TRC|[378]
-1 Fetid Pools|TRC|[380]
+1 Exotic Orchard|MBC|[79]
+1 Fetid Pools|TDC|[363]
 1 Fleshbag Marauder|drc
 1 Gempalm Polluter|LGN|[70]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Gleaming Overseer|drc
 1 Hashaton, Scarab's Fist|drc
 1 Hordewing Skaab|mic
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 5 Island|INR|[290]
 1 Isolated Chapel|DMR|[397]
 1 Lazotep Chancellor|drc
@@ -43,7 +43,7 @@ Name=Varina
 1 Millikin|ODY|[302]
 1 Mindless Conscription|mh3
 1 Mindshrieker|isd
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Notion Rain|mkc
 1 On Wings of Gold|drc
 1 Orzhov Basilica|drc
@@ -54,13 +54,13 @@ Name=Varina
 1 Master of Death|MKC|[216]
 1 Unburial Rites|2X2|[95]
 1 Zombie Apocalypse|SCD|[121]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Phyrexian Arena|APC|[47]
 1 Phyrexian Rebirth|moc
 1 Pile On|mkc
 5 Plains|INR|[288]
 1 Pore Over the Pages|soi
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Prophet of the Scarab|drc
 1 Pull from Tomorrow|SOC|[116]
 1 Renewed Solidarity|drc
@@ -72,13 +72,13 @@ Name=Varina
 1 Death Baron|FDC|[95]
 1 Spellgyre|blb
 1 Stitcher's Supplier|TDC|[196]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 6 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
 1 Synthetic Destiny|FRC|[45]
-1 Talisman of Dominance|TRC|[505]
-1 Talisman of Hierarchy|TRC|[506]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Dominance|FRC|[62]
+1 Talisman of Hierarchy|SOC|[358]
+1 Talisman of Progress|FRC|[64]
 1 Temmet, Naktamun's Will|drc
 1 Temple of Deceit|drc
 1 Temple of Silence|SOC|[415]

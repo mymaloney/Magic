@@ -5,7 +5,7 @@ Name=Sen Triplets
 [Main]
 1 Aether Snap|ncc
 1 Ancient Den|TSR|[403]
-1 Arcane Sanctum|TRC|[513]
+1 Arcane Sanctum|DRC|[146]
 1 Aurification|ons
 1 Azorius Chancery|DSC|[261]
 1 Azorius Guildgate|RVR|[396]
@@ -17,7 +17,7 @@ Name=Sen Triplets
 1 Choice of Damnations|sok
 1 Chromatic Lantern|RVR|[390]
 1 Clever Impersonator|c19
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consecrated Sphinx|2X2|[43]
 1 Counterspell|DMR|[281]
 1 Countersquall|uma
@@ -35,16 +35,16 @@ Name=Sen Triplets
 1 Detention Sphere|GK2|[10]
 1 Dimir Aqueduct|DSC|[270]
 1 Dismember|TSR|[322]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Elesh Norn, Grand Cenobite|ima
 1 Esper Panorama|ncc
 1 Ethersworn Adjudicator|MOC|[222]
 1 Ethersworn Canonist|2xm
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Fog Bank|USG|[75]
 1 Ghostly Prison|SOC|[146]
 1 Gilded Lotus|FDN|[725]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Godhead of Awe|shm
 1 Godless Shrine|RVR|[401]
 1 Grave Pact|STH|[60]
@@ -56,7 +56,7 @@ Name=Sen Triplets
 4 Island|INR|[290]
 1 Isolated Chapel|DMR|[397]
 1 Ixidron|c19
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Magister Sphinx|2X2|[247]
 1 Master Transmuter|FDC|[67]
 1 Merciless Eviction|ONC|[120]
@@ -64,14 +64,14 @@ Name=Sen Triplets
 1 Nevinyrral's Disk|LEB|[267]
 1 Obelisk of Esper|c13
 1 Orzhov Basilica|DRC|[164]
-1 Talisman of Progress|TRC|[508]
-1 Talisman of Dominance|TRC|[505]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Progress|FRC|[64]
+1 Talisman of Dominance|FRC|[62]
+1 Talisman of Hierarchy|SOC|[358]
 1 Phyrexian Metamorph|EOC|[75]
 4 Plains|INR|[288]
 1 Political Trickery|mir
 1 Propaganda|TMP|[80]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rhystic Study|PCY|[45]
 1 Scourglass|ala
 1 Seat of the Synod|EOC|[176]
@@ -86,10 +86,10 @@ Name=Sen Triplets
 1 Temple of Deceit|DRC|[176]
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of Silence|SOC|[415]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Tezzeret the Seeker|mm2
 1 Thopter Spy Network|DRC|[83]
-1 Unwinding Clock|TRC|[359]
+1 Unwinding Clock|C18|[228]
 1 Utter End|DSC|[91]
 1 Vault of Whispers|J25|[780]
 1 Watery Grave|RVR|[415]

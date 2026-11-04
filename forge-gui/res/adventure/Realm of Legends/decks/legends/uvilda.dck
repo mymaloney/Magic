@@ -5,11 +5,11 @@ Name=Uvilda
 [Main]
 1 Arcane Denial|ALL|[22a]
 1 Arcane Heist|otc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Blasphemous Act|SOC|[238]
 1 Chaos Warp|MBC|[72]
 1 Charred Foyer|dsk
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Counterspell|DMR|[281]
 1 Cursed Mirror|FRC|[49]
 1 Dazzling Sphinx|otc
@@ -26,16 +26,16 @@ Name=Uvilda
 14 Island|INR|[290]
 1 Izzet Keyrune|rtr
 1 Laelia, the Blade Reforged|SOC|[246]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Mana Geyser|SOC|[247]
 14 Mountain|INR|[294]
-1 Frostboil Snarl|TRC|[383]
-1 Command Tower|TRC|[521]
+1 Frostboil Snarl|SOC|[374]
+1 Command Tower|FRC|[22]
 1 Temple of Epiphany|SOC|[412]
 1 Shivan Reef|APC|[142]
 1 Izzet Boilerworks|M3C|[350]
 1 Izzet Guildgate|RVR|[405]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Sulfur Falls|DMR|[400]
 1 Conspiracy Theorist|SOC|[240]
 1 Swerve|ala
@@ -58,7 +58,7 @@ Name=Uvilda
 1 Unstable Amulet|mh3
 1 Young Pyromancer|TSR|[353]
 1 Plargg and Nassari|SOC|[250]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Sakashima of a Thousand Faces|cmr
 1 Sakashima the Impostor|sok
 1 Shadow of the Second Sun|mh3
@@ -67,8 +67,8 @@ Name=Uvilda
 1 Spark Double|rvr
 1 Sphinx Ambassador|m10
 1 Stolen Strategy|CLB|[807]
-1 Swiftfoot Boots|TRC|[501]
-1 Talisman of Creativity|TRC|[504]
+1 Swiftfoot Boots|MBC|[77]
+1 Talisman of Creativity|FRC|[61]
 1 Tempt with Mayhem|m3c
 1 Thada Adel, Acquisitor|wwk
 1 Thran Dynamo|UDS|[139]

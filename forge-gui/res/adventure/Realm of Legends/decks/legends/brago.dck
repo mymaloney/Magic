@@ -14,7 +14,7 @@ Name=Brago, King Eternal
 1 Angel of Serenity|C21
 1 Angel of the Ruins|EOC|[63]
 1 Aqueous Form|PIO|[45]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archaeomancer|PIO|[284]
 1 Azorius Chancery|DSC|[261]
 1 Azorius Guildgate|RVR|[396]
@@ -26,7 +26,7 @@ Name=Brago, King Eternal
 1 Clever Impersonator|C19
 1 Cloudblazer|FDN|[653]
 1 Cloudshift|JMP
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conjurer's Closet|INR|[441]
 1 Cosmic Intervention|KHC
 1 Counterspell|DMR|[281]
@@ -40,7 +40,7 @@ Name=Brago, King Eternal
 1 Flickerwisp|TSR
 1 Ghostly Flicker|CMM|[98]
 1 Ghostly Prison|SOC|[146]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Glorious Protector|CLB|[695]
 1 Goldnight Commander|TDC|[117]
 1 Hengegate Pathway|KHM
@@ -49,7 +49,7 @@ Name=Brago, King Eternal
 1 Karmic Guide|ULG|[11]
 1 Key to the City|C21
 1 Kor Cartographer|KHC
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Mulldrifter|TSR|[311]
 1 Myr Battlesphere|TDC|[322]
 1 Mystic Reflection|KHM
@@ -58,13 +58,13 @@ Name=Brago, King Eternal
 1 Omen of the Sea|J25|[336]
 1 Panharmonicon|TSR
 8 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Propaganda|TMP|[80]
 1 Ranar the Ever-Watchful|KHC
 1 Reflector Mage|OGW
 1 Reveillark|2X2|[26]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sea Gate Oracle|GN3|[38]
 1 Sejiri Refuge|SCD|[317]
 1 Semester's End|MOC|[204]
@@ -75,7 +75,7 @@ Name=Brago, King Eternal
 1 Storm of Souls|BLC|[156]
 1 Strionic Resonator|LCC|[116]
 1 Sun Titan|SOC|[178]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Teferi's Time Twist|WAR
 1 Temple of Enlightenment|EOC|[186]

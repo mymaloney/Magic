@@ -3,7 +3,7 @@ Name=Henzie "Toolbox" Torre
 [Commander]
 1 Henzie "Toolbox" Torre|NCC|1
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artisan of Kozilek|M3C|[153]
 1 Ash Barrens|TDC|[339]
 1 Avenger of Zendikar|ECC|[98]
@@ -13,8 +13,8 @@ Name=Henzie "Toolbox" Torre
 1 Caldaia Guardian|NCC|1
 1 Chaos Warp|MBC|[72]
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Deathbringer Regent|J22|[396]
 1 Aether Snap|NCC|1
 1 Deathreap Ritual|DSC|[86]
@@ -22,12 +22,12 @@ Name=Henzie "Toolbox" Torre
 1 Dodgy Jalopy|NCC|1
 1 Etali, Primal Storm|TSR|[342]
 1 Evolutionary Leap|TSR|[362]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Explore|J25|[146]
 1 Farseek|RVR|[347]
 1 Fellwar Stone|DRK|[102]
 1 First Responder|NCC|1
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 6 Forest|INR|[296]
 1 Game Trail|BLC|[306]
 1 Garruk's Uprising|ECC|[109]
@@ -55,8 +55,8 @@ Name=Henzie "Toolbox" Torre
 1 Next of Kin|NCC|1
 1 Noxious Gearhulk|TDC|[191]
 1 Overgrown Battlement|TDC|[264]
-1 Painful Truths|TRC|[274]
-1 Path of Ancestry|TRC|[545]
+1 Painful Truths|ECC|[82]
+1 Path of Ancestry|MBC|[80]
 1 Protection Racket|NCC|1
 1 Rain of Riches|BLC|[200]
 1 Rampant Growth|TMP|[245]
@@ -65,7 +65,7 @@ Name=Henzie "Toolbox" Torre
 1 Riveteers Overlook|ECC|[162]
 1 Savage Lands|ECC|[165]
 1 Blood Crypt|RVR|[397]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Spinerock Knoll|FDC|[314]

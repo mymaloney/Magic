@@ -11,13 +11,13 @@ Name=Lurrus
 1 Despark|FRC|[50]
 1 March of the Canonized|lcc
 1 Intangible Virtue|TSR|[295]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Intrepid Adversary|DBL|[25]
 1 Dispeller's Capsule|c21
 1 Executioner's Capsule|BRC|[104]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Sol Ring|LEB|[270]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Auriok Champion|ima
 1 Authority of the Consuls|fdn
 1 Bitterbloom Bearer|ecl
@@ -29,7 +29,7 @@ Name=Lurrus
 1 Case of the Uneaten Feast|mkm
 1 Caves of Koilos|APC|[140]
 1 Charismatic Conqueror|lcc
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Concealed Courtyard|otj
 1 Creeping Bloodsucker|j25
 1 Cruel Celebrant|LCC|[267]
@@ -58,7 +58,7 @@ Name=Lurrus
 1 Rally the Ancestors|frf
 1 Rebuff the Wicked|tsr
 1 Retribution of the Ancients|ktk
-1 Rite of Oblivion|TRC|[478]
+1 Rite of Oblivion|DBL|[237]
 1 Ruin-Lurker Bat|lci
 1 Scoured Barrens|TDM|[267]
 1 Scout for Survivors|eoe
@@ -66,7 +66,7 @@ Name=Lurrus
 1 Selfless Spirit|SOC|[167]
 1 Shattered Sanctum|SOS|[260]
 1 Sheltered by Ghosts|SOC|[171]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Silent Clearing|mh1
 1 Skyclave Cleric|znr
 1 Soldier of the Pantheon|ths

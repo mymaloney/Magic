@@ -5,15 +5,15 @@ Name=Wilhelt
 [Main]
 1 Accursed Marauder|MH3
 1 Animate Dead|LEB|[93]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Aven Eternal|WAR
 1 Banner of Kinship|FDN
-1 Bitter Triumph|TRC|[445]
+1 Bitter Triumph|TDC|[173]
 1 Bojuka Bog|TSR|[406]
 1 Carrion Feeder|SCG|[59]
 1 Cemetery Reaper|DRC
-1 Choked Estuary|TRC|[370]
-1 Command Tower|TRC|[521]
+1 Choked Estuary|MKC|[254]
+1 Command Tower|FRC|[22]
 1 Corpse Augur|DRC|[40]
 1 Cover of Darkness|ONS
 1 Cryptbreaker|DRC|[41]
@@ -21,7 +21,7 @@ Name=Wilhelt
 1 Deadly Plot|FDN|[520]
 1 Death Baron|FDC|[95]
 1 Diregraf Colossus|FDC|[96]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Eternal Skylord|DRC
 1 Fell Stinger|PIO|[93]
 1 Fell the Profane|MH3
@@ -53,7 +53,7 @@ Name=Wilhelt
 1 Necromancy|VIS
 1 Noxious Ghoul|LGN
 1 Patchwork Banner|SOC|[353]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pit of Offerings|LCI
 1 Prophet of the Scarab|DRC
 1 Kindred Dominance|WOC|[113]
@@ -65,12 +65,12 @@ Name=Wilhelt
 1 Sheoldred's Edict|ONE
 1 Shipwreck Marsh|FRA|[189]
 1 Sink into Stupor|MH3
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Soul Shatter|SCD
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 13 Swamp|INR|[292]
 1 Tainted Isle|TOR|[141]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Temple of the False God|SCG|[143]
 1 Toxic Deluge|MH3
 1 Unclaimed Territory|ECC|[175]

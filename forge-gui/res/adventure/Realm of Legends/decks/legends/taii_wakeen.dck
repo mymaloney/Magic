@@ -3,7 +3,7 @@ Name=Taii Wakeen
 [Commander]
 1 Taii Wakeen, Perfect Shot|otj
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Battlefield Forge|APC|[139]
 1 Big Score|SOC|[237]
 1 Blasphemous Act|SOC|[238]
@@ -20,13 +20,13 @@ Name=Taii Wakeen
 1 Brash Taunter|dsc
 1 Chandra, Bold Pyromancer|dom
 1 Chandra, Torch of Defiance|FRA|[244]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Coruscation Mage|blb
 1 Darksteel Mutation|SOC|[142]
 1 Deflecting Palm|mkc
 1 Dictate of the Twin Gods|SCD|[131]
 1 Eidolon of the Great Revel|A25|[128]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Faithless Looting|SOC|[244]
 1 Feather, the Redeemed|TSR|[377]
 1 Fellwar Stone|DRK|[102]
@@ -68,7 +68,7 @@ Name=Taii Wakeen
 1 Sunscorched Desert|akh
 1 Syr Carah, the Bold|eld
 1 Take the Bait|mkc
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Temple of Triumph|SOC|[417]
 1 Torbran, Thane of Red Fell|eld
 1 Unbreakable Formation|rvr

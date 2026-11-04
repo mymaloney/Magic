@@ -3,12 +3,12 @@ Name=Kirol
 [Commander]
 1 Kirol, Attentive First-Year|ecl
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Tragic Arrogance|SOC|[182]
 1 Weftstalker Ardent|eoe
 1 Enduring Innocence|dsk
 1 Anim Pakal, Thousandth Moon|lci
-1 Warleader's Call|TRC|[335]
+1 Warleader's Call|MKM|[242]
 1 Lightning Bolt|LEB|[162]
 1 Solitude|H2R|[3]
 1 Suspend Aggression|sos
@@ -23,7 +23,7 @@ Name=Kirol
 1 Charismatic Conqueror|lcc
 1 Clifftop Retreat|DMR|[393]
 1 Cloudshift|JMP|[97]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conjurer's Closet|INR|[441]
 1 Curious Colossus|ecl
 1 Drumbellower|SOC|[143]
@@ -36,8 +36,8 @@ Name=Kirol
 1 Helpful Hunter|fdn
 1 Illustrious Wanderglyph|lcc
 1 Inferno Titan|BLC|[198]
-1 Lightning Greaves|TRC|[496]
-1 Loran of the Third Path|TRC|[229]
+1 Lightning Greaves|SOC|[350]
+1 Loran of the Third Path|BLC|[143]
 1 Loyal Apprentice|TDC|[222]
 1 Mangara, the Diplomat|SOC|[155]
 1 Marvin, Murderous Mimic|dsk
@@ -51,7 +51,7 @@ Name=Kirol
 1 Pinnacle Monk|mh3
 17 Plains|INR|[288]
 1 Purphoros, God of the Forge|PIO|[296]
-1 Radiant Summit|TRC|[395]
+1 Radiant Summit|FRC|[80]
 1 Restoration Angel|TSR|[300]
 1 Reveillark|2X2|[26]
 1 Reverent Hoplite|thb
@@ -65,7 +65,7 @@ Name=Kirol
 1 Sunbillow Verge|dft
 1 Sundown Pass|SOS|[264]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 The Jolly Balloon Man|dsk
 1 Trumpeting Carnosaur|lci
 1 Voice of Victory|tdm

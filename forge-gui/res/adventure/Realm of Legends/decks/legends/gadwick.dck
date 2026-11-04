@@ -5,7 +5,7 @@ Name=Gadwick
 [Main]
 1 Aether Channeler|J25|[283]
 1 Arcane Lighthouse|SOC|[361]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archaeomancer|PIO|[284]
 1 Hylda's Crown of Winter|woe
 1 Blink of an Eye|J25|[289]
@@ -17,8 +17,8 @@ Name=Gadwick
 1 Castle Vantress|DSC|[267]
 1 Throne of Eldraine|woc
 1 Coalition Relic|M3C|[286]
-1 Commander's Sphere|TRC|[487]
-1 Cryptic Command|TRC|[252]
+1 Commander's Sphere|ECC|[139]
+1 Cryptic Command|IMA|[48]
 1 Tome of Gadwick|ywoe
 1 Key to the Archive|ymid
 1 Tome of the Infinite|j21
@@ -49,7 +49,7 @@ Name=Gadwick
 1 Pacification Array|aer
 1 Ponder|TSR|[315]
 1 Pull from Tomorrow|SOC|[116]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Remand|tsr
 1 Repeal|tsr
 1 Riptide Laboratory|ons
@@ -65,7 +65,7 @@ Name=Gadwick
 1 Talrand, Sky Summoner|tsr
 1 Teferi, Mage of Zhalfir|tsr
 1 Teferi's Ageless Insight|J25|[371]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thran Dynamo|UDS|[139]
 1 Tidespout Tyrant|rvr
 1 Unsummon|LEB|[87]

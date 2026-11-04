@@ -20,7 +20,7 @@ Name=Adventure - Corrupted Red Mage
 4 Rix Maadi Reveler|RNA|1
 1 Rix Maadi, Dungeon Palace|C19|[269]
 2 Shivan Emissary|INV|1
-2 Smoldering Marsh|TRC|[403]
+2 Smoldering Marsh|ECC|[168]
 1 Sulfurous Springs|ICE|[360]
 1 Swamp|INR|[292]
 1 Swamp|INR|[292]
@@ -32,6 +32,6 @@ Name=Adventure - Corrupted Red Mage
 1 Thunderscape Apprentice|INV|1
 2 Thunderscape Battlemage|PLS|1
 1 Warhost's Frenzy|DMU|1
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 [Sideboard]
 [Schemes]

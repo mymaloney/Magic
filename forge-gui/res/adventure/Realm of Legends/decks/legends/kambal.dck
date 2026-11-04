@@ -4,7 +4,7 @@ Name=Kambal, Consul of Allocation
 1 Kambal, Consul of Allocation|2X2|[237]
 [Main]
 1 Angelic Edict|J25
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Ayli, Eternal Pilgrim|FDN
 1 Basilica Bell-Haunt|RNA
 1 Basilica Guards|RVR
@@ -13,7 +13,7 @@ Name=Kambal, Consul of Allocation
 1 Bring to Trial|J22
 1 Castigate|GPT
 1 Caves of Koilos|APC|[140]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Concealed Courtyard|OTJ
 1 Consecrate|RNA
 1 Damnable Pact|NCC
@@ -24,8 +24,8 @@ Name=Kambal, Consul of Allocation
 1 Divinity of Pride|C13
 1 Drana's Emissary|BFZ
 1 Dutiful Thrull|GTC
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fate Forgotten|DTK
 1 Final Payment|RNA
 1 Godless Shrine|RVR
@@ -46,14 +46,14 @@ Name=Kambal, Consul of Allocation
 1 Obzedat's Aid|DGM
 1 Orzhov Charm|GK2|[42]
 1 Orzhov Guildgate|RVR|[406]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Phyrexian Arena|APC|[47]
 11 Plains|INR|[288]
 1 Pontiff of Blight|CLB
 1 Pulse of the Dross|DST
 1 Quarantine Field|BFZ
 1 Radiant Fountain|FDC|[308]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Retreat to Hagra|C18
 1 Revenant Patriarch|DDK
 1 Roiling Horror|PLC

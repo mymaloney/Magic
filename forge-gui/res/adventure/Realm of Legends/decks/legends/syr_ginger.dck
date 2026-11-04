@@ -22,7 +22,7 @@ Name=Syr Ginger, the Meal Ender
 1 Environmental Sciences|STX
 1 Eriette's Tempting Apple|WOE
 1 Expanded Anatomy|STX
-1 Forsaken Monument|TRC|[343]
+1 Forsaken Monument|FDC|[258]
 1 Foundry Inspector|FDC|[259]
 1 Gilded Pinions|SNC
 1 Gingerbrute|J25|[751]
@@ -47,7 +47,7 @@ Name=Syr Ginger, the Meal Ender
 1 Palladium Myr|FDC|[278]
 1 Patchwork Automaton|J25|[757]
 1 Darksteel Citadel|FDC|[300]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Scarecrone|JMP|[482]
 1 Scour from Existence|BFZ
 1 Scrap Trawler|MOC
@@ -56,7 +56,7 @@ Name=Syr Ginger, the Meal Ender
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Steel Overseer|EOC|[144]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tarrian's Soulcleaver|LCI
 1 The Mycosynth Gardens|EOC|[168]
 1 Fireshrieker|J25|[750]
@@ -76,5 +76,5 @@ Name=Syr Ginger, the Meal Ender
 1 Frostwalk Bastion|MH1
 1 Scrying Sheets|CSP
 25 Snow-Covered Wastes|MH3|309
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Workshop Assistant|CMR

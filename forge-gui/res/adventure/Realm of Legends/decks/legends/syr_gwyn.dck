@@ -8,7 +8,7 @@ Name=Syr Gwyn, Hero of Ashvale
 1 Embereth Shieldbreaker|CLB|[792]
 1 Raddic, Tal Zealot|YBRO
 1 Valorous Stance|INR|[352]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Argentum Armor|GN3|[113]
 1 Armored Skyhunter|SOC|[138]
 1 Ash Barrens|TDC|[339]
@@ -17,13 +17,13 @@ Name=Syr Gwyn, Hero of Ashvale
 1 Bloodforged Battle-Axe|MOC|[349]
 1 Boros Charm|FDN|[721]
 1 Boros Garrison|CLU|[231]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Brass Knuckles|CMM|[372]
 1 Cavalier of Dawn|M20
 1 Caves of Koilos|APC|[140]
 1 Colossus Hammer|LCC|[110]
 1 Comeuppance|MKC|[58]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conqueror's Flail|2X2|[302]
 1 Danitha Capashen, Paragon|J25|[59]
 1 Danitha, Benalia's Hope|DMU
@@ -48,17 +48,17 @@ Name=Syr Gwyn, Hero of Ashvale
 1 Masterwork of Ingenuity|AFC|[209]
 7 Mountain|INR|[294]
 1 Murderous Rider|DRC|[45]
-1 Nomad Outpost|TRC|[544]
+1 Nomad Outpost|TDM|[263]
 1 Open the Armory|PIO|[360]
 1 Order of Midnight|MOC|[261]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 12 Plains|INR|[288]
 1 Puresteel Paladin|CMM|[51]
 1 Rakdos Carnarium|ECC|[161]
 1 Shrike Force|BLB
 1 Silverblade Paladin|C14
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Smothering Tithe|CMM|[57]
 1 Sol Ring|LEB|[270]
 1 Steelshaper's Gift|CMM|[59]
@@ -66,7 +66,7 @@ Name=Syr Gwyn, Hero of Ashvale
 1 Stonehewer Giant|2XM
 1 Sunforger|CMR|[473]
 8 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of Feast and Famine|2XM|[296]
 1 Sword of Fire and Ice|2XM|[297]
 1 Sword of Hearth and Home|MH2
@@ -75,5 +75,5 @@ Name=Syr Gwyn, Hero of Ashvale
 1 Sword of War and Peace|2XM|[300]
 1 Swords to Plowshares|DMR|[275]
 1 Teferi's Protection|2X2
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Tournament Grounds|ELD

@@ -13,18 +13,18 @@ Name=Galazeth
 1 Champion's Helm|cmm
 1 Chaos Warp|MBC|[72]
 1 Chrome Host Seedshark|eoc
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Curse of the Swine|SOC|[192]
-1 Desolate Lighthouse|TRC|[374]
-1 Disallow|TRC|[253]
+1 Desolate Lighthouse|LCC|[327]
+1 Disallow|DRC|[74]
 1 Disruption Protocol|neo
 1 Dragonfire Blade|tdm
 1 End-Blaze Epiphany|ecl
 1 Even the Score|snc
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Finale of Revelation|fdn
 1 Fireshrieker|J25|[750]
-1 Frostboil Snarl|TRC|[383]
+1 Frostboil Snarl|SOC|[374]
 1 Expressive Iteration|SOC|[309]
 1 Efreet Flamepainter|stx
 1 Magma Opus|SOC|[318]
@@ -58,12 +58,12 @@ Name=Galazeth
 1 Molten Tributary|SOC|[387]
 5 Mountain|INR|[294]
 1 Najal, the Storm Runner|dmu
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Nettlecyst|FDC|[275]
 1 Pull from Tomorrow|SOC|[116]
 1 Ravenform|LCC|[167]
 1 Reality Shift|SOC|[199]
-1 Refute|TRC|[579]
+1 Refute|FDN|[48]
 1 Rethink|pcy
 1 Prismari, the Inspiration|sos
 1 Seat of the Synod|eoc
@@ -75,7 +75,7 @@ Name=Galazeth
 1 Storm-Kiln Artist|SOC|[255]
 1 Stormcatch Mentor|SOC|[331]
 1 Sulfur Falls|DMR|[400]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swiftwater Cliffs|TDM|[268]
 1 Sword of Vengeance|BLB|[395]
 1 Temple of Epiphany|SOC|[412]

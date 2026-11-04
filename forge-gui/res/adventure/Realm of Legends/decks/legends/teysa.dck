@@ -8,8 +8,8 @@ Name=Teysa Karlov
 1 Teysa, Opulent Oligarch|MKM
 1 Animate Dead|LEB|[93]
 1 Ao, the Dawn Sky|SOC|[135]
-1 Arcane Signet|TRC|[485]
-1 Anguished Unmaking|TRC|[310]
+1 Arcane Signet|FRC|[20]
+1 Anguished Unmaking|SOC|[293]
 1 Vindicate|APC|[126]
 1 Athreos, God of Passage|PIO|[303]
 1 Austere Command|FDC|[18]
@@ -21,7 +21,7 @@ Name=Teysa Karlov
 1 Cauldron of Souls|CM2|[180]
 1 Caves of Koilos|APC
 1 Command the Dreadhorde|WAR
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cruel Celebrant|LCC|[267]
 1 Day of Judgment|FDC|[23]
 1 Despark|FRC|[50]
@@ -52,16 +52,16 @@ Name=Teysa Karlov
 1 Ondu Inversion|ZNR
 1 Orzhov Enforcer|RVR|[87]
 1 Orzhov Signet|TDC|[323]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pawn of Ulamog|SOC|[223]
 1 Call a Surprise Witness|MKM
 1 Pitiless Plunderer|J25|[476]
 12 Plains|INR|[288]
 1 Priest of Forgotten Gods|SOC|[225]
 1 Rally the Ancestors|FRF
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Sifter of Skulls|M3C|[203]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Smile at Death|TDM
 1 Sol Ring|LEB|[270]
 17 Swamp|INR|[292]

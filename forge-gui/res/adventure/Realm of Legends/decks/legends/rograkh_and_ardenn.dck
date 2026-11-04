@@ -4,7 +4,7 @@ Name=Rograkh and Ardenn
 1 Ardenn, Intrepid Archaeologist|CMR
 1 Rograkh, Son of Rohgahh|CMR
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Akiri, Fearless Voyager|CMM|[335]
 1 All That Glitters|CMM|[9]
 1 Armory of Iroas|CMR
@@ -25,13 +25,13 @@ Name=Rograkh and Ardenn
 1 Break Ties|MH2
 1 Cliffhaven Kitesail|J25|[748]
 1 Colossus Hammer|LCC|[110]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Condemn|RVR|[304]
 1 Danitha Capashen, Paragon|J25|[59]
 1 Dawn Charm|CMR
 1 Deflecting Palm|MKC|[205]
 1 Dowsing Dagger|XLN
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Explorer's Scope|CMM|[380]
 1 Faith Unbroken|INR|[21]
 1 Fellwar Stone|DRK|[102]
@@ -57,9 +57,9 @@ Name=Rograkh and Ardenn
 1 Puresteel Paladin|CMM|[51]
 1 Relic Seeker|CMR
 1 Slash the Ranks|CMR|[47]
-1 Return to Dust|TRC|[427]
+1 Return to Dust|DSC|[102]
 1 Ring of Valkas|CMR|[469]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rune of Sustenance|KHM
 1 Sigarda's Aid|CMR
 1 Slayers' Stronghold|MKC|[295]
@@ -69,9 +69,9 @@ Name=Rograkh and Ardenn
 1 Sunforger|CMR
 1 Skyfire Phoenix|C19
 1 Sunhome, Fortress of the Legion|OTC|[324]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Timely Ward|DSC|[107]
 1 Tormentor's Helm|KHM
 1 Unquestioned Authority|JUD|[31]

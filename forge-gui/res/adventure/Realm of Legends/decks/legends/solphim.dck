@@ -3,9 +3,9 @@ Name=Solphim
 [Commander]
 1 Solphim, Mayhem Dominus|ONE
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Acidic Soil|USG
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Banefire|J22|[495]
 1 Blasphemous Act|SOC|[238]
 1 Magmaquake|FDC|[164]
@@ -19,7 +19,7 @@ Name=Solphim
 1 Chaos Warp|MBC|[72]
 1 City on Fire|MOM
 1 Comet Storm|CMR
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Drakuseth, Maw of Flames|FDC|[155]
 1 Electrodominance|TDC|[212]
 1 Electrostatic Field|OTC|[164]
@@ -48,7 +48,7 @@ Name=Solphim
 1 Play with Fire|J25|[586]
 1 Pyromancer's Gauntlet|M14
 1 Rampaging Ferocidon|DSC|[167]
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Reverberate|M13
 1 Risk Factor|GRN
 1 Sawblade Scamp|ONE
@@ -61,12 +61,12 @@ Name=Solphim
 1 Spitfire Lagac|FDN|[208]
 1 Stuffy Doll|CLB|[875]
 1 Sulfuric Vortex|DMR|[332]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Syr Carah, the Bold|ELD
 1 Tectonic Giant|DSC|[168]
 1 The Autonomous Furnace|ONE
 1 Thermo-Alchemist|INR|[403]
-1 Thrill of Possibility|TRC|[455]
+1 Thrill of Possibility|FDC|[180]
 1 Torbran, Thane of Red Fell|ELD
 1 Volcanic Fallout|CMR
 1 Zo-Zu the Punisher|DDS

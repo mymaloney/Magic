@@ -5,7 +5,7 @@ Name=Kudo, King Among Bears
 [Main]
 1 Patchwork Banner|SOC|[353]
 1 Rampaging Ursaguana|YMKM
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Swords to Plowshares|DMR|[275]
 1 Glorious Anthem|USG
 1 Drop of Honey|ARN
@@ -19,8 +19,8 @@ Name=Kudo, King Among Bears
 1 Blossoming Sands|TDM
 1 Brawn|JUD|[107]
 1 Champion of Lambholt|MOC
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Cultivate|SOC|[265]
 1 Elesh Norn, Grand Cenobite|IMA|[18]
 1 Enduring Innocence|DSK
@@ -46,7 +46,7 @@ Name=Kudo, King Among Bears
 1 Nissa, Voice of Zendikar|PIO|[188]
 1 Overrun|ODY|[260]
 1 Park Heights Maverick|NCC
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 12 Plains|INR|[288]
 1 Porphyry Nodes|TSR
@@ -59,7 +59,7 @@ Name=Kudo, King Among Bears
 1 Ruxa, Patient Professor|C21
 1 Sakura-Tribe Elder|SOC|[285]
 1 Savage Swipe|MH1
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Servant of the Scale|J25
 1 Sol Ring|LEB|[270]
 1 Stocking the Pantry|BLB

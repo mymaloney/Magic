@@ -3,7 +3,7 @@ Name=Ertha Jo
 [Commander]
 1 Ertha Jo, Frontier Mentor|otj
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Abraded Bluffs|otj
 1 Adarkar Valkyrie|C18|[60]
 1 Angel of Condemnation|hou
@@ -19,16 +19,16 @@ Name=Ertha Jo
 1 Chaos Wand|OTC|[254]
 1 Chaos Warp|MBC|[72]
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Dauntless Dismantler|lci
 1 Deadeye Duelist|otj
 1 Deathless Angel|roe
 1 High Noon|otj
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Dictate of the Twin Gods|SCD|[131]
 1 Drumbellower|SOC|[143]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Fiery Emancipation|M21|[143]
 1 Flamekin Village|ECC|[149]
 1 Furystoke Giant|shm
@@ -49,7 +49,7 @@ Name=Ertha Jo
 1 Kumano, Master Yamabushi|chk
 1 Labyrinth of Skophos|MKC|[272]
 1 Lithoform Engine|brc
-1 Loran of the Third Path|TRC|[229]
+1 Loran of the Third Path|BLC|[143]
 1 Magewright's Stone|RVR|[462]
 1 Marvin, Murderous Mimic|dsk
 1 Mechanized Warfare|bro
@@ -62,16 +62,16 @@ Name=Ertha Jo
 12 Plains|INR|[288]
 1 Plargg, Dean of Chaos|stx
 1 Prodigal Pyromancer|TSR|[180]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rustler Rampage|otj
 1 Sandstorm Verge|otj
 1 Sol Ring|LEB|[270]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Taii Wakeen, Perfect Shot|otj
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Temple of Triumph|SOC|[417]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 The Jolly Balloon Man|dsk
 1 Thousand-Year Elixir|C21|[271]
 1 To Arms!|rvr

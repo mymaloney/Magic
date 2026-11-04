@@ -3,26 +3,26 @@ Name=Jori End
 [Commander]
 1 Jori En, Ruin Diver|DDS|[23]
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Anticipate|IKO|[40]
 1 Baral's Expertise|TDC|[146]
 1 Beacon Bolt|grn
 1 Blink of an Eye|J25|[289]
-1 arcane signet|TRC|[485]
-1 Chain Reaction|TRC|[280]
+1 arcane signet|FRC|[20]
+1 Chain Reaction|SOC|[121]
 1 Chart a Course|FDN|[586]
 1 Counterspell|DMR|[281]
 1 Crackling Drake|rvr
 1 Curious Homunculus|emn
 1 Curse of the Swine|SOC|[192]
 1 Deliberate|znr
-1 Desolate Lighthouse|TRC|[374]
+1 Desolate Lighthouse|LCC|[327]
 1 Disdainful Stroke|TSR|[307]
 1 Double Vision|ncc
 1 Electrostatic Field|OTC|[164]
 1 Enigma Drake|FDN|[657]
 1 Everflowing Chalice|TSR|[394]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Expedite|PIO|[374]
 1 Faithless Looting|SOC|[244]
 1 Fire Diamond|mir
@@ -46,11 +46,11 @@ Name=Jori End
 1 Mizzium Mortars|PIO|[376]
 12 Mountain|INR|[294]
 1 Murmuring Mystic|PIO|[65]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Niblis of Frost|PIO|[66]
 1 Opt|INV|[64]
 1 Peek|ODY|[91]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Portent|ICE|[90]
 1 Preordain|TDC|[161]
 1 Sol Ring|LEB|[270]
@@ -67,10 +67,10 @@ Name=Jori End
 1 Sudden Substitution|c19
 1 Swiftwater Cliffs|TDM|[268]
 1 Talrand, Sky Summoner|TSR|[318]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thermo-Alchemist|INR|[403]
 1 Think Twice|INR|[369]
-1 Thrill of Possibility|TRC|[455]
+1 Thrill of Possibility|FDC|[180]
 1 Thundering Rebuke|znr
 1 Treasure Cruise|TSR|[319]
 1 Unwind|dom

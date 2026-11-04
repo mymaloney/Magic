@@ -5,7 +5,7 @@ Name=Syr Alin
 [Main]
 1 Adeline, Resplendent Cathar|TDC|[108]
 1 Akroma's Will|M3C|[165]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Basri Ket|m21
 1 Basri's Lieutenant|J25|[171]
 1 Benalish Marshal|GNT|[8]
@@ -15,7 +15,7 @@ Name=Syr Alin
 1 Call the Coppercoats|onc
 1 Castle Ardenvale|TDC|[346]
 1 Cathar Commando|INR|[336]
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Court Street Denizen|cmr
 1 Crib Swap|ECL|[11]
 1 Crush Contraband|scd
@@ -57,7 +57,7 @@ Name=Syr Alin
 30 Plains|INR|[288]
 1 Secure the Wastes|FRC|[31]
 1 Commander's Plate|cmr
-1 Grand Crescendo|TRC|[222]
+1 Grand Crescendo|FRC|[26]
 1 Elspeth, Sun's Champion|FRC|[24]
 1 Secret Rendezvous|SOC|[166]
 1 Court of Grace|FDC|[21]
@@ -71,5 +71,5 @@ Name=Syr Alin
 1 Unbreakable Formation|RVR|[32]
 1 Valor|jud
 1 Valor in Akros|scd
-1 Vanquish the Horde|TRC|[245]
+1 Vanquish the Horde|TDC|[91]
 1 War Room|SOC|[422]

@@ -5,13 +5,13 @@ Name=Yidris
 [Main]
 1 Ancestral Vision|TDC|[144]
 1 Ancient Cellarspawn|dsc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Averna, the Chaos Bloom|J25|[80]
 1 Beast Within|TSR|[357]
 1 Berserkers' Onslaught|BLC|[192]
 1 Blood Mist|INR|[395]
 1 Clever Impersonator|c19
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conqueror's Flail|2X2|[302]
 1 Xander's Lounge|snc
 1 Cultivate|SOC|[265]
@@ -19,7 +19,7 @@ Name=Yidris
 1 Etali, Primal Conqueror|mom
 1 Etali, Primal Storm|TSR|[342]
 1 Extract from Darkness|2X2|[210]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Fellwar Stone|DRK|[102]
 1 Flamekin Village|ECC|[149]
 1 Flotsam|mkm
@@ -31,13 +31,13 @@ Name=Yidris
 1 Inevitable Betrayal|mh2
 5 Island|INR|[290]
 1 Karn's Temporal Sundering|dom
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Maelstrom Wanderer|ECC|[127]
 1 Mana Confluence|JOU|[163]
 1 Managorger Hydra|FDC|[216]
 3 Mountain|INR|[294]
 1 Zagoth Triome|iko
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pernicious Deed|APC|[114]
 1 Phantasmal Image|AFC|[89]
 1 Propaganda|TMP|[80]
@@ -58,7 +58,7 @@ Name=Yidris
 1 Rampant Growth|TMP|[245]
 1 Relentless Assault|PO2|[115]
 1 Rishkar's Expertise|FDC|[226]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Ziatora's proving ground|snc
 1 Savage Ventmaw|FDN|[665]
 1 Seize the Day|ody
@@ -78,9 +78,9 @@ Name=Yidris
 1 Spark Double|RVR|[319]
 1 Sunbird's Invocation|BLC|[116]
 4 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of Wealth and Power|big
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Tasigur, the Golden Fang|TSR|[333]
 1 Treasure Cruise|TSR|[319]
 1 Trumpeting Carnosaur|lci

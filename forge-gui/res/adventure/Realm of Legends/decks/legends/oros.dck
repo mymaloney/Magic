@@ -6,10 +6,10 @@ Name=Oros, the Avenger
 1 Shadrix Silverquill|SOC|[330]
 1 Sunscorch Regent|BLC|[158]
 1 Scalelord Reckoner|C17
-1 Talisman of Conviction|TRC|[503]
-1 Talisman of Indulgence|TRC|[507]
-1 Talisman of Hierarchy|TRC|[506]
-1 Arcane Signet|TRC|[485]
+1 Talisman of Conviction|SOC|[428]
+1 Talisman of Indulgence|FRC|[63]
+1 Talisman of Hierarchy|SOC|[358]
+1 Arcane Signet|FRC|[20]
 1 Balefire Liege|SOC|[295]
 1 Bedevil|DSC
 1 Ao, the Dawn Sky|SOC|[135]
@@ -21,19 +21,19 @@ Name=Oros, the Avenger
 1 Boros Garrison|CLU|[231]
 1 Carnelian Orb of Dragonkind|J25|[131]
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Crovax, Ascendant Hero|TSR|[15]
 1 Crush Contraband|SCD|[16]
 1 Crux of Fate|C17|[107]
 1 Despark|FRC|[50]
 1 Shadowspear|THB
-1 Dragonskull Summit|TRC|[375]
-1 Evolving Wilds|TRC|[527]
+1 Dragonskull Summit|ECC|[147]
+1 Evolving Wilds|ECL|[264]
 1 Fellwar Stone|DRK|[102]
 1 Fervent Charge|APC
 1 Fumigate|EOC|[65]
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Gisela, Blade of Goldnight|MKC
 1 Gods Willing|CLU|[63]
 1 Greed|LEG|[101]
@@ -52,11 +52,11 @@ Name=Oros, the Avenger
 5 Mountain|INR|[294]
 1 Neriv, Crackling Vanguard|TDC
 1 Neriv, Heart of the Storm|TDM
-1 Nomad Outpost|TRC|[544]
+1 Nomad Outpost|TDM|[263]
 1 Mardu Thunderkite|YTDM
 1 Orzhov Basilica|DRC|[164]
-1 Painful Truths|TRC|[274]
-1 Path of Ancestry|TRC|[545]
+1 Painful Truths|ECC|[82]
+1 Path of Ancestry|MBC|[80]
 1 Piru, the Volatile|MH2
 6 Plains|INR|[288]
 1 Rakdos Carnarium|ECC|[161]
@@ -66,11 +66,11 @@ Name=Oros, the Avenger
 1 Read the Bones|TSR|[328]
 1 Repercussion|UDS|[95]
 1 Fervor|WTH|[99]
-1 Ruinous Ultimatum|TRC|[329]
+1 Ruinous Ultimatum|IKO|[204]
 1 Shanid, Sleepers' Scourge|DMC
-1 Shattered Landscape|TRC|[557]
+1 Shattered Landscape|TDC|[390]
 1 Slayers' Stronghold|MKC|[295]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Sonic Shrieker|TDM
@@ -78,10 +78,10 @@ Name=Oros, the Avenger
 1 Sun Titan|SOC|[178]
 1 Sunhome, Fortress of the Legion|OTC|[324]
 6 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Temple of the False God|SCG|[143]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thriving Heath|ECC|[172]
 1 Thriving Moor|ECC|[174]
 1 Utter End|DSC|[91]

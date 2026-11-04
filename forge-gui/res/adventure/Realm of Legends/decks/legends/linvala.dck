@@ -8,7 +8,7 @@ Name=Linvala, Shield of Sea Gate
 1 Linvala, Keeper of Silence|JMP|[119]
 1 Wrath of God|DMR|[279]
 1 Adarkar Wastes|ICE
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archpriest of Iona|CLB|[686]
 1 Austere Command|FDC|[18]
 1 Aven Mindcensor|CLB|[688]
@@ -16,8 +16,8 @@ Name=Linvala, Shield of Sea Gate
 1 Bident of Thassa|PIO|[47]
 1 Bishop of Rebirth|XLN|[5]
 1 Brazen Borrower|SOC|[190]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Counterspell|DMR|[281]
 1 Deserted Beach|FRA|[176]
 1 Dovin's Veto|TSR|[375]
@@ -32,7 +32,7 @@ Name=Linvala, Shield of Sea Gate
 1 Ghost Quarter|CM2|[253]
 1 Ghostly Pilferer|OTC|[98]
 1 Gift of Immortality|SOC|[147]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Glaring Spotlight|GTC
 1 Glasspool Mimic|ZNR
 1 Glen Elendra Archmage|WOC|[94]
@@ -43,7 +43,7 @@ Name=Linvala, Shield of Sea Gate
 1 Hengegate Pathway|KHM
 1 Hidden Dragonslayer|MKC|[69]
 1 Hypnotic Grifter|SNC
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 8 Island|INR|[290]
 1 Jazal Goldmane|FDN|[497]
 1 Looter il-Kor|CMM|[102]
@@ -56,7 +56,7 @@ Name=Linvala, Shield of Sea Gate
 1 Midnight Pathlighter|AFC
 1 Mirror Entity|TSR|[297]
 1 Mother of Runes|ULG|[14]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Nimble Trapfinder|ZNR
 1 Nimbus Maze|AFC
 1 Oketra's Monument|DMC|[188]
@@ -64,8 +64,8 @@ Name=Linvala, Shield of Sea Gate
 1 Path to Exile|TSR|[299]
 1 Phantasmal Image|AFC|[89]
 7 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Rumor Gatherer|CLB|[705]
 1 Sea Gate Restoration|ZNR
 1 Seachrome Coast|BLC|[328]
@@ -88,4 +88,4 @@ Name=Linvala, Shield of Sea Gate
 1 Thieving Skydiver|OTC|[118]
 1 Tranquil Cove|TDM|[270]
 1 Unsettled Mariner|MH1
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]

@@ -12,7 +12,7 @@ Name=Ghired, Conclave Exile
 1 Cinder Glade|ECC|[146]
 1 Cliffside Rescuer|C19|1
 1 Colossal Majesty|FDC|[197]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Commander's Insignia|TDC|[111]
 1 Cultivate|SOC|[265]
 1 Desolation Twin|C21|[82]
@@ -21,8 +21,8 @@ Name=Ghired, Conclave Exile
 1 Druid's Deliverance|C19|1
 1 Elemental Bond|TDC|[254]
 1 Emmara Tandris|C19|1
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Explore|J25|[146]
 1 Farseek|RVR|[347]
 1 Feldon of the Third Path|TSR|[344]
@@ -47,7 +47,7 @@ Name=Ghired, Conclave Exile
 1 Jungle Shrine|ECC|[154]
 1 Kazandu Refuge|SCD|[307]
 1 Krosan Verge|JUD|[141]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Marisi, Breaker of the Coil|C19|1
 1 Mimic Vat|LCC|[115]
 1 Momentous Fall|JMP|[411]
@@ -60,7 +60,7 @@ Name=Ghired, Conclave Exile
 7 Plains|INR|[288]
 1 Rampaging Baloths|EOC|[104]
 1 Roc Egg|C19|1
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rootborn Defenses|CLU|[71]
 1 Rugged Highlands|TDM|[265]
 1 Sakura-Tribe Elder|SOC|[285]
@@ -78,7 +78,7 @@ Name=Ghired, Conclave Exile
 1 Sungrass Prairie|ODY|[328]
 1 Tahngarth, First Mate|C19|1
 1 Tectonic Hellion|C19|1
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thragtusk|TSR|[368]
 1 Trostani's Judgment|C19|1
 1 Trostani, Selesnya's Voice|C19|1

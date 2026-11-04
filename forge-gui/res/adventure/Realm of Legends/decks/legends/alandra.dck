@@ -3,7 +3,7 @@ Name=Alandra
 [Commander]
 1 Alandra, Sky Dreamer|MKC|[94]
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage Emeritus|SOC|[188]
 1 Archmage's Charm|H1R|[7]
 1 Behold the Multiverse|khm
@@ -12,7 +12,7 @@ Name=Alandra
 1 Brainsurge|mh3
 1 Cephalid Coliseum|ODY|[317]
 1 Chemister's Insight|CLU|[81]
-1 Cryptic Command|TRC|[252]
+1 Cryptic Command|IMA|[48]
 1 Deduce|mkm
 1 Distant Melody|ECC|[45]
 1 Everflowing Chalice|TSR|[394]
@@ -42,7 +42,7 @@ Name=Alandra
 1 Quick Study|SOS|[65]
 1 Radical Idea|OTC|[110]
 1 Read the Runes|ONS|[104]
-1 Refute|TRC|[579]
+1 Refute|FDN|[48]
 1 Remand|TSR|[316]
 1 Sapphire Medallion|TMP|[306]
 1 Season of Weaving|blb
@@ -59,7 +59,7 @@ Name=Alandra
 1 Treasure Cruise|TSR|[319]
 1 Windfall|USG|[111]
 1 Thirst for Discovery|DBL|[352]
-1 Thirst for Knowledge|TRC|[443]
+1 Thirst for Knowledge|EOC|[48]
 1 Three Steps Ahead|otj
 1 Thunderclap Drake|SOC|[204]
 1 Tide Skimmer|J25|[375]

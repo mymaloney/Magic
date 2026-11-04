@@ -4,7 +4,7 @@ Name=Thorna and Twigtooth
 1 Thorna and Twigtooth|yecl
 [Main]
 1 Aberrant Return|ecc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Barrenton Medic|shm
 1 Battlefield Forge|APC|[139]
 1 Belligerent Hatchling|eve
@@ -18,13 +18,13 @@ Name=Thorna and Twigtooth
 1 Caves of Koilos|APC|[140]
 1 Cinderhaze Wretch|shm
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
-1 Dragonskull Summit|TRC|[375]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
+1 Dragonskull Summit|ECC|[147]
 1 Dusk Urchins|ecc
 1 Emptiness|ecl
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fain, the Broker|OTC|[133]
 1 Faithless Looting|SOC|[244]
 1 Furystoke Giant|shm
@@ -47,11 +47,11 @@ Name=Thorna and Twigtooth
 1 Mutated Cultist|m3c
 1 Necroskitter|ecc
 1 Nest of Scarabs|akh
-1 Nomad Outpost|TRC|[544]
+1 Nomad Outpost|TDM|[263]
 1 Obstinate Gargoyle|mh3
 1 Orzhov Basilica|DRC|[164]
-1 Painful Truths|TRC|[274]
-1 Path of Ancestry|TRC|[545]
+1 Painful Truths|ECC|[82]
+1 Path of Ancestry|MBC|[80]
 1 Persist|MH2|[400]
 1 Phyrexian Arena|APC|[47]
 6 Plains|INR|[288]
@@ -63,16 +63,16 @@ Name=Thorna and Twigtooth
 1 Scholar of New Horizons|brc
 1 Shambling Swarm|tor
 1 Slumbering Walker|ecl
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Soulstinger|akh
 1 Sulfurous Springs|ICE|[360]
 7 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
-1 Temple of Malice|TRC|[410]
+1 Temple of Malice|FDN|[701]
 1 Temple of Silence|SOC|[415]
 1 Temple of Triumph|SOC|[417]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 The Scorpion God|ecc
 1 Thunder of Unity|tdm
 1 Thunderblust|mm2
@@ -83,6 +83,6 @@ Name=Thorna and Twigtooth
 1 Ammit Eternal|hou
 1 Terminate|PLS|[128]
 1 Spinerock Tyrant|ecl
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Voracious Hatchling|eve
 1 Wickersmith's Tools|ecc

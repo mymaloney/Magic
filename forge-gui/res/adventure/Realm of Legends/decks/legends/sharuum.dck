@@ -3,10 +3,10 @@ Name=Sharuum
 [Commander]
 1 Sharuum the Hegemon|BRC|[128]
 [Main]
-1 Academy Ruins|TRC|[366]
+1 Academy Ruins|DRC|[58]
 1 Angel of the Ruins|EOC|[63]
-1 Arcane Sanctum|TRC|[513]
-1 Arcane Signet|TRC|[485]
+1 Arcane Sanctum|DRC|[146]
+1 Arcane Signet|FRC|[20]
 1 Azorius Signet|FRC|[53]
 1 Baleful Strix|BLC|[86]
 1 Tezzeret the Seeker|MM2|[62]
@@ -18,7 +18,7 @@ Name=Sharuum
 1 Burnished Hart|FDN|[250]
 1 Cataclysmic Gearhulk|MOC|[176]
 1 Chief Engineer|c16
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conjurer's Closet|INR|[441]
 1 Machine God's Effigy|brc
 1 Crawlspace|DMR|[375]
@@ -26,7 +26,7 @@ Name=Sharuum
 1 Darksteel Citadel|FDC|[300]
 1 Demonic Junker|dft
 1 Deserted Beach|FRA|[176]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Dispeller's Capsule|C21|[89]
 1 Ethersworn Sphinx|mh2
 1 Ephemerate|H1R|[1]
@@ -41,7 +41,7 @@ Name=Sharuum
 1 Hallowed Fountain|RVR|[404]
 1 Inventors' Fair|kld
 5 Island|INR|[290]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Magister Sphinx|2X2|[247]
 1 Master Transmuter|FDC|[67]
 1 Meteor Golem|FDN|[256]
@@ -69,12 +69,12 @@ Name=Sharuum
 1 Shipwreck Marsh|FRA|[189]
 1 Silent Arbiter|C20|[250]
 1 Sink into Stupor|mh3
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Sphinx of the Steel Wind|ema
 1 Sphinx Summoner|2XM|[220]
-1 Spire of Industry|TRC|[405]
+1 Spire of Industry|EOC|[183]
 1 Steel Hellkite|TDC|[327]
 1 Steelswarm Operator|eoe
 1 Stern Lesson|bro
@@ -84,7 +84,7 @@ Name=Sharuum
 1 Teferi's Protection|2X2|[32]
 1 Thaumatic Compass|xln
 1 The Mycosynth Gardens|EOC|[168]
-1 Thirst for Knowledge|TRC|[443]
+1 Thirst for Knowledge|EOC|[48]
 1 Thopter Foundry|2xm
 1 Thran Spider|bro
 1 Trading Post|BRC|[169]

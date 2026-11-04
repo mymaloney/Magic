@@ -6,8 +6,8 @@ Name=Linden
 1 Adeline, Resplendent Cathar|TDC|[108]
 1 Aetherflux Reservoir|kld
 1 Ajani, Strength of the Pride|J22|[141]
-1 Alhammarret's Archive|TRC|[337]
-1 Arcane Signet|TRC|[485]
+1 Alhammarret's Archive|C21|[233]
+1 Arcane Signet|FRC|[20]
 1 Archaeomancer's Map|SOC|[136]
 1 Archangel of Thune|PIO|[4]
 1 Harmonious Archon|ONC|[74]
@@ -37,13 +37,13 @@ Name=Linden
 1 Extraplanar Lens|cmm
 1 Farewell|M3C|[170]
 1 Generous Gift|BLC|[106]
-1 Grand Crescendo|TRC|[222]
+1 Grand Crescendo|FRC|[26]
 1 Guide of Souls|mh3
 1 Haliya, Guided by Light|eoe
 1 Heliod, Sun-Crowned|cmm
 1 Keeper of the Accord|MKC|[70]
-1 Lightning Greaves|TRC|[496]
-1 Loran of the Third Path|TRC|[229]
+1 Lightning Greaves|SOC|[350]
+1 Loran of the Third Path|BLC|[143]
 1 Mangara, the Diplomat|SOC|[155]
 1 Mass Calcify|m15
 1 Moonshaker Cavalry|SOC|[110]
@@ -54,9 +54,9 @@ Name=Linden
 1 Pearl Medallion|TMP|[300]
 33 Plains|INR|[288]
 1 Rabble Rousing|snc
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Secure the Wastes|FRC|[31]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Smuggler's Share|mkc
 1 Sol Ring|LEB|[270]
 1 Soul Warden|exo
@@ -64,7 +64,7 @@ Name=Linden
 1 Sword of the Animist|CMM|[413]
 1 Swords to Plowshares|DMR|[275]
 1 Throne of Eldraine|woc
-1 The Immortal Sun|TRC|[347]
+1 The Immortal Sun|CMM|[393]
 1 Trouble in Pairs|mkc
 1 Voice of the Blessed|INR|[50]
 1 War Room|SOC|[422]

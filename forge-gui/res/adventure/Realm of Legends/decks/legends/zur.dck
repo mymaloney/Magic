@@ -13,8 +13,8 @@ Name=Zur
 1 Void Rend|snc
 1 Replenish|uds
 1 Adarkar Wastes|ICE|[351]
-1 Arcane Sanctum|TRC|[513]
-1 Arcane Signet|TRC|[485]
+1 Arcane Sanctum|DRC|[146]
+1 Arcane Signet|FRC|[20]
 1 Archetype of Courage|bng
 1 Archon of Sun's Grace|SOC|[137]
 1 Zur the Enchanter|DMR|[374]
@@ -27,14 +27,14 @@ Name=Zur
 1 Caves of Koilos|APC|[140]
 1 Fear of Ridicule|ydsk
 1 Collective Restraint|inv
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Demon of Fate's Design|DSC|[137]
 1 Deserted Beach|FRA|[176]
 1 Detention Sphere|GK2|[10]
 1 Doomwake Giant|SOC|[212]
 1 Dovin's Veto|TSR|[375]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Timely Ward|DSC|[107]
 1 Enduring Curiosity|dsk
 1 Enduring Tenacity|dsk
@@ -44,7 +44,7 @@ Name=Zur
 1 Fear of Impostors|dsk
 1 Ghostly Dancers|dsk
 1 Ghostly Prison|SOC|[146]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Grasp of Fate|FDC|[32]
 1 Grim Guardian|jou
 1 Tundra|LEB|[285]
@@ -64,10 +64,10 @@ Name=Zur
 1 Overlord of the Floodpits|dsk
 1 Phyrexian Arena|apc
 9 Snow-Covered Plains|ICE|[367]
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Prayer of Binding|FDN|[502]
 1 Propaganda|tmp
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Resurgent Belief|mh2
 1 Rhystic Study|pcy
 1 Seal Away|dom
@@ -81,10 +81,10 @@ Name=Zur
 1 Starfield Mystic|SOC|[177]
 1 Starfield of Nyx|PIO|[36]
 1 Stasis Snare|PIO|[37]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 1 Supreme Verdict|RVR|[461]
 4 Snow-Covered Swamp|ICE|[372]
-1 Talisman of Dominance|TRC|[505]
-1 Talisman of Hierarchy|TRC|[506]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Dominance|FRC|[62]
+1 Talisman of Hierarchy|SOC|[358]
+1 Talisman of Progress|FRC|[64]
 1 Underground River|ICE|[362]

@@ -6,7 +6,7 @@ Name=Brimaz, Blight of Oreskos
 1 Ambition's Cost|FDC|[84]
 1 Ancient Stone Idol|MKC|[222]
 1 Angel of the Ruins|EOC|[63]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Bitterthorn, Nissa's Animus|SOC|[343]
 1 Blade Splicer|BLC|[136]
 1 Blight Titan|MOC|1
@@ -15,16 +15,16 @@ Name=Brimaz, Blight of Oreskos
 1 Bone Shredder|ULG|[49]
 1 Burnished Hart|FDN|[250]
 1 Cataclysmic Gearhulk|MOC|1
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Compleated Huntmaster|MOM|1
 1 Coveted Jewel|BLC|[268]
 1 Darksteel Splicer|MOC|1
 1 Despark|FRC|[50]
 1 Duplicant|DRC|[54]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Excise the Imperfect|MOC|1
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Godless Shrine|RVR|[401]
 1 First-Sphere Gargantua|MOC|1
 1 Fractured Powerstone|MOC|1
@@ -42,11 +42,11 @@ Name=Brimaz, Blight of Oreskos
 1 Mortify|TSR|[381]
 1 Myr Battlesphere|TDC|[322]
 1 Nettlecyst|FDC|[275]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Noxious Gearhulk|TDC|[191]
 1 Orzhov Locket|MOC|1
 1 Fellwar Stone|DRK|[102]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Phyrexian Delver|INV|[115]
 1 Phyrexian Gargantua|APC|[48]
 1 Phyrexian Ghoul|USG|[148]
@@ -61,22 +61,22 @@ Name=Brimaz, Blight of Oreskos
 1 Scytheclaw|CMM|[408]
 1 Shattered Angel|MOC|1
 1 Shimmer Myr|FDC|[283]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Silverquill Campus|SOC|[405]
 1 Sol Ring|LEB|[270]
 1 Soul of New Phyrexia|MOC|1
-1 Spire of Industry|TRC|[405]
+1 Spire of Industry|EOC|[183]
 13 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
 1 Tainted Field|TOR|[140]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Temple of Silence|SOC|[415]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Utter End|DSC|[91]
 1 Vault of the Archangel|TDC|[410]
 1 Victimize|MH3|[413]
 1 Vulpine Harvester|MOC|1
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Yawgmoth's Vile Offering|MOC|1
 1 Ichor Elixir|MOC|1
 1 Path of the Schemer|MOC|1

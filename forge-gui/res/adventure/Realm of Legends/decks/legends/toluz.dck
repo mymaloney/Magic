@@ -5,18 +5,18 @@ Name=Toluz
 [Main]
 1 All-Seeing Arbiter|snc
 1 Ancient Excavation|cm2
-1 Arcane Sanctum|TRC|[513]
+1 Arcane Sanctum|DRC|[146]
 1 Archfiend of Ifnir|ECC|[70]
 1 Azorius Chancery|dsc
 1 Bazaar Trademage|mh1
 1 Behold the Beyond|PIO|[84]
-1 Bitter Triumph|TRC|[445]
+1 Bitter Triumph|TDC|[173]
 1 Bone Miser|c19
 1 Champion of Wits|DRC|[72]
 1 Change of Plans|ncc
 1 Chasm Skulker|PIO|[49]
-1 Choked Estuary|TRC|[370]
-1 Contaminated Landscape|TRC|[522]
+1 Choked Estuary|MKC|[254]
+1 Contaminated Landscape|FRC|[68]
 1 Creeping Tar Pit|clb
 1 Curator of Mysteries|afc
 1 Dark Deal|PIO|[89]
@@ -27,11 +27,11 @@ Name=Toluz
 1 Dream Halls|sth
 1 Dream Trawler|thb
 1 Dreamscape Artist|tsr
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Expose to Daylight|rna
 1 Faith of the Devoted|c19
-1 Faithful Mending|TRC|[473]
+1 Faithful Mending|DBL|[221]
 1 Fake Your Own Death|FDN|[174]
 1 Feast of Sanity|mh2
 1 Fellwar Stone|DRK|[102]
@@ -60,22 +60,22 @@ Name=Toluz
 4 Plains|INR|[288]
 1 Plumb the Forbidden|SOC|[224]
 1 Port of Karfell|mkc
-1 Port Town|TRC|[393]
+1 Port Town|M3C|[364]
 1 Queza, Augur of Agonies|snc
 1 Raffine, Scheming Seer|snc
 1 Raffine's Tower|snc
 1 Rain of Revelation|m21
-1 Refute|TRC|[579]
+1 Refute|FDN|[48]
 1 Scoured Barrens|TDM|[267]
 1 Silumgar's Command|znc
 1 Sink into Stupor|mh3
 1 Skirge Familiar|USG|[157]
 1 Skybridge Towers|snc
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Soul-Guide Lantern|EOC|[143]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 4 Swamp|INR|[292]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Tarrian's Journal|lci
 1 Temple of Silence|SOC|[415]
 1 Thirst for Discovery|DBL|[352]

@@ -3,7 +3,7 @@ Name=Korvold
 [Commander]
 1 Korvold, Fae-Cursed King|EOC|[120]
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ayara, First of Locthwain|FDC|[86]
 1 Back for Seconds|woe
 1 Bake into a Pie|fdn
@@ -20,13 +20,13 @@ Name=Korvold
 1 Cinder Glade|ECC|[146]
 1 Clackbridge Troll|eld
 1 Collector's Vault|woe
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Decadent Dragon|woe
 1 Elvish Archivist|woe
 1 Embercleave|eld
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Experimental Confectioner|woe
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Feasting Troll King|eld
 1 Feed the Cauldron|woe
 1 Flaxen Intruder|eld
@@ -59,14 +59,14 @@ Name=Korvold
 1 Questing Druid|woe
 1 Realm-Scorcher Hellkite|woe
 1 Redcap Gutter-Dweller|FDN|[631]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Restless Cottage|woe
 1 Return from the Wilds|woe
 1 Return of the Wildspeaker|ECC|[115]
 1 Rootrider Faun|woe
 1 Ruby, Daring Tracker|FDN|[245]
 1 Savvy Hunter|eld
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Spider Food|woe
 7 Swamp|INR|[292]

@@ -4,7 +4,7 @@ Name=Zabaz, the Glimmerwasp
 1 Zabaz, the Glimmerwasp|MH2|243
 [Main]
 1 Ancient Den|TSR|[403]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arcbound Bruiser|DST|94
 1 Arcbound Crusher|HOP|[105]
 1 Arcbound Fiend|DST|96
@@ -24,11 +24,11 @@ Name=Zabaz, the Glimmerwasp
 1 Arcbound Whelp|MH2|113
 1 Arcbound Worker|MMA|201
 1 Boros Garrison|CLU|231
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Brilliant Restoration|NEO|7
 1 Cathars' Crusade|INR|[337]
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Contagion Clasp|TSR|[391]
 1 Contagion Engine|SOM
 1 Crystalline Crawler|EOC|133
@@ -40,7 +40,7 @@ Name=Zabaz, the Glimmerwasp
 1 Feldon of the Third Path|TSR|[344]
 1 Ferropede|5DN|122
 1 Foundry Inspector|FDC|[259]
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Goblin Engineer|TSR|[345]
 1 Goblin Welder|ULG|[80]
 1 Great Furnace|EOC|161
@@ -74,7 +74,7 @@ Name=Zabaz, the Glimmerwasp
 1 Stonecoil Serpent|SOC|[356]
 1 Sunbillow Verge|DFT|264
 1 Sundown Pass|SOS|[264]
-1 Tempered Steel|TRC|[241]
+1 Tempered Steel|BRC|[76]
 1 The Eternity Elevator|EOE|241
 1 The Ozolith|IKO|237
 1 Thran Dynamo|UDS|[139]

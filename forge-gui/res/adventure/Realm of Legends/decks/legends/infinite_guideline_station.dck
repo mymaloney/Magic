@@ -4,8 +4,8 @@ Name=Infinite Guideline
 1 Infinite Guideline Station|eoe
 [Main]
 1 Abuelo, Ancestral Echo|lci
-1 Anguished Unmaking|TRC|[310]
-1 Arcane Signet|TRC|[485]
+1 Anguished Unmaking|SOC|[293]
+1 Arcane Signet|FRC|[20]
 1 Pinnacle Emissary|eoe
 1 Assassin's Trophy|SOC|[294]
 1 Azorius Guildgate|RVR|[396]
@@ -17,12 +17,12 @@ Name=Infinite Guideline
 1 Case of the Shattered Pact|mkm
 1 Chromatic Lantern|RVR|[390]
 1 Circuitous Route|fdn
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Decimate|DMR|[356]
 1 Dimir Guildgate|RVR|[400]
 1 Dovin's Veto|TSR|[375]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Faeburrow Elder|ECC|[53]
 1 Fallaji Wayfarer|dmc
 1 Farseek|RVR|[347]
@@ -58,7 +58,7 @@ Name=Infinite Guideline
 1 Maraleaf Pixie|eld
 1 Maze's End|RVR|[465]
 3 Mountain|INR|[294]
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Sami, Wildcat Captain|eoe
 1 Sami, Ship's Engineer|eoe
 1 Niv-Mizzet Reborn|RVR|[459]

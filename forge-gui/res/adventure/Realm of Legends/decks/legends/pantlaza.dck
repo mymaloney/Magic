@@ -5,7 +5,7 @@ Name=Pantlaza, Sun-Favored
 [Main]
 1 Akroma's Will|M3C|[165]
 1 Apex Altisaur|LCC|1
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arch of Orazca|TSR|[404]
 1 Atzocan Seer|LCC|1
 1 Bellowing Aegisaur|LCC|1
@@ -14,7 +14,7 @@ Name=Pantlaza, Sun-Favored
 1 Chandra's Ignition|FDC|[145]
 1 Cinder Glade|ECC|[146]
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cultivate|SOC|[265]
 1 Curious Altisaur|FDC|[198]
 1 Deathgorge Scavenger|LCC|1
@@ -23,15 +23,15 @@ Name=Pantlaza, Sun-Favored
 1 Drover of the Mighty|J25|[650]
 1 Earthshaker Dreadmaw|LCI|1
 1 Etali, Primal Storm|TSR|[342]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Farseek|RVR|[347]
 1 Fiery Confluence|LCC|1
 4 Forest|INR|[296]
 4 Forest|INR|[296]
 1 Fortified Village|TDC|[366]
 1 From the Rubble|LCC|2
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Game Trail|BLC|[306]
 1 Generous Gift|BLC|[106]
 1 Itzquinth, Firstborn of Gishath|LCI|1
@@ -48,7 +48,7 @@ Name=Pantlaza, Sun-Favored
 2 Mountain|INR|[294]
 1 Myriad Landscape|EOC|[169]
 1 Otepec Huntmaster|LCC|1
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 2 Plains|INR|[288]
 2 Plains|INR|[288]
@@ -65,7 +65,7 @@ Name=Pantlaza, Sun-Favored
 1 Rhythm of the Wild|RVR|[380]
 1 Ripjaw Raptor|FDC|[224]
 1 Rishkar's Expertise|FDC|[226]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Runic Armasaur|LCC|1
 1 Savage Stomp|J25|[710]
 1 Scion of Calamity|LCC|2
@@ -75,7 +75,7 @@ Name=Pantlaza, Sun-Favored
 1 Sunfrill Imitator|LCC|2
 1 Temple Altisaur|LCC|1
 1 Temple of the False God|SCG|[143]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thrashing Brontodon|FDC|[237]
 1 Thriving Bluff|ECC|[170]
 1 Thriving Grove|ECC|[171]

@@ -12,8 +12,8 @@ Name=Shaile, Dean of Radiance
 1 Blot Out the Sky|STX
 1 Amalia Benavides Aguirre|LCI
 1 Anafenza, Kin-Tree Spirit|CMM
-1 Anguished Unmaking|TRC|[310]
-1 Arcane Signet|TRC|[485]
+1 Anguished Unmaking|SOC|[293]
+1 Arcane Signet|FRC|[20]
 1 Aron, Benalia's Ruin|TDC
 1 Athreos, God of Passage|PIO|[303]
 1 Ayli, Eternal Pilgrim|FDN|[652]
@@ -24,7 +24,7 @@ Name=Shaile, Dean of Radiance
 1 Caves of Koilos|APC|[140]
 1 Chainer's Edict|DMR
 1 Charcoal Diamond|MIR
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Damn|MH2|[396]
 1 Dark Confidant|RVR|[323]
 1 Dark Ritual|MMQ
@@ -33,7 +33,7 @@ Name=Shaile, Dean of Radiance
 1 Drana, Liberator of Malakir|LCC
 1 Elas il-Kor, Sadistic Pilgrim|DMU
 1 Essence Channeler|BLB
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fain, the Broker|OTC
 1 Felisa, Fang of Silverquill|CLB
 1 Fellwar Stone|DRK|[102]
@@ -49,7 +49,7 @@ Name=Shaile, Dean of Radiance
 1 Mortify|TSR|[381]
 1 Necropolis Regent|J25
 1 Nekrataal|VIS|[66]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Oketra's Monument|DMC
 1 Orzhov Advokist|MKC
 1 Mind Stone|DMR|[385]
@@ -65,7 +65,7 @@ Name=Shaile, Dean of Radiance
 1 Sol Ring|LEB|[270]
 15 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Together Forever|MOC
 1 Utter End|DSC
 1 Victory's Envoy|MIC

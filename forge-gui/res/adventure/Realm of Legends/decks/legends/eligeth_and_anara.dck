@@ -6,7 +6,7 @@ Name=Anara and Eligeth
 [Main]
 1 Alrund, God of the Cosmos|khm
 1 Anticognition|znr
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archive Dragon|woe
 1 Artificer's Assistant|dom
 1 Artisan's Sorrow|ths
@@ -33,13 +33,13 @@ Name=Anara and Eligeth
 1 Castle Vantress|dsc
 1 Cavalier of Gales|j25
 1 Chromatic Lantern|RVR|[390]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Condescend|j22
 1 Counterspell|DMR|[281]
 1 Cryptic Annelid|tsr
 1 Crystal Grotto|woe
 1 Cultivate|SOC|[265]
-1 Darksteel Plate|TRC|[341]
+1 Darksteel Plate|2X2|[304]
 1 Decisive Denial|SOC|[304]
 1 Dreamroot Cascade|SOS|[254]
 1 Drowner of Truth|mh3
@@ -64,7 +64,7 @@ Name=Anara and Eligeth
 1 Overflowing Basin|SOC|[392]
 1 Prognostic Sphinx|dsc
 1 Psychosis Crawler|FDC|[280]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Repudiate|rvr
 1 Serum Sovereign|one
 1 Sifter Wurm|cmr
@@ -73,11 +73,11 @@ Name=Anara and Eligeth
 1 Spellbook|exo
 1 Sphinx of Foresight|rna
 1 Splashy Spellcaster|woe
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Temple of Mystery|SOC|[414]
 1 Thassa, God of the Sea|PIO|[288]
 1 That Which Was Taken|bok
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Twenty-Toed Toad|blc
 1 Vineglimmer Snarl|SOC|[420]
 1 Yavimaya Coast|APC|[143]

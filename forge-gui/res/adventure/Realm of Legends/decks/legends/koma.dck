@@ -5,8 +5,8 @@ Name=Koma
 [Main]
 1 Adrix and Nev, Twincasters|MKC
 1 Aesi, Tyrant of Gyre Strait|DSC
-1 Arcane Signet|TRC|[485]
-1 Swiftfoot Boots|TRC|[501]
+1 Arcane Signet|FRC|[20]
+1 Swiftfoot Boots|MBC|[77]
 1 Gift of the Viper|MH3
 1 Distant Melody|ECC
 1 Arixmethes, Slumbering Isle|DSC
@@ -14,13 +14,13 @@ Name=Koma
 1 Bushwhack|FDN|[215]
 1 Coiling Oracle|RVR|[361]
 1 Collective Resistance|FDC|[196]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Deep-Sea Kraken|DDS
 1 Double Major|STX
 1 Elemental Bond|TDC
 1 Emerald Medallion|TMP|[283]
 1 Evolutionary Leap|TSR|[362]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 12 Forest|INR|[296]
 1 Frontier Siege|TDC
 1 Goreclaw, Terror of Qal Sisma|PIO|[177]
@@ -37,17 +37,17 @@ Name=Koma
 1 Kindred Discovery|LCC|[159]
 1 Kiora, Master of the Depths|BFZ
 1 Koma, World-Eater|FDN
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Llanowar Elves|LEB|[211]
 1 Tamiyo's Safekeeping|FDC|[233]
 1 Mirrorform|ECL
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Neurok Stealthsuit|TD2|[25]
 1 Planar Genesis|MH3
 1 Primeval Herald|J25
 1 Rain-Slicked Copse|SOC|[397]
 1 Reality Shift|SOC|[199]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Royal Treatment|WOE
 1 Sakura-Tribe Elder|SOC|[285]
 1 Sandwurm Convergence|DSC

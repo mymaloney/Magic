@@ -4,7 +4,7 @@ Name=Alela
 1 Alela, Artful Provocateur|BRC|[119]
 [Main]
 1 All That Glitters|cmm
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage of Echoes|woc
 1 Banishing Light|TSR|[291]
 1 Bident of Thassa|PIO|[47]
@@ -15,8 +15,8 @@ Name=Alela
 1 Chart a Course|FDN|[586]
 1 Cloudseeder|tsr
 1 Coastal Tower|INV|[321]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Counterspell|DMR|[281]
 1 Dictate of Heliod|PIO|[11]
 1 Encrust|m15
@@ -41,7 +41,7 @@ Name=Alela
 1 Isolated Chapel|DMR|[397]
 1 Lady of Laughter|woe
 1 Letter of Acceptance|cmm
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Malleable Impostor|woc
 1 Memorial to Genius|J25|[771]
 1 Merciless Eviction|onc
@@ -52,9 +52,9 @@ Name=Alela
 1 Nurturing Pixie|otj
 1 Obyra, Dreaming Duelist|woe
 1 Oona, Queen of the Fae|woc
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 6 Plains|INR|[288]
-1 Port Town|TRC|[393]
+1 Port Town|M3C|[364]
 1 Pristine Talisman|c21
 1 Puppeteer Clique|ECC|[84]
 1 Scion of Oona|woc
@@ -69,12 +69,12 @@ Name=Alela
 1 Sprite Noble|J25|[365]
 1 Stingblade Assassin|woe
 5 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Talion, the Kindly Lord|woe
 1 Talion's Messenger|woe
-1 Talisman of Progress|TRC|[508]
-1 Talisman of Hierarchy|TRC|[506]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Progress|FRC|[64]
+1 Talisman of Hierarchy|SOC|[358]
+1 Talisman of Dominance|FRC|[62]
 1 Tegwyll, Duke of Splendor|woc
 1 Temple of the False God|SCG|[143]
 1 Threadbind Clique|woe

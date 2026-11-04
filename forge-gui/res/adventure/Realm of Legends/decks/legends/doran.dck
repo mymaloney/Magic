@@ -3,7 +3,7 @@ Name=Doran, the Siege Tower
 [Commander]
 1 Doran, the Siege Tower|2X2|[201]
 [Main]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Wave of Reckoning|MMQ|[56]
 1 Weathered Sentinels|TDC
 1 Swords to Plowshares|DMR|[275]
@@ -14,7 +14,7 @@ Name=Doran, the Siege Tower
 1 Abzan Beastmaster|FRF
 1 Arasta of the Endless Web|TDC|[244]
 1 Arboreal Grazer|RVR|[343]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Armadillo Cloak|INV
 1 Assault Formation|TDC|[246]
 1 Bedrock Tortoise|LCI
@@ -25,7 +25,7 @@ Name=Doran, the Siege Tower
 1 Catapult Fodder|DBL|[366]
 1 Colfenor, the Last Yew|CMR
 1 Colfenor's Urn|TDC|[315]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Dauntless Dourbark|LRW
 1 Deceptive Landscape|TDC|[356]
 1 Despark|FRC|[50]
@@ -53,7 +53,7 @@ Name=Doran, the Siege Tower
 1 Oathsworn Giant|RAV
 1 Orchard Warden|MOR
 1 Overgrown Tomb|RVR|[407]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 5 Plains|INR|[288]
 1 Sol Ring|LEB|[270]

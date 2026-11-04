@@ -6,7 +6,7 @@ Name=Syr Konrad
 1 Abhorrent Overlord|PIO|[289]
 1 Accursed Marauder|mh3
 1 Angel of Suffering|snc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Baleful Mastery|otc
 1 Basilisk Collar|FDC|[246]
 1 Black Market Connections|lcc
@@ -32,7 +32,7 @@ Name=Syr Konrad
 1 Infernal Grasp|INR|[385]
 1 Jet Medallion|TMP|[292]
 1 Leaden Myr|SOM|[170]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Malakir Rebirth|znr
 1 Massacre Girl|RVR|[328]
 1 Massacre Wurm|FDN|[714]
@@ -42,13 +42,13 @@ Name=Syr Konrad
 1 Mind Stone|DMR|[385]
 1 Mindcrank|CLB|[866]
 1 Mire Triton|FDC|[115]
-1 Darksteel Plate|TRC|[341]
+1 Darksteel Plate|2X2|[304]
 1 Morality Shift|jud
 1 Mortuary Mire|J22|[817]
 1 Murderous Rider|DRC|[45]
 1 Myr Retriever|FDC|[274]
 1 Myriad Landscape|EOC|[169]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Phyrexian Arena|APC|[47]
 1 Plaguecrafter|BLC|[187]
 1 Ravenous Chupacabra|MKC|[136]
@@ -61,7 +61,7 @@ Name=Syr Konrad
 1 Stinkweed Imp|TSR|[332]
 1 Stitcher's Supplier|TDC|[196]
 33 Swamp|INR|[292]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Throne of Eldraine|woc
 1 Commander's Plate|cmr
 1 Toxic Deluge|MH3|[412]

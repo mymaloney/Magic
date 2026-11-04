@@ -4,7 +4,7 @@ Name=Ragavan
 1 Ragavan, Nimble Pilferer|H2R|[11]
 [Main]
 1 Access Tunnel|TDC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Yavimaya Steelcrusher|DMU
 1 Clockwork Percussionist|DSK
 1 Ravenous Baboons|EXO
@@ -21,7 +21,7 @@ Name=Ragavan
 1 Brass Knuckles|CMM|[372]
 1 Break Through the Line|FRF
 1 Cathedral of War|M13
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Count on Luck|DFT
 1 Crawlspace|DMR
 1 Explorer's Scope|CMM
@@ -53,7 +53,7 @@ Name=Ragavan
 1 Prismatic Lens|OTC
 1 Rage Reflection|2XM|[139]
 1 Rogue's Gloves|JMP
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Gemcutter Buccaneer|LCC
 1 Goblin Tomb Raider|LCI
 1 Jade-Cast Sentinel|TDM

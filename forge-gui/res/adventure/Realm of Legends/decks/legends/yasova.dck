@@ -3,7 +3,7 @@ Name=Yasova
 [Commander]
 1 Yasova Dragonclaw|FRF
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Barkchannel Pathway|KHM
 1 Blackblade Reforged|DMC|[178]
 1 Bloodshot Cyclops|UDS|[77]
@@ -20,7 +20,7 @@ Name=Yasova
 1 Captivating Crew|OTC|[159]
 1 Champion's Helm|CMM
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conjurer's Closet|INR|[441]
 1 Copperline Gorge|BLC|[301]
 1 Cragcrown Pathway|ZNR
@@ -31,9 +31,9 @@ Name=Yasova
 1 Dreamroot Cascade|SOS|[254]
 1 Eternal Witness|TSR|[361]
 1 Evolutionary Leap|TSR|[362]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Exploration|DMR|[339]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Farseek|RVR|[347]
 6 Forest|INR|[296]
 1 Frontier Bivouac|ECC|[150]
@@ -70,7 +70,7 @@ Name=Yasova
 1 Soul's Fire|CMR
 1 Sower of Temptation|WOC|[111]
 1 Sulfur Falls|DMR|[400]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tamiyo's Safekeeping|FDC|[233]
 1 Temple of Abandon|TDC|[400]
 1 Temple of Epiphany|SOC|[412]
@@ -78,7 +78,7 @@ Name=Yasova
 1 Temur Ascendancy|TSR|[387]
 1 Temur Battle Rage|TSR|[351]
 1 Temur Charm|C20|[230]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thud|M19
 1 Transmogrify|M21
 1 Trap Essence|KTK

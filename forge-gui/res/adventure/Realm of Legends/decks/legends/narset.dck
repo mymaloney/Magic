@@ -3,9 +3,9 @@ Name=Narset
 [Commander]
 1 Narset, Enlightened Master|KTK
 [Main]
-1 Talisman of Progress|TRC|[508]
-1 Talisman of Conviction|TRC|[503]
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Progress|FRC|[64]
+1 Talisman of Conviction|SOC|[428]
+1 Talisman of Creativity|FRC|[61]
 1 Cori-Steel Cutter|TDM
 1 Narset's Reversal|TDC
 1 Narset Transcendent|PIO|[355]
@@ -15,17 +15,17 @@ Name=Narset
 1 Narset, Enlightened Exile|MAT
 1 Aminatou's Augury|DSC|[71]
 1 Aqueous Form|PIO|[45]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Aurelia, the Warleader|FDN|[651]
 1 Elsha, Threefold Master|TDC
 1 Sage of the Inward Eye|KTK
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Boros Charm|FDN|[721]
 1 Brainstorm|MMQ|[61]
 1 Chandra, Pyromaster|E01|[42]
 1 Clone Legion|NCC|[215]
 1 Coastal Tower|INV
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Complete the Circuit|MOM
 1 Preordain|TDC
 1 Expressive Iteration|SOC|[309]
@@ -48,11 +48,11 @@ Name=Narset
 1 Monastery Swiftspear|TSR|[349]
 8 Mountain|INR|[294]
 1 Myriad Landscape|EOC|[169]
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Niveous Wisps|SHM
 1 Ojutai's Command|DTK
 1 Opt|INV
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Peek|ODY
 6 Plains|INR|[288]
 1 Quiet Contemplation|KTK
@@ -60,7 +60,7 @@ Name=Narset
 1 Inspired Ultimatum|IKO|[191]
 1 Jeskai Revelation|TDM
 1 Repulse|INV
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sandstone Bridge|J22|[819]
 1 Savage Beating|CMM|[252]
 1 Seize the Day|ODY

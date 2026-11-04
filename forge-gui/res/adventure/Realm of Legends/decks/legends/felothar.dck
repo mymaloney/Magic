@@ -4,11 +4,11 @@ Name=Felothar the Steadfast
 1 Felothar the Steadfast|TDC
 [Main]
 1 Access Tunnel|TDC
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Arasta of the Endless Web|TDC
 1 Arbor Adherent|TDC
 1 Arboreal Grazer|RVR|[343]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assault Formation|TDC|[246]
 1 Axebane Guardian|TDC
 1 Baldin, Century Herdmaster|TDC
@@ -16,15 +16,15 @@ Name=Felothar the Steadfast
 1 Behind the Scenes|TDC
 1 Canopy Vista|TDC
 1 Catapult Fodder|DBL|[366]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crashing Drawbridge|TDC
 1 Deceptive Landscape|TDC
 1 Delney, Streetwise Lookout|MKM
 1 Despark|FRC|[50]
 1 Dusk|DRC|[65]
 1 Eerie Ultimatum|IKO
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Expel the Interlopers|TDC
 1 Fecund Greenshell|BLB
 1 Fell the Mighty|MKC|[65]
@@ -34,20 +34,20 @@ Name=Felothar the Steadfast
 1 Haunted Mire|SOC|[379]
 1 Isolated Chapel|DMR|[397]
 1 Jaws of Defeat|TDC
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Mirari's Wake|JUD|[139]
 1 Mother of Runes|ULG
 1 Nature's Lore|DMR|[346]
 1 Nethroi, Apex of Death|DMC|[163]
 1 Ohran Frostfang|SOC|[279]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Overgrown Battlement|TDC
 1 Overgrown Farmland|FRA|[185]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 7 Plains|INR|[288]
 1 Rampart Architect|TDC
 1 Reconnaissance|EXO
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Resolute Watchdog|RNA
 1 Reunion of the House|TDC
 1 Sandsteppe Citadel|ECC|[164]
@@ -62,7 +62,7 @@ Name=Felothar the Steadfast
 1 Sunpetal Grove|TDC
 1 Path to Exile|TSR|[299]
 6 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Sylvan Caryatid|TDC
 1 Tadeas, Juniper Ascendant|SLX

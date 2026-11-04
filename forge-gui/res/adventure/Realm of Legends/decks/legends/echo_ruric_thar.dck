@@ -6,14 +6,14 @@ Name=Ruric Thar, Biomagus
 1 An Offer You Can't Refuse|fdn
 1 Aqueous Form|PIO|[45]
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Brainstorm|MMQ|[61]
 1 Burnished Hart|fdn
 1 Cerulean Wisps|shm
 1 Chase Inspiration|sos
 1 Chilling Trap|j25
 1 Collective Restraint|inv
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Consider|TDC|[148]
 1 Consign to Memory|mh3
 1 Counterspell|DMR|[281]
@@ -41,12 +41,12 @@ Name=Ruric Thar, Biomagus
 1 Mind Stone|DMR|[385]
 1 Miscast|m21
 1 Mizzium Skin|PIO|[64]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Noggle the Mind|ecl
 1 Peek|ODY|[91]
 1 Propaganda|TMP|[80]
 1 Rapid Hybridization|soc
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sapphire Charm|mir
 1 Sapphire Medallion|TMP|[306]
 1 Scour for Scrap|eoe
@@ -56,7 +56,7 @@ Name=Ruric Thar, Biomagus
 1 Sol Ring|LEB|[270]
 1 Stream of Unconsciousness|mor
 1 Swan Song|eoc
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Take the Fall|otj
 1 The Mycosynth Gardens|eoc
 1 The Stasis Coffin|bro
@@ -66,4 +66,4 @@ Name=Ruric Thar, Biomagus
 1 Burnished Hart|FDN|[250]
 1 Tune the Narrative|mh3
 1 Visions of Beyond|uma
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]

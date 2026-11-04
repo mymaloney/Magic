@@ -3,10 +3,10 @@ Name=Grumgully
 [Commander]
 1 Grumgully, the Generous|BLC|[253]
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Acidic Slime|M3C|[218]
 1 Akki Battle Squad|nec
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Hardened Scales|SOC|[272]
 1 Rhythm of the Wild|rvr
 1 Beast Within|TSR|[357]
@@ -23,14 +23,14 @@ Name=Grumgully
 1 Carnivorous Canopy|one
 1 Chishiro, the Shattered Blade|nec
 1 Colossadactyl|lci
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Dance of the Tumbleweeds|otj
 1 Deathmist Raptor|dsc
 1 Domri, Anarch of Bolas|BLC|[98]
 1 Elvish Regrower|fdn
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fertilid|MOC|[296]
 14 Forest|INR|[296]
 1 Forgotten Ancient|DMR|[341]
@@ -57,20 +57,20 @@ Name=Grumgully
 1 Renata, Called to the Hunt|THB|[196]
 1 Return of the Wildspeaker|ECC|[115]
 1 Roaring Earth|neo
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rugged Highlands|TDM|[265]
 1 Scavenging Ooze|FDC|[227]
 1 Snakeskin Veil|TDM|[159]
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Stocking the Pantry|blb
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of Vengeance|BLB|[395]
 1 Sylvan Scavenging|fdn
 1 Talisman of Impulse|TDC|[332]
 1 Taurean Mauler|TDC|[238]
-1 Terramorphic Expanse|TRC|[571]
-1 Thrill of Possibility|TRC|[455]
+1 Terramorphic Expanse|SOS|[265]
+1 Thrill of Possibility|FDC|[180]
 1 Thriving Bluff|ECC|[170]
 1 Thriving Grove|ECC|[171]
 1 Thundering Raiju|neo

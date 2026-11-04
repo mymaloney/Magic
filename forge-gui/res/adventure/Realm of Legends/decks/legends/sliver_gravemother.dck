@@ -3,7 +3,7 @@ Name=Sliver Gravemother
 [Commander]
 1 Sliver Gravemother|cmm
 [Main]
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Arid Mesa|mh2
 1 Assassin's Trophy|SOC|[294]
 1 Austere Command|FDC|[18]
@@ -34,13 +34,13 @@ Name=Sliver Gravemother
 1 Cloudshredder Sliver|TSR|[373]
 1 Singularity Rupture|eoe
 1 Cleansing Nova|FDC|[20]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Confounding Riddle|lci
 1 Sol Ring|LEB|[270]
 1 Diresight|blb
 1 Dregscape Sliver|mh1
 1 Eerie Ultimatum|iko
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Firewake Sliver|TSR|[252]
 1 Flooded Strand|mh3
 1 Fury Sliver|tsr
@@ -64,7 +64,7 @@ Name=Sliver Gravemother
 1 Necrotic Sliver|AFC|[188]
 1 Wheel of Fortune|LEB|[184]
 1 Overgrown Tomb|RVR|[407]
-1 Painful Truths|TRC|[274]
+1 Painful Truths|ECC|[82]
 1 Patriarch's Bidding|ONS|[161]
 1 Pirate's Pillage|2x2
 1 Polluted Delta|mh3
@@ -87,7 +87,7 @@ Name=Sliver Gravemother
 1 Tainted Indulgence|snc
 1 Temple Garden|RVR|[414]
 1 Rise of the Dark Realms|fdn
-1 Thrill of Possibility|TRC|[455]
+1 Thrill of Possibility|FDC|[180]
 1 Command the Dreadhorde|war
 1 Two-Headed Sliver|TSR|[197]
 1 Verdant Catacombs|mh2

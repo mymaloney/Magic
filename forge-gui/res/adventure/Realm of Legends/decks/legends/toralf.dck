@@ -3,7 +3,7 @@ Name=Toralf
 [Commander]
 1 Toralf, God of Fury|khm
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Aether Flash|wth
 1 Arcane Lighthouse|SOC|[361]
 1 Banefire|J22|[495]
@@ -13,7 +13,7 @@ Name=Toralf
 1 Brash Taunter|DSC|[161]
 1 Browbeat|JUD|[82]
 1 Burn from Within|soi
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Chandra's Ignition|FDC|[145]
 1 Chandra's Incinerator|m21
 1 Chaos Warp|MBC|[72]
@@ -29,7 +29,7 @@ Name=Toralf
 1 Fiendlash|cmm
 1 Ill-Tempered Loner|DBL|[429]
 1 Star of Extinction|CMM|[259]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Shivan Meteor|tsr
 1 Hell to Pay|otj
 1 Fiery Confluence|LCC|[226]

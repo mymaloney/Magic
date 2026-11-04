@@ -6,7 +6,7 @@ Name=Marath
 1 Abzan Battle Priest|moc
 1 Abzan Falconer|moc
 1 Anointed Procession|akh
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 benevolent hydra|SOC|[124]
 1 bristly bill, spine sower|otj
 1 halana and alena, partners|FDN|[659]
@@ -24,7 +24,7 @@ Name=Marath
 1 bloom tender|ECL|[166]
 1 Champion of Lambholt|moc
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cryptolith Rite|INR|[408]
 1 Cultivate|SOC|[265]
 1 Doubling Season|FDN|[216]
@@ -50,7 +50,7 @@ Name=Marath
 1 Kalonian Hydra|BLC|[226]
 1 Kodama of the West Tree|j25
 1 Krosan Grip|c21
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Loyal Guardian|cmm
 1 terrasymbiosis|eoe
 6 Mountain|INR|[294]
@@ -67,7 +67,7 @@ Name=Marath
 1 Sacred Foundry|RVR|[409]
 1 Seedborn Muse|LGN|[138]
 1 Shalai, Voice of Plenty|TDC|[130]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Skyshroud Claim|NMS|[117]
 1 Sol Ring|LEB|[270]
 1 the great henge|CMM|[294]

@@ -4,7 +4,7 @@ Name=Harbin
 1 Harbin, Vanguard Aviator|bro
 [Main]
 1 An Offer You Can't Refuse|fdn
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archaeomancer's Map|SOC|[136]
 1 mirror entity|TSR|[297]
 1 Knight-Captain of eos|ala
@@ -25,7 +25,7 @@ Name=Harbin
 1 Chivalric Alliance|moc
 1 Coastal Piracy|mmq
 1 Combat Research|dmu
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cosmogrand Zenith|eoe
 1 Counterspell|DMR|[281]
 1 Court Street Denizen|cmr
@@ -38,7 +38,7 @@ Name=Harbin
 1 Elspeth, Storm Slayer|tdm
 1 Elspeth, Sun's Champion|FRC|[24]
 1 Esper Sentinel|H2R|[2]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Field Marshal|10e
 1 Firemane Commando|SOC|[145]
 1 Flare of Fortitude|mh3
@@ -49,7 +49,7 @@ Name=Harbin
 1 Guildless Commons|CMR|[351]
 1 Haazda Marshal|grn
 1 Hallowed Fountain|rvr
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 7 Island|INR|[290]
 1 Keeper of the Accord|mkc
 1 Kindred Discovery|lcc
@@ -60,18 +60,18 @@ Name=Harbin
 1 Narset's Reversal|TDC|[92]
 1 Odric, Master Tactician|cmm
 1 Ondu Inversion|ZNR|[30]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 8 Plains|INR|[288]
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Preeminent Captain|m15
 1 Reconnaissance|exo
 1 Reconnaissance Mission|woc
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Reverent Hoplite|THB|[33]
 1 Serra Redeemer|BLB|[387]
 1 Sink into Stupor|mh3
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Sol Ring|LEB|[270]
 1 Staggering Insight|scd
 1 Strix Serenade|mh3
@@ -80,7 +80,7 @@ Name=Harbin
 1 Swan Song|eoc
 1 Sword of the Animist|cmm
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Temple of Enlightenment|EOC|[186]
 1 Thalia, Heretic Cathar|inr
 1 Three Tree City|blb

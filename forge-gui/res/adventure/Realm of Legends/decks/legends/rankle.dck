@@ -4,7 +4,7 @@ Name=Rankle
 1 Rankle, Master of Pranks|OTC|[148]
 [Main]
 1 Access Tunnel|tdc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Asylum Visitor|inr
 1 Big Game Hunter|tsr
 1 Black Market|mmq
@@ -40,7 +40,7 @@ Name=Rankle
 1 Heraldic Banner|FDN|[254]
 1 Jadar, Ghoulcaller of Nephalia|SOC|[217]
 1 Jet Medallion|TMP|[292]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Liliana's Caress|m11
 1 Megrim|STH|[62]
 1 Mind Stone|DMR|[385]
@@ -48,7 +48,7 @@ Name=Rankle
 1 Mutilate|TOR|[73]
 1 Necrogoyf|mh2
 1 Nezumi Informant|mom
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Ophiomancer|SOC|[118]
 1 Oversold Cemetery|dmr
 1 Phyrexian Arena|APC|[47]
@@ -57,8 +57,8 @@ Name=Rankle
 1 Rankle's Prank|woe
 1 Read the Bones|TSR|[328]
 1 Reassembling Skeleton|tdc
-1 Reliquary Tower|TRC|[551]
-1 Rogue's Passage|TRC|[552]
+1 Reliquary Tower|SOC|[398]
+1 Rogue's Passage|SOC|[400]
 1 Sangromancer|j25
 1 Sign in Blood|FDC|[125]
 1 Sol Ring|LEB|[270]
@@ -70,6 +70,6 @@ Name=Rankle
 1 Toxic Deluge|mh3
 1 Victimize|MH3|[413]
 1 Waste Not|c16
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Witch's Cottage|FDC|[319]
 1 Withering Torment|FDC|[134]

@@ -3,7 +3,7 @@ Name=Laughing Jasper Flint
 [Commander]
 1 Laughing Jasper Flint|otj
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 At Knifepoint|otj
 1 Baleful Mastery|otc
 1 Bedevil|dsc
@@ -15,9 +15,9 @@ Name=Laughing Jasper Flint
 1 Grenzo, Crooked Jailer|yotj
 1 Impetuous Lootmonger|yotj
 1 Rankle, Master of Pranks|OTC|[148]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Wagon Wrecker|yotj
-1 Professional Face-Breaker|TRC|[291]
+1 Professional Face-Breaker|M3C|[216]
 1 Rakdos, the Muscle|otj
 1 Terminate|PLS|[128]
 1 Thieving Varmint|otc
@@ -27,15 +27,15 @@ Name=Laughing Jasper Flint
 1 Captive Audience|rna
 1 Changeling Outcast|OTC|[128]
 1 Coastline Marauders|cmr
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cruelclaw's Heist|blb
 1 Dauthi Voidwalker|MH2|[397]
 1 Dire Fleet Daredevil|otc
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Dust Bowl|MMQ|[316]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Feed the Swarm|TDC|[180]
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 1 Forsaken Miner|otj
 1 Gisa, the Hellraiser|otj
 1 Gonti, Night Minister|dft
@@ -74,5 +74,5 @@ Name=Laughing Jasper Flint
 1 Vandalblast|TSR|[352]
 1 Varragoth, Bloodsky Sire|khm
 1 Vial Smasher, Gleeful Grenadier|otj
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Withering Torment|FDC|[134]

@@ -3,10 +3,10 @@ Name=Sheldon, the Commander
 [Commander]
 1 Ruhan of the Fomori|CMD|[221]
 [Main]
-1 Academy Ruins|TRC|[366]
+1 Academy Ruins|DRC|[58]
 1 Acidic Soil|USG
 1 Aether Flash|WTH|[88]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Aura Thief|UDS
 1 Azorius Locket|VOC|[160]
 1 Blasphemous Act|SOC|[238]
@@ -15,10 +15,10 @@ Name=Sheldon, the Commander
 1 Boros Fury-Shield|RAV
 1 Boros Reckoner|PIO|[208]
 1 Burnished Hart|FDN|[250]
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Clifftop Retreat|DMR|[393]
 1 Comeuppance|MKC|[58]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Confounding Conundrum|ZNR
 1 Copy Enchantment|RVR|[312]
 1 Coveted Jewel|BLC|[268]
@@ -30,7 +30,7 @@ Name=Sheldon, the Commander
 1 Gideon's Sacrifice|MKC|[68]
 1 Gilded Lotus|FDN|[725]
 1 Gisela, Blade of Goldnight|MKC|[211]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Hallowed Fountain|RVR|[404]
 1 Hedron Archive|TSR|[395]
 1 Hibernation|USG|[79]
@@ -50,13 +50,13 @@ Name=Sheldon, the Commander
 1 Mistveil Plains|SOC|[386]
 8 Mountain|INR|[294]
 1 Mountain|INR|[294]
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Parallectric Feedback|GPT
 1 Phyrexian Metamorph|EOC|[75]
 1 Phyrexian Vindicator|ONE|[300]
 5 Plains|INR|[288]
 1 Powerstone Minefield|APC
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Public Enemy|SNC
 1 Raugrin Triome|IKO|[311]
 1 Reflect Damage|MIR
@@ -65,12 +65,12 @@ Name=Sheldon, the Commander
 1 Reins of Power|STH
 1 Reiterate|TSR|[182]
 1 Relic of Legends|DMU
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Repercussion|UDS
 1 Reverse Damage|LEB|[36]
 1 Rhystic Study|PCY
 1 Rod of Absorption|AFC
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sacred Foundry|RVR|[409]
 1 Settle the Wreckage|XLN
 1 Sol Ring|LEB|[270]
@@ -82,7 +82,7 @@ Name=Sheldon, the Commander
 1 Teferi's Protection|2X2|[32]
 1 The Wanderer|WAR
 1 Thought Sponge|C19
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Vesuva|M3C|[404]
 1 Viashino Heretic|ULG
 1 Windborn Muse|DMR|[415]

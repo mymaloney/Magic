@@ -4,7 +4,7 @@ Name=Child of Alara
 1 Child of Alara|2X2|[192]
 [Main]
 1 Altar of the Pantheon|thb
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assassin's Trophy|SOC|[294]
 1 Athreos, God of Passage|PIO|[303]
 1 Athreos, Shroud-Veiled|DSC|[212]
@@ -12,7 +12,7 @@ Name=Child of Alara
 1 Cacophony Unleashed|cmm
 1 Calix, Destiny's Hand|THB|[211]
 1 Chromatic Lantern|rvr
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Cultivate|SOC|[265]
 1 Darksteel Ingot|PIO|[254]
@@ -21,9 +21,9 @@ Name=Child of Alara
 1 Eidolon of Blossoms|woc
 1 Ephara, God of the Polis|PIO|[305]
 1 Erebos, God of the Dead|PIO|[291]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
-1 Wayfarer's Bauble|TRC|[511]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
+1 Wayfarer's Bauble|TDC|[335]
 1 Farseek|rvr
 4 Forest|INR|[296]
 1 Ziatora's Proving Ground|snc
@@ -65,13 +65,13 @@ Name=Child of Alara
 2 Swamp|INR|[292]
 1 Sylvan Caryatid|TDC|[272]
 1 Sphere of Safety|RVR|[447]
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Reshape the Earth|cmr
 1 Privileged Position|2x2
 1 Overwhelming Splendor|hou
 1 Captive Audience|rna
 1 Eerie Ultimatum|iko
-1 Ruinous Ultimatum|TRC|[329]
+1 Ruinous Ultimatum|IKO|[204]
 1 Sphere of Safety|RVR|[447]
 1 Torment of Hailfire|hou
 1 Magister Sphinx|2X2|[247]
@@ -81,13 +81,13 @@ Name=Child of Alara
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of Epiphany|SOC|[412]
 1 Temple of Malady|SOC|[413]
-1 Temple of Malice|TRC|[410]
+1 Temple of Malice|FDN|[701]
 1 Temple of Mystery|SOC|[414]
 1 Temple of Plenty|TDC|[405]
 1 Temple of Silence|SOC|[415]
 1 Temple of the False God|SCG|[143]
 1 Temple of Triumph|SOC|[417]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thassa, God of the Sea|PIO|[288]
 1 The World Tree|khm
 1 Wildsear, Scouring Maw|blc

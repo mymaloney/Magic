@@ -24,14 +24,14 @@ Name=Omarthis
 1 Cauldron of Souls|CM2
 1 Chronomaton|DDM
 1 Circuit Mender|BLC|[267]
-1 Command Beacon|TRC|[373]
+1 Command Beacon|TDC|[352]
 1 Commander's Plate|CMR
 1 Darksteel Citadel|FDC|[300]
 1 Environmental Sciences|STX
 1 Everflowing Chalice|TSR|[394]
 1 Field of the Dead|M20
 1 Forge of Heroes|C18|[58]
-1 Forsaken Monument|TRC|[343]
+1 Forsaken Monument|FDC|[258]
 1 Foundry Inspector|FDC|[259]
 1 Geier Reach Sanitarium|FDC|[303]
 1 Hangarback Walker|SOC|[348]
@@ -44,7 +44,7 @@ Name=Omarthis
 1 Karn's Bastion|RVR|[464]
 1 Kozilek, Butcher of Truth|2X2
 1 Liberator, Urza's Battlethopter|BRO
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Mage-Ring Network|C21|[300]
 1 Matter Reshaper|OGW|[6]
 1 Mikokoro, Center of the Sea|DMC
@@ -59,8 +59,8 @@ Name=Omarthis
 1 Null Elemental Blast|MH3
 1 Palladium Myr|FDC|[278]
 1 Patchwork Automaton|J25|[757]
-1 Reliquary Tower|TRC|[551]
-1 Rogue's Passage|TRC|[552]
+1 Reliquary Tower|SOC|[398]
+1 Rogue's Passage|SOC|[400]
 1 Ruins of Oran-Rief|M3C|[370]
 1 Sanctum of Ugin|BFZ
 1 Scour from Existence|BFZ
@@ -73,11 +73,11 @@ Name=Omarthis
 1 Solemn Simulacrum|TSR|[400]
 1 Staff of Compleation|TDC|[326]
 1 Steel Overseer|EOC|[144]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of Truth and Justice|H1R|[32]
 1 The Ozolith|IKO
 1 Thespian's Stage|RVR|[466]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thran Dynamo|UDS|[139]
 1 Throne of Geth|2XM
 1 Titan's Presence|J22|[749]
@@ -97,5 +97,5 @@ Name=Omarthis
 1 War Room|SOC|[422]
 1 Warping Wail|M3C|[162]
 5 Wastes|TSR|[410]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Zhalfirin Void|AFC

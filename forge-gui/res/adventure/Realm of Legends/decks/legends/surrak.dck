@@ -6,7 +6,7 @@ Name=Surrak
 1 Herd Heirloom|TDM
 1 Rattleclaw Mystic|KTK
 1 Aetherspouts|MIC|[97]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Blasphemous Act|SOC|[238]
 1 Bleeding Woods|DSK
 1 Boltwave|FDN
@@ -16,7 +16,7 @@ Name=Surrak
 1 Chaos Maw|HOU
 1 Temur War Shaman|DSC|[200]
 1 Coiling Oracle|RVR|[361]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crater Hellion|USG|[179]
 1 Savage Knuckleblade|KTK
 1 Dreamroot Cascade|SOS|[254]
@@ -27,7 +27,7 @@ Name=Surrak
 1 Fog|MIR|[216]
 5 Forest|INR|[296]
 1 Frontier Bivouac|ECC|[150]
-1 Frostboil Snarl|TRC|[383]
+1 Frostboil Snarl|SOC|[374]
 1 Game Trail|BLC|[306]
 1 Garruk's Uprising|ECC|[109]
 1 Giant Adephage|DSC|[179]
@@ -82,7 +82,7 @@ Name=Surrak
 1 Temur Ascendancy|TSR|[387]
 1 Temur Battlecrier|TDM
 1 Thornwood Falls|TDM|[269]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Ureni, the Song Unending|TDM
 1 Tuktuk Rubblefort|ZNR
 1 Whisperwood Elemental|PIO|[200]

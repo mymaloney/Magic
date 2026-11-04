@@ -6,7 +6,7 @@ Name=Depala, Pilot Exemplar
 1 Act on Impulse|J22
 1 Aerial Surveyor|NEC
 1 Aethershield Artificer|J22
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Astor, Bearer of Blades|DMU
 1 Battlefield Forge|APC|[139]
 1 Boros Charm|FDN|[721]
@@ -14,22 +14,22 @@ Name=Depala, Pilot Exemplar
 1 Built to Last|J22
 1 Buried Ruin|EOC
 1 Castle Embereth|TDC|[347]
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Chaos Warp|MBC|[72]
 1 Chief of the Foundry|FDC|[249]
 1 Condemn|RVR
 1 Country Roads|DFT
 1 Crush Contraband|SCD|[16]
 1 Digsite Engineer|BRC|[71]
-1 Dispatch|TRC|[421]
+1 Dispatch|EOC|[64]
 1 Duergar Hedge-Mage|MOC
 1 Dwarven Hold|FEM
 1 Dwarven Mine|ELD
 1 Dwarven Recruiter|ODY
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Forgotten Cave|ONS|[317]
 1 Foundry Inspector|FDC|[259]
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Gearshift Ace|KLD
 1 Magda, Brazen Outlaw|KHM
 1 Guidelight Matrix|DFT
@@ -48,7 +48,7 @@ Name=Depala, Pilot Exemplar
 1 Reckless Crew|KHM
 1 Reckoner Bankbuster|NEO
 1 Refurbish|KLD
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Renegade Wheelsmith|AER
 1 Restoration Specialist|AER
 1 Rocky Roads|DFT
@@ -65,11 +65,11 @@ Name=Depala, Pilot Exemplar
 1 Sudden Salvation|VOC
 1 Sunhome, Fortress of the Legion|OTC
 1 Surgehacker Mech|NEO
-1 Swiftfoot Boots|TRC|[501]
-1 Tempered Steel|TRC|[241]
+1 Swiftfoot Boots|MBC|[77]
+1 Tempered Steel|BRC|[76]
 1 Temple of Triumph|SOC|[417]
-1 Terramorphic Expanse|TRC|[571]
-1 Thrill of Possibility|TRC|[455]
+1 Terramorphic Expanse|SOS|[265]
+1 Thrill of Possibility|FDC|[180]
 1 Tragic Arrogance|SOC|[182]
 1 Untethered Express|AER
 1 Veteran Motorist|KLD

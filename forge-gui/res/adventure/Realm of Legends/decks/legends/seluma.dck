@@ -12,7 +12,7 @@ Name=Seluma
 1 Aurelia, the Warleader|fdn
 1 Austere Command|FDC|[18]
 1 Patchwork Banner|SOC|[353]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Rienne, Angel of Rebirth|DMC|[166]
 1 Renegade Reaper|khm
 1 Paragon of Modernity|snc
@@ -36,9 +36,9 @@ Name=Seluma
 1 Empyrial Archangel|2x2
 1 Escape Tunnel|EOC|[157]
 1 Ethereal Valkyrie|khc
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Fellwar Stone|DRK|[102]
 1 Firemane Commando|soc
 2 Forest|INR|[296]
@@ -54,10 +54,10 @@ Name=Seluma
 1 Karmic Guide|ULG|[11]
 1 Key to the City|C21|[248]
 1 Liesa, Shroud of Dusk|cmr
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Liliana the Faultless|fra
 1 Linvala, Shield of Sea Gate|znr
-1 Loran of the Third Path|TRC|[229]
+1 Loran of the Third Path|BLC|[143]
 1 Lyra Dawnbringer|DMR|[266]
 1 Maelstrom Archangel|DMC|[158]
 1 Mana Confluence|jou
@@ -67,7 +67,7 @@ Name=Seluma
 1 Echoing Cavern|yecl
 1 Mutable Explorer|ecl
 1 Omni-Changeling|ecl
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 6 Plains|INR|[288]
 1 Prismatic Vista|H1R|[40]
 1 Restoration Seminar|sos
@@ -84,10 +84,10 @@ Name=Seluma
 3 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
 1 Tariel, Reckoner of Souls|2x2
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Unclaimed Territory|ECC|[175]
 1 Urza's Incubator|DMR|[392]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Weathered Wayfarer|ONS|[59]
 1 Witch Enchanter|mh3
 1 Worn Powerstone|USG|[318]

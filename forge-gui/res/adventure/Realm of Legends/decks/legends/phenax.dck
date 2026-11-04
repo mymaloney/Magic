@@ -6,7 +6,7 @@ Name=Phenax, God of Deception
 1 Animate Dead|LEB|[93]
 1 Aphetto Alchemist|ONS
 1 Arcane Denial|ALL
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arcanis the Omnipotent|DMR|[280]
 1 Aura of Dominion|CHK
 1 Body Double|CMM|[75]
@@ -31,7 +31,7 @@ Name=Phenax, God of Deception
 1 Illusionist's Bracers|RVR|[392]
 1 Imperious Mindbreaker|VOC
 20 Island|INR|[290]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 1 Temple of Deceit|DRC|[176]
 1 Watery Grave|RVR|[415]
 1 Isleback Spawn|SHM
@@ -46,7 +46,7 @@ Name=Phenax, God of Deception
 1 Mesmeric Orb|2XM|[272]
 1 Mind Grind|GTC
 1 Mizzium Skin|PIO|[64]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Nighthowler|PIO|[98]
 1 Pemmin's Aura|SCG
 1 Ruin Crab|ZNR
@@ -58,7 +58,7 @@ Name=Phenax, God of Deception
 1 Slagwurm Armor|TD2|[21]
 1 Sol Ring|LEB|[270]
 12 Swamp|INR|[292]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 The Haunt of Hightower|PLST|[RNA-273]
 1 Thousand-Year Elixir|C21|[271]
 1 Tidal Force|C13

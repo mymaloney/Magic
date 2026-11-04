@@ -3,7 +3,7 @@ Name=Bosh
 [Commander]
 1 Bosh, Iron Golem|c21
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Big Score|SOC|[237]
 1 Blasphemous Act|SOC|[238]
 1 Blinkmoth Urn|c18
@@ -36,7 +36,7 @@ Name=Bosh
 1 Jhoira's Familiar|2xm
 1 Junk Diver|UDS|[132]
 1 Kurkesh, Onakke Ancient|m15
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Metalwork Colossus|BRC|[147]
 1 Meteor Golem|FDN|[256]
 1 Mind Stone|DMR|[385]
@@ -75,7 +75,7 @@ Name=Bosh
 1 Triplicate Titan|drc
 1 Ugin, the Ineffable|M3C|[160]
 1 Ugin's Nexus|ktk
-1 Unwinding Clock|TRC|[359]
+1 Unwinding Clock|C18|[228]
 1 Urza's Cave|mh3
 1 Urza's Mine|ATQ|[83a]
 1 Urza's Power Plant|ATQ|[84a]

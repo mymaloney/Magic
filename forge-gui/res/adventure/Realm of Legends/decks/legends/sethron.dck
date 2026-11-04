@@ -14,9 +14,9 @@ Name=Sethron
 1 Cursed Minotaur|akh
 1 Deathbellow Raider|ths
 1 Deathbellow War Cry|thb
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Didgeridoo|hml
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Fanatic of Mogis|PIO|[295]
 1 Feed the Swarm|TDC|[180]
 1 Felhide Brawler|bng
@@ -53,7 +53,7 @@ Name=Sethron
 1 Neheb, the Eternal|MKC|[158]
 1 Neheb, the Worthy|akh
 1 Maelstrom Artisan|sos
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Rage Reflection|2xm
 1 Rage-Scarred Berserker|thb
 1 Rageblood Shaman|jmp
@@ -72,5 +72,5 @@ Name=Sethron
 1 Tahngarth, Talruum Hero|pls
 1 Talruum Piper|vis
 1 Terminate|PLS|[128]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Warstorm Surge|FDC|[186]

@@ -8,7 +8,7 @@ Name=Shanid, Sleepers' Scourge
 1 Alesha, Who Smiles at Death|TSR|[338]
 1 Ambition's Cost|FDC|[84]
 1 Anafenza, Kin-Tree Spirit|CMM|[11]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arvad the Cursed|MOC|[317]
 1 Ashling the Pilgrim|CMM|[205]
 1 Battlefield Forge|APC|[139]
@@ -22,16 +22,16 @@ Name=Shanid, Sleepers' Scourge
 1 Cadric, Soul Kindler|DMC|1
 1 Captain Lannery Storm|OTC|[158]
 1 Caves of Koilos|APC|[140]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Day of Destiny|DMC|1
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Drana, Liberator of Malakir|LCC|[193]
 1 Etali, Primal Storm|TSR|[342]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Faithless Looting|SOC|[244]
 1 Fellwar Stone|DRK|[102]
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 1 Garna, the Bloodflame|DMC|1
 1 Geier Reach Sanitarium|FDC|[303]
 1 Generous Gift|BLC|[106]
@@ -54,8 +54,8 @@ Name=Shanid, Sleepers' Scourge
 1 Mortify|TSR|[381]
 5 Mountain|INR|[294]
 1 Neheb, Dreadhorde Champion|DMC|1
-1 Night's Whisper|TRC|[446]
-1 Nomad Outpost|TRC|[544]
+1 Night's Whisper|SOC|[221]
+1 Nomad Outpost|TDM|[263]
 1 Odric, Lunarch Marshal|INR|[36]
 1 Oketra's Monument|DMC|1
 1 Orzhov Basilica|DRC|[164]
@@ -63,24 +63,24 @@ Name=Shanid, Sleepers' Scourge
 1 Primevals' Glorious Rebirth|DMC|1
 1 Rakdos Carnarium|ECC|[161]
 1 Read the Bones|TSR|[328]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Shivan Gorge|USG|[326]
 1 Shizo, Death's Storehouse|DMC|1
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 5 Swamp|INR|[292]
 1 Sword of the Chosen|STH|[141]
 1 Tajic, Blade of the Legion|DMC|1
-1 Temple of Malice|TRC|[410]
+1 Temple of Malice|FDN|[701]
 1 Temple of Silence|SOC|[415]
 1 Temple of Triumph|SOC|[417]
 1 Tenza, Godo's Maul|DMC|1
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Teshar, Ancestor's Apostle|SOC|[180]
 1 The Circle of Loyalty|J22|[166]
 1 The Peregrine Dynamo|DMC|1
 1 The Reaver Cleaver|M3C|[217]
-1 Thrill of Possibility|TRC|[455]
+1 Thrill of Possibility|FDC|[180]
 1 Traxos, Scourge of Kroog|BRC|[170]
 1 Tyrite Sanctum|DMC|1
 1 Unbreakable Formation|RVR|[32]

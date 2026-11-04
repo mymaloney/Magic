@@ -13,7 +13,7 @@ Name=Vish Kal
 1 Castle Locthwain|FDC|[299]
 1 Caves of Koilos|APC|[140]
 1 Cling to Dust|thb
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consecrate|rna
 1 Cradle of Vitality|JMP|[98]
 1 Cruel Celebrant|LCC|[267]
@@ -37,7 +37,7 @@ Name=Vish Kal
 1 Kaya, Bane of the Dead|WAR|[231]
 1 Kaya's Ghostform|war
 1 Lampad of Death's Vigil|thb
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Memorial to Folly|TDC|[377]
 1 Mentor of the Meek|INR|[345]
 1 Mortify|tsr
@@ -48,7 +48,7 @@ Name=Vish Kal
 1 Oreskos Explorer|C21|[98]
 1 Orzhov Basilica|DRC|[164]
 1 Orzhov Cluestone|C15|[261]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Pharika's Spawn|thb
 1 Pitiless Pontiff|rna
 12 Plains|INR|[288]
@@ -59,15 +59,15 @@ Name=Vish Kal
 1 Salt Flats|tmp
 1 Sanitarium Skeleton|INR|[129]
 1 Serra Avatar|DMR|[272]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Shrine of Loyal Legions|MD1|[5]
 1 Sign in Blood|FDC|[125]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Skyblinder Staff|gtc
 1 Sol Ring|LEB|[270]
 1 Stinging Study|c21
 12 Swamp|INR|[292]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Teysa, Orzhov Scion|RVR|[386]
 1 Thalisse, Reverent Medium|TDC|[306]
 1 Transguild Promenade|CMR|[499]

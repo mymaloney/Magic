@@ -18,11 +18,11 @@ Kenrith, the Returned King|eld
 1 Bloodstained Mire|MH3|[435]
 1 Polluted Delta|MH3|[438]
 1 Wooded Foothills|MH3|[441]
-1 Command Tower|TRC|[521]
-1 Path of Ancestry|TRC|[545]
+1 Command Tower|FRC|[22]
+1 Path of Ancestry|MBC|[80]
 1 City of Brass|ARN|[71]
 1 Throne of the High City|MKC|[307]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Castle Vantress|DSC|[267]
 1 Castle Locthwain|FDC|[299]
 1 Castle Garenbrig|eld
@@ -35,7 +35,7 @@ Kenrith, the Returned King|eld
 2 Plains|INR|[288]
 1 Mana Confluence|JOU|[163]
 1 Sol Ring|LEB|[270]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Nature's Lore|dmr
 1 Three Visits|SOC|[289]
 1 Sanctum Weaver|WOC|[131]
@@ -71,11 +71,11 @@ Kenrith, the Returned King|eld
 1 Happily Ever After|eld
 1 Propaganda|TMP|[80]
 1 Ghostly Prison|SOC|[146]
-1 Lightning Greaves|TRC|[496]
-1 Swiftfoot Boots|TRC|[501]
+1 Lightning Greaves|SOC|[350]
+1 Swiftfoot Boots|MBC|[77]
 1 Teferi's Protection|2x2
 1 Kenrith's Transformation|FDC|[212]
-1 Ruinous Ultimatum|TRC|[329]
+1 Ruinous Ultimatum|IKO|[204]
 1 Eerie Ultimatum|iko
 1 Emergent Ultimatum|iko
 1 Serra's Emissary|FRC|[32]

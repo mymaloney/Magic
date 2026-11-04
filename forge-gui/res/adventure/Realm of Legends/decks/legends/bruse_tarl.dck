@@ -23,12 +23,12 @@ Name=Bruse
 1 Charging Cinderhorn|c16
 1 Clifftop Retreat|DMR|[393]
 1 Cloudshift|JMP|[97]
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Dalkovan Packbeasts|tdm
 1 Earth-Origin Yak|gs1
 1 Echoing Assault|blc
 1 Enduring Innocence|dsk
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Faithless Looting|SOC|[244]
 1 Fellwar Stone|DRK|[102]
 1 Firdoch Core|ecl
@@ -55,7 +55,7 @@ Name=Bruse
 1 Purphoros's Emissary|PIO|[152]
 1 Raging Bull|leg
 1 Restless Bivouac|woe
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rooftop Percher|ecl
 1 Rootborn Defenses|clu
 1 Rumor Gatherer|CLB|[705]
@@ -68,10 +68,10 @@ Name=Bruse
 1 Liberated Livestock|woc
 1 Adaptive Automaton|fdn
 1 Metallic Mimic|inr
-1 Shared Animosity|TRC|[295]
-1 Command Tower|TRC|[521]
+1 Shared Animosity|LCC|[231]
+1 Command Tower|FRC|[22]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Taurean Mauler|tdc
 1 Three Tree Mascot|FDN|[682]
 1 Transmogrifying Wand|M19|[247]

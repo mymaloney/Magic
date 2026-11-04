@@ -3,7 +3,7 @@ Name=Kethek
 [Commander]
 1 Kethek, Crucible Goliath|ONE
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ayara, Widow of the Realm|MOM
 1 Bloody Betrayal|DBL|[414]
 1 Body Launderer|SNC
@@ -19,16 +19,16 @@ Name=Kethek
 1 Captivating Crew|OTC
 1 Charcoal Diamond|MIR
 1 Claim the Firstborn|ELD
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Disciple of Bolas|TDC|[178]
 1 Dockside Chef|NEO
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Everflowing Chalice|TSR|[394]
 1 Exterminator Magmarch|M3C
 1 Feed the Swarm|TDC|[180]
 1 Fellwar Stone|DRK|[102]
 1 Fire Diamond|MIR
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 1 Fractured Powerstone|MOC
 1 Furnace Reins|MOM
 1 Goblin Bombardment|TMP|[179]
@@ -50,7 +50,7 @@ Name=Kethek
 1 Morbid Opportunist|INR|[388]
 15 Mountain|INR|[294]
 1 Necrogen Communion|ONE
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Nightmare Shepherd|DSC|[149]
 1 Pack's Betrayal|DBL|[153]
 1 Pawn of Ulamog|SOC|[223]
@@ -62,16 +62,16 @@ Name=Kethek
 1 Read the Bones|TSR|[328]
 1 Rekindling Phoenix|NCC
 1 Rise of the Dark Realms|FDN|[183]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Sign in Blood|FDC|[125]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Song-Mad Treachery|ZNR
 14 Swamp|INR|[292]
 1 Tainted Peak|TOR|[142]
-1 Talisman of Indulgence|TRC|[507]
-1 Temple of Malice|TRC|[410]
+1 Talisman of Indulgence|FRC|[63]
+1 Temple of Malice|FDN|[701]
 1 Traitorous Greed|M21
 1 Twisted Fealty|WOE
 1 Viscera Seer|SOC|[229]

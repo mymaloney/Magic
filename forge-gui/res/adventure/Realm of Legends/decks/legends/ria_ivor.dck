@@ -5,7 +5,7 @@ Name=Ria Ivor, Bane of Bladehold
 [Main]
 1 All That Glitters|CMM
 1 Anoint with Affliction|ONE
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arcbound Condor|MH3
 1 Austere Command|FDC|[18]
 1 Blade Splicer|BLC|[136]
@@ -16,7 +16,7 @@ Name=Ria Ivor, Bane of Bladehold
 1 Blood Artist|INR|[372]
 1 Bojuka Bog|TSR|[406]
 1 Caves of Koilos|APC|[140]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Corrupted Conviction|OTJ|[84]
 1 Cranial Plating|TSR|[392]
 1 Darksteel Mutation|SOC|[142]
@@ -27,7 +27,7 @@ Name=Ria Ivor, Bane of Bladehold
 1 Eldrazi Monument|M3C
 1 Suture Priest|MOC
 1 Essence of Orthodoxy|MOM
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fracture|SOC|[310]
 1 Generous Gift|BLC|[106]
 1 Glaring Fleshraker|MH3
@@ -53,22 +53,22 @@ Name=Ria Ivor, Bane of Bladehold
 1 Myriad Landscape|EOC|[169]
 1 Nadier's Nightblade|BLC|[184]
 1 Nettlecyst|FDC|[275]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Organic Extinction|EOC|[66]
 1 Oubliette|ARN|[31]
 11 Plains|INR|[288]
 1 Restless Fortress|WOE
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rumor Gatherer|CLB|[705]
 1 Sculpting Steel|MOC
 1 Sheltered by Ghosts|SOC|[171]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Sol Ring|LEB|[270]
 10 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Syr Ginger, the Meal Ender|WOE
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Tarrian's Soulcleaver|LCI
 1 Temple of Silence|SOC|[415]
 1 The Mycosynth Gardens|EOC|[168]

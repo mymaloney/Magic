@@ -5,14 +5,14 @@ Name=Hakbal of the Surging Soul
 [Main]
 1 Aetherize|RVR|[448]
 1 Alchemist's Refuge|SOC|[360]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Beast Within|TSR|[357]
 1 Benthic Biomancer|LCC|1
 1 Branching Evolution|MH3|[285]
 1 Bygone Marvels|LCC|2
 1 Cold-Eyed Selkie|OTC|[218]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Commit|LCC|1
 1 Coralhelm Commander|LCC|1
 1 Curse of the Swine|SOC|[192]
@@ -47,16 +47,16 @@ Name=Hakbal of the Surging Soul
 1 Mosswort Bridge|TDC|[379]
 1 Myriad Landscape|EOC|[169]
 1 Nicanzil, Current Conductor|LCI|1
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Prime Speaker Zegana|RVR|[377]
 1 Quandrix Command|SOC|[325]
 1 Rapid Hybridization|SOC|[198]
 1 Ravenform|LCC|1
 1 Realmwalker|ECC|[114]
 1 Reflections of Littjara|TDC|[164]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Ripples of Potential|EOC|[77]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Ruinous Intrusion|LCC|1
 1 Sage of Fables|LCC|1
 1 Seafloor Oracle|LCC|1
@@ -69,7 +69,7 @@ Name=Hakbal of the Surging Soul
 1 Stonybrook Banneret|LCC|1
 1 Surgespanner|LCC|1
 1 Svyelun of Sea and Sky|MH2|[393]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tatyova, Benthic Druid|DMR|[371]
 1 Temple of Mystery|SOC|[414]
 1 Temple of the False God|SCG|[143]

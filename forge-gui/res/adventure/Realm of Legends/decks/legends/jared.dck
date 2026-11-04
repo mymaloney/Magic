@@ -4,7 +4,7 @@ Name=Jared
 1 Jared Carthalion|dmc
 [Main]
 1 Ancient Tomb|tmp
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Primeval Spawn|dmc
 1 Tam, Mindful First-Year|ecl
 1 Coalition Victory|inv
@@ -24,7 +24,7 @@ Name=Jared
 1 Yidris, Maelstrom Wielder|c16
 1 City of Brass|ARN|[71]
 1 Invasion of Alara|mom
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cultivate|SOC|[265]
 1 Cyclonic Rift|rvr
 1 Darksteel Mutation|SOC|[142]
@@ -32,7 +32,7 @@ Name=Jared
 1 Deflecting Swat|cmm
 1 Disenchant|MMQ|[18]
 1 Esper Sentinel|H2R|[2]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Faeburrow Elder|ECC|[53]
 1 Farseek|RVR|[347]
 1 Flooded Strand|mh3
@@ -48,7 +48,7 @@ Name=Jared
 1 Jodah, the Unifier|dmu
 1 Kodama's Reach|ECC|[113]
 1 Leyline of the Guildpact|mkm
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Maelstrom Archangel|dmc
 1 Maelstrom Nexus|dmc
 1 Mana Confluence|jou
@@ -81,7 +81,7 @@ Name=Jared
 1 Stomping Ground|RVR|[413]
 1 Surrak Dragonclaw|dmc
 1 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of Feast and Famine|2XM|[296]
 1 Sword of Fire and Ice|2xm
 1 Sword of Forge and Frontier|one

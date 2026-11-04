@@ -25,8 +25,8 @@ Name=Omo
 1 Descendants' Path|lcc
 1 Faerie Swarm|SHM
 15 Forest|INR|[296]
-1 Path of Ancestry|TRC|[545]
-1 Command Tower|TRC|[521]
+1 Path of Ancestry|MBC|[80]
+1 Command Tower|FRC|[22]
 1 Glimmerpost|M3C|[346]
 1 Harmonious Grovestrider|EOE|[189]
 1 Imperious Perfect|FDN|[719]
@@ -55,7 +55,7 @@ Name=Omo
 1 Mutable Explorer|ECL|[186]
 1 Gemhide Sliver|TSR|[205]
 1 Nature's Lore|DMR|[346]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Lord of the Unreal|J25|[322]
 1 Patchwork Banner|SOC|[353]
 1 Oko, Lorwyn Liege|ecl

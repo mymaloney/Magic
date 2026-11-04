@@ -22,7 +22,7 @@ Name=Ragost
 1 Overcooked|MBC|[67]
 1 Food Coma|woe
 1 Devastating Onslaught|eoe
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Basilisk Collar|FDC|[246]
 1 Battlemage's Bracers|c21
 1 Big Score|SOC|[237]
@@ -33,7 +33,7 @@ Name=Ragost
 1 Chef's Kiss|mh2
 1 Clifftop Retreat|DMR|[393]
 1 Collector's Vault|woe
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Darksteel Citadel|FDC|[300]
 1 Dauntless Scrapbot|eoe
 1 Dawn's Truce|blb
@@ -51,7 +51,7 @@ Name=Ragost
 1 Inventors' Fair|kld
 1 Jhoira's Familiar|2xm
 1 Kavaron, Memorial World|eoe
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Melded Moxite|eoe
 9 Mountain|INR|[294]
 1 Nutrient Block|eoe
@@ -68,9 +68,9 @@ Name=Ragost
 1 Skrelv's Hive|FRC|[33]
 1 Sol Ring|LEB|[270]
 1 Stroke of Midnight|FRC|[35]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Tezzeret, Cruel Captain|eoe
 1 The Brothers' War|brc
 1 The Mycosynth Gardens|eoc

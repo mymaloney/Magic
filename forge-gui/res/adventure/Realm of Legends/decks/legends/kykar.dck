@@ -8,7 +8,7 @@ Name=Kykar, Wind's Fury
 1 Akroma's Will|M3C
 1 Alrund's Epiphany|KHM
 1 Angelic Renewal|WTH
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Azorius Keyrune|GK2
 1 Balmor, Battlemage Captain|FDN|[237]
 1 Bird Maiden|ARN|[37]
@@ -22,8 +22,8 @@ Name=Kykar, Wind's Fury
 1 Cavern of Souls|LCI|[269]
 1 Celestial Gatekeeper|LGN
 1 Cleansing Nova|FDC|[20]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Crookclaw Elder|LGN
 1 Debt of Loyalty|WTH
 1 Desertion|VIS|[30]
@@ -31,10 +31,10 @@ Name=Kykar, Wind's Fury
 1 Empyrean Eagle|FDN
 1 Expressive Iteration|SOC|[309]
 1 Brainstorm|MMQ
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Soulcatchers' Aerie|JUD
 1 Hallowed Fountain|RVR|[404]
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 6 Island|INR|[290]
 1 Jeskai Ascendancy|2X2|[231]
 1 Judge's Familiar|RVR|[192]
@@ -54,7 +54,7 @@ Name=Kykar, Wind's Fury
 1 Murmuration|BLC
 1 Murmuring Mystic|PIO|[65]
 1 Mystic Gate|FRC|[76]
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Nesting Dovehawk|MOC
 1 Nimble Obstructionist|C20|[121]
 1 Path to Exile|TSR|[299]
@@ -85,6 +85,6 @@ Name=Kykar, Wind's Fury
 1 Torrential Gearhulk|CMM|[128]
 1 Transcendent Dragon|TDC
 1 Voracious Bibliophile|TDC
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Wing Shards|SCG|[25]
 1 Zinnia, Valley's Voice|BLC

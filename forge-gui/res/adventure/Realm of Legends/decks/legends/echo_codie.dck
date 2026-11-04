@@ -3,14 +3,14 @@ Name=Echo Codie
 [Commander]
 1 Codie, Ravenous Codex|fra
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage Emeritus|SOC|[188]
 1 Blasphemous Act|SOC|[238]
 1 Blazing Firesinger|sos
 1 Bloodline Recollector|fra
 1 Chromatic Lantern|RVR|[390]
 1 Chromatic Orrery|LCC|[107]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Cryptolith Rite|inr
 1 Cultivate|SOC|[265]
@@ -18,7 +18,7 @@ Name=Echo Codie
 1 Deserted Beach|fra
 1 Dirgur Focusmage|soc
 1 Diviner of Victory|fra
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Echocasting Symposium|sos|[291]
 1 Emeritus of Abundance|sos
 1 Emeritus of Conflict|sos
@@ -26,7 +26,7 @@ Name=Echo Codie
 1 Emeritus of Truce|sos
 1 Emeritus of Woe|sos
 1 Ephemerate|H1R|[1]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Farseek|rvr
 1 Fellwar Stone|DRK|[102]
 4 Forest|INR|[296]
@@ -35,7 +35,7 @@ Name=Echo Codie
 1 Great Hall of the Biblioplex|sos
 1 Heartwood Crafter|fra
 1 Heroic Intervention|cmm
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Ziatora's Proving Ground|snc
 1 Ketria Triome|iko
 1 Spara's Headquarters|snc
@@ -53,14 +53,14 @@ Name=Echo Codie
 3 Mountain|INR|[294]
 1 Naktamun Lorespinner|soc
 1 Nature's Lore|DMR|[346]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Overgrown Farmland|fra
 1 Path to Exile|TSR|[299]
 1 Pigment Wrangler|sos
 1 Plains|INR|[288]
 1 Primal Amulet|xln
 1 Reflecting Pool|TMP|[322]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Resonating Lute|sos
 1 Rootbound Crag|ECC|[163]
 1 Scheming Silvertongue|sos
@@ -76,7 +76,7 @@ Name=Echo Codie
 1 Sundown Pass|sos
 1 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Talisman of Curiosity|soc
 1 Tam, Observant Sequencer|sos
 1 The World Tree|khm

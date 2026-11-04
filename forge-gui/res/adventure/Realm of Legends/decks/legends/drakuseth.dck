@@ -3,7 +3,7 @@ Name=Drakuseth, Maw of Flames
 [Commander]
 1 Drakuseth, Maw of Flames|FDC|[155]
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Arena of Glory|MH3
 1 Atsushi, the Blazing Sky|SOC|[236]
 1 Blasphemous Act|SOC|[238]
@@ -11,7 +11,7 @@ Name=Drakuseth, Maw of Flames
 1 Breaching Dragonstorm|TDM
 1 Caldera Pyremaw|TDC
 1 Chaos Warp|MBC|[72]
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Demanding Dragon|SCD|[130]
 1 Demolition Field|FDN
 1 Dracogenesis|TDM
@@ -36,11 +36,11 @@ Name=Drakuseth, Maw of Flames
 1 Hellkite Charger|FDC|[160]
 1 Hellkite Courser|TDC|[218]
 1 Hellkite Tyrant|RVR|[333]
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Knollspine Dragon|GN3|[82]
 1 Lathliss, Dragon Queen|TDC|[219]
 1 Lightning Bolt|LEB|[162]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Magmatic Hellkite|TDM
 34 Mountain|INR|[294]
 1 Nesting Dragon|TDC|[225]
@@ -52,7 +52,7 @@ Name=Drakuseth, Maw of Flames
 1 Scourge of Valkas|PIO|[155]
 1 Seething Song|C21
 1 Seize the Day|ODY|[220]
-1 Shared Animosity|TRC|[295]
+1 Shared Animosity|LCC|[231]
 1 Sol Ring|LEB|[270]
 1 Steel Hellkite|TDC|[327]
 1 Stormscale Scion|TDM
@@ -66,5 +66,5 @@ Name=Drakuseth, Maw of Flames
 1 Valakut Exploration|ZNR
 1 War Room|SOC|[422]
 1 Warstorm Surge|FDC|[186]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Dragon Typhoon|YTDM

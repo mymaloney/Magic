@@ -12,12 +12,12 @@ Name=Zaxara, the Exemplary
 1 Pest Infestation|SOC|[282]
 1 Animist's Awakening|SOC|[261]
 1 Arcane Denial|ALL|[22a]
-1 Astral Cornucopia|TRC|[338]
+1 Astral Cornucopia|SOC|[342]
 1 Bala Ged Recovery|PIO|[165]
 1 Biomass Mutation|SOC|[297]
 1 Blue Sun's Zenith|A25|[44]
 1 Bojuka Bog|TSR|[406]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Curse of the Swine|SOC|[192]
 1 Damnable Pact|NCC|[245]
@@ -27,24 +27,24 @@ Name=Zaxara, the Exemplary
 1 Doppelgang|MKM
 1 Elementalist's Palette|SOC|[346]
 1 Epiphany at the Drownyard|SOI
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Exsanguinate|FDN|[173]
 1 Far Wanderings|TOR|[125]
 1 Farseek|RVR|[347]
 1 Finale of Revelation|FDN|[589]
 13 Forest|INR|[296]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Gadwick, the Wizened|ELD
 1 Garruk's Uprising|ECC|[109]
 1 Genesis Wave|FDN|[221]
 1 Hydroid Krasis|SOC|[315]
 9 Island|INR|[290]
 1 Kodama's Reach|ECC|[113]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Mass Manipulation|RNA
 1 Nature's Lore|DMR|[346]
 1 Nature's Will|CHK
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Nyxbloom Ancient|THB
 1 Open into Wonder|ZNC
 1 Open the Way|SOC|[280]
@@ -54,7 +54,7 @@ Name=Zaxara, the Exemplary
 1 Primal Might|SOC|[283]
 1 Propaganda|TMP
 1 Rampant Growth|TMP|[245]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Silundi Vision|PIO|[74]
 1 Snuff Out|MMQ
 1 Sol Ring|LEB|[270]

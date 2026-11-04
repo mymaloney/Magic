@@ -17,7 +17,7 @@ Name=Killian
 1 Castle Locthwain|FDC|[299]
 1 Caves of Koilos|APC|[140]
 1 Closing Statement|STX
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Daybreak Coronet|WOC|[65]
 1 Dog Umbra|MH3
 1 Dusk|DRC|[65]
@@ -40,7 +40,7 @@ Name=Killian
 1 Lavaspur Boots|OTJ
 1 Light-Paws, Emperor's Voice|NEO
 1 Lion Sash|NEO
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Nimbus Wings|ZEN
 1 Open the Armory|PIO|[360]
 1 Orzhov Basilica|DRC|[164]
@@ -60,14 +60,14 @@ Name=Killian
 1 Roadside Reliquary|NEO
 1 Sheltered by Ghosts|SOC|[171]
 1 Fracture|SOC|[310]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rune of Mortality|KHM
 1 Rune of Sustenance|KHM
 1 Sentinel's Eyes|SOC|[168]
 1 Sevinne's Reclamation|DMR|[273]
 1 Shambling Vent|PIO|[275]
 1 Shelter|ODY|[46]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Shizo, Death's Storehouse|DMC|[233]
 1 Sigarda's Aid|CMR|[384]
 1 Sign in Blood|FDC|[125]
@@ -83,7 +83,7 @@ Name=Killian
 1 Sunlit Marsh|SOC|[409]
 3 Swamp|INR|[292]
 2 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of the Animist|CMM|[413]
 1 Swords to Plowshares|DMR
 1 Temple of Silence|SOC|[415]

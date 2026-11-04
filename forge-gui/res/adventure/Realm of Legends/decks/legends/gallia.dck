@@ -4,7 +4,7 @@ Name=Gallia
 1 Gallia of the Endless Dance|thb
 [Main]
 1 Anax, Hardened in the Forge|CMM|[204]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Beastmaster Ascension|BLC|[118]
 1 Bite Down|FDC|[192]
 1 Blood Aspirant|cmm
@@ -12,7 +12,7 @@ Name=Gallia
 1 Boon Satyr|PIO|[167]
 1 Careless Celebrant|thb
 1 Collective Inferno|ecl
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Composer of Spring|cmm
 1 Destructive Revelry|PIO|[214]
 1 Eidolon of the Great Revel|a25
@@ -23,7 +23,7 @@ Name=Gallia
 1 Talisman of Impulse|TDC|[332]
 1 Gruul Turf|ECC|[152]
 1 Gruul War Chant|mm3
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Heroes of the Revel|thb
 1 Icon of Ancestry|lcc
 1 Brute Force|TSR|[157]
@@ -39,7 +39,7 @@ Name=Gallia
 1 Obelisk of Urd|znc
 1 Overrun|ODY|[260]
 1 Patchwork Banner|SOC|[353]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pit Fight|CLU|[202]
 1 Portent Tracker|mom
 1 Primeval Bounty|J25|[701]
@@ -48,7 +48,7 @@ Name=Gallia
 1 Revel of the Fallen God|jou
 1 Rhythm of the Wild|rvr
 1 Giant Growth|ICE|[246]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Willow Satyr|leg
 1 Rootrider Faun|woe
 1 Satyr Firedancer|bng
@@ -61,7 +61,7 @@ Name=Gallia
 1 Satyr Wayfinder|EOC|[106]
 1 Satyr's Cunning|thb
 1 Setessan Oathsworn|bng
-1 Shared Animosity|TRC|[295]
+1 Shared Animosity|LCC|[231]
 1 Skola Grovedancer|dsc
 1 Sol Ring|LEB|[270]
 1 Stampede Rider|thb
@@ -69,7 +69,7 @@ Name=Gallia
 1 Tanglespan Lookout|woe
 1 Temple of Abandon|TDC|[400]
 1 Temple of the False God|SCG|[143]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thundering Rebuke|znr
 1 Tribal Unity|ONS|[294]
 1 Voyaging Satyr|PIO|[199]

@@ -11,7 +11,7 @@ Name=Balmor, Battlemage Captain
 1 Careful Study|ODY
 1 Cathartic Pyre|ECC|[90]
 1 Cephalid Coliseum|ODY
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consider|TDC|[148]
 1 Cori Mountain Monastery|TDM
 1 Demand Answers|MKM
@@ -23,7 +23,7 @@ Name=Balmor, Battlemage Captain
 1 Fiery Islet|MH1
 1 Finale of Promise|OTC|[166]
 1 Frantic Search|DMR|[285]
-1 Frostboil Snarl|TRC|[383]
+1 Frostboil Snarl|SOC|[374]
 1 Geralf, the Fleshwright|OTJ
 1 Gitaxian Probe|NPH
 1 Gush|MMQ|[82]
@@ -76,7 +76,7 @@ Name=Balmor, Battlemage Captain
 1 Thought Scour|2X2|[65]
 1 Three Steps Ahead|OTJ
 1 Thundering Falls|MKM
-1 Training Center|TRC|[413]
+1 Training Center|CMM|[434]
 1 Treasure Cruise|TSR|[319]
 1 Unending Whisper|TDM
 1 Uthros, Titanic Godcore|EOE

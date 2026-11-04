@@ -5,7 +5,7 @@ Name=Cadric, Soul Kindler
 [Main]
 1 Akiri, Line-Slinger|C16
 1 Ao, the Dawn Sky|SOC|[135]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Armed and Armored|NEC
 1 Astor, Bearer of Blades|DMU
 1 Aurelia's Fury|PIO|[386]
@@ -27,10 +27,10 @@ Name=Cadric, Soul Kindler
 1 Diamond Pick-Axe|LCI
 1 Djeru and Hazoret|MOM
 1 Dwarven Mine|ELD
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Fairgrounds Warden|KLD
 1 Forging the Tyrite Sword|KHM
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Goro-Goro, Disciple of Ryusei|NEO
 1 Halvar, God of Battle|KHM
 1 Hero's Heirloom|DMU
@@ -74,9 +74,9 @@ Name=Cadric, Soul Kindler
 1 Study Hall|SOC|[407]
 1 Sundown Pass|SOS|[264]
 1 Swift Reconfiguration|NEC
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Temple of Triumph|SOC|[417]
 1 Toggo, Goblin Weaponsmith|CMR
 1 Tome of Legends|FDC|[293]

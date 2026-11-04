@@ -3,7 +3,7 @@ Name=Lyra Dawnbringer
 [Commander]
 1 Lyra Dawnbringer|DMR|[266]
 [Main]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Archangel of Thune|PIO|[4]
 1 Nykthos Paragon|J25|[230]
 1 Banner of Kinship|FDN
@@ -14,7 +14,7 @@ Name=Lyra Dawnbringer
 1 Angelic Arbiter|JMP
 1 Angelic Field Marshal|FDC|[15]
 1 Angelic Skirmisher|GTC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archangel of Tithes|FDC|[17]
 1 Astelli Reclaimer|EOE
 1 Bonders' Enclave|FDC|[297]
@@ -44,7 +44,7 @@ Name=Lyra Dawnbringer
 1 Luminarch Ascension|A25
 1 Metropolis Reformer|FDC|[40]
 1 Mind Stone|DMR|[385]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 1 Pearl Medallion|TMP
 29 Plains|INR|[288]
@@ -64,7 +64,7 @@ Name=Lyra Dawnbringer
 1 Starnheim Unleashed|KHM
 1 Sunblast Angel|FDC|[52]
 1 Swords to Plowshares|DMR|[275]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thraben Watcher|FDC|[54]
 1 Throne of Eldraine|WOC
 1 Valkyrie Harbinger|J25

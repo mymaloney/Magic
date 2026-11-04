@@ -5,11 +5,11 @@ Name=Athreos, God of Passage
 [Main]
 1 Athreos, Shroud-Veiled|DSC|[212]
 1 Ajani, Strength of the Pride|J22
-1 Alhammarret's Archive|TRC|[337]
+1 Alhammarret's Archive|C21|[233]
 1 Angel of Destiny|ZNR
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Approach of the Second Sun|AKH|[4]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Auriok Champion|IMA
 1 Beacon of Immortality|E02|[1]
 1 Black Market Connections|LCC|[181]
@@ -21,7 +21,7 @@ Name=Athreos, God of Passage
 1 Chromatic Lantern|RVR
 1 Cleric of Life's Bond|ZNR
 1 Clever Concealment|ONC
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cosmos Elixir|KHM
 1 Doomed Necromancer|ONS|[140]
 1 Drana's Emissary|BFZ
@@ -46,20 +46,20 @@ Name=Athreos, God of Passage
 1 Neglected Manor|DSK
 1 Orzhov Basilica|DRC|[164]
 1 Patchwork Banner|SOC|[353]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 1 Phyrexian Arena|APC
 1 Phyrexian Reclamation|ULG|[63]
 13 Plains|INR|[288]
 1 Relic Vial|ZNR
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Revenge of Ravens|ELD
 1 Revival|RVR
 1 Righteous Valkyrie|FDC|[43]
 1 Roaming Throne|LCI
 1 Selfless Spirit|SOC|[167]
 1 Shattered Sanctum|SOS|[260]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Sinister Monolith|BLB
 1 Skemfar Shadowsage|J25|[489]
 1 Sol Ring|LEB|[270]
@@ -71,7 +71,7 @@ Name=Athreos, God of Passage
 11 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
 1 Taborax, Hope's Demise|J25
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 The Meathook Massacre|INR|[387]
 1 Three Tree City|BLB
 1 Twilight Prophet|MKC|[143]

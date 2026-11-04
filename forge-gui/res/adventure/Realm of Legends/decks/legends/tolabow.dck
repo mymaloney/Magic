@@ -26,12 +26,12 @@ Name=Tolabow
 1 Thundertrap Trainer|blb
 1 Maestros Theater|EOC|[167]
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage Emeritus|soc
 1 Bloodline Pretender|moc
 1 Cast Through Time|roe
 1 Patchwork Banner|SOC|[353]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consider|TDC|[148]
 1 Curious Homunculus|emn
 1 Dismiss|TMP|[58]
@@ -39,8 +39,8 @@ Name=Tolabow
 1 Eluge, the Shoreless Sea|blb
 1 Enter the Enigma|dsk
 1 Environmental Sciences|stx
-1 Evolving Wilds|TRC|[527]
-1 Fabled Passage|TRC|[379]
+1 Evolving Wilds|ECL|[264]
+1 Fabled Passage|FRC|[71]
 1 Fellwar Stone|DRK|[102]
 1 Field of Ruin|TSR|[407]
 1 Fiery Confluence|LCC|[226]
@@ -71,7 +71,7 @@ Name=Tolabow
 1 Sol Ring|LEB|[270]
 1 Stormchaser's Talent|blb
 1 Talrand, Sky Summoner|TSR|[318]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Vodalian Arcanist|m21
 1 Volcanic Spite|mom
 1 Warlord's Fury|dom

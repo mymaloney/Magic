@@ -4,8 +4,8 @@ Name=Akroma and Keleth
 1 Akroma, Vision of Ixidor|CMR
 1 Keleth, Sunmane Familiar|CMM|[33]
 [Main]
-1 Lightning Greaves|TRC|[496]
-1 Swiftfoot Boots|TRC|[501]
+1 Lightning Greaves|SOC|[350]
+1 Swiftfoot Boots|MBC|[77]
 1 Akroma, Angel of Wrath|LGN|[1]
 1 Akroma's Memorial|TSR
 1 Akroma's Vengeance|ONS|[2]
@@ -24,8 +24,8 @@ Name=Akroma and Keleth
 1 Caged Sun|CM2|[178]
 1 Cavern of Souls|LCI
 1 Cleansing Nova|FDC|[20]
-1 Command Tower|TRC|[521]
-1 Concerted Effort|TRC|[216]
+1 Command Tower|FRC|[22]
+1 Concerted Effort|RAV|[8]
 1 Court of Grace|FDC|[21]
 1 Dawn Charm|CMR
 1 Defy Death|FDC|[25]
@@ -41,7 +41,7 @@ Name=Akroma and Keleth
 1 Gift of Estates|POR
 1 Gilded Lotus|FDN|[725]
 1 Herald of War|FDC|[34]
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Invoke the Divine|FDC|[36]
 1 Karoo|VIS
 1 Lotus Field|SOC|[385]
@@ -53,11 +53,11 @@ Name=Akroma and Keleth
 1 Nykthos, Shrine to Nyx|THS
 1 Nyx Lotus|THB
 1 Odric, Lunarch Marshal|INR
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 1 Pearl Medallion|TMP|[300]
 26 Plains|INR|[288]
-1 Return to Dust|TRC|[427]
+1 Return to Dust|DSC|[102]
 1 Reya Dawnbringer|INV|[33]
 1 Righteous Valkyrie|FDC|[43]
 1 Segovian Angel|FDC|[46]

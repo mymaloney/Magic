@@ -10,20 +10,20 @@ Name=gorma
 1 Vernal Fen|SOC
 1 High Market|MMQ|[320]
 1 Haunted Mire|SOC
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Titan's Grave|SOS
 1 Turbulent Fen|SOC
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Grim Backwoods|SOC
 1 Llanowar Wastes|APC|[141]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Temple of Malady|SOC
 1 Festering Thicket|SOC
 1 Woodland Cemetery|DMR|[401]
 1 Necroblossom Snarl|SOC
 1 Witherbloom Campus|SOC
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Mycoloth|SOC
 1 Bloodghast|SOC
 1 Ophiomancer|SOC
@@ -64,14 +64,14 @@ Name=gorma
 1 Mazirek, Kraul Death Priest|SOC
 1 Jadar, Ghoulcaller of Nephalia|SOC
 1 Sol Ring|LEB|[270]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Cultivate|SOC
 1 Final Act|SOC
 1 Deadly Brew|SOC
 1 Toxic Deluge|MH3|[412]
 1 Culling Ritual|SOC
 1 Immoral Bargain|SOC
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Ominous Harvest|SOC
 1 Pest Infestation|SOC
 1 Casualties of War|SOC

@@ -12,7 +12,7 @@ Name=Averna
 1 Rattleclaw Mystic|ktk
 1 Lightning Bolt|LEB|[162]
 1 Rapid Hybridization|SOC|[198]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Flamekin Herald|cmr
 1 Enraged Flamecaster|ecl
 1 Twinflame Travelers|ecl
@@ -30,11 +30,11 @@ Name=Averna
 1 Braids, Conjurer Adept|cmm
 1 Thornwood Falls|TDM|[269]
 1 Chaos Warp|MBC|[72]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Commercial District|mkm
 1 Cultivate|SOC|[265]
 1 Daring Discovery|lci
-1 Disrupt Decorum|TRC|[282]
+1 Disrupt Decorum|MKC|[151]
 1 Etherium-Horn Sorcerer|c17
 7 Forest|INR|[296]
 1 Geological Appraiser|lci
@@ -61,7 +61,7 @@ Name=Averna
 7 Mountain|INR|[294]
 1 Natural Reclamation|CLB|[829]
 1 Managorger Hydra|FDC|[216]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rites of Flourishing|blc
 1 Sakashima's Protege|cmr
 1 Search for Tomorrow|dmc

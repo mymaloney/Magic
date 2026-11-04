@@ -5,9 +5,9 @@ Name=Ayara
 [Main]
 1 Abhorrent Overlord|PIO|[289]
 1 Animate Dead|LEB|[93]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archpriest of Shadows|mom
-1 Bitter Triumph|TRC|[445]
+1 Bitter Triumph|TDC|[173]
 1 Bloodletter of Aclazotz|lci
 1 Bojuka Bog|TSR|[406]
 1 Bolas's Citadel|war
@@ -25,14 +25,14 @@ Name=Ayara
 1 Gauntlet of Power|dmr
 1 Gray Merchant of Asphodel|TSR|[323]
 1 Foulmire Knight|MOC|[249]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Liliana, Dreadhorde General|FDN|[176]
 1 Living Death|TMP|[142]
 1 Malakir Rebirth|znr
 1 Massacre Wurm|FDN|[714]
 1 Metamorphosis Fanatic|dsc
 1 Mikaeus, the Unhallowed|cmm
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Nowhere to Run|dsk
 1 Nykthos, Shrine to Nyx|ths
 1 Ophiomancer|SOC|[118]
@@ -42,7 +42,7 @@ Name=Ayara
 1 Ravenous Chupacabra|mkc
 1 Piper of the Swarm|AFC|[106]
 1 Sanguimancy|bng
-1 Darksteel Plate|TRC|[341]
+1 Darksteel Plate|2X2|[304]
 1 Commander's Plate|cmr
 1 Underbridge Warlock|ywoe
 1 Bitterbloom Bearer|ecl
@@ -54,13 +54,13 @@ Name=Ayara
 1 Murderous Rider|DRC|[45]
 1 The Cauldron of Eternity|eld
 1 Shizo, Death's Storehouse|dmc
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Sol Ring|LEB|[270]
 1 Spymaster's Vault|mh3
 1 Stinkweed Imp|TSR|[332]
 1 Stitcher's Supplier|TDC|[196]
 30 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Syr Konrad, the Grim|DSC|[158]
 1 The Meathook Massacre|INR|[387]
 1 Thespian's Stage|RVR|[466]

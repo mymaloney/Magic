@@ -6,7 +6,7 @@ Name=Grand Arbiter Augustin IV
 1 Absorb|DMR|[354]
 1 Abuelo, Ancestral Echo|LCI
 1 Adarkar Wastes|ICE|[351]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Azorius Cluestone|DGM
 1 Azorius Guildmage|RVR
 1 Azorius Keyrune|GK2|[23]
@@ -22,7 +22,7 @@ Name=Grand Arbiter Augustin IV
 1 Celestial Colonnade|UMA|[238]
 1 Celestial Regulator|SNC
 1 Cloudblazer|FDN|[653]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crawlspace|DMR|[375]
 1 Dennick, Pious Apprentice|DBL|[217]
 1 Denry Klin, Editor in Chief|NCC
@@ -35,17 +35,17 @@ Name=Grand Arbiter Augustin IV
 1 Elite Guardmage|WAR
 1 Energy Arc|ALL
 1 Ephara, God of the Polis|PIO|[305]
-1 Faithful Mending|TRC|[473]
+1 Faithful Mending|DBL|[221]
 1 Flooded Strand|MH3
 1 Floodfarm Verge|DSK
 1 Fortified Beachhead|BRO
 1 Geist of Saint Traft|VOC|[155]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Gwafa Hazid, Profiteer|BBD|[223]
 1 Hallowed Fountain|RVR
 1 Hengegate Pathway|KHM
 1 Hindering Light|ALA
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 8 Island|INR|[290]
 1 Kykar, Zephyr Awakener|FDN
 1 Lavinia of the Tenth|CLU|[199]
@@ -60,8 +60,8 @@ Name=Grand Arbiter Augustin IV
 1 Overrule|DDI|[32]
 1 Hero of Precinct One|DMC|[101]
 7 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Raff Capashen, Ship's Mage|CMM|[351]
 1 Reflector Mage|OGW
 1 Render Silent|PIO|[394]
@@ -78,7 +78,7 @@ Name=Grand Arbiter Augustin IV
 1 Supreme Verdict|RVR|[461]
 1 Swift Silence|DIS
 1 Taigam, Ojutai Master|C17
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Teferi, Hero of Dominaria|DOM|[207]
 1 Teferi, Time Raveler|BLC|[92]
 1 Teferi, Who Slows the Sunset|DBL|[245]

@@ -6,7 +6,7 @@ Name=Kellan
 1 Adarkar Wastes|ICE|[351]
 1 Aetherflux Reservoir|KLD|[192]
 1 Annoyed Altisaur|MH3|[284]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage's Newt|otj
 1 Astelli Reclaimer|eoe
 1 Augury Raven|khm
@@ -25,7 +25,7 @@ Name=Kellan
 1 Brushland|ICE|[352]
 1 Captured Sunlight|arb
 1 Case of the Locked Hothouse|mkm
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Creosote Heath|otj
 1 Cultivate|SOC|[265]
@@ -38,19 +38,19 @@ Name=Kellan
 5 Forest|INR|[296]
 1 Full Steam Ahead|otj
 1 Giant Adephage|dsc
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Gods' Hall Guardian|khm
 1 Guardian Project|RVR|[349]
 1 Hidden Cataract|M3C|[348]
 1 Hidden Courtyard|lci
 1 Hidden Nursery|M3C|[349]
 1 Imoti, Celebrant of Bounty|CMR|[280]
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 4 Island|INR|[290]
 1 Kellan, Inquisitive Prodigy|mkm
 1 Kodama's Reach|ECC|[113]
 1 Kutzil, Malamet Exemplar|lci
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lonely Arroyo|otj
 1 Lucky Clover|eld
 1 Lush Oasis|M3C|[356]
@@ -69,7 +69,7 @@ Name=Kellan
 1 Razorverge Thicket|BLC|[325]
 1 Realm-Cloaked Giant|BLC|[149]
 1 Repulsive Mutation|mkm
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Selesnya Sanctuary|CLU|[246]
 1 Shalai, Voice of Plenty|TDC|[130]
 1 Sheriff of Safe Passage|otj
@@ -83,7 +83,7 @@ Name=Kellan
 1 Temple Garden|RVR|[414]
 1 Temple of Mystery|SOC|[414]
 1 The Key to the Vault|otj
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Threadbind Clique|woe
 1 Up the Beanstalk|woe
 1 Urban Evolution|PIO|[251]

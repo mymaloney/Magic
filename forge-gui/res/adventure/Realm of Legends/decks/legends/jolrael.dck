@@ -5,7 +5,7 @@ Name=Jolrael
 [Main]
 1 Aetherize|RVR|[448]
 1 Arcane Denial|ALL
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arcanis the Omnipotent|DMR|[280]
 1 Birds of Paradise|RVR|[344]
 1 Blighted Woodland|TSR
@@ -13,7 +13,7 @@ Name=Jolrael
 1 Burgeoning|STH
 1 Capsize|TMP
 1 Coiling Oracle|RVR|[361]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Courser of Kruphix|TSR
 1 Jolrael, Empress of Beasts|PCY
@@ -52,13 +52,13 @@ Name=Jolrael
 1 Nissa, Who Shakes the World|BLC|[84]
 1 Nulldrifter|MH3|[388]
 1 Open the Way|SOC|[280]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Prime Speaker Zegana|RVR|[377]
 1 Propaganda|TMP
 1 Psychosis Crawler|FDC|[280]
 1 Rampant Growth|TMP|[245]
 1 Reclamation Sage|TSR
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Trygon Predator|TSR
 1 Rewind|USG
 1 Rhystic Study|PCY
@@ -70,7 +70,7 @@ Name=Jolrael
 1 Sol Ring|LEB|[270]
 1 Tatyova, Benthic Druid|DMR|[371]
 1 Temple of the False God|SCG|[143]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thwart|MMQ
 1 Bident of Thassa|PIO|[47]
 1 Titania, Protector of Argoth|MH2|[416]

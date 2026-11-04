@@ -12,15 +12,15 @@ Name=Obosh
 1 Bonesplitter|cmr
 1 Brainspoil|rav
 1 Cavalier of Night|m20
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Court of Ire|cmr
 1 Cryptborn Horror|rtr
 1 Curse of Opulence|TDC|[209]
 1 Darksteel Ingot|PIO|[254]
 1 Dauthi Embrace|tmp
 1 Dismember|TSR|[322]
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Drakuseth, Maw of Flames|FDC|[155]
 1 Essence Harvest|avr
 1 Faithless Looting|SOC|[244]
@@ -52,14 +52,14 @@ Name=Obosh
 1 Sandstone Oracle|CMM|[406]
 1 Shriekmaw|TSR|[331]
 1 Skull Storm|c18
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Song-Mad Treachery|znr
 1 Soul's Fire|cmr
 1 Spoils of Blood|c14
 17 Swamp|INR|[292]
 1 Sulfurous Springs|ICE|[360]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Taurean Mauler|tdc
 1 The Eldest Reborn|DSC|[139]
 1 Tragic Slip|INR|[390]
@@ -70,5 +70,5 @@ Name=Obosh
 1 Vandalblast|TSR|[352]
 1 Viashino Heretic|ulg
 1 Vow of Lightning|MKC|[164]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Whispersilk Cloak|DSC|[257]

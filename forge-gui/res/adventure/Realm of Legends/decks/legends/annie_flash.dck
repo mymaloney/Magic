@@ -5,7 +5,7 @@ Name=Annie Flash
 [Main]
 1 Adagia, Windswept Bastion|eoe
 1 Annie Joins Up|otj
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Turbocharged Escape|ydft
 1 Wish Good Luck|ydft
 1 Battlefield Forge|APC|[139]
@@ -17,7 +17,7 @@ Name=Annie Flash
 1 Chandra, Spark Hunter|dft
 1 Cloudspire Coordinator|dft
 1 Colossal Plow|nec
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Commercial District|mkm
 1 Cultivator's Caravan|DRC|[127]
 1 Dawnsire, Sunstar Dreadnought|eoe
@@ -30,7 +30,7 @@ Name=Annie Flash
 1 Elegant Parlor|mkm
 1 Emmara, Soul of the Accord|SCD|[2]
 1 Exploration Broodship|eoc
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Farseek|RVR|[347]
 6 Forest|INR|[296]
 1 Guardian Sunmare|dft
@@ -52,7 +52,7 @@ Name=Annie Flash
 6 Mountain|INR|[294]
 1 Parhelion II|nec
 1 Party Thrasher|mh3
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 1 Peacewalker Colossus|j22
 7 Plains|INR|[288]
@@ -82,7 +82,7 @@ Name=Annie Flash
 1 Traveling Botanist|tdm
 1 Unidentified Hovership|dsk
 1 Unswerving Sloth|dft
-1 Vanquish the Horde|TRC|[245]
+1 Vanquish the Horde|TDC|[91]
 1 Veteran Beastrider|dft
 1 Weatherlight|NEC|[165]
 1 Wylie Duke, Atiin Hero|otj

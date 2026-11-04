@@ -15,8 +15,8 @@ Name=Rootha
 1 Crackleburr|eve
 1 Change the Equation|mom
 1 Collected Conjuring|mh1
-1 Command Tower|TRC|[521]
-1 Talisman of Creativity|TRC|[504]
+1 Command Tower|FRC|[22]
+1 Talisman of Creativity|FRC|[61]
 1 Electrodominance|tdc
 1 Electrolyze|GK1|[37]
 1 Elemental Expressionist|stx
@@ -58,7 +58,7 @@ Name=Rootha
 1 Ral, Monsoon Mage|mh3
 1 Redoubled Stormsinger|SOC|[251]
 1 Reinterpret|c21
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Restless Spire|FRC|[82]
 1 Riverglide Pathway|znr
 1 Rowan, Scholar of Sparks|stx
@@ -74,10 +74,10 @@ Name=Rootha
 1 Teach by Example|FDN|[666]
 1 Temple of Epiphany|SOC|[412]
 1 Tersa Lightshatter|tdm
-1 Thought Vessel|TRC|[509]
-1 Thrill of Possibility|TRC|[455]
+1 Thought Vessel|MBC|[78]
+1 Thrill of Possibility|FDC|[180]
 1 Thundering Falls|mkm
-1 Training Center|TRC|[413]
+1 Training Center|CMM|[434]
 1 Treason of Isengard|ltr
 1 Uvilda, Dean of Perfection|stx
 1 Vadrik, Astral Archmage|DBL|[248]

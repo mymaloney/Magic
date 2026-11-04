@@ -5,13 +5,13 @@ Name=Jhoira
 [Main]
 1 Access Denied|nec
 1 Aetherjacket|dft
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Breya's Apprentice|mh2
 1 Jhoira, Ageless Innovator|dmu
 1 Jhoira of the Ghitu|TSR|[256]
 1 Castle Embereth|TDC|[347]
 1 Combustible Gearhulk|DRC|[102]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Daretti, Rocketeer Engineer|dft
 1 Detective's Satchel|mkm
 1 Efficient Construction|CMM|[88]
@@ -53,7 +53,7 @@ Name=Jhoira
 1 Seat of the Synod|EOC|[176]
 1 Sharding Sphinx|MOC|[235]
 1 Silverbluff Bridge|EOC|[180]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Skyscanner|SCD|[274]
 1 Slobad, Goblin Tinkerer|brc
 1 Sol Ring|LEB|[270]
@@ -63,8 +63,8 @@ Name=Jhoira
 1 Stormcarved Coast|SOS|[263]
 1 Stridehangar Automaton|drc
 1 Sulfur Falls|DMR|[400]
-1 Swiftfoot Boots|TRC|[501]
-1 Talisman of Creativity|TRC|[504]
+1 Swiftfoot Boots|MBC|[77]
+1 Talisman of Creativity|FRC|[61]
 1 Tezzeret, Artifice Master|J22|[360]
 1 The Mycosynth Gardens|EOC|[168]
 1 Thopter Assembly|MOC|[386]
@@ -75,7 +75,7 @@ Name=Jhoira
 1 Thopter Squadron|exo
 1 Thought Monitor|EOC|[79]
 1 Trash for Treasure|2XM|[148]
-1 Unwinding Clock|TRC|[359]
+1 Unwinding Clock|C18|[228]
 1 Urza's Factory|J22|[828]
 1 Urza's Mine|ATQ|[83a]
 1 Urza's Power Plant|ATQ|[84a]

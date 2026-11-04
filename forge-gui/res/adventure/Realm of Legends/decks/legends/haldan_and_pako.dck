@@ -5,27 +5,27 @@ Name=Haldan and Pako
 1 Pako, Arcane Retriever|C20
 [Main]
 1 Aqueous Form|PIO|[45]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 The Ozolith|IKO
 1 Ram Through|FDC|[221]
 1 Vivien, Monsters' Advocate|IKO
 1 Unwind|DOM
 1 Charred Foyer|DSK
 1 Whispersilk Cloak|DSC|[257]
-1 World at War|TRC|[296]
+1 World at War|ROE|[172]
 1 Azusa, Lost but Seeking|CMM|[274]
 1 Brainstorm|MMQ|[61]
 1 Chaos Warp|MBC|[72]
 1 Combat Research|DMU
-1 Command Beacon|TRC|[373]
-1 Command Tower|TRC|[521]
+1 Command Beacon|TDC|[352]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Courser of Kruphix|TSR|[359]
 1 Cultivate|SOC|[265]
 1 Doc Aurlock, Grizzled Genius|OTJ
 1 Dryad of the Ilysian Grove|M3C|[225]
 1 Eruth, Tormented Prophet|DBL|[504]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Expel from Orazca|RIX
 1 Exploration|DMR|[339]
 1 Farseek|RVR|[347]
@@ -45,13 +45,13 @@ Name=Haldan and Pako
 1 Ketria Crystal|IKO
 1 Ketria Triome|IKO|[250]
 1 Kodama's Reach|ECC|[113]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Memory Lapse|MIR|[74]
 4 Mountain|INR|[294]
 1 Nature's Lore|DMR|[346]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Oracle of Mul Daya|EOC|[102]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Ponder|TSR|[315]
 1 Radha, Heart of Keld|M21
 1 Rampant Growth|TMP|[245]
@@ -74,9 +74,9 @@ Name=Haldan and Pako
 1 Stubborn Denial|KTK
 1 Sulfur Falls|DMR
 1 Summer Bloom|POR|[187]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sylvan Library|DMR
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Talisman of Curiosity|SOC|[430]
 1 Talisman of Impulse|TDC|[332]
 1 Tamiyo's Safekeeping|FDC|[233]

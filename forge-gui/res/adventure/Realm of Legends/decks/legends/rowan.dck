@@ -5,7 +5,7 @@ Name=Rowan
 [Main]
 1 Agadeem's Awakening|znr
 1 Mirror Universe|leg
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archon of Cruelty|FRC|[47]
 1 Auntie Blyte, Bad Influence|j22
 1 Barbarian Ring|ody
@@ -14,12 +14,12 @@ Name=Rowan
 1 Bloodfell Caves|TDM|[250]
 1 Bojuka Bog|TSR|[406]
 1 Cabal Pit|ody
-1 Canyon Slough|TRC|[369]
+1 Canyon Slough|ECC|[145]
 1 Chainer, Dementia Master|DMR|[299]
 1 Chandra, Hope's Beacon|mom
 1 City on Fire|mom
 1 Comet Storm|cmr
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conqueror's Flail|2X2|[302]
 1 Consume Spirit|DVD|[56]
 1 Rowan Kenrith|CLB|[805]
@@ -29,7 +29,7 @@ Name=Rowan
 1 Dire Fleet Ravager|OTC|[132]
 1 Dismember|TSR|[322]
 1 Doom Whisperer|mkc
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Electrodominance|TDC|[212]
 1 Exsanguinate|FDN|[173]
 1 Feed the Swarm|TDC|[180]
@@ -37,7 +37,7 @@ Name=Rowan
 1 Fire Covenant|ice
 1 Fireball|LEB|[150]
 1 Font of Agonies|rna
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 1 Greven, Predator Captain|c19
 1 Hoarding Broodlord|mom
 1 Immolating Souleater|nph
@@ -48,12 +48,12 @@ Name=Rowan
 8 Mountain|INR|[294]
 1 Myr Convert|one
 1 Myriad Landscape|EOC|[169]
-1 Night's Whisper|TRC|[446]
+1 Night's Whisper|SOC|[221]
 1 Crackle with Power|stx
 1 Thran Dynamo|UDS|[139]
 1 Gilded Lotus|FDN|[725]
 1 Ancient Cellarspawn|dsc
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Chandra, Awakened Inferno|m20
 1 Hell to Pay|otj
 1 Subterranean Tremors|cn2
@@ -65,7 +65,7 @@ Name=Rowan
 1 Rowan's Grim Search|woe
 1 Ancient Tomb|tmp
 1 Torgaar, Famine Incarnate|GN2|[35]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Snuff Out|MMQ|[162]
 1 Sol Ring|LEB|[270]
 1 Staff of Compleation|TDC|[326]
@@ -75,13 +75,13 @@ Name=Rowan
 1 Sulfurous Springs|ICE|[360]
 11 Swamp|INR|[292]
 1 Tainted Peak|TOR|[142]
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 Tavern Swindler|snc
-1 Temple of Malice|TRC|[410]
+1 Temple of Malice|FDN|[701]
 1 Tomb of Urami|sok
 1 Torment of Hailfire|hou
 1 Toxic Deluge|MH3|[412]
 1 Vilis, Broker of Blood|J25|[70]
 1 War Room|SOC|[422]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Whip of Erebos|PIO|[119]

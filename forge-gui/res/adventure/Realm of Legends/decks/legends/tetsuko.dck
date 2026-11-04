@@ -6,7 +6,7 @@ Name=Tetsuko
 1 Aetherize|RVR|[448]
 1 Aetherspouts|mic
 1 An Offer You Can't Refuse|FDN|[160]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Azure Beastbinder|blb
 1 Bident of Thassa|PIO|[47]
 1 Master of Waves|PIO|[63]
@@ -37,7 +37,7 @@ Name=Tetsuko
 30 Island|INR|[290]
 1 Kaito, Cunning Infiltrator|fdn
 1 Library Larcenist|j22
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Malcolm, Alluring Scoundrel|lci
 1 Master of Waves|PIO|[63]
 1 Military Intelligence|j22
@@ -45,14 +45,14 @@ Name=Tetsuko
 1 Mirrex|one
 1 Mischievous Catgeist|DBL|[336]
 1 Mist-Syndicate Naga|mh1
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Neurok Commando|mbs
 1 Prying Blade|xln
 1 Rapid Hybridization|SOC|[198]
 1 Reconnaissance Mission|woc
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Resculpt|SOC|[201]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sapphire Medallion|TMP|[306]
 1 Scroll Thief|DDT|[17]
 1 Silent Hallcreeper|dsk
@@ -63,13 +63,13 @@ Name=Tetsuko
 1 Stolen Identity|ncc
 1 Strixhaven Stadium|stx
 1 Surrakar Spellblade|mm2
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Teferi's Ageless Insight|J25|[371]
 1 Temple of the False God|SCG|[143]
 1 The Indomitable|lcc
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Triskaidekaphile|BLC|[178]
 1 Wall of Wonder|LEG|[85]
 1 War Room|SOC|[422]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Zenith Chronicler|one

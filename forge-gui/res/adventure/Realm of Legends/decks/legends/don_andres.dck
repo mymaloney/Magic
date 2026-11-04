@@ -6,7 +6,7 @@ Name=Don Andres, the Renegade
 1 Altar of Dementia|TMP
 1 Animate Dead|LEB|[93]
 1 Arcane Heist|OTC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Blasphemous Act|SOC|[238]
 1 Breach the Multiverse|MOM
 1 Breeches, Brazen Plunderer|LCC|[217]
@@ -14,7 +14,7 @@ Name=Don Andres, the Renegade
 1 Desertion|VIS|[30]
 1 Reins of Power|STH|[41]
 1 Smirking Spelljacker|OTC
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Thieving Skydiver|OTC
 1 Coercive Recruiter|LCC
 1 Zealous Conscripts|TSR|[354]
@@ -22,22 +22,22 @@ Name=Don Andres, the Renegade
 1 Puppeteer Clique|ECC|[84]
 1 Chaos Wand|OTC|[254]
 1 Coldsteel Heart|J22|[94]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Control Magic|LEB|[53]
 1 Counterspell|DMR|[281]
 1 Court of Locthwain|WOC
 1 Crumbling Necropolis|LCC|[326]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Dazzling Sphinx|OTC
 1 Diluvian Primordial|OTC|[96]
 1 Dimir Signet|FRC|[56]
 1 Disdainful Stroke|TSR|[307]
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Dredge the Mire|SCD|[76]
 1 Etali, Primal Storm|TSR|[342]
 1 Evelyn, the Covetous|SNC
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Extract from Darkness|2X2|[210]
 1 Fellwar Stone|DRK|[102]
 1 Fevered Suspicion|AFC
@@ -61,7 +61,7 @@ Name=Don Andres, the Renegade
 1 Mob Rule|VOC|[147]
 1 Molten Primordial|GTC
 7 Mountain|INR|[294]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Plargg and Nassari|SOC|[250]
 1 Propaganda|TMP
 1 Rakdos Carnarium|ECC|[161]

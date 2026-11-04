@@ -7,7 +7,7 @@ Name=Greven
 1 Aggravated Assault|ons
 1 Alesha, Who Laughs at Fate|fdn
 1 Anger|jud
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ashes to Ashes|DRK|[39]
 1 Basilisk Collar|FDC|[246]
 1 Blood Crypt|RVR|[397]
@@ -18,21 +18,21 @@ Name=Greven
 1 Chainer, Nightmare Adept|MH2|[419]
 1 Chandra's Ignition|FDC|[145]
 1 Chaos Warp|MBC|[72]
-1 Command Beacon|TRC|[373]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Beacon|TDC|[352]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Corpse Augur|DRC|[40]
 1 Crawlspace|dmr
 1 Daring Fiendbonder|c20
-1 Darksteel Plate|TRC|[341]
+1 Darksteel Plate|2X2|[304]
 1 Shadowspear|thb
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Essence Harvest|avr
 1 Feed the Swarm|TDC|[180]
 1 Feldon of the Third Path|TSR|[344]
 1 Field of Ruin|TSR|[407]
 1 Fire Covenant|ice
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 1 Ghost Quarter|CM2|[253]
 1 Graven Cairns|DSC|[280]
 1 Haunted Ridge|FRA|[180]
@@ -44,7 +44,7 @@ Name=Greven
 1 Keen Duelist|SOC|[218]
 1 Labyrinth Raptor|iko
 1 Lagomos, Hand of Hatred|dmu
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lightning Phoenix|jmp
 1 Loxodon Warhammer|ONC|[135]
 1 Mask of Griselbrand|DSC|[145]
@@ -60,27 +60,27 @@ Name=Greven
 1 Gilded Lotus|FDN|[725]
 1 Rekindling Phoenix|NCC|[273]
 1 Release the Gremlins|aer
-1 Reliquary Tower|TRC|[551]
-1 Rogue's Passage|TRC|[552]
+1 Reliquary Tower|SOC|[398]
+1 Rogue's Passage|SOC|[400]
 1 Rowan, Scion of War|woe
 1 Seize the Day|ody
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Soul Channeling|mmq
 1 Soul's Fire|cmr
 1 Sulfurous Springs|ICE|[360]
 9 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Withering Torment|FDC|[134]
 1 Feed the Swarm|TDC|[180]
 1 Shakedown Heavy|snc
 1 Ball Lightning|drk
-1 Talisman of Indulgence|TRC|[507]
-1 Temple of Malice|TRC|[410]
+1 Talisman of Indulgence|FRC|[63]
+1 Temple of Malice|FDN|[701]
 1 Tentative Connection|iko
 1 The Black Gate|ltc
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Urabrask's Forge|one
 1 Desecration Demon|FDN|[603]
 1 Witch's Clinic|FDC|[318]

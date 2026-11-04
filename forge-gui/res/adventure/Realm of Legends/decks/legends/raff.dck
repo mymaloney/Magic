@@ -6,7 +6,7 @@ Name=Raff
 1 Aeronaut Admiral|NEC|[79]
 1 Aethersphere Harvester|M3C|[280]
 1 Disenchant|MMQ|[18]
-1 Disallow|TRC|[253]
+1 Disallow|DRC|[74]
 1 Time Stop|FDN|[166]
 1 Aradara Express|J22|[754]
 1 Raff, Weatherlight Stalwart|dmu
@@ -15,7 +15,7 @@ Name=Raff
 1 Azor, the Lawbringer|rix
 1 Azorius Cluestone|dgm
 1 Azorius Keyrune|GK2|[23]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Blinkmoth Infusion|5dn
 1 Bomat Bazaar Barge|kld
 1 Broodstar|FDC|[60]
@@ -40,7 +40,7 @@ Name=Raff
 1 Hanna, Ship's Navigator|INV|[249]
 1 Hanna's Custody|tmp
 18 Island|INR|[290]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Jhoira's Familiar|2XM|[265]
 1 Karn's Temporal Sundering|dom
 1 Mobile Garrison|aer
@@ -60,7 +60,7 @@ Name=Raff
 1 Sleek Schooner|xln
 1 Slinn Voda, the Rising Deep|CMR|[405]
 1 Sram, Senior Edificer|TSR|[303]
-1 Tempered Steel|TRC|[241]
+1 Tempered Steel|BRC|[76]
 1 The Antiquities War|dom
 1 Thran Dynamo|uds
 1 Tranquil Cove|TDM|[270]

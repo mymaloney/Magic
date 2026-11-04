@@ -28,13 +28,13 @@ Name=Elsha, Threefold Master
 1 Curse of Opulence|TDC|1
 1 Shiny Impetus|TDC|1
 1 Adaptive Training Post|TDC|1
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Sol Ring|LEB|[270]
 1 Chromatic Lantern|RVR|[390]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Fellwar Stone|DRK|[102]
-1 Talisman of Creativity|TRC|[504]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Creativity|FRC|[61]
+1 Talisman of Progress|FRC|[64]
 1 Transforming Flourish|TDC|1
 1 Narset's Reversal|TDC|1
 1 Sublime Epiphany|TDC|1
@@ -46,12 +46,12 @@ Name=Elsha, Threefold Master
 1 Consider|TDC|1
 1 Frantic Search|DMR|[285]
 1 Opt|INV|[64]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Think Twice|INR|[369]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Big Score|SOC|[237]
 1 Will of the Jeskai|TDC|1
-1 Vanquish the Horde|TRC|[245]
+1 Vanquish the Horde|TDC|[91]
 1 Dismantling Wave|TDC|1
 1 Ancestral Vision|TDC|1
 1 Baral's Expertise|TDC|1
@@ -67,13 +67,13 @@ Name=Elsha, Threefold Master
 1 Expressive Iteration|SOC|[309]
 1 Adarkar Wastes|ICE|[351]
 1 Battlefield Forge|APC|[139]
-1 Frostboil Snarl|TRC|[383]
+1 Frostboil Snarl|SOC|[374]
 1 Clifftop Retreat|DMR|[393]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Steam Vents|RVR|[412]
-1 Glacial Fortress|TRC|[385]
-1 Irrigated Farmland|TRC|[388]
-1 Prairie Stream|TRC|[394]
+1 Glacial Fortress|FRC|[73]
+1 Irrigated Farmland|EOC|[162]
+1 Prairie Stream|FRC|[79]
 1 Rugged Prairie|SOC|[401]
 1 Shivan Reef|APC|[142]
 1 Hallowed Fountain|RVR|[404]
@@ -81,13 +81,13 @@ Name=Elsha, Threefold Master
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of Epiphany|SOC|[412]
 1 Temple of Triumph|SOC|[417]
-1 Command Tower|TRC|[521]
-1 Evolving Wilds|TRC|[527]
-1 Mystic Monastery|TRC|[543]
+1 Command Tower|FRC|[22]
+1 Evolving Wilds|ECL|[264]
+1 Mystic Monastery|EOC|[170]
 1 Ash Barrens|TDC|1
-1 Path of Ancestry|TRC|[545]
-1 Perilous Landscape|TRC|[546]
-1 Reliquary Tower|TRC|[551]
+1 Path of Ancestry|MBC|[80]
+1 Perilous Landscape|FRC|[78]
+1 Reliquary Tower|SOC|[398]
 2 Plains|INR|[288]
 2 Plains|INR|[288]
 3 Island|INR|[290]

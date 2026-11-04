@@ -6,7 +6,7 @@ Name=Myrel
 1 Akroma's Will|M3C|[165]
 1 Banner of Kinship|fdn|[352]
 1 Anointed Procession|akh
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archetype of Courage|bng
 1 Siege Veteran|bro
 1 Whispersilk Cloak|DSC|[257]
@@ -23,7 +23,7 @@ Name=Myrel
 1 Commander's Plate|cmr
 1 Resolute Reinforcements|FDN|[145]
 1 Darien, King of Kjeldor|MKC|[59]
-1 Darksteel Plate|TRC|[341]
+1 Darksteel Plate|2X2|[304]
 1 Daru Warchief|scg
 1 Dawn Charm|CMR|[371]
 1 Elspeth, Sun's Champion|FRC|[24]
@@ -38,7 +38,7 @@ Name=Myrel
 1 Goldnight Commander|TDC|[117]
 1 Halo Fountain|snc
 1 Heliod's Intervention|OTC|[81]
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Hero of Bladehold|tdc
 1 Keeper of the Accord|MKC|[70]
 1 Kjeldoran Outpost|all
@@ -59,14 +59,14 @@ Name=Myrel
 1 Ghost Quarter|CM2|[253]
 1 Field of Ruin|TSR|[407]
 1 Rescue Retriever|bro
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Raise the Alarm|J25|[101]
 1 Sol Ring|LEB|[270]
 1 Conqueror's Pledge|zen
 1 Loxodon Gatekeeper|rav
 1 Strip Mine|ATQ|[82a]
 1 Strixhaven Stadium|stx
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of the Animist|CMM|[413]
 1 Swords to Plowshares|DMR|[275]
 1 Teferi's Protection|2X2|[32]
@@ -75,4 +75,4 @@ Name=Myrel
 1 Valiant Veteran|dmu
 1 War Room|SOC|[422]
 1 Wasteland|TMP|[330]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]

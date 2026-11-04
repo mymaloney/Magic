@@ -5,7 +5,7 @@ Name=Salacinder and Soot
 [Main]
 1 Amphibian Downpour|mh3
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artist's Talent|blb
 1 Ashling the Pilgrim|cmm
 1 Ashling, Flame Dancer|mh3
@@ -22,7 +22,7 @@ Name=Salacinder and Soot
 1 Champion of the Path|ecl
 1 Chromatic Orrery|LCC|[107]
 1 Collective Inferno|ecl
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Eclipsed Flamekin|ecl
 1 Elemental Eruption|otc
 1 Eluge, the Shoreless Sea|blb
@@ -44,9 +44,9 @@ Name=Salacinder and Soot
 1 Kulrath Mystic|ecl
 14 Mountain|INR|[294]
 1 Mulldrifter|TSR|[311]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Omni-Changeling|ecl
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pirate's Pillage|2x2
 1 Prismari Command|SOC|[323]
 1 Rimekin Recluse|ecl
@@ -68,10 +68,10 @@ Name=Salacinder and Soot
 1 Subterfuge|ecc
 1 Sulfur Falls|DMR|[400]
 1 Summit Sentinel|ecl
-1 Swiftfoot Boots|TRC|[501]
-1 Talisman of Creativity|TRC|[504]
+1 Swiftfoot Boots|MBC|[77]
+1 Talisman of Creativity|FRC|[61]
 1 Thousand-Year Storm|fdn
-1 Thrill of Possibility|TRC|[455]
+1 Thrill of Possibility|FDC|[180]
 1 Thundering Falls|mkm
 1 Tormenting Voice|j22
 1 Twinflame Travelers|ecl

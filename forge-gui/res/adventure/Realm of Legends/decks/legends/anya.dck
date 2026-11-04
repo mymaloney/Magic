@@ -28,11 +28,11 @@ Name=Anya
 1 Battlefield Forge|APC|[139]
 1 Boros Guildgate|rvr
 1 Sol Ring|LEB|[270]
-1 Command Tower|TRC|[521]
-1 Talisman of Conviction|TRC|[503]
-1 Swiftfoot Boots|TRC|[501]
+1 Command Tower|FRC|[22]
+1 Talisman of Conviction|SOC|[428]
+1 Swiftfoot Boots|MBC|[77]
 1 Chaos Warp|MBC|[72]
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Generous Gift|BLC|[106]
 1 Spellshock|exo
 1 Furnace of Rath|tmp
@@ -46,7 +46,7 @@ Name=Anya
 1 Chain Lightning|dmr
 1 Boltwave|fdn
 1 Exquisite Archangel|aer
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Giada, Font of Hope|FDC|[4]
 1 Herald of War|FDC|[34]
 1 Legion Leadership|mh3
@@ -60,7 +60,7 @@ Name=Anya
 1 Temple of Triumph|SOC|[417]
 1 Pyroclasm|POR|[143]
 1 Rally of Wings|J25|[238]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Reforge the Soul|inr
 1 Righteous Valkyrie|FDC|[43]
 1 Sacred Peaks|SOC|[402]
@@ -70,6 +70,6 @@ Name=Anya
 1 Lava Spike|TSR|[347]
 1 Swords to Plowshares|DMR|[275]
 1 Unbounded Potential|CMM|[67]
-1 Vanquish the Horde|TRC|[245]
-1 Warleader's Call|TRC|[335]
+1 Vanquish the Horde|TDC|[91]
+1 Warleader's Call|MKM|[242]
 1 Wind-Scarred Crag|TDM|[271]

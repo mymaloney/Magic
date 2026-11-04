@@ -26,7 +26,7 @@ Name=Grunn
 1 Chomping Kavu|MOM
 1 Circle of Elders|DTK
 1 Colossal Majesty|FDC|[197]
-1 Command Beacon|TRC|[373]
+1 Command Beacon|TDC|[352]
 1 Contest of Claws|LCC
 1 Court Archers|ALA
 1 Cultivate|SOC|[265]
@@ -49,7 +49,7 @@ Name=Grunn
 1 Haunted Cloak|CMM
 1 Horrid Vigor|DSK
 1 Kodama's Reach|ECC|[113]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Llanowar Augur|FUT
 1 Llanowar Elves|LEB|[211]
 1 Llanowar Reborn|LCC
@@ -60,12 +60,12 @@ Name=Grunn
 1 Rabid Bite|BLB|[394]
 1 Raised by Giants|CLB
 1 Rhox Charger|ALA
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rover Blades|DFT
 1 Sigil of Valor|ORI|[239]
 1 Skyclave Relic|MOC
 1 Sol Ring|LEB|[270]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tall as a Beanstalk|ELD
 1 Throne of Makindi|ZNR
 1 Unnatural Growth|INR

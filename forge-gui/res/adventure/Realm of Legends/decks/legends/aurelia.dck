@@ -3,11 +3,11 @@ Name=Aurelia, the Warleader
 [Commander]
 1 Aurelia, the Warleader|FDN|[651]
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Adeline, Resplendent Cathar|TDC|[108]
 1 Alpine Meadow|KHM
 1 Anim Pakal, Thousandth Moon|LCI
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arid Mesa|MH2
 1 Aurelia, the Law Above|MKM
 1 Aurelia's Fury|PIO|[386]
@@ -22,7 +22,7 @@ Name=Aurelia, the Warleader
 1 Chivalric Alliance|MOC
 1 Clifftop Retreat|DMR|[393]
 1 Warleader's Helix|UMA|[210]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Darksteel Mutation|SOC|[142]
 1 Dawn's Truce|BLB
 1 Deflecting Palm|MKC|[205]
@@ -54,7 +54,7 @@ Name=Aurelia, the Warleader
 1 Path to Exile|TSR|[299]
 8 Mountain|INR|[294]
 12 Plains|INR|[288]
-1 Professional Face-Breaker|TRC|[291]
+1 Professional Face-Breaker|M3C|[216]
 1 Prophetic Flamespeaker|JOU
 1 Rip Apart|SOC|[328]
 1 Robber of the Rich|ELD
@@ -63,7 +63,7 @@ Name=Aurelia, the Warleader
 1 Sacred Peaks|SOC|[402]
 1 Scalding Tarn|MH2
 1 Secluded Courtyard|ECC|[62]
-1 Shared Animosity|TRC|[295]
+1 Shared Animosity|LCC|[231]
 1 Silverblade Paladin|C14|[88]
 1 Aurelia, Exemplar of Justice|RVR|[356]
 1 Aurelia's Vindicator|MKM
@@ -80,7 +80,7 @@ Name=Aurelia, the Warleader
 1 Trouble in Pairs|MKC
 1 Underworld Breach|THB
 1 Vandalblast|TSR|[352]
-1 Warleader's Call|TRC|[335]
+1 Warleader's Call|MKM|[242]
 1 Windcrag Siege|FRC|[52]
 1 Winds of Abandon|MH1
 1 Wrath of God|DMR|[279]

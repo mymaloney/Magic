@@ -21,7 +21,7 @@ Name=Queen Kayla
 1 Cathar Commando|inr
 1 Citywide Bust|scd
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Currency Converter|FRC|[55]
 1 Damping Sphere|dmr
 1 Demolition Field|FDN|[687]
@@ -32,10 +32,10 @@ Name=Queen Kayla
 1 Eidolon of Rhetoric|PIO|[279]
 1 Esper Sentinel|H2R|[2]
 1 Ethersworn Canonist|2xm
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Farewell|M3C|[170]
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Generous Gift|blc
 1 Ghostly Prison|SOC|[146]
 1 Giver of Runes|H1R|[3]
@@ -50,8 +50,8 @@ Name=Queen Kayla
 1 Legion Leadership|mh3
 1 Leonin Arbiter|2x2
 1 Library of Leng|leb
-1 Lightning Greaves|TRC|[496]
-1 Loran of the Third Path|TRC|[229]
+1 Lightning Greaves|SOC|[350]
+1 Loran of the Third Path|BLC|[143]
 1 Magmakin Artillerist|dft
 1 Meekstone|LEB|[261]
 1 Monument to Endurance|dft
@@ -64,7 +64,7 @@ Name=Queen Kayla
 10 Plains|INR|[288]
 1 Quintorius, Field Historian|SOC|[326]
 1 Remorseful Cleric|SOC|[164]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sacred Foundry|rvr
 1 Sejiri Shelter|PIO|[31]
 1 Selfless Spirit|SOC|[167]
@@ -83,7 +83,7 @@ Name=Queen Kayla
 1 Torpor Orb|BIG|[27]
 1 Valakut Awakening|PIO|[158]
 1 Vandalblast|TSR|[352]
-1 Vanquish the Horde|TRC|[245]
+1 Vanquish the Horde|TDC|[91]
 1 War Room|SOC|[422]
 1 Wear|PIO|[398]
 1 Winds of Abandon|mh1

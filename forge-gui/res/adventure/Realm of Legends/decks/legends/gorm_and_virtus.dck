@@ -6,11 +6,11 @@ Name=Gorm and Virtus
 [Main]
 1 Abrupt Decay|TSR|[370]
 1 Acidic Slime|M3C|[218]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assassin's Trophy|SOC|[294]
 1 Blooming Marsh|OTJ
 1 Broken Bond|J22
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cultivate|SOC|[265]
 1 Damnable Pact|NCC
 1 Darkbore Pathway|KHM
@@ -21,7 +21,7 @@ Name=Gorm and Virtus
 1 Destined|AKH
 1 Dreamstealer|HOU
 1 Elvish Mystic|TSR|[360]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Fleetfeather Sandals|THS
 10 Forest|INR|[296]
 1 Gaze of Granite|EOC|[116]
@@ -51,7 +51,7 @@ Name=Gorm and Virtus
 1 Noble Quarry|C15
 1 Oakhame Adversary|ELD
 1 Ochran Assassin|GRN
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Price of Fame|MKC
 1 Prized Unicorn|M20|[342]
 1 Prowler's Helm|THS
@@ -76,7 +76,7 @@ Name=Gorm and Virtus
 1 Tamiyo's Safekeeping|FDC|[233]
 1 Taunting Elf|ONS
 1 Temple of Malady|SOC|[413]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Treasured Find|GK1|[72]
 1 Treefolk Umbra|MH1
 1 Vraska, Swarm's Eminence|WAR

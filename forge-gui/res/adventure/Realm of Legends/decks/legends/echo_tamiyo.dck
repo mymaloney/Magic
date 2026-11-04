@@ -3,10 +3,10 @@ Name=Tamiyo, Upriser Crowned
 [Commander]
 1 Tamiyo, Upriser Crowned|frc
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Agitator Ant|mkc
 1 Alexios, Deimos of Kosmos|acr
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archaeomancer's Map|SOC|[136]
 1 Archon of Coronation|ncc
 1 Aurelia, the Law Above|mkm
@@ -17,18 +17,18 @@ Name=Tamiyo, Upriser Crowned
 1 Chaos Warp|MBC|[72]
 1 Clifftop Retreat|DMR|[393]
 1 Combat Calligrapher|SOC|[141]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Court of Ardenvale|woc
 1 Court of Grace|FDC|[21]
 1 Crawlspace|dmr
 1 Curse of Opulence|tdc
 1 Deflecting Palm|mkc
 1 Dragonfire Blade|tdm
-1 Duelist's Heritage|TRC|[218]
+1 Duelist's Heritage|MKC|[60]
 1 Emberwilde Captain|cmr
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
-1 Furycalm Snarl|TRC|[384]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
+1 Furycalm Snarl|SOC|[375]
 1 Geode Rager|SCD|[144]
 1 Ghostly Prison|SOC|[146]
 1 Gilded Lotus|FDN|[725]
@@ -41,23 +41,23 @@ Name=Tamiyo, Upriser Crowned
 1 Knight of the White Orchid|PIO|[21]
 1 Komainu Battle Armor|nec
 1 Lightning Helix|RVR|[372]
-1 Loran of the Third Path|TRC|[229]
+1 Loran of the Third Path|BLC|[143]
 1 Mangara, the Diplomat|SOC|[155]
 1 Mind Stone|DMR|[385]
 12 Mountain|INR|[294]
 1 Nils, Discipline Enforcer|soc
 1 Ornithopter of Paradise|mh2
 1 Palace Jailer|TSR|[298]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 1 Perch Protection|blc
 10 Plains|INR|[288]
-1 Professional Face-Breaker|TRC|[291]
-1 Promise of Loyalty|TRC|[234]
-1 Radiant Summit|TRC|[395]
+1 Professional Face-Breaker|M3C|[216]
+1 Promise of Loyalty|SOC|[161]
+1 Radiant Summit|FRC|[80]
 1 Raiyuu, Storm's Edge|neo
 1 Restless Bivouac|woe
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Scavenger Grounds|FDC|[311]
 1 Court of Embereth|woc
 1 Chief Magistrate of Mercadia|mbc
@@ -71,7 +71,7 @@ Name=Tamiyo, Upriser Crowned
 1 Starfall Invocation|blb
 1 Sundown Pass|SOS|[264]
 1 Sword of the Animist|CMM|[413]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Teferi's Reproach|frc
 1 Temple of Triumph|SOC|[417]
 1 Tempt with Bunnies|blc

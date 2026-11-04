@@ -4,7 +4,7 @@ Name=Sala, Deck Boss
 1 Sala, Deck Boss|YDFT
 [Main]
 1 Adrenaline Jockey|DFT
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arms Scavenger|YMID
 1 Boommobile|DFT
 1 Camera Launcher|DFT
@@ -13,7 +13,7 @@ Name=Sala, Deck Boss
 1 Chaos Warp|MBC|[72]
 1 Charged Conjuration|YBLB
 1 Cindercone Smite|YBLB
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Curiosity|EXO|[29]
 1 Cyclonic Rift|RVR
@@ -33,7 +33,7 @@ Name=Sala, Deck Boss
 1 Kessig Flamebreather|DBL
 1 Key to the Archive|YMID
 1 Kiora, the Tide's Fury|J21
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Melt Through|YBRO
 1 Mindspring Merfolk|DFT
 1 Mindwrack Liege|2X2
@@ -61,7 +61,7 @@ Name=Sala, Deck Boss
 1 Smash to Dust|DMU
 1 Sol Ring|LEB|[270]
 1 Stormcarved Coast|SOS|[263]
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Tectonic Hazard|LCI
 1 Thermo-Alchemist|INR
 1 Thieving Aven|YOTJ

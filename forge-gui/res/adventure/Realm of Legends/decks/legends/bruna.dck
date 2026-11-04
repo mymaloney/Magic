@@ -3,7 +3,7 @@ Name=Bruna, Light of Alabaster
 [Commander]
 1 Bruna, Light of Alabaster|C18|[170]
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archetype of Imagination|DSC|[111]
 1 Archon of Sun's Grace|SOC|[137]
 1 Avacyn, Angel of Hope|INR|[477]
@@ -13,14 +13,14 @@ Name=Bruna, Light of Alabaster
 1 Chivalric Alliance|MOC
 1 Sol Ring|LEB|[270]
 1 Collective Effort|ONC|[61]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Curator's Ward|DOM
 1 Cyclonic Rift|RVR|[313]
 1 Bruna, the Fading Light|INR|[14]
 1 Gisela, the Broken Blade|INR|[24]
 1 Daybreak Coronet|WOC|[65]
 1 Deserted Beach|FRA|[176]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Azorius Signet|FRC|[53]
 1 Eldrazi Conscription|SOC|[131]
 1 Enduring Curiosity|DSK
@@ -30,7 +30,7 @@ Name=Bruna, Light of Alabaster
 1 Floodfarm Verge|DSK
 1 Ghostly Dancers|DSK
 1 Giver of Runes|H1R|[3]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Grasp of Fate|FDC|[32]
 1 Hall of Heliod's Generosity|DSC|[283]
 1 Halvar, God of Battle|KHM
@@ -40,7 +40,7 @@ Name=Bruna, Light of Alabaster
 1 High Fae Trickster|FDN
 13 Island|INR|[290]
 1 Katilda, Dawnhart Martyr|DBL|[288]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Mantle of the Ancients|WOC
 1 Mesa Enchantress|DMR|[267]
 1 Mother of Runes|ULG|[14]
@@ -56,8 +56,8 @@ Name=Bruna, Light of Alabaster
 1 Light-Paws, Emperor's Voice|NEO
 1 Sovereigns of Lost Alara|UMA|[207]
 1 Plaza of Heroes|DMU
-1 Prairie Stream|TRC|[394]
-1 Reliquary Tower|TRC|[551]
+1 Prairie Stream|FRC|[79]
+1 Reliquary Tower|SOC|[398]
 1 Requisition Raid|OTJ
 1 Sage's Reverie|SOC|[165]
 1 Sheltered by Ghosts|SOC|[171]
@@ -67,13 +67,13 @@ Name=Bruna, Light of Alabaster
 1 Songbirds' Blessing|SOC|[174]
 1 Staggering Insight|SCD|[246]
 1 Steel of the Godhead|DDI|[30]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of the Animist|CMM
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Tragic Arrogance|SOC|[182]
 1 Twinblade Blessing|FDN
 1 Virtue of Loyalty|WOE
 1 Voracious Bibliophile|TDC
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Windreader Sphinx|J25|[391]
 1 Winds of Rath|TMP|[52]

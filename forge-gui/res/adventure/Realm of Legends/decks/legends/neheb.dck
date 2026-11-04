@@ -3,8 +3,8 @@ Name=Neheb, the Eternal
 [Commander]
 1 Neheb, the Eternal|MKC|[158]
 [Main]
-1 Abrade|TRC|[449]
-1 Arcane Signet|TRC|[485]
+1 Abrade|SOC|[234]
+1 Arcane Signet|FRC|[20]
 1 Neheb, Dreadhorde Champion|DMC|[125]
 1 Banefire|J22
 1 Blasphemous Act|SOC|[238]
@@ -42,7 +42,7 @@ Name=Neheb, the Eternal
 1 Into the Fire|MOM
 1 Jaya Ballard|C21
 1 Jaya's Immolating Inferno|CMR
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Mind's Eye|FDC|[272]
 38 Mountain|INR|[294]
 1 Price of Glory|ODY
@@ -60,7 +60,7 @@ Name=Neheb, the Eternal
 1 Sol Ring|LEB|[270]
 1 Solphim, Mayhem Dominus|ONE
 1 Sunbird's Invocation|BLC|[116]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tome of Legends|FDC|[293]
 1 Torbran, Thane of Red Fell|ELD
 1 Twinning Staff|NCC

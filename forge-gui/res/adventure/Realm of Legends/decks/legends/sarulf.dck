@@ -3,21 +3,21 @@ Name=Sarulf
 [Commander]
 1 Sarulf, Realm Eater|khm
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arlinn, Voice of the Pack|j22
 1 Ascendant Packleader|DBL|[453]
 1 Beast Whisperer|TSR|[356]
 1 Black Sun's Twilight|one
 1 Bounding Wolf|j22
 1 Briarpack Alpha|j22
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Darkmoss Bridge|DSC|[269]
 1 Darkthicket Wolf|isd
 1 Demolition Field|FDN|[687]
 1 Dire Wolf Prowler|afr
 1 Emergency Weld|bro
 1 Eternal Witness|TSR|[361]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Ferocious Pup|j22
 1 Flay Essence|mh2
 1 Flourishing Hunter|j22
@@ -44,7 +44,7 @@ Name=Sarulf
 1 Primal Adversary|DBL|[194]
 1 Putrefy|RVR|[378]
 1 Raised by Wolves|bng
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Sacred Wolf|m12
 1 Sarulf's Packmate|khm
 1 Secluded Courtyard|ECC|[62]
@@ -55,7 +55,7 @@ Name=Sarulf
 1 Spirit of the Hunt|emn
 1 Sporeback Wolf|j22
 11 Swamp|INR|[292]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thriving Moor|ECC|[174]
 1 Tragic Slip|INR|[390]
 1 Geistpack Alpha|ymid
@@ -65,7 +65,7 @@ Name=Sarulf
 1 Masked Vandal|khm
 1 Realmwalker|ECC|[114]
 1 Overrun|ody
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Rampant Growth|TMP|[245]
 1 Unclaimed Territory|ECC|[175]
 1 Unnatural Growth|INR|[223]

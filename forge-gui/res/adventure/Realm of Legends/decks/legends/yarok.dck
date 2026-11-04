@@ -6,7 +6,7 @@ Name=Yarok
 1 Subterfuge|ecc
 1 Silverglade Elemental|mmq
 1 Sunderflock|ecl
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Argoth, Sanctum of Nature|bro
 1 Ashling, the Extinguisher|eve
 1 Assassin's Trophy|SOC|[294]
@@ -14,7 +14,7 @@ Name=Yarok
 1 Cavalier of Gales|J25|[296]
 1 Cavalier of Night|m20
 1 Cavalier of Thorns|ECC|[100]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conjurer's Closet|INR|[441]
 1 Cultivate|SOC|[265]
 1 Doomgape|DDJ|[65]
@@ -31,8 +31,8 @@ Name=Yarok
 1 Lamentation|ecc
 1 Luminollusk|ecl
 1 Prismabasher|ecl
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Farseek|RVR|[347]
 1 Foreboding Landscape|TDC|[365]
 11 Forest|INR|[296]
@@ -44,7 +44,7 @@ Name=Yarok
 1 Jyoti, Moag Ancient|m3c
 1 Kodama's Reach|ECC|[113]
 1 Leafkin Druid|scd
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lord of Extinction|TDC|[295]
 1 Muldrotha, the Gravetide|ECC|[128]
 1 Mulldrifter|TSR|[311]
@@ -57,20 +57,20 @@ Name=Yarok
 1 Ravenous Chupacabra|mkc
 1 Reclamation Sage|TSR|[366]
 1 Reflections of Littjara|TDC|[164]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Risen Reef|ECC|[132]
 1 Shinestriker|ecl
 1 Shriekmaw|TSR|[331]
 1 Yarok's Wavecrasher|J25|[395]
 1 Sol Ring|LEB|[270]
 1 Soul of the Harvest|jmp
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 1 Supreme Exemplar|mor
 9 Swamp|INR|[292]
 1 Talisman of Curiosity|SOC|[430]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Talisman of Resilience|SOC|[432]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thryx, the Sudden Storm|j25
 1 Titania, Nature's Force|dsc
 1 Titania, Protector of Argoth|MH2|[416]

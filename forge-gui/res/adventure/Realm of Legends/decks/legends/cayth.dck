@@ -19,7 +19,7 @@ Name=Cayth, Famed Mechanist
 1 Lightning Runner|DRC|[103]
 1 Myr Battlesphere|TDC|[322]
 1 Overclocked Electromancer|M3C|2
-1 Professional Face-Breaker|TRC|[291]
+1 Professional Face-Breaker|M3C|[216]
 1 Razorfield Ripper|M3C|2
 1 Roil Cartographer|MH3|1
 1 Salvation Colossus|M3C|2
@@ -31,7 +31,7 @@ Name=Cayth, Famed Mechanist
 1 Aether Refinery|M3C|2
 1 Aethersphere Harvester|M3C|1
 1 Aetherworks Marvel|DRC|[123]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Bespoke Battlewagon|DRC|[71]
 1 Bident of Thassa|PIO|[47]
 1 Coalition Relic|M3C|1
@@ -46,11 +46,11 @@ Name=Cayth, Famed Mechanist
 1 Sol Ring|LEB|[270]
 1 Solar Transformer|DRC|[137]
 1 Stone Idol Generator|M3C|2
-1 Talisman of Conviction|TRC|[503]
-1 Talisman of Creativity|TRC|[504]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Conviction|SOC|[428]
+1 Talisman of Creativity|FRC|[61]
+1 Talisman of Progress|FRC|[64]
 1 Unstable Amulet|MH3|1
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Era of Innovation|DRC|[75]
 1 Legion Loyalty|TDC|[122]
 1 Scurry of Gremlins|MH3|1
@@ -68,15 +68,15 @@ Name=Cayth, Famed Mechanist
 1 Azorius Chancery|DSC|[261]
 1 Battlefield Forge|APC|[139]
 1 Castle Vantress|DSC|[267]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Demolition Field|FDN|[687]
-1 Frostboil Snarl|TRC|[383]
-1 Furycalm Snarl|TRC|[384]
+1 Frostboil Snarl|SOC|[374]
+1 Furycalm Snarl|SOC|[375]
 1 Izzet Boilerworks|M3C|1
 1 Mystic Gate|FRC|[76]
-1 Mystic Monastery|TRC|[543]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Mystic Monastery|EOC|[170]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Satya, Aetherflux Genius|M3C|1
 1 Shivan Reef|APC|[142]
 1 Temple of Enlightenment|EOC|[186]

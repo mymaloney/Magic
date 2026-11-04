@@ -4,14 +4,14 @@ Name=Runo Stromkirk
 1 Runo Stromkirk|DBL|[513]
 [Main]
 1 Animate Dead|LEB|[93]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artisan of Kozilek|M3C|[153]
 1 Bonders' Enclave|FDC|[297]
 1 Brainstorm|MMQ|[61]
 1 Breaching Leviathan|C14
 1 Clearwater Pathway|ZNR
 1 Coldsteel Heart|J22|[94]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cyclonic Rift|RVR|[313]
 1 Dark Depths|DMR|[394]
 1 Deepchannel Mentor|SHM
@@ -19,7 +19,7 @@ Name=Runo Stromkirk
 1 Elder Deep-Fiend|INR|[4]
 1 Everflowing Chalice|TSR|[394]
 1 Extract from Darkness|2X2|[210]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Faceless Haven|KHM
 1 Frantic Search|DMR|[285]
 1 Frost Marsh|CSP
@@ -36,7 +36,7 @@ Name=Runo Stromkirk
 1 Incarnation Technique|C21
 1 Jace, the Mind Sculptor|BLC|[75]
 1 Kiora Bests the Sea God|THB
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Living Death|TMP|[142]
 1 Lochmere Serpent|ELD
 1 Marit Lage's Slumber|J22|[319]
@@ -47,7 +47,7 @@ Name=Runo Stromkirk
 1 Persist|MH2
 1 Polluted Delta|MH3|[438]
 1 Ponder|TSR|[315]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Quest for Ula's Temple|WWK
 1 Rapid Hybridization|SOC|[198]
 1 Reanimate|TMP|[151]
@@ -69,16 +69,16 @@ Name=Runo Stromkirk
 1 Starwinder|EOE
 1 Stormsurge Kraken|CMM|[122]
 1 Stormtide Leviathan|PIO|[75]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 1 Sword Coast Serpent|CLB
 1 Takenuma, Abandoned Mire|NEO
 1 Temple of Deceit|DRC|[176]
 1 Thassa, God of the Sea|PIO|[288]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Tidal Terror|MOM
 1 Tromokratis|CMM|[129]
 1 Unmarked Grave|MH2
 1 Watery Grave|RVR|[415]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Whelming Wave|CMR|[409]
 1 Wrexial, the Risen Deep|NCC|[359]

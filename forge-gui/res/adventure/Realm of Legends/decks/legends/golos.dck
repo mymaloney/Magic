@@ -3,9 +3,9 @@ Name=Golos
 [Commander]
 1 Golos, Tireless Pilgrim|m20
 [Main]
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Apex Devastator|M3C|[220]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assassin's Trophy|SOC|[294]
 1 Avacyn, Angel of Hope|INR|[477]
 1 Beast Within|TSR|[357]
@@ -25,10 +25,10 @@ Name=Golos
 1 Mountain|INR|[294]
 1 Plains|INR|[288]
 1 Swamp|INR|[292]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Iona, Shield of Emeria|MM2|[20]
-1 Dragonskull Summit|TRC|[375]
-1 Drowned Catacomb|TRC|[376]
+1 Dragonskull Summit|ECC|[147]
+1 Drowned Catacomb|FRC|[69]
 1 Dryad of the Ilysian Grove|M3C|[225]
 1 Eerie Ultimatum|iko
 1 Emergent Ultimatum|iko
@@ -38,7 +38,7 @@ Name=Golos
 1 Fellwar Stone|drk
 1 Field of the Dead|m20
 1 Genesis Ultimatum|iko
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Godless Shrine|RVR|[401]
 1 Hinterland Harbor|DMR|[396]
 1 Imoti, Celebrant of Bounty|cmr
@@ -60,11 +60,11 @@ Name=Golos
 1 Nyxbloom Ancient|thb
 1 Omniscience|FDN|[161]
 1 Rampant Growth|TMP|[245]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Reshape the Earth|cmr
 1 Rhythm of the Wild|RVR|[380]
 1 Rootbound Crag|ECC|[163]
-1 Ruinous Ultimatum|TRC|[329]
+1 Ruinous Ultimatum|IKO|[204]
 1 Sacred Foundry|RVR|[409]
 1 Violent Ultimatum|ala
 1 Inspired Ultimatum|iko

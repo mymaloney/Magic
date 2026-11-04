@@ -4,7 +4,7 @@ Name=Ascendant Evincar
 1 Ascendant Evincar|NMS|[51]
 [Main]
 1 Anowon, the Ruin Sage|VOC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Baleful Mastery|OTC
 1 Bloodline Keeper|INR
 1 Bloodline Necromancer|LCC
@@ -24,12 +24,12 @@ Name=Ascendant Evincar
 1 Dark Ritual|MMQ|[129]
 1 Defile|H1R|[13]
 1 Diresight|BLB
-1 Door of Destinies|TRC|[342]
+1 Door of Destinies|C17|[208]
 1 Dusk Legion Zealot|LCC
 1 Eaten Alive|INR
 1 Feed the Swarm|TDC
 1 Gifted Aetherborn|GN3|[52]
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Heraldic Banner|FDN
 1 High-Society Hunter|FDN
 1 Indulgent Aristocrat|INR
@@ -45,7 +45,7 @@ Name=Ascendant Evincar
 1 Oubliette|ARN
 1 Pact of the Serpent|LCC
 1 Patchwork Banner|SOC|[353]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Patriarch's Bidding|ONS
 1 Patron of the Vein|LCC
 1 Pile On|MKC
@@ -67,6 +67,6 @@ Name=Ascendant Evincar
 1 Vanquisher's Banner|TSR
 1 Veinwitch Coven|SOC|[228]
 1 Victimize|MH3|[413]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Witch's Cottage|FDC|[319]
 1 Withering Torment|FDC|[134]

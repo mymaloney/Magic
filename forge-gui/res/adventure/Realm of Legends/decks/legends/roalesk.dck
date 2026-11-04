@@ -4,7 +4,7 @@ Name=Roalesk
 1 Roalesk, Apex Hybrid|NCC|[349]
 [Main]
 1 An Offer You Can't Refuse|fdn
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Armorcraft Judge|j25
 1 Aspirant's Ascent|one
 1 Beast Within|TSR|[357]
@@ -13,7 +13,7 @@ Name=Roalesk
 1 Bred for the Hunt|CM2|[151]
 1 Broken Bond|j22
 1 Colossal Majesty|FDC|[197]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Contentious Plan|war
 1 Counterspell|DMR|[281]
 1 Cultivate|SOC|[265]
@@ -46,7 +46,7 @@ Name=Roalesk
 1 Midnight Clock|drc
 1 Mirror Mockery|dtk
 1 Mosswort Bridge|tdc
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Noxious Assault|one
 1 Opt|INV|[64]
 1 Plague Nurse|one
@@ -54,9 +54,9 @@ Name=Roalesk
 1 Rampant Growth|TMP|[245]
 1 Regrowth|LEB|[215]
 1 Reject Imperfection|one
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Return to Nature|moc
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Season of Gathering|blb
 1 Breeding Pool|RVR|[399]
 1 See Double|mom

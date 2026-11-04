@@ -5,12 +5,12 @@ Name=Atogatog
 [Main]
 1 Adaptive Automaton|fdn
 1 Amoeboid Changeling|J22|[269]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ashnod the Uncaring|brc
 1 Atog|atq
 1 Auratog|tmp
 1 Barren Glory|fut
-1 Arcane Sanctum|TRC|[513]
+1 Arcane Sanctum|DRC|[146]
 1 Blacksmith's Talent|blb
 1 Bloodline Pretender|moc
 1 Cascading Cataracts|m3c
@@ -21,18 +21,18 @@ Name=Atogatog
 1 Chronatog Totem|tsp
 1 Crumbling Necropolis|LCC|[326]
 1 Savage Lands|ECC|[165]
-1 Evolving Wilds|TRC|[527]
-1 Mystic Monastery|TRC|[543]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Evolving Wilds|ECL|[264]
+1 Mystic Monastery|EOC|[170]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Cosmic Intervention|khc
 1 Counterspell|DMR|[281]
 1 Cultivate|SOC|[265]
-1 Darksteel Plate|TRC|[341]
+1 Darksteel Plate|2X2|[304]
 1 Death's Presence|MIC|[137]
 1 Eerie Ultimatum|iko
 1 Enchanted Evening|shm
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Faith's Reward|CN2|[84]
 1 Farseek|RVR|[347]
 1 Fellwar Stone|DRK|[102]
@@ -67,10 +67,10 @@ Name=Atogatog
 1 Rancor|ulg
 1 Reflecting Pool|TMP|[322]
 1 Essence Harvest|avr
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sandsteppe Citadel|ECC|[164]
 1 Sarcatog|ody
-1 Nomad Outpost|TRC|[544]
+1 Nomad Outpost|TDM|[263]
 1 Seaside Citadel|ECC|[166]
 1 Second Sunrise|mrd
 1 Selesnya Guildgate|rvr
@@ -78,17 +78,17 @@ Name=Atogatog
 1 Sol Ring|LEB|[270]
 1 Soul's Fire|cmr
 3 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Taurean Mauler|tdc
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thaumatog|ody
 1 The World Tree|khm
 1 Three Tree Mascot|FDN|[682]
 1 Fake Your Own Death|FDN|[174]
 1 Not Dead After All|woe
 1 Naturalize|ONS|[275]
-1 Duelist's Heritage|TRC|[218]
+1 Duelist's Heritage|MKC|[60]
 1 Unclaimed Territory|ECC|[175]
 1 Universal Automaton|J22|[803]
 1 Unsettled Mariner|mh1

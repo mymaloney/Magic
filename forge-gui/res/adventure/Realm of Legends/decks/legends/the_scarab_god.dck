@@ -4,7 +4,7 @@ Name=The Scarab God
 1 The Scarab God|DRC|[120]
 [Main]
 1 Hordewing Skaab|MIC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Army of the Damned|FDC|[85]
 1 Bojuka Bog|TSR|[406]
 1 Castle Locthwain|FDC|[299]
@@ -12,8 +12,8 @@ Name=The Scarab God
 1 Cemetery Reaper|DRC|[87]
 1 Champion of the Perished|FDC|[91]
 1 Cleaver Skaab|MIC
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Corpse Augur|DRC|[40]
 1 Counterspell|DMR
 1 Cryptbreaker|DRC|[41]
@@ -24,10 +24,10 @@ Name=The Scarab God
 1 Diregraf Colossus|FDC|[96]
 1 Dread Summons|DRC|[90]
 1 Drown in the Loch|CLB
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Eligeth, Crossroads Augur|CMR
 1 Endless Ranks of the Dead|FDC|[97]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fact or Fiction|DMR|[283]
 1 Feed the Swarm|TDC|[180]
 1 Fellwar Stone|DRK|[102]
@@ -44,7 +44,7 @@ Name=The Scarab God
 9 Island|INR|[290]
 1 Lazotep Plating|SCD
 1 Life's Finale|NPH
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Liliana, Death's Majesty|DRC|[94]
 1 Lim-Dûl's Vault|ALL|[107]
 1 Lord of the Accursed|DRC|[95]
@@ -66,10 +66,10 @@ Name=The Scarab God
 1 Singularity Rupture|EOE
 1 Sol Ring|LEB|[270]
 1 Sphinx of the Second Sun|MKC|[118]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 15 Swamp|INR|[292]
 1 Tainted Isle|TOR|[141]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Temple of Deceit|DRC|[176]
 1 Terror Tide|LCI
 1 Toxic Deluge|MH3|[412]

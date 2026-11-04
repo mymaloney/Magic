@@ -11,13 +11,13 @@ Name=Kilo, Apogee Mind
 1 Solar Array|EOC|1
 1 Cloud Key|EOC|1
 1 Gavel of the Righteous|EOC|1
-1 Astral Cornucopia|TRC|[338]
+1 Astral Cornucopia|SOC|[342]
 1 Darksteel Reactor|EOC|1
 1 Empowered Autogenerator|EOC|1
 1 Lux Artillery|EOC|1
 1 Lux Cannon|EOC|1
 1 Titan Forge|EOC|1
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Pentad Prism|EOC|1
 1 Sol Ring|LEB|[270]
 1 Everflowing Chalice|TSR|[394]
@@ -52,42 +52,42 @@ Name=Kilo, Apogee Mind
 1 Pull from Tomorrow|SOC|[116]
 1 Ripples of Potential|EOC|1
 1 Swords to Plowshares|DMR|[275]
-1 Thirst for Knowledge|TRC|[443]
-1 Dispatch|TRC|[421]
+1 Thirst for Knowledge|EOC|[48]
+1 Dispatch|EOC|[64]
 1 Experimental Augury|EOC|1
 1 Fumigate|EOC|1
 1 Organic Extinction|EOC|1
 1 Universal Surveillance|EOC|1
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Wake the Past|EOC|1
 1 Tezzeret's Gambit|EOC|1
 1 Resourceful Defense|EOC|1
-1 Glittering Massif|TRC|[386]
-1 Radiant Summit|TRC|[395]
+1 Glittering Massif|SOC|[376]
+1 Radiant Summit|FRC|[80]
 1 Battlefield Forge|APC|[139]
 1 Adarkar Wastes|ICE|[351]
 1 Cascade Bluffs|SOC|[364]
 1 Clifftop Retreat|DMR|[393]
-1 Exotic Orchard|TRC|[378]
-1 Glacial Fortress|TRC|[385]
-1 Irrigated Farmland|TRC|[388]
+1 Exotic Orchard|MBC|[79]
+1 Glacial Fortress|FRC|[73]
+1 Irrigated Farmland|EOC|[162]
 1 Karn's Bastion|RVR|[464]
 1 The Mycosynth Gardens|EOC|1
 1 Sacred Foundry|RVR|[409]
 1 Shivan Reef|APC|[142]
 1 Hallowed Fountain|RVR|[404]
-1 Spire of Industry|TRC|[405]
+1 Spire of Industry|EOC|[183]
 1 Sulfur Falls|DMR|[400]
 1 Temple of Enlightenment|EOC|1
 1 Temple of Epiphany|SOC|[412]
 1 Temple of Triumph|SOC|[417]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Ancient Den|TSR|[403]
 1 Buried Ruin|EOC|1
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Great Furnace|EOC|1
 1 Lonely Sandbar|ONS|[320]
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Razortide Bridge|EOC|1
 1 Rustvale Bridge|EOC|1
 1 Seat of the Synod|EOC|1

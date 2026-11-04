@@ -3,7 +3,7 @@ Name=Yurlok
 [Commander]
 1 Yurlok of Scorch Thrash|cmr
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assassin's Trophy|SOC|[294]
 1 Barbflare Gremlin|dsc
 1 Belbe, Corrupted Observer|cmr
@@ -12,12 +12,12 @@ Name=Yurlok
 1 Cindervines|RVR|[360]
 1 Citadel of Pain|pcy
 1 Comet Storm|CMR|[411]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crackle with Power|stx
 1 Dictate of Karametra|jou
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Eladamri's Vineyard|TMP|[223]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Exsanguinate|fdn
 1 Farseek|RVR|[347]
 1 Fog|MIR|[216]
@@ -63,7 +63,7 @@ Name=Yurlok
 1 Stoneshaker Shaman|rav
 1 Sulfuric Vortex|dmr
 8 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of the Paruns|rvr
 1 Tectonic Instability|inv
 1 Terminate|PLS|[128]

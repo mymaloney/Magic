@@ -5,7 +5,7 @@ Name=Eirdu
 [Main]
 1 Aberrant Return|ecc
 1 Sol Ring|LEB|[270]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ashling, the Extinguisher|eve
 1 Belonging|ecc
 1 Black Sun's Zenith|ECC|[71]
@@ -20,15 +20,15 @@ Name=Eirdu
 1 Baleful Force|c13
 1 Inkshield|SOC|[316]
 1 Beza, the Bounding Spring|blb
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Grief|H2R|[7]
 1 Cavalier of Dawn|M20|[10]
 1 Cavalier of Night|m20
 1 Chronicle of Victory|ecl
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Concealed Courtyard|otj
 1 Contagion Engine|som
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Crippling Fear|SCD|[72]
 1 Crumbling Ashes|eve
 1 Damn|MH2|[396]
@@ -38,15 +38,15 @@ Name=Eirdu
 1 Emptiness|ecl
 1 Ephemerate|H1R|[1]
 1 Etchings of the Chosen|lcc
-1 Evolving Wilds|TRC|[527]
-1 Fabled Passage|TRC|[379]
+1 Evolving Wilds|ECL|[264]
+1 Fabled Passage|FRC|[71]
 1 Flickerwisp|TSR|[294]
 1 Gathering Stone|ecl
 1 Generous Gift|BLC|[106]
 1 Goldmire Bridge|MOC|[407]
 1 Grind|hou
 1 Haunting Voyage|ECC|[75]
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Purity|lrw
 1 Invoke Despair|neo
 1 Isolated Chapel|DMR|[397]
@@ -60,7 +60,7 @@ Name=Eirdu
 1 Moonshadow|ecl
 1 Necroskitter|ECC|[48]
 1 Nest of Scarabs|akh
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Patrolling Peacemaker|eoc
 8 Plains|INR|[288]
 1 Primal Beyond|ECC|[159]
@@ -70,7 +70,7 @@ Name=Eirdu
 1 Rottenmouth Viper|blb
 1 Secluded Courtyard|ECC|[62]
 1 Shambling Vent|PIO|[275]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Shriekmaw|TSR|[331]
 1 Shroudstomper|dsk
 1 Smog Elemental|gtc
@@ -79,7 +79,7 @@ Name=Eirdu
 1 Soul Snuffers|ecc
 1 Stroke of Midnight|FRC|[35]
 8 Swamp|INR|[292]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Unclaimed Territory|ECC|[175]
 1 Urza's Incubator|DMR|[392]
 1 Vault of the Archangel|TDC|[410]

@@ -6,7 +6,7 @@ Name=Ghen
 1 Ajani's Chosen|SOC|[132]
 1 All-Out Assault|tdm
 1 Alseid of Life's Bounty|J22|[143]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archon of Sun's Grace|SOC|[137]
 1 Mesa Enchantress|DMR|[267]
 1 Daxos the Returned|c15
@@ -31,7 +31,7 @@ Name=Ghen
 1 Cemetery Tampering|dsc
 1 Charming Scoundrel|woe
 1 Collector's Vault|woe
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crackling Doom|2X2|[196]
 1 Cruel Reality|akh
 1 Demon of Fate's Design|dsc
@@ -39,7 +39,7 @@ Name=Ghen
 1 Disturbing Mirth|dsk
 1 Doomwake Giant|SOC|[212]
 1 Elspeth Conquers Death|thb
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Faithless Looting|SOC|[244]
 1 Fellwar Stone|DRK|[102]
 1 Final Parting|cmm
@@ -50,13 +50,13 @@ Name=Ghen
 1 Kaya's Ghostform|war
 1 Lord Skitter's Blessing|woe
 8 Mountain|INR|[294]
-1 Nomad Outpost|TRC|[544]
+1 Nomad Outpost|TDM|[263]
 1 Not Dead After All|woe
 1 Ondu Spiritdancer|DSC|[101]
 1 Orzhov Guildgate|RVR|[406]
 1 Oubliette|ARN|[31]
 1 Painful Quandary|FDN|[179]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 8 Plains|INR|[288]
 1 Rakdos Guildgate|RVR|[408]
@@ -68,10 +68,10 @@ Name=Ghen
 1 Spirited Companion|J25|[256]
 1 Sunbird's Invocation|blc
 10 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Conviction|TRC|[503]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Conviction|SOC|[428]
+1 Talisman of Hierarchy|SOC|[358]
 1 The Elder Dragon War|FDC|[156]
 1 The Eldest Reborn|dsc
 1 The Princess Takes Flight|woe

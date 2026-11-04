@@ -3,7 +3,7 @@ Name=Torbran
 [Commander]
 1 Torbran, Thane of Red Fell|eld
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Big Score|SOC|[237]
 1 Birgi, God of Storytelling|khm
 1 Bonehoard Dracosaur|lci
@@ -32,7 +32,7 @@ Name=Torbran
 1 Kessig Flamebreather|DBL|[431]
 1 Leyline of Combustion|m20
 1 Light Up the Stage|RVR|[338]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Magebane Lizard|otj
 1 Manabarbs|LEB|[164]
 1 Mechanized Warfare|bro
@@ -45,7 +45,7 @@ Name=Torbran
 1 Pyrostatic Pillar|scg
 1 Rampaging Ferocidon|DSC|[167]
 1 Razorkin Needlehead|dsk
-1 Reckless Impulse|TRK|[168]
+1 Reckless Impulse|J25|[589]
 1 Reforge the Soul|INR|[167]
 1 Roiling Vortex|znr
 1 Ruby Medallion|TMP|[305]

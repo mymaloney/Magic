@@ -4,7 +4,7 @@ Name=Orvar
 1 Orvar, the All-Form|khm
 [Main]
 1 An Offer You Can't Refuse|fdn
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archaeomancer|PIO|[284]
 1 Archmage of Runes|fdn
 1 Mizzium Skin|PIO|[64]
@@ -41,14 +41,14 @@ Name=Orvar
 1 Mulldrifter|TSR|[311]
 1 Murmuring Mystic|PIO|[65]
 1 Naga Fleshcrafter|tdm
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Niblis of Frost|PIO|[66]
 1 Peregrine Drake|dmr
 1 Powerstone Shard|dom
 1 Precursor Golem|MM2|[225]
 1 Propaganda|TMP|[80]
 1 Quasiduplicate|rvr
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Sapphire Medallion|TMP|[306]
 1 Scourge of Fleets|CMR|[403]
 1 Shadow Rift|tmp
@@ -59,13 +59,13 @@ Name=Orvar
 1 Snap|ULG|[43]
 1 Sol Ring|LEB|[270]
 1 Stormchaser Drake|DBL|[349]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Talrand, Sky Summoner|TSR|[318]
 1 Thermal Flux|csp
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Twiddle|LEB|[86]
 1 Updraft|ice
 1 Vesuvan Duplimancy|dmu
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Whim of Volrath|tmp
 1 Will of the Temur|tdc

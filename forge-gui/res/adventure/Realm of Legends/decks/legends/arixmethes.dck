@@ -19,7 +19,7 @@ Name=Aesi
 1 Biomass Mutation|SOC|[297]
 1 Botanical Sanctum|OTJ|[267]
 1 Breeding Pool|RVR|[399]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consuming Tide|DBL|[320]
 1 Counterspell|DMR
 1 Cultivate|SOC|[265]
@@ -47,11 +47,11 @@ Name=Aesi
 1 Kruphix, God of Horizons|PIO|[312]
 1 Lair of the Hydra|M3C
 1 Lakeside Shack|DSK
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lotus Cobra|J25|[685]
 1 Misty Rainforest|MH2
 1 Multani, Yavimaya's Avatar|EOC|[100]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Nissa, Who Shakes the World|BLC|[84]
 1 Obscuring Haze|CMM|[308]
 1 Omnath, Locus of Mana|CMM
@@ -61,18 +61,18 @@ Name=Aesi
 1 Reclaim the Wastes|ZNR
 1 Reject Imperfection|ONE
 1 Rejuvenating Springs|CMM
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Retreat to Coralhelm|DSC|[126]
 1 Ruin Crab|ZNR
 1 Simic Ascendancy|BLC|[260]
 1 Simic Growth Chamber|DSC|[298]
 1 Springheart Nantuko|MH3
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sylvan Awakening|DOM
 1 Tangled Islet|SOC|[411]
 1 Tanglepool Bridge|DRC|[175]
 1 Tatyova, Benthic Druid|DMR|[371]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Tireless Provisioner|J25|[728]
 1 Triskaidekaphile|BLC|[178]
 1 Urban Evolution|PIO|[251]

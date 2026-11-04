@@ -4,11 +4,11 @@ Name=Lier
 1 Lier, Disciple of the Drowned|TDC|[157]
 [Main]
 1 Alandra, Sky Dreamer|MKC|[94]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Murmuring Mystic|PIO|[65]
 1 Poppet Stitcher|DBL|[71]
 1 Rise from the Tides|inr
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Careful Study|ody
 1 Chart a Course|FDN|[586]
 1 Compulsive Research|RVR|[311]
@@ -38,11 +38,11 @@ Name=Lier
 1 One with the Multiverse|DSC|[121]
 1 Opt|INV|[64]
 1 Ponder|TSR|[315]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Preordain|TDC|[161]
 1 Pull from Tomorrow|SOC|[116]
 1 Rapid Hybridization|SOC|[198]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Riptide Laboratory|ONS|[322]
 1 River Kelpie|TDC|[166]
 1 Search for Azcanta|xln
@@ -62,10 +62,10 @@ Name=Lier
 1 Terrain Generator|NMS|[143]
 1 Thirst for Discovery|DBL|[352]
 1 Thought Scour|2X2|[65]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Throne of Eldraine|woc
 1 Treasure Cruise|TSR|[319]
 1 Unsubstantiate|m21
 1 War Room|SOC|[422]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Wizard Class|blc

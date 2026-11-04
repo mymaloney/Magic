@@ -6,7 +6,7 @@ Name=Duskana, the Rage Mother
 1 Ashcoat Bear|TSP
 1 Striped Bears|WTH
 1 Kamahl's Summons|ONS
-1 Warleader's Call|TRC|[335]
+1 Warleader's Call|MKM|[242]
 1 Brave the Sands|CM2|[19]
 1 Anafenza, Kin-Tree Spirit|CMM
 1 Anafenza, Unyielding Lineage|TDM
@@ -23,12 +23,12 @@ Name=Duskana, the Rage Mother
 1 Charming Prince|FDN|[568]
 1 Cinder Glade|ECC|[146]
 1 Cloudshift|JMP
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Druid's Familiar|AVR
 1 Dusk|DRC|[65]
 1 Ephemerate|H1R|[1]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Farseek|RVR
 9 Forest|INR|[296]
 1 Fortified Village|TDC|[366]
@@ -50,12 +50,12 @@ Name=Duskana, the Rage Mother
 4 Mountain|INR|[294]
 1 Mul Daya Channelers|ROE
 1 Pale Bears|ICE
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Path to Exile|TSR|[299]
 1 Phelia, Exuberant Shepherd|MH3
 7 Plains|INR|[288]
 1 Quirion Beastcaller|J25|[703]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Retaliator Griffin|ARB
 1 Reveillark|2X2|[26]
 1 Rhythm of the Wild|RVR|[380]

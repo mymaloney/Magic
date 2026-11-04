@@ -3,7 +3,7 @@ Name=Clavileño, First of the Blessed
 [Commander]
 1 Clavileño, First of the Blessed|LCC|3
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Austere Command|FDC|[18]
 1 Bartolomé del Presidio|LCI|1
 1 Blade of the Bloodchief|LCC|1
@@ -16,8 +16,8 @@ Name=Clavileño, First of the Blessed
 1 Carmen, Cruel Skymarcher|LCC|2
 1 Champion of Dusk|LCC|1
 1 Charismatic Conqueror|LCC|2
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Cordial Vampire|LCC|1
 1 Crossway Troublemakers|J25|[417]
 1 Cruel Celebrant|LCC|1
@@ -50,26 +50,26 @@ Name=Clavileño, First of the Blessed
 1 Orzhov Basilica|DRC|[164]
 1 Fellwar Stone|DRK|[102]
 1 Pact of the Serpent|LCC|1
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Patron of the Vein|LCC|1
 4 Plains|INR|[288]
 4 Plains|INR|[288]
 1 Promise of Aclazotz|LCC|2
 1 Radiant Destiny|LCC|1
 1 Redemption Choir|LCC|2
-1 Return to Dust|TRC|[427]
-1 Rogue's Passage|TRC|[552]
+1 Return to Dust|DSC|[102]
+1 Rogue's Passage|SOC|[400]
 1 Sanctum Seeker|J25|[485]
 1 Secluded Courtyard|ECC|[62]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Sol Ring|LEB|[270]
 1 Sorin, Lord of Innistrad|LCC|1
 7 Swamp|INR|[292]
 6 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Tainted Field|TOR|[140]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Temple of Silence|SOC|[415]
 1 Temple of the False God|SCG|[143]
 1 Timothar, Baron of Bats|LCC|1
@@ -81,7 +81,7 @@ Name=Clavileño, First of the Blessed
 1 Viscera Seer|SOC|[229]
 1 Voldaren Estate|LCC|1
 1 Vona, Butcher of Magan|LCC|1
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Welcoming Vampire|TDC|[140]
 1 Windbrisk Heights|TDC|[411]
 1 Yahenni, Undying Partisan|SOC|[232]

@@ -4,7 +4,7 @@ Name=blech
 1 Blech, Loafing Pest|sos
 [Main]
 1 Arasta of the Endless Web|TDC|[244]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ashnod's Altar|ATQ|[38]
 1 Assassin's Trophy|soc
 1 Beledros Witherbloom|SOC|[296]
@@ -13,7 +13,7 @@ Name=blech
 1 Cauldron of Essence|sos
 1 Chomping Changeling|ecl
 1 Command Bridge|eoe
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cryptolith Rite|INR|[408]
 1 Decorum Dissertation|sos
 1 Dina, Soul Steeper|soc
@@ -23,7 +23,7 @@ Name=blech
 1 Essence Warden|CMA|[106]
 1 Essenceknit Scholar|sos
 1 Eumidian Terrabotanist|eoe
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Farseek|RVR|[347]
 1 Feral Appetite|soc
 1 Radiant Fountain|FDC|[308]
@@ -44,7 +44,7 @@ Name=blech
 1 Moseo, Vein's New Dean|sos
 1 Nature's Lore|DMR|[346]
 1 Necroblossom Snarl|SOC|[389]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pest Infestation|soc
 1 Pest Mascot|sos
 1 Pest Rescuer|soc
@@ -54,7 +54,7 @@ Name=blech
 1 Prosperous Innkeeper|blc
 1 Putrefy|RVR|[378]
 1 Rampant Growth|TMP|[245]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Ribtruss Roaster|soc
 1 Riveteers Overlook|ECC|[162]
 1 Sakura-Tribe Elder|soc
@@ -68,7 +68,7 @@ Name=blech
 1 Starscape Cleric|blb
 11 Swamp|INR|[292]
 1 Swarmyard|blc
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Teacher's Pest|sos
 1 Tend the Pests|stx
 1 Twitching Doll|dsk

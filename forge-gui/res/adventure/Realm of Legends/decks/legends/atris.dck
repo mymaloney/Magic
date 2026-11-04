@@ -10,7 +10,7 @@ Name=Atris
 1 Thran Dynamo|UDS|[139]
 1 Gilded Lotus|FDN|[725]
 1 Sol Ring|LEB|[270]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Sphinx of Uthuun|cmr
 1 Talion, the Kindly Lord|woe
 1 Rags|akh
@@ -19,16 +19,16 @@ Name=Atris
 1 Choice of Damnations|sok
 1 Barrin's Spite|inv
 1 Baleful Strix|BLC|[86]
-1 Bitter Triumph|TRC|[445]
+1 Bitter Triumph|TDC|[173]
 1 Boneyard Parley|c19
 1 Clearwater Pathway|znr
 1 Court of Vantress|woc
 1 Covenant of Minds|cn2
 1 Creeping Tar Pit|CLB|[888]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Dowsing Dagger|xln
 1 Drown in the Loch|CLB|[842]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Eaten by Piranhas|FDN|[507]
 1 Epiphany at the Drownyard|soi
 1 Ertai Resurrected|dmu
@@ -77,4 +77,4 @@ Name=Atris
 1 Thousand-Faced Shadow|neo
 1 Underground River|ICE|[362]
 1 Watery Grave|RVR|[415]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]

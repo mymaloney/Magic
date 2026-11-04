@@ -3,7 +3,7 @@ Name=Keranos, God of Storms
 [Commander]
 1 Keranos, God of Storms|PIO|[311]
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artist's Talent|BLB
 1 Blasphemous Act|SOC|[238]
 1 Boltwave|FDN
@@ -16,9 +16,9 @@ Name=Keranos, God of Storms
 1 Delayed Blast Fireball|CLB
 1 Djinn Illuminatus|C20|[210]
 1 End the Festivities|DBL|[422]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Eyes Everywhere|RVR
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Faithless Looting|SOC|[244]
 1 Fear of Burning Alive|DSK
 1 Field of Ruin|TSR|[407]
@@ -68,9 +68,9 @@ Name=Keranos, God of Storms
 1 Spikefield Hazard|ZNR
 1 Star Compass|PLS
 1 Sunspine Lynx|BLB
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Temple of Epiphany|SOC|[412]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thassa, God of the Sea|PIO|[288]
 1 The Rollercrusher Ride|DSK
 1 Thousand-Year Storm|FDN

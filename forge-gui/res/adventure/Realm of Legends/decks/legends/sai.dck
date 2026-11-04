@@ -7,7 +7,7 @@ Name=Sai
 1 Adaptive Automaton|FDN|[723]
 1 Aetherize|RVR|[448]
 1 Alexi's Cloak|pcy
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Bident of Thassa|PIO|[47]
 1 Intrude on the Mind|mkm
 1 Broodstar|FDC|[60]
@@ -41,28 +41,28 @@ Name=Sai
 1 Mind Stone|dmr
 1 Retrofitter Foundry|DRC|[136]
 1 Mycosynth Wellspring|brc
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Ornithopter|DMR|[386]
 1 Ornithopter of Paradise|mh2
 1 Padeem, Consul of Innovation|J25|[62]
 1 Launch Mishap|FDC|[65]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Seat of the Synod|EOC|[176]
 1 Sharding Sphinx|MOC|[235]
 1 Shimmer Dragon|FDC|[75]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Skyscanner|scd
 1 Sol Ring|LEB|[270]
 1 Spotter Thopter|bro
 1 Steel Overseer|EOC|[144]
 1 Stridehangar Automaton|drc
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Temple of the False God|scg
-1 Thirst for Knowledge|TRC|[443]
+1 Thirst for Knowledge|EOC|[48]
 1 Thopter Spy Network|DRC|[83]
 1 Thought Monitor|EOC|[79]
-1 Thought Vessel|TRC|[509]
-1 Thoughtcast|TRC|[444]
+1 Thought Vessel|MBC|[78]
+1 Thoughtcast|FDC|[81]
 1 Thran Dynamo|UDS|[139]
 1 Deviant Skytech|ydft
 1 Trading Post|brc
@@ -70,4 +70,4 @@ Name=Sai
 1 Turnabout|RVR|[452]
 1 Unctus, Grand Metatect|one
 1 Wall of Junk|usg
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]

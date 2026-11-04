@@ -16,7 +16,7 @@ Name=Rigo
 1 Caustic Caterpillar|j22
 1 Citywide Bust|scd
 1 Coiling Oracle|RVR|[361]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Dawnbringer Cleric|clb
 1 Divine Resilience|fdn
 1 Dollmaker's Shop|dsk
@@ -25,8 +25,8 @@ Name=Rigo
 1 Elvish Pioneer|ONS|[257]
 1 Enduring Innocence|dsk
 1 Entrapment Maneuver|c16
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fencing Ace|j25
 10 Forest|INR|[296]
 1 Get a Leg Up|mkm
@@ -47,8 +47,8 @@ Name=Rigo
 1 Perplexing Test|SOC|[197]
 1 Pick Your Poison|mkm
 11 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Queen Allenal of Ruadach|dmu
 1 Resolute Reinforcements|FDN|[145]
 1 Rootborn Defenses|CLU|[71]
@@ -62,7 +62,7 @@ Name=Rigo
 1 Shoreline Looter|blb
 1 Shrike Force|blb
 1 Sidar Kondo of Jamuraa|tdc
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Spara's Headquarters|SNC|[257]
 1 Skyserpent Seeker|dft
 1 Skyshroud Falcon|STH|[16]

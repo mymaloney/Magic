@@ -7,8 +7,8 @@ Name=Arna
 1 All That Glitters|cmm
 1 Angelic Gift|J25|[165]
 1 Aqueous Form|PIO|[45]
-1 Arcane Sanctum|TRC|[513]
-1 Arcane Signet|TRC|[485]
+1 Arcane Sanctum|DRC|[146]
+1 Arcane Signet|FRC|[20]
 1 Argentum Armor|GN3|[113]
 1 Rune of Mortality|khm
 1 Glimmer Lens|onc
@@ -29,11 +29,11 @@ Name=Arna
 1 Cartouche of Knowledge|J25|[295]
 1 Celestial Armor|fdn
 1 Chains of Custody|SOC|[139]
-1 Choked Estuary|TRC|[370]
+1 Choked Estuary|MKC|[254]
 1 Cloudsteel Kirin|neo
 1 Combat Research|dmu
-1 Command Tower|TRC|[521]
-1 Contaminated Landscape|TRC|[522]
+1 Command Tower|FRC|[22]
+1 Contaminated Landscape|FRC|[68]
 1 Contractual Safeguard|ncc
 1 Danitha Capashen, Paragon|J25|[59]
 1 Dog Umbra|mh3
@@ -41,13 +41,13 @@ Name=Arna
 1 Etched Champion|brc
 1 Ethereal Armor|TSR|[293]
 1 Etherium Sculptor|EOC|[72]
-1 Exotic Orchard|TRC|[378]
-1 Fetid Pools|TRC|[380]
+1 Exotic Orchard|MBC|[79]
+1 Fetid Pools|TDC|[363]
 1 Flayer Husk|2XM|[256]
 1 Flight of Fancy|uma
 1 Fumble|bbd
 1 Heavenly Blademaster|cmm
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 7 Island|INR|[290]
 1 Kaldra Compleat|mh2
 1 Mandibular Kite|mh3
@@ -57,27 +57,27 @@ Name=Arna
 1 Nettlecyst|FDC|[275]
 1 Ordeal of Thassa|ths
 11 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Puresteel Paladin|cmm
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rune of Flight|khm
 1 Rune of Sustenance|khm
 1 Sculpting Steel|MOC|[374]
 1 Scytheclaw|cmm
 1 Sheltered by Ghosts|SOC|[171]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Sigarda's Aid|CMR|[384]
 1 Skinwing|2xm
 1 Sol Ring|LEB|[270]
 1 Sram, Senior Edificer|TSR|[303]
 1 Starnheim Courser|J25|[261]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 5 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
-1 Talisman of Dominance|TRC|[505]
-1 Talisman of Hierarchy|TRC|[506]
-1 Talisman of Progress|TRC|[508]
+1 Swiftfoot Boots|MBC|[77]
+1 Talisman of Dominance|FRC|[62]
+1 Talisman of Hierarchy|SOC|[358]
+1 Talisman of Progress|FRC|[64]
 1 Tempest Technique|tdc
 1 Temple of the False God|SCG|[143]
 1 Thran Power Suit|bro

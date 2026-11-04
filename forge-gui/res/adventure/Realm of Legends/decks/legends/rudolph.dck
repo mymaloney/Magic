@@ -3,7 +3,7 @@ Name=Jegantha
 [Commander]
 1 Jegantha, the Wellspring|ECC|[125]
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arctic Treeline|khm
 1 Beast Whisperer|TSR|[356]
 1 Beast Within|TSR|[357]
@@ -14,12 +14,12 @@ Name=Jegantha
 1 Beza, the Bounding Spring|blb
 1 Boreal Shelf|csp
 1 Burnished Hart|FDN|[250]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Dawnglade Regent|cmr
 1 Dawntreader Elk|jmp
 1 Downpour|m13
 1 Enduring Vitality|dsk
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Exponential Growth|stx
 1 Font of Fertility|CP1|[3]
 10 snow-covered Forest|ICE|[383]
@@ -35,7 +35,7 @@ Name=Jegantha
 1 Great Hart|bng
 1 Great Sable Stag|m10
 1 Heliod's Emissary|ths
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Highland Game|m19
 1 Hoofprints of the Stag|ECC|[64]
 1 Icon of Ancestry|lcc
@@ -50,7 +50,7 @@ Name=Jegantha
 1 Oko, Thief of Crowns|ELD|[197]
 1 Overrun|ODY|[260]
 1 Patchwork Banner|SOC|[353]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Primeval Bounty|J25|[701]
 1 Rampant Growth|TMP|[245]
 1 Reclaim the Wastes|znr

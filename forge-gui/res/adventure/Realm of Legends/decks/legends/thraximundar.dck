@@ -4,7 +4,7 @@ Name=Thraximundar
 1 Thraximundar|2X2|[287]
 [Main]
 1 Anhelo, the Painter|ncc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Vona's Hunger|rix
 1 Scarblade Elite|mor
 1 Double Down|otj
@@ -20,7 +20,7 @@ Name=Thraximundar
 1 Prince of Thralls|ala
 1 Blightning|A25|[198]
 1 Bituminous Blast|J25|[742]
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 King's Assassin|por
 1 Artful Takedown|grn
 1 Assassin's Ink|neo
@@ -29,7 +29,7 @@ Name=Thraximundar
 1 Chainer's Edict|DMR|[300]
 1 Chill of the Grave|DBL|[318]
 1 Choking Tethers|ons
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Corpse Explosion|snc
 1 Crippling Fear|SCD|[72]
 1 Crosis's Catacombs|PLS|[136]
@@ -37,7 +37,7 @@ Name=Thraximundar
 1 Defenestrate|J25|[420]
 1 Diabolic Edict|TMP|[128]
 1 Dimir Aqueduct|DSC|[270]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Dismal Backwater|TDM|[254]
 1 Fatal Push|2xm
 1 Ghost Quarter|CM2|[253]
@@ -47,7 +47,7 @@ Name=Thraximundar
 1 Iridescent Vinelasher|blb
 6 Island|INR|[290]
 1 Izzet Boilerworks|M3C|[350]
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Kiku, Night's Flower|chk
 1 Kothophed, Soul Hoarder|J22|[431]
 1 Maestros Theater|EOC|[167]
@@ -64,7 +64,7 @@ Name=Thraximundar
 1 Ramses, Assassin Lord|dmc
 1 Reflections of Littjara|TDC|[164]
 1 Retreat to Coralhelm|DSC|[126]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Royal Assassin|DMR|[310]
 1 Seething Landscape|mh3
 1 Sleep|M19|[74]
@@ -73,7 +73,7 @@ Name=Thraximundar
 1 Stalking Assassin|inv
 1 Sudden Edict|mh2
 9 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swiftwater Cliffs|TDM|[268]
 1 Tainted Isle|tor
 1 Tainted Peak|TOR|[142]

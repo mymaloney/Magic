@@ -18,7 +18,7 @@ Name=Azami
 1 Demolition Field|FDN|[687]
 1 Extraplanar Lens|cmm
 1 Fatestitcher|ala
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Wizard's Retort|JMP|[198]
 1 Mana Leak|STH|[36]
 1 Glen Elendra Archmage|woc
@@ -27,7 +27,7 @@ Name=Azami
 1 Inundate|eve
 1 Jace's Archivist|C15|[95]
 1 Venser, Shaper Savant|J25|[66]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Diviner's Wand|mor
 1 Propaganda|TMP|[80]
 1 Teferi's Puzzle Box|vis
@@ -35,7 +35,7 @@ Name=Azami
 1 Cyclone Summoner|khm
 1 Galecaster Colossus|c17
 1 Docent of Perfection|INR|[62]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Malevolent Hermit|DBL|[61]
 1 Insidious Will|kld
 1 Midnight Clock|DRC|[79]
@@ -46,17 +46,17 @@ Name=Azami
 1 Nyx Lotus|thb
 1 Ominous Seas|iko
 1 Otawara, Soaring City|neo
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Patron Wizard|ody
 1 Proft's Eidetic Memory|mkm
 1 Psychosis Crawler|FDC|[280]
 1 Rapid Hybridization|SOC|[198]
 1 Ravenform|LCC|[167]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Remote Isle|USG|[324]
 1 Rhystic Study|PCY|[45]
 1 Riptide Laboratory|ons
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sapphire Medallion|TMP|[306]
 1 Sea Scryer|mir
 1 Siren Stormtamer|LCC|[171]
@@ -66,9 +66,9 @@ Name=Azami
 1 Step Through|mh2
 1 Stonybrook Banneret|LCC|[173]
 1 Surgespanner|lcc
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tale's End|m20
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Tishana's Tidebinder|lci
 1 Tolaria West|tsr
 1 Triskaidekaphile|BLC|[178]

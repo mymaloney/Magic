@@ -3,8 +3,8 @@ Name=evilgoblin
 [Main]
 2 Bedevil|DSC|[84]
 2 Boggart Birth Rite|LRW|1
-2 Canyon Slough|TRC|[369]
-2 Dragonskull Summit|TRC|[375]
+2 Canyon Slough|ECC|[145]
+2 Dragonskull Summit|ECC|[147]
 2 Goblin Deathraiders|DDN|[6]
 1 Goblin Offensive|USG|[192]
 1 Goblin Rabblemaster|PIO|[139]
@@ -19,7 +19,7 @@ Name=evilgoblin
 1 Muxus, Goblin Grandee|J22|[575]
 2 Rundvelt Hordemaster|DMU|1
 2 Shambling Goblin|JMP|[277]
-2 Smoldering Marsh|TRC|[403]
+2 Smoldering Marsh|ECC|[168]
 2 Spike Jester|MM3|1
 2 Squee, Dubious Monarch|DMU|1
 2 Stalactite Stalker|LCI|1

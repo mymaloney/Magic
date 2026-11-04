@@ -4,8 +4,8 @@ Name=okaun_and_zndrsplt
 1 Okaun, Eye of Chaos|BBD|[6]
 1 Zndrsplt, Eye of Wisdom|BBD|[5]
 [Main]
-1 Academy Ruins|TRC|[366]
-1 Arcane Signet|TRC|[485]
+1 Academy Ruins|DRC|[58]
+1 Arcane Signet|FRC|[20]
 1 Blasphemous Act|SOC|[238]
 1 Bloodsworn Steward|VOC
 1 Boompile|CMM
@@ -14,14 +14,14 @@ Name=okaun_and_zndrsplt
 1 Chance Encounter|ODY|[182]
 1 Chandra's Ignition|FDC|[145]
 1 Chaos Warp|MBC|[72]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Commander's Plate|CMR
 1 Counterspell|DMR|[281]
 1 Crooked Scales|MMQ|[291]
 1 Daretti, Scrap Savant|CMM
-1 Desolate Lighthouse|TRC|[374]
+1 Desolate Lighthouse|LCC|[327]
 1 Embercleave|ELD
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fabricate|HOP|[9]
 1 Fiery Gambit|MRD
 1 Flamekin Village|ECC|[149]
@@ -38,24 +38,24 @@ Name=okaun_and_zndrsplt
 1 Izzet Signet|FRC|[58]
 1 Karplusan Minotaur|CSP
 1 Krark, the Thumbless|CMR
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Long-Term Plans|SCG
 1 Mind Stone|DMR|[385]
 1 Mirror March|RNA
 1 Mogg Assassin|EXO
 1 Muddle the Mixture|RVR
 1 Myriad Landscape|EOC
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Niv-Mizzet, Parun|RVR|[376]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Planar Chaos|JUD
 1 Ponder|TSR|[315]
 1 Preordain|TDC
 1 Ral Zarek|RVR
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Reshape|2XM|[64]
 1 Risky Move|ONS
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sakashima the Impostor|SOK|[53]
 1 Seize the Day|ODY
 1 Serum Visions|OTC
@@ -67,17 +67,17 @@ Name=okaun_and_zndrsplt
 1 Spinerock Knoll|FDC|[314]
 1 Squee's Revenge|APC
 1 Sulfur Falls|DMR|[400]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of Vengeance|BLB
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Tavern Scoundrel|MH2
 1 Temple of Epiphany|SOC|[412]
 1 Temple of the False God|SCG|[143]
 1 Temur Battle Rage|TSR|[351]
 1 The Locust God|MOC
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Tolaria West|TSR
-1 Training Center|TRC|[413]
+1 Training Center|CMM|[434]
 1 Tribute Mage|H1R|[10]
 1 Vandalblast|TSR|[352]
 1 Wandering Fumarole|PIO|[278]

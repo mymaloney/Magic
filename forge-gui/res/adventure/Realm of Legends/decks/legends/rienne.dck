@@ -3,7 +3,7 @@ Name=Rienne, Angel of Rebirth
 [Commander]
 1 Rienne, Angel of Rebirth|DMC|[166]
 [Main]
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Talisman of Impulse|TDC
 1 Talisman of Unity|MKC
 1 Join the Dance|INR|[432]
@@ -23,7 +23,7 @@ Name=Rienne, Angel of Rebirth
 1 Cabaretti Courtyard|EOC|[151]
 1 Chromatic Lantern|RVR|[390]
 1 Collective Blessing|SCD|[222]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Dauntless Escort|SCD|[223]
 1 Dragon Arch|APC
 1 Dragon Broodmother|ARB
@@ -70,7 +70,7 @@ Name=Rienne, Angel of Rebirth
 1 Stump Stomp|MH3
 1 Sundering Growth|C19
 1 Sylvan Reclamation|SCD|[248]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Titanic Ultimatum|DDH|[31]
 1 Tolsimir Wolfblood|RVR|[387]
 1 Tome of the Guildpact|RNA

@@ -3,17 +3,17 @@ Name=Squee
 [Commander]
 1 Squee, Dubious Monarch|dmu
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Agate Assault|blb
 1 Akroma, Angel of Fury|FRC|[19]
-1 Arcane Signet|TRC|[485]
-1 Commander's Sphere|TRC|[487]
+1 Arcane Signet|FRC|[20]
+1 Commander's Sphere|ECC|[139]
 1 Ardoz, Cobbler of War|j22
 1 Battle Cry Goblin|j25
 1 Blasphemous Act|SOC|[238]
 1 Boggart Shenanigans|evg
 1 Brazen Cannonade|j22
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Squee, Goblin Nabob|MMQ|[214]
 1 Squee, the Immortal|NCC|[275]
 1 Squee's Toy|tmp
@@ -44,7 +44,7 @@ Name=Squee
 1 Goblin Trashmaster|m19
 1 Goblin Warchief|SCG|[97]
 1 Goro-Goro, Disciple of Ryusei|neo
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Heraldic Banner|FDN|[254]
 1 Hordeling Outburst|ONC|[100]
 1 Howlsquad Heavy|dft
@@ -58,7 +58,7 @@ Name=Squee
 1 Myriad Landscape|EOC|[169]
 1 Pashalik Mons|DMR|[328]
 1 Patchwork Banner|SOC|[353]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Raging Goblin|PO2|[114]
 1 Reckless One|ONS|[222]
 1 Roar of Resistance|onc

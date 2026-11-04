@@ -1,8 +1,8 @@
 [metadata]
 Name=esper_artificer
 [Main]
-3 Arcane Sanctum|TRC|[513]
-4 Dispatch|TRC|[421]
+3 Arcane Sanctum|DRC|[146]
+4 Dispatch|EOC|[64]
 1 Geth, Lord of the Vault|BRC|[107]
 2 Ghalma the Shaper|YONE|1
 2 Go for the Throat|FDC|[100]
@@ -26,8 +26,8 @@ Name=esper_artificer
 2 Steel Overseer|EOC|[144]
 1 Supreme Verdict|RVR|[461]
 3 Swamp|INR|[292]
-3 Tempered Steel|TRC|[241]
-2 The Immortal Sun|TRC|[347]
+3 Tempered Steel|BRC|[76]
+2 The Immortal Sun|CMM|[393]
 2 Thran Dynamo|UDS|[139]
 2 Urza, Chief Artificer|BRC|3
 4 Vault Skirge|NPH|1

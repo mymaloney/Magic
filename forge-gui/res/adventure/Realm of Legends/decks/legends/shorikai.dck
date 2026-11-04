@@ -7,22 +7,22 @@ Name=Shorikai, Genesis Engine
 1 Access Denied|NEC|1
 1 Aerial Surveyor|NEC|1
 1 Aeronaut Admiral|NEC|1
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arcanist's Owl|NEC|1
 1 Armed and Armored|NEC|1
 1 Azorius Signet|FRC|[53]
 1 Cataclysmic Gearhulk|MOC|[176]
 1 Colossal Plow|NEC|1
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crush Contraband|SCD|[16]
 1 Cultivator's Caravan|DRC|[127]
 1 Cyberdrive Awakener|EOC|[69]
 1 Dance of the Manse|NEC|1
-1 Dispatch|TRC|[421]
+1 Dispatch|EOC|[64]
 1 Drumbellower|SOC|[143]
 1 Emry, Lurker of the Loch|EOC|[71]
 1 Etherium Sculptor|EOC|[72]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fellwar Stone|DRK|[102]
 1 Foundry Inspector|FDC|[259]
 1 Generous Gift|BLC|[106]
@@ -44,8 +44,8 @@ Name=Shorikai, Genesis Engine
 1 Parhelion II|NEC|1
 1 Peacewalker Colossus|J22|[96]
 15 Plains|INR|[288]
-1 Port Town|TRC|[393]
-1 Prairie Stream|TRC|[394]
+1 Port Town|M3C|[364]
+1 Prairie Stream|FRC|[79]
 1 Prodigy's Prototype|NEO|1
 1 Raff Capashen, Ship's Mage|CMM|[351]
 1 Raiders' Karve|J22|[793]
@@ -61,7 +61,7 @@ Name=Shorikai, Genesis Engine
 1 Smuggler's Copter|NEC|1
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
-1 Spire of Industry|TRC|[405]
+1 Spire of Industry|EOC|[183]
 1 Sram, Senior Edificer|TSR|[303]
 1 Surgehacker Mech|NEO|1
 1 Swift Reconfiguration|NEC|1
@@ -69,7 +69,7 @@ Name=Shorikai, Genesis Engine
 1 Temple of Enlightenment|EOC|[186]
 1 Teshar, Ancestor's Apostle|SOC|[180]
 1 Thopter Spy Network|DRC|[83]
-1 Thoughtcast|TRC|[444]
+1 Thoughtcast|FDC|[81]
 1 Universal Surveillance|EOC|[81]
 1 Vedalken Engineer|J22|[367]
 1 Weatherlight|NEC|1

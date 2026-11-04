@@ -25,7 +25,7 @@ Name=Bello, Bard of the Brambles
 1 Wandertale Mentor|BLB|1
 1 Wildsear, Scouring Maw|BLC|1
 1 Domri, Anarch of Bolas|BLC|1
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Beast Within|TSR|[357]
 1 Big Score|SOC|[237]
 1 Chaos Warp|MBC|[72]
@@ -37,7 +37,7 @@ Name=Bello, Bard of the Brambles
 1 Farseek|RVR|[347]
 1 Harmonize|ECC|[111]
 1 Rampant Growth|TMP|[245]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Bootleggers' Stash|DRC|[110]
 1 Esika's Chariot|BLC|1
 1 Fellwar Stone|DRK|[102]
@@ -49,7 +49,7 @@ Name=Bello, Bard of the Brambles
 1 Sol Ring|LEB|[270]
 1 Spine of Ish Sah|BLC|1
 1 Talisman of Impulse|TDC|[332]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thran Dynamo|UDS|[139]
 1 Alchemist's Talent|BLC|1
 1 Berserkers' Onslaught|BLC|1
@@ -65,23 +65,23 @@ Name=Bello, Bard of the Brambles
 1 Unnatural Growth|INR|[223]
 1 Warstorm Surge|FDC|[186]
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Copperline Gorge|BLC|1
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Forgotten Cave|ONS|[317]
 1 Game Trail|BLC|1
 1 Gruul Turf|ECC|[152]
 1 Karplusan Forest|ICE|[356]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Mosswort Bridge|TDC|[379]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Raging Ravine|ECC|[160]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rootbound Crag|ECC|[163]
 1 Sheltered Thicket|ECC|[167]
 1 Temple of Abandon|TDC|[400]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Tranquil Thicket|ONS|[326]
 1 Wooded Ridgeline|BLC|1
 3 Forest|INR|[296]

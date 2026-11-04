@@ -16,7 +16,7 @@ Name=Karador
 1 Canopy Vista|TDC|[343]
 1 Cavalier of Dawn|m20
 1 Colossal Grave-Reaver|tdc
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Concealed Courtyard|OTJ|[268]
 1 Conduit of Worlds|TDC|[251]
 1 Conjurer's Closet|INR|[441]
@@ -27,7 +27,7 @@ Name=Karador
 1 Elspeth, Storm Slayer|tdm
 1 Elspeth, Sun's Champion|FRC|[24]
 1 Eternal Witness|TSR|[361]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 2 Forest|INR|[296]
 1 Marsh Flats|MH2|[437]
 1 Giant Adephage|DSC|[179]
@@ -58,7 +58,7 @@ Name=Karador
 1 Ogre Slumlord|BLC|[186]
 1 Overgrown Farmland|FRA|[185]
 1 Panharmonicon|TSR|[399]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pawn of Ulamog|SOC|[223]
 1 Phyrexian Delver|INV|[115]
 5 Plains|INR|[288]
@@ -66,11 +66,11 @@ Name=Karador
 1 Ratadrabik of Urborg|dmu
 1 Reclamation Sage|TSR|[366]
 1 Requiem Angel|C14|[84]
-1 Return to Dust|TRC|[427]
+1 Return to Dust|DSC|[102]
 1 Sandsteppe Citadel|ECC|[164]
 1 Scoured Barrens|TDM|[267]
 1 Savannah|LEB|[281]
-1 Shineshadow Snarl|TRC|[400]
+1 Shineshadow Snarl|SOC|[403]
 1 Lluwen, Imperfect Naturalist|ecl
 1 Sifter of Skulls|M3C|[203]
 1 Sol Ring|LEB|[270]
@@ -83,7 +83,7 @@ Name=Karador
 1 Temple of Malady|SOC|[413]
 1 Temple of Plenty|TDC|[405]
 1 Temple of Silence|SOC|[415]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Teval's Judgment|tdc
 1 Twilight Diviner|ecl
 1 Thalia and The Gitrog Monster|mom

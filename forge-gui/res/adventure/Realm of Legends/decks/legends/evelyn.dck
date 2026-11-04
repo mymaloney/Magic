@@ -5,7 +5,7 @@ Name=Evelyn
 [Main]
 1 An Offer You Can't Refuse|fdn
 1 Anhelo, the Painter|ncc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arterial Alchemy|voc
 1 Blasphemous Act|SOC|[238]
 1 Blood Artist|INR|[372]
@@ -15,7 +15,7 @@ Name=Evelyn
 1 Cemetery Gatekeeper|DBL|[415]
 1 Champion of Dusk|lcc
 1 Child of Night|JMP|[218]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cordial Vampire|lcc
 1 Cormela, Glamour Thief|snc
 1 Crossway Troublemakers|j25
@@ -30,12 +30,12 @@ Name=Evelyn
 1 Fell|blb
 1 Fellwar Stone|DRK|[102]
 1 Florian, Voldaren Scion|dsc
-1 Foreboding Ruins|TRC|[381]
-1 Frostboil Snarl|TRC|[383]
+1 Foreboding Ruins|DSC|[277]
+1 Frostboil Snarl|SOC|[374]
 1 Glass-Cast Heart|lcc
 1 Haunted Ridge|FRA|[180]
 1 Henrika Domnathi|DBL|[386]
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Ichor Drinker|mom
 1 Insolent Neonate|j25
 1 Into the Fire|mom
@@ -62,15 +62,15 @@ Name=Evelyn
 1 Scion of Opulence|j25
 1 Silversmote Ghoul|c21
 1 Slip Out the Back|clu
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Spell Swindle|moc
 1 Strefan, Maurer Progenitor|voc
 1 Stromkirk Captain|voc
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 11 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tainted Peak|TOR|[142]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Tragic Slip|inr
 1 Sol Ring|LEB|[270]
 1 Vampire of the Dire Moon|j25

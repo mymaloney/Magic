@@ -5,15 +5,15 @@ Name=The Ur-Sphinx
 [Main]
 1 Animate Dead|LEB|[93]
 1 Magister Sphinx|2x2
-1 Arcane Sanctum|TRC|[513]
-1 Arcane Signet|TRC|[485]
+1 Arcane Sanctum|DRC|[146]
+1 Arcane Signet|FRC|[20]
 1 Archive Arbiter|fra
 1 Concealed Courtyard|OTJ|[268]
 1 Atemsis, All-Seeing|m20
 1 Austere Command|FDC|[18]
 1 Bloodline Bidding|ecl
 1 Chancellor of the Spires|nph
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conspiracy Unraveler|mkm
 1 Counterspell|DMR|[281]
 1 Cryptic Gateway|DMR|[376]
@@ -22,13 +22,13 @@ Name=The Ur-Sphinx
 1 Dazzling Sphinx|OTC|[93]
 1 Quantum Riddler|eoe
 1 Defiler of Dreams|dmu
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Dream Eater|DSC|[116]
 1 Dream Trawler|thb
 1 Uldaros Theorix|fra
 1 Consecrated Sphinx|2X2|[43]
 1 Unclaimed Territory|ECC|[175]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Ghostly Prison|SOC|[146]
 1 Gilded Lotus|FDN|[725]
 1 Guardian of Tazeem|bfz
@@ -38,15 +38,15 @@ Name=The Ur-Sphinx
 1 Isperia, Supreme Judge|SCD|[4]
 1 Kozilek's Unsealing|mh3
 1 Master of Predicaments|m15
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Obscura Storefront|DSC|[291]
 1 Patchwork Banner|SOC|[353]
 1 Path to Exile|TSR|[299]
 6 Plains|INR|[288]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Prognostic Sphinx|DSC|[124]
 1 Rapid Hybridization|SOC|[198]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Roaming Throne|lci
 1 Sapphire Medallion|TMP|[306]
 1 Sphinx of False Conclusions|fra
@@ -62,12 +62,12 @@ Name=The Ur-Sphinx
 1 Stoic Sphinx|otj
 1 Stubborn Denial|ktk
 6 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Sword of the Animist|CMM|[413]
 1 Swords to Plowshares|DMR|[275]
 1 Temple of the False God|SCG|[143]
-1 Fabled Passage|TRC|[379]
-1 Path of Ancestry|TRC|[545]
+1 Fabled Passage|FRC|[71]
+1 Path of Ancestry|MBC|[80]
 1 Hallowed Fountain|RVR|[404]
 1 Raffine's Tower|snc
 1 Kindred Judgment|fra

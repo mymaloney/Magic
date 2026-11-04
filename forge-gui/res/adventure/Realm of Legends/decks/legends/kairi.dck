@@ -44,7 +44,7 @@ Name=Kairi
 1 Mirrorhall Mimic|DBL|[335]
 1 Mirrorpool|ogw
 1 Naga Fleshcrafter|tdm
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Phantasmal Image|AFC|[89]
 1 Planar Overlay|pls
 1 Propaganda|TMP|[80]
@@ -52,7 +52,7 @@ Name=Kairi
 1 Quicksilver Fountain|mrd
 1 Ravenform|LCC|[167]
 1 Reality Shift|SOC|[199]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Resculpt|SOC|[201]
 1 Saheeli's Artistry|MOC|[234]
 1 Scholar of the Lost Trove|jmp
@@ -73,4 +73,4 @@ Name=Kairi
 1 Treasure Cruise|TSR|[319]
 1 Vizier of Many Faces|DRC|[84]
 1 Wall of Stolen Identity|c19
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]

@@ -10,8 +10,8 @@ Name=Abigale
 1 Restoration Seminar|sos
 1 Erode|sos
 1 Decorum Dissertation|sos
-1 Anguished Unmaking|TRC|[310]
-1 Arcane Signet|TRC|[485]
+1 Anguished Unmaking|SOC|[293]
+1 Arcane Signet|FRC|[20]
 1 Authority of the Consuls|fdn
 1 Black Market Connections|LCC|[181]
 1 Bleachbone Verge|dft
@@ -23,7 +23,7 @@ Name=Abigale
 1 Caves of Koilos|APC|[140]
 1 Claim Jumper|SOC|[140]
 1 Cloudshift|JMP|[97]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Concealed Courtyard|otj
 1 Conjurer's Closet|INR|[441]
 1 Crested Sunmare|hou
@@ -48,7 +48,7 @@ Name=Abigale
 1 Isolated Chapel|DMR|[397]
 1 Kambal, Consul of Allocation|2X2|[237]
 1 Knight of the White Orchid|PIO|[21]
-1 Loran of the Third Path|TRC|[229]
+1 Loran of the Third Path|BLC|[143]
 1 Loxodon Peacekeeper|mrd
 1 Lunar Convocation|blb
 1 Lupine Prototype|inr
@@ -70,7 +70,7 @@ Name=Abigale
 1 Sol Ring|LEB|[270]
 1 Soul Warden|exo
 12 Swamp|INR|[292]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Touch the Spirit Realm|neo
 1 Tragedy Feaster|sos
 1 Unexplained Absence|mkc

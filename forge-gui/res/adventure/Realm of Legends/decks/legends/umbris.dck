@@ -4,7 +4,7 @@ Name=Umbris
 1 Umbris, Fear Manifest|VOC
 [Main]
 1 Ancient Cellarspawn|DSC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ashiok, Dream Render|WAR
 1 Ashiok, Nightmare Muse|THB
 1 Ashiok, Nightmare Weaver|PIO|[352]
@@ -13,7 +13,7 @@ Name=Umbris
 1 Bojuka Bog|TSR|[406]
 1 Whispersilk Cloak|DSC|[257]
 1 Burnished Hart|FDN|[250]
-1 Choked Estuary|TRC|[370]
+1 Choked Estuary|MKC|[254]
 1 Clearwater Pathway|ZNR
 1 Coastal Piracy|MMQ
 1 Consuming Aberration|TSR|[374]
@@ -26,7 +26,7 @@ Name=Umbris
 1 Firdoch Core|ECL
 1 Rapid Hybridization|SOC|[198]
 1 Drown in the Loch|CLB|[842]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Distortion Strike|IMA|[52]
 1 Eternal Scourge|EMN
 1 Fact or Fiction|DMR|[283]
@@ -56,20 +56,20 @@ Name=Umbris
 1 Reflections of Littjara|TDC|[164]
 1 Restless Reef|LCI
 1 River of Tears|MKC|[283]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sire of Stagnation|M3C|[272]
 1 Solemn Simulacrum|TSR|[400]
 1 Soul-Guide Lantern|EOC|[143]
 1 Starving Revenant|LCI
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 10 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Tainted Isle|TOR|[141]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Teferi's Time Twist|WAR
 1 Temple of Deceit|DRC|[176]
 1 Thassa's Intervention|THB
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Wharf Infiltrator|CLB|[737]
 1 Windfall|USG|[111]
 1 Withering Torment|FDC|[134]

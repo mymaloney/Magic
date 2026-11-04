@@ -3,7 +3,7 @@ Name=Kalamax, the Stormsire
 [Commander]
 1 Kalamax, the Stormsire|C20
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artifact Mutation|INV|[231]
 1 Bonder's Ornament|CMM|[370]
 1 Channeled Force|IKO
@@ -13,21 +13,21 @@ Name=Kalamax, the Stormsire
 1 Cinder Glade|ECC|[146]
 1 Clash of Titans|IKO
 1 Comet Storm|CMR|[411]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Commune with Lava|AFC|[118]
 1 Crackling Drake|RVR|[362]
 1 Crop Rotation|ULG|[98]
 1 Curious Herd|C20
 1 Decoy Gambit|C20
 1 Deflecting Swat|CMM|[214]
-1 Desolate Lighthouse|TRC|[374]
+1 Desolate Lighthouse|LCC|[327]
 1 Djinn Illuminatus|C20
 1 Dualcaster Mage|C21|[165]
 1 Eon Frolicker|C20
 1 Etali, Primal Storm|TSR|[342]
 1 Evolution Charm|TSR|[202]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 8 Forest|INR|[296]
 1 Frantic Search|DMR|[285]
 1 Frontier Bivouac|ECC|[150]
@@ -45,7 +45,7 @@ Name=Kalamax, the Stormsire
 1 Jace, Architect of Thought|PIO|[329]
 1 Kessig Wolf Run|TDC|[375]
 1 Lavabrink Floodgates|C20
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Lunar Mystic|C20
 1 Melek, Izzet Paragon|CMM|[345]
 1 Stomping Ground|RVR|[413]

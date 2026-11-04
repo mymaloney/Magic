@@ -5,7 +5,7 @@ Name=Polukranos
 [Main]
 1 Abzan Battle Priest|MOC
 1 Abzan Falconer|MOC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Polukranos, World Eater|PIO|[190]
 1 Austere Command|FDC|[18]
 1 Beast Whisperer|TSR|[356]
@@ -14,11 +14,11 @@ Name=Polukranos
 1 Phytohydra|RVR|[210]
 1 Pollen-Shield Hare|WOE
 1 Toby, Beastie Befriender|DSK
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conclave Mentor|MOC
 1 Cultivate|SOC|[265]
 1 Evolution Witness|MH3
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Farseek|RVR|[347]
 1 Feather of Flight|BLB
 1 Fellwar Stone|DRK|[102]
@@ -48,7 +48,7 @@ Name=Polukranos
 1 Nyxborn Hydra|MH3
 1 Oran-Rief Hydra|E01
 1 Oran-Rief, the Vastwood|SOC|[391]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 8 Plains|INR|[288]
 1 Primeval Protector|NEC
 1 Resourceful Defense|EOC|[67]
@@ -64,13 +64,13 @@ Name=Polukranos
 1 Spore Frog|PCY|[126]
 1 Sungrass Prairie|ODY|[328]
 1 Sunpetal Grove|TDC|[399]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Take Up the Shield|J25|[270]
 1 Temple of Plenty|TDC|[405]
 1 Tempt with Discovery|BLC
-1 Terramorphic Expanse|TRC|[571]
-1 Thought Vessel|TRC|[509]
+1 Terramorphic Expanse|SOS|[265]
+1 Thought Vessel|MBC|[78]
 1 Trollbred Guardian|RNA|[148]
 1 Vastwood Hydra|C20
 1 Wear Down|BLB

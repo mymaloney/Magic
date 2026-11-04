@@ -10,8 +10,8 @@ Name=Jetmir
 1 Beast Within|TSR|[357]
 1 Beastcaller Savant|bfz
 1 Bess, Soul Nourisher|ncc
-1 swiftfoot boots|TRC|[501]
-1 lightning greaves|TRC|[496]
+1 swiftfoot boots|MBC|[77]
+1 lightning greaves|SOC|[350]
 1 Rograkh, Son of Rohgahh|cmr
 1 cabaretti revels|ysnc
 1 back-alley gardener|ysnc
@@ -25,7 +25,7 @@ Name=Jetmir
 1 Cabaretti Charm|snc
 1 Cabaretti Confluence|ncc
 1 Cabaretti Courtyard|EOC|[151]
-1 arcane signet|TRC|[485]
+1 arcane signet|FRC|[20]
 1 Camaraderie|SCD|[219]
 1 Canopy Vista|TDC|[343]
 1 Castle Ardenvale|TDC|[346]
@@ -34,7 +34,7 @@ Name=Jetmir
 1 Cinder Glade|ECC|[146]
 1 Civic Gardener|snc
 1 Comet Storm|cmr
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consuming Blob|DBL|[177]
 1 Darling of the Masses|snc
 1 Devilish Valet|BLC|[195]
@@ -67,7 +67,7 @@ Name=Jetmir
 1 Master of Ceremonies|ncc
 7 Mountain|INR|[294]
 1 Naya Charm|dmc
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Phabine, Boss's Confidant|ncc
 7 Plains|INR|[288]
 1 Prosperous Partnership|ncc

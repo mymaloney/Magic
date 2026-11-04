@@ -6,7 +6,7 @@ Name=Tajic, Legion's Valor
 1 Adeline, Resplendent Cathar|TDC|[108]
 1 Anax, Hardened in the Forge|CMM|[204]
 1 Anim Pakal, Thousandth Moon|LCI
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Assemble the Legion|PIO|[204]
 1 Aurelia, Exemplar of Justice|RVR|[356]
 1 Aurelia, the Law Above|MKM
@@ -22,8 +22,8 @@ Name=Tajic, Legion's Valor
 1 Boros Recruit|RAV
 1 Boros Signet|TDC
 1 Clifftop Retreat|DMR|[393]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Daxos, Blessed by the Sun|THB
 1 Day of Judgment|FDC|[23]
 1 Deflecting Palm|MKC
@@ -35,7 +35,7 @@ Name=Tajic, Legion's Valor
 1 Fight to the Death|ARB
 1 Finale of Glory|CLU
 1 Fire Diamond|MIR|[302]
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Haazda Marshal|GRN
 1 Haktos the Unscarred|THB
 1 Iroas, God of Victory|PIO|[309]
@@ -75,4 +75,4 @@ Name=Tajic, Legion's Valor
 1 The Wandering Emperor|NEO
 1 Tori D'Avenant, Fury Rider|DMU
 1 Tyrant's Familiar|FDC|[183]
-1 Warleader's Call|TRC|[335]
+1 Warleader's Call|MKM|[242]

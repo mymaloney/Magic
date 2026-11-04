@@ -5,7 +5,7 @@ Name=Zilortha, Strength Incarnate
 [Main]
 1 Anzrag, the Quake-Mole|MKM
 1 Appetite for the Unnatural|KLD
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Belligerent Yearling|LCI
 1 Big Score|SOC|[237]
 1 Bite Down|FDC|[192]
@@ -14,8 +14,8 @@ Name=Zilortha, Strength Incarnate
 1 Brawn|JUD|[107]
 1 Cactusfolk Sureshot|OTJ
 1 Chaos Warp|MBC|[72]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Crash Through|FDN
 1 Cultivate|SOC|[265]
 1 Dinosaur Stampede|XLN
@@ -24,7 +24,7 @@ Name=Zilortha, Strength Incarnate
 1 Drumhunter|SCD
 1 Earthshaker Dreadmaw|LCI
 1 Etali, Primal Storm|TSR|[342]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Ferocification|OTJ
 12 Forest|INR|[296]
 1 Furious Rise|PIO|[136]
@@ -49,7 +49,7 @@ Name=Zilortha, Strength Incarnate
 1 Otepec Huntmaster|LCC
 1 Overwhelming Encounter|CLB
 1 Palani's Hatcher|LCI
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Plummet|DBL|[193]
 1 Poetic Ingenuity|LCI
 1 Pounce|J22

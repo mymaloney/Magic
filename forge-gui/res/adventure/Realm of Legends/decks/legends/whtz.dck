@@ -9,7 +9,7 @@ Name=Whtz
 1 Plea for Guidance|bng
 1 Idyllic Tutor|thb
 1 Academy Rector|uds
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Baird, Steward of Argive|blc
 1 Aether Channeler|J25|[283]
 1 Archaeomancer|PIO|[284]
@@ -83,7 +83,7 @@ Name=Whtz
 1 Storm Herd|scd
 1 Sun Titan|SOC|[178]
 1 Suppression Ray|mh3
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Switcheroo|m19
 1 Swords to Plowshares|DMR|[275]
 1 Temple Bell|LCC|[117]
@@ -109,7 +109,7 @@ Name=Whtz
 1 Elite Guardmage|war
 1 Evangel of Heliod|PIO|[280]
 1 Brago, King Eternal|KHC|[82]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Harmonious Archon|ONC|[74]
 1 Zndrsplt's Judgment|NCC|[240]
 1 Phyrexian Ingester|CMM|[111]
@@ -119,7 +119,7 @@ Name=Whtz
 1 Vesuvan Shapeshifter|TSR|[97]
 1 Gigantoplasm|RVR|[450]
 1 Venser's Journal|C21|[273]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Duplicant|DRC|[54]
 1 Empyrial Storm|c18
 1 See Double|mom
@@ -157,7 +157,7 @@ Name=Whtz
 1 Coldsteel Heart|J22|[94]
 1 Clone Legion|NCC|[215]
 1 Sphinx's Revelation|RVR|[383]
-1 Fractured Identity|TRC|[320]
+1 Fractured Identity|C17|[37]
 1 Windborn Muse|dmr
 1 Absorb|DMR|[354]
 1 Ethereal Haze|chk
@@ -166,7 +166,7 @@ Name=Whtz
 1 Azorius Charm|PIO|[205]
 1 Gilded Lotus|FDN|[725]
 1 Mind's Eye|FDC|[272]
-1 Promise of Loyalty|TRC|[234]
+1 Promise of Loyalty|SOC|[161]
 1 Archon of Absolution|eld
 1 Supreme Verdict|RVR|[461]
 1 Time Wipe|TDC|[308]
@@ -183,7 +183,7 @@ Name=Whtz
 1 Space Beleren|unf
 1 Ith, High Arcanist|tsr
 1 Deserted Beach|FRA|[176]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Adarkar Wastes|ICE|[351]
 1 Abandoned Campground|dsk
 1 Boreal Shelf|csp
@@ -192,23 +192,23 @@ Name=Whtz
 1 Coastal Tower|inv
 1 Floodfarm Verge|dsk
 1 Glacial Floodplain|khm
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Hallowed Fountain|RVR|[404]
 1 Hengegate Pathway|khm
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 1 Meandering River|SCD|[308]
-1 Port Town|TRC|[393]
+1 Port Town|M3C|[364]
 1 Restless Anchorage|FRC|[81]
 1 Sejiri Refuge|SCD|[317]
 1 Temple of Enlightenment|eoc
 1 Tranquil Cove|tdm
 1 Azorius Chancery|DSC|[261]
 1 Azorius Guildgate|RVR|[396]
-1 Terramorphic Expanse|TRC|[571]
-1 Command Tower|TRC|[521]
-1 Exotic Orchard|TRC|[378]
-1 Prairie Stream|TRC|[394]
-1 Reliquary Tower|TRC|[551]
+1 Terramorphic Expanse|SOS|[265]
+1 Command Tower|FRC|[22]
+1 Exotic Orchard|MBC|[79]
+1 Prairie Stream|FRC|[79]
+1 Reliquary Tower|SOC|[398]
 1 Seachrome Coast|blc
 1 Skycloud Expanse|ODY|[327]
 1 Skybridge Towers|snc

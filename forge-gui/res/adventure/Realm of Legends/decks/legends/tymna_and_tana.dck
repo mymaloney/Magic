@@ -6,7 +6,7 @@ Name=Tymna and Tana
 [Main]
 1 Akroma's Will|M3C|[165]
 1 Annie Joins Up|otj
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arid Mesa|mh2
 1 Assassin's Trophy|SOC|[294]
 1 All-Out Assault|tdm
@@ -33,7 +33,7 @@ Name=Tymna and Tana
 1 Caretaker's Talent|blb
 1 Champion of Lambholt|moc
 1 Chatterfang, Squirrel General|MH2|[410]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Craterhoof Behemoth|INR|[480]
 1 Deadly Rollick|cmm
 1 Deathcap Glade|SOS|[253]
@@ -42,7 +42,7 @@ Name=Tymna and Tana
 1 Eldrazi Monument|M3C|[290]
 1 Elesh Norn, Grand Cenobite|IMA|[18]
 1 Elspeth, Storm Slayer|tdm
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Ezuri's Predation|FDC|[203]
 1 Farseek|RVR|[347]
 1 Forest|INR|[296]
@@ -71,12 +71,12 @@ Name=Tymna and Tana
 1 Plaza of Heroes|dmu
 1 Rabble Rousing|snc
 1 Reflecting Pool|TMP|[322]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rite of Harmony|DBL|[236]
 1 Rockfall Vale|FRA|[186]
 1 Sacred Foundry|rvr
 1 Savai Triome|iko
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Sol Ring|LEB|[270]
 1 Taiga|LEB|[283]
 1 Stomping Ground|rvr
@@ -92,7 +92,7 @@ Name=Tymna and Tana
 1 Bayou|LEB|[279]
 1 Verdant Catacombs|mh2
 1 Voice of Victory|tdm
-1 Warleader's Call|TRC|[335]
+1 Warleader's Call|MKM|[242]
 1 Westvale Abbey|inr
 1 Wildwood Mentor|woe
 1 Will of the Mardu|tdc

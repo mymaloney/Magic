@@ -5,8 +5,8 @@ Name=Sorin of House Markov
 [Main]
 1 Sorin, Grim Nemesis|SOI
 1 Sorin, Solemn Visitor|KTK
-1 Anguished Unmaking|TRC|[310]
-1 Arcane Signet|TRC|[485]
+1 Anguished Unmaking|SOC|[293]
+1 Arcane Signet|FRC|[20]
 1 Arguel's Blood Fast|XLN
 1 Blind Obedience|RVR|[303]
 1 Blood Artist|INR|[372]
@@ -16,7 +16,7 @@ Name=Sorin of House Markov
 1 Castle Locthwain|FDC|[299]
 1 Caves of Koilos|APC|[140]
 1 Charismatic Conqueror|LCC
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cordial Vampire|LCC
 1 Cosmos Elixir|KHM
 1 Creeping Bloodsucker|J25|[415]
@@ -68,14 +68,14 @@ Name=Sorin of House Markov
 16 Swamp|INR|[292]
 1 Swords to Plowshares|DMR|[275]
 1 Tainted Field|TOR|[140]
-1 Talisman of Hierarchy|TRC|[506]
+1 Talisman of Hierarchy|SOC|[358]
 1 Temple of Silence|SOC|[415]
 1 Toxic Deluge|MH3|[412]
 1 Trapped in the Screen|DSK
 1 Twilight Prophet|MKC
 1 Unholy Annex|DSK
 1 Vampire of the Dire Moon|J25|[504]
-1 Vault of Champions|TRC|[416]
+1 Vault of Champions|CMM|[436]
 1 Vein Ripper|MKM
 1 Vito, Thorn of the Dusk Rose|J25|[71]
 1 War Room|SOC|[422]

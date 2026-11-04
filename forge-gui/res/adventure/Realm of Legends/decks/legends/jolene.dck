@@ -3,8 +3,8 @@ Name=Jolene
 [Commander]
 1 Jolene, Plundering Pugilist|otj
 [Main]
-1 Abrade|TRC|[449]
-1 Arcane Signet|TRC|[485]
+1 Abrade|SOC|[234]
+1 Arcane Signet|FRC|[20]
 1 Beast Whisperer|TSR|[356]
 1 Beast Within|TSR|[357]
 1 Hell to Pay|otj
@@ -20,7 +20,7 @@ Name=Jolene
 1 Cactusfolk Sureshot|otj
 1 Cinder Glade|ECC|[146]
 1 Colossal Majesty|FDC|[197]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Decimate|dmr
 1 Dragonhawk, Fate's Tempest|FDC|[151]
 1 Elemental Bond|TDC|[254]
@@ -50,7 +50,7 @@ Name=Jolene
 1 Jolene, the Plunder Queen|ncc
 1 Kessig Wolf Run|TDC|[375]
 1 Leafkin Avenger|m21
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Mosswort Bridge|TDC|[379]
 6 Mountain|INR|[294]
 1 Nature's Lore|DMR|[346]
@@ -58,14 +58,14 @@ Name=Jolene
 1 Nature's Rhythm|tdm
 1 Ohran Frostfang|SOC|[279]
 1 Outcaster Trailblazer|otj
-1 Professional Face-Breaker|TRC|[291]
+1 Professional Face-Breaker|M3C|[216]
 1 Rain of Riches|BLC|[200]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rhonas the Indomitable|FDC|[223]
 1 Rhythm of the Wild|RVR|[380]
 1 Rishkar's Expertise|FDC|[226]
 1 Bristling Backwoods|otj
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rootbound Crag|ECC|[163]
 1 Roxanne, Starfall Savant|otj
 1 Ruby, Daring Tracker|fdn
@@ -80,7 +80,7 @@ Name=Jolene
 1 Soul of the Harvest|JMP|[432]
 1 Spinerock Knoll|FDC|[314]
 1 Stump Stomp|mh3
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Talisman of Impulse|TDC|[332]
 1 Temple of Abandon|TDC|[400]
 1 The Reaver Cleaver|M3C|[217]

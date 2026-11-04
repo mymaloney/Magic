@@ -29,7 +29,7 @@ Name=The Master of Keys
 1 Brainstorm|MMQ|[61]
 1 Inkshield|SOC|[316]
 1 Otherworldly Gaze|DSC|1
-1 Return to Dust|TRC|[427]
+1 Return to Dust|DSC|[102]
 1 Swords to Plowshares|DMR|[275]
 1 Telling Time|DSC|1
 1 Thirst for Meaning|DSC|1
@@ -58,22 +58,22 @@ Name=The Master of Keys
 1 Spirit-Sister's Call|DSC|1
 1 The Eldest Reborn|DSC|1
 1 Timely Ward|DSC|1
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Azorius Signet|FRC|[53]
 1 Brainstone|MH2|[426]
-1 Commander's Sphere|TRC|[487]
+1 Commander's Sphere|ECC|[139]
 1 Mind Stone|DMR|[385]
 1 Orzhov Signet|TDC|[323]
 1 Sol Ring|LEB|[270]
 1 Adarkar Wastes|ICE|[351]
-1 Arcane Sanctum|TRC|[513]
+1 Arcane Sanctum|DRC|[146]
 1 Ash Barrens|TDC|[339]
 1 Azorius Chancery|DSC|1
 1 Bojuka Bog|TSR|[406]
 1 Caves of Koilos|APC|[140]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Dimir Aqueduct|DSC|1
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Halimar Depths|DSC|1
 1 Hall of Heliod's Generosity|DSC|1
 1 Obscura Storefront|DSC|1
@@ -83,7 +83,7 @@ Name=The Master of Keys
 1 Temple of Deceit|DRC|[176]
 1 Temple of Enlightenment|EOC|[186]
 1 Temple of Silence|SOC|[415]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thriving Heath|ECC|[172]
 1 Thriving Isle|ECC|[173]
 1 Thriving Moor|ECC|[174]

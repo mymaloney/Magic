@@ -5,7 +5,7 @@ Name=Saskia
 [Main]
 1 Abzan Charm|dmc
 1 Adeline, Resplendent Cathar|TDC|[108]
-1 Anguished Unmaking|TRC|[310]
+1 Anguished Unmaking|SOC|[293]
 1 Annie Joins Up|otj
 1 sol ring|LEB|[270]
 1 Arid Mesa|mh2
@@ -21,12 +21,12 @@ Name=Saskia
 1 Canopy Vista|TDC|[343]
 1 Chainer, Nightmare Adept|mh2
 1 Farewell|M3C|[170]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Coppercoat Vanguard|mat
 1 Damn|mh2
 1 Esper Sentinel|H2R|[2]
 1 Eternal Witness|TSR|[361]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 7 Forest|INR|[296]
 1 General's Enforcer|iko
 1 Godless Shrine|RVR|[401]
@@ -38,8 +38,8 @@ Name=Saskia
 1 Jirina, Dauntless General|mat
 1 Jungle Shrine|ECC|[154]
 1 Kolaghan's Command|M3C|[268]
-1 Lightning Greaves|TRC|[496]
-1 Loran of the Third Path|TRC|[229]
+1 Lightning Greaves|SOC|[350]
+1 Loran of the Third Path|BLC|[143]
 1 Rakdos Joins Up|otj
 1 Marsh Flats|mh2
 2 Mountain|INR|[294]
@@ -50,9 +50,9 @@ Name=Saskia
 1 Ohran Frostfang|SOC|[279]
 1 Ornithopter of Paradise|MH2|[430]
 1 Overgrown Tomb|RVR|[407]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 4 Plains|INR|[288]
-1 Professional Face-Breaker|TRC|[291]
+1 Professional Face-Breaker|M3C|[216]
 1 Rakdos Charm|TSR|[384]
 1 Rhythm of the Wild|RVR|[380]
 1 Roaming Throne|lci

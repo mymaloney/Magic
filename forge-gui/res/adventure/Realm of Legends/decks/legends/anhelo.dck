@@ -4,7 +4,7 @@ Name=Anhelo, the Painter
 1 Anhelo, the Painter|NCC
 [Main]
 1 A Little Chat|SNC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Army of the Damned|FDC|[85]
 1 Ash Barrens|TDC|[339]
 1 Audacious Swap|NCC
@@ -13,11 +13,11 @@ Name=Anhelo, the Painter
 1 Body Count|NCC
 1 Call the Skybreaker|NCC
 1 Cascade Bluffs|SOC|[364]
-1 Chain Reaction|TRC|[280]
-1 Choked Estuary|TRC|[370]
+1 Chain Reaction|SOC|[121]
+1 Choked Estuary|MKC|[254]
 1 Clone Legion|NCC
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Cormela, Glamour Thief|SNC
 1 Crumbling Necropolis|LCC|[326]
 1 Cryptic Pursuit|NCC
@@ -26,26 +26,26 @@ Name=Anhelo, the Painter
 1 Deep Analysis|TOR|[36]
 1 Determined Iteration|SOC|[122]
 1 Dig Through Time|SOC|[195]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Dogged Detective|MKC|[127]
 1 Double Vision|NCC
 1 Drawn from Dreams|NCC
 1 Dread Summons|DRC|[90]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Extravagant Replication|FDN|[154]
 1 Fact or Fiction|DMR|[283]
 1 Feed the Swarm|TDC|[180]
 1 Fellwar Stone|DRK|[102]
 1 Flawless Forgery|NCC
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 1 Frantic Search|DMR|[285]
 1 Goblin Electromancer|RVR|[367]
 1 Grixis Panorama|NCC
 1 Hex|OTC|[136]
 7 Island|INR|[290]
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Kess, Dissident Mage|NCC
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Maestros Charm|SNC
 1 Maestros Confluence|NCC
 1 Maestros Theater|EOC|[167]
@@ -55,11 +55,11 @@ Name=Anhelo, the Painter
 1 Myriad Landscape|EOC|[169]
 1 Mystic Confluence|TSR|[312]
 1 Parnesse, the Subtle Brush|NCC
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Ponder|TSR|[315]
 1 Preordain|TDC|[161]
 1 Puppeteer Clique|ECC|[84]
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 Reign of the Pit|SCD|[102]
 1 Rekindling Phoenix|NCC
 1 Rite of the Raging Storm|MKC|[159]
@@ -68,12 +68,12 @@ Name=Anhelo, the Painter
 1 Shadowblood Ridge|ODY|[326]
 1 Sinister Concierge|NCC
 1 Skyclave Shade|NCC
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Smuggler's Buggy|NCC
 1 Sol Ring|LEB|[270]
 1 Spellbinding Soprano|NCC
 1 Squee, the Immortal|NCC
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 6 Swamp|INR|[292]
 1 Syrix, Carrier of the Flame|NCC
 1 Talrand's Invocation|GN3|[41]
@@ -83,7 +83,7 @@ Name=Anhelo, the Painter
 1 Thriving Moor|ECC|[174]
 1 Twinning Staff|NCC
 1 Waste Management|NCC
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Woe Strider|SOC|[231]
 1 Xander's Pact|NCC
 1 Zndrsplt's Judgment|NCC

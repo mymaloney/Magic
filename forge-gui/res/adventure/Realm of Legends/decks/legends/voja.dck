@@ -3,11 +3,11 @@ Name=Voja
 [Commander]
 1 Voja, Jaws of the Conclave|mkm
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Anara, Wolvid Familiar|cmr
 1 Angelfire Ignition|INR|[229]
 1 Annie Joins Up|otj
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arlinn, Voice of the Pack|J22|[85]
 1 Armadillo Cloak|inv
 1 Ascendant Packleader|DBL|[453]
@@ -17,14 +17,14 @@ Name=Voja
 1 Cabaretti Charm|snc
 1 Child of the Pack|DBL|[501]
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crawling Barrens|fdn
 1 Cultivate|SOC|[265]
 1 Dire-Strain Rampage|DBL|[219]
 1 Wolf-Skull Shaman|mor
 1 Elvish Mystic|TSR|[360]
 1 Emmara Tandris|C19|[191]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Ferocious Pup|J22|[659]
 13 Forest|INR|[296]
 1 Gaea's Anthem|TSR|[204]
@@ -59,14 +59,14 @@ Name=Voja
 1 Overgrown Zealot|dsk
 1 Chaos Warp|MBC|[72]
 1 Packsong Pup|J22|[703]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 3 Plains|INR|[288]
 1 Pyreheart Wolf|dka
 1 Radha, Heart of Keld|m21
 1 Radiant Grove|TDC|[385]
 1 Raging Ravine|ECC|[160]
 1 Reclamation Sage|TSR|[366]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Restless Bivouac|woe
 1 Riveteers Overlook|ECC|[162]
 1 Sarulf's Packmate|khm
@@ -74,7 +74,7 @@ Name=Voja
 1 Silverfur Partisan|soi
 1 Sol Ring|LEB|[270]
 1 Spinerock Knoll|FDC|[314]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Taurean Mauler|TDC|[238]
 1 Tolsimir Wolfblood|RVR|[387]
 1 Tolsimir, Midnight's Light|mkm

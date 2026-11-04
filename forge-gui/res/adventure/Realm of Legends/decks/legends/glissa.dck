@@ -17,7 +17,7 @@ Name=Glissa
 1 Branchblight Stalker|one
 1 Breach the Multiverse|mom
 1 Bridgeworks Battle|mh3
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Contaminant Grafter|onc
 1 Dark Ritual|MMQ|[129]
 1 Darkbore Pathway|khm
@@ -39,7 +39,7 @@ Name=Glissa
 1 Infectious Inquiry|one
 1 Inkmoth Nexus|mbs
 1 Karn's Bastion|RVR|[464]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Llanowar Wastes|APC|[141]
 1 Malakir Rebirth|znr
 1 Massacre Wurm|FDN|[714]
@@ -54,7 +54,7 @@ Name=Glissa
 1 Noxious Revival|onc
 1 carnivorous canopy|one
 1 Paladin of Predation|one
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pestilent Syphoner|one
 1 Phyresis|mbs
 1 Phyresis Outbreak|onc
@@ -67,7 +67,7 @@ Name=Glissa
 1 Predator's Strike|j25
 1 Rancor|ULG|[110]
 1 Revitalizing Repast|mh3
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rot Wolf|TD2|[54]
 1 Skithiryx, the Blight Dragon|2XM|[107]
 9 Swamp|INR|[292]
@@ -82,5 +82,5 @@ Name=Glissa
 1 gift of compleation|mom
 1 Vraska's Fall|one
 1 Wastewood Verge|dft
-1 arcane signet|TRC|[485]
+1 arcane signet|FRC|[20]
 1 Zopandrel, Hunger Dominus|one

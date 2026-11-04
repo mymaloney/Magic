@@ -5,7 +5,7 @@ Name=Hanna
 [Main]
 1 Adarkar Wastes|ICE|[351]
 1 Ancient Den|TSR|[403]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archway of Innovation|mh3
 1 Austere Command|FDC|[18]
 1 Azorius Chancery|dsc
@@ -16,7 +16,7 @@ Name=Hanna
 1 Bronze Guardian|BRC|[70]
 1 Burnished Hart|FDN|[250]
 1 Chief of the Foundry|FDC|[249]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Cradle of Safety|DBL|[321]
 1 Darksteel Citadel|FDC|[300]
@@ -27,21 +27,21 @@ Name=Hanna
 1 Elspeth conquers Death|thb
 1 The Phasing of Zhalfir|dmu
 1 Digsite Engineer|BRC|[71]
-1 Dispatch|TRC|[421]
+1 Dispatch|EOC|[64]
 1 Disruption Protocol|neo
 1 Efficient Construction|cmm
 1 Emry, Lurker of the Loch|EOC|[71]
 1 Etherium Sculptor|EOC|[72]
 1 Ethersworn Shieldmage|arc
 1 Ethersworn Sphinx|mh2
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Forging the Anchor|bro
 1 Foundry Inspector|FDC|[259]
-1 Glacial Fortress|TRC|[385]
+1 Glacial Fortress|FRC|[73]
 1 Glimmervoid|2xm
 1 Gold Myr|nec
 1 Idyllic Beachfront|dmu
-1 Irrigated Farmland|TRC|[388]
+1 Irrigated Farmland|EOC|[162]
 7 Island|INR|[290]
 1 Jhoira's Familiar|2xm
 1 March of Progress|brc
@@ -56,15 +56,15 @@ Name=Hanna
 1 Phyrexian Rebirth|moc
 4 Plains|INR|[288]
 1 Platinum Angel|CN2|[214]
-1 Port Town|TRC|[393]
+1 Port Town|M3C|[364]
 1 Power Depot|mh2
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Razortide Bridge|EOC|[171]
 1 Requisition Raid|otj
 1 Research Thief|FDC|[74]
 1 Reverse Engineer|cmm
 1 Riddlesmith|nec
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sai, Master Thopterist|drc
 1 Scene of the Crime|mkm
 1 Scourglass|ala
@@ -76,20 +76,20 @@ Name=Hanna
 1 Sol Ring|LEB|[270]
 1 Solemn Simulacrum|TSR|[400]
 1 Soul-Guide Lantern|EOC|[143]
-1 Spire of Industry|TRC|[405]
+1 Spire of Industry|EOC|[183]
 1 Steel Overseer|EOC|[144]
 1 Stoic Rebuttal|mm2
 1 Swords to Plowshares|DMR|[275]
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Temple of Enlightenment|EOC|[186]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Tezzeret, Artifice Master|j22
-1 Thirst for Knowledge|TRC|[443]
+1 Thirst for Knowledge|EOC|[48]
 1 Thopter Spy Network|drc
 1 Thought Monitor|EOC|[79]
-1 Thoughtcast|TRC|[444]
+1 Thoughtcast|FDC|[81]
 1 Treasure Vault|drc
 1 Vedalken Archmage|FDC|[82]
 1 Voyage Home|dft
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Wurmcoil Engine|2xm

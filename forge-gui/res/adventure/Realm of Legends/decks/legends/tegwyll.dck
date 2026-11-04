@@ -5,21 +5,21 @@ Name=Tegwyll, Duke of Splendor
 [Main]
 1 Alela, Cunning Conqueror|WOC|1
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage of Echoes|WOC|1
 1 Blightwing Bandit|WOC|1
 1 Bojuka Bog|TSR|[406]
 1 Brazen Borrower|SOC|[190]
-1 Choked Estuary|TRC|[370]
+1 Choked Estuary|MKC|[254]
 1 Cloud of Faeries|ULG|[29]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consider|TDC|[148]
 1 Watery Grave|RVR|[415]
 1 Dig Through Time|SOC|[195]
 1 Dimir Aqueduct|DSC|[270]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Distant Melody|ECC|[45]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Fact or Fiction|DMR|[283]
 1 Faerie Bladecrafter|WOC|1
 1 Faerie Conclave|ULG|[139]
@@ -49,7 +49,7 @@ Name=Tegwyll, Duke of Splendor
 1 Obyra, Dreaming Duelist|WOE|1
 1 Oona, Queen of the Fae|WOC|1
 1 Opt|INV|[64]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Perplexing Test|SOC|[197]
 1 Picklock Prankster|WOE|1
 1 Puppeteer Clique|ECC|[84]
@@ -69,15 +69,15 @@ Name=Tegwyll, Duke of Splendor
 1 Sower of Temptation|WOC|1
 1 Spell Stutter|WOE|1
 1 Spellscorn Coven|WOE|1
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 12 Swamp|INR|[292]
 1 Tainted Isle|TOR|[141]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Tegwyll's Scouring|WOC|1
 1 Temple of Deceit|DRC|[176]
 1 Temple of the False God|SCG|[143]
 1 Theoretical Duplication|WOC|1
 1 Thrilling Encore|WOC|1
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 [Sideboard]
 

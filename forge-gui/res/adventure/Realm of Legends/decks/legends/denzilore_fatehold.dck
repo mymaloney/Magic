@@ -6,11 +6,11 @@ Name=Denzilore Fatehold
 1 Abzan Falconer|moc
 1 Adarkar Wastes|ICE|[351]
 1 Aqueous Form|PIO|[45]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Artificer's Assistant|dom
 1 Augury Owl|J22|[273]
 1 Castle Vantress|dsc
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Consider|TDC|[148]
 1 Cryptic Annelid|tsr
 1 Damning Verdict|ncc
@@ -18,21 +18,21 @@ Name=Denzilore Fatehold
 1 Deserted Beach|fra
 1 Dusk Legion Duelist|mom
 1 Envoy of the Ancestors|mh3
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Faerie Seer|J25|[106]
 1 Fear of Surveillance|dsk
 1 Fellwar Stone|DRK|[102]
 1 Counterspell|DMR|[281]
 1 Flooded Strand|mh3
 1 Floodfarm Verge|dsk
-1 Glacial Fortress|TRC|[385]
-1 Path of Ancestry|TRC|[545]
+1 Glacial Fortress|FRC|[73]
+1 Path of Ancestry|MBC|[80]
 1 Gods Willing|clu
 1 Gossip's Talent|blb
 1 Swords to Plowshares|DMR|[275]
 1 Teferi's Reproach|frc
-1 Talisman of Progress|TRC|[508]
+1 Talisman of Progress|FRC|[64]
 1 Patrolling Peacemaker|eoc
 1 Diviner of Victory|fra
 1 Increasing Devotion|ONC|[76]
@@ -54,7 +54,7 @@ Name=Denzilore Fatehold
 3 Island|INR|[290]
 1 Isolated Watchtower|c18
 1 Jace, Mirror Mage|ZNR|[63]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Loran's Escape|bro
 1 Meticulous Archive|mkm
 1 Mind Stone|DMR|[385]
@@ -69,9 +69,9 @@ Name=Denzilore Fatehold
 2 Plains|INR|[288]
 3 Plains|INR|[288]
 3 Plains|INR|[288]
-1 Prairie Stream|TRC|[394]
+1 Prairie Stream|FRC|[79]
 1 Preordain|tdc
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Retreat to Coralhelm|dsc
 1 Ripples of Potential|eoc
 1 Rumor Gatherer|CLB|[705]
@@ -81,11 +81,11 @@ Name=Denzilore Fatehold
 1 Sol Ring|LEB|[270]
 1 Spellbook Vendor|woe
 1 Sphinx of Foresight|rna
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Teferi's Protection|2x2
 1 Temple of Enlightenment|eoc
 1 Thassa, God of the Sea|PIO|[288]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thrummingbird|eoc
 1 Watcher of Hours|mkc
 1 Wave Goodbye|lcc

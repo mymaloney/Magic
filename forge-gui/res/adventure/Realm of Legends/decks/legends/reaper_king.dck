@@ -7,7 +7,7 @@ Name=Reaper King
 1 Amoeboid Changeling|j22
 1 An Offer You Can't Refuse|FDN|[160]
 1 Arcane Adaptation|xln
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Aurora Awakener|ecl
 1 Battlefield Forge|APC|[139]
 1 Belonging|ecc
@@ -18,16 +18,16 @@ Name=Reaper King
 1 Changeling Berserker|lrw
 1 Changeling Outcast|OTC|[128]
 1 Changeling Titan|lrw
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crib Swap|ECL|[11]
-1 Door of Destinies|TRC|[342]
+1 Door of Destinies|C17|[208]
 1 Double Major|stx
 1 Dovin's Veto|TSR|[375]
 1 Eclipsed Realms|ecl
 1 Eerie Interlude|khc
 1 Ephemerate|H1R|[1]
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Farseek|RVR|[347]
 1 Fellwar Stone|DRK|[102]
 1 Firdoch Core|ecl
@@ -44,7 +44,7 @@ Name=Reaper King
 3 Island|INR|[290]
 1 Jawbone Skulkin|eve
 1 Karplusan Forest|ICE|[356]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Liliana's Contract|m19
 1 Llanowar Wastes|APC|[141]
 1 Magda, Brazen Outlaw|khm
@@ -82,8 +82,8 @@ Name=Reaper King
 1 Springleaf Parade|ecc
 1 Stalactite Dagger|ecl
 2 Swamp|INR|[292]
-1 evolving wilds|TRC|[527]
-1 terramorphic expanse|TRC|[571]
+1 evolving wilds|ECL|[264]
+1 terramorphic expanse|SOS|[265]
 1 Taurean Mauler|TDC|[238]
 1 The Reaper, King no more|ecc
 1 Temple Garden|RVR|[414]

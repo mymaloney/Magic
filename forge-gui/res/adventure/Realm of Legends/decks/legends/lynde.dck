@@ -4,7 +4,7 @@ Name=Lynde
 1 Lynde, Cheerful Tormentor|mic
 [Main]
 1 Arcane Denial|ALL|[22a]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ashiok's Reaper|woe
 1 Asinine Antics|woe
 1 Balemurk Leech|dsk
@@ -12,8 +12,8 @@ Name=Lynde
 1 Blightcaster|ori
 1 Callaphe, Beloved of the Sea|thb
 1 Claws of Gix|USG|[290]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Copy Enchantment|rvr
 1 Coveted Peacock|cmm
 1 Crumbling Necropolis|lcc
@@ -34,12 +34,12 @@ Name=Lynde
 1 Curse of Verbosity|CLB|[717]
 1 Demon of Fate's Design|dsc
 1 Dimir Aqueduct|DSC|[270]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Chaos Warp|MBC|[72]
 1 Sol Ring|LEB|[270]
 1 Doomwake Giant|SOC|[212]
-1 Dragonskull Summit|TRC|[375]
-1 Drowned Catacomb|TRC|[376]
+1 Dragonskull Summit|ECC|[147]
+1 Drowned Catacomb|FRC|[69]
 1 Entity Tracker|dsk
 1 Estrid's Invocation|mh3
 1 Extinguish All Hope|cmm
@@ -51,11 +51,11 @@ Name=Lynde
 1 Grim Guardian|jou
 8 Island|INR|[290]
 1 Izzet Boilerworks|m3c
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Maddening Hex|AFC|[32]
 1 Maestros Confluence|ncc
 8 Mountain|INR|[294]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Nightscape Familiar|PLS|[48]
 1 Obeka, Splitter of Seconds|otj
 1 Perilous Research|mma
@@ -63,18 +63,18 @@ Name=Lynde
 1 Protean Thaumaturge|thb
 1 Rakdos Carnarium|ECC|[161]
 1 Rakdos Charm|TSR|[384]
-1 Talisman of Indulgence|TRC|[507]
+1 Talisman of Indulgence|FRC|[63]
 1 Read the Runes|ONS|[104]
 1 Reality Shift|SOC|[199]
 1 Revenge of Ravens|ELD|[104]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sphinx of the Second Sun|mkc
 1 Sulfur Falls|DMR|[400]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 8 Swamp|INR|[292]
 1 Temple of Deceit|DRC|[176]
 1 Temple of Epiphany|SOC|[412]
-1 Temple of Malice|TRC|[410]
+1 Temple of Malice|FDN|[701]
 1 Terminate|PLS|[128]
 1 Thirst for Meaning|dsc
 1 Torment of Scarabs|j25

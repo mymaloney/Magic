@@ -4,13 +4,13 @@ Name=Nogi
 1 Nogi, Draco-Zealot|TDC|[226]
 [Main]
 1 Akoum Hellkite|SCD
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archwing Dragon|AVR
 1 Lightning Bolt|LEB|[162]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Blast-Furnace Hellkite|BRC
 1 Burnished Hart|FDN|[250]
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Crucible of Fire|FDC|[148]
 1 Demanding Dragon|SCD
 1 Draconic Destiny|BRO
@@ -50,7 +50,7 @@ Name=Nogi
 1 Runehorn Hellkite|SCD
 1 Sarkhan the Masterless|WAR|[143]
 1 Sarkhan, the Dragonspeaker|SCD
-1 Shared Animosity|TRC|[295]
+1 Shared Animosity|LCC|[231]
 1 Skyline Despot|FDC|[176]
 1 Skyship Stalker|AFC|[141]
 1 Slumbering Dragon|M13

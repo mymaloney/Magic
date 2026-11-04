@@ -4,7 +4,7 @@ Name=Wayta, Trainer Prodigy
 1 Wayta, Trainer Prodigy|LCC
 [Main]
 1 Aether Flash|WTH
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archangel Avacyn|INR|[449]
 1 Bellowing Aegisaur|LCC|[127]
 1 Blasphemous Act|SOC|[238]
@@ -15,16 +15,16 @@ Name=Wayta, Trainer Prodigy
 1 Brash Taunter|DSC|[161]
 1 Bushwhack|FDN|[215]
 1 Cacophodon|RIX
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Cinderclasm|ZNR
-1 Command Tower|TRC|[521]
-1 Darksteel Plate|TRC|[341]
+1 Command Tower|FRC|[22]
+1 Darksteel Plate|2X2|[304]
 1 Domri, Anarch of Bolas|BLC|[98]
 1 Caltrops|UDS|[129]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Earthquake|PO2
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fault Line|USG
 1 Fiendlash|CMM|[221]
 10 Forest|INR|[296]
@@ -72,7 +72,7 @@ Name=Wayta, Trainer Prodigy
 1 Sun-Crowned Hunters|XLN
 1 Temple Altisaur|LCC|[138]
 1 Temple of Triumph|SOC|[417]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thunderherd Migration|LCC
 1 Trapjaw Tyrant|RIX
 1 Warstorm Surge|FDC|[186]

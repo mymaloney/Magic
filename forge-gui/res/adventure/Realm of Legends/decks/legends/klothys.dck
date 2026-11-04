@@ -19,7 +19,7 @@ Name=Klothys
 1 Cindervines|rvr
 1 City on Fire|mom
 1 Collector Ouphe|mh1
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Composer of Spring|cmm
 1 Copperline Gorge|blc
 1 Crackle with Power|stx
@@ -31,10 +31,10 @@ Name=Klothys
 1 Eidolon of Blossoms|woc
 1 Enchantress's Presence|ONS|[261]
 1 Escape Tunnel|eoc
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Impending Disaster|ulg
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Fertile Ground|INV|[188]
 1 Fiery Emancipation|M21|[143]
 1 Overabundance|inv
@@ -76,7 +76,7 @@ Name=Klothys
 1 Ruination|sth
 1 Tectonic Giant|dsc
 1 Temple of Abandon|tdc
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 The World Spell|dmu
 1 Twinflame Tyrant|fdn
 1 Uncivil Unrest|moc

@@ -3,11 +3,11 @@ Name=Sarkhan
 [Commander]
 1 Sarkhan, Soul Aflame|tdc
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arni Metalbrow|mat
 1 Atsushi, the Blazing Sky|SOC|[236]
 1 Carnelian Orb of Dragonkind|j25
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Draconic Lore|tdc
 1 Dragon Tempest|tdc
 1 Dragon's Hoard|tdc
@@ -16,11 +16,11 @@ Name=Sarkhan
 1 Dragonologist|tdm
 1 Dragonspeaker Shaman|SCG|[89]
 1 Drakuseth, Maw of Flames|FDC|[155]
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Frostcliff Siege|tdm
 1 Glorybringer|tdc
 1 Haven of the Spirit Dragon|tdc
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Incinerator of the Guilty|mkm
 1 Invasion of Tarkir|mom
 13 Island|INR|[290]
@@ -65,7 +65,7 @@ Name=Sarkhan
 1 Steel Hellkite|tdc
 1 Scourge of Valkas|PIO|[155]
 1 Sulfur Falls|DMR|[400]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Temple of the Dragon Queen|tdc
 1 Territorial Hellkite|tdc
 1 Thunderbreak Regent|tdc

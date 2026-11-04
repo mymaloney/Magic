@@ -3,7 +3,7 @@ Name=Muldrotha, the Gravetide
 [Commander]
 1 Muldrotha, the Gravetide|ECC|[128]
 [Main]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ash Barrens|TDC|[339]
 1 Baleful Strix|BLC|[86]
 1 Braids, Arisen Nightmare|EOC|[82]
@@ -12,19 +12,19 @@ Name=Muldrotha, the Gravetide
 1 Cityscape Leveler|BRO
 1 Cloud Key|EOC|[54]
 1 Seal of Doom|NMS|[70]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Consuming Aberration|TSR|[374]
 1 Creeping Tar Pit|CLB|[888]
 1 Cruel Somnophage|WOE
 1 Defense Grid|ULG|[125]
 1 Defense of the Heart|ULG|[100]
 1 Doc Aurlock, Grizzled Genius|OTJ
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Elemental Bond|TDC|[254]
 1 Elvish Mystic|TSR|[360]
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Fellwar Stone|DRK|[102]
 1 Fiend Artisan|IKO
 1 Foreboding Landscape|TDC|[365]
@@ -39,7 +39,7 @@ Name=Muldrotha, the Gravetide
 1 Insidious Roots|MKM
 6 Island|INR|[290]
 1 Koma, World-Eater|FDN
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Llanowar Elves|LEB|[211]
 1 Loot, Exuberant Explorer|FDN
 1 Lotleth Giant|CMM
@@ -66,7 +66,7 @@ Name=Muldrotha, the Gravetide
 1 Stillness in Motion|TDM
 1 Stonehoof Chieftain|CMM
 6 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Taigam, Sidisi's Hand|CMM
 1 Takenuma, Abandoned Mire|NEO
 1 Temple of Deceit|DRC|[176]

@@ -4,7 +4,7 @@ Name=The Infamous Cruelclaw
 1 The Infamous Cruelclaw|blb
 [Main]
 1 Access Tunnel|TDC|[337]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archfiend of Spite|c19
 1 Archon of Cruelty|FRC|[47]
 1 Azra Oddsmaker|bbd
@@ -15,7 +15,7 @@ Name=The Infamous Cruelclaw
 1 Call to the Netherworld|c19
 1 Chainer, Nightmare Adept|mh2
 1 Chimil, the Inner Sun|ECC|[137]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Demonic Embrace|GN3|[46]
 1 Dogged Detective|mkc
 1 Embercleave|eld
@@ -37,11 +37,11 @@ Name=The Infamous Cruelclaw
 1 Price of Fame|mkc
 1 Rakdos, Patron of Chaos|mkm
 1 Raucous Theater|mkm
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Rowan's Grim Search|woe
 1 Seize the Day|ODY|[220]
 1 Sheoldred, Whispering One|JMP|[278]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sol Ring|LEB|[270]
 17 Swamp|INR|[292]
 1 pile on|mkc
@@ -58,10 +58,10 @@ Name=The Infamous Cruelclaw
 1 rottenmouth viper|blb
 1 season of loss|blb
 1 season of the bold|blb
-1 swiftfoot boots|TRC|[501]
+1 swiftfoot boots|MBC|[77]
 1 Sword of the Animist|cmm
-1 Talisman of Indulgence|TRC|[507]
-1 Temple of Malice|TRC|[410]
+1 Talisman of Indulgence|FRC|[63]
+1 Temple of Malice|FDN|[701]
 1 Terminal Agony|mh2
 1 The Reaver Cleaver|M3C|[217]
 1 Theater of Horrors|DSC|[236]

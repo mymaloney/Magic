@@ -14,7 +14,7 @@ Name=Reveka, Wizard Savant
 1 Charisma|MMQ
 1 Sigil of Sleep|UDS
 1 Aphetto Alchemist|ONS
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage's Charm|H1R|[7]
 1 Basilisk Collar|FDC|[246]
 1 Capsize|TMP
@@ -43,7 +43,7 @@ Name=Reveka, Wizard Savant
 1 Mind Stone|DMR|[385]
 1 Ophidian Eye|TSP
 1 Otawara, Soaring City|NEO
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Prodigal Sorcerer|LEB|[74]
 1 Psychic Venom|LEB|[76]
 1 Rapid Hybridization|SOC|[198]
@@ -60,11 +60,11 @@ Name=Reveka, Wizard Savant
 1 Staff of Nin|CM2
 1 Stock Up|DFT
 1 Swan Song|EOC
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Thousand-Year Elixir|C21
 1 Thran Dynamo|UDS|[139]
 1 Turnabout|RVR|[452]
 1 War Room|SOC|[422]
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Willbreaker|ORI
 1 Windfall|USG|[111]

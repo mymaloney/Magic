@@ -5,7 +5,7 @@ Name=Karn, Gilded Guardian
 [Main]
 1 Alibou, Ancient Witness|EOC|[113]
 1 Ancient Cornucopia|big
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Brightglass Gearhulk|dft
 1 Sphinx of the Guildpact|2xm
 1 Pinnacle Emissary|eoe
@@ -21,14 +21,14 @@ Name=Karn, Gilded Guardian
 1 Breya, Etherium Shaper|mh3
 1 Chromatic Lantern|RVR|[390]
 1 Coalstoke Gearhulk|dft
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Court of Vantress|woc
 1 Deserted Beach|FRA|[176]
 1 Dragon Arch|APC|[135]
 1 Enigma Sphinx|c18
 1 Enthusiastic Mechanaut|EOC|[114]
 1 Etherium Sculptor|EOC|[72]
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Faeburrow Elder|ECC|[53]
 1 Fallaji Wayfarer|dmc
 1 Organic Extinction|eoc
@@ -57,7 +57,7 @@ Name=Karn, Gilded Guardian
 1 Platoon Dispenser|bro
 1 Pyrewood Gearhulk|dft
 1 Razortide Bridge|EOC|[171]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Rienne, Angel of Rebirth|dmc
 1 Riptide Gearhulk|dft
 1 Rustvale Bridge|EOC|[175]
@@ -71,16 +71,16 @@ Name=Karn, Gilded Guardian
 1 Tanglepool Bridge|DRC|[175]
 1 Slagwoods Bridge|DRC|[171]
 1 Silverbluff Bridge|EOC|[180]
-1 Arcane Sanctum|TRC|[513]
+1 Arcane Sanctum|DRC|[146]
 1 Savage Lands|ECC|[165]
 1 Jungle Shrine|ECC|[154]
 1 Seaside Citadel|ECC|[166]
 1 Crumbling Necropolis|LCC|[326]
 1 Frontier Bivouac|ECC|[150]
 1 Opulent Palace|ECC|[157]
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Sandsteppe Citadel|ECC|[164]
-1 Nomad Outpost|TRC|[544]
+1 Nomad Outpost|TDM|[263]
 1 Sol Ring|LEB|[270]
 1 Solar Array|eoc
 1 Sphinx of the Steel Wind|ema

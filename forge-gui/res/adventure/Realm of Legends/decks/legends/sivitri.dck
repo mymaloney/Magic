@@ -9,7 +9,7 @@ Name=Sivitri
 1 Voracious Bibliophile|tdc
 1 Transcendent Dragon|tdc
 1 Hammerhead Tyrant|tdc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Scavenger Regent|tdm
 1 Marang River Regent|tdm
 1 Ashiok, Dream Render|war
@@ -18,19 +18,19 @@ Name=Sivitri
 1 Bone Dragon|m19
 1 Boneyard Scourge|c17
 1 Brainstealer Dragon|OTC|[127]
-1 Choked Estuary|TRC|[370]
+1 Choked Estuary|MKC|[254]
 1 Clever Impersonator|c19
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Contaminated Aquifer|TDC|[353]
 1 Counterspell|DMR|[281]
 1 Crucible of the Spirit Dragon|afc
 1 Crux of Fate|c17
 1 Deathbringer Regent|j22
 1 Deepglow Skate|EOC|[70]
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Dragon's Hoard|TDC|[317]
 1 Dragonlord Silumgar|PIO|[220]
-1 Drowned Catacomb|TRC|[376]
+1 Drowned Catacomb|FRC|[69]
 1 Experimental Augury|EOC|[73]
 1 Flux Channeler|war
 1 Foul-Tongue Invocation|ima
@@ -58,8 +58,8 @@ Name=Sivitri
 1 Dragonweave Tapestry|ytdm
 1 Kindred Dominance|WOC|[113]
 1 Phyrexian Metamorph|EOC|[75]
-1 Pongify|TRC|[441]
-1 Reliquary Tower|TRC|[551]
+1 Pongify|TDC|[160]
+1 Reliquary Tower|SOC|[398]
 1 Shipwreck Marsh|FRA|[189]
 1 Silumgar, the Drifting Death|c17
 1 Silumgar's Command|znc
@@ -67,7 +67,7 @@ Name=Sivitri
 1 Sol Ring|LEB|[270]
 1 Soul Manipulation|znc
 1 Spark Double|RVR|[319]
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 11 Swamp|INR|[292]
 1 Teferi, Master of Time|m21
 1 Teferi, Temporal Archmage|CMM|[125]

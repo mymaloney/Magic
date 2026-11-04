@@ -5,7 +5,7 @@ Name=Uurg, Spawn of Turg
 [Main]
 1 Arbor Elf|A25|[160]
 1 The Gitrog Monster|INR|[431]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Blanchwood Prowler|BRO
 1 Blessing of Leeches|BOK
 1 Blood Pact|DSC|[76]
@@ -19,7 +19,7 @@ Name=Uurg, Spawn of Turg
 1 Cabal Initiate|MH2
 1 Call the Bloodline|SOI
 1 Caustic Caterpillar|J22
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Crop Rotation|ULG|[98]
 1 Cultivate|SOC|[265]
 1 Desert of the Glorified|DRC|[149]
@@ -29,7 +29,7 @@ Name=Uurg, Spawn of Turg
 1 Elves of Deep Shadow|DRK
 1 Elvish Mystic|TSR|[360]
 1 Evolution Charm|TSR
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Explore|J25|[146]
 1 Feed the Swarm|TDC|[180]
 13 Forest|INR|[296]
@@ -70,12 +70,12 @@ Name=Uurg, Spawn of Turg
 1 Stinkweed Imp|TSR|[332]
 11 Swamp|INR|[292]
 1 Tamiyo's Safekeeping|FDC|[233]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 The Dross Pits|ONE
 1 The Hunter Maze|ONE
 1 Tranquil Thicket|ONS|[326]
 1 Unseal the Necropolis|MOM
-1 Wayfarer's Bauble|TRC|[511]
+1 Wayfarer's Bauble|TDC|[335]
 1 Whispersilk Cloak|DSC
 1 Winding Way|OTC|[213]
 1 Yavimaya Elder|UDS|[124]

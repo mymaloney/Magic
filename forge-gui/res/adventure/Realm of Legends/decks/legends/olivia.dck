@@ -6,7 +6,7 @@ Name=Olivia, Crimson Bride
 1 Access Tunnel|TDC|[337]
 1 Altar of Dementia|TMP|[276]
 1 Animate Dead|LEB|[93]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archon of Cruelty|FRC|[47]
 1 Balefire Dragon|INR|[479]
 1 Bedevil|DSC|[84]
@@ -15,17 +15,17 @@ Name=Olivia, Crimson Bride
 1 Cathartic Reunion|ECC|[91]
 1 Chainer, Nightmare Adept|MH2
 1 Chaos Warp|MBC|[72]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Demand Answers|MKM
-1 Dragonskull Summit|TRC|[375]
+1 Dragonskull Summit|ECC|[147]
 1 Entomb|DMR
 1 Evereth, Viceroy of Plunder|J25
 1 Faithless Looting|SOC|[244]
 1 Feed the Swarm|TDC|[180]
 1 Fellwar Stone|DRK|[102]
 1 Flayer of the Hatebound|C19
-1 Foreboding Ruins|TRC|[381]
+1 Foreboding Ruins|DSC|[277]
 1 Goblin Bombardment|TMP|[179]
 1 Grab the Prize|DSK
 1 Guildless Commons|CMR
@@ -45,7 +45,7 @@ Name=Olivia, Crimson Bride
 1 Neheb, Dreadhorde Champion|DMC
 1 Olivia Voldaren|INR|[246]
 1 Olivia, Mobilized for War|SOI
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Phyrexian Arena|APC|[47]
 1 Port Razer|LCC|[230]
 1 Purphoros, Bronze-Blooded|THB
@@ -60,18 +60,18 @@ Name=Olivia, Crimson Bride
 1 Drana, the Last Bloodchief|ZNR
 1 Sazacap's Brew|BLB
 1 Sheoldred, Whispering One|JMP
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Sneak Attack|DMR|[331]
 1 Sol Ring|LEB|[270]
 1 Stitcher's Supplier|TDC
 1 Sulfurous Springs|ICE
 15 Swamp|INR|[292]
 1 Syr Konrad, the Grim|DSC|[158]
-1 Temple of Malice|TRC|[410]
+1 Temple of Malice|FDN|[701]
 1 Terminate|PLS|[128]
 1 Terror of the Peaks|OTJ|[149]
 1 Teval's Judgment|TDC
-1 Thrill of Possibility|TRC|[455]
+1 Thrill of Possibility|FDC|[180]
 1 Tormenting Voice|J22
 1 Utvara Hellkite|RVR|[342]
 1 Vile Entomber|MH2

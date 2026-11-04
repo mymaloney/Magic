@@ -8,29 +8,29 @@ Name=Felix Five-Boots
 1 Baleful Strix|BLC|[86]
 1 Putrefy|RVR|[378]
 1 Return of the Wildspeaker|ECC|[115]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Feed the Swarm|TDC|[180]
 1 Chromatic Lantern|RVR|[390]
 1 Three Visits|SOC|[289]
 1 Arcane Heist|OTC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ash Barrens|TDC
 1 Bident of Thassa|PIO|[47]
 1 Brass Knuckles|CMM
 1 Cazur, Ruthless Stalker|OTC|[188]
 1 Cephalid Facetaker|NCC
 1 Coastal Piracy|MMQ
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Dazzling Sphinx|OTC
 1 Disdainful Stroke|TSR|[307]
 1 Distortion Strike|IMA
 1 Drana, Liberator of Malakir|LCC|[193]
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Fallen Shinobi|OTC
 1 Farseek|RVR|[347]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Fireshrieker|J25|[750]
 1 Flotsam|MKM
 1 Foreboding Landscape|TDC|[365]
@@ -45,7 +45,7 @@ Name=Felix Five-Boots
 1 Mark of Sakiko|BOK
 1 Nature's Will|CHK|[230]
 1 Necropolis Regent|J25|[469]
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 1 Notorious Throng|ZNC|[33]
 1 Opulent Palace|ECC|[157]
 1 Ohran Frostfang|SOC|[279]
@@ -56,9 +56,9 @@ Name=Felix Five-Boots
 1 Quietus Spike|NCC|[377]
 1 Rampant Growth|TMP|[245]
 1 Reconnaissance Mission|WOC|[105]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Rimewood Falls|KHM
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sakiko, Mother of Summer|CMM
 1 Sakura-Tribe Elder|SOC|[285]
 1 Scepter of Celebration|NCC
@@ -68,7 +68,7 @@ Name=Felix Five-Boots
 1 Stolen Identity|NCC|[233]
 1 Suspicious Stowaway|DBL|[80]
 9 Swamp|INR|[292]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 The Key to the Vault|OTJ
 1 Thief of Sanity|OTC
 1 Toski, Bearer of Secrets|BLC

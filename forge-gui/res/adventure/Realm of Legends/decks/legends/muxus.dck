@@ -5,7 +5,7 @@ Name=Muxus, Goblin Grandee
 [Main]
 1 Goblin Morale Sergeant|YDMU
 1 Cloud Key|EOC|[54]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Ardoz, Cobbler of War|J22
 1 Battle Cry Goblin|J25|[127]
 1 Battle Hymn|AVR
@@ -36,7 +36,7 @@ Name=Muxus, Goblin Grandee
 1 Goblin Trashmaster|M19
 1 Goblin Warchief|SCG|[97]
 1 Grenzo, Havoc Raiser|TDC|[216]
-1 Herald's Horn|TRC|[493]
+1 Herald's Horn|FDC|[264]
 1 Howlsquad Heavy|DFT
 1 Kiki-Jiki, Mirror Breaker|TSR|[346]
 1 Krenko, Mob Boss|RVR|[335]
@@ -60,7 +60,7 @@ Name=Muxus, Goblin Grandee
 1 Siege-Gang Commander|DMR
 1 Siege-Gang Lieutenant|M3C
 1 Skirk Prospector|ONS|[230]
-1 Skullclamp|TRC|[354]
+1 Skullclamp|TDC|[103]
 1 Sol Ring|LEB|[270]
 1 Squee, Dubious Monarch|DMU
 1 Stadium Headliner|TDM

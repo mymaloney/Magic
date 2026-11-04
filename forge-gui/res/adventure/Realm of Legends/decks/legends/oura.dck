@@ -5,7 +5,7 @@ Name=Oura
 [Main]
 1 Alela, Cunning Conqueror|woc
 1 Arcane Lighthouse|soc
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archmage of Echoes|woc
 1 Banner of Kinship|fdn
 1 Bitterbloom Bearer|ecl
@@ -14,12 +14,12 @@ Name=Oura
 1 Brazen Borrower|SOC|[190]
 1 Chronicle of Victory|ecl
 1 Clearwater Pathway|znr
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Creeping Tar Pit|CLB|[888]
 1 Dimir Aqueduct|DSC|[270]
 1 Enduring Curiosity|dsk
-1 Exotic Orchard|TRC|[378]
-1 Fabled Passage|TRC|[379]
+1 Exotic Orchard|MBC|[79]
+1 Fabled Passage|FRC|[71]
 1 Faerie Bladecrafter|woc
 1 Faerie Fencing|woe
 1 Faerie Mastermind|SOC|[114]
@@ -49,7 +49,7 @@ Name=Oura
 1 Nymris, Oona's Trickster|WOC|[141]
 1 Obyra, Dreaming Duelist|woe
 1 Omni-Changeling|ecl
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Polluted Delta|mh3
 1 Puppeteer Clique|ecc
 1 Rankle, Master of Pranks|OTC|[148]
@@ -64,7 +64,7 @@ Name=Oura
 1 Soul Shatter|SCD|[108]
 1 Counterspell|DMR|[281]
 1 Wash Away|DBL|[354]
-1 Bitter Triumph|TRC|[445]
+1 Bitter Triumph|TDC|[173]
 1 Sower of Temptation|WOC|[111]
 1 Spell Stutter|woe
 1 Spellscorn Coven|woe
@@ -73,7 +73,7 @@ Name=Oura
 1 Echoing Cavern|yecl
 1 Talion, the Kindly Lord|woe
 1 Talion's Messenger|woe
-1 Talisman of Dominance|TRC|[505]
+1 Talisman of Dominance|FRC|[62]
 1 Tegwyll, Duke of Splendor|woc
 1 Tegwyll's Scouring|woc
 1 The Irencrag|woe

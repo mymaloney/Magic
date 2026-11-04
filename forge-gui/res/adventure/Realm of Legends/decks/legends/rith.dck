@@ -5,7 +5,7 @@ Name=Rith
 [Main]
 1 Rith, the Awakener|DMR|[366]
 1 Annie Joins Up|otj
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Atarka, World Render|TDC|[281]
 1 Bala Ged Recovery|PIO|[165]
 1 Blasphemous Act|SOC|[238]
@@ -18,7 +18,7 @@ Name=Rith
 1 Canopy Vista|TDC|[343]
 1 Carnelian Orb of Dragonkind|J25|[131]
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Deafening Clarion|grn
 1 Domri, Anarch of Bolas|BLC|[98]
 1 Dragon Tempest|TDC|[94]
@@ -34,7 +34,7 @@ Name=Rith
 1 Path to Exile|TSR|[299]
 1 Three Visits|SOC|[289]
 1 Rampant Growth|TMP|[245]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Fast|mh2
 1 Foe-Razer Regent|SCD|[183]
 9 Forest|INR|[296]

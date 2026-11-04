@@ -3,9 +3,9 @@ Name=Tannuk
 [Commander]
 1 Tannuk, Steadfast Second|eoe
 [Main]
-1 Abrade|TRC|[449]
+1 Abrade|SOC|[234]
 1 Alena, Kessig Trapper|cmr
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Balefire Dragon|inr
 1 Big Score|SOC|[237]
 1 Blasphemous Act|SOC|[238]
@@ -38,7 +38,7 @@ Name=Tannuk
 1 Iron Myr|SOM|[168]
 1 Koth of the Hammer|ddi
 1 Lightning Bolt|LEB|[162]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Maelstrom Colossus|j25
 1 Mana Geyser|SOC|[247]
 1 Melded Moxite|eoe
@@ -53,8 +53,8 @@ Name=Tannuk
 1 Nova Hellkite|eoe
 1 Palladium Myr|FDC|[278]
 1 Pinnacle Kill-Ship|eoe
-1 Professional Face-Breaker|TRC|[291]
-1 Reliquary Tower|TRC|[551]
+1 Professional Face-Breaker|M3C|[216]
+1 Reliquary Tower|SOC|[398]
 1 Ruby Medallion|TMP|[305]
 1 Sandstone Oracle|cmm
 1 Shock|ONS|[227]
@@ -65,8 +65,8 @@ Name=Tannuk
 1 Spinerock Knoll|FDC|[314]
 1 Starstorm|ONS|[238]
 1 Sunbird's Invocation|BLC|[116]
-1 Swiftfoot Boots|TRC|[501]
-1 Thought Vessel|TRC|[509]
+1 Swiftfoot Boots|MBC|[77]
+1 Thought Vessel|MBC|[78]
 1 Trumpeting Carnosaur|lci
 1 Vandalblast|TSR|[352]
 1 War Room|SOC|[422]

@@ -5,7 +5,7 @@ Name=Ao
 [Main]
 1 Akroma's Will|m3c
 1 Gold Myr|NEC|[153]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Basri Ket|m21
 1 Bonders' Enclave|FDC|[297]
 1 Cloud Key|EOC|[54]
@@ -46,7 +46,7 @@ Name=Ao
 1 Kor Haven|NMS|[141]
 1 Land Tax|LEG|[26]
 1 Lavaspur Boots|otj
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Maelstrom of the Spirit Dragon|tdm
 1 Mox Jasper|tdm
 1 Myr Convert|one
@@ -65,12 +65,12 @@ Name=Ao
 1 Solemn Simulacrum|TSR|[400]
 1 Spirit Mantle|SOC|[175]
 1 Sunscorch Regent|BLC|[158]
-1 Swiftfoot Boots|TRC|[501]
+1 Swiftfoot Boots|MBC|[77]
 1 Swords to Plowshares|DMR|[275]
 1 Sylvia Brightspear|bbd
 1 Wrath of God|dmr
 1 Timeless Dragon|MH2|[388]
-1 Vanquish the Horde|TRC|[245]
+1 Vanquish the Horde|TDC|[91]
 1 Wardscale Dragon|frf
 1 Windbrisk Heights|TDC|[411]
 1 Witch Enchanter|mh3

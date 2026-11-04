@@ -16,7 +16,7 @@ Name=Najeela
 1 Boros Garrison|CLU|[231]
 1 Botanical Sanctum|OTJ
 1 Bristling Backwoods|OTJ
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Conduit Pylons|OTJ
 1 Cover of Darkness|ONS
 1 Creosote Heath|OTJ
@@ -57,14 +57,14 @@ Name=Najeela
 1 Mardu Siegebreaker|TDM
 1 Marshal of the Lost|TDM
 1 Mirage Mesa|OTJ
-1 Mystic Monastery|TRC|[543]
+1 Mystic Monastery|EOC|[170]
 1 Nadier's Nightblade|BLC|[184]
 1 Naya Charm|DMC|[162]
-1 Nomad Outpost|TRC|[544]
+1 Nomad Outpost|TDM|[263]
 1 Orzhov Basilica|DRC|[164]
-1 Path of Ancestry|TRC|[545]
-1 Prairie Stream|TRC|[394]
-1 Professional Face-Breaker|TRC|[291]
+1 Path of Ancestry|MBC|[80]
+1 Prairie Stream|FRC|[79]
+1 Professional Face-Breaker|M3C|[216]
 1 Radha, Heir to Keld|DMR
 1 Realmwalker|ECC|[114]
 1 Roaming Throne|LCI
@@ -98,7 +98,7 @@ Name=Najeela
 1 Kargan Intimidator|J25|[569]
 1 Viscera Seer|SOC|[229]
 1 War Effort|TDM
-1 Warleader's Call|TRC|[335]
+1 Warleader's Call|MKM|[242]
 1 Winota, Joiner of Forces|IKO
 1 Zealous Conscripts|TSR|[354]
 1 Zurgo, Thunder's Decree|TDM

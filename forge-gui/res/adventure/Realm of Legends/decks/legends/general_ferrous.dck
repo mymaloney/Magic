@@ -5,7 +5,7 @@ Name=General Ferrous Rokiric
 [Main]
 1 Abraded Bluffs|OTJ
 1 Angelfire Ignition|INR|[229]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Arcbound Shikari|MH2
 1 Ash Barrens|TDC|[339]
 1 Balefire Liege|SOC|[295]
@@ -18,15 +18,15 @@ Name=General Ferrous Rokiric
 1 Boros Signet|TDC|[314]
 1 Castle Ardenvale|TDC|[346]
 1 Castle Embereth|TDC|[347]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Deafening Clarion|GRN
 1 Deflecting Palm|MKC
 1 Duergar Hedge-Mage|MOC
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Figure of Destiny|2X2
 1 Firemane Avenger|CLU
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Glass of the Guildpact|RNA
 1 Hero of Precinct One|DMC
 1 Heroic Reinforcements|FDN|[241]
@@ -68,7 +68,7 @@ Name=General Ferrous Rokiric
 1 Skyknight Vanguard|M20
 1 Sol Ring|LEB|[270]
 1 Solar Blaze|WAR
-1 Spire of Industry|TRC|[405]
+1 Spire of Industry|EOC|[183]
 1 Squee's Embrace|APC
 1 Sun Titan|SOC|[178]
 1 Sunbaked Canyon|MH1
@@ -76,7 +76,7 @@ Name=General Ferrous Rokiric
 1 Sunhome, Fortress of the Legion|OTC
 1 Swiftblade Vindicator|FDN|[246]
 1 Symmetry Matrix|BRO
-1 Talisman of Conviction|TRC|[503]
+1 Talisman of Conviction|SOC|[428]
 1 Temple of Triumph|SOC|[417]
 1 The Jolly Balloon Man|DSK
 1 Thrilling Discovery|OTC

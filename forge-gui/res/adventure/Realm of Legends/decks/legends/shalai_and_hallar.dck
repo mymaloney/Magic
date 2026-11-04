@@ -6,7 +6,7 @@ Name=Shalai and Hallar
 1 Abzan Battle Priest|MOC
 1 Abzan Falconer|MOC
 1 Alharu, Solemn Ritualist|CMM|[8]
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Armorcraft Judge|J25|[629]
 1 Brawn|JUD|[107]
 1 Bretagard Stronghold|MOC
@@ -14,8 +14,8 @@ Name=Shalai and Hallar
 1 Canopy Vista|TDC|[343]
 1 Champion of Lambholt|MOC
 1 Cinder Glade|ECC|[146]
-1 Command Tower|TRC|[521]
-1 Commander's Sphere|TRC|[487]
+1 Command Tower|FRC|[22]
+1 Commander's Sphere|ECC|[139]
 1 Conclave Mentor|MOC
 1 Conclave Sledge-Captain|MOC
 1 Constable of the Realm|MOC
@@ -25,8 +25,8 @@ Name=Shalai and Hallar
 1 Elite Scaleguard|CMM|[22]
 1 Emergent Woodwurm|MOC
 1 Enduring Scalelord|MOC
-1 Evolving Wilds|TRC|[527]
-1 Exotic Orchard|TRC|[378]
+1 Evolving Wilds|ECL|[264]
+1 Exotic Orchard|MBC|[79]
 1 Falkenrath Exterminator|MOC
 1 Fertilid|MOC
 1 Field of Ruin|TSR|[407]
@@ -36,7 +36,7 @@ Name=Shalai and Hallar
 1 Forgotten Ancient|DMR|[341]
 1 Fortified Village|TDC|[366]
 1 Fractured Powerstone|MOC
-1 Furycalm Snarl|TRC|[384]
+1 Furycalm Snarl|SOC|[375]
 1 Game Trail|BLC|[306]
 1 Gavony Township|MOC
 1 Generous Gift|BLC|[106]
@@ -69,13 +69,13 @@ Name=Shalai and Hallar
 1 Mosswort Bridge|TDC|[379]
 2 Mountain|INR|[294]
 1 Path of the Pyromancer|MOC
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 5 Plains|INR|[288]
 1 Pridemalkin|J25|[700]
 1 Restoration Angel|TSR|[300]
 1 Return to Nature|MOC
 1 Rishkar, Peema Renegade|FDC|[225]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Semester's End|MOC
 1 Slurrk, All-Ingesting|MOC
 1 Sol Ring|LEB|[270]
@@ -87,7 +87,7 @@ Name=Shalai and Hallar
 1 Temple of Plenty|TDC|[405]
 1 Temple of the False God|SCG|[143]
 1 Temple of Triumph|SOC|[417]
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Together Forever|MOC
 1 Triskelion|DMR|[389]
 1 Uncivil Unrest|MOC

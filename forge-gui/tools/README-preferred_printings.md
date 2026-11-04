@@ -114,6 +114,11 @@ doesn't matter.
 Allow a category again with `--include`, e.g. `--include white-border promo`. Or list exactly what to exclude
 with `--exclude`, e.g. `--exclude secret-lair ub`. Use `--exclude` on its own to exclude nothing.
 
+Forge's files don't say which sets are Universes Beyond, so the tool carries its own list (shown in the visual
+picker under "Sets already counted as UB"). When a new UB set comes out before the tool is updated, add its set
+code yourself: in the visual picker's "Also count these set codes as Universes Beyond" box, with
+`--ub-set CODE` on the command line, or as `extra_ub_sets` in a settings file.
+
 Hard exclusions are never broken: a card that only exists in those (like a Universes Beyond-only card) is left
 as it is. Soft ones are relaxed for a card only when it has no other printing; the report lists those cards.
 
@@ -134,7 +139,8 @@ python3 preferred_printings.py --config my-printings.json --apply
 Options given on the command line override the file. The file is plain JSON and can be edited by hand; its
 keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`, `skip_dir`,
 `skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks: one printing or a list, e.g.
-`{"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}`), `image_cache` and `online_images`.
+`{"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}`), `image_cache`, `online_images` and
+`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`).
 
 ## Other options
 

@@ -15,7 +15,7 @@ Name=Ygra, Eater of All
 1 Cultivate|SOC|[265]
 1 Dark Ritual|MMQ
 1 Disciple of the Vault|2XM
-1 Exotic Orchard|TRC|[378]
+1 Exotic Orchard|MBC|[79]
 1 Experimental Confectioner|WOE
 1 Fade from History|BRO
 1 Fanatic of Rhonas|MH3
@@ -31,14 +31,14 @@ Name=Ygra, Eater of All
 1 Innkeeper's Talent|BLB
 1 Kill Switch|NMS|[133]
 1 Kona, Rescue Beastie|DSK
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Llanowar Elves|LEB|[211]
 1 Llanowar Wastes|APC|[141]
 1 Manglehorn|AKH
 1 Night of the Sweets' Revenge|WOE
 1 Ouroboroid|EOE
 1 Overgrown Tomb|RVR|[407]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Pattern of Rebirth|UDS|[115]
 1 Pawpatch Formation|BLB
 1 Rancor|ULG
@@ -48,8 +48,8 @@ Name=Ygra, Eater of All
 1 Whispersilk Cloak|DSC|[257]
 1 Sol Ring|LEB|[270]
 9 Swamp|INR|[292]
-1 Command Tower|TRC|[521]
-1 Swiftfoot Boots|TRC|[501]
+1 Command Tower|FRC|[22]
+1 Swiftfoot Boots|MBC|[77]
 1 Seeds of Innocence|MIR
 1 Liquimetal Torque|MH2
 1 Liquimetal Coating|CM2|[197]

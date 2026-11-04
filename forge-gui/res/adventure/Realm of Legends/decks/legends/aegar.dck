@@ -3,7 +3,7 @@ Name=Aegar, the Freezing Flame
 [Commander]
 1 Aegar, the Freezing Flame|KHM
 [Main]
-1 Talisman of Creativity|TRC|[504]
+1 Talisman of Creativity|FRC|[61]
 1 Basalt Ravager|KHM
 1 Battle of Frost and Fire|KHM
 1 Blasphemous Act|SOC|[238]
@@ -12,15 +12,15 @@ Name=Aegar, the Freezing Flame
 1 Bonfire of the Damned|MM3
 1 Borderland Behemoth|CM2
 1 Calamity Bearer|KHM
-1 Chain Reaction|TRC|[280]
+1 Chain Reaction|SOC|[121]
 1 Comet Storm|CMR
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Archmage of Runes|FDN
 1 Counterspell|DMR|[281]
 1 Rimewall Protector|YMID
 1 Crush Underfoot|MMA
 1 Cyclone Summoner|KHM
-1 Darksteel Plate|TRC|[341]
+1 Darksteel Plate|2X2|[304]
 1 Disaster Radius|CM2
 1 Fact or Fiction|DMR|[283]
 1 Ferocity of the Wilds|ELD
@@ -48,11 +48,11 @@ Name=Aegar, the Freezing Flame
 1 Mirror of the Forebears|C17
 1 Molten Echoes|VOC|[148]
 17 Mountain|INR|[294]
-1 Negate|TRC|[439]
-1 Path of Ancestry|TRC|[545]
+1 Negate|FDC|[70]
+1 Path of Ancestry|MBC|[80]
 1 Prismari Campus|SOC|[394]
 1 Reflections of Littjara|TDC|[164]
-1 Rogue's Passage|TRC|[552]
+1 Rogue's Passage|SOC|[400]
 1 Sky Diamond|MIR
 1 Sol Ring|LEB|[270]
 1 Soul's Fire|CMR

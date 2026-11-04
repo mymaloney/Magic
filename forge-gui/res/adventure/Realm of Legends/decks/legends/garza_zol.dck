@@ -5,7 +5,7 @@ Name=Garza Zol, Plague Queen
 [Main]
 1 Anhelo, the Painter|NCC
 1 Anowon, the Ruin Sage|VOC
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Baron Sengir|HML
 1 Patron of the Vein|LCC
 1 Vampire of the Dire Moon|J25|[504]
@@ -22,7 +22,7 @@ Name=Garza Zol, Plague Queen
 1 Qarsi Revenant|TDM
 1 Captivating Vampire|INR
 1 Castle Sengir|HML
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Cordial Vampire|LCC
 1 Cormela, Glamour Thief|SNC
 1 Crosis's Charm|PLS|[99]
@@ -32,7 +32,7 @@ Name=Garza Zol, Plague Queen
 1 Drana, Kalastria Bloodchief|C17
 1 Drana, Liberator of Malakir|LCC
 1 Evelyn, the Covetous|SNC
-1 Evolving Wilds|TRC|[527]
+1 Evolving Wilds|ECL|[264]
 1 Exquisite Blood|LCC
 1 Exsanguinate|FDN|[173]
 1 Feast of Blood|J22
@@ -73,13 +73,13 @@ Name=Garza Zol, Plague Queen
 1 Sengir Vampire|TOR
 1 Sengir, the Dark Baron|CMR
 1 Sign in Blood|FDC|[125]
-1 Smoldering Marsh|TRC|[403]
+1 Smoldering Marsh|ECC|[168]
 1 Stensia Bloodhall|SCD
 1 Stromkirk Captain|VOC
-1 Sunken Hollow|TRC|[407]
+1 Sunken Hollow|TDC|[398]
 10 Snow-Covered Swamp|ICE|[372]
 1 Tarrian's Journal|LCI
-1 Terramorphic Expanse|TRC|[571]
+1 Terramorphic Expanse|SOS|[265]
 1 Thriving Bluff|ECC|[170]
 1 Urge to Feed|J25
 1 Vampire Nighthawk|FDN|[186]

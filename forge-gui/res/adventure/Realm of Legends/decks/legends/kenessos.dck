@@ -5,7 +5,7 @@ Name=Kenessos
 [Main]
 1 Aesi, Tyrant of Gyre Strait|DSC|[210]
 1 Arcane Denial|all
-1 Arcane Signet|TRC|[485]
+1 Arcane Signet|FRC|[20]
 1 Archetype of Imagination|dsc
 1 Arixmethes, Slumbering Isle|dsc
 1 Mana Leak|STH|[36]
@@ -13,7 +13,7 @@ Name=Kenessos
 1 Beast Within|TSR|[357]
 1 Biomancer's Familiar|rna
 1 Brainstorm|MMQ|[61]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Condescend|J22|[282]
 1 Cryptic Annelid|tsr
 1 Cultivate|SOC|[265]
@@ -45,11 +45,11 @@ Name=Kenessos
 1 Natural Selection|LEB|[213]
 1 Nissa, Steward of Elements|M3C|[270]
 1 Octavia, Living Thesis|OTC|[103]
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Preordain|TDC|[161]
 1 Quest for Ula's Temple|wwk
 1 Reason|hou
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Retreat to Coralhelm|DSC|[126]
 1 Scourge of Fleets|CMR|[403]
 1 Rampant Growth|TMP|[245]
@@ -67,7 +67,7 @@ Name=Kenessos
 1 Tanglepool Bridge|DRC|[175]
 1 Temple of Mystery|SOC|[414]
 1 Elemental Bond|TDC|[254]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Training Grounds|MAT|[9]
 1 Tromokratis|cmm
 1 Vineglimmer Snarl|SOC|[420]

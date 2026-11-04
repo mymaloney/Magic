@@ -13,7 +13,7 @@ Name=Lonis
 1 Beast Within|TSR|[357]
 1 Bootleggers' Stash|DRC|[110]
 1 Collective Resistance|FDC|[196]
-1 Command Tower|TRC|[521]
+1 Command Tower|FRC|[22]
 1 Counterspell|DMR|[281]
 1 Cultivate|SOC|[265]
 1 Demolition Field|FDN|[687]
@@ -21,7 +21,7 @@ Name=Lonis
 1 Erdwal Illuminator|MKC|[104]
 1 Eternal Witness|TSR|[361]
 1 Ethereal Investigator|MKC|[105]
-1 Fabled Passage|TRC|[379]
+1 Fabled Passage|FRC|[71]
 1 Faerie Artisans|CMM|[92]
 1 Fangren Marauder|mbs
 1 Farseek|RVR|[347]
@@ -49,17 +49,17 @@ Name=Lonis
 1 Kappa Cannoneer|mh3
 1 Kodama's Reach|ECC|[113]
 1 Simic Guildgate|RVR|[411]
-1 Lightning Greaves|TRC|[496]
+1 Lightning Greaves|SOC|[350]
 1 Nature's Lore|DMR|[346]
 1 Nettlecyst|FDC|[275]
 1 Ongoing Investigation|MKC|[114]
-1 Path of Ancestry|TRC|[545]
+1 Path of Ancestry|MBC|[80]
 1 Preordain|TDC|[161]
 1 Rain-Slicked Copse|SOC|[397]
 1 Rampage of the Clans|rna
 1 Reality Shift|SOC|[199]
 1 Regrowth|LEB|[215]
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 Sakura-Tribe Elder|SOC|[285]
 1 Sarinth Steelseeker|bro
 1 Scavenger Grounds|FDC|[311]
@@ -75,7 +75,7 @@ Name=Lonis
 1 Tangletrove Kelp|mkc
 1 Temple of Mystery|SOC|[414]
 1 Thespian's Stage|RVR|[466]
-1 Thought Vessel|TRC|[509]
+1 Thought Vessel|MBC|[78]
 1 Three Steps Ahead|otj
 1 Three Visits|SOC|[289]
 1 Tireless Provisioner|J25|[728]

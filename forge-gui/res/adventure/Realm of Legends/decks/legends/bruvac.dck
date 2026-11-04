@@ -11,7 +11,7 @@ Name=Bruvac the Grandiloquent
 1 Counterspell|DMR|[281]
 1 Daze|NMS|[30]
 1 Didn't Say Please|ELD
-1 Disallow|TRC|[253]
+1 Disallow|DRC|[74]
 1 Dispel|BFZ
 1 Drown in Dreams|M3C|[181]
 1 Flood of Tears|VOC
@@ -26,12 +26,12 @@ Name=Bruvac the Grandiloquent
 1 Jace, the Perfected Mind|ONE
 1 Kami of the Crescent Moon|VOC
 1 Myriad Landscape|EOC
-1 Negate|TRC|[439]
+1 Negate|FDC|[70]
 30 Persistent Petitioners|RVR
-1 Pongify|TRC|[441]
+1 Pongify|TDC|[160]
 1 Propaganda|TMP|[80]
 1 Quiet Contemplation|KTK
-1 Reliquary Tower|TRC|[551]
+1 Reliquary Tower|SOC|[398]
 1 River's Rebuke|FDN|[595]
 1 Slip Out the Back|CLU
 1 Sol Ring|LEB|[270]
