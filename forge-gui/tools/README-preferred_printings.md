@@ -86,6 +86,8 @@ updating. Your own decks are not touched by updates.
    sets. Turn this off with `--no-prefer-old-frame`.
 3. Of what's left, it takes the **latest** printing, or the first one with `--order oldest`.
 
+Ahead of all of these, if you choose a **language**, printings that were printed in that language come first.
+
 Printings you picked yourself for a card (in the visual picker, or `card_choices` in a settings file) beat all
 of these rules. Without picks, a card already in the chosen set keeps its line, so art variants already in a
 deck survive.
@@ -129,6 +131,18 @@ code yourself: in the visual picker's "Also count these set codes as Universes B
 Hard exclusions are never broken: a card that only exists in those (like a Universes Beyond-only card) is left
 as it is. Soft ones are relaxed for a card only when it has no other printing; the report lists those cards.
 
+### Printings in your language
+
+Forge shows each card's picture in the language set as **Card download language** in Forge's preferences,
+when that printing was printed in it, and in English otherwise. Many printings never were (most older sets
+weren't printed in Japanese or Chinese, for example), so the tool can put the ones that were first.
+
+Choose the language in the visual picker under **Prefer**, or with `--language CODE` (`es`, `fr`, `de`, `it`,
+`pt`, `ja`, `ko`, `ru`, `zhs`, `zht`; `en` for no preference). It starts out as Forge's own Card download
+language. Which printings exist in which language comes from Forge's own records (it learns them as it
+downloads pictures) and, more completely, from the Scryfall card details below, which then also fetch your
+language. The picker shows pictures in your language, tagged with it.
+
 ### Card details from Scryfall
 
 Forge's own files only mark some treatments: many full-art lands, borderless and showcase cards are listed as
@@ -162,7 +176,7 @@ Options given on the command line override the file. The file is plain JSON and 
 keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`, `skip_dir`,
 `skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks: one printing or a list, e.g.
 `{"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}`), `image_cache`, `online_images` and
-`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`) and `scryfall_cache`.
+`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`), `scryfall_cache` and `language`.
 
 ## Other options
 

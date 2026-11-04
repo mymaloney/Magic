@@ -123,12 +123,19 @@ SCRYFALL_TAGS = {
 }
 SCRYFALL_CACHE_NAME = 'preferred-printings-scryfall.json'
 PRINTING_TAGS = {}  # "SET|CN" -> set of categories, from the Scryfall card details file
+LANGUAGE_PRINTINGS = {}  # language code -> {"SET|CN"} printed in that language (Scryfall details + Forge's cache)
+CARD_LANG_BY_SET = {}  # Forge set code -> language of the whole set (CardLang in its edition file)
+# The languages Forge can show card pictures in (ForgeConstants.getScryfallCardLanguageMapping).
+LANGUAGES = {'English': 'en', 'Spanish': 'es', 'French': 'fr', 'German': 'de', 'Italian': 'it', 'Portuguese': 'pt',
+             'Japanese': 'ja', 'Korean': 'ko', 'Russian': 'ru', 'Chinese Simplified': 'zhs',
+             'Chinese Traditional': 'zht'}
 
 # Options that a settings file (--config / --save-config) can hold, with their defaults.
 DEFAULTS = {'forge': None, 'decks': [], 'user_decks': False, 'skip_dir': [], 'skip_set_named_decks': True,
             'order': 'latest', 'prefer_old_frame': True, 'exclude': sorted(CATEGORIES),
             'backup': True, 'backup_dir': 'preferred-printings-backups', 'card_choices': {},
-            'image_cache': None, 'online_images': True, 'extra_ub_sets': [], 'scryfall_cache': None}
+            'image_cache': None, 'online_images': True, 'extra_ub_sets': [], 'scryfall_cache': None,
+            'language': None}
 SAVED_OPTIONS = tuple(DEFAULTS)
 
 Printing = collections.namedtuple('Printing', 'set cn section date type border card art arts')
@@ -259,6 +266,8 @@ class Editions:
                        meta.get('Border', 'Black'), meta.get('Code2', code),
                        meta.get('ScryfallCode', code).lower())
         self.sets[code.upper()] = info
+        if meta.get('CardLang', 'en') != 'en':
+            CARD_LANG_BY_SET[code.upper()] = meta['CardLang']
         for cn, name, section in entries:
             self.by_name[name.lower()].append(
                 Printing(code, cn, section, info.date, info.type, info.border, name, 1, 1))
@@ -347,12 +356,14 @@ class Chooser:
         self.excluded = set(opts.exclude)
         self.order_latest = opts.order == 'latest'
         self.prefer_old_frame = opts.prefer_old_frame
+        self.language = getattr(opts, 'language', None) or 'en'
         self.card_choices = {k.lower(): v for k, v in normalize_choices(opts.card_choices).items()}
         self.cache = {}
         self.fallbacks = {}
 
     def rank(self, p):
-        return (0 if (self.prefer_old_frame and is_old_frame(p)) else 1,
+        return (0 if in_language(p, self.language) else 1,
+                0 if (self.prefer_old_frame and is_old_frame(p)) else 1,
                 1 if (p.set in CATCH_ALL_SETS or p.type in LOW_PRIORITY_TYPES) else 0,
                 date_key(p.date, self.order_latest),
                 0 if p.section == 'cards' else 1,
@@ -516,6 +527,7 @@ def scryfall_cache_path(opts):
 def load_scryfall_tags(path):
     """Load card details saved by fetch_scryfall_tags; returns the file's info, or None if there is none."""
     PRINTING_TAGS.clear()
+    LANGUAGE_PRINTINGS.clear()
     if not os.path.isfile(path):
         return None
     try:
@@ -525,9 +537,50 @@ def load_scryfall_tags(path):
             if cat in CATEGORIES:
                 for key in keys:
                     PRINTING_TAGS.setdefault(key.upper(), set()).add(cat)
+        for lang, keys in data.get('languages', {}).items():
+            LANGUAGE_PRINTINGS.setdefault(lang, set()).update(k.upper() for k in keys)
     except (OSError, ValueError, AttributeError) as e:
         raise ToolError(f'Could not read Scryfall card details from {path}: {e}')
-    return {'fetched': data.get('fetched'), 'printings': len(PRINTING_TAGS), 'notes': data.get('notes', [])}
+    return {'fetched': data.get('fetched'), 'printings': len(PRINTING_TAGS), 'notes': data.get('notes', []),
+            'languages': sorted(data.get('languages', {}))}
+
+
+def load_forge_language_cache(editions, profile):
+    """Add what Forge itself learned about card languages ({cacheDir}/cdn_uuid/{set}.json.gz) to
+    LANGUAGE_PRINTINGS. Forge fills it in as it downloads pictures, so it covers the sets a player has seen."""
+    cache_dir = profile.get('cacheDir') or default_dirs()[1]
+    folder = os.path.join(cache_dir, 'cdn_uuid')
+    if not os.path.isdir(folder):
+        return 0
+    import gzip
+    forge_codes = collections.defaultdict(set)
+    for code, info in editions.sets.items():
+        forge_codes[info.scryfall.lower()].add(info.code)
+    added = 0
+    for path in glob.glob(os.path.join(glob.escape(folder), '*.json.gz')):
+        codes = forge_codes.get(os.path.basename(path)[:-len('.json.gz')].lower())
+        if not codes:
+            continue
+        try:
+            with gzip.open(path, 'rt', encoding='utf-8') as f:
+                data = json.load(f)
+        except (OSError, ValueError, EOFError):
+            continue
+        for cn, langs in (data.items() if isinstance(data, dict) else ()):
+            for lang, value in (langs.items() if isinstance(langs, dict) else ()):
+                if isinstance(value, dict):  # {"miss": timestamp}: Forge looked and found nothing
+                    continue
+                for code in codes:
+                    LANGUAGE_PRINTINGS.setdefault(lang, set()).add(f'{code}|{cn}'.upper())
+                    added += 1
+    return added
+
+
+def in_language(p, lang):
+    if not lang or lang == 'en':
+        return False
+    info_lang = CARD_LANG_BY_SET.get(p.set.upper())
+    return info_lang == lang or f'{p.set}|{p.cn}'.upper() in LANGUAGE_PRINTINGS.get(lang, ())
 
 
 def _scryfall_get(url):
@@ -543,60 +596,94 @@ def _scryfall_get(url):
             return e.code, {}
 
 
-def fetch_scryfall_tags(editions, path, api=SCRYFALL_API, progress=None):
-    """Ask Scryfall which printings are full art, borderless, showcase... and save them to path.
+def _scryfall_search(api, query, label, progress, **params):
+    """Every card a Scryfall search returns, page by page; (cards, None) or (None, error message)."""
+    url = f'{api}/cards/search?' + urllib.parse.urlencode(dict({'q': query, 'unique': 'prints'}, **params))
+    cards = []
+    while url:
+        if progress:
+            progress(f'{label}: {len(cards)} printings so far')
+        time.sleep(0.12)  # Scryfall asks for 50-100 ms between requests
+        try:
+            status, page = _scryfall_get(url)
+        except (urllib.error.URLError, OSError) as e:
+            raise ToolError(f'Could not reach Scryfall ({getattr(e, "reason", e)}). '
+                            'Check your internet connection and try again.')
+        if status == 404 and page.get('object') == 'error':  # no cards match
+            break
+        if status != 200:
+            return None, page.get('details', f'HTTP {status}')
+        cards.extend(page.get('data', []))
+        url = page.get('next_page') if page.get('has_more') else None
+    return cards, None
 
-    Uses Scryfall's search with one query per treatment (a few dozen requests in all, paced as Scryfall asks).
-    """
+
+def fetch_scryfall_tags(editions, path, api=SCRYFALL_API, progress=None, language=None):
+    """Ask Scryfall which printings are full art, borderless, showcase..., and which exist in the player's
+    language, and save them to path. One search per treatment, plus one for the language."""
     forge_codes = collections.defaultdict(set)  # Scryfall set code -> Forge set codes
     for code, info in editions.sets.items():
         forge_codes[info.scryfall.lower()].add(info.code)
+
+    def keys_for(cards):
+        keys = set()
+        for c in cards:
+            cn = str(c.get('collector_number', ''))
+            for code in forge_codes.get(str(c.get('set', '')).lower(), ()):
+                keys.add(f'{code}|{cn}'.upper())
+        return sorted(keys)
+
     tags, notes = {}, []
     for cat, (queries, test) in SCRYFALL_TAGS.items():
         found = None
         for query in queries:
-            url = f'{api}/cards/search?' + urllib.parse.urlencode(
-                {'q': query, 'unique': 'prints', 'include_variations': 'true'})
-            cards, ok = [], True
-            while url:
-                if progress:
-                    progress(f'{CATEGORIES[cat][2]}: {len(cards)} printings so far')
-                time.sleep(0.12)  # Scryfall asks for 50-100 ms between requests
-                try:
-                    status, page = _scryfall_get(url)
-                except (urllib.error.URLError, OSError) as e:
-                    raise ToolError(f'Could not reach Scryfall ({getattr(e, "reason", e)}). '
-                                    'Check your internet connection and try again.')
-                if status == 404 and page.get('object') == 'error':  # no cards match
-                    break
-                if status != 200:
-                    ok = False
-                    notes.append(f'{cat}: Scryfall did not accept "{query}" '
-                                 f'({page.get("details", f"HTTP {status}")})')
-                    break
-                cards.extend(page.get('data', []))
-                url = page.get('next_page') if page.get('has_more') else None
-            if not ok:
+            cards, error = _scryfall_search(api, query, CATEGORIES[cat][2], progress, include_variations='true')
+            if error:
+                notes.append(f'{cat}: Scryfall did not accept "{query}" ({error})')
                 continue
-            kept = [c for c in cards if test(c)]
-            if cards and not kept:
+            found = [c for c in cards if test(c)]
+            if cards and not found:
                 notes.append(f'{cat}: none of the {len(cards)} results for "{query}" passed the check; used them all')
-                kept = cards
-            found = kept
+                found = cards
             break
         if found is None:
             notes.append(f'{cat}: no Scryfall search worked; this category is left to Forge\'s own data')
             continue
-        keys = set()
-        for c in found:
-            cn = str(c.get('collector_number', ''))
-            for code in forge_codes.get(str(c.get('set', '')).lower(), ()):
-                keys.add(f'{code}|{cn}'.upper())
-        tags[cat] = sorted(keys)
+        tags[cat] = keys_for(found)
+
+    languages = {}
+    if os.path.isfile(path):  # keep languages fetched before
+        try:
+            with open(path, encoding='utf-8') as f:
+                languages = json.load(f).get('languages', {}) or {}
+        except (OSError, ValueError, AttributeError):
+            languages = {}
+    if language and language != 'en':
+        label = next((k for k, v in LANGUAGES.items() if v == language), language)
+        cards, error = _scryfall_search(api, f'lang:{language}', label, progress, include_multilingual='true')
+        if error:
+            notes.append(f'{language}: Scryfall did not accept "lang:{language}" ({error})')
+        else:
+            languages[language] = keys_for(c for c in cards if c.get('lang', language) == language)
     with open(path, 'w', encoding='utf-8') as f:
         json.dump({'fetched': datetime.datetime.now().isoformat(timespec='seconds'), 'source': api,
-                   'notes': notes, 'tags': tags}, f, indent=0)
+                   'notes': notes, 'tags': tags, 'languages': languages}, f, indent=0)
     return load_scryfall_tags(path)
+
+
+def read_forge_language(profile):
+    """The player's 'Card download language' from Forge's own preferences, if set."""
+    user_dir = profile.get('userDir') or default_dirs()[0]
+    path = os.path.join(user_dir, 'preferences', 'forge.preferences')
+    try:
+        with open(path, encoding='utf-8', errors='replace') as f:
+            for line in f:
+                key, sep, value = line.strip().partition('=')
+                if sep and key.strip() == 'UI_CARD_DOWNLOAD_LANG' and value.strip() in LANGUAGES.values():
+                    return value.strip()
+    except OSError:
+        pass
+    return None
 
 
 class Tool:
@@ -616,10 +703,24 @@ class Tool:
         set_extra_ub_sets(opts.extra_ub_sets)
         self.scryfall_api = SCRYFALL_API
         self.scryfall_path = scryfall_cache_path(opts)
+        if opts.language is None:  # follow Forge's own "Card download language"
+            opts.language = read_forge_language(self.profile) or 'en'
+        if opts.language not in LANGUAGES.values():
+            raise ToolError(f"Unknown language {opts.language}; use one of {', '.join(LANGUAGES.values())}")
+        self.load_card_details()
+
+    def load_card_details(self):
         self.scryfall_info = load_scryfall_tags(self.scryfall_path)
+        self.forge_language_entries = load_forge_language_cache(self.editions, self.profile)
+
+    def language_known(self):
+        """How many printings are known to exist in the chosen language."""
+        lang = self.opts.language
+        return 0 if lang == 'en' else len(LANGUAGE_PRINTINGS.get(lang, ()))
 
     def update_scryfall(self, api=SCRYFALL_API, progress=None):
-        self.scryfall_info = fetch_scryfall_tags(self.editions, self.scryfall_path, api, progress)
+        fetch_scryfall_tags(self.editions, self.scryfall_path, api, progress, self.opts.language)
+        self.load_card_details()
         return self.scryfall_info
 
     def roots(self):
@@ -703,6 +804,7 @@ def build_report(opts, apply, res, roots, stats, per_folder, chooser, kept, unkn
              f'- order: {opts.order}; prefer old frame: {opts.prefer_old_frame}',
              f"- excluded: {', '.join(sorted(opts.exclude)) or 'nothing'}",
              f"- extra UB sets: {', '.join(sorted(opts.extra_ub_sets)) or 'none'}",
+             f'- language first: {opts.language}' if opts.language != 'en' else '- language first: no preference',
              f"- Scryfall card details: {len(PRINTING_TAGS)} printings tagged" if PRINTING_TAGS else
              '- Scryfall card details: not downloaded (only Forge\'s own treatment data is used)',
              f'- cards with your own picks: {len(normalize_choices(opts.card_choices))}',
@@ -796,12 +898,13 @@ def find_cached_image(pics_dir, editions, p):
     return None
 
 
-def scryfall_image_url(editions, p, api=SCRYFALL_API):
+def scryfall_image_url(editions, p, api=SCRYFALL_API, lang='en'):
     info = editions.sets.get(p.set.upper())
     code = info.scryfall if info else p.set.lower()
     cn = p.cn[1:] if re.match(r'^F\d+[a-z]?$', p.cn) else p.cn
     face = '&face=front' if ' // ' in p.card else ''
-    return (f'{api}/cards/{urllib.parse.quote(code)}/{urllib.parse.quote(cn)}'
+    lang_part = '' if lang == 'en' else '/' + urllib.parse.quote(lang)
+    return (f'{api}/cards/{urllib.parse.quote(code)}/{urllib.parse.quote(cn)}{lang_part}'
             f'?format=image&version=normal{face}')
 
 
@@ -816,9 +919,10 @@ class ImageDownloader:
         self.lock = threading.Lock()
         self.last = 0.0
 
-    def path_for(self, p):
+    def path_for(self, p, lang='en'):
         safe = lambda t: re.sub(r'[^0-9A-Za-z._-]', '_', t)
-        return os.path.join(self.folder, safe(p.set.upper()), safe(p.cn) + '.jpg')
+        suffix = '' if lang == 'en' else '.' + safe(lang)
+        return os.path.join(self.folder, safe(p.set.upper()), safe(p.cn) + suffix + '.jpg')
 
     def get(self, url, dest):
         if os.path.isfile(dest):
@@ -905,6 +1009,9 @@ class GuiState:
             'scryfall': self.tool.scryfall_info, 'scryfallPath': self.tool.scryfall_path,
             'picks': len(normalize_choices(o.card_choices)),
             'extraUb': list(o.extra_ub_sets), 'builtInUb': sorted(BUILT_IN_UB_SETS),
+            'language': o.language, 'languages': LANGUAGES, 'languageKnown': self.tool.language_known(),
+            'languageFetched': o.language in ((self.tool.scryfall_info or {}).get('languages') or []),
+            'forgeLanguage': read_forge_language(self.tool.profile),
             'categories': [{'id': k, 'label': v[2], 'about': v[0], 'hard': v[1]} for k, v in CATEGORIES.items()],
         }
 
@@ -933,6 +1040,8 @@ class GuiState:
             o.backup = bool(d['backup'])
         if 'onlineImages' in d:
             o.online_images = bool(d['onlineImages'])
+        if d.get('language') in LANGUAGES.values() and d['language'] != o.language:
+            o.language = d['language']
         if 'extraUb' in d:
             codes = list(dict.fromkeys(c.strip().upper() for c in d['extraUb'] if c.strip()))
             unknown = [c for c in codes if c not in self.tool.editions.sets]
@@ -972,12 +1081,14 @@ class GuiState:
                 'set': p.set, 'cn': p.cn, 'setName': info.name if info else p.set, 'year': p.date[:4],
                 'section': p.section,
                 'cats': [{'label': CATEGORIES[c][2], 'excluded': c in chooser.excluded} for c in cats],
+                'inLanguage': in_language(p, chooser.language),
                 'excluded': is_excluded(p, chooser.excluded), 'oldFrame': is_old_frame(p),
                 'auto': auto is not None and choice_key(p) == choice_key(auto),
                 'mine': choice_key(p).upper() in mine,
                 'chosen': choice_key(p).upper() in mine if mine else (
                     best is not None and choice_key(p) == choice_key(best)),
-                'img': '/img?' + urllib.parse.urlencode({'name': name, 'set': p.set, 'cn': p.cn}),
+                'img': '/img?' + urllib.parse.urlencode({'name': name, 'set': p.set, 'cn': p.cn,
+                                                         'lang': chooser.language}),
             })
         return {'name': name, 'picked': len(mine), 'fallback': fallback, 'printings': out,
                 'decks': self.cards_in_decks().get(name, 0)}
@@ -1003,13 +1114,18 @@ class GuiState:
                 path = find_cached_image(self.pics_dir(), self.tool.editions, p)
                 if path:
                     return 'file', path
-                path = self.downloader.path_for(p)
-                if os.path.isfile(path):
-                    return 'file', path
-                if self.opts.online_images:
-                    path = self.downloader.get(scryfall_image_url(self.tool.editions, p, self.tool.scryfall_api), path)
-                    if path:
+                api, lang = self.tool.scryfall_api, self.opts.language
+                # The picture in the player's language when that printing exists in it, else English.
+                tries = ([(self.downloader.path_for(p, lang), scryfall_image_url(self.tool.editions, p, api, lang))]
+                         if in_language(p, lang) else [])
+                tries.append((self.downloader.path_for(p), scryfall_image_url(self.tool.editions, p, api)))
+                for path, _ in tries:
+                    if os.path.isfile(path):
                         return 'file', path
+                if self.opts.online_images:
+                    for path, url in tries:
+                        if self.downloader.get(url, path):
+                            return 'file', path
                 return None, None
         return None, None
 
@@ -1242,6 +1358,9 @@ dialog pre { white-space: pre-wrap; font: 12px ui-monospace, monospace; backgrou
     <label class="opt"><input type="checkbox" id="optOld"> <span>Old frame<br><span class="small">Pre-2003 sets and “retro frame” reprints</span></span></label>
     <div class="small" style="margin:6px 0 4px">Then take the</div>
     <div class="seg" id="segOrder"><button data-v="latest">Latest</button><button data-v="oldest">Oldest</button></div>
+    <div class="small" style="margin:12px 0 4px">Printings in my language first:</div>
+    <select id="optLang" style="width:100%;font:inherit;padding:5px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)"></select>
+    <div class="small" id="langInfo" style="margin-top:4px"></div>
 
     <h2>Card details</h2>
     <div class="small" id="scryInfo"></div>
@@ -1290,6 +1409,7 @@ async function api(path, body) {
   return data;
 }
 function toast(msg) { const t = $('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 2600); }
+function langName(code) { return Object.keys(state.languages).find(k => state.languages[k] === code) || code; }
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 function dialog(title, html, buttons) {
   $('dlgTitle').textContent = title; $('dlgBody').innerHTML = html;
@@ -1309,6 +1429,13 @@ function renderSettings() {
   $('optAdventure').checked = s.adventure; $('optUser').checked = s.userDecks;
   $('userDir').textContent = s.userDecksDir; $('optExtra').value = s.extraDecks.join('\n');
   $('optSkipSet').checked = s.skipSetNamed; $('optOld').checked = s.oldFrame;
+  $('optLang').innerHTML = Object.entries(s.languages).map(([name, code]) =>
+    `<option value="${code}" ${code === s.language ? 'selected' : ''}>${code === 'en' ? 'English (no preference)' : esc(name)}${code === s.forgeLanguage ? ' – Forge’s setting' : ''}</option>`).join('');
+  const n = s.languageKnown, lname = langName(s.language), pr = `${n.toLocaleString()} printing${n === 1 ? '' : 's'}`;
+  $('langInfo').textContent = s.language === 'en' ? '' :
+    (s.languageFetched ? `${pr} known in ${lname}.`
+      : `Forge knows ${pr} in ${lname} so far. Click “${s.scryfall ? 'Update' : 'Download'} from Scryfall” below to learn about all of them.`) +
+    (s.forgeLanguage === s.language ? '' : ` Also set Forge’s “Card download language” to ${lname}, so Forge shows the cards in it.`);
   $('optOnline').checked = s.onlineImages; $('optBackup').checked = s.backup;
   $('optExtraUb').value = s.extraUb.join(', '); $('builtInUb').textContent = s.builtInUb.join(', ');
   $('scryInfo').textContent = s.scryfall
@@ -1390,6 +1517,7 @@ function renderCard(data) {
           <div class="tags">
             ${p.mine ? '<span class="tag mine">Your pick</span>' : ''}
             ${p.auto ? '<span class="tag auto">Rules pick</span>' : ''}
+            ${p.inLanguage ? `<span class="tag old">${esc(langName(state.language))}</span>` : ''}
             ${p.oldFrame ? '<span class="tag old">Old frame</span>' : ''}
             ${p.cats.map(c => `<span class="tag ${c.excluded ? 'ex' : ''}">${esc(c.label)}${c.excluded ? ' · excluded' : ''}</span>`).join('')}
           </div></div></div>`).join('')}</div>`;
@@ -1454,6 +1582,7 @@ $('btnSave').onclick = () => busy($('btnSave'), async () => {
 for (const id of ['optOld', 'optOnline', 'optBackup', 'optSkipSet']) $(id).onchange = () => saveRules();
 for (const id of ['optAdventure', 'optUser']) $(id).onchange = () => saveDecks();
 $('optExtra').onchange = () => saveDecks();
+ $('optLang').onchange = () => saveRules({ language: $('optLang').value });
 $('optExtraUb').onchange = () => saveRules({ extraUb: $('optExtraUb').value.split(/[\s,]+/).filter(Boolean) });
 for (const b of $('segOrder').children) b.onclick = () => saveRules({ order: b.dataset.v });
 $('q').oninput = () => { clearTimeout(searchTimer); searchTimer = setTimeout(loadCards, 200); };
@@ -1501,6 +1630,10 @@ def build_parser():
                        help='categories to exclude (default: all of them)')
     rules.add_argument('--include', nargs='*', choices=sorted(CATEGORIES), default=[], metavar='CATEGORY',
                        help='categories to allow again, removed from the excluded ones')
+    rules.add_argument('--language', choices=sorted(LANGUAGES.values()), default=None, metavar='CODE',
+                       help='put printings that exist in this language first: ' + ', '.join(
+                           f'{v} ({k})' for k, v in LANGUAGES.items()) + ". Default: Forge's own Card download "
+                       'language; en means no preference')
     rules.add_argument('--ub-set', dest='extra_ub_sets', action='append', metavar='CODE',
                        help='also treat this set code as Universes Beyond (for UB sets newer than this tool); '
                             'repeatable')
