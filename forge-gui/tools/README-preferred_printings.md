@@ -1,10 +1,12 @@
 # Preferred printings
 
 `preferred_printings.py` changes which **printing** (set, art and frame) Forge uses for each card in your
-decks. The cards themselves never change, only the version shown. For example, it can swap every Secret Lair
-or borderless printing for a regular one, or put cards in the old frame where one exists.
+decks, by rules you choose or by picking the exact printing you want for a card, visually. The cards
+themselves never change, only the version shown. For example, it can swap every Secret Lair or borderless
+printing for a regular one, or put cards in the old frame where one exists.
 
-It works on a normal Forge install (Windows, Mac or Linux) or a source checkout, and needs no internet.
+It works on a normal Forge install (Windows, Mac or Linux) or a source checkout. Only the visual picker uses
+the internet, to show pictures Forge hasn't downloaded yet.
 
 ## What you need
 
@@ -13,7 +15,29 @@ It works on a normal Forge install (Windows, Mac or Linux) or a source checkout,
   in the commands below.
 - This file, `preferred_printings.py`, saved anywhere.
 
-## Quick start
+## The easy way: the visual picker
+
+```bash
+python3 preferred_printings.py --gui --forge "/path/to/Forge"
+```
+
+This opens a page in your web browser. It runs only on your computer; nothing is uploaded. Keep the terminal
+window open while you use it, and press Ctrl+C there to quit.
+
+- **Left:** which decks to change (Forge's Adventure decks, your own decks, or other folders), what to exclude,
+  and what to prefer. Changes take effect straight away.
+- **Middle:** every card in those decks. Search, or switch to **My picks** to see the cards you've chosen yourself.
+- **Right:** every printing of the selected card, with its picture. The highlighted one is what your decks will
+  use. **Click any printing to always use it for that card**, whatever the rules say; "Use the rules instead"
+  undoes that. "Hide excluded" tidies cards with many printings.
+- **Preview** shows how many cards would change. **Apply to decks** makes the changes (backing the decks up
+  first), and **Save settings** stores your rules and picks in `preferred-printings.json`, which the GUI loads
+  next time. You can also use that file from the command line: `--config preferred-printings.json --apply`.
+
+Pictures come from Forge's own image cache when Forge has already downloaded them. Others are fetched from
+Scryfall, the same place Forge gets them; untick "Fetch missing images from Scryfall" to stay offline.
+
+## Quick start (command line)
 
 1. **Preview.** Nothing is changed. Point `--forge` at your Forge folder (the one with `res` in it;
    on a Mac, at `Forge.app`). This looks at your own decks:
@@ -59,7 +83,9 @@ updating. Your own decks are not touched by updates.
    sets. Turn this off with `--no-prefer-old-frame`.
 3. Of what's left, it takes the **latest** printing, or the first one with `--order oldest`.
 
-A card already in the chosen set keeps its line, so art variants you picked yourself survive.
+A printing you picked yourself for a card (in the visual picker, or `card_choices` in a settings file) beats
+all of these rules. Otherwise, a card already in the chosen set keeps its line, so art variants already in a
+deck survive.
 
 ### Exclusion categories
 
@@ -98,13 +124,17 @@ python3 preferred_printings.py --config my-printings.json --apply
 
 Options given on the command line override the file. The file is plain JSON and can be edited by hand; its
 keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`, `skip_dir`,
-`skip_set_named_decks`, `backup` and `backup_dir`.
+`skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks, e.g.
+`{"Sol Ring": "LEB|270"}`), `image_cache` and `online_images`.
 
 ## Other options
 
 - `--report FILE` writes the full report: every folder, skipped deck, card left unchanged, and samples of changes.
 - `--backup-dir PATH` puts backups somewhere else; `--no-backup` skips them.
 - `--quiet` prints only the one-line result.
+- `--image-cache PATH` tells the visual picker where Forge's card pictures are, if it can't find them
+  (normally `pics/cards` in Forge's cache folder).
+- `--no-online-images` keeps the visual picker offline.
 
 ## Limits
 
