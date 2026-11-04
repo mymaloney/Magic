@@ -1,237 +1,389 @@
-# Preferred printings
+# Preferred Printings
 
-`preferred_printings.py` changes which **printing** (set, art and frame) Forge uses for each card in your
-decks, by rules you choose or by picking the exact printing you want for a card, visually. The cards
-themselves never change, only the version shown. For example, it can swap every Secret Lair or borderless
-printing for a regular one, or put cards in the old frame where one exists.
+Choose which **printing** of each card Forge uses: its set, art and frame. Swap Secret Lair, Universes
+Beyond and borderless printings for regular ones, give your decks the old frame, see cards in your own
+language, or pick the exact art you want for a card. Only the version of a card changes. Its name, rules and
+how it plays stay the same.
 
-It works on a normal Forge install (Windows, Mac or Linux) or a source checkout. Only the visual picker uses
-the internet, to show pictures Forge hasn't downloaded yet.
+It works on Forge's own Adventure mode decks, on your own decks, and on Adventure rewards and shop cards. It
+comes as one file, `preferred_printings.py`, and runs on Windows, Mac and Linux.
 
-## What you need
+## Contents
 
-- Forge.
-- Python 3.9 or newer (<https://www.python.org/downloads/>). On Windows, type `python` instead of `python3`
-  in the commands below.
-- This file, `preferred_printings.py`, saved anywhere.
+- [Getting started](#getting-started)
+- [Using the picker](#using-the-picker)
+- [How a printing is chosen](#how-a-printing-is-chosen)
+- [Card details from Scryfall](#card-details-from-scryfall)
+- [Adventure rewards and shops](#adventure-rewards-and-shops)
+- [Backups, undo and Forge updates](#backups-undo-and-forge-updates)
+- [Command line](#command-line)
+- [Files the tool creates](#files-the-tool-creates)
+- [Troubleshooting](#troubleshooting)
+- [Limits](#limits)
 
-## The easy way: the visual picker
+## Getting started
 
-Save `preferred_printings.py` anywhere and **double-click it** (or run `python3 preferred_printings.py` with no
-options). It opens a page in your web browser. The first time, the page asks **where Forge is installed**: pick
-one of the Forge folders it found, paste the path, or browse to the folder that contains Forge's `res` folder
-(on a Mac, `Forge.app`). It remembers your choice; the sidebar shows which Forge it is changing and lets you
-switch.
+**You need:**
 
-Your settings, the Scryfall card details and downloaded pictures are kept next to the script. On Windows,
-double-clicking works when Python was installed from python.org (it sets up `.py` files to open with Python).
+- Forge, installed anywhere.
+- Python 3.9 or newer, from <https://www.python.org/downloads/>. On Windows, keep the installer's options that
+  associate `.py` files with Python.
+- `preferred_printings.py`, saved in any folder you like, for example its own folder on your Desktop.
 
-Changes to Adventure decks show up in **new** games: an existing save keeps the starting deck it began with,
-and shops that were already stocked keep their cards.
+**First run:**
 
-The page runs only on your computer; nothing is uploaded. Keep the window that opens with it (the terminal)
-open while you use it, and close it, or press Ctrl+C there, to quit.
+1. **Close Forge.**
+2. **Double-click `preferred_printings.py`.** You can also run `python preferred_printings.py` from a terminal
+   (`python3` on Mac and Linux). A small window opens and keeps the tool running, and the picker opens in
+   your web browser.
+3. **Tell it where Forge is.** The first time, the page asks *Where is Forge installed?* Choose one of the Forge
+   folders it found, paste the path, or browse to the folder that contains Forge's `res` folder (on a Mac,
+   `Forge.app`). It remembers this for next time.
+4. **Download the card details (recommended).** Under **Card details**, click **Download from Scryfall**. It
+   takes a minute or two and tags full-art, borderless, retro-frame and other printings that Forge's own files
+   don't mark. See [Card details from Scryfall](#card-details-from-scryfall).
+5. **Set your rules** on the left, and look at a few cards to see what they'll get.
+6. **Preview**, then **Apply to decks**. Your decks are backed up first.
+7. **Start a new Adventure game** to see the new starter decks. Existing saves keep the deck they started with.
 
-- **Left:** which decks to change (Forge's Adventure decks, your own decks, or other folders), what to exclude,
-  and what to prefer. Changes take effect straight away.
-- **Middle:** every card in those decks. Search, or switch to **My picks** to see the cards you've chosen yourself.
-- **Right:** every printing of the selected card, with its picture. The highlighted one is what your decks will
-  use. **Click printings to pick them for that card**, whatever the rules say; click again to unpick, or
-  "Use the rules instead" to clear them all. Pick several and they are spread across your decks (see below).
-  "Hide excluded" tidies cards with many printings.
-- **Preview** shows how many cards would change. **Apply to decks** makes the changes (backing the decks up
-  first), and **Save settings** stores your rules and picks in `preferred-printings.json`, which the GUI loads
-  next time. You can also use that file from the command line: `--config preferred-printings.json --apply`.
+To quit, close the small window the tool opened.
 
-Pictures come from Forge's own image cache when Forge has already downloaded them. Others are fetched from
-Scryfall, the same place Forge gets them, a few per second as Scryfall asks, so a card with hundreds of
-printings fills in as you scroll. They are kept in a `preferred-printings-images` folder next to your settings
-file, so each picture is only downloaded once. Untick "Fetch missing images from Scryfall" to stay offline.
+## Using the picker
 
-## Quick start (command line)
+### Left: what to change and how
 
-1. **Preview.** Nothing is changed. Point `--forge` at your Forge folder (the one with `res` in it;
-   on a Mac, at `Forge.app`). This looks at your own decks:
+- **Forge:** which Forge the tool is changing. Paste another folder's path and click **Use** to switch. If
+  it points at a source checkout of Forge, a warning says so: an installed Forge won't see those changes.
+- **Decks:**
+  - *Adventure decks that come with Forge*: enemies, starter decks, rewards and shops.
+  - *My own decks*: the decks you've built in Forge.
+  - Any other folders of `.dck` files.
+  - *Leave product decks alone* (on by default) skips decks named after a real product, such as
+    `4ED - Black Starter`, so they keep their real printings.
+- **Exclude:** kinds of printing never to use. See [Exclusions](#exclusions).
+- **Prefer:**
+  - *Old frame*, *With up-to-date text* and *Printings in my language*: see
+    [How a printing is chosen](#how-a-printing-is-chosen).
+  - **Spread across decks** or **Use one**: whether a card varies from deck to deck, or every deck gets the same
+    printing.
+- **Card details:** download or update the details from Scryfall.
+- **Images:** where card pictures come from (see below).
+- **Rewards and shops:** also apply your choices to Adventure rewards and shop cards. See
+  [Adventure rewards and shops](#adventure-rewards-and-shops).
+- **Safety:** back up decks before changing them (on by default).
 
-   ```bash
-   python3 preferred_printings.py --forge "/path/to/Forge" --user-decks
-   ```
+Changes on the left take effect straight away in the card list and card view. Nothing is written until you
+click **Apply to decks**.
 
-   It prints how many cards would change. Add `--report report.md` to see every change in detail.
+### Middle: the cards in your decks
 
-2. **Apply.** Same command plus `--apply`:
+Every card in the chosen decks, most-used first. Type to search. Each row shows how many decks use the card,
+plus one of these:
 
-   ```bash
-   python3 preferred_printings.py --forge "/path/to/Forge" --user-decks --apply
-   ```
+- the set it will use;
+- "*N* prints" when the rules spread it across several printings;
+- "*N* picks" when you've picked printings yourself.
 
-   Every deck is copied to a `preferred-printings-backups` folder before it is changed, and the tool prints
-   the command to undo it.
+**My picks** lists only the cards you've picked yourself.
 
-3. **Undo,** if you change your mind:
+### Right: every printing of a card
 
-   ```bash
-   python3 preferred_printings.py --restore "preferred-printings-backups/20261104-221500"
-   ```
+All the printings Forge has for the selected card, with pictures. Printings that can be used come first, in
+order of preference, and excluded ones come after. **Hide excluded** tidies up cards with hundreds of
+printings.
 
-## Which decks it changes
+- **Highlighted** printings are what your decks will use: the rules' choice, every printing in the spread, or
+  your own picks.
+- **Tags** explain each printing:
+  - *Rules pick* or *In the spread*.
+  - *Your pick*.
+  - *Old frame*.
+  - Your language.
+  - Its treatments, such as *Full art* or *Secret Lair*, marked *excluded* where your rules exclude them.
+- **Click a printing to pick it** for this card, whatever the rules say. This works even for excluded ones.
+  - Click more to pick several; they're then spread across your decks.
+  - Click a pick again to unpick it.
+  - **Use the rules instead** clears all your picks for the card.
 
-| Option | Decks |
-|---|---|
-| *(nothing)* | The Adventure mode decks that ship with Forge (enemies, starters, rewards...) |
-| `--user-decks` | Your own decks, in `%APPDATA%\Forge\decks` (Windows), `~/Library/Application Support/Forge/decks` (Mac) or `~/.forge/decks` (Linux) |
-| `--decks PATH` | Any folder of `.dck` files (searched recursively); repeatable |
-| `--skip-dir PATH` | Leave a sub-folder alone; repeatable |
-| `--no-skip-set-named-decks` | Also change decks named after a product, like `4ED - Black Starter.dck` (left alone by default, so preconstructed products keep their printings) |
+**Pictures** come from Forge's own image cache when Forge has already downloaded them. The rest are fetched
+from Scryfall, Forge's own picture source, a few per second as Scryfall asks. A card with hundreds of
+printings fills in as you scroll, and each picture is kept on disk, so it's only downloaded once. Untick
+*Fetch missing images from Scryfall* to stay offline.
 
-Forge's own files (the Adventure decks) are put back by every Forge update, so run the tool again after
-updating. Your own decks are not touched by updates.
+### Buttons
 
-## How it picks a printing
+- **Preview** shows how many card lines in how many decks would change. **Full report** lists the details.
+- **Apply to decks** makes the changes after a confirmation, backing everything up first.
+- **Save settings** stores your rules and picks without applying anything. Apply saves them too.
 
-1. It drops the kinds of printing you excluded (by default, all of the categories below). **Everything left is
-   allowed.**
-2. If you chose a **language**, and some of those were printed in it, it keeps only those.
-3. If you prefer the **old frame** (sets from before Eighth Edition, 2003, and "retro frame" reprints in newer
-   sets), and some are old-frame, it keeps only those. Turn this off with `--no-prefer-old-frame`.
-4. With old frame preferred and **up-to-date text** on (the default; `--no-modern-text` turns it off), if a
-   card has old-frame reprints from 2004 on (retro frames, 30th Anniversary Edition, Retro Artifacts, Commander
-   sets...), it keeps only those: the old look with current card wording.
-5. Catch-all sets (The List, Mystery Booster) and Un-sets are kept only if nothing else is left.
-6. Then, by default, it **spreads** your decks across all of those printings: each deck gets one of them, so a
-   card varies from deck to deck, and the same deck gets the same one every time (see "Picking several
-   printings" below for how decks are shared out). With **Use one** in the picker, or `--no-spread`, every deck
-   gets the same single printing instead: the **latest**, or the first with `--order oldest`.
+## How a printing is chosen
 
-Printings you picked yourself for a card (in the visual picker, or `card_choices` in a settings file) beat all
-of these rules. A card already in the set chosen for its deck keeps its line, so art variants already in a
-deck survive.
+For each card in each deck, the tool narrows the card's printings down step by step:
 
-### Picking several printings of a card
+1. **Exclusions** remove the kinds of printing you never want. Everything left is *allowed*.
+2. **Language:** if you chose one, and some allowed printings were printed in it, only those are kept.
+3. **Old frame:** if you prefer it, and some allowed printings have the old frame, only those are kept. Old
+   frame means sets from before Eighth Edition (2003), plus retro-frame reprints in newer sets.
+4. **With up-to-date text** (needs old frame; on by default): if a card has old-frame reprints from 2004 on,
+   only those are kept. That includes retro frames, 30th Anniversary Edition, Retro Artifacts and Commander
+   sets. You get the old look with current card wording. Cards without such a reprint keep the originals.
+5. **Catch-all sets** (The List, Mystery Booster) and Un-sets are only used if nothing else is left.
+6. Then either:
+   - **Spread across decks** (the default): each deck gets one of the printings that are left, so a card
+     varies from deck to deck; or
+   - **Use one**: every deck gets the same printing, the **Latest** or the **Oldest**.
 
-Pick more than one printing and **each deck gets one of them**, so the same card shows different art from deck
-to deck (handy for the many Adventure enemy decks). Which deck gets which is worked out from the deck's file
-name, not at random, so running the tool again gives the same result. Adding a printing later only moves the
-decks that switch to it, removing one only moves the decks that had it, and the order you picked them in
-doesn't matter.
+**Your own picks win over all of these rules.**
 
-### Exclusion categories
+A line that already uses the set chosen for its deck is left as it is, so a particular art already in a deck
+survives.
 
-| Category | What it covers | Hard? |
+### Spreading
+
+When a card has several printings to choose from, through the rules' spread or your own picks, each deck gets
+one of them:
+
+- **It isn't random.** The printing is worked out from the card and the deck's file name, so running the tool
+  again gives the same result.
+- **Changes move as little as possible.** Adding a printing only moves the decks that switch to it. Removing
+  one only moves the decks that had it.
+- **Order doesn't matter.** The order you picked printings in makes no difference.
+
+### Exclusions
+
+| Exclusion | What it covers | Always? |
 |---|---|---|
-| `ub` | Universes Beyond sets | yes |
-| `secret-lair` | Secret Lair | yes |
-| `masterpiece` | Inventions, Invocations, Expeditions, Mystical Archive | yes |
-| `promo` | Promo sets, and promo, buy-a-box, bundle and box-topper printings | yes |
-| `digital` | Alchemy, Arena and Magic Online sets | yes |
-| `borderless` | Borderless printings | no |
-| `extended-art` | Extended art printings | no |
-| `full-art` | Full art printings | no |
-| `showcase` | Showcase and etched printings | no |
-| `white-border` | White-bordered sets (Revised to Ninth Edition, Portal Three Kingdoms...) | no |
-| `gold-border` | Gold-bordered printings (World Championship decks, ...)* | no |
-| `inverted` | Inverted-frame printings* | no |
-| `thick` | Thick-stock printings, such as display commanders* | no |
+| Universes Beyond | Universes Beyond sets (Lord of the Rings, Final Fantasy, Marvel, Star Trek...) | yes |
+| Secret Lair | Secret Lair | yes |
+| Masterpiece | Inventions, Invocations, Expeditions, Mystical Archive | yes |
+| Promo | Promo sets, and promo, buy-a-box, bundle and box-topper printings | yes |
+| Digital only | Alchemy, Arena and Magic Online | yes |
+| Borderless | Borderless printings | no |
+| Extended art | Extended-art printings | no |
+| Full art | Full-art printings | no |
+| Showcase | Showcase and etched printings | no |
+| White border | White-bordered sets (Revised to Ninth Edition, Portal Three Kingdoms...) | no |
+| Gold border | Gold-bordered printings* | no |
+| Inverted | Inverted-frame printings* | no |
+| Thick | Thick-stock printings, such as display commanders* | no |
 
-\* Needs the card details from Scryfall (below).
+\* Only known with the [card details from Scryfall](#card-details-from-scryfall).
 
-Allow a category again with `--include`, e.g. `--include white-border promo`. Or list exactly what to exclude
-with `--exclude`, e.g. `--exclude secret-lair ub`. Use `--exclude` on its own to exclude nothing.
+The two kinds of exclusion behave differently when a card has nothing else:
 
-Forge's files don't say which sets are Universes Beyond, so the tool carries its own list (shown in the visual
-picker under "Sets already counted as UB"). When a new UB set comes out before the tool is updated, add its set
-code yourself: in the visual picker's "Also count these set codes as Universes Beyond" box, with
-`--ub-set CODE` on the command line, or as `extra_ub_sets` in a settings file.
+- **"Always" exclusions are never broken.** A card that only exists in them, such as a Universes Beyond-only
+  card, keeps the printing its deck already has.
+- **The others give way only if a card has no other printing.** The report lists those cards.
 
-Hard exclusions are never broken: a card that only exists in those (like a Universes Beyond-only card) is left
-as it is. Soft ones are relaxed for a card only when it has no other printing; the report lists those cards.
+**New Universes Beyond sets:** Forge's files don't say which sets are Universes Beyond, so the tool carries its
+own list. You can see it under *Sets already counted as UB* in the picker. When a new UB set comes out, add
+its set code in *Also count these set codes as Universes Beyond*. The Scryfall card details also catch UB
+printings by their security stamp.
 
-### Printings in your language
+### Your language
 
-Forge shows each card's picture in the language set as **Card download language** in Forge's preferences,
-when that printing was printed in it, and in English otherwise. Many printings never were (most older sets
-weren't printed in Japanese or Chinese, for example), so the tool can put the ones that were first.
+Forge shows card pictures in the **Card download language** set in Forge's preferences, when the printing was
+made in that language, and in English otherwise. Many printings never were; most older sets were never
+printed in Japanese or Chinese, for example. So the tool can choose printings that were.
 
-Choose the language in the visual picker under **Prefer**, or with `--language CODE` (`es`, `fr`, `de`, `it`,
-`pt`, `ja`, `ko`, `ru`, `zhs`, `zht`; `en` for no preference). It starts out as Forge's own Card download
-language. Which printings exist in which language comes from Forge's own records (it learns them as it
-downloads pictures) and, more completely, from the Scryfall card details below, which then also fetch your
-language. The picker shows pictures in your language, tagged with it.
+- **Choosing it:** pick the language under **Prefer**. It starts out as Forge's own Card download language.
+  Set the same language in Forge, so it shows the cards in it.
+- **Where the tool learns which printings exist in a language:**
+  - Forge's own records, which grow as Forge downloads pictures.
+  - The Scryfall card details, which download the complete list for your language.
+- **In the picker:** printings in your language are tagged, and their pictures are shown in it.
 
-### Card details from Scryfall
+## Card details from Scryfall
 
-Forge's own files only mark some treatments: many full-art lands, borderless and showcase cards are listed as
-ordinary printings; so are most retro-frame reprints (whole Commander sets such as The Brothers' War Commander,
-and the Retro Artifacts set), which then don't count as old frame; and inverted frames, thick stock and gold
-borders aren't recorded at all. Download the
-missing details from Scryfall once (it takes a minute or two: Scryfall sends tens of thousands of printings,
-a page at a time) and the tool tags them all:
+Forge's set files only mark some treatments:
 
-- in the visual picker, **Card details → Download from Scryfall** (and **Update** after new sets come out);
-- on the command line, add `--update-scryfall`.
+- Many full-art, borderless and showcase printings are listed as ordinary cards.
+- So are most retro-frame reprints, including whole sets such as The Brothers' War Commander and Retro
+  Artifacts. They wouldn't count as old frame.
+- Inverted frames, thick stock and gold borders aren't recorded at all.
 
-They are saved to `preferred-printings-scryfall.json` next to your settings file (or in the current folder;
-`--scryfall-cache FILE` puts them elsewhere) and used automatically from then on. A printing can carry several
-tags, e.g. Secret Lair, borderless and inverted; it's excluded if any of them is. The details also catch
-Universes Beyond printings by their security stamp, on top of the tool's list of UB sets.
+[Scryfall](https://scryfall.com) records all of these. Click **Download from Scryfall** under *Card details*,
+or use `--update-scryfall` on the command line, and the tool fetches:
 
-## Rewards and shops
+- which printings have each treatment;
+- which have the old frame;
+- which carry the Universes Beyond stamp;
+- which exist in your chosen language.
+
+It takes a minute or two, because Scryfall sends tens of thousands of printings a page at a time. The details
+are saved and used automatically from then on. Click **Update from Scryfall** after new sets come out, or
+after changing your language.
+
+A printing can carry several tags, for example Secret Lair, borderless and inverted. It's excluded if any of
+them is.
+
+## Adventure rewards and shops
 
 Adventure rewards and shop cards are made while you play, not read from deck files. When Forge hands out a
-card by name (random card rewards, single-card shop items, and anything else that picks "a" printing of a
-card), it uses its own per-card art preference, the same one Forge's deck editor sets with
-"Change preferred art".
+card by name, it uses its own per-card art preference: the setting Forge's deck editor changes with *Change
+preferred art*. That covers random card rewards, single-card shop items and anything else that picks "a"
+printing of a card.
 
-Tick **Also use these printings for Adventure rewards and shop cards** in the visual picker (or add
-`--card-prefs`) and **Apply** also writes that preference for every card, following your rules and picks,
-into Forge's `card.preferences` file in your Forge preferences folder. Your star ratings there are kept. It is
-backed up with your decks, and `--restore` puts it back (or removes it if there was none).
+Tick **Also use these printings for Adventure rewards and shop cards**. **Apply** then also writes your choice
+for every card into Forge's `card.preferences` file, in Forge's preferences folder. It keeps your card star
+ratings, and it's backed up with your decks.
 
-- **Close Forge first:** Forge saves this file itself and could overwrite the change when it exits.
-- In Adventure's settings, keep **Use Card Variants from All Sets** off (the default); with it on, Forge picks
-  a random printing for every reward instead.
-- Rewards use one printing per card: with several picks, the first one you picked; when spreading, the one
-  "Use one" would choose.
-- **Booster packs** aren't affected: a pack always holds its own set's printings, as a real one would.
-- It applies to the rest of Forge as well, wherever Forge picks a printing by name.
+- **Close Forge first.** Forge saves that file itself and could overwrite the change when it exits.
+- In Adventure's settings, keep **Use Card Variants from All Sets** off, which is the default. With it on,
+  Forge gives every reward a random printing instead.
+- Rewards get one printing per card: the first of your picks, or what **Use one** would choose.
+- **Booster packs aren't affected.** A pack always holds its own set's printings, as a real one would.
+- The preference applies to the rest of Forge too, wherever Forge picks a printing by name.
 
-## Saving your choices
+## Backups, undo and Forge updates
 
-Save your options once:
+**Undo:**
+
+- **Every Apply backs up** the decks it changes, and `card.preferences` when that option is on. Backups go in a
+  dated folder inside `preferred-printings-backups`.
+- **To undo**, run the command shown when the change is made, for example:
+
+  ```bash
+  python preferred_printings.py --restore "preferred-printings-backups/20261104-221500"
+  ```
+
+  It puts every file back. A `card.preferences` file the tool created is removed again.
+
+**Forge updates** replace Forge's own files, so the Adventure decks go back to their original printings. Your
+settings are kept, so open the picker and **Apply** again, or use the command line below. Your own decks and
+`card.preferences` aren't touched by updates.
+
+**Existing Adventure saves** keep the starting deck they began with, and shops that were already stocked keep
+their cards. New games, new rewards and newly stocked shops use the new printings.
+
+## Command line
+
+Everything the picker does can be done from a terminal. Without `--apply` nothing is changed: it only reports
+what would change.
 
 ```bash
-python3 preferred_printings.py --forge "/path/to/Forge" --user-decks --include white-border --save-config my-printings.json
+python preferred_printings.py --forge "C:\Games\Forge" --user-decks
 ```
-
-Then, for example after each Forge update:
 
 ```bash
-python3 preferred_printings.py --config my-printings.json --apply
+python preferred_printings.py --forge "C:\Games\Forge" --user-decks --apply
 ```
 
-Options given on the command line override the file. The file is plain JSON and can be edited by hand; its
-keys are `forge`, `decks`, `user_decks`, `order`, `prefer_old_frame`, `exclude`, `skip_dir`,
-`skip_set_named_decks`, `backup`, `backup_dir`, `card_choices` (your own picks: one printing or a list, e.g.
-`{"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}`), `image_cache`, `online_images` and
-`extra_ub_sets` (set codes to count as Universes Beyond, e.g. `["ABC"]`), `scryfall_cache`, `language`,
-`card_prefs`, `spread` and `modern_text`.
+Use `python3` on Mac and Linux. With no options at all, the tool opens the picker.
 
-## Other options
+**Repeating a setup:** save your options once with `--save-config FILE`, then apply them, for example after
+every Forge update:
 
-- `--report FILE` writes the full report: every folder, skipped deck, card left unchanged, and samples of changes.
-- `--backup-dir PATH` puts backups somewhere else; `--no-backup` skips them.
-- `--quiet` prints only the one-line result.
-- `--image-cache PATH` tells the visual picker where Forge's card pictures are, if it can't find them
-  (normally `pics/cards` in Forge's cache folder).
-- `--no-online-images` keeps the visual picker offline.
+```bash
+python preferred_printings.py --config preferred-printings.json --apply
+```
+
+The picker's **Save settings** writes the same file, `preferred-printings.json` next to the script. Options
+given on the command line override the file.
+
+### Options
+
+| Option | What it does |
+|---|---|
+| `--gui` | Open the picker (the same as running with no options) |
+| `--forge PATH` | Your Forge folder (the one containing `res`), or `Forge.app` on a Mac |
+| `--decks PATH` | A folder of `.dck` files to change; repeatable. Default: Forge's Adventure decks |
+| `--user-decks` | Also change your own decks |
+| `--skip-dir PATH` | Leave a sub-folder alone; repeatable |
+| `--no-skip-set-named-decks` | Also change product decks such as `4ED - Black Starter.dck` |
+| `--exclude CATEGORY ...` | Exactly what to exclude (default: everything). On its own: exclude nothing |
+| `--include CATEGORY ...` | Allow these categories again |
+| `--ub-set CODE` | Also count this set as Universes Beyond; repeatable |
+| `--no-prefer-old-frame` | Don't prefer the old frame |
+| `--no-modern-text` | With old frame, include the original printings too, not only reprints with current text |
+| `--language CODE` | Prefer printings in `es`, `fr`, `de`, `it`, `pt`, `ja`, `ko`, `ru`, `zhs` or `zht`; `en` for none. Default: Forge's own setting |
+| `--no-spread` | Give every deck the same printing of a card |
+| `--order latest\|oldest` | With `--no-spread`: which printing (default: latest) |
+| `--update-scryfall` | Download the card details from Scryfall first |
+| `--card-prefs` | Also write Forge's `card.preferences` for rewards and shops |
+| `--apply` | Make the changes (otherwise: preview only) |
+| `--no-backup` | Don't back up before changing |
+| `--backup-dir PATH` | Where backups go |
+| `--restore BACKUP` | Put back the files in a backup folder |
+| `--report FILE` | Write the full report: every folder, skipped deck, card left unchanged, and sample changes |
+| `--quiet` | Only print the one-line result |
+| `--config FILE` | Load settings from a file |
+| `--save-config FILE` | Save these options to a file, then stop |
+| `--scryfall-cache FILE` | Where the Scryfall card details are kept |
+| `--image-cache PATH` | Where Forge's card pictures are, if the picker can't find them |
+| `--no-online-images` | Keep the picker offline |
+
+The exclusion categories are `ub`, `secret-lair`, `masterpiece`, `promo`, `digital`, `borderless`,
+`extended-art`, `full-art`, `showcase`, `white-border`, `gold-border`, `inverted` and `thick`.
+
+### Settings file
+
+`preferred-printings.json` is plain JSON and can be edited by hand. Its keys match the options:
+
+- **What to change:** `forge`, `decks`, `user_decks`, `skip_dir`, `skip_set_named_decks`.
+- **Rules:** `exclude`, `extra_ub_sets`, `prefer_old_frame`, `modern_text`, `language`, `spread`, `order`.
+- **Rewards and shops:** `card_prefs`.
+- **Backups:** `backup`, `backup_dir`.
+- **Card details and pictures:** `scryfall_cache`, `image_cache`, `online_images`.
+- **Your own picks:** `card_choices`. Each card takes one printing or a list, written as `SET|collector number`:
+
+  ```json
+  "card_choices": {"Sol Ring": ["LEB|270", "30A|563"], "Lightning Bolt": "M10|146"}
+  ```
+
+## Files the tool creates
+
+All of these are kept next to `preferred_printings.py`. On the command line they go next to the settings
+file, or in the current folder if there isn't one.
+
+| File or folder | What it holds |
+|---|---|
+| `preferred-printings.json` | Your settings and picks |
+| `preferred-printings-scryfall.json` | The card details from Scryfall |
+| `preferred-printings-images/` | Card pictures downloaded for the picker |
+| `preferred-printings-backups/` | Backups made before each Apply |
+
+Outside that folder, the tool only changes the files you choose:
+
+- the deck files you chose;
+- `card.preferences`, only with the rewards-and-shops option.
+
+The picker runs only on your computer and nothing is uploaded. It only connects to Scryfall: for pictures
+Forge hasn't downloaded, and when you download the card details.
+
+## Troubleshooting
+
+**Nothing changed in the game.**
+
+- **Check the Forge folder.** The top of the picker's sidebar shows which Forge it's changing. If you play an
+  installed Forge, it must point there, not at a source checkout.
+- **Start a new game.** Existing Adventure saves keep their starting deck.
+- **Rewards and shops:** tick the option, close Forge before applying, and keep Adventure's *Use Card
+  Variants from All Sets* off.
+
+**A card shows the wrong frame or treatment tags.** Download, or update, the card details from Scryfall.
+Forge's own files don't mark many full-art, borderless and retro-frame printings.
+
+**A new Universes Beyond set isn't being excluded.** Add its set code under *Also count these set codes as
+Universes Beyond*, and update the card details from Scryfall.
+
+**Some pictures say "No image".** Scryfall has no picture for that printing, or the computer is offline, or
+*Fetch missing images from Scryfall* is off.
+
+**A note appears under Card details.** Scryfall rejected one of the tool's searches, and the note says which
+one. The other details are still used. Please report the note.
+
+**Double-clicking opens the file in an editor instead of running it.** Run it from a terminal with
+`python preferred_printings.py`. Or, on Windows, right-click the file and choose *Open with → Python*.
 
 ## Limits
 
-- Without the Scryfall card details, the tool only knows the treatments Forge's files mark, so many full-art,
-  borderless and showcase printings go untagged, and inverted, thick and gold-border can't be filtered.
-- Some sets list regular printings under a treatment section in Forge's files (e.g. Commander Masters'
-  precon cards under borderless); the Scryfall details add tags but can't remove Forge's.
-- Cards created during play only follow your choices with the rewards-and-shops option above, and booster
-  packs never do.
-- Adventure planes that limit cards to certain sets in their `config.json` (`legalCards.editions`) only get
-  printings from those sets.
+- Only deck files change, plus `card.preferences` for rewards and shops. Booster packs keep their own set's
+  printings.
+- Without the Scryfall card details, the tool only knows the treatments Forge's files mark. Many full-art,
+  borderless and retro-frame printings go untagged, and the inverted, thick and gold-border filters have
+  nothing to go on.
+- Some sets list ordinary printings under a treatment in Forge's files, such as Commander Masters' precon cards
+  under borderless. The Scryfall details add tags, but they can't remove Forge's.
+- Adventure planes that limit cards to certain sets keep to those sets.
+- Un-set cards aren't included in `card.preferences`, because Forge handles their variants differently.

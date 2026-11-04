@@ -2062,6 +2062,9 @@ def resolve_options(args):
     bad = set(args.exclude) - set(CATEGORIES)
     if bad:
         raise ToolError(f"Unknown exclusion categories: {', '.join(sorted(bad))}")
+    if args.config and not os.path.isabs(os.path.expanduser(args.backup_dir)):
+        # backups go next to the settings file, like the other files the tool keeps
+        args.backup_dir = os.path.join(os.path.dirname(os.path.abspath(args.config)), args.backup_dir)
     args.forge_chosen = bool(args.forge)  # given on the command line or saved, rather than guessed
     if not args.forge:
         args.forge = default_forge_path()
